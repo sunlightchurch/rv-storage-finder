@@ -76,6 +76,39 @@ listings:
   - url: https://buforddamroadboatstorage.com/contact-us/
     title: Contact Us - Buford Boat and RV Storage on Lake Lanier!
   last_verified: '2026-11-18'
+- slug: compass-self-storage-crogan-street
+  name: Compass Self Storage - Crogan Street
+  street: 282 E. Crogan Street
+  city: Lawrenceville
+  state_code: GA
+  postal_code: '30046'
+  lat: null
+  lng: null
+  phone: (470) 336-1338
+  website: https://www.compassselfstorage.com/self-storage/ga/lawrenceville/crogan/
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - enclosed
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: The page lists uncovered, enclosed, and covered parking for RVs and boats. Access hours are 6:00
+    am to 10:00 pm, and 24-hour access is by request, so 24-hour access is not marked.
+  sources:
+  - url: https://www.compassselfstorage.com/self-storage/ga/lawrenceville/crogan/
+    title: Compass Self Storage on Crogan Street
+  last_verified: '2026-11-18'
 - slug: general-storage-mcdonough
   name: General Storage
   street: 1371 South Zack Hinton Parkway
@@ -122,7 +155,7 @@ listings:
   storage_types:
   - covered
   - open
-  max_length_ft: null
+  max_length_ft: 50
   clearance_ft: null
   power_hookups: true
   dump_station: null
@@ -253,7 +286,7 @@ listings:
   storage_types:
   - covered
   - open
-  max_length_ft: null
+  max_length_ft: 45
   clearance_ft: null
   power_hookups: true
   dump_station: null
@@ -263,11 +296,14 @@ listings:
   access_24h: true
   price_notes: null
   waitlist: null
-  notes: The page says the lot is less than a mile from Lake Lanier Islands and 3.3 miles from I-985 Exit
-    8.
+  notes: Covered and uncovered paved storage for motorhomes up to 45 feet and boats up to 38 feet, with
+    power at most sites and wash-down bays. The page says the lot is less than a mile from Lake Lanier
+    Islands and 3.3 miles from I-985 Exit 8.
   sources:
   - url: https://parcrv.com/
     title: ParcRV – We Do More Than Store
+  - url: https://parcrv.com/storage/
+    title: Storage page
   - url: https://parcrv.com/contact-us/
     title: Contact – ParcRV – We Do More Than Store
   last_verified: '2026-11-18'

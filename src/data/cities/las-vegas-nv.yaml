@@ -486,3 +486,274 @@ listings:
   - url: https://www.sunsetboatrv.com/boat-rv-storage-nv
     title: Official Henderson page
   last_verified: '2026-11-18'
+- slug: 24-7-indoor-storage
+  name: 24/7 Indoor Storage
+  street: 3930 W Windmill Ln #130-A
+  city: Las Vegas
+  state_code: NV
+  postal_code: '89139'
+  lat: null
+  lng: null
+  phone: (702) 296-1515
+  website: https://24-7indoorstorage.com/indoor-storage
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - enclosed
+  max_length_ft: 45
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  price_notes: RVs, motorcoaches, boats, and trailers are $14.00 per foot per month on a 12-month paid-in-full
+    plan, $14.50 per foot per month on a 12-month commitment, $15.75 per foot per month for 6 months or
+    more, and $17.50 per foot per month month-to-month. Boats, camp trailers, and car dollies add a $75
+    per month forklift fee.
+  waitlist: null
+  notes: Climate-controlled indoor storage for motorcoaches, RVs, boats, and trailers, in bands up to 45
+    feet. The page says the facility is staffed on weekdays and has no after-hours access.
+  sources:
+  - url: https://24-7indoorstorage.com/indoor-storage
+    title: Indoor RV storage page
+  last_verified: '2026-11-18'
+- slug: a-able-mini-storage-north-las-vegas
+  name: A-able Mini Storage
+  street: 4424 San Mateo St
+  city: North Las Vegas
+  state_code: NV
+  postal_code: '89031'
+  lat: null
+  lng: null
+  phone: (702) 645-4788
+  website: https://www.aableministorage.com/4424-san-mateo-st-north-las-vegas-nv-89031
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - enclosed
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: Indoor and outdoor parking for RVs, campers, boats, and cars, with a fenced gated lot and nine
+    surveillance cameras. A second number, (833) 374-0099, is also printed. Gate hours are not stated.
+  sources:
+  - url: https://www.aableministorage.com/4424-san-mateo-st-north-las-vegas-nv-89031
+    title: North Las Vegas location page
+  - url: https://www.aableministorage.com/
+    title: Official website
+  last_verified: '2026-11-18'
+- slug: best-storage-henderson
+  name: Best Storage Henderson
+  street: 3290 E Oleta Ave
+  city: Henderson
+  state_code: NV
+  postal_code: '89074'
+  lat: null
+  lng: null
+  phone: (702) 500-7368
+  website: https://www.beststoragehenderson.com/storage-units/nevada/henderson/best-storage-3502624/
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - enclosed
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: Outdoor, canopy, and enclosed parking for RVs, cars, and boats, with an electronic gate and 24-hour
+    cameras. The printed phone is labeled for current tenants. Access hours are not stated.
+  sources:
+  - url: https://www.beststoragehenderson.com/storage-units/nevada/henderson/best-storage-3502624/
+    title: Henderson location page
+  last_verified: '2026-11-18'
+- slug: boulder-city-boat-storage
+  name: Boulder City Boat Storage
+  street: 863 Canyon Rd
+  city: Boulder City
+  state_code: NV
+  postal_code: '89005'
+  lat: null
+  lng: null
+  phone: (855) 492-3570
+  website: https://www.bouldercityboatstorage.net/863-canyon-rd-boulder-city-nv-89005
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - enclosed
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: Indoor and uncovered parking for boats and RVs, with 24-hour gate access, surveillance cameras,
+    and power available.
+  sources:
+  - url: https://www.bouldercityboatstorage.net/863-canyon-rd-boulder-city-nv-89005
+    title: Canyon Road location page
+  - url: https://www.bouldercityboatstorage.net/
+    title: Official website
+  last_verified: '2026-11-18'
+- slug: boulder-city-rv-boat-storage-yucca
+  name: Boulder City RV & Boat Storage
+  street: 710 Yucca St
+  city: Boulder City
+  state_code: NV
+  postal_code: '89005'
+  lat: null
+  lng: null
+  phone: (702) 790-1639
+  website: https://www.bouldercityrvstorage.com/710-yucca-st-boulder-city-nv-89005
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - enclosed
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: Indoor, covered, and uncovered parking. Winter gate hours are 6 AM to 6 PM and summer hours are
+    5 AM to 8 PM. The homepage says inside storage is for boats only.
+  sources:
+  - url: https://www.bouldercityrvstorage.com/710-yucca-st-boulder-city-nv-89005
+    title: Yucca Street location page
+  - url: https://www.bouldercityrvstorage.com/
+    title: Official website
+  last_verified: '2026-11-18'
+- slug: honey-bee-rv-storage-las-vegas
+  name: Honey Bee RV Storage
+  street: 5225 Rawhide Street
+  city: Las Vegas
+  state_code: NV
+  postal_code: '89122'
+  lat: null
+  lng: null
+  phone: (725) 226-4061
+  website: https://www.honeybeerv.com/rv-storage-locations/nv/las-vegas/5225-rawhide-street
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: true
+  dump_station: true
+  wash_station: true
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: Covered and uncovered spaces for RVs and boats, with power, a dump station, wash stations, a coded
+    gate, and 24-hour video. (725) 215-2214 is also printed. Gate hours are not stated as 24-hour access.
+  sources:
+  - url: https://www.honeybeerv.com/rv-storage-locations/nv/las-vegas/5225-rawhide-street
+    title: Las Vegas location page
+  last_verified: '2026-11-18'
+- slug: storage-plus-boulder-city
+  name: Storage Plus
+  street: 1553 Foothill Dr
+  city: Boulder City
+  state_code: NV
+  postal_code: '89005'
+  lat: null
+  lng: null
+  phone: (702) 293-3115
+  website: https://storageplusbc.com/
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - enclosed
+  - open
+  max_length_ft: 60
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: Enclosed units are listed at $170.00-$180.00 for 11x18, $180.00 for 11x24, $195.00-$205.00
+    for 11x30, $220.00 for 11x36, $290.00-$300.00 for 11x42, and $360.00 for an 11x60 pull-through. The
+    page does not state the billing period. 24/7 gate access is $10 per month.
+  waitlist: null
+  notes: Covered, open, and enclosed storage for boats, RVs, and trailers, with electric service on covered
+    spaces and 12-foot doors on the enclosed units. Standard gate hours are 5 AM to 10 PM, and 24-hour
+    gate access is an extra fee, so 24-hour access is not marked.
+  sources:
+  - url: https://storageplusbc.com/
+    title: Official website
+  - url: https://www.storageplusbc.com/enclosed-units.html
+    title: Enclosed units page
+  last_verified: '2026-11-18'
+- slug: vegas-rv-boat-storage
+  name: Vegas RV/Boat Storage
+  street: 3517 N Nellis Blvd
+  city: Las Vegas
+  state_code: NV
+  postal_code: '89115'
+  lat: null
+  lng: null
+  phone: (702) 782-5580
+  website: https://lasvegasrvboatstorage.com/
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: Outdoor spaces for RVs, campers, trailers, and boats, plus truck parking. The office is open Monday
+    through Friday from 8 AM to 4 PM. Gate hours are not stated.
+  sources:
+  - url: https://lasvegasrvboatstorage.com/
+    title: Official website
+  last_verified: '2026-11-18'
