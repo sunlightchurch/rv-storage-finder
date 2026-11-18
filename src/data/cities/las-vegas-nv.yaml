@@ -316,8 +316,8 @@ listings:
   city: Boulder City
   state_code: NV
   postal_code: '89005'
-  lat: null
-  lng: null
+  lat: 36.0293117
+  lng: -114.7742363
   phone: 702-293-1191
   website: https://boatinglakemead.com/ships-store/storage/
   vehicles:
@@ -327,8 +327,8 @@ listings:
   - enclosed
   - open
   max_length_ft: null
-  clearance_ft: 14
-  power_hookups: true
+  clearance_ft: null
+  power_hookups: null
   dump_station: null
   wash_station: null
   gated: true
@@ -341,7 +341,10 @@ listings:
     at $9 to $10.20 per foot and covered slips at $11 to $13 per foot.
   waitlist: null
   notes: Dry storage at this address is called Las Vegas Bay Dry Storage and has 24-hour key-card access.
-    The dry-storage section lists an on-site info line at 702-565-9223.
+    The enclosed room on the rate page is 14 feet high; that height is not listed as clearance for the
+    open dry-storage spaces. Power is described as an option at a slip, not at dry storage. The dry-storage
+    section lists an on-site info line at 702-565-9223. A map link on the storage page is centered at the
+    coordinates above.
   sources:
   - url: https://boatinglakemead.com/ships-store/storage/
     title: Las Vegas Bay dry storage rates
@@ -354,8 +357,8 @@ listings:
   city: Las Vegas
   state_code: NV
   postal_code: '89115'
-  lat: null
-  lng: null
+  lat: 36.196136
+  lng: -115.076647
   phone: (702) 819-9717
   website: https://www.maximumrvstorage.com/
   vehicles:
@@ -376,6 +379,8 @@ listings:
   waitlist: null
   notes: The homepage says there are more than 550 covered and uncovered spaces from 10x20 to 12x64, and
     the location-page unit data also lists a 15x72 parking space. Access hours are 6:00 a.m. to 8:00 p.m.
+    The location page prints the coordinates above with this address. The homepage prices do not state a
+    billing period.
   sources:
   - url: https://www.maximumrvstorage.com/
     title: Official website
@@ -429,7 +434,7 @@ listings:
   storage_types:
   - covered
   max_length_ft: 40
-  clearance_ft: 16
+  clearance_ft: null
   power_hookups: null
   dump_station: true
   wash_station: null
@@ -439,8 +444,9 @@ listings:
   price_notes: Monthly prices on the RV page are 10x20 covered $165, 10x30 covered $165, 12x30x15 canopy
     $195, 10x40x16 canopy $215, 12x30x16 canopy $195, and 12x40x15 canopy $215.
   waitlist: null
-  notes: The RV page lists covered spaces and canopies up to 40 ft, including 15-ft and 16-ft canopy heights,
-    plus a dump station. The homepage says boat and RV owners have 24/7 access.
+  notes: The RV page lists covered spaces and canopies up to 40 ft, including both 15-ft and 16-ft canopy
+    heights, plus a dump station. Clearance is not a single number because those heights differ. The homepage
+    says boat and RV owners have 24/7 access.
   sources:
   - url: https://storageatsummerlinlv.com/
     title: Official homepage
@@ -453,8 +459,8 @@ listings:
   city: Henderson
   state_code: NV
   postal_code: '89015'
-  lat: null
-  lng: null
+  lat: 36.0686639
+  lng: -114.9568318
   phone: 702-564-4111
   website: https://www.sunsetboatrv.com/boat-rv-storage-nv
   vehicles:
@@ -474,7 +480,8 @@ listings:
   price_notes: null
   waitlist: null
   notes: Covered spaces run from 12x25 to 12x58 and uncovered spaces from 10x24 to 12x58 on eight paved
-    acres inside an eight-foot brick wall, with a wash-down rack and 24-hour access.
+    acres inside an eight-foot brick wall, with a wash-down rack and 24-hour access. A map link on the page
+    is centered at the coordinates above.
   sources:
   - url: https://www.sunsetboatrv.com/boat-rv-storage-nv
     title: Official Henderson page

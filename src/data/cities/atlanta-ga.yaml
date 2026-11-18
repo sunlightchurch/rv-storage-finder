@@ -5,13 +5,46 @@ state: Georgia
 state_code: GA
 metro: Atlanta
 summary: These facilities publish an RV or boat storage page in the Atlanta area, including Marietta,
-  Kennesaw, Buford, Peachtree City, and McDonough. Each card uses only what that page states.
+  Kennesaw, Buford, Peachtree City, McDonough, Lawrenceville, and Atlanta. Each card uses only what
+  that page states.
 sparefoot_slug: Atlanta-GA
 neighbor_path: georgia/atlanta
 sparefoot_note: This link opens Atlanta results. Several verified lots are in Marietta, Buford, McDonough,
-  or Peachtree City.
+  Peachtree City, or Lawrenceville.
 photo: atlanta
 listings:
+- slug: brookhaven-storage
+  name: Brookhaven Storage
+  street: 2740 Apple Valley Rd NE
+  city: Atlanta
+  state_code: GA
+  postal_code: '30319'
+  lat: null
+  lng: null
+  phone: (404) 465-2731
+  website: https://www.universalstoragegroup.com/locations/georgia/brookhaven/brookhaven-storage-2740-apple-valley-rd-ne
+  vehicles:
+  - rv
+  - boat
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: false
+  cameras: true
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: The page lists boat and RV storage and 24-hour video surveillance. It does not say whether those
+    spaces are covered, enclosed, or open. The lot is described as fully fenced and not gated. Access
+    hours are Monday through Sunday 6:00 am to 9:00 pm. A one-time administrative fee of $30 is due at
+    move-in.
+  sources:
+  - url: https://www.universalstoragegroup.com/locations/georgia/brookhaven/brookhaven-storage-2740-apple-valley-rd-ne
+    title: Brookhaven Storage location page
+  last_verified: '2026-11-18'
 - slug: buford-dam-rd-boat-rv-storage
   name: Buford Dam Rd Boat & RV Storage
   street: 2140 Buford Dam Rd
@@ -172,41 +205,6 @@ listings:
   - url: https://www.littleharborboatstorage.com/
     title: Little Harbor Boat & RV Storage in Buford , GA
   last_verified: '2026-11-18'
-- slug: marietta-outdoor-storage
-  name: Marietta Outdoor Storage
-  street: 4450 Winfred Dr
-  city: Marietta
-  state_code: GA
-  postal_code: '30066'
-  lat: null
-  lng: null
-  phone: (770) 315-6419
-  website: https://mariettaoutdoorstorage.com/
-  vehicles:
-  - rv
-  - boat
-  storage_types:
-  - open
-  max_length_ft: 50
-  clearance_ft: null
-  power_hookups: null
-  dump_station: null
-  wash_station: null
-  gated: true
-  cameras: true
-  access_24h: false
-  price_notes: Month-to-month outdoor spaces are $99 for 10 by 10, $109 for 10 by 20, $139 for 10 by 30,
-    $159 for 10 by 40, and $199 for 10 by 50.
-  waitlist: null
-  notes: Outdoor only, with a gated fenced lot and security cameras. Gate hours are Monday through Friday
-    8:00 am to 5:00 pm, and Saturday and Sunday by appointment. The RV page also prints (770) 404-9330.
-    Boats must be on trailers. The site says there are no indoor units.
-  sources:
-  - url: https://mariettaoutdoorstorage.com/
-    title: Official website
-  - url: https://mariettaoutdoorstorage.com/rv-and-boat-storage-in-marietta/
-    title: RV and boat storage page
-  last_verified: '2026-11-18'
 - slug: north-harbor-boat-rv-storage
   name: North Harbor Boat & RV Storage
   street: 6699 Mcever Road
@@ -272,6 +270,38 @@ listings:
     title: ParcRV – We Do More Than Store
   - url: https://parcrv.com/contact-us/
     title: Contact – ParcRV – We Do More Than Store
+  last_verified: '2026-11-18'
+- slug: public-storage-lawrenceville-buford-dr
+  name: Public Storage
+  street: 495 Buford Dr
+  city: Lawrenceville
+  state_code: GA
+  postal_code: '30046'
+  lat: null
+  lng: null
+  phone: 678-942-6407
+  website: https://www.publicstorage.com/self-storage-ga-lawrenceville/289.html
+  vehicles:
+  - rv
+  - boat
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: The facility page lists boat storage and RV storage at this address. The header says 24/7 access
+    is available, and property hours are Monday through Sunday 6:00 am to 9:00 pm, so 24-hour access is
+    not marked yes or no. A gates-and-cameras sentence on the page is written as applying to many Public
+    Storage locations, so those fields are not listed for this address. No RV or boat rate is printed.
+  sources:
+  - url: https://www.publicstorage.com/self-storage-ga-lawrenceville/289.html
+    title: Public Storage at 495 Buford Dr
   last_verified: '2026-11-18'
 - slug: routine-holdings-rv-storage
   name: Routine Holdings RV Storage
@@ -394,6 +424,39 @@ listings:
   - url: https://rvloft.com/
     title: The RV Loft
   last_verified: '2026-11-18'
+- slug: u-haul-moving-storage-clairmont
+  name: U-Haul Moving & Storage at Clairmont Rd
+  street: 2885 Clairmont Rd NE
+  city: Atlanta
+  state_code: GA
+  postal_code: '30329'
+  lat: null
+  lng: null
+  phone: (404) 315-0681
+  website: https://www.uhaul.com/Locations/Self-Storage-near-Atlanta-GA-30329/776034/
+  vehicles:
+  - rv
+  - boat
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: null
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: The page says RV and boat storage is available and that the lot has coded entry and automatic
+    electric gates. Storage access is listed as 5 am to 10 pm daily, and the page also says to ask whether
+    24-hour access is available, so 24-hour access is not marked yes or no. Covered spots, outlets, and
+    a dump station are listed only as things to inquire about. No RV or boat space rate is printed. A
+    $0.00 admin fee is advertised.
+  sources:
+  - url: https://www.uhaul.com/Locations/Self-Storage-near-Atlanta-GA-30329/776034/
+    title: U-Haul at Clairmont Rd
+  last_verified: '2026-11-18'
 - slug: u-haul-vehicle-storage-kennesaw
   name: U-Haul Vehicle Storage of Kennesaw
   street: 2085 Cobb Parkway
@@ -411,7 +474,7 @@ listings:
   - covered
   - open
   max_length_ft: null
-  clearance_ft: null
+  clearance_ft: 14
   power_hookups: true
   dump_station: null
   wash_station: null
@@ -421,7 +484,8 @@ listings:
   price_notes: Open 12×30 listed at $164.95 per month; covered 12×40 listed at $239.95 per month. Sizes
     are approximated. Electricity is listed as 20 amps for 2 hours.
   waitlist: null
-  notes: The U-Haul listing for this address shows storage access Monday–Sunday 5 am–10 pm.
+  notes: The map page for this address states 14 feet of clearance. The U-Haul location page shows storage
+    access Monday–Sunday 5 am–10 pm.
   sources:
   - url: https://property.uhaul.com/Entity/777033/StorageFacilityMap
     title: U-Haul Vehicle Storage of Kennesaw
