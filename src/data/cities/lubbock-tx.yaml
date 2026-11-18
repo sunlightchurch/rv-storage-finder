@@ -1,0 +1,267 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: lubbock-tx
+city: Lubbock
+state: Texas
+state_code: TX
+metro: Lubbock
+summary: >-
+  These facilities publish an RV or boat storage page in Lubbock. Each card uses only what
+  that page states.
+sparefoot_slug: Lubbock-TX
+neighbor_path: texas/lubbock
+sparefoot_note: null
+photo: lubbock
+listings:
+- slug: a-plus-super-storage-130th
+  name: A-Plus Super Storage
+  street: 2614 130th St.
+  city: Lubbock
+  state_code: TX
+  postal_code: "79423"
+  lat: null
+  lng: null
+  phone: "(806) 687-9393"
+  website: >-
+    https://aplussuperstorage.com/rv-locations/canopy-and-enclosed-rv-boat-units-for-rent-in-lubbock-tx/
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - enclosed
+  - open
+  max_length_ft: 50
+  clearance_ft: 14.5
+  power_hookups: true
+  dump_station: true
+  wash_station: true
+  gated: true
+  cameras: true
+  access_24h: false
+  price_notes: >-
+    The page lists two figures for each canopy and enclosed size, including $165 and $42 for
+    a 12.5 by 50 canopy and $325 and $163 for a 15 by 50 enclosed space. Open parking is listed
+    at $55 for 25 feet and $80 for 45 feet. The billing period is not stated.
+  waitlist: null
+  notes: >-
+    Canopy and enclosed RV and boat sizes are listed with 110v power and a height of 14.5
+    feet. The page also lists a free dump station, a free wash bay, a keypad gate, and 24-hour
+    surveillance cameras. Gate hours are 6 am to midnight every day.
+  sources:
+  - url: >-
+      https://aplussuperstorage.com/rv-locations/canopy-and-enclosed-rv-boat-units-for-rent-in-lubbock-tx/
+    title: A-Plus 130th Street RV and boat page
+  last_verified: '2026-11-18'
+- slug: affordable-storage-123rd-hwy-87
+  name: Affordable Storage
+  street: 12303 US-87
+  city: Lubbock
+  state_code: TX
+  postal_code: "79423"
+  lat: null
+  lng: null
+  phone: "(806) 771-9397"
+  website: "https://affordablestoragelubbock.com/rv-boat-storage-locations-in-lubbock/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - enclosed
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    On the RV and boat locations page, the 123rd and Hwy 87 card lists open parking, canopy,
+    and enclosed storage. Dump, wash, and gate details on that page are written for the company's
+    locations as a group, so they are not recorded for this address.
+  sources:
+  - url: "https://affordablestoragelubbock.com/rv-boat-storage-locations-in-lubbock/"
+    title: Affordable Storage Lubbock RV locations page
+  last_verified: '2026-11-18'
+- slug: affordable-storage-woodrow
+  name: Affordable Storage
+  street: 4321 Woodrow Rd.
+  city: Lubbock
+  state_code: TX
+  postal_code: "79424"
+  lat: null
+  lng: null
+  phone: "(806) 687-0300"
+  website: null
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - enclosed
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Woodrow Road and Quaker card on the RV and boat locations page lists canopy and enclosed
+    storage. Shared company sentences about dump and wash stations are not applied to this
+    address. The operator website is shared with another listing in this directory, so the
+    website button is omitted here and the page stays in the sources.
+  sources:
+  - url: "https://affordablestoragelubbock.com/rv-boat-storage-locations-in-lubbock/"
+    title: Affordable Storage Lubbock RV locations page
+  last_verified: '2026-11-18'
+- slug: easy-stop-storage-19th-lubbock
+  name: Easy Stop Storage
+  street: 19th Street
+  city: Lubbock
+  state_code: TX
+  postal_code: null
+  lat: null
+  lng: null
+  phone: null
+  website: "https://www.easystopstorage.com/lubbock-boat-rv-storage"
+  vehicles:
+  - rv
+  - boat
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Lubbock boat and RV page places the facility on 19th Street in West Lubbock and says
+    it stores boats, campers, and RVs. It lists perimeter fencing, a coded-access gate, video
+    surveillance, and access from 7 am to 10 pm, seven days. No street number, ZIP code, or
+    phone is printed.
+  sources:
+  - url: "https://www.easystopstorage.com/lubbock-boat-rv-storage"
+    title: Easy Stop Lubbock boat and RV page
+  last_verified: '2026-11-18'
+- slug: i-27-rv-and-boat-storage
+  name: "I-27 RV & Boat Storage"
+  street: 8901 Hwy 87 Unit 31
+  city: Lubbock
+  state_code: TX
+  postal_code: "79423"
+  lat: null
+  lng: null
+  phone: "(806) 749-3355"
+  website: "https://www.i27rvandboatstorage.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - enclosed
+  max_length_ft: 50
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: true
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: >-
+    Canopy covered storage with electricity is listed starting at $99. Enclosed storage with
+    a 14-foot overhead door and a 110amp plug is listed starting at $195, and enclosed storage
+    with an individual meter is listed starting at $295. The page does not state the billing
+    period.
+  waitlist: null
+  notes: >-
+    Canopy sizes run from 15 by 30 to 15 by 45, and enclosed sizes run from 15 by 35 to 15
+    by 50. The page lists a double wash bay, a fenced and gated facility, digital video surveillance,
+    nightly on-site security, and 24-hour access. Office hours are Monday through Friday,
+    9:00 AM to 5:30 PM.
+  sources:
+  - url: "https://www.i27rvandboatstorage.com/"
+    title: I-27 RV and Boat Storage homepage
+  last_verified: '2026-11-18'
+- slug: key-rv-storage-lubbock
+  name: Key RV Storage
+  street: "4916 130th St (FM 1585)"
+  city: Lubbock
+  state_code: TX
+  postal_code: "79424"
+  lat: null
+  lng: null
+  phone: "(806) 747-4678"
+  website: "https://keyrvstoragelubbock.com/index.html"
+  vehicles:
+  - rv
+  - boat
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: true
+  dump_station: true
+  wash_station: true
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The page says the facility stores RVs, boats, and utility trailers in seven space sizes,
+    with 20/30 amp outlets in selected spaces, a dump station, a power wash station, monitored
+    cameras, and a monitored electronic gate. Office hours are Monday through Friday, 9 am
+    to 12 pm and 1 pm to 4 pm. Gate hours are not stated.
+  sources:
+  - url: "https://keyrvstoragelubbock.com/index.html"
+    title: Key RV Storage about page
+  last_verified: '2026-11-18'
+- slug: storage-x-lubbock-hwy-87
+  name: Storage X
+  street: 9302 US-87
+  city: Lubbock
+  state_code: TX
+  postal_code: "79423"
+  lat: null
+  lng: null
+  phone: "(806) 748-8300"
+  website: "https://storagextx.com/locations/lubbock-tx-79423/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - enclosed
+  - open
+  max_length_ft: 35
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: true
+  gated: true
+  cameras: true
+  access_24h: false
+  price_notes: >-
+    Open parking of 12 by 35 is listed at $40 per month. A covered canopy of 12 by 20 is $80
+    per month. A 12 by 35 covered canopy lists a regular rate of $105 and a web rate of $52.50
+    per month. An enclosed 12 by 30 is $180 per month.
+  waitlist: null
+  notes: >-
+    The Hwy 87 page lists covered canopy, enclosed, and open parking for RVs and boats, plus
+    free wash and air stations, keypad gate access, and more than 20 cameras. Gate access
+    is 6:00 AM to 12:00 AM daily. The longest vehicle space shown is 35 feet.
+  sources:
+  - url: "https://storagextx.com/locations/lubbock-tx-79423/"
+    title: Storage X Lubbock Hwy 87 page
+  last_verified: '2026-11-18'

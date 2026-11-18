@@ -1,0 +1,306 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: beaumont-tx
+city: Beaumont
+state: Texas
+state_code: TX
+metro: Beaumont
+summary: >-
+  These facilities publish an RV or boat storage page in Beaumont, Port Arthur, or Orange.
+  Prices and gate hours are included only when that page states them.
+sparefoot_slug: Beaumont-TX
+neighbor_path: texas/beaumont
+sparefoot_note: null
+photo: beaumont
+listings:
+- slug: college-street-rv-boat-storage
+  name: "College Street RV & Boat Storage"
+  street: 9695 College St
+  city: Beaumont
+  state_code: TX
+  postal_code: "77707"
+  lat: null
+  lng: null
+  phone: "(409) 203-8858"
+  website: "https://www.collegestreetrvandboatstorage.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - enclosed
+  - open
+  max_length_ft: 60
+  clearance_ft: 15
+  power_hookups: true
+  dump_station: true
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: >-
+    The rent page lists 30-foot units at $315 per month, 50-foot units at $415 per month,
+    and 60-foot units at $515 per month. Open parking has no price. The homepage also prints
+    $135 without saying which space it buys.
+  waitlist: null
+  notes: >-
+    Enclosed units are 15 feet wide with 15-foot-high doors, 20-amp electric service, and
+    lengths of 30, 50, and 60 feet. The page also lists open outdoor parking, code-controlled
+    gates, onsite cameras, 24-hour access, and a sewer dump station for RVs and boats. Office
+    hours are weekdays 9:00 AM to 5:00 PM. The contact page also prints ZIP 77713.
+  sources:
+  - url: "https://www.collegestreetrvandboatstorage.com/"
+    title: Official website
+  - url: "https://www.collegestreetrvandboatstorage.com/pages/rent"
+    title: Rent page
+  - url: "https://www.collegestreetrvandboatstorage.com/pages/contact"
+    title: Contact page
+  last_verified: '2026-11-18'
+- slug: labrie-rv-storage
+  name: LaBrie RV Storage
+  street: 6741 Smith Rd
+  city: Beaumont
+  state_code: TX
+  postal_code: null
+  lat: null
+  lng: null
+  phone: "(409) 899-5500"
+  website: "https://labriervstorage.com/"
+  vehicles:
+  - rv
+  storage_types:
+  - enclosed
+  max_length_ft: 50
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The page lists a 20 by 50 space with a 14 by 14 door at 6741 Smith Rd in Beaumont and
+    does not print a ZIP, boat storage, or access hours.
+  sources:
+  - url: "https://labriervstorage.com/"
+    title: Official website
+  last_verified: '2026-11-18'
+- slug: sunset-point-rv-park-storage
+  name: "Sunset Point RV Park & Storage"
+  street: 17135 US HWY 90
+  city: Beaumont
+  state_code: TX
+  postal_code: "77713"
+  lat: null
+  lng: null
+  phone: "(409) 449-7257"
+  website: "https://www.sunsetpointrvandstorage.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - enclosed
+  - open
+  max_length_ft: 50
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: true
+  access_24h: null
+  price_notes: >-
+    The rates page prints $55, $320, $625, $620, $1,350, and $275 and does not say which figure
+    is mini storage, open parking, covered parking, enclosed storage, an RV site, or a cabin.
+  waitlist: null
+  notes: >-
+    The storage section lists mini units, open-area parking, covered parking at 13 by 40,
+    and enclosed boat and RV units at 14 by 40 and 14 by 50. Security cameras are listed.
+    The rates-page footer prints (409) 659-8305 in addition to the header phone. Hookups on
+    the page are described for RV sites, not the storage spaces.
+  sources:
+  - url: "https://www.sunsetpointrvandstorage.com/"
+    title: Official website
+  - url: "https://www.sunsetpointrvandstorage.com/rates"
+    title: Rates page
+  last_verified: '2026-11-18'
+- slug: radiant-storage-college-street
+  name: "Radiant Storage - Beaumont | College Street"
+  street: 6045 College Street
+  city: Beaumont
+  state_code: TX
+  postal_code: "77707"
+  lat: null
+  lng: null
+  phone: "(409) 554-6204"
+  website: "https://radiantstorage.net/storage-units/texas/beaumont/college-street"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - enclosed
+  - open
+  max_length_ft: 55
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: null
+  access_24h: false
+  price_notes: >-
+    Covered 12 by 55 is $76 per month during the promo and $152 per month after. Covered 12
+    by 35 is $61.50 and $123 per month. Open 8 by 20 is $34 and $68 per month. Open 12 by
+    30 is $66.50 and $133 per month. The page labels the discount as 50% off the first 4 months.
+  waitlist: null
+  notes: >-
+    The College Street page says this lot has covered, fully enclosed, and open parking for
+    RVs, boats, and trailers. Gate access is daily 6:00 AM to 9:00 PM. The property is fenced
+    with code-gate entry. The header and the FAQ print different office hours.
+  sources:
+  - url: "https://radiantstorage.net/storage-units/texas/beaumont/college-street"
+    title: College Street location page
+  last_verified: '2026-11-18'
+- slug: access-storage-orange
+  name: Access Storage
+  street: 19238 TX-62 S
+  city: Orange
+  state_code: TX
+  postal_code: "77630"
+  lat: null
+  lng: null
+  phone: "(409) 509-6999"
+  website: "https://www.accesstxstorage.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: true
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The page says Access Storage offers RV and boat storage, 24-hour access, and digital video
+    surveillance. It does not say whether the RV and boat spaces are covered, enclosed, or
+    open. A second new-rentals number, (409) 735-7867, is also printed. The dollar amounts
+    on the page are for climate-controlled unit sizes.
+  sources:
+  - url: "https://www.accesstxstorage.com/"
+    title: Official website
+  last_verified: '2026-11-18'
+- slug: aaa-vault-storage-orange
+  name: AAA Vault Storage
+  street: 9123 Stonewood Dr
+  city: Orange
+  state_code: TX
+  postal_code: null
+  lat: null
+  lng: null
+  phone: "(409) 792-5140"
+  website: "https://aaavaultstorage.com/services/vehicle-storage"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - open
+  max_length_ft: 30
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: >-
+    Outdoor uncovered parking for cars, RVs, boats, and trailers in 12 by 15 and 12 by 30
+    spaces. The lot is fenced, entered by keypad, and covered by 24/7 video surveillance.
+    Gate access is 6:00 AM to 10:00 PM every day. The page does not print a ZIP or a rate.
+  sources:
+  - url: "https://aaavaultstorage.com/services/vehicle-storage"
+    title: Vehicle storage page
+  last_verified: '2026-11-18'
+- slug: my-garage-orange-interstate-10
+  name: "My Garage Self Storage | Interstate 10"
+  street: 2525 Interstate 10
+  city: Orange
+  state_code: TX
+  postal_code: "77630"
+  lat: null
+  lng: null
+  phone: "(409) 877-1851"
+  website: "https://www.mygarageselfstorage.com/storage-facility/tx/orange/interstate-10/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - open
+  max_length_ft: 36
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: false
+  price_notes: >-
+    I-10 open parking 12 by 30 is printed at $101 per month and $111 per month. I-10 open
+    12 by 36 is $127 and $140 per month. I-10 covered 12 by 36 is $183 and $201 per month.
+    I-10 covered 8 by 36 is $137 and $151 per month.
+  waitlist: null
+  notes: >-
+    The location page lists boat parking, RV parking, covered parking, and open parking, with
+    a code gate, fence, and surveillance cameras. Access is daily 6:00 AM to 9:00 PM. The
+    page also prints 2525 Interstate 10 West and a second phone, (409) 345-2093. Strickland
+    Drive prices on the same page are a different Orange facility.
+  sources:
+  - url: "https://www.mygarageselfstorage.com/storage-facility/tx/orange/interstate-10/"
+    title: Interstate 10 location page
+  last_verified: '2026-11-18'
+- slug: storage-sense-port-arthur
+  name: Storage Sense - Port Arthur
+  street: 9999 US-69
+  city: Port Arthur
+  state_code: TX
+  postal_code: "77640"
+  lat: null
+  lng: null
+  phone: "(409) 291-8673"
+  website: >-
+    https://www.storagesense.com/location/USA/TX/Port-Arthur/sense-port-arthur-9999/
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - enclosed
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Port Arthur page lists enclosed drive-up units for smaller vehicles and covered and
+    uncovered outdoor parking for boats and RVs, plus security cameras and gated access. The
+    property is open 6:00 AM to 10:00 PM daily. Units labeled 9595 are at 9595 US-69.
+  sources:
+  - url: >-
+      https://www.storagesense.com/location/USA/TX/Port-Arthur/sense-port-arthur-9999/
+    title: Port Arthur location page
+  last_verified: '2026-11-18'

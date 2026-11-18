@@ -1,0 +1,184 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: mcallen-tx
+city: McAllen
+state: Texas
+state_code: TX
+metro: McAllen
+summary: >-
+  These facilities publish an RV or boat storage page in McAllen, Edinburg, or Pharr. Each
+  card uses only what that page states.
+sparefoot_slug: McAllen-TX
+neighbor_path: texas/mcallen
+sparefoot_note: null
+photo: mcallen
+listings:
+- slug: best-little-warehouse-edinburg
+  name: "Best Little Warehouse in Texas: Edinburg"
+  street: 1815 W. University
+  city: Edinburg
+  state_code: TX
+  postal_code: "78539"
+  lat: null
+  lng: null
+  phone: "(956) 305-1591"
+  website: "https://www.blwtselfstorage.com/1815-w-university-dr-edinburg-tx-78539"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: null
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Edinburg page lists outdoor RV and boat parking at a fenced and gated facility. Access
+    hours are 6:00 AM to 10:00 PM every day. The address block prints 1815 W. University,
+    and the directions call the road W University Dr. The page also spells the city Edinburgh.
+  sources:
+  - url: "https://www.blwtselfstorage.com/1815-w-university-dr-edinburg-tx-78539"
+    title: Best Little Warehouse Edinburg page
+  last_verified: '2026-11-18'
+- slug: hide-and-seek-storage-edinburg
+  name: "Hide & Seek Storage"
+  street: 2501 Russell Rd
+  city: Edinburg
+  state_code: TX
+  postal_code: "78541"
+  lat: null
+  lng: null
+  phone: null
+  website: "https://www.hideandseekstorage.com/rv-storage-edinburg-tx"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - open
+  max_length_ft: 20
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Edinburg page says 15 by 20 parking spaces are for RVs, boats, and other vehicles,
+    with covered and uncovered parking and 24/7 access. No phone number is printed on the
+    page.
+  sources:
+  - url: "https://www.hideandseekstorage.com/rv-storage-edinburg-tx"
+    title: Hide and Seek Edinburg RV page
+  last_verified: '2026-11-18'
+- slug: knightrider-truck-parking-mcallen
+  name: KnightRider Truck Parking McAllen, TX
+  street: 3801 W. Nolana Ave.
+  city: McAllen
+  state_code: TX
+  postal_code: "78504"
+  lat: null
+  lng: null
+  phone: "(956) 215-7606"
+  website: "https://knightridertruckparkingmcallen.storageunitsoftware.com/pages/rent"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - open
+  max_length_ft: 40
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: null
+  price_notes: >-
+    An 11 by 40 parking space for a camper, RV, boxvan, boat, or smaller trailer is listed
+    at $105 per month.
+  waitlist: null
+  notes: >-
+    The rent page lists that 11 by 40 space and says daily or weekly bookings should call
+    956-215-7607. Office hours are 9:00 AM to 5:00 PM every day. Gate hours are not stated.
+  sources:
+  - url: "https://knightridertruckparkingmcallen.storageunitsoftware.com/pages/rent"
+    title: KnightRider McAllen rent page
+  last_verified: '2026-11-18'
+- slug: north-edinburg-rv-boat-storage
+  name: North Edinburg RV and Boat Storage
+  street: 4706 N Jackson Rd.
+  city: Edinburg
+  state_code: TX
+  postal_code: "78541"
+  lat: null
+  lng: null
+  phone: "(956) 659-3070"
+  website: "https://edinburgrvstorage.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: true
+  wash_station: null
+  gated: null
+  cameras: true
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The page offers RV and boat storage in North Edinburg, with 24/7 security cameras, an
+    on-site RV dump station, and owners living on site. Cover type and gate hours are not
+    stated.
+  sources:
+  - url: "https://edinburgrvstorage.com/"
+    title: North Edinburg RV and Boat Storage homepage
+  last_verified: '2026-11-18'
+- slug: u-haul-pharr
+  name: "U-Haul Moving & Storage of Pharr"
+  street: 4007 N Cage Blvd
+  city: Pharr
+  state_code: TX
+  postal_code: "78577"
+  lat: null
+  lng: null
+  phone: "(956) 702-9494"
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Pharr-TX-78577/832050/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - enclosed
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Pharr location lists open, covered, and enclosed RV, vehicle, and boat storage, electronic
+    access, gate remotes, and 24-hour video monitoring. Storage access is printed as 5 am
+    to 10 pm, and another line says to ask whether 24-hour access is available. A vehicle
+    paragraph says to inquire about dump stations, electrical outlets, and covered spots.
+    Listed room prices are not identified as vehicle-space rates.
+  sources:
+  - url: "https://www.uhaul.com/Locations/Self-Storage-near-Pharr-TX-78577/832050/"
+    title: U-Haul Pharr location page
+  last_verified: '2026-11-18'

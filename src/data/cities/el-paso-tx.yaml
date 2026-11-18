@@ -1,0 +1,259 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: el-paso-tx
+city: El Paso
+state: Texas
+state_code: TX
+metro: El Paso
+summary: >-
+  These facilities publish an RV or boat storage page in El Paso or Horizon City. Each card
+  uses only what that page states.
+sparefoot_slug: El-Paso-TX
+neighbor_path: texas/el-paso
+sparefoot_note: null
+photo: el-paso
+listings:
+- slug: aaa-self-storage-west-el-paso
+  name: AAA Self Storage
+  street: 5420 Hurd Pl
+  city: El Paso
+  state_code: TX
+  postal_code: "79912"
+  lat: null
+  lng: null
+  phone: "(915) 585-8800"
+  website: "https://aaaselfstorageelpaso.com/rv-storage/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The West location page says covered storage is available for recreational vehicles and
+    boats, with 24-hour cameras and electronic gates. Facility access is seven days a week
+    from 7:00 am to 7:00 pm. Office hours are shorter.
+  sources:
+  - url: "https://aaaselfstorageelpaso.com/rv-storage/"
+    title: AAA RV storage page
+  last_verified: '2026-11-18'
+- slug: desert-cielo-rv-boat-storage
+  name: Desert Cielo
+  street: 9613 Carnegie Ave.
+  city: El Paso
+  state_code: TX
+  postal_code: "79925"
+  lat: null
+  lng: null
+  phone: "(915) 262-8709"
+  website: "https://desertcielo.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: true
+  gated: null
+  cameras: true
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The site says it is dedicated RV and boat storage, with 21,000 square feet of covered
+    parking on asphalt, cameras, a personalized code, a pressure washer, and an air station.
+    Gate hours are not stated.
+  sources:
+  - url: "https://desertcielo.com/"
+    title: Desert Cielo homepage
+  - url: "https://desertcielo.com/about/"
+    title: Desert Cielo about page
+  last_verified: '2026-11-18'
+- slug: las-tierras-self-storage
+  name: Las Tierras Self Storage
+  street: 3009 N Zaragoza Rd
+  city: El Paso
+  state_code: TX
+  postal_code: "79938"
+  lat: null
+  lng: null
+  phone: null
+  website: "https://www.lastierrasselfstorage.com/boat-rv-storage"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: null
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The boat and RV page offers uncovered or covered boat and RV storage, with gated entry,
+    perimeter fencing, an on-site manager, and month-to-month rentals. The address is on the
+    homepage. No phone is printed on either page.
+  sources:
+  - url: "https://www.lastierrasselfstorage.com/boat-rv-storage"
+    title: Las Tierras boat and RV page
+  - url: "https://www.lastierrasselfstorage.com/"
+    title: Las Tierras homepage
+  last_verified: '2026-11-18'
+- slug: loves-storage-horizon-blvd
+  name: "Love's Storage Solutions - El Paso"
+  street: 1318 Horizon Blvd
+  city: El Paso
+  state_code: TX
+  postal_code: "79928"
+  lat: null
+  lng: null
+  phone: "(915) 493-2711"
+  website: "https://www.lovesstorage.com/self-storage-el-paso-tx-f4326"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The page says covered parking is for a boat trailer, RV, or other vehicle, and access
+    hours are open 24 hours. It tells readers to call for available units and pricing. The
+    printed city is El Paso.
+  sources:
+  - url: "https://www.lovesstorage.com/self-storage-el-paso-tx-f4326"
+    title: "Love's Storage Solutions El Paso page"
+  last_verified: '2026-11-18'
+- slug: national-self-storage-horizon-city
+  name: National Self Storage Horizon City
+  street: 490 N Kenazo Ave
+  city: Horizon City
+  state_code: TX
+  postal_code: "79928"
+  lat: null
+  lng: null
+  phone: "(915) 852-8300"
+  website: >-
+    https://www.nationalselfstorage.com/storage-units/texas/horizon-city/national-self-storage-horizon-city-117789/
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - open
+  max_length_ft: 28
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: true
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Horizon City page lists RV, car, and boat storage and describes outdoor parking. A
+    parking space is listed at 20 by 28. Unit rows list 24 hour access, and the feature list
+    includes 24 hour security cameras. The parking row does not show a price.
+  sources:
+  - url: >-
+      https://www.nationalselfstorage.com/storage-units/texas/horizon-city/national-self-storage-horizon-city-117789/
+    title: National Self Storage Horizon City page
+  last_verified: '2026-11-18'
+- slug: regency-self-storage-lomaland
+  name: Regency Self Storage
+  street: 1488 Lomaland Drive
+  city: El Paso
+  state_code: TX
+  postal_code: null
+  lat: null
+  lng: null
+  phone: "(915) 592-1429"
+  website: "https://www.regencyselfstorageelpaso.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - enclosed
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The homepage says this Lomaland Drive location has enclosed and uncovered RV, boat, and
+    vehicle parking, with gated keypad entry and video surveillance. The contact page prints
+    access hours of 6:00 AM to 10:00 PM, Sunday through Saturday. No ZIP code is printed.
+  sources:
+  - url: "https://www.regencyselfstorageelpaso.com/"
+    title: Regency Self Storage homepage
+  - url: "https://www.regencyselfstorageelpaso.com/contact-us"
+    title: Regency contact page
+  last_verified: '2026-11-18'
+- slug: storquest-montwood
+  name: StorQuest Self Storage
+  street: 10966 Montwood Dr
+  city: El Paso
+  state_code: TX
+  postal_code: "79935"
+  lat: null
+  lng: null
+  phone: "(915) 613-0696"
+  website: "https://www.storquest.com/self-storage/tx/el-paso/10966-montwood-drive"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - open
+  max_length_ft: 30
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: >-
+    An 8 by 15 parking space is listed at a promotional rate of $35 per month and a standard
+    rate of $49. An 8 by 30 parking space is listed at $59 per month promotional and $77 standard.
+    A one-time $29 admin fee is also printed.
+  waitlist: null
+  notes: >-
+    The Montwood page says outdoor parking from 20 to 30 feet deep can hold an RV or boat,
+    with a gate code, fencing, and 24-hour digital surveillance. Posted access hours are 9:00
+    am to 6:00 pm Monday through Saturday and 10:00 am to 5:00 pm Sunday, while another sentence
+    says vehicles can be reached day or night.
+  sources:
+  - url: "https://www.storquest.com/self-storage/tx/el-paso/10966-montwood-drive"
+    title: StorQuest Montwood page
+  last_verified: '2026-11-18'

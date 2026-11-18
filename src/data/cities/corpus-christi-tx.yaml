@@ -1,0 +1,261 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: corpus-christi-tx
+city: Corpus Christi
+state: Texas
+state_code: TX
+metro: Corpus Christi
+summary: >-
+  These facilities publish an RV or boat storage page in Corpus Christi, including Flour Bluff.
+  Each card uses only what that page states.
+sparefoot_slug: Corpus-Christi-TX
+neighbor_path: texas/corpus-christi
+sparefoot_note: null
+photo: corpus-christi
+listings:
+- slug: laguna-boat-rv-storage
+  name: "Laguna Boat & RV Storage"
+  street: 3807 Waldron Road
+  city: Corpus Christi
+  state_code: TX
+  postal_code: "78418"
+  lat: null
+  lng: null
+  phone: "(361) 428-1234"
+  website: "https://www.lagunaboatrvstorage.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: null
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The page offers boat and RV storage with 24-hour access through a controlled-access electric
+    gate. Office hours are Monday through Friday, 9:00 AM to 5:00 PM. Cover type is not stated.
+  sources:
+  - url: "https://www.lagunaboatrvstorage.com/"
+    title: Laguna Boat and RV Storage homepage
+  last_verified: '2026-11-18'
+- slug: outrig-boat-stop
+  name: Outrig Boat Stop
+  street: 502 Graham Rd
+  city: Corpus Christi
+  state_code: TX
+  postal_code: "78418"
+  lat: null
+  lng: null
+  phone: "(361) 937-2423"
+  website: "https://outrig.com/locations/outrig-boat-stop/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - enclosed
+  - open
+  max_length_ft: 65
+  clearance_ft: 14
+  power_hookups: true
+  dump_station: null
+  wash_station: true
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: >-
+    Monthly rates for enclosed units from 12.5 by 35 to 40 by 65 are listed from $299 to $2,100.
+    Outdoor 11 by 35 boat and trailer parking is listed from $94 monthly.
+  waitlist: null
+  notes: >-
+    Enclosed units list 12-foot and 14-foot clearance, with power in every enclosed unit.
+    The page also lists five motor-rinse wash bays, a gated entry, security cameras, and gate
+    access every day, 24 hours. A FAQ line says enclosed units run up to 80 feet deep, while
+    the size list tops out at 40 by 65.
+  sources:
+  - url: "https://outrig.com/locations/outrig-boat-stop/"
+    title: Outrig Boat Stop location page
+  last_verified: '2026-11-18'
+- slug: padre-island-storage-bullfinch
+  name: Padre Island Storage
+  street: 1017 Bullfinch Street
+  city: Corpus Christi
+  state_code: TX
+  postal_code: "78418"
+  lat: null
+  lng: null
+  phone: "(361) 939-3077"
+  website: "https://padreislandstorage.com/rv-boat-storage/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - open
+  max_length_ft: 35
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Flour Bluff card lists covered boat barns of 12 by 35 and outdoor spaces from 10 by
+    30 to 15 by 30, with a fenced perimeter, coded gate entry, and video surveillance. Rent
+    is described as month-to-month with a $10 admin fee. Gate hours are not stated.
+  sources:
+  - url: "https://padreislandstorage.com/rv-boat-storage/"
+    title: Padre Island Storage RV and boat page
+  - url: "https://padreislandstorage.com/location-flour-bluff-corpus-christi/"
+    title: Flour Bluff location page
+  last_verified: '2026-11-18'
+- slug: padre-island-storage-south-padre
+  name: Padre Island Storage
+  street: 15338 S Padre Island Dr.
+  city: Corpus Christi
+  state_code: TX
+  postal_code: "78418"
+  lat: null
+  lng: null
+  phone: "(361) 949-8889"
+  website: null
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - open
+  max_length_ft: 40
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    This address is listed for outdoor parking from 10 by 30 to 20 by 40 for RVs, travel trailers,
+    and boats, with a fenced perimeter, coded gate entry, and video surveillance. A monthly
+    parking rate is not listed. The operator website is shared with another listing in this
+    directory, so the website button is omitted here and the page stays in the sources.
+  sources:
+  - url: "https://padreislandstorage.com/rv-boat-storage/"
+    title: Padre Island Storage RV and boat page
+  last_verified: '2026-11-18'
+- slug: recnation-brezina
+  name: "RecNation RV & Boat Storage"
+  street: 7030 Brezina Rd
+  city: Corpus Christi
+  state_code: TX
+  postal_code: "78413"
+  lat: null
+  lng: null
+  phone: "(361) 852-1633"
+  website: >-
+    https://www.recnationstorage.com/storage-facility/tx/corpus-christi/7030-brezina-rd/
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - enclosed
+  - open
+  max_length_ft: 50
+  clearance_ft: 14
+  power_hookups: true
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: >-
+    Indoor garage web rates on the page include 11 by 20 at $86 and 12 by 50 at $400. Outdoor
+    uncovered 11 by 20 is listed at a web rate of $86 and shown sold out. The page does not
+    state the billing period.
+  waitlist: null
+  notes: >-
+    The about text says every vehicle unit is fully enclosed, with barn-style doors of 10
+    feet and roll-up doors up to 14 feet, while the unit list also shows outdoor uncovered
+    spaces. The page lists gated 24-hour access, cameras, and power in select units.
+  sources:
+  - url: >-
+      https://www.recnationstorage.com/storage-facility/tx/corpus-christi/7030-brezina-rd/
+    title: RecNation Brezina Road page
+  last_verified: '2026-11-18'
+- slug: safe-and-secure-flour-bluff
+  name: "Safe & Secure Storage of Flour Bluff"
+  street: 3821 Waldron Rd.
+  city: Corpus Christi
+  state_code: TX
+  postal_code: "78418"
+  lat: null
+  lng: null
+  phone: "(361) 470-3131"
+  website: >-
+    https://www.safeandsecurestoragetx.com/facility/safe--secure-storage-of-flour-bluff
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - enclosed
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Flour Bluff page says it has indoor and outdoor parking for RVs, cars, and boats,
+    plus 24 hour video surveillance and a fenced and gated property. Access hours are 5:00
+    AM to 11:00 PM every day. A second number, (361) 937-0595, is also printed.
+  sources:
+  - url: >-
+      https://www.safeandsecurestoragetx.com/facility/safe--secure-storage-of-flour-bluff
+    title: Safe and Secure Flour Bluff page
+  last_verified: '2026-11-18'
+- slug: safeguard-boat-rv-padre-island
+  name: Safeguard Mini Storage
+  street: 9642 S. Padre Island Dr.
+  city: Corpus Christi
+  state_code: TX
+  postal_code: null
+  lat: null
+  lng: null
+  phone: "(361) 937-3930"
+  website: >-
+    https://safeguardministorage.com/safeguard-self-storage-locations-in-texas/9642-s-padre-island-dr-boat-rv-storage
+  vehicles:
+  - rv
+  - boat
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    This address page offers storage units for boats and RVs and says they are not climate-controlled.
+    It lists 24/7 surveillance cameras, gated access, and on-site personnel. Cover type, gate
+    hours, and a ZIP code are not printed.
+  sources:
+  - url: >-
+      https://safeguardministorage.com/safeguard-self-storage-locations-in-texas/9642-s-padre-island-dr-boat-rv-storage
+    title: Safeguard Padre Island boat and RV page
+  last_verified: '2026-11-18'

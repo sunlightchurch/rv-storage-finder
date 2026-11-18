@@ -1,0 +1,216 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: waco-tx
+city: Waco
+state: Texas
+state_code: TX
+metro: Waco
+summary: >-
+  These facilities publish an RV or boat storage page in Waco. Each card uses only what that
+  page states.
+sparefoot_slug: Waco-TX
+neighbor_path: texas/waco
+sparefoot_note: null
+photo: waco
+listings:
+- slug: amys-attic-waco
+  name: "Amy's Attic Self Storage"
+  street: 1821 S. New Road
+  city: Waco
+  state_code: TX
+  postal_code: "76711"
+  lat: null
+  lng: null
+  phone: "(254) 651-1579"
+  website: "https://www.amysatticss.com/waco-tx/"
+  vehicles:
+  - rv
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: null
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The RV storage page names 1821 S. New Road for RV storage and says cover type varies by
+    location. The Waco location page lists gate hours of 6:00 am to 10:00 pm, Monday through
+    Sunday. Boat storage at this address conflicts with the boat-page FAQ, so boat is not
+    recorded.
+  sources:
+  - url: "https://www.amysatticss.com/rv-storage/"
+    title: "Amy's Attic RV storage page"
+  - url: "https://www.amysatticss.com/waco-tx/"
+    title: "Amy's Attic Waco page"
+  last_verified: '2026-11-18'
+- slug: best-rv-and-boat-storage-waco
+  name: Best RV and Boat Storage
+  street: 4284 N State Hwy 6
+  city: Waco
+  state_code: TX
+  postal_code: "76712"
+  lat: null
+  lng: null
+  phone: "(254) 637-0359"
+  website: "https://www.bestrvboatstorage.com/4284-n-state-hwy-6-waco-tx-76712"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - open
+  max_length_ft: 68
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The location page lists covered parking and outdoor parking for boats and RVs, with pull-through
+    bays of 68 by 13.5, a security fence, gated access, and surveillance cameras. Access hours
+    are open 24 hours. Office hours are closed, and the page says to call for an appointment.
+  sources:
+  - url: "https://www.bestrvboatstorage.com/4284-n-state-hwy-6-waco-tx-76712"
+    title: Best RV and Boat Storage location page
+  last_verified: '2026-11-18'
+- slug: bosqueville-storage
+  name: Bosqueville Storage
+  street: 6925 Steinbeck Bend Dr.
+  city: Waco
+  state_code: TX
+  postal_code: "76708"
+  lat: null
+  lng: null
+  phone: "(254) 922-2426"
+  website: "https://bosquevillestorage.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - enclosed
+  max_length_ft: 40
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    Fully enclosed units are 14 feet wide by 40 feet deep, with roll-up doors 14 feet high
+    and 15 amp outlets for trickle charging. The page lists 24/7 keypad gate access and video
+    monitoring. Pricing is call for pricing, with month-to-month leasing.
+  sources:
+  - url: "https://bosquevillestorage.com/"
+    title: Bosqueville Storage homepage
+  last_verified: '2026-11-18'
+- slug: diamond-self-storage-waco
+  name: Diamond Self Storage of Texas - Waco
+  street: 9409 China Spring Road
+  city: Waco
+  state_code: TX
+  postal_code: null
+  lat: null
+  lng: null
+  phone: "(254) 754-7625"
+  website: "https://dss-waco.diamondselfstorage.net/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Waco page says the property offers covered RV parking with power, and the feature
+    list includes boat and RV storage, surveillance cameras, tall fencing, and gated access.
+    It also lists 24-7 access and facility hours of 8:00 AM to 5:00 PM on weekdays and 8:00
+    AM to 2:00 PM Saturday. An admin fee of $17.76 is printed. No ZIP code is printed.
+  sources:
+  - url: "https://dss-waco.diamondselfstorage.net/"
+    title: Diamond Self Storage Waco page
+  last_verified: '2026-11-18'
+- slug: red-roof-storage-waco
+  name: Red Roof Storage
+  street: 286 Lady Bird Rd
+  city: Waco
+  state_code: TX
+  postal_code: "76712"
+  lat: null
+  lng: null
+  phone: "(254) 848-7867"
+  website: "https://storageunitswacotx.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  max_length_ft: 40
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: null
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    Boat and RV storage is listed as 15 by 40 covered storage, with or without electricity,
+    with 24/7 access and a fenced and gated lot. The separate 10 by 20 enclosed units are
+    described as self-storage. No deposit and no long-term contract are stated.
+  sources:
+  - url: "https://storageunitswacotx.com/"
+    title: Red Roof Storage Waco homepage
+  last_verified: '2026-11-18'
+- slug: safe-and-secure-storage-waco
+  name: Safe and Secure Storage of Waco
+  street: 3403 S. University Parks Dr.
+  city: Waco
+  state_code: TX
+  postal_code: "76706"
+  lat: null
+  lng: null
+  phone: "(254) 522-9220"
+  website: >-
+    https://www.safeandsecurestoragetx.com/facility/safe-and-secure-storage-of-waco
+  vehicles:
+  - rv
+  - boat
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Waco page lists RV, car, and boat parking, 24 hour video surveillance, and a fenced
+    and gated property. Access hours are 6:00 AM to 11:00 PM every day. Cover type is not
+    stated.
+  sources:
+  - url: >-
+      https://www.safeandsecurestoragetx.com/facility/safe-and-secure-storage-of-waco
+    title: Safe and Secure Storage of Waco page
+  last_verified: '2026-11-18'
