@@ -1,0 +1,341 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: lake-havasu-city-az
+city: Lake Havasu City
+state: Arizona
+state_code: AZ
+metro: Lake Havasu City
+summary: >-
+  These facilities publish an RV or boat storage page in Lake Havasu City. Each
+  card uses only what that page states. This is not a complete inventory.
+sparefoot_slug: Lake-Havasu-City-AZ
+neighbor_path: arizona/lake-havasu-city
+sparefoot_note: null
+photo: lake-havasu-city
+listings:
+  - slug: absolute-boat-rv-storage
+    name: Absolute Boat & RV Storage
+    street: 1600 Corona Drive
+    city: Lake Havasu City
+    state_code: AZ
+    postal_code: "86403"
+    lat: null
+    lng: null
+    phone: "(928) 846-8648"
+    website: https://absoluteboatandrvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: 55
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Enclosed garages with sectional doors, electrical outlets, unit lighting,
+      and pull-through options. Lengths are 45, 50, and 55 feet. Entry is an
+      electronic gate with a monitored security system. Gate hours are not
+      stated. Monitoring is not described as cameras.
+    sources:
+      - url: https://absoluteboatandrvstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: campbell-brothers-boat-rv-storage
+    name: Campbell Brothers Boat and RV Storage
+    street: 1595 W. Acoma Lane Suite #C
+    city: Lake Havasu City
+    state_code: AZ
+    postal_code: "86403"
+    lat: null
+    lng: null
+    phone: "(928) 855-3901"
+    website: https://www.storagelakehavasu.com/
+    vehicles: [rv, boat]
+    storage_types: [enclosed, open]
+    max_length_ft: 45
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Boat and RV storage with 12 by 45 spaces now renting, electric and lights
+      in the units, and a secured outdoor space. Access is described as 24
+      hours, 365 days. The contact page places the site at the corner of W.
+      Acoma Ln and Kiowa.
+    sources:
+      - url: https://www.storagelakehavasu.com/
+        title: Homepage
+      - url: https://www.storagelakehavasu.com/lake-havasu-storage-contact.html
+        title: Contact page
+    last_verified: "2026-11-18"
+
+  - slug: depot-storage-boat-rv
+    name: Depot Storage Boat and RV
+    street: 85 Retail Centre Blvd.
+    city: Lake Havasu City
+    state_code: AZ
+    postal_code: "86404"
+    lat: null
+    lng: null
+    phone: "(928) 732-3987"
+    website: https://www.depotstorageaz.com/pages/rent
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: 80
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: >-
+      Regular boat and RV units include 14x35 at $400 per month and 14x80 at
+      $895 per month. Premium units include 14x40 at $500 per month, 14x80 at
+      $915 per month, and 28x45 at $1,041 per month.
+    waitlist: null
+    notes: >-
+      Enclosed boat and RV units with electrical outlets, LED lighting,
+      insulated roofs, fire sprinklers, and panel doors. Sizes run from 14x35
+      to 14x80, plus 28-foot-wide units. Printed hours are office hours, 9:00
+      am to 5:00 pm every day.
+    sources:
+      - url: https://www.depotstorageaz.com/pages/rent
+        title: Rent page
+    last_verified: "2026-11-18"
+
+  - slug: desert-harbor-storage
+    name: Desert Harbor Storage
+    street: 1065 Empire Drive
+    city: Lake Havasu City
+    state_code: AZ
+    postal_code: "86404"
+    lat: null
+    lng: null
+    phone: "(928) 855-0422"
+    website: https://www.desertharborstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Indoor units that the page says can store a boat or RV, in a fenced and
+      gated facility with digital surveillance cameras. Gate hours are 24
+      hours, 365 days a year. Vehicle space sizes are not listed.
+    sources:
+      - url: https://www.desertharborstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: havasu-boat-storage
+    name: Havasu Boat Storage
+    street: 850 London Bridge Road
+    city: Lake Havasu City
+    state_code: AZ
+    postal_code: null
+    lat: null
+    lng: null
+    phone: "(928) 854-1177"
+    website: https://www.havasuboatstorageaz.com/units
+    vehicles: [rv, boat]
+    storage_types: [enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Indoor and outdoor boat and RV parking, including fully enclosed vehicle
+      spaces, with security cameras and a coded gate. Gate hours are 6:00 am to
+      10:00 pm every day. Rentals are month to month. A ZIP code is not printed.
+    sources:
+      - url: https://www.havasuboatstorageaz.com/units
+        title: Vehicle storage page
+      - url: https://www.havasuboatstorageaz.com/contact
+        title: Contact page
+    last_verified: "2026-11-18"
+
+  - slug: high-octane-storage
+    name: High Octane Storage
+    street: 4591 London Bridge Rd.
+    city: Lake Havasu City
+    state_code: AZ
+    postal_code: "86404"
+    lat: null
+    lng: null
+    phone: "(928) 297-3939"
+    website: https://www.highoctanestorage.com/4591-london-bridge-rd-lake-havasu-city-az-86404
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed]
+    max_length_ft: 60
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Indoor boat and RV units and covered parking, with depths up to 60 feet,
+      12-foot-wide doors, and one building of 14-foot-wide doors. Those widths
+      are not stored as clearance. The location page lists power, cameras, a
+      gate, and 24-hour access. The contact page prints a different phone,
+      (928) 257-3891.
+    sources:
+      - url: https://www.highoctanestorage.com/4591-london-bridge-rd-lake-havasu-city-az-86404
+        title: London Bridge Road location page
+      - url: https://www.highoctanestorage.com/contact-us
+        title: Contact page
+    last_verified: "2026-11-18"
+
+  - slug: island-storage-marine
+    name: Island Storage & Marine
+    street: 801 Beachcomber Blvd
+    city: Lake Havasu City
+    state_code: AZ
+    postal_code: "86403"
+    lat: null
+    lng: null
+    phone: "(928) 680-8060"
+    website: https://www.islandstorage.net/
+    vehicles: [boat]
+    storage_types: [enclosed]
+    max_length_ft: 100
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Storage garages from 14 by 50 feet to 30 by 100 foot pull-throughs, with
+      electric outlets, 38 cameras, and hose bibs for washing down. Keypad
+      access is 6:00 am to 11:00 pm. The page describes boats and trailers and
+      does not say RV.
+    sources:
+      - url: https://www.islandstorage.net/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: lakefront-boat-rv-storage
+    name: LakeFront Boat & RV Storage
+    street: 1100 London Bridge Road
+    city: Lake Havasu City
+    state_code: AZ
+    postal_code: "86404"
+    lat: null
+    lng: null
+    phone: "(928) 716-7600"
+    website: https://www.lakefrontstoragecenter.com/
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: 80
+    clearance_ft: 13
+    power_hookups: true
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Indoor boat and RV storage with 13-foot sectional doors, electrical
+      outlets, 80-foot drive-through options, and an RV dump station. Access is
+      24 hours with a code, and the page says 24-hour video protection.
+    sources:
+      - url: https://www.lakefrontstoragecenter.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: prestige-rv-boat-storage
+    name: Prestige RV and Boat Storage
+    street: 2110 College Drive
+    city: Lake Havasu City
+    state_code: AZ
+    postal_code: "86403"
+    lat: null
+    lng: null
+    phone: null
+    website: https://prestigeboatandrvstorage.net/
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Air-conditioned indoor storage for boats and recreational vehicles. The
+      page lists hours of 9:00 am to 5:00 pm and does not say whether those are
+      gate hours. A phone number is not printed.
+    sources:
+      - url: https://prestigeboatandrvstorage.net/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: south-end-storage-lake-havasu
+    name: South End Storage
+    street: 3500 Sweetwater Ave
+    city: Lake Havasu City
+    state_code: AZ
+    postal_code: "86406"
+    lat: null
+    lng: null
+    phone: "(928) 855-9797"
+    website: https://www.southendstorage.com/rv-storage-boat-storage-lake-havasu-arizona
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: 45
+    clearance_ft: null
+    power_hookups: null
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Boat and RV units up to 14 by 45 feet, with individual unit alarms, a pin
+      gate, and 24-hour video monitoring. The page lists a covered wash-down
+      area, an on-site dump station, and a vacuum and air station. Office hours
+      are Tuesday through Saturday, 8:00 am to 5:00 pm. Gate hours are not
+      stated. The wash-down is covered; the storage units are described as
+      enclosed.
+    sources:
+      - url: https://www.southendstorage.com/rv-storage-boat-storage-lake-havasu-arizona
+        title: Boat and RV storage page
+    last_verified: "2026-11-18"

@@ -1,0 +1,359 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: prescott-az
+city: Prescott
+state: Arizona
+state_code: AZ
+metro: Prescott
+summary: >-
+  These facilities publish an RV or boat storage page in Prescott, Prescott
+  Valley, or Chino Valley. Each card uses only what that page states.
+sparefoot_slug: Prescott-AZ
+neighbor_path: arizona/prescott
+sparefoot_note: null
+photo: prescott
+listings:
+  - slug: bright-star-rv-chino-valley
+    name: Bright Star RV & Mini Storage
+    street: 1165 Bright Star Blvd
+    city: Chino Valley
+    state_code: AZ
+    postal_code: "86323"
+    lat: 34.7622349
+    lng: -112.4241639
+    phone: "(928) 636-2626"
+    website: https://www.brightstarstorage.com/location/USA/AZ/Chino-Valley/bright-star-rv/
+    vehicles: [rv]
+    storage_types: [covered]
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: >-
+      Listed RV rates include 12x30 at $65 per month, 12x40 at $75 per month,
+      12x30 drive-through at $75 per month, and 12x40 drive-through at $80 per
+      month. Covered RV rates are 12x30 at $155 per month and 12x40 at $200 per
+      month.
+    waitlist: Covered RV spaces and the drive-through RV spaces are listed on a waiting list.
+    notes: >-
+      The unit list names covered RV storage separately from other RV and
+      drive-through RV spaces. The page does not say boat. Coordinates are the
+      latitude and longitude printed on the unit markup.
+    sources:
+      - url: https://www.brightstarstorage.com/location/USA/AZ/Chino-Valley/bright-star-rv/
+        title: Chino Valley location page
+    last_verified: "2026-11-18"
+
+  - slug: budget-mini-storage-chino-valley
+    name: Budget Mini Storage - Chino Valley
+    street: 496 West Center Street
+    city: Chino Valley
+    state_code: AZ
+    postal_code: "86323"
+    lat: null
+    lng: null
+    phone: "(928) 636-2010"
+    website: https://www.storagexperts.net/storage-locations/az/chino-valley/496-west-center-street
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 50
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered and uncovered parking for RVs, boats, trailers, and other
+      vehicles, in spaces from 10x15 to 10x50. Access is 6:00 am to 9:00 pm,
+      with an electronic gate and 24/7 security cameras.
+    sources:
+      - url: https://www.storagexperts.net/storage-locations/az/chino-valley/496-west-center-street
+        title: Chino Valley location page
+    last_verified: "2026-11-18"
+
+  - slug: fort-knox-self-storage-chino-valley
+    name: Fort Knox Self Storage
+    street: 2535 AZ-89
+    city: Chino Valley
+    state_code: AZ
+    postal_code: "86323"
+    lat: null
+    lng: null
+    phone: "(928) 636-1778"
+    website: https://www.fortknoxstorageaz.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      RV and boat parking on North Highway 89, with security cameras around the
+      grounds and an on-site manager. Cover type and gate hours are not stated.
+      The 24/7 line refers to online account access.
+    sources:
+      - url: https://www.fortknoxstorageaz.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: garrett-rv-boat-storage
+    name: Garrett RV and Boat Storage
+    street: 1486 Builders Way
+    city: Prescott
+    state_code: AZ
+    postal_code: null
+    lat: null
+    lng: null
+    phone: "(928) 495-8639"
+    website: https://prescottrvandboatstorage.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Gated RV, boat, and trailer parking with 24/7 keypad access and no
+      on-site office. The page lists 30 large 12 by 40 spaces and 20 standard
+      spaces. Cover type and a ZIP code are not printed.
+    sources:
+      - url: https://prescottrvandboatstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: granite-dells-storage-rv
+    name: Granite Dells Storage & RV
+    street: 5430 Side Rd
+    city: Prescott
+    state_code: AZ
+    postal_code: "86301"
+    lat: null
+    lng: null
+    phone: "(928) 800-8200"
+    website: https://www.gdstorage.com/self-storage-address-5430-side-rd-prescott-az-86301
+    vehicles: [rv, boat]
+    storage_types: [enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      RV, car, and boat parking either inside a larger storage unit or in
+      outdoor uncovered spaces. The facility is fenced and gated, with security
+      cameras. Access is 5:30 am to 7:30 pm, 365 days.
+    sources:
+      - url: https://www.gdstorage.com/self-storage-address-5430-side-rd-prescott-az-86301
+        title: Prescott location page
+    last_verified: "2026-11-18"
+
+  - slug: infinity-storage-space-chino-valley
+    name: Infinity Storage Space
+    street: 2369 State Highway 89
+    city: Chino Valley
+    state_code: AZ
+    postal_code: "86323"
+    lat: null
+    lng: null
+    phone: "(928) 636-7522"
+    website: https://www.infinitystoragespace.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      RV and boat parking with a keypad gate, security cameras, and a fence.
+      Gate access is 6:00 am to 10:00 pm every day. Cover type is not stated.
+    sources:
+      - url: https://www.infinitystoragespace.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: prescott-rv-storage
+    name: Prescott RV Storage
+    street: 828 Gail Gardner Way
+    city: Prescott
+    state_code: AZ
+    postal_code: null
+    lat: null
+    lng: null
+    phone: "(928) 771-2880"
+    website: https://www.prescottrvstorage.com/
+    vehicles: [rv]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Paved RV storage with a controlled gate, 24/7 cameras, 12-foot spaces,
+      and pull-through options. Gate access is 6:00 am to 9:00 pm daily. The
+      page lists an RV wash area, a dump station, and potable water. It does
+      not say boat, and it does not print a ZIP code. Cover type is not stated.
+    sources:
+      - url: https://www.prescottrvstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: prescott-valley-rv-self-storage
+    name: Prescott Valley RV & Self Storage
+    street: 9525 East Lorna Lane
+    city: Prescott Valley
+    state_code: AZ
+    postal_code: "86314"
+    lat: null
+    lng: null
+    phone: "(928) 772-7789"
+    website: https://www.storagexperts.net/storage-locations/az/prescott-valley/9525-east-lorna-lane
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Uncovered and covered RV, boat, and vehicle storage with an electronic
+      gate and 24/7 video recording. The page says gate access is seven days a
+      week and does not print the daily hours.
+    sources:
+      - url: https://www.storagexperts.net/storage-locations/az/prescott-valley/9525-east-lorna-lane
+        title: Prescott Valley location page
+    last_verified: "2026-11-18"
+
+  - slug: rv-inn-storage-chino-valley
+    name: RV Inn Storage
+    street: 3800 AZ-89
+    city: Chino Valley
+    state_code: AZ
+    postal_code: "86323"
+    lat: null
+    lng: null
+    phone: "(928) 636-8600"
+    website: https://rvinnstorage.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: 45
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      RV spaces from 25 to 45 feet and boat spaces from 10x20 through 10x45, on
+      a fenced lot with 24/7 access. A text number, 928-848-9142, is also
+      printed. Cover type is not stated.
+    sources:
+      - url: https://rvinnstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: smoketree-self-storage-prescott
+    name: Smoketree Self Storage, LLC
+    street: 2881 Smoke Tree Lane
+    city: Prescott
+    state_code: AZ
+    postal_code: "86301"
+    lat: null
+    lng: null
+    phone: "(928) 717-2662"
+    website: https://smoketreeselfstoragellc.godaddysites.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Vehicle storage for a car, boat, or RV, with drive-up units and 24/7
+      monitoring. Office hours are Monday through Friday, 8:30 am to 2:30 pm.
+      Cover type and gate hours are not stated. Monitoring is not described as
+      cameras.
+    sources:
+      - url: https://smoketreeselfstoragellc.godaddysites.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: toy-safe-rv-super-storage
+    name: Toy Safe RV & Super Storage
+    street: 10030 E Academy Way
+    city: Prescott Valley
+    state_code: AZ
+    postal_code: null
+    lat: null
+    lng: null
+    phone: "(928) 800-1244"
+    website: https://www.toysafestorage.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      RV and boat parking with 24-hour keypad gate access, 24-hour video
+      surveillance, an RV dump station, and potable water. A ZIP code is not
+      printed, and cover type is not stated.
+    sources:
+      - url: https://www.toysafestorage.com/
+        title: Official website
+    last_verified: "2026-11-18"

@@ -1,0 +1,243 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: yuma-az
+city: Yuma
+state: Arizona
+state_code: AZ
+metro: Yuma
+summary: >-
+  These facilities publish an RV or boat storage page in Yuma. Each card uses
+  only what that page states. This is not a complete inventory.
+sparefoot_slug: Yuma-AZ
+neighbor_path: arizona/yuma
+sparefoot_note: null
+photo: yuma
+listings:
+  - slug: guardian-self-storage-yuma
+    name: Guardian Self Storage
+    street: 1950 E. 32nd Street
+    city: Yuma
+    state_code: AZ
+    postal_code: "85365"
+    lat: null
+    lng: null
+    phone: "(928) 846-8155"
+    website: https://www.myguardianselfstorage.com/outdoor-storage-yuma-az
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Outdoor parking for RVs, boats, and trailers, with electronic gates and
+      surveillance cameras. Gate hours are 7:00 am to 6:00 pm, six days a week,
+      and the location page shows Sunday closed.
+    sources:
+      - url: https://www.myguardianselfstorage.com/outdoor-storage-yuma-az
+        title: Outdoor storage page
+      - url: https://www.myguardianselfstorage.com/self-storage-yuma-az-f2616
+        title: Yuma location page
+    last_verified: "2026-11-18"
+
+  - slug: pink-door-storage-rv-yuma
+    name: Pink Door Storage & RV - Yuma
+    street: 2145 S Harley Drive
+    city: Yuma
+    state_code: AZ
+    postal_code: "85365"
+    lat: null
+    lng: null
+    phone: "(928) 366-1311"
+    website: https://www.pinkdoorstorage.com/rv-drive-up-storage-yuma-arizona
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: true
+    wash_station: false
+    gated: true
+    cameras: null
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Fully enclosed indoor parking for RVs, boats, and other vehicles, with a
+      fence, a gate, and a dump station. Access is 6:00 am to 10:00 pm every
+      day. An air and water station is described as coming soon.
+    sources:
+      - url: https://www.pinkdoorstorage.com/rv-drive-up-storage-yuma-arizona
+        title: Yuma RV and drive-up page
+    last_verified: "2026-11-18"
+
+  - slug: premier-storage-2-yuma
+    name: Premier Storage 2
+    street: 3265 S Ave 3 3/4 E
+    city: Yuma
+    state_code: AZ
+    postal_code: "85365"
+    lat: null
+    lng: null
+    phone: "(928) 726-2455"
+    website: https://premierstorage2.com/rv-storage
+    vehicles: [rv, boat]
+    storage_types: [enclosed, open]
+    max_length_ft: 80
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: null
+    access_24h: true
+    price_notes: >-
+      RV units run from 14x40 at $250 per month to 22x80 drive-through at $715
+      per month. A 12x50 outdoor space is $75 per month. Boat units on the boat
+      page run from 14x25 at $195 per month to 14x45 at $270 per month.
+    waitlist: null
+    notes: >-
+      Drive-up enclosed units, up to 80 feet deep with 14-foot doors, plus
+      outdoor parking. The 14-foot figure is the enclosed door, not a clearance
+      for the outdoor spaces. Electricity is limited to battery tenders. Two RV
+      dump stations and rinse spigots are on site, and the gate code works 24
+      hours.
+    sources:
+      - url: https://premierstorage2.com/rv-storage
+        title: RV storage page
+      - url: https://premierstorage2.com/boat-storage
+        title: Boat storage page
+    last_verified: "2026-11-18"
+
+  - slug: s-and-s-storage-rv-park-yuma
+    name: S & S Storage & RV Park
+    street: 614 S May Ave
+    city: Yuma
+    state_code: AZ
+    postal_code: "85364"
+    lat: null
+    lng: null
+    phone: "(928) 539-9221"
+    website: https://www.yumarvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Storage for RVs, campers, trailers, fifth wheels, boats, jet skis, and
+      other vehicles, in a gated facility with 24-hour video surveillance.
+      Office hours are Monday through Friday, 9:00 am to 5:00 pm. Gate hours
+      and cover type are not stated.
+    sources:
+      - url: https://www.yumarvstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: sandbar-storage-yuma
+    name: Sandbar Storage
+    street: 2165 East 16th Street
+    city: Yuma
+    state_code: AZ
+    postal_code: "85365"
+    lat: null
+    lng: null
+    phone: "(928) 782-7757"
+    website: http://www.sandbarstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [enclosed, open]
+    max_length_ft: 55
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Indoor units up to 14x45 and outdoor spaces up to 14x55 for boats and
+      RVs, with a boat or RV wash bay. Gate codes work 24 hours, and the page
+      lists 24-hour cameras plus nightly after-hours patrols.
+    sources:
+      - url: http://www.sandbarstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: solar-storage-yuma
+    name: Solar Storage
+    street: 6656 E 32nd St
+    city: Yuma
+    state_code: AZ
+    postal_code: "85365"
+    lat: null
+    lng: null
+    phone: "(928) 920-1362"
+    website: https://www.solarstorageaz.com/pages/rv-storage-yuma-az
+    vehicles: [rv, boat]
+    storage_types: [enclosed, open]
+    max_length_ft: 72
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: >-
+      A 14x42 is $235 a month, a 14x47 is $270 a month, a single-access 14x72 is
+      $445 a month, and pull-through 14x72 units are $435 to $455 a month.
+    waitlist: At least one pull-through option is sold out with a waiting list, and other unit types are also on a waiting list.
+    notes: >-
+      Insulated RV and boat units, including a 14x72 pull-through. The 14x47 is
+      described as drive-up outside access without air conditioning, so open is
+      included along with enclosed. Printed hours are office hours, Monday
+      through Friday 7:00 am to 7:00 pm and Saturday 8:00 am to 3:00 pm.
+    sources:
+      - url: https://www.solarstorageaz.com/pages/rv-storage-yuma-az
+        title: Yuma RV storage page
+    last_verified: "2026-11-18"
+
+  - slug: yuma-mesa-storage
+    name: Yuma Mesa Storage
+    street: 2775 E. Palo Verde St
+    city: Yuma
+    state_code: AZ
+    postal_code: "85365"
+    lat: null
+    lng: null
+    phone: "(928) 247-9713"
+    website: https://www.yumamesastorage.com/
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Indoor storage for boats, RVs, and toys, with tall fencing, surveillance
+      cameras, a gate, and on-site staff. Optional climate-controlled units are
+      mentioned. Gate hours are not stated.
+    sources:
+      - url: https://www.yumamesastorage.com/
+        title: Official website
+    last_verified: "2026-11-18"

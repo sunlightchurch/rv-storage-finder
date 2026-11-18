@@ -644,3 +644,59 @@
   license: "CC0"
   license_url: "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
   credit_required: false
+- id: flagstaff
+  role: city
+  alt: "Downtown Flagstaff during an art walk"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/flagstaff-640.webp
+    "960": photos/flagstaff-960.webp
+    "1280": photos/flagstaff-1280.webp
+  author: "Deborah Lee Soltesz"
+  source_url: "https://commons.wikimedia.org/wiki/File:Downtown_Flagstaff_on_Art_Walk.jpg"
+  license: "CC0"
+  license_url: "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  credit_required: false
+- id: prescott
+  role: city
+  alt: "The Bashford Courts building in Prescott, Arizona"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/prescott-640.webp
+    "960": photos/prescott-960.webp
+    "1280": photos/prescott-1280.webp
+  author: "Marine 69-71"
+  source_url: "https://commons.wikimedia.org/wiki/File:Prescott-Building-Bashford_Courts-1888.jpg"
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  credit_required: true
+- id: yuma
+  role: city
+  alt: "The main guard tower at Yuma Territorial Prison"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/yuma-640.webp
+    "960": photos/yuma-960.webp
+    "1280": photos/yuma-1280.webp
+  author: "Pretzelpaws"
+  source_url: "https://commons.wikimedia.org/wiki/File:Yuma_prison_main_guard_tower.jpg"
+  license: "CC BY-SA 3.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  credit_required: true
+- id: lake-havasu-city
+  role: city
+  alt: "The London Bridge in Lake Havasu City"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/lake-havasu-city-640.webp
+    "960": photos/lake-havasu-city-960.webp
+    "1280": photos/lake-havasu-city-1280.webp
+  author: "Marine 69-71"
+  source_url: "https://commons.wikimedia.org/wiki/File:Lake_Havasu_City-London_Bridge-1831-2.jpg"
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  credit_required: true
