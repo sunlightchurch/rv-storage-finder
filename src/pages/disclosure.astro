@@ -1,0 +1,58 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { directoryStats, partnerUrl } from '../lib/data';
+import { breadcrumbNode, pageGraph, webPageNode } from '../lib/schema';
+
+const title = 'Affiliate disclosure and privacy';
+const description =
+  'How commercial links to Neighbor and SpareFoot work, and what this static directory stores about visitors.';
+const path = '/disclosure/';
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'Disclosure', path },
+];
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: directoryStats().latest }),
+  breadcrumbNode(crumbs),
+]);
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <article class="wrap prose">
+    <Breadcrumbs items={crumbs} />
+    <h1>Affiliate disclosure and privacy</h1>
+    <h2>Commercial links</h2>
+    <p>
+      Some pages link to
+      <a href={partnerUrl('neighbor')} rel="sponsored nofollow noopener noreferrer">Neighbor</a>
+      and
+      <a href={partnerUrl('sparefoot')} rel="sponsored nofollow noopener noreferrer">SpareFoot</a>.
+      Those links are commercial. They are marked with <code>rel="sponsored nofollow"</code>. Affiliate
+      accounts are not approved yet, so the links open the companies’ public pages and do not add a
+      tracking id. If an id is added later, a visit or a booking through that link may earn this site a
+      commission. That commission would not change the facility price you are quoted.
+    </p>
+    <p>
+      The configuration for those URLs and the empty affiliate ids lives in
+      <code>src/data/site.yaml</code>. Facility names, phones, and websites are not paid placements.
+      A business cannot buy a higher spot on a city page.
+    </p>
+    <h2>Privacy</h2>
+    <p>
+      This directory is a static site. It has no accounts, no search box that sends a query to a server
+      we operate, and no analytics script. We do not set cookies. GitHub Pages, which hosts the files,
+      may log requests in order to deliver the site. Their policy covers that logging.
+    </p>
+    <p>
+      A link to a facility, to Google Maps, or to a marketplace leaves this site. The next site has its
+      own policy. Phone links open your own dialer and do not pass through us.
+    </p>
+    <h2>Corrections</h2>
+    <p>
+      Storage prices and amenities change. The date on each card is the day the source was opened. If a
+      fact is wrong, the correction belongs in that city’s YAML file with a new source check, using the
+      steps in PUBLISHING.md. Opening a GitHub issue on the repository is a fine way to flag one.
+    </p>
+  </article>
+</Base>

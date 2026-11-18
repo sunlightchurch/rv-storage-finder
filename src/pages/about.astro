@@ -1,0 +1,60 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { directoryStats, href, site } from '../lib/data';
+import { breadcrumbNode, pageGraph, webPageNode } from '../lib/schema';
+
+const title = 'About this RV and boat storage directory';
+const description =
+  'How RV Storage Finder checks facility pages, why unknown amenities say not listed, and how a new city file becomes city, state, and filter pages.';
+const path = '/about/';
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'About', path },
+];
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: directoryStats().latest }),
+  breadcrumbNode(crumbs),
+]);
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <article class="wrap prose">
+    <Breadcrumbs items={crumbs} />
+    <h1>About this directory</h1>
+    <p>
+      RV Storage Finder is a static directory of RV and boat storage. It is built for people comparing
+      covered RV storage near Tampa, boat storage with power near Phoenix, or a published monthly price
+      in Houston, Orlando, or Dallas-Fort Worth.
+    </p>
+    <h2>What gets recorded</h2>
+    <p>
+      Each facility comes from a public page: the operator’s site, or a marketplace listing when that is
+      the page we could open. The card stores the name, address, phone, website, vehicle types, cover
+      type, length, clearance, power, dump station, wash station, gate, cameras, 24-hour access, a price
+      note, and a waitlist note. The source URL and the date that page was opened sit on the card.
+    </p>
+    <p>
+      Yes means the source says the amenity is available. No means the source says it is not. Not listed
+      means the source is silent. A missing price is not a guess, and a national average is not copied
+      onto a facility that did not print a rate.
+    </p>
+    <h2>What this site does not do</h2>
+    <p>
+      It does not invent facilities to fill a city. It does not claim to list every lot in a metro. It
+      does not publish star ratings. It is not the storage facility, and calling a number on a card
+      reaches that business, not this directory.
+    </p>
+    <h2>How a new city appears</h2>
+    <p>
+      Listings live in one YAML file per city. Adding that file creates the city page, adds the city to
+      its state page, and creates filter pages for covered, enclosed, outdoor, power, dump, boat, and
+      published-price views wherever at least one listing matches. The steps are in
+      <a href={`${site.repo}/blob/main/PUBLISHING.md`}>PUBLISHING.md</a>.
+    </p>
+    <p>
+      <a href={href('/disclosure/')}>Affiliate disclosure and privacy</a> explains the Neighbor and
+      SpareFoot links. <a href={href('/guide/')}>The cost guide</a> explains how to read a monthly rate.
+    </p>
+  </article>
+</Base>

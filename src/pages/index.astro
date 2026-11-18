@@ -1,0 +1,112 @@
+---
+import Base from '../layouts/Base.astro';
+import FilterIndex from '../components/FilterIndex.astro';
+import FindMore from '../components/FindMore.astro';
+import { cityStats, directoryStats, getCities, href, site } from '../lib/data';
+import { breadcrumbNode, faqNode, pageGraph, webPageNode } from '../lib/schema';
+
+const cities = getCities();
+const stats = directoryStats();
+const title = 'RV and boat storage directory | Tampa, Orlando, Phoenix, Houston, DFW';
+const description =
+  'Sourced RV and boat storage in and near Tampa, Orlando, Phoenix, Houston, and Dallas-Fort Worth. Cover type, power, and monthly prices appear only when a facility publishes them.';
+const path = '/';
+const faqs = [
+  {
+    q: 'Which cities are in this directory?',
+    a: 'Launch pages cover Tampa and Orlando, Florida; Phoenix, Arizona; and Houston and Dallas-Fort Worth, Texas, including nearby suburbs named on each city page.',
+  },
+  {
+    q: 'Why does a listing say not listed?',
+    a: 'Not listed means the public page we checked did not state that fact. It does not mean the facility lacks the amenity. Yes means the source says it is available. No means the source says it is not.',
+  },
+  {
+    q: 'Do facilities pay to be listed?',
+    a: 'No. A listing is added from a public source such as the facility website. Neighbor and SpareFoot links are separate commercial links and are labeled as such.',
+  },
+];
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: stats.latest }),
+  {
+    '@type': 'WebSite',
+    name: site.name,
+    url: 'https://sunlightchurch.github.io/rv-storage-finder/',
+    description: site.description,
+  },
+  breadcrumbNode([{ label: 'Home', path }]),
+  {
+    '@type': 'ItemList',
+    name: 'RV and boat storage cities',
+    numberOfItems: cities.length,
+    itemListElement: cities.map((city, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: `${city.city}, ${city.state_code}`,
+      url: `https://sunlightchurch.github.io/rv-storage-finder/cities/${city.id}/`,
+    })),
+  },
+  faqNode(faqs),
+]);
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <div class="wrap">
+    <p class="eyebrow">RV and boat storage</p>
+    <h1>Storage with a source on every listing</h1>
+    <p class="lede">
+      Compare covered, enclosed, and outdoor RV and boat storage in five high-demand metros. People
+      search for covered RV storage near Tampa, boat storage with power near Phoenix, and RV storage
+      prices per month. Each city page records those facts only when a facility publishes them.
+    </p>
+    <p class="stats">
+      <span><strong>{stats.facilities}</strong> facilities</span>
+      <span><strong>{stats.cities}</strong> cities</span>
+      <span><strong>{stats.priced}</strong> publish a price</span>
+    </p>
+    <h2>Cities</h2>
+    <ul class="city-grid">
+      {
+        cities.map((city) => {
+          const counts = cityStats(city);
+          return (
+            <li>
+              <a class="city-card" href={href(`/cities/${city.id}/`)}>
+                <span class="eyebrow">{city.state}</span>
+                <span class="city-name">{city.city}</span>
+                <span class="city-meta">
+                  {counts.total} facilities · {counts.priced} with a published price
+                </span>
+              </a>
+            </li>
+          );
+        })
+      }
+    </ul>
+    <p class="legend">
+      This is a sourced sample, not every lot in those metros. On a facility card, Yes and No come from
+      the source. Not listed means that page was silent.
+    </p>
+    <h2>Browse by need</h2>
+    <FilterIndex />
+    <section class="prose">
+      <h2>How to choose, and what it costs</h2>
+      <p>
+        Measure length and height before you call. A gate is a different fact from 24-hour access, and a
+        published national range is a different fact from a facility’s own rate.
+      </p>
+      <p><a href={href('/guide/')}>Read the storage guide</a></p>
+    </section>
+    <section class="faq prose">
+      <h2>Questions</h2>
+      {
+        faqs.map((faq) => (
+          <>
+            <h3>{faq.q}</h3>
+            <p>{faq.a}</p>
+          </>
+        ))
+      }
+    </section>
+    <FindMore />
+  </div>
+</Base>

@@ -1,0 +1,457 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: orlando-fl
+city: Orlando
+state: Florida
+state_code: FL
+metro: Orlando
+summary: >-
+  These facilities publish an RV or boat storage page in Orlando or nearby,
+  including Kissimmee, Sanford, Clermont, Winter Garden, Apopka, and St. Cloud.
+  Covered, enclosed, and open space are all represented. A price stays off the
+  card when the facility does not print one.
+sparefoot_slug: Orlando-FL
+neighbor_path: florida/orlando
+sparefoot_note: null
+listings:
+  - slug: ah-storage-orlando
+    name: "A&H Storage"
+    street: 2500 N Forsyth Rd
+    city: Orlando
+    state_code: FL
+    postal_code: "32807"
+    lat: null
+    lng: null
+    phone: "(407) 678-0507"
+    website: https://www.ahstorage.co/pages/rv-boat-storage-orlando-fl
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 70
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: true
+    gated: true
+    cameras: null
+    access_24h: false
+    price_notes: >-
+      Published rates include outdoor auto and truck starting at $100 per month
+      and covered spaces at $200 (25 ft), $345 (45 ft), $380 (50 ft), $410 (55 ft),
+      and $540 (70 ft) per month.
+    waitlist: Several covered sizes are marked waiting list.
+    notes: >-
+      Covered canopy and outdoor parking. The page says every space includes
+      power for trickle charging and that a complimentary rinse station is on site.
+      Covered parking adds a 5-foot safety buffer to measured length. Gate access
+      is 6:00 AM to 10:00 PM, and vehicles must be out of the exit gate by 10 p.m.
+    sources:
+      - url: https://www.ahstorage.co/pages/rv-boat-storage-orlando-fl
+        title: Official RV and boat storage page
+    last_verified: "2026-11-18"
+
+  - slug: boat-rv-auto-storage-west-orange
+    name: Boat RV Auto Storage of West Orange
+    street: 937 Stagg Road
+    city: Winter Garden
+    state_code: FL
+    postal_code: "34787"
+    lat: null
+    lng: null
+    phone: 407-654-1889
+    website: https://www.boatrvautostorage.com/
+    vehicles: [rv, boat]
+    storage_types: [enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: true
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Valet facility that stages boats, RVs, and autos. The page describes indoor
+      and outdoor storage, a free RV dump station, and free air, ice, water, and
+      a battery charger. A valet staging area is described as 24 hours. The page
+      does not say tenants can retrieve a stored vehicle around the clock, so
+      24-hour access is not listed.
+    sources:
+      - url: https://www.boatrvautostorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: central-park-self-storage-orlando
+    name: Central Park Self Storage
+    street: 6135 S Orange Blossom Trail
+    city: Orlando
+    state_code: FL
+    postal_code: "32809"
+    lat: null
+    lng: null
+    phone: "(407) 855-6642"
+    website: https://www.storageinorlando.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: >-
+      Auto, boat, and RV storage starting at $99.99. The page does not state the
+      billing period.
+    waitlist: null
+    notes: >-
+      Self-storage facility near the Florida Mall that advertises auto, truck,
+      boat, and RV storage. The page says the facility has secure gate entry and
+      video surveillance. It does not say whether the vehicle spaces are covered,
+      enclosed, or open.
+    sources:
+      - url: https://www.storageinorlando.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: condev-rv-boat-storage-orlando
+    name: "Condev RV & Boat Storage"
+    street: 5371 Young Pine Rd
+    city: Orlando
+    state_code: FL
+    postal_code: "32829"
+    lat: null
+    lng: null
+    phone: "(407) 612-6317"
+    website: https://www.condevselfstorage.com/5371-young-pine-rd-orlando-fl-32829
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Uncovered parking for non-commercial RVs, campers, and boats. The site says
+      it does not have power or water at this facility at this time, that gates
+      operate from 5 a.m. to 11 p.m., and that new clients are being accepted
+      with limited space. Tractor trailers are not accepted.
+    sources:
+      - url: https://www.condevselfstorage.com/5371-young-pine-rd-orlando-fl-32829
+        title: Official location page
+    last_verified: "2026-11-18"
+
+  - slug: outrig-orlando
+    name: Outrig Storage Orlando
+    street: 6766 Narcoossee Rd
+    city: Orlando
+    state_code: FL
+    postal_code: "32822"
+    lat: null
+    lng: null
+    phone: "(407) 777-2002"
+    website: https://outrig.com/locations/orlando/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: 55
+    clearance_ft: 14
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: >-
+      Outdoor $94 to $329 per month, covered $184 to $534 per month, and enclosed
+      from $1,199 per month.
+    waitlist: Enclosed indoor spaces are waitlist only.
+    notes: >-
+      Outdoor spaces are stated up to 55 feet and covered spaces up to 50 feet
+      with 14-foot clearance. The page lists power, including 50-amp on select
+      spaces, a dump station, a wash station, keypad gate access from 6:30 AM
+      to 9:30 PM, and security cameras. Enclosed sizes are published from
+      29 by 39 feet to 64 by 50 feet.
+    sources:
+      - url: https://outrig.com/locations/orlando/
+        title: Official Orlando location page
+    last_verified: "2026-11-18"
+
+  - slug: park-a-lot-247
+    name: Park a Lot 247
+    street: 17504 Parkalot Lane
+    city: Orlando
+    state_code: FL
+    postal_code: "32833"
+    lat: null
+    lng: null
+    phone: "(407) 797-3218"
+    website: https://www.parkalot247.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: 56
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      Itemized rates include uncovered from $110 per month and a 56-foot covered
+      space at $375 per month. The FAQ lists covered from $350 per month and
+      enclosed at $500 per month. Optional 30/50-amp power is $40. The homepage
+      adds 6.5% Orange County sales tax.
+    waitlist: Several sizes on the rent page are marked waiting list.
+    notes: >-
+      The rent page lists uncovered, covered, and fully enclosed boat and RV
+      spaces, an electric security gate, 24/7 video surveillance, 24/7 access,
+      and an on-site wash station. One covered unit is labeled 56 by 13 by 14.
+      That single label was not recorded as the facility-wide clearance.
+    sources:
+      - url: https://www.parkalot247.com/
+        title: Official website
+      - url: https://www.parkalot247.com/pages/rent
+        title: Rates page
+    last_verified: "2026-11-18"
+
+  - slug: rental-spaces-inc
+    name: Rental Spaces Inc.
+    street: 11820 Airport Park Dr
+    city: Orlando
+    state_code: FL
+    postal_code: "32824"
+    lat: null
+    lng: null
+    phone: "(407) 305-4221"
+    website: https://rentalspacesinc.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 60
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      20 ft $190, 25 ft $200, 30 ft $220, 40 ft $240, and 60 ft $430 per month,
+      plus tax.
+    waitlist: null
+    notes: >-
+      Outdoor spaces are listed as 12 feet wide, from 20 to 60 feet long, about
+      10 minutes from Orlando International Airport. The site says tenants get
+      24/7 electronic gate access and camera surveillance access.
+    sources:
+      - url: https://rentalspacesinc.com/
+        title: Official website
+      - url: https://rentalspacesinc.com/pricing
+        title: Pricing page
+    last_verified: "2026-11-18"
+
+  - slug: rockers-lockers-st-cloud
+    name: Rocker's Lockers
+    street: 5145 E Irlo Bronson Hwy
+    city: St. Cloud
+    state_code: FL
+    postal_code: "34771"
+    lat: null
+    lng: null
+    phone: "(407) 892-1616"
+    website: https://www.rockerslockers.com/boat-storage.html
+    vehicles: [boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Outdoor boat storage on a paved lot near East Lake Toho. The page requires
+      valid registration, proof of insurance, and proof of ownership, and it
+      says access is gate controlled. RVs are not mentioned. A phrase about
+      hookup refers to trailer hookup, not an electrical outlet.
+    sources:
+      - url: https://www.rockerslockers.com/boat-storage.html
+        title: Boat storage page
+    last_verified: "2026-11-18"
+
+  - slug: safe-and-secure-kissimmee
+    name: Safe and Secure RV and Boat Storage
+    street: 1698 Dolores Dr
+    city: Kissimmee
+    state_code: FL
+    postal_code: "34746"
+    lat: null
+    lng: null
+    phone: "(407) 554-5055"
+    website: https://www.safeandsecurervandboatstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Uncovered parking for RVs, boats, trailers, and campers near South Poinciana
+      Boulevard. The page says select spaces have electrical hookups, access is
+      24/7 and gated, and the lot is video monitored. Office hours are
+      Monday through Friday 8:00 AM to 5:00 PM.
+    sources:
+      - url: https://www.safeandsecurervandboatstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: sanford-rv-boat-storage
+    name: "Sanford RV & Boat Storage"
+    street: 2175 W 25th Street
+    city: Sanford
+    state_code: FL
+    postal_code: "32771"
+    lat: null
+    lng: null
+    phone: 407-733-5735
+    website: https://sanfordrvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 70
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: >-
+      Outdoor spaces are listed at $79 (10x18), $89 (11x25), $99 (11x30),
+      $109 (11x40), $129 (11x50), and $149 (11x70) per month.
+    waitlist: null
+    notes: >-
+      Outdoor storage for boats, RVs, and trailers. Covered 11x30 spaces at $215
+      and private enclosed 13x50 units at $600 are labeled coming soon, with
+      30/50-amp service also described as part of that renovation, so they are
+      not tagged as current amenities. A dump station is described the same way.
+    sources:
+      - url: https://sanfordrvstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: storquest-apopka
+    name: StorQuest Apopka
+    street: 2371 South Orange Blossom Trl
+    city: Apopka
+    state_code: FL
+    postal_code: "32703"
+    lat: null
+    lng: null
+    phone: "(321) 430-5370"
+    website: https://www.storquest.com/self-storage/fl/apopka/2371-south-orange-blossom-trail
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 50
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      12x25 covered parking is $159 per month promotional and $207 standard.
+      12x50 is $289 promotional and $376 standard. The promotional rate is valid
+      for 4 months.
+    waitlist: null
+    notes: >-
+      The page says this Apopka location offers covered and uncovered RV parking
+      and serves Apopka, Lockhart, Longwood, and northwest Orlando. It lists
+      24-hour access, a unique gate code, and 24-hour video surveillance.
+      Hookups are described as power, water, and/or sewer, so a dump station
+      is not listed.
+    sources:
+      - url: https://www.storquest.com/self-storage/fl/apopka/2371-south-orange-blossom-trail
+        title: Official location page
+    last_verified: "2026-11-18"
+
+  - slug: toho-marine-st-cloud
+    name: Toho Marine and Outdoors
+    street: 3701 Friars Cove Lane
+    city: St. Cloud
+    state_code: FL
+    postal_code: "34772"
+    lat: null
+    lng: null
+    phone: "(407) 892-3200"
+    website: https://www.tohomarine.com/boat-and-rv-storage
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: 45
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: 25 ft and under $120 a month; 26 to 45 ft $160 a month.
+    waitlist: null
+    notes: >-
+      The page is titled boat and RV storage and prints two length tiers.
+      It does not state whether the spaces are covered, enclosed, or open.
+      Office hours are Monday through Friday 8:00 AM to 5:00 PM, Saturday
+      9:00 AM to 12:00 PM, and Sunday closed.
+    sources:
+      - url: https://www.tohomarine.com/boat-and-rv-storage
+        title: Boat and RV storage page
+    last_verified: "2026-11-18"
+
+  - slug: top-notch-rv-storage-clermont
+    name: Top Notch RV Storage
+    street: 14135 C.R. 455
+    city: Clermont
+    state_code: FL
+    postal_code: "34711"
+    lat: null
+    lng: null
+    phone: 407-654-4540
+    website: https://www.topnotchrvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      $4.50 per linear foot plus tax for open space and $7.50 per linear foot
+      plus tax for covered space, with a 20-foot minimum.
+    waitlist: null
+    notes: >-
+      Open and covered parking for cars, trucks, boats, and RVs. The site says
+      no vehicle is too large, so no numeric maximum is recorded, and it asks
+      people to call before arriving. It lists a designated hand-wash area,
+      an electronic gate, digital cameras, and 24-hour access. Office hours
+      are Monday through Friday 9 a.m. to 5 p.m.
+    sources:
+      - url: https://www.topnotchrvstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"

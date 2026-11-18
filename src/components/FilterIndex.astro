@@ -1,0 +1,24 @@
+---
+import { filterGroups, href } from '../lib/data';
+
+const groups = filterGroups();
+---
+
+<div class="filter-index">
+  {
+    groups.map((group) => (
+      <section>
+        <h2>{group.filter.label}</h2>
+        <ul>
+          {group.pages.map((page) => (
+            <li>
+              <a href={href(page.path)}>
+                {page.city.city} <span class="count">{page.matches.length}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))
+  }
+</div>

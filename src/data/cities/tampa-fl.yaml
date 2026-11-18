@@ -1,0 +1,482 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+# null means the source did not say. Do not guess.
+id: tampa-fl
+city: Tampa
+state: Florida
+state_code: FL
+metro: Tampa Bay
+summary: >-
+  These facilities publish an RV or boat storage page and are in Tampa or nearby,
+  including Oldsmar, Brandon, Lutz, Plant City, and Ruskin. Each card uses only
+  what that page states.
+sparefoot_slug: Tampa-FL
+neighbor_path: florida/tampa
+sparefoot_note: null
+listings:
+  - slug: 39-rv-boat-storage-plant-city
+    name: "39 RV, Boat Storage"
+    street: "5745 S County Rd 39, Ste 4"
+    city: Plant City
+    state_code: FL
+    postal_code: "33567"
+    lat: null
+    lng: null
+    phone: "(813) 922-2555"
+    website: https://39rvboatstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      The RV outdoor storage page shows $70.00 and does not state the billing period.
+    waitlist: null
+    notes: >-
+      Plant City outdoor lot for RVs, boats, and utility trailers. The site says
+      it also serves Riverview, Brandon, and Tampa, with gated access and continuous
+      video monitoring.
+    sources:
+      - url: https://39rvboatstorage.com/
+        title: Official website
+      - url: https://39rvboatstorage.com/services/outdoor-parking-storage-solutions/rv-outdoor-storage-150557869
+        title: RV outdoor storage page
+    last_verified: "2026-11-18"
+
+  - slug: affordable-storage-plant-city
+    name: Affordable Storage of Plant City
+    street: 402 W. Ball Street
+    city: Plant City
+    state_code: FL
+    postal_code: "33563"
+    lat: null
+    lng: null
+    phone: "(813) 684-2524"
+    website: https://affordablestorageplantcity.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: >-
+      A rates block lists a 300-square-foot outdoor RV and boat space at $99.
+      The page does not spell out the billing period.
+    waitlist: null
+    notes: >-
+      The site lists an outdoor RV and boat space and says its services include
+      vehicle storage and RV storage.
+    sources:
+      - url: https://affordablestorageplantcity.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: cubesmart-lutz
+    name: CubeSmart Self Storage of Lutz
+    street: 1402 E Bearss Ave
+    city: Lutz
+    state_code: FL
+    postal_code: "33549"
+    lat: null
+    lng: null
+    phone: "(813) 910-0871"
+    website: https://www.cubesmart.com/florida-self-storage/lutz-self-storage/137.html
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: false
+    price_notes: >-
+      Outdoor parking is listed at $96 per month online for 20 ft ($160 in store),
+      $135 online for 25 ft ($225 in store), and $171 online for 40 ft ($285 in store),
+      with a second-month-free and 40% off offer.
+    waitlist: null
+    notes: >-
+      The Lutz page advertises RV storage and boat parking. Published access hours
+      are daily 6:00 AM to 10:00 PM. The phone is the current-customer number printed
+      on the page. Chain-wide camera wording was not treated as a Lutz fact.
+    sources:
+      - url: https://www.cubesmart.com/florida-self-storage/lutz-self-storage/137.html
+        title: Official location page
+    last_verified: "2026-11-18"
+
+  - slug: econo-boat-rv-storage-oldsmar
+    name: "Econo Boat & RV Storage"
+    street: 406 Race Track Road N
+    city: Oldsmar
+    state_code: FL
+    postal_code: "34677"
+    lat: null
+    lng: null
+    phone: "(813) 230-8722"
+    website: https://www.econoboatstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      Listed rates include 25x10 boat/RV storage at $79.06 per month (from $158.11),
+      30x10 at $94.63 (from $189.25), 35x12 at $97.75 (from $195.50), 40x10 at $191.58,
+      covered 28x11 at $204.97, and 35x10 at $209.50.
+    waitlist: null
+    notes: >-
+      The rent page labels a 28x11 space as covered boat, RV, and vehicle storage.
+      Other sizes are not labeled covered or open, so only covered is tagged.
+      The contact page also prints 813-814-7676.
+    sources:
+      - url: https://www.econoboatstorage.com/
+        title: Official website
+      - url: https://www.econoboatstorage.com/pages/rent
+        title: Rates page
+      - url: https://www.econoboatstorage.com/pages/contact
+        title: Contact page
+    last_verified: "2026-11-18"
+
+  - slug: journey-usa-rv-tampa
+    name: Journey USA RV
+    street: 9610 E. US Hwy 92
+    city: Tampa
+    state_code: FL
+    postal_code: "33610"
+    lat: null
+    lng: null
+    phone: "(813) 802-9285"
+    website: https://journeyusarv.com/storage
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      Monthly rates plus tax: up to 30 ft $145, 30 to 35 ft $155, 36 to 40 ft $175,
+      41 to 45 ft $195, and 46+ ft $225.
+    waitlist: null
+    notes: >-
+      The FAQ says storage is uncovered open-air on a fenced, gated lot with
+      surveillance cameras and 24/7 Bluetooth gate access, and that boats and
+      vehicles 46 feet and longer are accepted. The page title says covered;
+      the FAQ says covered storage is not offered. Length is not given a fixed maximum.
+    sources:
+      - url: https://journeyusarv.com/storage
+        title: Official storage page
+    last_verified: "2026-11-18"
+
+  - slug: oldsmar-self-storage
+    name: Oldsmar Self Storage
+    street: 13850 W. Hillsborough Ave
+    city: Tampa
+    state_code: FL
+    postal_code: "33635"
+    lat: null
+    lng: null
+    phone: "(813) 855-0643"
+    website: https://www.tampabayselfstorage.com/13850-w-hillsborough-ave-tampa-fl-33635
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Tampa Bay Storage lists outdoor boat, RV, vehicle, and trailer parking at
+      this West Hillsborough Avenue address, next to indoor storage units.
+    sources:
+      - url: https://www.tampabayselfstorage.com/13850-w-hillsborough-ave-tampa-fl-33635
+        title: Official location page
+    last_verified: "2026-11-18"
+
+  - slug: peoples-choice-storage-brandon
+    name: People's Choice Storage
+    street: 125 Central Dr
+    city: Brandon
+    state_code: FL
+    postal_code: "33510"
+    lat: null
+    lng: null
+    phone: "(813) 681-1101"
+    website: https://peopleschoicestorage.com/locations/brandon-fl-33510
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Brandon vehicle storage is described as an uncovered gravel lot for RVs,
+      boats, campers, and fifth-wheels. Standard gate hours are 6:00 AM to 10:00 PM,
+      and 24/7 access is offered for an additional fee.
+    sources:
+      - url: https://peopleschoicestorage.com/locations/brandon-fl-33510
+        title: Official location page
+    last_verified: "2026-11-18"
+
+  - slug: port-32-tampa
+    name: PORT 32 Tampa
+    street: 5200 W Tyson Avenue
+    city: Tampa
+    state_code: FL
+    postal_code: "33611"
+    lat: null
+    lng: null
+    phone: "(813) 831-1200"
+    website: https://www.port32marinas.com/p32marinas/tampa
+    vehicles: [boat]
+    storage_types: [enclosed]
+    max_length_ft: 42
+    clearance_ft: 17
+    power_hookups: null
+    dump_station: null
+    wash_station: true
+    gated: true
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Tampa Bay dry storage is listed for boats up to 42 feet long, 17 feet high,
+      and 12 feet of beam. The page describes weatherproof indoor dry-stack storage,
+      wash racks, and gated access. RVs are not mentioned.
+    sources:
+      - url: https://www.port32marinas.com/p32marinas/tampa
+        title: Official Tampa marina page
+    last_verified: "2026-11-18"
+
+  - slug: recnation-ruskin
+    name: "RecNation RV & Boat Storage"
+    street: 1415 3rd Street NE
+    city: Ruskin
+    state_code: FL
+    postal_code: "33570"
+    lat: null
+    lng: null
+    phone: "(813) 480-1916"
+    website: https://www.recnationstorage.com/storage-facility/fl/ruskin/1415-3rd-st-ne/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 50
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      On November 18, 2026 the page listed uncovered web rates from $37 (12x10) to
+      $93 (12x50) and canopy web rates from $146 (12x20) to $223 (14x40). Some
+      uncovered spaces also showed a higher from-price.
+    waitlist: null
+    notes: >-
+      Ruskin uncovered and canopy lot for boats and RVs, described as serving
+      Apollo Beach. Regular access is given as 4:30 a.m. to 10:00 p.m., with
+      24-hour access upon request. A generic power feature was not tied to a
+      Ruskin space, so power is not listed. "No height limits" was not treated
+      as a numeric clearance.
+    sources:
+      - url: https://www.recnationstorage.com/storage-facility/fl/ruskin/1415-3rd-st-ne/
+        title: Official facility page
+    last_verified: "2026-11-18"
+
+  - slug: rl-storage-tampa
+    name: RL Storage
+    street: 14523 N. Florida Ave.
+    city: Tampa
+    state_code: FL
+    postal_code: "33613"
+    lat: null
+    lng: null
+    phone: "(813) 607-4899"
+    website: https://www.rlstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 70
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: >-
+      Outdoor monthly rates: up to 20 ft $99.95, 21 to 30 ft $149.95, 31 to 40 ft
+      $199.95, 41 to 50 ft $249.95, and up to 70 ft $299.95.
+    waitlist: >-
+      The site says to request a unit for the waitlist when a size is unavailable.
+    notes: >-
+      North Tampa outdoor lot for RVs, boats, trailers, and autos, with spaces
+      from 20 feet through a 70-foot drive-through. The page says the facility
+      is gated and has cameras.
+    sources:
+      - url: https://www.rlstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: state-storage-tampa-airport
+    name: State Storage Tampa Airport
+    street: 6717 Benjamin Road
+    city: Tampa
+    state_code: FL
+    postal_code: "33634"
+    lat: null
+    lng: null
+    phone: "(813) 733-5800"
+    website: https://www.statestoragetpa.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: >-
+      Secured outdoor RV parking and a 12 x 40 RV and utility parking space are
+      listed at $249.99 per month.
+    waitlist: null
+    notes: >-
+      Airport-area facility advertising RV and boat parking. Published gate hours
+      are 7:00 AM to 10:00 PM. The page also describes AI video surveillance.
+    sources:
+      - url: https://www.statestoragetpa.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: storage-sense-tampa
+    name: Storage Sense - Tampa
+    street: 2425 S 86th St
+    city: Tampa
+    state_code: FL
+    postal_code: "33619"
+    lat: null
+    lng: null
+    phone: "(813) 621-5464"
+    website: https://www.storagesense.com/location/USA/FL/Tampa/sense-tampa-831/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Southeast Tampa location with outdoor parking for boats, motorhomes, travel
+      trailers, and campers. The page says the facility is gated and has recording
+      cameras. Published access hours are 6:00 AM to 10:00 PM.
+    sources:
+      - url: https://www.storagesense.com/location/USA/FL/Tampa/sense-tampa-831/
+        title: Official location page
+    last_verified: "2026-11-18"
+
+  - slug: u-haul-westchase-tampa
+    name: "U-Haul Moving & Storage at Westchase"
+    street: 11401 W Hillsborough Ave
+    city: Tampa
+    state_code: FL
+    postal_code: "33635"
+    lat: null
+    lng: null
+    phone: "(813) 855-5976"
+    website: https://www.uhaul.com/Locations/Self-Storage-near-Tampa-FL-33635/786055/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: >-
+      An outside-level space tagged RV, boat, and vehicle parking is listed at
+      $149.95 per month. That space is labeled Medium 9 by 16 by 99 feet, which
+      was not recorded as a usable RV length.
+    waitlist: null
+    notes: >-
+      The Westchase page says RV and boat storage is available. One line says
+      extended and 24-hour access is a feature, and a later line says to ask
+      whether 24-hour access is available, so 24-hour access is not listed.
+      Dump stations and electrical outlets are written as inquire items.
+    sources:
+      - url: https://www.uhaul.com/Locations/Self-Storage-near-Tampa-FL-33635/786055/
+        title: Official location page
+    last_verified: "2026-11-18"
+
+  - slug: west-tampa-storage
+    name: West Tampa Storage
+    street: 13125 Memorial Hwy
+    city: Tampa
+    state_code: FL
+    postal_code: "33635"
+    lat: null
+    lng: null
+    phone: "(857) 636-0341"
+    website: https://westtampastorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 45
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: true
+    gated: true
+    cameras: null
+    access_24h: true
+    price_notes: >-
+      Monthly rates are $125 (1 ft to 24 ft 11 in), $135 (25 to 29 ft 11 in),
+      $145 (30 to 34 ft 11 in), $155 (35 to 39 ft 11 in), and $170 (40 to 45 ft).
+      A 24-hour access card is $10 per month extra.
+    waitlist: null
+    notes: >-
+      Open storage for motorhomes, campers, and boats on trailers, with a wash
+      and fill area the site says is free for customers. Normal gate hours are
+      6:00 AM to 8:45 PM, and a 24-hour access card is optional.
+    sources:
+      - url: https://westtampastorage.com/
+        title: Official website
+      - url: https://westtampastorage.com/rates/
+        title: Rates page
+    last_verified: "2026-11-18"

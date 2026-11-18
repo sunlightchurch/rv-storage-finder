@@ -1,0 +1,541 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: houston-tx
+city: Houston
+state: Texas
+state_code: TX
+metro: Houston
+summary: >-
+  These facilities publish an RV or boat storage page in Houston or nearby,
+  including Cypress, Spring, Pearland, Richmond, Humble, Katy, Baytown, and
+  Pasadena. Several advertise enclosed garages or covered parking. Gate hours
+  are repeated in the note when the site prints a window.
+sparefoot_slug: Houston-TX
+neighbor_path: texas/houston
+sparefoot_note: null
+listings:
+  - slug: advantage-rv-boat-storage
+    name: "Advantage RV & Boat Storage"
+    street: 1050 Pruitt Rd.
+    city: Spring
+    state_code: TX
+    postal_code: "77380"
+    lat: null
+    lng: null
+    phone: 281-419-3807
+    website: https://advantagervandboatstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered RV and boat spaces with electricity for battery charging, an
+      electronic gate, and cameras. Gate access is Monday through Sunday
+      6:00 AM to 10:00 PM. A dump station is described as being at the corporate
+      office nearby, so it is not marked on this lot.
+    sources:
+      - url: https://advantagervandboatstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: all-weather-boat-rv-storage
+    name: "All Weather Boat & RV Storage"
+    street: 25310 Richards Road
+    city: Spring
+    state_code: TX
+    postal_code: "77386"
+    lat: null
+    lng: null
+    phone: "(346) 351-4993"
+    website: https://www.allweatherboatandrvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [enclosed, open]
+    max_length_ft: 34
+    clearance_ft: 11
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      Listed rates include an enclosed 30x12x11 at $225 per month, a 34 ft unit
+      at $235 per month, a 12x14x8 mini unit at $85 per month, and uncovered
+      parking up to 30 ft at $95 per month.
+    waitlist: null
+    notes: >-
+      Enclosed units and uncovered parking. The mini unit is described as 8 ft
+      tall at the entrance. The page lists a light and outlet, an electronic
+      gate with 24-hour coded access, HD security cameras, and 24/7 drive-up
+      access. Office hours are Monday through Friday 9:00 AM to 5:00 PM,
+      Saturday 9:00 AM to 2:00 PM, and Sunday 11:00 AM to 2:00 PM.
+    sources:
+      - url: https://www.allweatherboatandrvstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: baytown-boat-rv-self-storage
+    name: "Baytown Boat, RV, and Self Storage"
+    street: 4500 N. Main
+    city: Baytown
+    state_code: TX
+    postal_code: "77521"
+    lat: null
+    lng: null
+    phone: "(281) 420-3024"
+    website: https://www.baytown-storage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      The homepage shows $169 under covered parking. The fetched text does not
+      spell out the billing period.
+    waitlist: null
+    notes: >-
+      The page offers outdoor, enclosed, and covered vehicle storage, digital
+      video surveillance, and 24-hour access. Office hours are Monday through
+      Friday 9:30 AM to 6:00 PM.
+    sources:
+      - url: https://www.baytown-storage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: capital-rv-boat-storage-katy
+    name: "Capital RV & Boat Storage"
+    street: 9127-A Katy Hockley Road
+    city: Katy
+    state_code: TX
+    postal_code: "77493"
+    lat: null
+    lng: null
+    phone: "(832) 779-5916"
+    website: https://capitalrvboat.com/location/katy-hockley
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: 75
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      The RV and boat list includes enclosed 14x35 at $245, 14x40 at $280, and
+      14x70 pull-through at $490; covered 13x30 at $175 through a 13x75
+      pull-through at $290; and uncovered from $95 to $150. A business-use
+      section lists those enclosed sizes at $490, $560, and $980.
+    waitlist: null
+    notes: >-
+      Angled covered units, open surface parking, and fully enclosed bays.
+      Some uncovered rows say they have no power, while power is listed as
+      available. The page says the facility is fenced and gated, has 24-hour
+      video surveillance, and is open 24 hours.
+    sources:
+      - url: https://capitalrvboat.com/location/katy-hockley
+        title: Katy location page
+    last_verified: "2026-11-18"
+
+  - slug: houston-boat-car-rv-storage
+    name: "Houston Boat, Car, RV Storage"
+    street: 1611 Oak Tree
+    city: Houston
+    state_code: TX
+    postal_code: "77080"
+    lat: null
+    lng: null
+    phone: 713-665-5135
+    website: https://www.houstonboatcarstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: 50
+    clearance_ft: 12
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: >-
+      Listed monthly rates run from $205 for an 11x20x10 to $470 for an
+      11x50x12. The page states a three-month minimum paid in full, a first
+      month half off, and a deposit equal to half the monthly rate.
+    waitlist: null
+    notes: >-
+      Fully enclosed units with concrete floors for boats, cars, and RVs.
+      Standard units are described as about 8 ft 2 in tall, with other listed
+      heights of 10, 11.5, and 12 ft. The page lists water and electricity,
+      a controlled entry gate, and monitored HD cameras. Access hours are
+      6:00 AM to 10:00 PM.
+    sources:
+      - url: https://www.houstonboatcarstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: humble-boat-rv-storage
+    name: Humble Boat and RV Storage
+    street: 3010 Atascocita Road
+    city: Humble
+    state_code: TX
+    postal_code: "77396"
+    lat: null
+    lng: null
+    phone: "(281) 801-4001"
+    website: https://www.humblestorageboatrv.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: 55
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered, enclosed, and uncovered storage, including a published 14 by 55
+      unit. Pages on this site list ceilings of 14 to 16 ft and also say
+      ceilings are as high as 14 ft, so clearance is not reduced to one number.
+      In-unit charging outlets, gated access, and video surveillance are stated.
+      Contact text lists everyday gate hours of 6:00 AM to 10:00 PM with
+      alternative hours by request, while other copy says 24/7 access is offered,
+      so 24-hour access is not given a yes or no.
+    sources:
+      - url: https://www.humblestorageboatrv.com/
+        title: Official website
+      - url: https://www.humblestorageboatrv.com/contact
+        title: Contact page
+      - url: https://www.humblestorageboatrv.com/locations/humble-tx-77396/view-unit/14/55
+        title: 14 by 55 unit page
+      - url: https://www.humblestorageboatrv.com/units
+        title: Units page
+    last_verified: "2026-11-18"
+
+  - slug: lotts-boat-auto-rv-storage
+    name: "Lott's Boat, Auto & RV Storage"
+    street: 2919 Beverly Rd.
+    city: Pasadena
+    state_code: TX
+    postal_code: "77503"
+    lat: null
+    lng: null
+    phone: "(281) 487-1163"
+    website: https://www.lottsstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      Medium units are listed at $120 and outdoor parking starts at $60.
+      Covered parking is offered without a price on the homepage. The fetched
+      text does not spell out the billing period.
+    waitlist: null
+    notes: >-
+      Outdoor, covered, and enclosed vehicle storage, plus climate control for
+      household units. The page lists digital video surveillance and 24-hour
+      access. Office hours are 9:00 AM to 5:00 PM every day.
+    sources:
+      - url: https://www.lottsstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: pearland-boat-rv-storage
+    name: "Pearland Boat & RV Storage"
+    street: 3600 Old Chocolate Bayou Rd
+    city: Pearland
+    state_code: TX
+    postal_code: "77584"
+    lat: null
+    lng: null
+    phone: "(281) 692-1999"
+    website: https://www.pearlandboatrvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The page calls the spaces oversized storage units and does not say whether
+      they are covered, enclosed, or open. It lists 24-hour access, computerized
+      gated entry, video surveillance, and a boat motor flush station. Office
+      hours are Monday through Friday 8:30 AM to 5:30 PM.
+    sources:
+      - url: https://www.pearlandboatrvstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: recnation-houston-galveston-rd
+    name: "RecNation RV & Boat Storage"
+    street: 8750 Galveston Rd
+    city: Houston
+    state_code: TX
+    postal_code: "77034"
+    lat: null
+    lng: null
+    phone: "(713) 944-3331"
+    website: https://www.recnationstorage.com/storage-facility/tx/houston/8750-galveston-rd/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: 55
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      On this facility's unit list, web rates include uncovered 12x35 ft at $83,
+      uncovered 12x50 ft at $115, canopy 12x35 ft at $196, and indoor garage
+      12x55 ft at $334. Some sizes also show a higher from-price.
+    waitlist: null
+    notes: >-
+      Indoor garage, outdoor canopy, and outdoor uncovered spaces. Longer rows
+      that appear only under nearby facilities were not used. Uncovered spaces
+      are described as having no height limits, which is not a numeric clearance.
+      The page lists power, a vehicle washdown area, gated entry, 24/7 security
+      cameras, and 24-hour access upon request.
+    sources:
+      - url: https://www.recnationstorage.com/storage-facility/tx/houston/8750-galveston-rd/
+        title: Official facility page
+    last_verified: "2026-11-18"
+
+  - slug: storage-solutions-plus-tower-oaks
+    name: Storage Solutions Plus
+    street: 10860 Tower Oaks Blvd
+    city: Houston
+    state_code: TX
+    postal_code: "77070"
+    lat: null
+    lng: null
+    phone: "(713) 370-1725"
+    website: https://storagesolutionsplus.com/rv-storage-10860-tower-oaks/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: >-
+      Enclosed 10x26 units from $91 per month with electricity. The page also
+      says covered and open parking starts at $91 per month, month to month.
+    waitlist: null
+    notes: >-
+      Enclosed units are described as fitting rigs up to 26 feet, with open
+      parking offered for larger rigs and no published maximum length, so length
+      is not listed. Tenant gate access is daily 6:00 AM to 10:00 PM. The page
+      lists electronic gate access and video surveillance.
+    sources:
+      - url: https://storagesolutionsplus.com/rv-storage-10860-tower-oaks/
+        title: Tower Oaks RV storage page
+    last_verified: "2026-11-18"
+
+  - slug: sugar-land-boat-rv-storage
+    name: "Sugar Land Boat & RV Storage"
+    street: 7415 FM 2759
+    city: Richmond
+    state_code: TX
+    postal_code: "77469"
+    lat: null
+    lng: null
+    phone: "(713) 256-7835"
+    website: https://sugarlandrvandboatstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed]
+    max_length_ft: 70
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The lot is in Richmond and advertises covered spaces up to 70 feet and
+      fully enclosed units, with no deposit and month-to-month rental for
+      Sugar Land and nearby Fort Bend communities. The page says access is
+      24 hours.
+    sources:
+      - url: https://sugarlandrvandboatstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: sunterra-storage-katy
+    name: Sunterra Storage
+    street: 4125 Schlipf Rd
+    city: Katy
+    state_code: TX
+    postal_code: "77493"
+    lat: null
+    lng: null
+    phone: "(713) 564-0194"
+    website: https://sunterrastorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: 50
+    clearance_ft: 14
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: >-
+      50 ft fully enclosed storage starting at $295 per month, covered RV
+      parking $145, and uncovered parking $65.
+    waitlist: null
+    notes: >-
+      Open spots range from 20 to 50 feet. Enclosed units are described as
+      14 ft tall with 14 ft roll doors. Normal covered sites are limited to
+      40 ft at 13 ft 6 in clearance, and extra-tall covered sites are 14 ft
+      with an open rear. The page lists in-unit outlets, personal gate codes,
+      and outdoor cameras. Access is 6:00 AM to 10:00 PM daily.
+    sources:
+      - url: https://sunterrastorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: united-boat-rv-storage-cypress
+    name: "United Boat & RV Storage"
+    street: 17919 Cypress Rosehill Rd
+    city: Cypress
+    state_code: TX
+    postal_code: "77429"
+    lat: null
+    lng: null
+    phone: "(713) 702-1298"
+    website: https://unitedboatandrv.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The company page lists enclosed units, covered parking, and open parking,
+      plus electricity, an RV dump station, a wash station, an automated gate,
+      and 24/7 surveillance. The same page lists a second facility at 21660 FM
+      362, Waller, TX 77484, (832) 729-3133, and does not split every feature
+      by address. Office hours are Monday through Friday 8:00 AM to 5:00 PM.
+    sources:
+      - url: https://unitedboatandrv.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: vintage-rv-storage
+    name: Vintage RV Storage
+    street: 16413 Louetta Road
+    city: Houston
+    state_code: TX
+    postal_code: "77070"
+    lat: null
+    lng: null
+    phone: "(281) 845-2772"
+    website: https://www.vintagervstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: 50
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Enclosed RV and boat garages. A 20 by 50 unit page is published. The
+      homepage cites 65-foot concrete aisles, which was not recorded as a
+      vehicle maximum. The page lists 50-amp outlets, a complimentary dump
+      station and wash station, a keypad gate, and 24-hour security cameras.
+      The homepage says 24/7 keypad access is available, while the contact page
+      lists gate hours of 6:00 AM to 10:00 PM, so 24-hour access is not given
+      a yes or no.
+    sources:
+      - url: https://www.vintagervstorage.com/
+        title: Official website
+      - url: https://www.vintagervstorage.com/contact
+        title: Contact page
+      - url: https://www.vintagervstorage.com/locations/houston-tx-77070/view-unit/20/50
+        title: 20 by 50 unit page
+    last_verified: "2026-11-18"
+
+  - slug: weiman-boat-rv-storage
+    name: "Weiman Boat & RV Storage"
+    street: 13514 Weiman Road
+    city: Houston
+    state_code: TX
+    postal_code: "77041"
+    lat: null
+    lng: null
+    phone: 832-568-3665
+    website: https://www.weimanstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: 36
+    clearance_ft: 13
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: true
+    price_notes: >-
+      The rent page lists fully enclosed units at $130, $145, $160, $170, $175,
+      and $225 per month for labeled sizes 28x11x9, 28x12x9, 33x12x13, 33x13x13,
+      33x14x13, and 36x13x13. The homepage also shows medium units at $150 and
+      large units at $175.
+    waitlist: null
+    notes: >-
+      Gated, fully enclosed units. The tallest listed unit height is 13 ft;
+      other listed heights are 9 ft. The page says every unit has a light and
+      an electric plug, with 24/7 access. Office hours are 9:00 AM to 5:00 PM
+      every day.
+    sources:
+      - url: https://www.weimanstorage.com/
+        title: Official website
+      - url: https://www.weimanstorage.com/pages/rent
+        title: Rates page
+    last_verified: "2026-11-18"

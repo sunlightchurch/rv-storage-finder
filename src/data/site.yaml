@@ -1,0 +1,30 @@
+# Site-wide copy and marketplace links.
+# Affiliate accounts are not approved yet. Leave the ids empty.
+# Plain public URLs are used until both affiliate_id and affiliate_param are set.
+# TODO: when Neighbor approves the account, paste the partner id into affiliate_id,
+# set affiliate_param to the query name they assign, and replace search_template
+# if they require a tracking domain instead of a query parameter.
+# TODO: do the same for SpareFoot. Do not invent an id.
+
+name: RV Storage Finder
+tagline: Sourced RV and boat storage by city.
+url: https://sunlightchurch.github.io/rv-storage-finder
+description: >-
+  A sourced directory of RV and boat storage in Tampa, Orlando, Phoenix,
+  Houston, and Dallas-Fort Worth.
+repo: https://github.com/sunlightchurch/rv-storage-finder
+affiliates:
+  neighbor:
+    name: Neighbor
+    homepage: https://www.neighbor.com
+    # {neighbor_path} is a lowercase "state/city" path, such as florida/tampa.
+    search_template: "https://www.neighbor.com/rv-storage-near-me/{neighbor_path}"
+    affiliate_id: ""
+    affiliate_param: ""
+  sparefoot:
+    name: SpareFoot
+    homepage: https://www.sparefoot.com
+    # {sparefoot_slug} looks like Tampa-FL. This is the public RV results page.
+    search_template: "https://www.sparefoot.com/{sparefoot_slug}-self-storage/rv-storage.html"
+    affiliate_id: ""
+    affiliate_param: ""

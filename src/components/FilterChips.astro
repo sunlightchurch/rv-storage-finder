@@ -1,0 +1,44 @@
+---
+import { filtersForCity, href, type City } from '../lib/data';
+
+interface Props {
+  city: City;
+  current: string;
+}
+
+const { city, current } = Astro.props;
+const pages = filtersForCity(city.id);
+---
+
+<nav class="chips" aria-label={`Storage filters for ${city.city}`}>
+  <ul>
+    <li>
+      {
+        current === 'all' ? (
+          <span aria-current="page">
+            All listings <span class="count">{city.listings.length}</span>
+          </span>
+        ) : (
+          <a href={href(`/cities/${city.id}/`)}>
+            All listings <span class="count">{city.listings.length}</span>
+          </a>
+        )
+      }
+    </li>
+    {
+      pages.map((page) => (
+        <li>
+          {page.slug === current ? (
+            <span aria-current="page">
+              {page.filter.label} <span class="count">{page.matches.length}</span>
+            </span>
+          ) : (
+            <a href={href(page.path)}>
+              {page.filter.label} <span class="count">{page.matches.length}</span>
+            </a>
+          )}
+        </li>
+      ))
+    }
+  </ul>
+</nav>

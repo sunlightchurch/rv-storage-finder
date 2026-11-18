@@ -1,0 +1,187 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import FindMore from '../components/FindMore.astro';
+import { directoryStats, href } from '../lib/data';
+import { breadcrumbNode, faqNode, pageGraph, webPageNode } from '../lib/schema';
+
+const title = 'How to choose RV storage and what it costs per month';
+const description =
+  'How to compare covered, enclosed, and outdoor RV storage, what length and height to measure, and how to read a monthly price when a facility publishes one.';
+const path = '/guide/';
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'Cost guide', path },
+];
+const faqs = [
+  {
+    q: 'How much does RV storage cost per month?',
+    a: 'SelfStorage.com, read on November 18, 2026, lists national average monthly ranges of $75 to $150 for outdoor storage, $125 to $200 for covered storage, and $150 to $400 for indoor storage. Those ranges are not a quote for a facility in this directory. City pages repeat a price only when that facility publishes one, and this site does not average those prices.',
+  },
+  {
+    q: 'What is the difference between covered and enclosed RV storage?',
+    a: 'Covered storage adds a roof or canopy and leaves the sides open. Enclosed storage is a garage bay or a shared indoor building. Open storage is a marked outdoor space with no roof. A listing is tagged only when the facility page uses that kind of description.',
+  },
+  {
+    q: 'What length and height should I measure?',
+    a: 'Measure the stored length, including the hitch or spare tire if it sticks out, and the height at the tallest roof equipment. SelfStorage.com describes typical Class B lengths as 16 to 24 feet, Class C as 20 to 33 feet, and Class A as 28 to 41 feet. Your coach may fall outside those bands, so the measurement on the vehicle wins. Ask whether the lot adds a buffer. A&H Storage in Orlando states that covered parking adds a 5-foot safety buffer to the measured length.',
+  },
+  {
+    q: 'Do I need a power hookup to store an RV?',
+    a: 'Many owners use a trickle charger or a battery maintainer, which needs an outlet. A storage outlet is often not a campground pedestal. When a page states 30-amp or 50-amp service, the listing note says so. When the page only says power, do not assume the air conditioner can run.',
+  },
+];
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: directoryStats().latest }),
+  breadcrumbNode(crumbs),
+  {
+    '@type': 'Article',
+    headline: title,
+    description,
+    dateModified: directoryStats().latest,
+    mainEntityOfPage: 'https://sunlightchurch.github.io/rv-storage-finder/guide/',
+    author: { '@type': 'Organization', name: 'RV Storage Finder' },
+    publisher: { '@type': 'Organization', name: 'RV Storage Finder' },
+  },
+  faqNode(faqs),
+]);
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <article class="wrap prose">
+    <Breadcrumbs items={crumbs} />
+    <h1>How to choose RV storage and what it costs</h1>
+    <p>
+      A useful quote names the space, the length, and the total due. The city pages in this directory
+      keep a price only when the facility prints one. This guide is how to read those cards and what to
+      ask before you pay.
+    </p>
+
+    <h2>Measure the vehicle the way the lot will</h2>
+    <p>
+      Length usually includes whatever sticks out farthest: the hitch, a spare tire, or a ladder. Height
+      is the roof air conditioner or satellite, whichever is taller. Width with the slides in is what has
+      to clear the door. Ask whether the facility adds a buffer. A&amp;H Storage in Orlando states that
+      covered parking adds a 5-foot safety buffer to the measured length. That is one facility’s rule.
+      Get the rule for the lot you are renting.
+    </p>
+    <p>
+      SelfStorage.com describes typical lengths as 16 to 24 feet for a Class B, 20 to 33 feet for a Class
+      C, and 28 to 41 feet for a Class A. Use those as a rough map, then measure the vehicle you own.
+    </p>
+
+    <h2>Covered, enclosed, and open</h2>
+    <p>
+      Open storage is a marked space on a lot. It is usually the lowest published rate and it leaves the
+      finish in the sun, hail, and sap. Covered storage adds a roof or canopy and still has open sides.
+      Enclosed storage is a garage bay or a warehouse. It costs more, and it is the option people choose
+      for a long sit or a boat that should stay out of the weather.
+    </p>
+    <p>
+      In Tampa and Orlando, ask what the lot does when a hurricane watch is posted. In Phoenix, a roof is
+      mostly about the sun. In Houston and Dallas-Fort Worth, ask about hail. Those are questions for the
+      facility. A listing here does not claim a storm policy unless that facility’s own page says so.
+    </p>
+
+    <h2>Power, dump, and wash</h2>
+    <p>
+      Power on a storage lot is often a trickle-charge outlet. When a page says 30-amp or 50-amp, the
+      listing says that. A wash bay and a dump station are separate facts. Some companies mention a dump
+      station at a different address. Advantage RV &amp; Boat Storage in Spring, Texas, describes a dump
+      station at the corporate office nearby, so the Spring card does not mark a dump station on that lot.
+    </p>
+
+    <h2>Access and security</h2>
+    <p>
+      A gate code and round-the-clock access are different. Many lots in this directory publish a window
+      such as 6 a.m. to 10 p.m. West Tampa Storage lists normal gate hours of 6:00 a.m. to 8:45 p.m. and
+      a 24-hour access card for $10 a month. The card says Yes for 24-hour access, and the note carries
+      the fee and the ordinary hours. Read both.
+    </p>
+    <p>
+      Cameras and a gate reduce casual theft. They do not replace your own insurance. Ask what the
+      facility’s policy covers while the vehicle is stored, and what yours covers.
+    </p>
+
+    <h2>What a month of storage costs</h2>
+    <div class="table-wrap">
+      <table>
+        <caption>National monthly ranges published by SelfStorage.com</caption>
+        <thead>
+          <tr>
+            <th scope="col">Type they name</th>
+            <th scope="col">Average monthly cost they list</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Outdoor</th>
+            <td>$75 to $150</td>
+          </tr>
+          <tr>
+            <th scope="row">Covered</th>
+            <td>$125 to $200</td>
+          </tr>
+          <tr>
+            <th scope="row">Indoor</th>
+            <td>$150 to $400</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="fine">
+      Source:
+      <a href="https://www.selfstorage.com/storage-types/rv-self-storage" rel="noopener noreferrer">SelfStorage.com RV storage guide</a>,
+      read November 18, 2026. These are that site’s national comparison ranges. A rural lot can be lower
+      and a coastal enclosed building can be higher. They are not a bid for Tampa, Orlando, Phoenix,
+      Houston, or Dallas-Fort Worth.
+    </p>
+    <p>
+      On a city page, a price note keeps the unit size and both numbers when a facility prints a
+      promotional rate and a higher in-store rate. CubeSmart in Lutz has published both for the same
+      outdoor lengths. This directory does not average them and does not invent a price for a page that
+      says to call.
+    </p>
+    <p>
+      The shape of the quote changes by lot. Top Notch RV Storage in Clermont prices open space at $4.50
+      per linear foot plus tax and covered space at $7.50 per linear foot plus tax, with a 20-foot
+      minimum. West Tampa Storage prints flat monthly tiers by length, from $125 to $170 on the rates
+      page we checked. Tax, a gate card, and an admin fee may be extra in either case.
+    </p>
+
+    <h2>Questions to ask before you pay</h2>
+    <ol>
+      <li>What length and height do you measure, and do you add a buffer?</li>
+      <li>Is the space covered, enclosed, or open, and what is the door or canopy height?</li>
+      <li>Is power included, what amperage is it, and what can it run?</li>
+      <li>What are the gate hours, and is 24-hour access an extra fee?</li>
+      <li>What is due at move-in, including tax, deposit, and the first month?</li>
+      <li>How much notice does it take to leave?</li>
+      <li>Where is the dump or wash area if you advertise one?</li>
+      <li>What happens to vehicles when a storm is forecast?</li>
+    </ol>
+
+    <h2>Look up a city</h2>
+    <ul>
+      <li><a href={href('/cities/tampa-fl/')}>Tampa RV and boat storage</a></li>
+      <li><a href={href('/cities/orlando-fl/')}>Orlando RV and boat storage</a></li>
+      <li><a href={href('/cities/phoenix-az/')}>Phoenix RV and boat storage</a></li>
+      <li><a href={href('/cities/houston-tx/')}>Houston RV and boat storage</a></li>
+      <li><a href={href('/cities/dallas-fort-worth-tx/')}>Dallas-Fort Worth RV and boat storage</a></li>
+      <li><a href={href('/storage/')}>Browse by covered, power, dump, and published price</a></li>
+    </ul>
+
+    <section class="faq">
+      <h2>Questions</h2>
+      {
+        faqs.map((faq) => (
+          <>
+            <h3>{faq.q}</h3>
+            <p>{faq.a}</p>
+          </>
+        ))
+      }
+    </section>
+    <FindMore />
+  </article>
+</Base>

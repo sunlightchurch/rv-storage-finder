@@ -1,0 +1,99 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import FindMore from '../../components/FindMore.astro';
+import { cityStats, getState, getStates, href } from '../../lib/data';
+import { breadcrumbNode, faqNode, pageGraph, webPageNode } from '../../lib/schema';
+
+export function getStaticPaths() {
+  return getStates().map((state) => ({ params: { state: state.slug } }));
+}
+
+const state = getState(Astro.params.state!);
+const path = `/states/${state.slug}/`;
+const total = state.cities.reduce((sum, city) => sum + city.listings.length, 0);
+const title = `RV and boat storage in ${state.name} | RV Storage Finder`;
+const description = `${total} sourced RV and boat storage facilities in ${state.cities.map((city) => city.city).join(' and ')}, ${state.code}, plus nearby communities on each city page.`;
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: state.name, path },
+];
+const faqs = [
+  {
+    q: `Which ${state.name} cities have RV and boat storage listings?`,
+    a: `${state.cities.map((city) => `${city.city} (${city.listings.length} facilities)`).join('; ')}. A facility keeps the city printed on its own page, which may be a suburb of that metro.`,
+  },
+];
+const latest = state.cities
+  .flatMap((city) => city.listings.map((listing) => listing.last_verified))
+  .sort()
+  .at(-1);
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: latest }),
+  breadcrumbNode(crumbs),
+  {
+    '@type': 'ItemList',
+    name: `RV and boat storage in ${state.name}`,
+    numberOfItems: state.cities.length,
+    itemListElement: state.cities.map((city, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: `${city.city}, ${city.state_code}`,
+      url: `https://sunlightchurch.github.io/rv-storage-finder/cities/${city.id}/`,
+    })),
+  },
+  faqNode(faqs),
+]);
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <div class="wrap">
+    <Breadcrumbs items={crumbs} />
+    <h1>RV and boat storage in {state.name}</h1>
+    <p class="summary">
+      {total} facilities across {state.cities.length === 1 ? 'one metro' : `${state.cities.length} metros`}.
+      Open a city for cover type, length, power, and prices that the facility actually published.
+    </p>
+    <ul class="city-grid">
+      {
+        state.cities.map((city) => {
+          const counts = cityStats(city);
+          return (
+            <li>
+              <a class="city-card" href={href(`/cities/${city.id}/`)}>
+                <span class="eyebrow">{city.state_code}</span>
+                <span class="city-name">{city.city}</span>
+                <span class="city-meta">
+                  {counts.total} facilities · {counts.covered} list covered space
+                </span>
+              </a>
+            </li>
+          );
+        })
+      }
+    </ul>
+    {
+      state.cities.map((city) => (
+        <section>
+          <h2>{city.city}</h2>
+          <p>{city.summary}</p>
+          <p>
+            <a href={href(`/cities/${city.id}/`)}>All {city.city} listings</a>
+          </p>
+          <FindMore city={city} />
+        </section>
+      ))
+    }
+    <section class="faq">
+      <h2>Questions</h2>
+      {
+        faqs.map((faq) => (
+          <>
+            <h3>{faq.q}</h3>
+            <p>{faq.a}</p>
+          </>
+        ))
+      }
+    </section>
+  </div>
+</Base>

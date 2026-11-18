@@ -1,0 +1,91 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import FilterChips from '../../components/FilterChips.astro';
+import FindMore from '../../components/FindMore.astro';
+import ListingCard from '../../components/ListingCard.astro';
+import { getCities, getCity, href, siblingCities, stateSlug } from '../../lib/data';
+import { breadcrumbNode, faqNode, itemListNode, pageGraph, webPageNode } from '../../lib/schema';
+
+export function getStaticPaths() {
+  return getCities().map((city) => ({ params: { city: city.id } }));
+}
+
+const city = getCity(Astro.params.city!);
+const path = `/cities/${city.id}/`;
+const title = `RV and boat storage in ${city.city}, ${city.state_code} | RV Storage Finder`;
+const description = `${city.listings.length} sourced RV and boat storage facilities in and near ${city.city}, ${city.state}. Cover type, length, power, and monthly prices appear only when published.`;
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: city.state, path: `/states/${stateSlug(city.state)}/` },
+  { label: city.city, path },
+];
+const priced = city.listings.filter((listing) => listing.price_notes).length;
+const faqs = [
+  {
+    q: `How many RV and boat storage facilities are listed in ${city.city}?`,
+    a: `${city.listings.length} facilities are listed, each with a public source. This is not a complete inventory of every lot in ${city.metro}.`,
+  },
+  {
+    q: `Do the ${city.city} listings publish monthly prices?`,
+    a:
+      priced > 0
+        ? `${priced} of ${city.listings.length} facilities print a price on the source we checked. Those notes are copied onto the card and are not averaged. The rest say not listed.`
+        : `None of the ${city.listings.length} sources we checked printed a price, so every price says not listed.`,
+  },
+];
+const latest = city.listings.map((listing) => listing.last_verified).sort().at(-1);
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: latest }),
+  breadcrumbNode(crumbs),
+  itemListNode(`RV and boat storage in ${city.city}, ${city.state_code}`, city.listings),
+  faqNode(faqs),
+]);
+const siblings = siblingCities(city);
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <div class="wrap">
+    <Breadcrumbs items={crumbs} />
+    <p class="eyebrow">{city.metro}</p>
+    <h1>RV and boat storage in {city.city}</h1>
+    <p class="summary">{city.summary}</p>
+    <p class="legend">
+      Yes means the source says so. No means the source says it does not. Not listed means the page we
+      checked is silent. Suburb addresses keep the city printed by the facility.
+    </p>
+    <FilterChips city={city} current="all" />
+    <h2>Facilities</h2>
+    <nav class="jump" aria-label="Facilities on this page">
+      <ul>
+        {
+          city.listings.map((listing) => (
+            <li>
+              <a href={`#${listing.slug}`}>{listing.name}</a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+    {city.listings.map((listing) => <ListingCard listing={listing} />)}
+    <section class="faq">
+      <h2>Questions about {city.city}</h2>
+      {
+        faqs.map((faq) => (
+          <>
+            <h3>{faq.q}</h3>
+            <p>{faq.a}</p>
+          </>
+        ))
+      }
+    </section>
+    <FindMore city={city} />
+    <h2>Keep browsing</h2>
+    <p class="cross">
+      <a href={href(`/states/${stateSlug(city.state)}/`)}>All {city.state} cities</a>
+      <a href={href('/guide/')}>What RV storage costs</a>
+      <a href={href('/storage/')}>Every storage filter</a>
+      {siblings.map((sibling) => <a href={href(`/cities/${sibling.id}/`)}>{sibling.city}</a>)}
+    </p>
+  </div>
+</Base>

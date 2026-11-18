@@ -1,0 +1,38 @@
+---
+import { href } from '../lib/data';
+
+const pathname = Astro.url.pathname;
+const directory =
+  pathname === href('/') ||
+  pathname.startsWith(href('/cities/')) ||
+  pathname.startsWith(href('/states/'));
+const storage = pathname.startsWith(href('/storage/'));
+const guide = pathname.startsWith(href('/guide/'));
+const about = pathname.startsWith(href('/about/'));
+---
+
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href={href('/')}>
+      <svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true">
+        <rect width="32" height="32" rx="6" fill="#f4e7cb"></rect>
+        <path fill="#0c5c56" d="M5 21h22v2.2H5z"></path>
+        <path fill="none" stroke="#0c5c56" stroke-width="2" stroke-linejoin="round" d="M7 21V13h9l3 4h6v4"></path>
+        <circle cx="11" cy="23.5" r="2.1" fill="#0c5c56"></circle>
+        <circle cx="22" cy="23.5" r="2.1" fill="#0c5c56"></circle>
+      </svg>
+      <span>
+        <span class="brand-name">RV Storage Finder</span>
+        <span class="brand-tag">Boats included</span>
+      </span>
+    </a>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href={href('/')} aria-current={directory ? 'page' : undefined}>Directory</a></li>
+        <li><a href={href('/storage/')} aria-current={storage ? 'page' : undefined}>Storage types</a></li>
+        <li><a href={href('/guide/')} aria-current={guide ? 'page' : undefined}>Cost guide</a></li>
+        <li><a href={href('/about/')} aria-current={about ? 'page' : undefined}>About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
