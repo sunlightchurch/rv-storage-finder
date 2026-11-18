@@ -1,0 +1,257 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: glendale-az
+city: Glendale
+state: Arizona
+state_code: AZ
+metro: Glendale
+summary: >-
+  These facilities publish an RV or boat storage page in Glendale, El Mirage,
+  or Sun City. Southwest RV on North 63rd Avenue is already listed under Phoenix.
+sparefoot_slug: Glendale-AZ
+neighbor_path: arizona/glendale
+sparefoot_note: null
+photo: glendale
+listings:
+  - slug: bluegate-el-mirage
+    name: BlueGate - El Mirage
+    street: 9355 North El Mirage Road
+    city: El Mirage
+    state_code: AZ
+    postal_code: "85335"
+    lat: null
+    lng: null
+    phone: "(623) 935-1480"
+    website: https://bluegateboatrv.com/locations/arizona/phoenix/bluegate-phoenix/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: 60
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: >-
+      Cards print a price and a starting-at price, and say first month free.
+      Examples include 18 ft uncovered $64 and starting at $80; 26 ft covered
+      $134 and starting at $168; 40 ft covered $161 and starting at $201; 60 ft
+      covered $207 and starting at $259; 12x50 enclosed $296 and starting at
+      $370. The cards do not state a billing period.
+    waitlist: null
+    notes: >-
+      Warehouse-style enclosed bays, canopy-covered parking, and uncovered
+      spaces for RVs and boats. The longest parking length on the cards is 60
+      feet. Features list a free RV dump station, a complimentary rinse bay,
+      trickle charging or power on listed spaces, electronic gate access, and
+      24/7 video surveillance. Access hours are 6:00 a.m. to 10:00 p.m. every day.
+    sources:
+      - url: https://bluegateboatrv.com/locations/arizona/phoenix/bluegate-phoenix/
+        title: Official El Mirage page
+    last_verified: "2026-11-18"
+
+  - slug: cubesmart-glendale-glenn
+    name: CubeSmart Self Storage of Glendale
+    street: 10911 W Glenn Dr
+    city: Glendale
+    state_code: AZ
+    postal_code: "85307"
+    lat: null
+    lng: null
+    phone: "(602) 767-4920"
+    website: https://www.cubesmart.com/arizona-self-storage/glendale-self-storage/4826.html
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 35
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: false
+    price_notes: >-
+      Covered 12x35 parking: online $135 per month and in-store $225 per month,
+      with first month free and 40% off.
+    waitlist: null
+    notes: >-
+      Location amenities list RV storage, boat parking, and outside parking.
+      The vehicle space showing when the page was opened was covered 12x35
+      parking. The amenities say the app opens facility gates. Access hours are
+      daily 6:00 a.m. to 10:00 p.m. A sentence about video recording at most
+      locations is chain-wide, so cameras are not marked.
+    sources:
+      - url: https://www.cubesmart.com/arizona-self-storage/glendale-self-storage/4826.html
+        title: Official location page
+    last_verified: "2026-11-18"
+
+  - slug: el-mir-rv-boat-storage
+    name: El Mir RV and Boat Storage
+    street: 10075 N El Mirage Rd
+    city: El Mirage
+    state_code: AZ
+    postal_code: "85335"
+    lat: null
+    lng: null
+    phone: "(623) 535-9137"
+    website: https://elmir.locknkeystorage.com/glendale-rv-boat-storage/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: null
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: >-
+      Per month: uncovered 10x20 $80, 10x30 $90, 10x40 $100, and 12x40 $115;
+      covered 12x30 $140 and 12x40 $170.
+    waitlist: null
+    notes: >-
+      Covered and uncovered pull-through spaces from 10x20 to 12x40. The page
+      says there are 132 covered spaces, in 12x30 and 12x40. Every tenant gets
+      the dump station at no charge. The yard is fenced with keypad entry,
+      cameras, and overnight security monitoring. Gate access is 5:00 a.m. to
+      10:00 p.m., 365 days.
+    sources:
+      - url: https://elmir.locknkeystorage.com/glendale-rv-boat-storage/
+        title: Glendale location page
+    last_verified: "2026-11-18"
+
+  - slug: freedom-road-rv-glendale
+    name: Freedom Road RV & Boat Storage
+    street: North 73rd Ave
+    city: Glendale
+    state_code: AZ
+    postal_code: null
+    lat: null
+    lng: null
+    phone: null
+    website: https://www.freedomroadstorage.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Boat and RV storage on North 73rd Avenue, between Northern Avenue and
+      Friar Drive. The page does not print a street number, ZIP, or phone. It
+      lists a dump station, a resident manager, 20 security cameras, lighting,
+      and secure gated access. Covered, enclosed, or open is not stated, and
+      gate hours are not stated.
+    sources:
+      - url: https://www.freedomroadstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: honey-bee-el-mirage
+    name: Honey Bee RV Storage
+    street: 8750 N Dysart Rd
+    city: El Mirage
+    state_code: AZ
+    postal_code: "85335"
+    lat: 33.564173
+    lng: -112.3434632
+    phone: "(623) 535-4867"
+    website: https://www.honeybeerv.com/rv-storage-locations/az/el-mirage/8750-n-dysart-road
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 80
+    clearance_ft: null
+    power_hookups: null
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: >-
+      Month-to-month unit records include uncovered 12x25 at $90, 12x40 at
+      $125, and 12x80 at $210 to $265, and covered 12x25 at $205, 12x35 at $220
+      to $260, and 12x60 at $400.
+    waitlist: null
+    notes: >-
+      Covered and uncovered boat and RV parking, including spaces up to 12x80
+      and 10x80. The page lists a dump station, a paved and fenced lot, keypad
+      gate access, and monitored security cameras. Gate access is Monday
+      through Sunday 5:00 a.m. to 10:00 p.m. Coordinates are printed in the
+      page source.
+    sources:
+      - url: https://www.honeybeerv.com/rv-storage-locations/az/el-mirage/8750-n-dysart-road
+        title: Official El Mirage page
+    last_verified: "2026-11-18"
+
+  - slug: northwest-valley-rv-sun-city
+    name: Northwest Valley RV & Boat Storage
+    street: 11717 W Harmony Ln
+    city: Sun City
+    state_code: AZ
+    postal_code: "85373"
+    lat: null
+    lng: null
+    phone: "(623) 200-4334"
+    website: https://northwestvalleyrv.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: 100
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered spaces, open-air partial-shade spaces, and climate-controlled
+      enclosed units. Listed lengths include outdoor spaces up to 12x75 and an
+      enclosed 14x100x16. Covered cards state a 15-foot ceiling and enclosed
+      cards state a 14-foot door, so clearance is not a single number. Enclosed
+      cards also state indoor lighting and a trickle-charge outlet. A dump
+      station is listed as a rental. Access hours are 24 hours every day.
+    sources:
+      - url: https://northwestvalleyrv.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: smartstop-glendale-ave
+    name: SmartStop Self Storage
+    street: 13551 W Glendale Ave
+    city: Glendale
+    state_code: AZ
+    postal_code: "85307"
+    lat: null
+    lng: null
+    phone: "(623) 552-4143"
+    website: https://smartstopselfstorage.com/find-storage/az/glendale/13551-w-glendale-ave
+    vehicles: [rv, boat]
+    storage_types: [enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Facility features list enclosed vehicle storage and uncovered RV, auto,
+      and boat storage. The page says the property has 24/7 video surveillance,
+      perimeter fences, and electronic keypad entry. Gate access is 6:00 a.m.
+      to 10:00 p.m. every day. A current-customer phone, (623) 253-1080, is also
+      printed. No RV or boat price was separated from household unit prices.
+    sources:
+      - url: https://smartstopselfstorage.com/find-storage/az/glendale/13551-w-glendale-ave
+        title: Official location page
+    last_verified: "2026-11-18"

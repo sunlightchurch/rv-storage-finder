@@ -1,0 +1,180 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: chandler-az
+city: Chandler
+state: Arizona
+state_code: AZ
+metro: Chandler
+summary: >-
+  These Chandler facilities publish an RV or boat storage page and are not the
+  Nelson Drive Carefree yard or I-10 RV Storage already listed under Phoenix.
+sparefoot_slug: Chandler-AZ
+neighbor_path: arizona/chandler
+sparefoot_note: null
+photo: chandler
+listings:
+  - slug: carefree-covered-rv-kyrene
+    name: Carefree Covered RV Storage
+    street: 1000 S Kyrene Rd
+    city: Chandler
+    state_code: AZ
+    postal_code: "85226"
+    lat: null
+    lng: null
+    phone: "(480) 789-1554"
+    website: https://www.carefreecoveredrvstorage.com/1000-s-kyrene-rd-chandler-az-85226
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered and enclosed boat and RV spaces. Property features list 44
+      surveillance cameras, keypad access, an 8-foot wall, a dump station and
+      water, a free self RV wash, air and vacuum, and charging outlets. The FAQ
+      says each covered and enclosed space includes a trickle-charge outlet.
+      Access is 5:00 a.m. to 10:00 p.m. daily. This is not the Nelson Drive yard.
+    sources:
+      - url: https://www.carefreecoveredrvstorage.com/1000-s-kyrene-rd-chandler-az-85226
+        title: Official Kyrene Road page
+    last_verified: "2026-11-18"
+
+  - slug: cubesmart-chandler-gilbert-rd
+    name: CubeSmart Self Storage of Chandler
+    street: 5959 S Gilbert Rd
+    city: Chandler
+    state_code: AZ
+    postal_code: "85249"
+    lat: null
+    lng: null
+    phone: "(480) 616-2181"
+    website: https://www.cubesmart.com/arizona-self-storage/chandler-self-storage/4491.html
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 20
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: >-
+      Covered 10x20 parking: online $135 per month and in-store $225 per month,
+      with second month free and 40% off.
+    waitlist: null
+    notes: >-
+      Location amenities list RV storage, boat parking, and outside parking.
+      The vehicle space showing when the page was opened was covered 10x20
+      parking. The page says this facility has 24-hour video recording and
+      monitored gate access. Access hours are daily 6:00 a.m. to 10:00 p.m.
+    sources:
+      - url: https://www.cubesmart.com/arizona-self-storage/chandler-self-storage/4491.html
+        title: Official location page
+    last_verified: "2026-11-18"
+
+  - slug: firebird-rv-storage
+    name: Firebird RV Storage
+    street: 12338 E Riggs Rd, Building B
+    city: Chandler
+    state_code: AZ
+    postal_code: "85249"
+    lat: null
+    lng: null
+    phone: "(602) 832-6161"
+    website: https://firebirdrvstorage.com/
+    vehicles: [rv]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered and uncovered RV parking. The page counts 60 covered spaces and
+      116 uncovered spaces, including pull-through units. Gate hours are 5:00
+      a.m. to 9:30 p.m. every day. A gate-issue number, (623) 200-6136, is also
+      printed. Boats are not named. Call for pricing.
+    sources:
+      - url: https://firebirdrvstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: public-storage-chandler-arizona-ave
+    name: Public Storage
+    street: 1625 S Arizona Ave
+    city: Chandler
+    state_code: AZ
+    postal_code: "85286"
+    lat: null
+    lng: null
+    phone: "(928) 813-1139"
+    website: https://www.publicstorage.com/self-storage-az-chandler/6246.html
+    vehicles: [boat]
+    storage_types: [enclosed]
+    max_length_ft: 25
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    price_notes: >-
+      The 10x25 enclosed drive-up unit labeled Boat or Vehicle prints $178 per
+      month and $223, plus a $0 first-month line on the card.
+    waitlist: null
+    notes: >-
+      A 10x25 outside drive-up unit is labeled Boat or Vehicle and enclosed.
+      The facility feature list names car storage, not a separate RV feature.
+      Move-in and access hours are Monday through Sunday 6:00 a.m. to 10:00
+      p.m. A later security list says electronic gates and video recording are
+      what to expect at many Public Storage locations, so those are not marked
+      for this property.
+    sources:
+      - url: https://www.publicstorage.com/self-storage-az-chandler/6246.html
+        title: Official location page
+    last_verified: "2026-11-18"
+
+  - slug: we-are-rv-storage-chandler
+    name: WE ARE RV STORAGE
+    street: 1375 S Arizona Ave
+    city: Chandler
+    state_code: AZ
+    postal_code: "85286"
+    lat: null
+    lng: null
+    phone: "(480) 805-9002"
+    website: https://www.wearervstorage.com/
+    vehicles: [rv]
+    storage_types: [covered, enclosed]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Indoor climate-controlled RV storage and outside covered RV storage.
+      Indoor drop-off and pickup require 48 hours notice. Covered spaces use a
+      gate code from 5:00 a.m. to 10:00 p.m. seven days a week. The page lists
+      HD video surveillance and available power hookups. Boats are not named.
+    sources:
+      - url: https://www.wearervstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"

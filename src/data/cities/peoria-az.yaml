@@ -1,0 +1,84 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: peoria-az
+city: Peoria
+state: Arizona
+state_code: AZ
+metro: Peoria
+summary: >-
+  These Peoria facilities publish an RV or boat storage page. Arrowhead RV &
+  Boat Storage on Peoria Avenue is already listed under Phoenix.
+sparefoot_slug: Peoria-AZ
+neighbor_path: arizona/peoria
+sparefoot_note: null
+photo: peoria
+listings:
+  - slug: honey-bee-peoria-mountain-view
+    name: Honey Bee RV Storage
+    street: 7751 W Mountain View Rd
+    city: Peoria
+    state_code: AZ
+    postal_code: "85345"
+    lat: 33.5737065
+    lng: -112.2273526
+    phone: "(623) 304-8580"
+    website: https://www.honeybeerv.com/rv-storage-locations/az/peoria/7751-w-mountain-view-rd
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 50
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: >-
+      Month-to-month unit records include uncovered 11x25 at $165 and 11x45 at
+      $245, and covered spaces from 11x25 at $190 to $200 through 11x50 at $325
+      to $335.
+    waitlist: null
+    notes: >-
+      Covered and uncovered parking for RVs, trailers, and boats. Features list
+      power and trickle charge, wash stations, a dump station, a paved and
+      fenced lot, a personalized gate code, and 24-hour video surveillance.
+      Gate access is Monday through Sunday 5:00 a.m. to 10:00 p.m. Coordinates
+      are printed in the page source.
+    sources:
+      - url: https://www.honeybeerv.com/rv-storage-locations/az/peoria/7751-w-mountain-view-rd
+        title: Official Peoria page
+    last_verified: "2026-11-18"
+
+  - slug: hv-rv-peoria
+    name: HV-RV Storage
+    street: 12029 W Happy Valley Rd
+    city: Peoria
+    state_code: AZ
+    postal_code: "85383"
+    lat: null
+    lng: null
+    phone: "(602) 535-4877"
+    website: https://hv-rvstorage.com/peoria-az/
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: 50
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: >-
+      The page labels these monthly rates: 12x50 $310, 12x40 $275, 12x30 $250,
+      11x50 $210, 11x40 $195, 11x35 $170, 11x30 $155, and 11x25 $145.
+    waitlist: null
+    notes: >-
+      RV and boat storage with covered parking and power, wash bays, an RV dump
+      station, propane, potable water, ice, and a trash station. The page says
+      the lot has more than 20 acres of pavement, coded entry, and 24/7
+      surveillance. It does not state gate hours. Unit cards are not labeled
+      covered or uncovered.
+    sources:
+      - url: https://hv-rvstorage.com/peoria-az/
+        title: Official Peoria page
+    last_verified: "2026-11-18"

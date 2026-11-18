@@ -1,0 +1,368 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: flagstaff-az
+city: Flagstaff
+state: Arizona
+state_code: AZ
+metro: Flagstaff
+summary: >-
+  These facilities publish an RV or boat storage page in Flagstaff. Each card
+  uses only what that page states. This is not a complete inventory.
+sparefoot_slug: Flagstaff-AZ
+neighbor_path: arizona/flagstaff
+sparefoot_note: null
+photo: flagstaff
+listings:
+  - slug: ag-mini-storage-flagstaff
+    name: A&G Mini Storage
+    street: 2718 E Lakin Dr
+    city: Flagstaff
+    state_code: AZ
+    postal_code: "86004"
+    lat: null
+    lng: null
+    phone: "(928) 569-8725"
+    website: https://www.westernstatesstorage.com/car-boat-and-rv-storage/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The vehicle page offers boat and RV storage at this Flagstaff address and
+      at a Kingman sister facility, and it says both have surveillance cameras.
+      Cover type and gate hours are not stated for this street. The address
+      block also prints 866-984-9776.
+    sources:
+      - url: https://www.westernstatesstorage.com/car-boat-and-rv-storage/
+        title: Car, boat, and RV storage page
+    last_verified: "2026-11-18"
+
+  - slug: anytime-storage-flagstaff
+    name: Anytime Storage - N Grant St
+    street: 508 North Grant Street
+    city: Flagstaff
+    state_code: AZ
+    postal_code: "86004"
+    lat: null
+    lng: null
+    phone: "(928) 773-0033"
+    website: https://www.anytimestorage.com/storage-units/az/flagstaff/508-n-grant-st
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Outdoor RV, auto, and boat storage, with an electronic gate and 24-hour
+      surveillance cameras. The feature list says 24-hour access is available,
+      while the vehicle section says extended access hours seven days a week,
+      so 24-hour access is not marked.
+    sources:
+      - url: https://www.anytimestorage.com/storage-units/az/flagstaff/508-n-grant-st
+        title: North Grant Street location page
+    last_verified: "2026-11-18"
+
+  - slug: dark-sky-storage-flagstaff
+    name: Dark Sky Storage
+    street: Dark Sky Road
+    city: Flagstaff
+    state_code: AZ
+    postal_code: null
+    lat: null
+    lng: null
+    phone: "(928) 230-5168"
+    website: https://darkskystorage.com/
+    vehicles: [rv]
+    storage_types: [enclosed]
+    max_length_ft: 90
+    clearance_ft: 14
+    power_hookups: true
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: An 18 by 90 unit is listed at $1,500 per month to rent and $305,000 to purchase.
+    waitlist: null
+    notes: >-
+      Enclosed RV garage condos on Dark Sky Road, most described as 18 feet
+      wide by 90 feet deep with 14-foot garage doors. Units have metered
+      electric, cameras, a gate, and an on-site sewer dump. A street number is
+      not printed. The contact block prints 513 N Beaver St, Flagstaff, AZ
+      86001. Boats are not named.
+    sources:
+      - url: https://darkskystorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: flagstaff-parking
+    name: Flagstaff Parking
+    street: 2604 East Huntington Drive
+    city: Flagstaff
+    state_code: AZ
+    postal_code: "86004"
+    lat: null
+    lng: null
+    phone: "(928) 707-9218"
+    website: https://www.flagstaff-parking.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Uncovered RV and boat parking on the east side of Flagstaff. The page
+      says monthly rates are available and does not print a dollar amount. It
+      also prints the street as 2604 Huntington Dr.
+    sources:
+      - url: https://www.flagstaff-parking.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: flagstaff-ranch-dark-sky
+    name: Flagstaff Ranch Self Storage
+    street: Dark Sky Drive
+    city: Flagstaff
+    state_code: AZ
+    postal_code: null
+    lat: null
+    lng: null
+    phone: "(928) 774-7867"
+    website: https://www.flagstaffranchstorage.com/dark-sky-drive
+    vehicles: [rv, boat]
+    storage_types: [enclosed, open]
+    max_length_ft: 70
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: >-
+      Listed sizes include 8x15 at $100, 10x35 at $130, 11x60 at $155, and
+      13x70 at $160. The page does not state the billing period.
+    waitlist: null
+    notes: >-
+      Outdoor RV and boat storage and indoor vehicle storage at the Dark Sky
+      Drive satellite, managed from Flagstaff Ranch Road. The page lists
+      electrical outlets on every RV unit, a gate, and more than two dozen
+      cameras. No street number is printed.
+    sources:
+      - url: https://www.flagstaffranchstorage.com/dark-sky-drive
+        title: Dark Sky Drive vehicle storage page
+    last_verified: "2026-11-18"
+
+  - slug: katlon-rv-boat-storage
+    name: Katlon RV & Boat Storage
+    street: 5700 E Old Walnut Canyon Rd
+    city: Flagstaff
+    state_code: AZ
+    postal_code: "86004"
+    lat: null
+    lng: null
+    phone: "(928) 527-4331"
+    website: https://flagstaffrvboatstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: null
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Uncovered 25-, 30-, 35-, and 40-foot spaces, with a customer dump
+      station, a potable-water faucet, and keypad access from 6:00 am to 10:00
+      pm. Rentals are month to month with a three-month minimum. The page also
+      prints 1900 N Country Club Dr with the same directions, and a cell
+      number, 928-699-1383.
+    sources:
+      - url: https://flagstaffrvboatstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: lumberjack-rv-flagstaff
+    name: Lumberjack RV LLC
+    street: 6942 Lumberjack Blvd
+    city: Flagstaff
+    state_code: AZ
+    postal_code: "86004"
+    lat: null
+    lng: null
+    phone: "(928) 607-0982"
+    website: https://www.lumberjackrv.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      RV, boat, and vehicle storage with 24-hour access and digital video
+      surveillance. Office hours are 9:00 am to 5:00 pm every day. Cover type
+      is not stated.
+    sources:
+      - url: https://www.lumberjackrv.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: mini-storage-northern-arizona
+    name: Mini Storage of N. AZ
+    street: 5501 E. Empire Ave.
+    city: Flagstaff
+    state_code: AZ
+    postal_code: "86004"
+    lat: null
+    lng: null
+    phone: "(928) 526-0472"
+    website: https://selfstorageflagstaff.com/HOME.html
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: Outdoor spaces are listed at $110 per month, including taxes and fees.
+    waitlist: null
+    notes: >-
+      Boat storage and long-term RV storage, with outdoor spaces for vehicles.
+      Gate hours are 7:00 am to 6:00 pm Monday through Saturday and 11:00 am to
+      5:00 pm Sunday. The rates page lists security cameras and a second phone,
+      928-266-6269.
+    sources:
+      - url: https://selfstorageflagstaff.com/HOME.html
+        title: Homepage
+      - url: https://selfstorageflagstaff.com/services-rates/
+        title: Services and rates
+    last_verified: "2026-11-18"
+
+  - slug: mountainaire-mini-storage
+    name: Mountainaire Mini Storage
+    street: 995 Osage
+    city: Flagstaff
+    state_code: AZ
+    postal_code: "86005"
+    lat: null
+    lng: null
+    phone: "(928) 525-2500"
+    website: https://www.mountainairestorage.com/units-pricing
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: true
+    price_notes: RV, trailer, boat, and vehicle parking is listed at $75 per month.
+    waitlist: null
+    notes: >-
+      RV, trailer, boat, and vehicle parking at the Mountainaire address, with
+      24-hour access and gated entry. The pricing page also says air and water
+      are available. Cover type is not stated.
+    sources:
+      - url: https://www.mountainairestorage.com/units-pricing
+        title: Units and pricing
+      - url: https://www.mountainairestorage.com/
+        title: Homepage
+    last_verified: "2026-11-18"
+
+  - slug: route-66-storage-flagstaff
+    name: Route 66 Storage
+    street: 10984 W Route 66
+    city: Flagstaff
+    state_code: AZ
+    postal_code: "86001"
+    lat: null
+    lng: null
+    phone: "(928) 779-5460"
+    website: https://www.r66storage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Indoor and covered bays with electricity for RVs, fifth wheels, and
+      boats, with 24-hour access through a cell-phone caller ID system. The
+      page also prints the street as 10984 Historic Rte 66.
+    sources:
+      - url: https://www.r66storage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: storage-sense-flagstaff
+    name: Storage Sense - Flagstaff
+    street: 4600 East Nestle Purina Avenue
+    city: Flagstaff
+    state_code: AZ
+    postal_code: "86004"
+    lat: null
+    lng: null
+    phone: "(928) 526-1676"
+    website: https://www.storagesense.com/location/USA/AZ/Flagstaff/sense-flagstaff-1892/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      RV, boat, and vehicle storage in a gated facility with 24/7 video
+      recording. Access hours are 6:00 am to 10:00 pm every day. The page does
+      not say whether the vehicle spaces are covered, enclosed, or open.
+    sources:
+      - url: https://www.storagesense.com/location/USA/AZ/Flagstaff/sense-flagstaff-1892/
+        title: Flagstaff location page
+    last_verified: "2026-11-18"
