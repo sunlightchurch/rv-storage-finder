@@ -602,3 +602,45 @@
   license: "CC0"
   license_url: "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
   credit_required: false
+- id: reno
+  role: city
+  alt: "The Reno, Nevada skyline"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/reno-640.webp
+    "960": photos/reno-960.webp
+    "1280": photos/reno-1280.webp
+  author: "Trevor Bexon"
+  source_url: "https://commons.wikimedia.org/wiki/File:Reno_Skyline.jpg"
+  license: "CC BY 2.0"
+  license_url: "https://creativecommons.org/licenses/by/2.0"
+  credit_required: true
+- id: sparks
+  role: city
+  alt: "Victorian Square in Sparks, Nevada"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/sparks-640.webp
+    "960": photos/sparks-960.webp
+    "1280": photos/sparks-1280.webp
+  author: "Ken Lund"
+  source_url: "https://commons.wikimedia.org/wiki/File:Victorian_Square,_Sparks,_Nevada.jpg"
+  license: "CC BY-SA 2.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  credit_required: true
+- id: carson-city
+  role: city
+  alt: "The Nevada State Capitol in Carson City"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/carson-city-640.webp
+    "960": photos/carson-city-960.webp
+    "1280": photos/carson-city-1280.webp
+  author: "Quintin Soloviev"
+  source_url: "https://commons.wikimedia.org/wiki/File:Nevada_State_Capitol_Building_-_Carson_City.jpg"
+  license: "CC0"
+  license_url: "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  credit_required: false
