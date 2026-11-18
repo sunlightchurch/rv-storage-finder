@@ -1,0 +1,119 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: winston-salem-nc
+city: Winston-Salem
+state: North Carolina
+state_code: NC
+metro: Winston-Salem
+summary: >-
+  These facilities publish an RV or boat storage page in Winston-Salem. Each card uses only
+  what that page states.
+sparefoot_slug: Winston-Salem-NC
+neighbor_path: north-carolina/winston-salem
+sparefoot_note: null
+photo: winston-salem
+listings:
+- slug: a1-clemmons-best-storage-winston-salem
+  name: A1 Clemmons Best Storage
+  street: 6030 Gun Club Road
+  city: Winston Salem
+  state_code: NC
+  postal_code: "27103"
+  lat: null
+  lng: null
+  phone: "(336) 766-8683"
+  website: "https://clemmonsstorage.com/rv-boat-car-storage/"
+  vehicles:
+  - rv
+  - boat
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The page says this Gun Club Road address offers storage for RVs, boats, cars, trucks,
+    and trailers, and it says availability changes daily. It prints "365 Days" and does not
+    state gate hours or whether the spaces are covered, enclosed, or open.
+  sources:
+  - url: "https://clemmonsstorage.com/rv-boat-car-storage/"
+    title: A1 Clemmons Best Storage RV, boat, and car page
+  last_verified: '2026-11-18'
+- slug: extra-space-peters-creek-winston-salem
+  name: Extra Space Storage
+  street: 550 Peters Creek Pkwy
+  city: Winston-Salem
+  state_code: NC
+  postal_code: "27101"
+  lat: null
+  lng: null
+  phone: "(336) 529-5151"
+  website: >-
+    https://www.extraspace.com/storage/facilities/us/north_carolina/winston_salem/900281/
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - enclosed
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: >-
+    Enclosed vehicle units are listed at a 10 by 20 web rate of $95 and in-store rate of $165,
+    and a 10 by 25 web rate of $115 and in-store rate of $198. The page says storage units
+    start at $8 per month.
+  waitlist: null
+  notes: >-
+    The facility page says vehicle storage is for cars, boats, and RVs, with enclosed drive-up
+    units and outdoor parking that can hold large RVs. It lists video surveillance and electronic
+    gate access. Standard access is 6:00 a.m. to 10:00 p.m., and 24-hour access is listed
+    as an upgrade. Current-customer phone is (336) 529-5151. A site phone of (336) 761-0838
+    is also printed.
+  sources:
+  - url: >-
+      https://www.extraspace.com/storage/facilities/us/north_carolina/winston_salem/900281/
+    title: Extra Space Storage facility page, 550 Peters Creek Pkwy
+  last_verified: '2026-11-18'
+- slug: southeast-boat-rv-storage-winston-salem
+  name: "Southeast Boat & RV Storage"
+  street: 3041 Waughtown St.
+  city: Winston Salem
+  state_code: NC
+  postal_code: "27107"
+  lat: null
+  lng: null
+  phone: "(336) 397-4410"
+  website: "https://southeastboatandrv.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types: []
+  max_length_ft: 35
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: Each space is $100 per month.
+  waitlist: null
+  notes: >-
+    The page offers 12.5 by 35 ft RV and boat parking with 24/7 access, an access-control
+    gate, fencing, and 24/7 camera surveillance. It does not say whether the spaces are covered
+    or open.
+  sources:
+  - url: "https://southeastboatandrv.com/"
+    title: Southeast Boat and RV Storage home page
+  last_verified: '2026-11-18'

@@ -1,0 +1,123 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: greensboro-nc
+city: Greensboro
+state: North Carolina
+state_code: NC
+metro: Greensboro
+summary: >-
+  These facilities publish an RV or boat storage page in Greensboro or nearby Stokesdale.
+  Each card uses only what that page states.
+sparefoot_slug: Greensboro-NC
+neighbor_path: north-carolina/greensboro
+sparefoot_note: null
+photo: greensboro
+listings:
+- slug: afm-storage-bessemer-greensboro
+  name: AFM Storage
+  street: 1501 E. Bessemer Avenue
+  city: Greensboro
+  state_code: NC
+  postal_code: "27405"
+  lat: null
+  lng: null
+  phone: "(336) 274-6344"
+  website: "https://www.afmstorage.com/rv-boat-storage"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - enclosed
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The page offers outdoor and indoor vehicle storage for cars, boats, and RVs, and it says
+    indoor space can be climate controlled. It lists a fenced lot, gated entry, and 24/7 video
+    surveillance. It says daily access is available. Business hours are Monday through Friday
+    9 a.m. to 5 p.m. and Saturday 9 a.m. to 1 p.m.
+  sources:
+  - url: "https://www.afmstorage.com/rv-boat-storage"
+    title: AFM Storage vehicle storage page
+  last_verified: '2026-11-18'
+- slug: cardinal-state-storage-greensboro
+  name: Cardinal State Storage - Greensboro
+  street: 4106 US-29
+  city: Greensboro
+  state_code: NC
+  postal_code: "27405"
+  lat: null
+  lng: null
+  phone: "(336) 800-0369"
+  website: "https://www.statestoragegreensboro.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - enclosed
+  - open
+  max_length_ft: 35
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: >-
+    Paved uncovered 10 by 30 RV, boat, and auto parking is listed at $35 per month, reduced
+    from $70.
+  waitlist: null
+  notes: >-
+    The page offers uncovered RV, boat, and trailer parking and garage bays for indoor and
+    outdoor vehicle storage from 20 to 35 feet. Regular access is 6 a.m. to 10 p.m. seven
+    days a week, and 24-hour access is available with permission from management. It lists
+    a gate and surveillance cameras.
+  sources:
+  - url: "https://www.statestoragegreensboro.com/"
+    title: Cardinal State Storage Greensboro home page
+  last_verified: '2026-11-18'
+- slug: charles-landing-rv-boat-stokesdale
+  name: "Charles Landing RV & Boat Storage"
+  street: 4689 Ellisboro Rd
+  city: Stokesdale
+  state_code: NC
+  postal_code: "27357"
+  lat: null
+  lng: null
+  phone: "(336) 870-2612"
+  website: "https://www.charleslanding.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - enclosed
+  - open
+  max_length_ft: 42
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: null
+  access_24h: true
+  price_notes: >-
+    Monthly rates are $200 for a 12 by 26 enclosed garage, $150 for 12 by 26 covered parking,
+    $50 for 12 by 25 outdoor, $65 for 12 by 30, $75 for 12 by 35, 12 by 40, and 12 by 42 outdoor.
+  waitlist: null
+  notes: >-
+    The facility address is in Stokesdale. The page lists enclosed, covered, and outdoor RV
+    and boat parking, 24/7 access, and an automatic gate with a PIN. The mailing address printed
+    on the page is 5011 Manning Dr., Greensboro, NC 27410.
+  sources:
+  - url: "https://www.charleslanding.com/"
+    title: Charles Landing RV and Boat Storage home page
+  last_verified: '2026-11-18'

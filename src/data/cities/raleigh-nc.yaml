@@ -1,0 +1,147 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: raleigh-nc
+city: Raleigh
+state: North Carolina
+state_code: NC
+metro: Raleigh
+summary: >-
+  These facilities publish an RV or boat storage page at a Raleigh address. Each card uses
+  only what that page states.
+sparefoot_slug: Raleigh-NC
+neighbor_path: north-carolina/raleigh
+sparefoot_note: Cary addresses are on the Cary page.
+photo: raleigh
+listings:
+- slug: beagle-retreat-storage-raleigh
+  name: Beagle Retreat Storage
+  street: 3125 Beagle Retreat Dr.
+  city: Raleigh
+  state_code: NC
+  postal_code: "27616"
+  lat: null
+  lng: null
+  phone: "(919) 809-0755"
+  website: "https://www.beagleretreatstoragenc.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The page offers uncovered parking for boats, RVs, and trailers, with a secured gate and
+    video surveillance. Gate hours are 6:00 a.m. to 8:00 p.m., seven days a week. A second
+    phone, (252) 406-5143, is also printed.
+  sources:
+  - url: "https://www.beagleretreatstoragenc.com/"
+    title: Beagle Retreat Storage home page
+  last_verified: '2026-11-18'
+- slug: cardinal-east-raleigh-columbus
+  name: Cardinal Self Storage - East Raleigh
+  street: 4200 Columbus Club Drive
+  city: Raleigh
+  state_code: NC
+  postal_code: "27604"
+  lat: null
+  lng: null
+  phone: "(984) 444-5118"
+  website: >-
+    https://www.cardinalselfstorage.com/self-storage/nc/raleigh/columbus-dr/boat-rv-storage
+  vehicles:
+  - rv
+  - boat
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: true
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The East Raleigh page offers RV and boat storage and says video cameras and on-site managers
+    watch the property. Access hours are 6:00 a.m. to 10:00 p.m., seven days a week. It does
+    not say whether the parking is covered, enclosed, or open.
+  sources:
+  - url: >-
+      https://www.cardinalselfstorage.com/self-storage/nc/raleigh/columbus-dr/boat-rv-storage
+    title: Cardinal Self Storage East Raleigh boat and RV page
+  last_verified: '2026-11-18'
+- slug: storage-max-new-bern-raleigh
+  name: StorageMax
+  street: 3301 New Bern Avenue
+  city: Raleigh
+  state_code: NC
+  postal_code: "27610"
+  lat: null
+  lng: null
+  phone: "(919) 803-1910"
+  website: "https://storagemaxnc.com/locations/raleigh-nc-27610"
+  vehicles:
+  - rv
+  - boat
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The New Bern Avenue page offers boat, RV, and camper vehicle storage with 24-hour gate
+    access, surveillance cameras, and a fenced facility. The office for this location is listed
+    at 1932 Wake Forest Road. The page does not say whether the vehicle spaces are covered
+    or open.
+  sources:
+  - url: "https://storagemaxnc.com/locations/raleigh-nc-27610"
+    title: StorageMax New Bern Avenue boat and RV page
+  last_verified: '2026-11-18'
+- slug: storage-opp-opportunity-raleigh
+  name: Storage Opp.
+  street: 3821 Opportunity Ln
+  city: Raleigh
+  state_code: NC
+  postal_code: "27603"
+  lat: null
+  lng: null
+  phone: "(919) 348-2446"
+  website: "https://www.storageopportunity.com/3821-opportunity-ln-raleigh-nc--27603"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The location page offers uncovered outdoor RV and boat parking with 24-hour access, a
+    fence and gate, and video surveillance. It lists a resident manager and also describes
+    the facility as unmanned.
+  sources:
+  - url: "https://www.storageopportunity.com/3821-opportunity-ln-raleigh-nc--27603"
+    title: Storage Opp location page
+  last_verified: '2026-11-18'

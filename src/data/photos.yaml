@@ -840,3 +840,87 @@
   license: "CC BY-SA 4.0"
   license_url: "https://creativecommons.org/licenses/by-sa/4.0"
   credit_required: true
+- id: raleigh
+  role: city
+  alt: "Downtown Raleigh, North Carolina"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/raleigh-640.webp
+    "960": photos/raleigh-960.webp
+    "1280": photos/raleigh-1280.webp
+  author: "James Willamor"
+  source_url: "https://commons.wikimedia.org/wiki/File:Downtown,_Raleigh,_North_Carolina,_USA_--_in_9_February_2014_h17m38_Cloudy_weather_--_(panoramio.com).jpg"
+  license: "CC BY-SA 3.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  credit_required: true
+- id: durham
+  role: city
+  alt: "The Carolina Theatre in downtown Durham, North Carolina"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/durham-640.webp
+    "960": photos/durham-960.webp
+    "1280": photos/durham-1280.webp
+  author: "Warren LeMay"
+  source_url: "https://commons.wikimedia.org/wiki/File:Carolina_Theatre,_Durham,_NC.jpg"
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  credit_required: true
+- id: cary
+  role: city
+  alt: "A concert at Downtown Cary Park in Cary, North Carolina"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/cary-640.webp
+    "960": photos/cary-960.webp
+    "1280": photos/cary-1280.webp
+  author: "DowntownCaryPark"
+  source_url: "https://commons.wikimedia.org/wiki/File:Downtown_Cary_Park.jpg"
+  license: "CC0"
+  license_url: "https://creativecommons.org/publicdomain/zero/1.0/"
+  credit_required: false
+- id: greensboro
+  role: city
+  alt: "The Greensboro, North Carolina skyline"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/greensboro-640.webp
+    "960": photos/greensboro-960.webp
+    "1280": photos/greensboro-1280.webp
+  author: "Beyonce245"
+  source_url: "https://commons.wikimedia.org/wiki/File:Greensboro_Skyline.jpg"
+  license: "Public domain"
+  license_url: "https://creativecommons.org/publicdomain/mark/1.0/"
+  credit_required: false
+- id: winston-salem
+  role: city
+  alt: "The Winston-Salem, North Carolina skyline"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/winston-salem-640.webp
+    "960": photos/winston-salem-960.webp
+    "1280": photos/winston-salem-1280.webp
+  author: "Candeadly"
+  source_url: "https://commons.wikimedia.org/wiki/File:Winston-Salem_Skyline_2026_(clear_skies_ver).jpg"
+  license: "CC BY 4.0"
+  license_url: "https://creativecommons.org/licenses/by/4.0"
+  credit_required: true
+- id: fayetteville
+  role: city
+  alt: "A downtown street in Fayetteville, North Carolina"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/fayetteville-640.webp
+    "960": photos/fayetteville-960.webp
+    "1280": photos/fayetteville-1280.webp
+  author: "Msacquety"
+  source_url: "https://commons.wikimedia.org/wiki/File:Downtown_Fayetteville_historic_side_street.JPG"
+  license: "CC BY-SA 3.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  credit_required: true
