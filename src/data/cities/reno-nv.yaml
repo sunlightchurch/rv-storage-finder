@@ -1,0 +1,147 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: reno-nv
+city: Reno
+state: Nevada
+state_code: NV
+metro: Reno
+summary: >-
+  These facilities publish an RV or boat storage page in Reno. Each card uses
+  only what that page states. This is not a complete inventory.
+sparefoot_slug: Reno-NV
+neighbor_path: nevada/reno
+sparefoot_note: null
+photo: reno
+listings:
+  - slug: emigrant-storage-boat-rv-reno
+    name: Emigrant Storage Boat & RV
+    street: 2690 South McCarran Blvd
+    city: Reno
+    state_code: NV
+    postal_code: "89502"
+    lat: null
+    lng: null
+    phone: "(775) 856-2690"
+    website: https://emigrantstorage.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The site names this address as Emigrant Storage Boat & RV and says the
+      company has five Reno-Sparks locations. A facility block says locations
+      are fenced and gated with keypad access and 24/7 video surveillance, and
+      that gate hours vary. Indoor, outdoor, and climate-controlled wording on
+      the same site is not assigned to this street, so cover type is not marked.
+    sources:
+      - url: https://emigrantstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: longley-corners-rv-boat-storage
+    name: Longley Corners RV & Boat Storage
+    street: "5255 Longley Lane #150"
+    city: Reno
+    state_code: NV
+    postal_code: "89511"
+    lat: null
+    lng: null
+    phone: "(775) 828-5255"
+    website: https://longleycornersrvandboat.com/storage-solutions/rv-storage/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered, enclosed, and climate-controlled spaces for motorhomes, travel
+      trailers, and fifth wheels, with a gated entry, personal access codes,
+      and 24/7 video surveillance. An RV dump station is included for tenants.
+      Gate hours are every day 6:00 AM to 10:00 PM. Office hours are shorter.
+    sources:
+      - url: https://longleycornersrvandboat.com/storage-solutions/rv-storage/
+        title: RV storage page
+    last_verified: "2026-11-18"
+
+  - slug: one-more-toy-rv-boat-storage
+    name: One More Toy RV & Boat Storage
+    street: 7901 N. Virginia St.
+    city: Reno
+    state_code: NV
+    postal_code: "89506"
+    lat: null
+    lng: null
+    phone: "(775) 399-0220"
+    website: https://onemoretoystoragenv.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: >-
+      Monthly rates are $125 under 35 feet, $150 from 35 to 45 feet, and $200
+      over 45 feet.
+    waitlist: null
+    notes: >-
+      Parking for RVs, boats, and trailers. The page says the lot is fully
+      fenced and gated, with individual access codes and 24-hour video
+      surveillance. Hours are Sunday through Saturday 7:00 AM to 8:00 PM. The
+      page does not say whether the spaces are covered, enclosed, or open.
+    sources:
+      - url: https://onemoretoystoragenv.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: stead-rv-boat-storage
+    name: Stead RV & Boat Storage
+    street: 4855 Echo Ave
+    city: Reno
+    state_code: NV
+    postal_code: "89506"
+    lat: null
+    lng: null
+    phone: "(775) 225-5178"
+    website: https://steadrvandboatstorage.com/listing
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: >-
+      An outside open parking rate is $72 per month. Another outside storage
+      rate is $137 per month.
+    waitlist: null
+    notes: >-
+      Covered and open parking with a secured keyed gate, 24-hour surveillance,
+      wash bays, sanitary dump stations, and trickle chargers for covered
+      parking. Gate hours are 6:00 AM to 9:00 PM every day. Covered pull-through
+      spaces and a 12 by 30 open space are labeled for Class C motorhomes,
+      trucks, and cars only.
+    sources:
+      - url: https://steadrvandboatstorage.com/listing
+        title: Listing and rates page
+    last_verified: "2026-11-18"

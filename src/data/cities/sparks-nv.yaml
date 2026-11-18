@@ -1,0 +1,120 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: sparks-nv
+city: Sparks
+state: Nevada
+state_code: NV
+metro: Sparks
+summary: >-
+  These facilities publish an RV or boat storage page in Sparks. Each card uses
+  only what that page states. This is not a complete inventory.
+sparefoot_slug: Sparks-NV
+neighbor_path: nevada/sparks
+sparefoot_note: null
+photo: sparks
+listings:
+  - slug: admiral-toy-storage-sparks
+    name: Admiral Toy Storage
+    street: 1475 Linda Way
+    city: Sparks
+    state_code: NV
+    postal_code: "89431"
+    lat: null
+    lng: null
+    phone: "(775) 440-6130"
+    website: https://admiraltoystorage.com/
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Indoor, temperature-controlled storage for boats, cars, RVs, and
+      trailers. The page says the Linda Way location in Sparks is about
+      120,000 square feet and that a second facility at 650 Innovation Drive
+      #B, Reno, NV 89511, adds nearly 95,000 square feet. Both are described as
+      having surveillance and fire protection. Pricing is based on length and
+      no dollar rate is printed. The Reno address is not a second card because
+      it shares this website.
+    sources:
+      - url: https://admiraltoystorage.com/
+        title: Official website
+      - url: https://admiraltoystorage.com/contact-us/
+        title: Contact page
+    last_verified: "2026-11-18"
+
+  - slug: burgarello-boat-rv-storage
+    name: Burgarello Boat & RV Storage
+    street: 50 Snider Way
+    city: Sparks
+    state_code: NV
+    postal_code: "89431"
+    lat: null
+    lng: null
+    phone: "(775) 851-3666"
+    website: https://www.burgarelloboatrvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The Sparks page says renters have 24-hour access and digital video
+      surveillance, with drive-up access. It does not say whether the spaces
+      are covered, enclosed, or open. A billing address at 1475 Terminal Way,
+      Suite A, Reno, is printed separately from this yard. Office hours are
+      Monday through Thursday 8:00 AM to 5:00 PM and Friday 8:00 AM to 12:00 PM.
+    sources:
+      - url: https://www.burgarelloboatrvstorage.com/
+        title: Official website
+      - url: https://www.burgarelloboatrvstorage.com/pages/contact
+        title: Contact page
+    last_verified: "2026-11-18"
+
+  - slug: spanish-springs-boat-rv-storage
+    name: Spanish Springs Boat and RV Storage
+    street: 100 Ingenuity Ave
+    city: Sparks
+    state_code: NV
+    postal_code: "89441"
+    lat: null
+    lng: null
+    phone: "(775) 644-3279"
+    website: https://www.spanishspringsboatandrvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      RV and boat storage with an RV dump station, an access-controlled gate,
+      and video monitoring. Access hours are 5:00 AM to 11:00 PM. The page does
+      not say whether the spaces are covered, enclosed, or open. Office hours
+      are Tuesday through Friday 9:30 AM to 6:00 PM and Saturday 8:00 AM to
+      4:30 PM.
+    sources:
+      - url: https://www.spanishspringsboatandrvstorage.com/
+        title: Official website
+      - url: https://www.spanishspringsboatandrvstorage.com/self-storage/nv/sparks/map-directions
+        title: Directions page
+    last_verified: "2026-11-18"

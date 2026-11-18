@@ -1,0 +1,83 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: carson-city-nv
+city: Carson City
+state: Nevada
+state_code: NV
+metro: Carson City
+summary: >-
+  These facilities publish an RV or boat storage page in Carson City. Each card
+  uses only what that page states. This is not a complete inventory.
+sparefoot_slug: Carson-City-NV
+neighbor_path: nevada/carson-city
+sparefoot_note: null
+photo: carson-city
+listings:
+  - slug: bam-rv-boat-storage
+    name: BAM RV & Boat Storage
+    street: 5969 Morgan Mill Road
+    city: Carson City
+    state_code: NV
+    postal_code: "89701"
+    lat: null
+    lng: null
+    phone: "(775) 443-8875"
+    website: https://bamrvboatstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: 60
+    clearance_ft: 14
+    power_hookups: true
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: Pricing ranges from $525 to $750 per month.
+    waitlist: The contact page says the facility is currently full and is accepting requests for the waiting list.
+    notes: >-
+      Enclosed, heated, and insulated bays with electric openers. Outside
+      dimensions run from 45 feet deep by 15 feet wide to 60 feet deep by 15
+      feet wide, with up to 14 feet of clearance. Each bay has metered 30-amp
+      electrical service. The page lists a dump station, onsite water, air to
+      125 PSI, security cameras, 24/7 gated access, and a perimeter fence.
+    sources:
+      - url: https://bamrvboatstorage.com/
+        title: Official website
+      - url: https://bamrvboatstorage.com/contact-us/
+        title: Contact page
+    last_verified: "2026-11-18"
+
+  - slug: carson-city-rv-boat-storage
+    name: Carson City RV & Boat Storage
+    street: 3370 Lamotte Rd.
+    city: Carson City
+    state_code: NV
+    postal_code: "89706"
+    lat: null
+    lng: null
+    phone: "(775) 245-2144"
+    website: https://www.carsoncityrvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: true
+    access_24h: null
+    price_notes: Pricing starting at $89.95 per month.
+    waitlist: null
+    notes: >-
+      Covered and uncovered parking for RVs and boats, with electrical trickle
+      charger plug-in spots available and high-definition monitored security
+      cameras. Touch-less computerized entry and exit is stated. Gate hours are
+      not printed. Office hours are Monday through Friday 10:00 AM to 5:30 PM
+      and Saturday 8:00 AM to 4:00 PM.
+    sources:
+      - url: https://www.carsoncityrvstorage.com/
+        title: Official website
+      - url: https://www.carsoncityrvstorage.com/contact-us/
+        title: Contact page
+    last_verified: "2026-11-18"
