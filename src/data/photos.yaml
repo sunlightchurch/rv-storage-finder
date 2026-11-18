@@ -784,3 +784,59 @@
   license: "CC BY-SA 3.0"
   license_url: "https://creativecommons.org/licenses/by-sa/3.0"
   credit_required: true
+- id: wilmington
+  role: city
+  alt: "The Wilmington, North Carolina riverfront"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/wilmington-640.webp
+    "960": photos/wilmington-960.webp
+    "1280": photos/wilmington-1280.webp
+  author: "DiscoA340"
+  source_url: "https://commons.wikimedia.org/wiki/File:Wilmington_Riverfront_in_August_2022.jpg"
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  credit_required: true
+- id: asheville
+  role: city
+  alt: "Downtown Asheville, North Carolina"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/asheville-640.webp
+    "960": photos/asheville-960.webp
+    "1280": photos/asheville-1280.webp
+  author: "AbeEzekowitz"
+  source_url: "https://commons.wikimedia.org/wiki/File:Asheville_Downtown_panorama.jpg"
+  license: "CC BY-SA 3.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  credit_required: true
+- id: high-point
+  role: city
+  alt: "The water tower in High Point, North Carolina"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/high-point-640.webp
+    "960": photos/high-point-960.webp
+    "1280": photos/high-point-1280.webp
+  author: "DiscoA340"
+  source_url: "https://commons.wikimedia.org/wiki/File:High_Point_Water_Tower.jpg"
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  credit_required: true
+- id: jacksonville-nc
+  role: city
+  alt: "Western Boulevard in Jacksonville, North Carolina"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/jacksonville-nc-640.webp
+    "960": photos/jacksonville-nc-960.webp
+    "1280": photos/jacksonville-nc-1280.webp
+  author: "DiscoA340"
+  source_url: "https://commons.wikimedia.org/wiki/File:Western_Boulevard,_Jacksonville_(June_2023)_02.jpg"
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  credit_required: true
