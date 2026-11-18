@@ -1,0 +1,295 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: miami-fl
+city: Miami
+state: Florida
+state_code: FL
+metro: Miami
+summary: >-
+  These facilities publish an RV or boat storage page in Miami-Dade, including
+  Miami, Miami Beach, Hialeah, Doral, Homestead, and Coral Gables. Each card
+  uses only what that page states.
+sparefoot_slug: Miami-FL
+neighbor_path: florida/miami
+sparefoot_note: >-
+  The SpareFoot city token is Miami. These lots also include Miami Beach,
+  Hialeah, Doral, Homestead, and Coral Gables.
+photo: miami
+listings:
+  - slug: bill-bird-marina-haulover
+    name: Bill Bird Marina
+    street: 10800 Collins Ave
+    city: Miami Beach
+    state_code: FL
+    postal_code: "33154"
+    lat: null
+    lng: null
+    phone: "(305) 947-3525"
+    website: https://www.miamidade.gov/global/recreation/park/haulover-park.page
+    vehicles: [boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Haulover Park's Bill Bird Marina page lists rack dry storage, dry
+      storage, and 152 gated wet slips for vessels from 35 to 120 feet, with
+      electricity up to 50 amps and a pump-out. The 120-foot figure is a slip
+      length, so it is not stored as a dry-storage maximum. Boat ramps are open
+      24 hours; that sentence is about the ramps. A $15 bus or RV figure is a
+      park parking fee, not storage.
+    sources:
+      - url: https://www.miamidade.gov/global/recreation/park/haulover-park.page
+        title: Haulover Park page
+      - url: https://www.miamidade.gov/global/service.page?Mduid_service=ser1495115031663185
+        title: Miami-Dade marina fees
+    last_verified: "2026-11-18"
+
+  - slug: black-point-marina-homestead
+    name: Black Point Park and Marina
+    street: 24775 SW 87th Ave
+    city: Homestead
+    state_code: FL
+    postal_code: "33032"
+    lat: null
+    lng: null
+    phone: "(305) 258-4092"
+    website: https://www.miamidade.gov/global/recreation/park/black-point-park-and-marina.page
+    vehicles: [boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    price_notes: >-
+      Dry storage daily transient is $35 per day. Dry storage monthly transient
+      is $500 per month. The fee page says these transient fees do not include
+      tax.
+    waitlist: null
+    notes: >-
+      The park page lists boat storage and says the marina and boat ramp are
+      open 24 hours. Wet-slip rates go to 60 feet and above and do not state a
+      maximum.
+    sources:
+      - url: https://www.miamidade.gov/global/recreation/park/black-point-park-and-marina.page
+        title: Black Point Park and Marina
+      - url: https://www.miamidade.gov/global/service.page?Mduid_service=ser1495115031663185
+        title: Miami-Dade marina fees
+    last_verified: "2026-11-18"
+
+  - slug: cubesmart-miami-12701-sw-124th
+    name: CubeSmart Self Storage of Miami
+    street: 12701 SW 124th St
+    city: Miami
+    state_code: FL
+    postal_code: "33186"
+    lat: null
+    lng: null
+    phone: "(305) 251-1300"
+    website: https://www.cubesmart.com/florida-self-storage/miami-self-storage/medium/196.html
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 25
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: true
+    access_24h: false
+    price_notes: >-
+      Outdoor parking, second month free and 40% off: 20 feet is $174.60/mo
+      online and $291.00 in store; 25 feet is $187.80/mo online and $313.00 in
+      store.
+    waitlist: null
+    notes: >-
+      Services at this facility include RV storage, boat parking, and outside
+      parking. Access hours are daily 6:00 AM to 10:00 PM. The page also says
+      24-hour video recording.
+    sources:
+      - url: https://www.cubesmart.com/florida-self-storage/miami-self-storage/medium/196.html
+        title: CubeSmart location page
+    last_verified: "2026-11-18"
+
+  - slug: happy-trailer-storage-miami
+    name: Happy Trailer Storage
+    street: 215 NW 79th St
+    city: Miami
+    state_code: FL
+    postal_code: "33150"
+    lat: null
+    lng: null
+    phone: "(786) 728-9988"
+    website: https://happytrailerstorage.com/
+    vehicles: [boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Outside dry-rack and cantilever storage for boats on trailers and
+      personal watercraft, with hoses to flush a boat and electrical outlets to
+      charge a battery. The page says the yard is gated with 24/7 surveillance
+      cameras and is open 7 days a week. It does not mention RVs or clock hours.
+    sources:
+      - url: https://happytrailerstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: herbert-hoover-marina-homestead
+    name: Herbert Hoover Marina
+    street: 9698 N Canal Dr
+    city: Homestead
+    state_code: FL
+    postal_code: "33033"
+    lat: null
+    lng: null
+    phone: "(305) 230-3033"
+    website: https://www.miamidade.gov/global/recreation/park/homestead-bayfront-park.page
+    vehicles: [boat]
+    storage_types: []
+    max_length_ft: 50
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: >-
+      Dry storage daily transient is $35 per day. Dry storage monthly transient
+      is $500 per month. The fee page says these transient fees do not include
+      tax.
+    waitlist: null
+    notes: >-
+      Homestead Bayfront Park lists trailer dry storage, boat storage, wet
+      slips, a pumpout, and electricity up to 50 amps, and says the marina
+      accommodates vessels up to 50 feet. A bus or RV figure is a park entrance
+      fee. RVs are not stored.
+    sources:
+      - url: https://www.miamidade.gov/global/recreation/park/homestead-bayfront-park.page
+        title: Homestead Bayfront Park
+      - url: https://www.miamidade.gov/global/service.page?Mduid_service=ser1495115031663185
+        title: Miami-Dade marina fees
+    last_verified: "2026-11-18"
+
+  - slug: j-and-d-parking-storage-doral
+    name: J and D Parking Storage
+    street: 6100 NW 97th Ave
+    city: Doral
+    state_code: FL
+    postal_code: "33178"
+    lat: null
+    lng: null
+    phone: "(786) 699-8211"
+    website: https://www.jdparkingstorage.com/storage-units/florida/doral/j-and-d-parking-storage-corp-424009/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 50
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: >-
+      A 10 by 10 foot space is listed at $99 and a 10 by 20 foot space at $229.
+      The page does not state the billing period for those figures.
+    waitlist: null
+    notes: >-
+      Outdoor boat, RV, and vehicle spaces from 10 by 10 up to 10 by 50 feet,
+      with a gated entry and 24-hour security cameras. Gate hours say open 24
+      hours, while a feature bullet says 24-hour access upon approval, so
+      24-hour access is not marked.
+    sources:
+      - url: https://www.jdparkingstorage.com/storage-units/florida/doral/j-and-d-parking-storage-corp-424009/
+        title: Doral location page
+    last_verified: "2026-11-18"
+
+  - slug: matheson-hammock-marina
+    name: Matheson Hammock Marina
+    street: 9610 Old Cutler Road
+    city: Coral Gables
+    state_code: FL
+    postal_code: "33156"
+    lat: null
+    lng: null
+    phone: "(305) 665-5475"
+    website: https://www.miamidade.gov/global/recreation/park/matheson-hammock-park.page
+    vehicles: [boat]
+    storage_types: []
+    max_length_ft: 50
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: >-
+      Dry storage daily transient is $35 per day. Dry storage monthly transient
+      is $500 per month. The fee page says these transient fees do not include
+      tax.
+    waitlist: null
+    notes: >-
+      The park page says the marina holds about 330 vessels from 30 to 50 feet
+      across wet slips and dry storage, all with water and electricity, plus a
+      pump-out. A bus or RV figure is a park entrance fee. RVs are not stored.
+    sources:
+      - url: https://www.miamidade.gov/global/recreation/park/matheson-hammock-park.page
+        title: Matheson Hammock Park
+      - url: https://www.miamidade.gov/global/service.page?Mduid_service=ser1495115031663185
+        title: Miami-Dade marina fees
+    last_verified: "2026-11-18"
+
+  - slug: public-storage-hialeah-6550-w-20th
+    name: Public Storage
+    street: 6550 W 20th Ave
+    city: Hialeah
+    state_code: FL
+    postal_code: "33016"
+    lat: null
+    lng: null
+    phone: "(786) 600-2005"
+    website: https://www.publicstorage.com/self-storage-fl-hialeah/1573.html
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: Uncovered outside vehicle parking, 10 by 15 feet, is listed at $242/mo.
+    waitlist: null
+    notes: >-
+      The location feature list includes boat storage, RV storage, and outdoor
+      storage. The only vehicle space shown was uncovered 10 by 15 foot
+      parking. The page also says 24/7 access available and that the property
+      is open Monday through Sunday 6:00 AM to 10:00 PM, so 24-hour access is
+      not marked. A later security paragraph says gates and cameras are what to
+      expect at many locations, so those are not marked for this address.
+    sources:
+      - url: https://www.publicstorage.com/self-storage-fl-hialeah/1573.html
+        title: Public Storage location page
+    last_verified: "2026-11-18"

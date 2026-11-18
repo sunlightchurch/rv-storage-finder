@@ -1,0 +1,329 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: ocala-fl
+city: Ocala
+state: Florida
+state_code: FL
+metro: Ocala
+summary: >-
+  These facilities publish an RV or boat storage page in Ocala or Summerfield.
+  Each card uses only what that page states.
+sparefoot_slug: Ocala-FL
+neighbor_path: florida/ocala
+sparefoot_note: null
+photo: ocala
+listings:
+  - slug: barracuda-boat-rv-storage-ocala
+    name: Barracuda Boat & RV Storage
+    street: 4707 NW 44th Avenue
+    city: Ocala
+    state_code: FL
+    postal_code: "34482"
+    lat: null
+    lng: null
+    phone: "(352) 690-2313"
+    website: https://www.boatrvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The company page names covered vehicle storage at 4707 NW 44th Ave in
+      Ocala and also describes an Edgewater lot. On that page, Barracuda
+      vehicle storage is fully fenced and gated, with 24/7 access, steel
+      canopies, 24-hour video surveillance, a sanitation dump, electricity, and
+      wash bays. Office hours are Monday through Friday 11:00 AM to 4:00 PM.
+      No dollar rate is printed.
+    sources:
+      - url: https://www.boatrvstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: beacon-rv-boat-storage
+    name: Beacon RV & Boat Storage
+    street: 6257 SW 38th St
+    city: Ocala
+    state_code: FL
+    postal_code: "34474"
+    lat: null
+    lng: null
+    phone: "(352) 234-3243"
+    website: https://www.beaconrvb.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The Ocala pages describe covered canopies and uncovered spaces, stating
+      480 or more paved spaces, a gate, fence, surveillance, and digital entry
+      24/7. Listed free amenities include a wash station, dump station, ice,
+      air, and water. No rate or space length is printed.
+    sources:
+      - url: https://www.beaconrvb.com/
+        title: Official website
+      - url: https://www.beaconrvb.com/contact-us
+        title: Official contact page
+    last_verified: "2026-11-18"
+
+  - slug: cardinal-mini-storage-ocala
+    name: Cardinal Storage
+    street: 5860 SW 6th Place
+    city: Ocala
+    state_code: FL
+    postal_code: "34474"
+    lat: null
+    lng: null
+    phone: "(352) 629-7883"
+    website: https://cardinalministorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 50
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: >-
+      Covered RV parking is listed at $180.00 for 12 by 40 under canopy and
+      $250.00 for 12 by 50 under canopy. Uncovered RV parking is listed at
+      $50.00 for 12 by 30 and $120.00 for 12 by 40. Optional 30-amp electric is
+      $41.95 per month. The parking figures are labeled Regular Price and are
+      not given a billing period.
+    waitlist: null
+    notes: >-
+      The Ocala page lists RV storage, boat storage, outdoor storage, an
+      electronic gate, and recorded video surveillance. Gate access is 6:00 AM
+      to 11:00 PM every day. The price page also lists a dump tank, free air,
+      and an ice machine. Door and ceiling heights on that page are for storage
+      units, not the RV canopies.
+    sources:
+      - url: https://cardinalministorage.com/
+        title: Official website
+      - url: https://www.cardinalministorage.com/prices.php
+        title: Official price page
+    last_verified: "2026-11-18"
+
+  - slug: central-florida-rv-storage
+    name: Central Florida RV Storage
+    street: 6875 SE Hwy 42
+    city: Summerfield
+    state_code: FL
+    postal_code: "34491"
+    lat: null
+    lng: null
+    phone: "(352) 804-7385"
+    website: https://www.centralflrvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      Monthly covered rates are $200 for 12.5 by 40 ft and $164.43 and $137 for
+      12.5 by 25 ft. Monthly uncovered rates are $80 for 12.5 by 40 ft, $52 for
+      12.5 by 30 ft, and $45 for 12.5 by 25 ft.
+    waitlist: null
+    notes: >-
+      Covered and uncovered storage for RVs, boats, trailers, and autos in
+      Summerfield, with 20-amp electric on covered lots, a wash station, an ice
+      machine, 24/7 gated access, and 24-hour video surveillance. The page says
+      larger lots may be available and does not give that longer length.
+    sources:
+      - url: https://www.centralflrvstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: compass-self-storage-ocala-sr-200
+    name: Compass Self Storage
+    street: 9085 SW State Road 200
+    city: Ocala
+    state_code: FL
+    postal_code: "34481"
+    lat: null
+    lng: null
+    phone: "(352) 290-8200"
+    website: https://www.compassselfstorage.com/self-storage/fl/ocala/state-road/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      This State Road 200 page says the facility offers boat storage and RV
+      storage and lists auto and boat storage among its features. Regular
+      access is 6:00 AM to 10:00 PM, seven days a week, and 24-hour access is
+      listed by request, so 24-hour access is not marked. The page says the
+      facility is fully fenced and does not state cover type or a vehicle rate.
+    sources:
+      - url: https://www.compassselfstorage.com/self-storage/fl/ocala/state-road/
+        title: Official State Road 200 page
+    last_verified: "2026-11-18"
+
+  - slug: peoples-choice-storage-ocala
+    name: People's Choice Storage
+    street: 4545 Northwest 27th Avenue
+    city: Ocala
+    state_code: FL
+    postal_code: "34475"
+    lat: null
+    lng: null
+    phone: "(352) 600-4545"
+    website: https://peopleschoicestorage.com/locations/ocala-fl-34475
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 70
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The Ocala page says the lot is entirely outdoors and uncovered, with
+      spaces as long as 70 feet for boats, RVs, and trailers, including Class A
+      motorhomes. It lists a wash station, perimeter fencing, a gate, security
+      cameras, and 24-hour gate access. The entrance is paved and the parking
+      spaces are gravel. No rate is printed.
+    sources:
+      - url: https://peopleschoicestorage.com/locations/ocala-fl-34475
+        title: Official Ocala boat and RV page
+    last_verified: "2026-11-18"
+
+  - slug: safe-harbor-rv-boat-storage
+    name: Safe Harbor RV & Boat Storage
+    street: 8640 Southeast 147th Place
+    city: Summerfield
+    state_code: FL
+    postal_code: null
+    lat: null
+    lng: null
+    phone: "(352) 245-7233"
+    website: https://safeharborrvboatstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: >-
+      Covered lots up to 27 ft are $182.25 per month, plus $6.75 per additional
+      foot. Uncovered storage is listed at $75.00 plus $3.75 per additional
+      foot. The page says rates are annual, monthly, or daily and does not
+      label the uncovered figure with a billing period.
+    waitlist: null
+    notes: >-
+      Covered and uncovered boat, RV, and trailer storage in Summerfield. The
+      page includes a dump station, a power-washing station, complimentary
+      power for charging batteries, a resident manager, 24/7 cameras, and a
+      coded gate. The facility is open 5:00 AM to 10:00 PM. The page does not
+      print a ZIP code.
+    sources:
+      - url: https://safeharborrvboatstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: sentinel-rv-boat-storage
+    name: Sentinel RV and Boat Storage
+    street: 500 SW 33rd Ave
+    city: Ocala
+    state_code: FL
+    postal_code: "34474"
+    lat: null
+    lng: null
+    phone: "(352) 425-5468"
+    website: https://www.sentinelrvb.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: 50
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The Ocala page offers covered, uncovered, and enclosed RV and boat space,
+      including a 14 by 50 enclosed suite, with a gated lot, about 30 cameras,
+      a wash and vacuum station, and a dump station. Electric service is
+      included. One answer says uncovered spaces have 20-amp service and
+      covered and enclosed spaces have 20- and 30-amp service, while another
+      section says 15-, 20-, and 30-amp service is included at every space.
+      Gate access is 24 hours. No dollar rate is printed.
+    sources:
+      - url: https://www.sentinelrvb.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: speedys-rv-boat-storage
+    name: Speedy's RV & Boat Storage
+    street: 5741 S Pine Ave
+    city: Ocala
+    state_code: FL
+    postal_code: "34480"
+    lat: null
+    lng: null
+    phone: "(352) 300-8252"
+    website: https://www.speedysrvandboatstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: 45
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered RV and boat storage at the rear of Hilltop Commerce Park, with 76
+      paved spaces described as 12 by 45 feet and each equipped with a 20-amp
+      outlet. The page says surveillance runs continuously, a minimum lease is
+      6 months, and a 12-month lease includes one month free. It does not print
+      a dollar rate or gate hours. The street address is on the contact page.
+    sources:
+      - url: https://www.speedysrvandboatstorage.com/
+        title: Official website
+      - url: https://www.speedysrvandboatstorage.com/contact-rv-and-boat-storage-in-ocala/
+        title: Official contact page
+    last_verified: "2026-11-18"

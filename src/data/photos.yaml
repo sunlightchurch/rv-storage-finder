@@ -392,3 +392,213 @@
   license: "CC BY 2.0"
   license_url: "https://creativecommons.org/licenses/by/2.0"
   credit_required: true
+
+- id: miami
+  role: city
+  alt: "Downtown Miami skyline"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/miami-640.webp
+    "960": photos/miami-960.webp
+    "1280": photos/miami-1280.webp
+  author: "Wilfredor"
+  source_url: "https://commons.wikimedia.org/wiki/File:Miami,_Florida_skyline.jpg"
+  license: "CC0"
+  license_url: "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  credit_required: false
+
+- id: fort-lauderdale
+  role: city
+  alt: "Fort Lauderdale Beach along the Atlantic"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/fort-lauderdale-640.webp
+    "960": photos/fort-lauderdale-960.webp
+    "1280": photos/fort-lauderdale-1280.webp
+  author: "U+1F360"
+  source_url: "https://commons.wikimedia.org/wiki/File:Fort_Lauderdale_Beach_Blvd.jpg"
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  credit_required: true
+
+- id: west-palm-beach
+  role: city
+  alt: "West Palm Beach, Florida skyline"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/west-palm-beach-640.webp
+    "960": photos/west-palm-beach-960.webp
+    "1280": photos/west-palm-beach-1280.webp
+  author: "Jud McCranie"
+  source_url: "https://commons.wikimedia.org/wiki/File:West_Palm_Beach,_Florida,_US,_skyline.jpg"
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  credit_required: true
+
+- id: st-petersburg
+  role: city
+  alt: "St. Petersburg, Florida waterfront"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/st-petersburg-640.webp
+    "960": photos/st-petersburg-960.webp
+    "1280": photos/st-petersburg-1280.webp
+  author: "Eden, Janine and Jim"
+  source_url: "https://commons.wikimedia.org/wiki/File:St._Petersburg_Florida_Waterfront_Panorama_February_2024.jpg"
+  license: "CC BY 2.0"
+  license_url: "https://creativecommons.org/licenses/by/2.0"
+  credit_required: true
+
+- id: lakeland
+  role: city
+  alt: "Downtown Lakeland bus terminal"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/lakeland-640.webp
+    "960": photos/lakeland-960.webp
+    "1280": photos/lakeland-1280.webp
+  author: "DanTD"
+  source_url: "https://commons.wikimedia.org/wiki/File:Citrus_Connection_Downtown_Lakeland_Bus_Terminal_(2).jpg"
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  credit_required: true
+
+- id: naples
+  role: city
+  alt: "Naples Pier in Naples, Florida"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/naples-640.webp
+    "960": photos/naples-960.webp
+    "1280": photos/naples-1280.webp
+  author: "Massimo Catarinella"
+  source_url: "https://commons.wikimedia.org/wiki/File:NaplesPierFlorida.jpg"
+  license: "CC BY 3.0"
+  license_url: "https://creativecommons.org/licenses/by/3.0"
+  credit_required: true
+
+- id: tallahassee
+  role: city
+  alt: "The historic capitol and the Florida State Capitol in Tallahassee"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/tallahassee-640.webp
+    "960": photos/tallahassee-960.webp
+    "1280": photos/tallahassee-1280.webp
+  author: "Michael Rivera"
+  source_url: "https://commons.wikimedia.org/wiki/File:Florida%E2%80%99s_Historic_Capitol_and_Florida_State_Capitol_2.JPG"
+  license: "CC BY-SA 3.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  credit_required: true
+
+- id: pensacola
+  role: city
+  alt: "White sand along Pensacola Beach"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/pensacola-640.webp
+    "960": photos/pensacola-960.webp
+    "1280": photos/pensacola-1280.webp
+  author: "Tony Webster from Minneapolis, Minnesota, United States"
+  source_url: "https://commons.wikimedia.org/wiki/File:Pensacola_Beach_-_White_Sands,_Florida_Coast_(27268946483).jpg"
+  license: "CC BY-SA 2.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  credit_required: true
+
+- id: gainesville
+  role: city
+  alt: "Hippodrome State Theater in downtown Gainesville"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/gainesville-640.webp
+    "960": photos/gainesville-960.webp
+    "1280": photos/gainesville-1280.webp
+  author: "KlipschFan"
+  source_url: "https://commons.wikimedia.org/wiki/File:Hippodrome_State_Theater,_Gainesville_Florida.jpg"
+  license: "CC BY-SA 2.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  credit_required: true
+
+- id: ocala
+  role: city
+  alt: "The square in downtown Ocala, Florida"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/ocala-640.webp
+    "960": photos/ocala-960.webp
+    "1280": photos/ocala-1280.webp
+  author: "Luv24jmg"
+  source_url: "https://commons.wikimedia.org/wiki/File:Ocala_square_2011.jpg"
+  license: "CC BY-SA 3.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  credit_required: true
+
+- id: daytona-beach
+  role: city
+  alt: "The shore at Daytona Beach Shores, Florida"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/daytona-beach-640.webp
+    "960": photos/daytona-beach-960.webp
+    "1280": photos/daytona-beach-1280.webp
+  author: "Morten Haan"
+  source_url: "https://commons.wikimedia.org/wiki/File:Daytona_Beach_Shores.jpg"
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  credit_required: true
+
+- id: melbourne
+  role: city
+  alt: "Historic downtown Melbourne, Florida"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/melbourne-640.webp
+    "960": photos/melbourne-960.webp
+    "1280": photos/melbourne-1280.webp
+  author: "MicheleHaro"
+  source_url: "https://commons.wikimedia.org/wiki/File:Historic_Downtown_Melbourne.jpg"
+  license: "CC BY 3.0"
+  license_url: "https://creativecommons.org/licenses/by/3.0"
+  credit_required: true
+
+- id: port-st-lucie
+  role: city
+  alt: "Veterans Memorial Park in Port St. Lucie"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/port-st-lucie-640.webp
+    "960": photos/port-st-lucie-960.webp
+    "1280": photos/port-st-lucie-1280.webp
+  author: "Leonard J. DeFrancisci"
+  source_url: "https://commons.wikimedia.org/wiki/File:Veterans_Memorial_Park_(Port_St._Lucie,_Florida)_P001.jpg"
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  credit_required: true
+
+- id: panama-city
+  role: city
+  alt: "The beach at Panama City Beach, Florida"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/panama-city-640.webp
+    "960": photos/panama-city-960.webp
+    "1280": photos/panama-city-1280.webp
+  author: "Amanuel G"
+  source_url: "https://commons.wikimedia.org/wiki/File:Panama_City_Beach_(197628567).jpg"
+  license: "CC0"
+  license_url: "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  credit_required: false

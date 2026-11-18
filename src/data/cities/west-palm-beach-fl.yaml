@@ -1,0 +1,353 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: west-palm-beach-fl
+city: West Palm Beach
+state: Florida
+state_code: FL
+metro: West Palm Beach
+summary: >-
+  These facilities publish an RV or boat storage page in Palm Beach County,
+  including West Palm Beach, Boca Raton, Boynton Beach, Lake Worth Beach, Palm
+  Beach Gardens, and Jupiter. Each card uses only what that page states.
+sparefoot_slug: West-Palm-Beach-FL
+neighbor_path: florida/west-palm-beach
+sparefoot_note: >-
+  The SpareFoot city token is West Palm Beach. These lots also include Boca
+  Raton, Boynton Beach, Lake Worth Beach, Palm Beach Gardens, and Jupiter.
+photo: west-palm-beach
+listings:
+  - slug: addison-storage-boca-raton
+    name: Addison Storage
+    street: 900 NW 1st Ave.
+    city: Boca Raton
+    state_code: FL
+    postal_code: "33432"
+    lat: null
+    lng: null
+    phone: "(561) 544-1001"
+    website: https://www.addisonstoragebocaraton.com/900-nw-1st-ave-boca-raton-fl-33432
+    vehicles: [rv, boat]
+    storage_types: [enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: >-
+      The homepage lists medium at $225 and large at $336 beside the RV and
+      boat parking announcement. It does not state the billing period.
+    waitlist: null
+    notes: >-
+      The location page says this address has designated boat and RV storage,
+      gated access, surveillance cameras, outdoor storage areas, and interior
+      units. Access hours are every day 6:00 AM to 9:00 PM. A second phone,
+      (561) 600-5478, is also printed.
+    sources:
+      - url: https://www.addisonstoragebocaraton.com/900-nw-1st-ave-boca-raton-fl-33432
+        title: Boca Raton location page
+    last_verified: "2026-11-18"
+
+  - slug: cubesmart-boynton-12560-military
+    name: CubeSmart Self Storage of Boynton Beach
+    street: 12560 S Military Trl
+    city: Boynton Beach
+    state_code: FL
+    postal_code: "33436"
+    lat: null
+    lng: null
+    phone: "(561) 865-0860"
+    website: https://www.cubesmart.com/florida-self-storage/boynton-beach-self-storage/drive-up/185.html
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Services at this facility include RV storage, boat parking, and outside
+      parking. Access hours are daily 6:00 AM to 10:00 PM, with 24-hour video
+      recording. No outdoor parking rate was in the unit list when the page was
+      opened.
+    sources:
+      - url: https://www.cubesmart.com/florida-self-storage/boynton-beach-self-storage/drive-up/185.html
+        title: CubeSmart location page
+    last_verified: "2026-11-18"
+
+  - slug: gator-state-boynton-industrial
+    name: Gator State Storage
+    street: 860 W Industrial Ave
+    city: Boynton Beach
+    state_code: FL
+    postal_code: "33426"
+    lat: null
+    lng: null
+    phone: "(561) 736-9547"
+    website: https://www.statestorageboyntonbeach.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 20
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: null
+    price_notes: >-
+      A 20-foot outside parking space for a boat, motorhome, trailer, camper,
+      RV, or vehicle is $299.00 / month. A separate outside-parking figure of
+      $200 is also printed.
+    waitlist: null
+    notes: >-
+      The page offers RV and boat parking and describes the 20-foot outside
+      space as 20 by 10 by 14. A 10 by 20 drive-up unit mentions a 10-foot
+      height, so that height is not used as facility clearance. Office hours
+      are 6:00 AM to 10:00 PM daily. "24 hour secured" refers to security, not
+      access hours.
+    sources:
+      - url: https://www.statestorageboyntonbeach.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: gator-state-westroads-drive
+    name: Gator State Storage
+    street: 3895 Westroads Drive
+    city: West Palm Beach
+    state_code: FL
+    postal_code: "33407"
+    lat: null
+    lng: null
+    phone: "(561) 848-5545"
+    website: https://www.wpb-storage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: 35
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered, uncovered, and garage bays run from 20 to 35 feet for RV, boat,
+      and trailer parking. The page says access is 5:30 am to 10 pm, also
+      prints 7am to 9pm access, and says business accounts can get 24-hour
+      access, so 24-hour access is not marked. Climate controlled storage
+      starting as low as $74.99 per month is printed, and no RV or boat parking
+      rate was printed. The page title also calls the facility Riviera Beach.
+    sources:
+      - url: https://www.wpb-storage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: lake-worth-storage-6533-military
+    name: Lake Worth Storage
+    street: 6533 S Military Trail
+    city: Lake Worth Beach
+    state_code: FL
+    postal_code: "33463"
+    lat: null
+    lng: null
+    phone: "(561) 969-1120"
+    website: https://lakeworthstorage.com/rv-boat-storage-boca-raton/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The RV and boat contact block is 6533 S Military Trail, Lake Worth Beach,
+      and the phone includes extension 2. The article says secure outdoor
+      parking with 24/7 cameras and a keypad gate. Gate hours are 6:00 am to
+      9:00 pm, 7 days. The HTML title says covered parking; the article
+      describes outdoor parking, so the type stored is open.
+    sources:
+      - url: https://lakeworthstorage.com/rv-boat-storage-boca-raton/
+        title: RV and boat storage page
+    last_verified: "2026-11-18"
+
+  - slug: loggerhead-palm-beach-gardens-marina
+    name: Palm Beach Gardens Marina
+    street: 2700 Donald Ross Road
+    city: Palm Beach Gardens
+    state_code: FL
+    postal_code: "33410"
+    lat: 26.8814
+    lng: -80.0735
+    phone: "(561) 627-6358"
+    website: https://www.loggerheadmarinas.com/marinas/palm-beach-gardens-marina/
+    vehicles: [boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The page prints 26.8814, -80.0735 and lists 103 wet slips from 20 to 200
+      feet with shore power, plus boat lifts and pump-out. The property is
+      gated and staffed 24 hours. Office hours are 8:00am to 5:00pm every day.
+      RVs are not mentioned. The 200-foot figure is a wet-slip length.
+    sources:
+      - url: https://www.loggerheadmarinas.com/marinas/palm-beach-gardens-marina/
+        title: Palm Beach Gardens Marina page
+    last_verified: "2026-11-18"
+
+  - slug: mizner-storall-boynton
+    name: Mizner Storall of Boynton Beach
+    street: 125 NW 31st Terrace
+    city: Boynton Beach
+    state_code: FL
+    postal_code: null
+    lat: null
+    lng: null
+    phone: "(561) 734-2909"
+    website: https://www.miznerstorallbb.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: Parking spaces are $10/FT/MO based on the total length stored.
+    waitlist: null
+    notes: >-
+      The page lists 24-hour access, a fenced and gated lot, CCTV cameras,
+      boats, jet skis, boat trailers, camper and RV parking, and ground-floor
+      garage bays. It does not say whether the parking spaces are covered,
+      enclosed, or open, and it does not print a ZIP code.
+    sources:
+      - url: https://www.miznerstorallbb.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: port-32-palm-beach-gardens
+    name: PORT 32 Palm Beach Gardens
+    street: "2385 PGA Boulevard #E"
+    city: Palm Beach Gardens
+    state_code: FL
+    postal_code: "33410"
+    lat: null
+    lng: null
+    phone: "(561) 626-0200"
+    website: https://www.port32marinas.com/p32marinas/palm-beach-gardens
+    vehicles: [boat]
+    storage_types: []
+    max_length_ft: 60
+    clearance_ft: 22
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The Palm Beach Gardens dockage block lists dry storage to 60 feet long
+      and 22 feet high, and wet slips to 100 feet. The 60-foot figure is the
+      dry-storage length, and 22 feet is the dry-storage height printed for
+      that product. Valet storage says the boat is returned to a secure
+      weatherproof space after a staff wash-down. RVs are not mentioned.
+    sources:
+      - url: https://www.port32marinas.com/p32marinas/palm-beach-gardens
+        title: Palm Beach Gardens location page
+    last_verified: "2026-11-18"
+
+  - slug: recnation-boynton-ocean-ave
+    name: RecNation RV & Boat Storage
+    street: 514 W Ocean Ave
+    city: Boynton Beach
+    state_code: FL
+    postal_code: "33426"
+    lat: null
+    lng: null
+    phone: "(561) 413-6711"
+    website: https://www.recnationstorage.com/storage-facility/fl/boynton-beach/514-w-ocean-ave/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: 70
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: null
+    cameras: true
+    access_24h: null
+    price_notes: >-
+      The page says starting from $171/mo. Web rates include an 8 by 10 foot
+      canopy at $171, uncovered 12 by 30 at $341, and canopy 12 by 40 at $539.
+      The FAQ says prices typically start at $351.
+    waitlist: null
+    notes: >-
+      This address says uncovered, enclosed, and covered RV and boat spaces are
+      available, with a dumping station, electric-powered storage, a vehicle
+      washdown area, and 24/7 cameras. The rate list includes 12 by 70 foot
+      canopies. Access is described as 6:00 AM to 10:00 PM and as 24/7 upon
+      request, so 24-hour access is not marked.
+    sources:
+      - url: https://www.recnationstorage.com/storage-facility/fl/boynton-beach/514-w-ocean-ave/
+        title: Boynton Beach facility page
+    last_verified: "2026-11-18"
+
+  - slug: seminole-marine-palm-beach-gardens
+    name: Seminole Marine
+    street: 2208 Idlewild Road
+    city: Palm Beach Gardens
+    state_code: FL
+    postal_code: "33410"
+    lat: null
+    lng: null
+    phone: "(561) 622-7600"
+    website: https://seminolemarine.com/
+    vehicles: [boat]
+    storage_types: []
+    max_length_ft: 100
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    price_notes: >-
+      Storage is per foot daily with a 35-foot minimum. Monohulls are $1.75/ft
+      the first two weeks, $2.25/ft the second two weeks, $2.75/ft after 30
+      days, $3.75/ft after 60 days, and $4.50/ft after 90 days.
+    waitlist: null
+    notes: >-
+      The boatyard says it can accommodate boats up to 100 feet, depending on
+      beam and weight. Yard hours are Monday through Friday 8am to 5pm,
+      Saturday 8am to 4pm, and Sunday closed. Cover type is not stated. RVs are
+      not mentioned.
+    sources:
+      - url: https://seminolemarine.com/
+        title: Official website
+    last_verified: "2026-11-18"

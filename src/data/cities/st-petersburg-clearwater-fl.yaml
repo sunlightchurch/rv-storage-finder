@@ -1,0 +1,298 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: st-petersburg-clearwater-fl
+city: St. Petersburg
+state: Florida
+state_code: FL
+metro: St. Petersburg–Clearwater
+summary: >-
+  These facilities publish an RV or boat storage page in St. Petersburg,
+  Clearwater, Largo, or Pinellas Park. Each card uses only what that page
+  states. This is not a complete inventory of Pinellas County.
+sparefoot_slug: St-Petersburg-FL
+neighbor_path: florida/st-petersburg
+sparefoot_note: >-
+  The marketplace link opens St. Petersburg, and Clearwater lots are on the same page.
+photo: st-petersburg
+listings:
+  - slug: a-american-self-storage-st-petersburg
+    name: A American Self Storage
+    street: 7830 38th Ave N Unit 10
+    city: St. Petersburg
+    state_code: FL
+    postal_code: "33710"
+    lat: null
+    lng: null
+    phone: "(727) 456-8886"
+    website: https://www.americanstorageflorida.com/7830-38th-ave-n-unit-10-st-petersburg-fl-33710
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      St. Petersburg facility at Tyrone Boulevard North and 38th Avenue North.
+      The page says there is parking for vehicles, RVs, boats, and trailers,
+      and that access is open 24 hours. It does not label that parking covered,
+      enclosed, or open. Another number printed on the page is (727) 276-8080.
+      Office visits are by appointment.
+    sources:
+      - url: https://www.americanstorageflorida.com/7830-38th-ave-n-unit-10-st-petersburg-fl-33710
+        title: Official location page
+    last_verified: "2026-11-18"
+
+  - slug: clearwater-boat-rv-storage
+    name: Clearwater Boat & RV Storage
+    street: 1427 N. Hercules Ave
+    city: Clearwater
+    state_code: FL
+    postal_code: null
+    lat: null
+    lng: null
+    phone: "(727) 449-1211"
+    website: https://www.clearwaterrvandboatstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: 100
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      The rates page lists covered spaces at $350-375 month for vehicles from
+      25 to 100 ft, outdoor spaces at $130-250 month for 15 to 50 ft, and
+      indoor warehouse storage at $400 month. The available-spaces page lists
+      an outdoor space up to 45 ft at $150.00 month and one up to 35 ft at
+      $130.00 month.
+    waitlist: null
+    notes: >-
+      Paved Clearwater lot between Drew Street and Sunset Point Road, with an
+      electric gate, keypad entry and exit, and 24-hour video surveillance.
+      Lengths on the site do not match: the homepage says covered storage up to
+      55 ft and open storage up to 100 ft, the rates table says covered spaces
+      from 25 to 100 ft, and the rates-page footer says covered vehicles up to
+      55 ft and open spaces up to 65 ft. The page does not print a ZIP code.
+    sources:
+      - url: https://www.clearwaterrvandboatstorage.com/
+        title: Official website
+      - url: https://www.clearwaterrvandboatstorage.com/rates.php
+        title: Rates page
+      - url: https://www.clearwaterrvandboatstorage.com/available_spaces.php
+        title: Available spaces page
+    last_verified: "2026-11-18"
+
+  - slug: florida-rv-and-boat-storage-st-petersburg
+    name: Florida RV and Boat Storage
+    street: 2517 25th Av N
+    city: St. Petersburg
+    state_code: FL
+    postal_code: "33713"
+    lat: null
+    lng: null
+    phone: "(727) 200-6345"
+    website: https://flrvandboatstorage.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: 50
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: >-
+      A 12 ft by 40 ft space is listed at $320.00 and a 12 ft by 50 ft space at
+      $370.00. The page does not state the billing period.
+    waitlist: null
+    notes: >-
+      St. Petersburg lot just off I-275. The page lists a wash area, RV clean
+      out, individual electric meters, keypad or smartphone-app entry, security
+      cameras, and a gated facility. It does not label the spaces covered,
+      enclosed, or open, and it does not state access hours. The office address
+      printed on the page is 5447 Haines Rd N, St. Petersburg, FL 33714.
+    sources:
+      - url: https://flrvandboatstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: honey-bee-rv-storage-largo
+    name: Honey Bee RV Storage in Largo
+    street: 13188 93rd Street North
+    city: Largo
+    state_code: FL
+    postal_code: "33773"
+    lat: null
+    lng: null
+    phone: "(727) 270-8230"
+    website: https://www.honeybeerv.com/rv-storage-locations/fl/largo/13188-93rd-street-north
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Largo lot on 93rd Street North, south of Ulmerton Road, with covered and
+      uncovered parking, a coded gate, 24-hour high-definition video
+      surveillance, wash stations, a dump station, and electricity including
+      30-amp and trickle charge. The page printed that day's access hours as
+      5:00 am to 10:00 pm and does not list a 24-hour gate option. A second
+      phone number on the page is (727) 610-8752.
+    sources:
+      - url: https://www.honeybeerv.com/rv-storage-locations/fl/largo/13188-93rd-street-north
+        title: Official Largo location page
+    last_verified: "2026-11-18"
+
+  - slug: menards-boat-rv-storage-largo
+    name: Menards Boat & RV Storage
+    street: 2250 Lake Ave SE
+    city: Largo
+    state_code: FL
+    postal_code: "33771"
+    lat: null
+    lng: null
+    phone: "(715) 876-2822"
+    website: https://menardsselfstorage.com/largo/
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: 50
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Largo boat and RV lot. Parking spaces are 12 to 17 ft wide and 25 to 50
+      ft long. The page also offers 17 ft by 31 ft climate-controlled garage
+      units with electricity and a garage door 9 ft wide by 7 ft tall, so that
+      door is not recorded as facility-wide clearance. The page does not label
+      the parking spaces covered or open. Gate hours are 24 hours a day, 7 days
+      a week. Office hours are Monday through Friday, 8 am to 5 pm CST.
+    sources:
+      - url: https://menardsselfstorage.com/largo/
+        title: Official Largo page
+    last_verified: "2026-11-18"
+
+  - slug: store-it-all-largo
+    name: Store-It-All by Largo Rental Closets
+    street: 1385 Belcher Rd
+    city: Largo
+    state_code: FL
+    postal_code: "33771"
+    lat: null
+    lng: null
+    phone: "(727) 531-1643"
+    website: https://store-itall.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Largo facility with outdoor lots for RVs, boats, and trailers. The page
+      says those vehicle spaces have gated entry with personal codes, 24/7
+      surveillance cameras, and 24-hour access. Indoor climate-controlled units
+      are described for household items and are accessible until 5 pm. No
+      vehicle rates are posted.
+    sources:
+      - url: https://store-itall.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: storhouse-pinellas-park
+    name: StorHouse
+    street: 6301 49th St North
+    city: Pinellas Park
+    state_code: FL
+    postal_code: "33781"
+    lat: null
+    lng: null
+    phone: "(727) 522-0001"
+    website: https://www.rvstorhouse.com/6301-49th-st-north-pinellas-park-fl-33781
+    vehicles: [rv, boat]
+    storage_types: [enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Pinellas Park vehicle storage with more than 120,000 square feet of
+      indoor parking and 3 acres of fenced, paved outdoor parking for RVs,
+      cars, and boats. The pages list a computerized gate, 24-hour video
+      surveillance, complimentary wash-down and dump stations, and 50/30 amp
+      power. Access statements conflict: the location page lists access Monday
+      through Saturday 9:00 am to 5:00 pm and Sunday closed, while the FAQ says
+      outdoor parking is 24/7 and indoor parking is daylight hours.
+    sources:
+      - url: https://www.rvstorhouse.com/6301-49th-st-north-pinellas-park-fl-33781
+        title: Official location page
+      - url: https://www.rvstorhouse.com/faq
+        title: FAQ
+    last_verified: "2026-11-18"
+
+  - slug: watersports-west-largo
+    name: Watersports West
+    street: 12900 Walsingham Rd.
+    city: Largo
+    state_code: FL
+    postal_code: "33774"
+    lat: null
+    lng: null
+    phone: "(727) 517-7000"
+    website: https://watersportswest.com/rv-boat-car-and-trailer-parking/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: true
+    gated: true
+    cameras: null
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Largo parking lot for boats, boat trailers, RVs, and motorhomes, with
+      daily, weekly, and monthly parking. The page says the lot is locked and
+      gated, with 24-hour access and freshwater washdown areas. Staff hours are
+      Monday through Friday 10 am to 7 pm, Saturday 10 am to 6 pm, and Sunday
+      closed. Rates are by phone. The page does not say the lot is covered,
+      enclosed, or open.
+    sources:
+      - url: https://watersportswest.com/rv-boat-car-and-trailer-parking/
+        title: RV and boat parking page
+    last_verified: "2026-11-18"

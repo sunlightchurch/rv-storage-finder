@@ -1,0 +1,277 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: pensacola-fl
+city: Pensacola
+state: Florida
+state_code: FL
+metro: Pensacola
+summary: >-
+  These facilities publish an RV or boat storage page in Pensacola, Gulf
+  Breeze, Pace, or Milton. Each card uses only what that page states.
+sparefoot_slug: Pensacola-FL
+neighbor_path: florida/pensacola
+sparefoot_note: null
+photo: pensacola
+listings:
+  - slug: bowman-boat-rv-storage
+    name: Bowman Boat & RV Storage
+    street: 9450 Bowman Ave.
+    city: Pensacola
+    state_code: FL
+    postal_code: "32534"
+    lat: null
+    lng: null
+    phone: "(850) 805-7505"
+    website: https://www.bowmanboatrv.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The page describes boat and RV storage at 9450 Bowman Ave. with 24/7
+      access, lot lighting, and digital video surveillance. It says sizes vary
+      and does not say whether the spaces are covered, enclosed, or open, and
+      it does not print a rate.
+    sources:
+      - url: https://www.bowmanboatrv.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: dash-in-storage-pensacola
+    name: Dash In Storage
+    street: 7605 Mobile Hwy
+    city: Pensacola
+    state_code: FL
+    postal_code: "32526"
+    lat: null
+    lng: null
+    phone: "(850) 850-3274"
+    website: https://dashinstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: >-
+      Monthly prices are $69.00 up to 20 ft, $75.00 for 20 to 25 ft, $89.00 for
+      25 to 30 ft, $99.00 for 30 to 40 ft, and $150.00 for 40 ft and over.
+    waitlist: null
+    notes: >-
+      Outdoor parking for boats, RVs, campers, trailers, and equipment on
+      Mobile Highway. The page also lists a 10 percent military discount. The
+      only hours printed are Monday through Friday, 7:30 AM to 4:30 PM, without
+      saying those are gate hours. The phone line is shown as (850) 850-DASH
+      and +1 850-850-3274.
+    sources:
+      - url: https://dashinstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: gl-auto-repair-boat-rv-storage
+    name: G&L Auto Repair Boat and RV Storage
+    street: 6407 Metz Road
+    city: Milton
+    state_code: FL
+    postal_code: "32570"
+    lat: null
+    lng: null
+    phone: "(850) 665-4444"
+    website: https://www.gldetail.com/boat-and-rv-storage
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      G&L Auto Repair describes a gated boat storage lot and local RV storage
+      at 6407 Metz Road. The page says the lots are fenced and monitored with
+      24/7 video surveillance, and that each vehicle has a unit. It does not
+      say whether that unit is indoors or define gate hours or a rate.
+    sources:
+      - url: https://www.gldetail.com/boat-and-rv-storage
+        title: Official boat and RV storage page
+    last_verified: "2026-11-18"
+
+  - slug: gulf-breeze-storage-boat-rv
+    name: Gulf Breeze Storage Boat & RV Parking
+    street: 4454 Gulf Breeze Pkwy
+    city: Gulf Breeze
+    state_code: FL
+    postal_code: "32563"
+    lat: null
+    lng: null
+    phone: "(850) 660-3229"
+    website: https://www.gulfbreezestorageunits.com/4454-gulf-breeze-pkwy-gulf-breeze-fl-32563
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The location page is RV, boat, and automobile storage at 4454 Gulf Breeze
+      Pkwy, with access listed as open 24 hours and office hours Monday through
+      Saturday 8:30 AM to 5:30 PM. It does not state cover type, a rate, or
+      cameras. The 6:00 AM to 10:00 PM gate window on the company homepage
+      belongs to the separate self-storage address at 3120 Gulf Breeze Pkwy.
+    sources:
+      - url: https://www.gulfbreezestorageunits.com/4454-gulf-breeze-pkwy-gulf-breeze-fl-32563
+        title: Official boat and RV parking page
+    last_verified: "2026-11-18"
+
+  - slug: hamilton-bridge-storage-yard
+    name: Hamilton Bridge Storage Yard LLC
+    street: 4752 Hamilton Bridge Rd
+    city: Pace
+    state_code: FL
+    postal_code: "32571"
+    lat: null
+    lng: null
+    phone: "(850) 786-4331"
+    website: https://www.hamiltonbridgestorageyard.com/4752-hamilton-bridge-rd-pace-fl-32571
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The Pace page offers RV, car, and boat parking with surveillance cameras,
+      perimeter fencing, a gate, and a resident manager. Access is listed as 24
+      hours, with a note that staff must be notified before arrival between
+      dusk and dawn because of K-9 security. Cover type and rates are not
+      printed.
+    sources:
+      - url: https://www.hamiltonbridgestorageyard.com/4752-hamilton-bridge-rd-pace-fl-32571
+        title: Official Pace location page
+    last_verified: "2026-11-18"
+
+  - slug: milton-storage-stewart-street
+    name: Milton Storage Stewart Street
+    street: 5957 Stewart St
+    city: Milton
+    state_code: FL
+    postal_code: "32570"
+    lat: null
+    lng: null
+    phone: "(850) 613-0587"
+    website: https://www.lock-storage.com/5957-stewart-st-milton-fl-32570
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The Stewart Street page lists outdoor and uncovered boat, RV, and vehicle
+      parking, 24-hour access, fencing, a gate, and security cameras. It also
+      names an office at 6075 Dogwood Drive and annex lots at 4936 Glover Ln
+      and 4901 Glover Ln. No rate is printed.
+    sources:
+      - url: https://www.lock-storage.com/5957-stewart-st-milton-fl-32570
+        title: Official Stewart Street page
+    last_verified: "2026-11-18"
+
+  - slug: new-hope-boat-rv-storage
+    name: New Hope Boat & RV Storage
+    street: 1546 New Hope Rd
+    city: Gulf Breeze
+    state_code: FL
+    postal_code: "32563"
+    lat: null
+    lng: null
+    phone: "(850) 736-3305"
+    website: https://www.newhopeboatandrvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: >-
+      A 12 by 30 space is $130 per month and a 12 by 40 space is $140 per
+      month. The same per-month lines list water at $10 and electricity at $15.
+    waitlist: The page asks visitors to request a unit to be added to the waitlist.
+    notes: >-
+      The Gulf Breeze page still displays "Opening June 2026" and also lists 53
+      of the 12 by 30 spaces and 11 of the 12 by 40 spaces as available. It
+      says electricity, water, and ice are available. It does not say whether
+      the spaces are covered or open. A separate mailing address is 1530 New
+      Hope Rd.
+    sources:
+      - url: https://www.newhopeboatandrvstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: perdido-boat-and-rv-storage
+    name: Perdido Boat and RV Storages
+    street: 13131 Gulf Beach Hwy
+    city: Pensacola
+    state_code: FL
+    postal_code: "32507"
+    lat: null
+    lng: null
+    phone: "(850) 450-5401"
+    website: https://www.perdidoboatandrv.com/13131-gulf-beach-hwy-pensacola-fl-32507
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The page describes indoor boat parking and indoor RV parking for campers,
+      travel trailers, and fifth wheels on Gulf Beach Highway. Access hours are
+      listed as open 24 hours, and office hours are Monday through Friday 9:00
+      AM to 5:00 PM. Rates and a gate or camera statement are not on the page.
+    sources:
+      - url: https://www.perdidoboatandrv.com/13131-gulf-beach-hwy-pensacola-fl-32507
+        title: Official Gulf Beach Highway page
+    last_verified: "2026-11-18"

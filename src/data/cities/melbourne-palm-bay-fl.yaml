@@ -1,0 +1,384 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: melbourne-palm-bay-fl
+city: Melbourne
+state: Florida
+state_code: FL
+metro: Melbourne–Palm Bay
+summary: >-
+  These facilities publish an RV or boat storage page in Melbourne, Viera, Palm
+  Bay, Rockledge, Cocoa, or Titusville. Each card uses only what that page
+  states.
+sparefoot_slug: Melbourne-FL
+neighbor_path: florida/melbourne
+sparefoot_note: >-
+  The SpareFoot link opens Melbourne, and Palm Bay lots are on the same page.
+photo: melbourne
+listings:
+  - slug: babcock-boat-rv-palm-bay
+    name: Babcock Boat, RV, Commercial Vehicle & Trailer Storage
+    street: 6180 Babcock Street SE
+    city: Palm Bay
+    state_code: FL
+    postal_code: "32909"
+    lat: null
+    lng: null
+    phone: "(321) 676-2000"
+    website: https://babcockboatrvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Palm Bay lot for boats, RVs, commercial vehicles, and trailers. The pages
+      say access is 7 days a week and mention computer-controlled access. They
+      do not say whether the vehicle spaces are covered, enclosed, or open, and
+      they do not print a length or a rate.
+    sources:
+      - url: https://babcockboatrvstorage.com/
+        title: Official homepage
+      - url: https://babcockboatrvstorage.com/contact/
+        title: Contact page
+    last_verified: "2026-11-18"
+
+  - slug: cr-storage-rockledge
+    name: CR Storage
+    street: 4070 Riomar Drive
+    city: Rockledge
+    state_code: FL
+    postal_code: "32955"
+    lat: null
+    lng: null
+    phone: 321-290-2108
+    website: https://crstoragerockledge.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Boat and RV storage with 24/7 accessibility. The page states digital
+      video surveillance and a keypad entrance with individual codes. Office
+      hours are 8 AM to 6 PM, Monday to Friday. Cover type, length, and rates
+      are not printed.
+    sources:
+      - url: https://crstoragerockledge.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: eagle-storage-cocoa
+    name: Eagle Storage - Cocoa
+    street: 195 N Range Rd
+    city: Cocoa
+    state_code: FL
+    postal_code: "32926"
+    lat: null
+    lng: null
+    phone: "(888) 710-5141"
+    website: https://www.eaglestoragecocoafl.com/195-n-range-rd-cocoa-fl-32926
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Outdoor RV, boat, truck, and vehicle storage. The page states a fence, an
+      electronic keypad gate, and 24/7 video surveillance. The hours table says
+      Sunday is open 24 hours and Monday through Saturday is 8:00 AM to 5:00
+      PM, while the amenity list says 24-hour access, so 24-hour access is not
+      marked.
+    sources:
+      - url: https://www.eaglestoragecocoafl.com/195-n-range-rd-cocoa-fl-32926
+        title: Official Cocoa location page
+    last_verified: "2026-11-18"
+
+  - slug: gator-state-storage-palm-bay
+    name: Gator State Storage Palm Bay
+    street: 4500 Lipscomb Street
+    city: Palm Bay
+    state_code: FL
+    postal_code: "32905"
+    lat: null
+    lng: null
+    phone: "(321) 724-0935"
+    website: https://www.statestoragepalmbay.com/
+    vehicles: [rv, boat]
+    storage_types: [enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The page offers RV and boat parking, plus enclosed garage-bay vehicle
+      storage with electricity and outdoor parking. It states gated access,
+      24-hour access, and digital video surveillance. The priced units on the
+      page are small household spaces, not RV lengths.
+    sources:
+      - url: https://www.statestoragepalmbay.com/
+        title: Official Palm Bay page
+    last_verified: "2026-11-18"
+
+  - slug: myplace-palm-bay
+    name: MyPlace Self-Storage
+    street: 1895 Palm Bay Road N.E.
+    city: Palm Bay
+    state_code: FL
+    postal_code: "32905"
+    lat: null
+    lng: null
+    phone: 1-877-700-0155
+    website: https://myplaceselfstorage.com/storage-locations/fl/palm-bay/1895-palm-bay-road-ne/palm-bay-rv-storage/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 25
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Uncovered outdoor parking for boats and RVs. The boat page states gated
+      entry and 24/7 video surveillance. The RV page describes 25-foot parking
+      spots and also says the lot can take Class A motorhomes. Clock hours are
+      not printed. The boat page offers the first full month free and does not
+      print a dollar rate.
+    sources:
+      - url: https://myplaceselfstorage.com/storage-locations/fl/palm-bay/1895-palm-bay-road-ne/palm-bay-rv-storage/
+        title: Official Palm Bay RV page
+      - url: https://myplaceselfstorage.com/storage-locations/fl/palm-bay/1895-palm-bay-road-ne/palm-bay-boat-storage/
+        title: Official Palm Bay boat page
+    last_verified: "2026-11-18"
+
+  - slug: myplace-titusville
+    name: MyPlace Self-Storage
+    street: 2025 N US-1
+    city: Titusville
+    state_code: FL
+    postal_code: "32796"
+    lat: null
+    lng: null
+    phone: 1-877-700-0155
+    website: https://myplaceselfstorage.com/storage-locations/fl/titusville/2025-n-us-1/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 60
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Uncovered parking for cars, boats, and RVs. The RV page says paved spaces
+      run up to 60 feet. This location's FAQ states a fence, recorded video
+      surveillance, an electronic gate, and access from 6:00 AM to 10:00 PM
+      daily. The page offers the first full month free and does not print a
+      dollar rate for a vehicle space.
+    sources:
+      - url: https://myplaceselfstorage.com/storage-locations/fl/titusville/2025-n-us-1/
+        title: Official Titusville location page
+      - url: https://myplaceselfstorage.com/storage-locations/fl/titusville/2025-n-us-1/titusville-rv-storage/
+        title: Official Titusville RV page
+    last_verified: "2026-11-18"
+
+  - slug: recnation-melbourne-2225-avocado
+    name: RecNation RV & Boat Storage
+    street: 2225 Avocado Ave
+    city: Melbourne
+    state_code: FL
+    postal_code: "32935"
+    lat: null
+    lng: null
+    phone: "(321) 342-2142"
+    website: https://www.recnationstorage.com/storage-facility/fl/melbourne/2225-avocado-ave/
+    vehicles: [rv, boat]
+    storage_types: [enclosed, open]
+    max_length_ft: 50
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      Indoor garage web rates are $488 for 15x35, $548 for 15x40, $608 for
+      15x45, and $669 for 15x50 and 10x50. Uncovered 12x15 is a $106 web rate.
+      The FAQ says uncovered storage starts at $100 per month and fully
+      enclosed storage starts at $459 per month.
+    waitlist: null
+    notes: >-
+      Fully enclosed garages and uncovered parking, with a dumping station, a
+      vehicle washdown area, and power outlets for battery charging. The page
+      states a keypad gate, security cameras, and 24/7 access. The longest
+      space printed is 50 feet.
+    sources:
+      - url: https://www.recnationstorage.com/storage-facility/fl/melbourne/2225-avocado-ave/
+        title: Official 2225 Avocado Ave page
+    last_verified: "2026-11-18"
+
+  - slug: recnation-melbourne-2255-avocado
+    name: RecNation RV & Boat Storage
+    street: 2255 Avocado Ave
+    city: Melbourne
+    state_code: FL
+    postal_code: "32935"
+    lat: null
+    lng: null
+    phone: "(321) 342-1021"
+    website: https://www.recnationstorage.com/storage-facility/fl/melbourne/2255-avocado-ave/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: 55
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      The page says spaces start at $85 per month. Uncovered web rates include
+      $55 for 9x15 and $182 for 11x55. Canopy web rates run from $111 for 11x10
+      to $260 for 11x50.
+    waitlist: null
+    notes: >-
+      Uncovered parking, outdoor canopy, and indoor garage space, with an RV
+      dump station, a vehicle washdown area, and electrical hookups. The page
+      states 24-hour gated access and 24/7 cameras. The longest uncovered space
+      printed is 11 by 55 feet.
+    sources:
+      - url: https://www.recnationstorage.com/storage-facility/fl/melbourne/2255-avocado-ave/
+        title: Official 2255 Avocado Ave page
+    last_verified: "2026-11-18"
+
+  - slug: suntree-viera-business-storage
+    name: Suntree Viera Business & Storage Center
+    street: 7285 Waelti Drive, Suite C
+    city: Melbourne
+    state_code: FL
+    postal_code: "32940"
+    lat: null
+    lng: null
+    phone: "(321) 428-5444"
+    website: https://www.suntreevierastorage.com/outdoor-parking-storage/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Outdoor parking for boats, RVs, and trailers. The page states
+      surveillance cameras, gated access, lighting, and gate hours of 24/7. No
+      length or rate is printed.
+    sources:
+      - url: https://www.suntreevierastorage.com/outdoor-parking-storage/
+        title: Official outdoor parking page
+    last_verified: "2026-11-18"
+
+  - slug: us-storage-centers-titusville
+    name: US Storage Centers
+    street: 3960 South Street
+    city: Titusville
+    state_code: FL
+    postal_code: "32780"
+    lat: null
+    lng: null
+    phone: "(321) 490-5050"
+    website: https://www.usstoragecenters.com/storage-units/fl/titusville/3960-south-st
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: 45
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: >-
+      Vehicle spaces start at $68.00 per month, with a promo of up to 50% off 2
+      months.
+    waitlist: null
+    notes: >-
+      The page counts 65 open vehicle spaces, 29 covered spaces, and 23
+      enclosed 14-by-45-foot drive-up RV and boat bays. It states an electronic
+      gate and 24/7 video recording. Access is 6:00 AM to 10:00 PM every day.
+    sources:
+      - url: https://www.usstoragecenters.com/storage-units/fl/titusville/3960-south-st
+        title: Official Titusville location page
+    last_verified: "2026-11-18"
+
+  - slug: viera-storage-company
+    name: Viera Storage Company
+    street: 7300 Dolina Ct
+    city: Melbourne
+    state_code: FL
+    postal_code: "32940"
+    lat: null
+    lng: null
+    phone: "(321) 752-0022"
+    website: https://vierastorageco.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 30
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Gravel, lighted, fenced parking for an RV, boat, truck, or car, including
+      a 10-by-30 vehicle space. The page states keypad gate access and 24-hour
+      video surveillance. Gate hours are printed as 6 AM to 10 PM, and the same
+      page says 24-hour access is available, so 24-hour access is not marked.
+      No dollar amount is printed.
+    sources:
+      - url: https://vierastorageco.com/
+        title: Official website
+    last_verified: "2026-11-18"

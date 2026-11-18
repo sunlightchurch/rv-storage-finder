@@ -1,0 +1,310 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: gainesville-fl
+city: Gainesville
+state: Florida
+state_code: FL
+metro: Gainesville
+summary: >-
+  These facilities publish an RV or boat storage page in Gainesville, Alachua,
+  Newberry, High Springs, or Archer. Each card uses only what that page states.
+sparefoot_slug: Gainesville-FL
+neighbor_path: florida/gainesville
+sparefoot_note: null
+photo: gainesville
+listings:
+  - slug: 441-self-storage-alachua
+    name: 441 Self Storage
+    street: 12722 NW 77th Terrace
+    city: Alachua
+    state_code: FL
+    postal_code: "32615"
+    lat: null
+    lng: null
+    phone: "(352) 318-8050"
+    website: https://441self-storage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: null
+    price_notes: >-
+      RV and boat prices are listed as $73.00 up to 20 ft, $78.00 from 20 to 30
+      ft, and $83.00 from 30 to 40 ft. The page does not state the billing
+      period.
+    waitlist: null
+    notes: >-
+      Outdoor RV, boat, and trailer parking on hard lime-rock and grass, with
+      gated access, on US Highway 441 in Alachua. The page does not print gate
+      hours or say the lot has cameras.
+    sources:
+      - url: https://441self-storage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: dibros-rv-boat-storage
+    name: Dibros RV & Boat Storage
+    street: 104 SW 131st Street
+    city: Newberry
+    state_code: FL
+    postal_code: "32669"
+    lat: null
+    lng: null
+    phone: "(352) 331-6220"
+    website: https://www.dibrosstorage.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    price_notes: >-
+      $85.00 per month for a vehicle that fits the slots. The page ties that
+      rate to a 12 ft by 18 ft slot and also says a 12 ft by 40 ft slot can be
+      accommodated when space allows. A $100.00 refundable deposit is listed.
+    waitlist: null
+    notes: >-
+      Parking in Newberry for RVs and boats, with most slots described as 12 by
+      18 feet and 24/7 accessibility. The page does not say whether the slots
+      are covered, enclosed, or open.
+    sources:
+      - url: https://www.dibrosstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: midgard-self-storage-newberry
+    name: Midgard Self Storage
+    street: 300 SW 143rd St
+    city: Newberry
+    state_code: FL
+    postal_code: "32669"
+    lat: null
+    lng: null
+    phone: "(352) 332-2999"
+    website: https://www.midgardselfstorage.com/florida/newberry/sw-143rd-st
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      This Newberry page says uncovered parking is available for RVs, boats,
+      trailers, and commercial vehicles, with a gated facility and 24/7 video
+      surveillance. Posted gate hours are 7:00 AM to 10:00 PM, and 24/7 access
+      is listed as available for an additional fee, so 24-hour access is not
+      marked. No parking rate is printed.
+    sources:
+      - url: https://www.midgardselfstorage.com/florida/newberry/sw-143rd-st
+        title: Official 300 SW 143rd St page
+    last_verified: "2026-11-18"
+
+  - slug: peoples-choice-storage-high-springs-main
+    name: People's Choice Storage
+    street: 17856 High Springs Main Street
+    city: High Springs
+    state_code: FL
+    postal_code: "32643"
+    lat: null
+    lng: null
+    phone: "(386) 454-0477"
+    website: https://peopleschoicestorage.com/locations/high-springs-fl-32643
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The Main Street page offers covered and uncovered boat and RV storage and
+      lists the gate as open 24 hours. Elsewhere on the page, 24/7 access is
+      described as a premium option that requires asking the manager and may
+      add a fee, so 24-hour access is not marked. No vehicle rate is printed.
+    sources:
+      - url: https://peopleschoicestorage.com/locations/high-springs-fl-32643
+        title: Official High Springs Main Street page
+    last_verified: "2026-11-18"
+
+  - slug: peoples-choice-storage-high-springs-us-27
+    name: People's Choice Storage
+    street: 26020 West U.S. Highway 27
+    city: High Springs
+    state_code: FL
+    postal_code: "32643"
+    lat: null
+    lng: null
+    phone: "(386) 454-0477"
+    website: https://peopleschoicestorage.com/locations/west-us-highway-27-high-springs-fl-32643
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The US 27 page says this High Springs facility has covered and uncovered
+      storage for boats, RVs, campers, and other vehicles. Gate hours are 6:00
+      AM to 10:00 PM daily. No vehicle rate is printed. This is a different lot
+      from the Main Street page, which uses the same phone number.
+    sources:
+      - url: https://peopleschoicestorage.com/locations/west-us-highway-27-high-springs-fl-32643
+        title: Official US Highway 27 page
+    last_verified: "2026-11-18"
+
+  - slug: stor-anything-gainesville
+    name: STOR ANYTHING
+    street: 1310 South Main Street
+    city: Gainesville
+    state_code: FL
+    postal_code: "32601"
+    lat: null
+    lng: null
+    phone: "(352) 373-7475"
+    website: https://www.storanything.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Phase I on South Main Street is oversized RV, boat, and equipment parking
+      with 24/7 access, staff on site, custom gate codes, and 24/7
+      surveillance. The page says 50 spaces are in this phase and that
+      containers and indoor units are a later expansion. It does not state
+      cover type or a rate.
+    sources:
+      - url: https://www.storanything.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: the-canopy-boat-rv-storage
+    name: The Canopy Boat & RV Storage
+    street: 17469 SW Archer Rd
+    city: Archer
+    state_code: FL
+    postal_code: "32618"
+    lat: null
+    lng: null
+    phone: "(352) 574-4226"
+    website: https://www.thecanopystorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 70
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered and uncovered RV and boat storage in Archer, with uncovered
+      spaces from 20 to 70 feet, covered spaces from 30 to 50 feet, and a
+      limited number of 70-foot pull-throughs. The page lists 15-, 20-, and
+      30-amp hookups, a covered wash station, dump tanks, 24/7 gate access, and
+      recorded video surveillance. No rate is printed.
+    sources:
+      - url: https://www.thecanopystorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: ultimate-boat-rv-storage-newberry
+    name: Ultimate Boat & RV Storage
+    street: 22211 W Newberry Rd.
+    city: Newberry
+    state_code: FL
+    postal_code: "32669"
+    lat: null
+    lng: null
+    phone: "(352) 472-3337"
+    website: https://www.ultimateboatrvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: 70
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The Newberry page offers uncovered, covered, and enclosed parking for RVs
+      and boats on a paved lot. Enclosed spaces are listed up to 50 feet and
+      covered spaces up to 70 feet. It states 24/7 gated access, perimeter
+      fencing, security cameras, and keypad entry. No rate is printed.
+    sources:
+      - url: https://www.ultimateboatrvstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: whittles-mini-storage
+    name: Whittle's Mini Storage
+    street: 27214 W Newberry Rd
+    city: Newberry
+    state_code: FL
+    postal_code: "32669"
+    lat: null
+    lng: null
+    phone: "(352) 618-2477"
+    website: https://www.whittlesministorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: The page asks people to be added to the wait list for a new unit.
+    notes: >-
+      The FAQ says the Newberry facility has uncovered outdoor parking for
+      boats, trailers, RVs, and other vehicles, and that it is fenced with
+      security cameras. The homepage says access to a unit is 24/7. The wait
+      list is for new units in an expansion that adds climate-controlled space.
+    sources:
+      - url: https://www.whittlesministorage.com/
+        title: Official website
+      - url: https://www.whittlesministorage.com/faq
+        title: Official FAQ
+    last_verified: "2026-11-18"
