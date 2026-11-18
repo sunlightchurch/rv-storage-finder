@@ -1,0 +1,226 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: durham-nc
+city: Durham
+state: North Carolina
+state_code: NC
+metro: Durham
+summary: >-
+  These facilities publish an RV or boat storage page in Durham. Each card uses only what
+  that page states.
+sparefoot_slug: Durham-NC
+neighbor_path: north-carolina/durham
+sparefoot_note: null
+photo: durham
+listings:
+- slug: ample-gold-center-durham
+  name: Ample Storage Center - Gold Center Business Park
+  street: 4315 Garrett Road
+  city: Durham
+  state_code: NC
+  postal_code: "27707"
+  lat: null
+  lng: null
+  phone: "(919) 489-5999"
+  website: "https://amplestoragecenter.com/locations/nc/durham/the-gold-center/"
+  vehicles:
+  - rv
+  - boat
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: true
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Gold Center page lists RV/boat parking and camera surveillance. Access hours are 6:00
+    a.m. to 10:00 p.m. every day. It does not say whether that parking is covered, enclosed,
+    or open.
+  sources:
+  - url: "https://amplestoragecenter.com/locations/nc/durham/the-gold-center/"
+    title: Ample Storage Gold Center location page
+  last_verified: '2026-11-18'
+- slug: brassfield-self-storage-i-durham
+  name: Brassfield Self Storage I
+  street: 2144 Page Road, Suite 101
+  city: Durham
+  state_code: NC
+  postal_code: "27703"
+  lat: null
+  lng: null
+  phone: "(919) 957-1650"
+  website: "https://www.brassfieldselfstorage.com/faqs"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: null
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The FAQ says Brassfield I and II offer covered and uncovered outside parking for boats
+    and RVs. The home page lists gate hours for Brassfield I, II, and IV as 6:00 a.m. to 10:30
+    p.m. The FAQ gives this Page Road address and phone for Brassfield I.
+  sources:
+  - url: "https://www.brassfieldselfstorage.com/faqs"
+    title: Brassfield Self Storage FAQ
+  - url: "https://www.brassfieldselfstorage.com/"
+    title: Brassfield Self Storage home page
+  last_verified: '2026-11-18'
+- slug: brassfield-self-storage-ii-durham
+  name: Brassfield Self Storage II
+  street: 4324 S. Alston Ave, Suite 105
+  city: Durham
+  state_code: NC
+  postal_code: "27713"
+  lat: null
+  lng: null
+  phone: "(919) 484-0401"
+  website: null
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: null
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The FAQ names Brassfield II, with this South Alston address, as one of the two locations
+    with covered and uncovered boat and RV parking. Gate hours for Brassfield II are 6:00
+    a.m. to 10:30 p.m. The operator website is shared with another listing in this directory,
+    so the website button is omitted here and the page stays in the sources.
+  sources:
+  - url: "https://www.brassfieldselfstorage.com/faqs"
+    title: Brassfield Self Storage FAQ
+  - url: "https://www.brassfieldselfstorage.com/"
+    title: Brassfield Self Storage home page
+  last_verified: '2026-11-18'
+- slug: cardinal-north-durham-oxford
+  name: Cardinal Self Storage - North Durham
+  street: 1307 Old Oxford Road
+  city: Durham
+  state_code: NC
+  postal_code: "27704"
+  lat: null
+  lng: null
+  phone: "(984) 377-6431"
+  website: >-
+    https://www.cardinalselfstorage.com/self-storage/nc/durham/oxford-rd/boat-rv-storage
+  vehicles:
+  - rv
+  - boat
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: true
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The North Durham page offers RV and boat storage and says video cameras and on-site managers
+    watch the property. Access hours are 6:00 a.m. to 10:00 p.m., seven days a week. It does
+    not say whether the parking is covered, enclosed, or open.
+  sources:
+  - url: >-
+      https://www.cardinalselfstorage.com/self-storage/nc/durham/oxford-rd/boat-rv-storage
+    title: Cardinal Self Storage North Durham boat and RV page
+  last_verified: '2026-11-18'
+- slug: myplace-alston-durham
+  name: MyPlace Self-Storage
+  street: 3822 S Alston Ave
+  city: Durham
+  state_code: NC
+  postal_code: "27713"
+  lat: null
+  lng: null
+  phone: "(877) 700-0155"
+  website: "https://myplaceselfstorage.com/storage-locations/nc/durham/3822-s-alston-ave/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - open
+  max_length_ft: 45
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The location FAQ says this address has open parking from 25 to 45 feet for RVs, boats,
+    and trailers, plus recorded video surveillance and an electronic gate. Access hours are
+    6:00 a.m. to 10:00 p.m. daily. The page also lists outdoor parking plots of 12 by 25,
+    12 by 35, 12 by 45, and 14 by 40.
+  sources:
+  - url: "https://myplaceselfstorage.com/storage-locations/nc/durham/3822-s-alston-ave/"
+    title: MyPlace Durham location page
+  last_verified: '2026-11-18'
+- slug: rollingview-marina-durham
+  name: Rollingview Marina
+  street: 3940 Falls Lake Rd
+  city: Durham
+  state_code: NC
+  postal_code: "27703"
+  lat: null
+  lng: null
+  phone: "(919) 596-2194"
+  website: "https://rollingviewmarina.com/boat-storage/"
+  vehicles:
+  - boat
+  storage_types:
+  - covered
+  - enclosed
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: null
+  access_24h: true
+  price_notes: >-
+    Annual dry-storage rates are $1,800 for uncovered storage, $2,000 for the older three-sided
+    covered storage, $2,600 for the newer three-sided covered storage, and $3,700 for enclosed
+    boat lockers. Wet slips are $2,700 per year at 24 ft and under and $3,000 per year over
+    24 ft. Trailer storage added to a wet slip is $1,000 per year.
+  waitlist: null
+  notes: >-
+    The boat-storage page lists uncovered, three-sided covered, and enclosed locker dry storage,
+    plus wet slips with water and electric. It says spaces have 24/7 gated access. Dry-storage
+    contracts are annual. The page does not mention RV storage. It says lockers have limited
+    availability.
+  sources:
+  - url: "https://rollingviewmarina.com/boat-storage/"
+    title: Rollingview Marina boat storage page
+  last_verified: '2026-11-18'

@@ -1,0 +1,194 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: fayetteville-nc
+city: Fayetteville
+state: North Carolina
+state_code: NC
+metro: Fayetteville
+summary: >-
+  These facilities publish an RV or boat storage page in Fayetteville. Each card uses only
+  what that page states.
+sparefoot_slug: Fayetteville-NC
+neighbor_path: north-carolina/fayetteville
+sparefoot_note: null
+photo: fayetteville
+listings:
+- slug: american-flag-reilly-fayetteville
+  name: American Flag Storage Reilly Road
+  street: 362 N. Reilly Road
+  city: Fayetteville
+  state_code: NC
+  postal_code: "28303"
+  lat: null
+  lng: null
+  phone: "(910) 860-1116"
+  website: >-
+    https://americanflagstorage.com/locations/nc/fayetteville/american-flag-reilly-road/
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - enclosed
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: false
+  price_notes: >-
+    A parking unit listed as 0 by 25 ft has a web rate of $50. The page says prices range
+    from $35 to $450.
+  waitlist: null
+  notes: >-
+    The Reilly Road page lists RV/boat parking, indoor parking, camera surveillance, and electrical
+    power in the unit. A 10 by 20 parking unit is marked inside and climate controlled. Gated
+    access is 6:00 a.m. to 9:00 p.m. seven days a week. The FAQ says the office is closed
+    Sunday, while another hours block lists Sunday office hours.
+  sources:
+  - url: >-
+      https://americanflagstorage.com/locations/nc/fayetteville/american-flag-reilly-road/
+    title: American Flag Storage Reilly Road location page
+  last_verified: '2026-11-18'
+- slug: andrews-mcarthur-fayetteville
+  name: Andrews McArthur Mini Storage LLC
+  street: 1630 McArthur Rd
+  city: Fayetteville
+  state_code: NC
+  postal_code: "28311"
+  lat: null
+  lng: null
+  phone: "(910) 858-8730"
+  website: >-
+    https://www.andrewsmcarthurministorage.com/1630-mcarthur-rd-fayetteville-nc-28311
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The page offers outdoor RV, boat, and vehicle parking and lists the facility as fenced
+    and gated with a security camera. Access hours are 6:00 a.m. to 9:00 p.m. every day. Office
+    hours are 10:00 a.m. to 6:00 p.m. every day.
+  sources:
+  - url: >-
+      https://www.andrewsmcarthurministorage.com/1630-mcarthur-rd-fayetteville-nc-28311
+    title: Andrews McArthur Mini Storage location page
+  last_verified: '2026-11-18'
+- slug: carolina-storage-ramsey-fayetteville
+  name: Carolina Storage
+  street: 6801 Ramsey Street
+  city: Fayetteville
+  state_code: NC
+  postal_code: null
+  lat: null
+  lng: null
+  phone: null
+  website: "https://www.carolinastorage.com/locations/fayetteville-nc-28311"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Ramsey Street page says this Fayetteville facility has outdoor vehicle storage for
+    boats and RVs, plus 24/7 video surveillance, gated access, and an on-site manager. The
+    page text does not print a phone number, ZIP code, or gate hours.
+  sources:
+  - url: "https://www.carolinastorage.com/locations/fayetteville-nc-28311"
+    title: Carolina Storage Ramsey Street location page
+  last_verified: '2026-11-18'
+- slug: legion-road-storage-fayetteville
+  name: Legion Road Self Storage
+  street: 2638 Legion Rd
+  city: Fayetteville
+  state_code: NC
+  postal_code: "28306"
+  lat: null
+  lng: null
+  phone: "(910) 629-4425"
+  website: >-
+    https://www.absolutemgmt.com/storage-locations/nc/fayetteville/2638-legion-rd-legion-road-self-storage/
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - enclosed
+  - open
+  max_length_ft: 40
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Legion Road page lists boat parking, RV parking, enclosed parking, indoor parking,
+    and uncovered parking, and it says spaces can hold vehicles up to 40 feet. It lists cameras
+    and gated access. The hours fields on the page were blank when it was opened.
+  sources:
+  - url: >-
+      https://www.absolutemgmt.com/storage-locations/nc/fayetteville/2638-legion-rd-legion-road-self-storage/
+    title: Legion Road Self Storage location page
+  last_verified: '2026-11-18'
+- slug: u-haul-coliseum-fayetteville
+  name: "U-Haul Moving & Storage of Fayetteville at Coliseum"
+  street: 2346 Gillespie St
+  city: Fayetteville
+  state_code: NC
+  postal_code: "28306"
+  lat: null
+  lng: null
+  phone: "(910) 223-1556"
+  website: >-
+    https://www.uhaul.com/Locations/Self-Storage-near-Fayetteville-NC-28306/878029/
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  max_length_ft: 45
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: >-
+    A covered 12 by 45 by 14 RV, boat, and vehicle parking space with electricity is $169.95
+    per month.
+  waitlist: null
+  notes: >-
+    The facility page says RV and boat storage is available and lists that covered parking
+    space, plus 24-hour video monitoring and electronically controlled access. Storage access
+    hours are 5 a.m. to 10 p.m. every day. The page also says to ask whether 24-hour access
+    is available. The 14-foot figure is the height of that one space.
+  sources:
+  - url: >-
+      https://www.uhaul.com/Locations/Self-Storage-near-Fayetteville-NC-28306/878029/
+    title: U-Haul Fayetteville at Coliseum location page
+  last_verified: '2026-11-18'

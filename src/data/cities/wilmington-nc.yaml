@@ -1,0 +1,311 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: wilmington-nc
+city: Wilmington
+state: North Carolina
+state_code: NC
+metro: Wilmington
+summary: >-
+  These facilities publish an RV or boat storage page in Wilmington or Leland.
+  Each card uses only what that page states.
+sparefoot_slug: Wilmington-NC
+neighbor_path: north-carolina/wilmington
+sparefoot_note: null
+photo: wilmington
+listings:
+  - slug: aa-self-storage-leland
+    name: AA Self Storage
+    street: 1557 Brunswick Village Blvd., Ste. 101
+    city: Leland
+    state_code: NC
+    postal_code: "28451"
+    lat: null
+    lng: null
+    phone: "(910) 408-1600"
+    website: https://www.aa-self-storage.com/locations/leland-nc/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: >-
+      Covered parking, 12 by 35, is listed at $220 a month and again at $280 a
+      month. Outside grass spaces, 10 by 20-40, are $100 a month. Gravel
+      spaces, 10 by 20-35, are $105 a month. Paved spaces, 10 by 20-35, are
+      $110 a month. Covered electrical hookups have a monthly fee based on type
+      of usage.
+    waitlist: null
+    notes: >-
+      Covered 12 by 35 boat, RV, and vehicle spaces have 30 amp and 110 amp
+      outlets, plus outside grass, gravel, and paved parking. The page lists a
+      dump station, a wash-down station, a fence, 24 hour video surveillance,
+      and gate access from 6:30am to 10pm, 365 days a year.
+    sources:
+      - url: https://www.aa-self-storage.com/locations/leland-nc/
+        title: Leland location page
+    last_verified: "2026-11-18"
+
+  - slug: aa-self-storage-wilmington
+    name: AA Self Storage
+    street: 411 Eastwood Road
+    city: Wilmington
+    state_code: NC
+    postal_code: "28403"
+    lat: null
+    lng: null
+    phone: "(910) 799-4564"
+    website: https://www.aa-self-storage.com/locations/wilmington-nc/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: Boat and RV parking is listed at $130 a month.
+    waitlist: null
+    notes: >-
+      The page lists well-lit parking for cars, trucks, RVs, boats, and
+      trailers, a boat wash-down area, individual gate codes, and 24 hour video
+      surveillance. The header prints gate access of 6am to 10pm, and the body
+      prints 6:30 a.m. to 10 p.m., so 24-hour access is not marked. Cover type
+      is not stated.
+    sources:
+      - url: https://www.aa-self-storage.com/locations/wilmington-nc/
+        title: Wilmington location page
+    last_verified: "2026-11-18"
+
+  - slug: carolina-storage-judges-road-wilmington
+    name: Carolina Storage
+    street: 311 Judges Road
+    city: Wilmington
+    state_code: NC
+    postal_code: "28405"
+    lat: null
+    lng: null
+    phone: "(910) 408-3131"
+    website: https://www.carolinastorage.com/locations/judges-road-wilmington-nc-28405/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The Judges Road page says this facility has boat and RV parking, gated
+      access, and 24-hour security cameras. It says access hours are extended
+      and does not print a clock window or 24-hour gate access.
+    sources:
+      - url: https://www.carolinastorage.com/locations/judges-road-wilmington-nc-28405/
+        title: Judges Road location page
+    last_verified: "2026-11-18"
+
+  - slug: martin-self-storage-leland
+    name: Martin Self Storage
+    street: 7815 Ocean Highway East
+    city: Leland
+    state_code: NC
+    postal_code: "28451"
+    lat: null
+    lng: null
+    phone: "(910) 253-6000"
+    website: https://www.martinselfstorage.com/locations/leland-nc-28451-21/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The location page lists covered and enclosed boat and RV storage with
+      110v outlets, a dump station, a wash bay, an air station, 24/7 security
+      cameras, and a coded gate. Access is 7 am to 10 pm, seven days. The boat
+      and RV page also lists uncovered outdoor parking.
+    sources:
+      - url: https://www.martinselfstorage.com/locations/leland-nc-28451-21/
+        title: Leland location page
+      - url: https://www.martinselfstorage.com/boat-rv-storage-in-leland-nc
+        title: Boat and RV storage page
+    last_verified: "2026-11-18"
+
+  - slug: pinnacle-storage-leland
+    name: Pinnacle Storage
+    street: 2011 Enterprise Dr NE
+    city: Leland
+    state_code: NC
+    postal_code: "28451"
+    lat: null
+    lng: null
+    phone: "(910) 408-1394"
+    website: https://www.pinnaclestorage.net/locations/leland-nc-28451
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Enclosed RV and boat parking, including extra-large units, with
+      electrical outlets in some indoor spots for trickle charging. Gate hours
+      are 6:00 AM to 10:00 PM every day.
+    sources:
+      - url: https://www.pinnaclestorage.net/locations/leland-nc-28451
+        title: Leland location page
+    last_verified: "2026-11-18"
+
+  - slug: powered-storage-leland
+    name: Powered Storage
+    street: 9550 Ploof Rd SE
+    city: Leland
+    state_code: NC
+    postal_code: "28451"
+    lat: null
+    lng: null
+    phone: "(910) 765-0966"
+    website: https://powered-storage.com/rv-storage-leland/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 68
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Outdoor spaces from 10 by 27 feet through 12 by 68 feet, with a power
+      pedestal of 20, 30, and 50 amp sockets at each space, a wash area, and a
+      dumping station. The page states 24-hour gate access, a gated facility,
+      and surveillance cameras.
+    sources:
+      - url: https://powered-storage.com/rv-storage-leland/
+        title: Leland RV storage page
+    last_verified: "2026-11-18"
+
+  - slug: prime-storage-5044-carolina-beach-wilmington
+    name: Prime Storage
+    street: 5044 Carolina Beach Road
+    city: Wilmington
+    state_code: NC
+    postal_code: "28412"
+    lat: null
+    lng: null
+    phone: "(910) 791-1150"
+    website: https://primestorage.com/locations/nc/wilmington/NC06/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      This Carolina Beach Road page lists RV storage and boat storage. Storage
+      access hours are 6:00 AM to 10:00 PM every day, and 24-hour access is
+      available for an additional fee, so 24-hour access is not marked. The
+      page does not say whether the spaces are covered, enclosed, or open.
+    sources:
+      - url: https://primestorage.com/locations/nc/wilmington/NC06/
+        title: 5044 Carolina Beach Road location page
+    last_verified: "2026-11-18"
+
+  - slug: prime-storage-5800-carolina-beach-wilmington
+    name: Prime Storage
+    street: 5800 Carolina Beach Road
+    city: Wilmington
+    state_code: NC
+    postal_code: "28412"
+    lat: null
+    lng: null
+    phone: "(910) 791-1150"
+    website: https://primestorage.com/locations/nc/wilmington/NC07/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      A separate facility from 5044 Carolina Beach Road. The page offers
+      parking for an RV, boat, or car. Access hours are 6:00 AM to 10:00 PM
+      every day, and 24-hour access is available for an additional fee, so
+      24-hour access is not marked. Cover type is not stated. The phone matches
+      the other Carolina Beach Road store.
+    sources:
+      - url: https://primestorage.com/locations/nc/wilmington/NC07/
+        title: 5800 Carolina Beach Road location page
+    last_verified: "2026-11-18"
+
+  - slug: wrightsville-beach-boat-rv-storage-wilmington
+    name: Wrightsville Beach Boat + RV Storage
+    street: 2010 Capital Drive
+    city: Wilmington
+    state_code: NC
+    postal_code: "28405"
+    lat: null
+    lng: null
+    phone: "(910) 791-6414"
+    website: https://www.wbstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered, fully enclosed, and open-yard spaces, with water and electricity
+      in each unit, two paved wash-down areas, 24-hour access, a 24-hour
+      electronic gate, and 24-hour video cameras. The contact page prints 2010
+      Capital Drive, Wilmington, NC 28405. A second phone, 910-619-4665, is
+      also printed.
+    sources:
+      - url: https://www.wbstorage.com/facility/
+        title: Facility amenities
+      - url: https://www.wbstorage.com/contact-us/
+        title: Contact page
+    last_verified: "2026-11-18"
