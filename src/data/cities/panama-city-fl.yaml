@@ -1,0 +1,184 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: panama-city-fl
+city: Panama City
+state: Florida
+state_code: FL
+metro: Panama City
+summary: >-
+  These facilities publish an RV or boat storage page in Panama City or Panama
+  City Beach. Each card uses only what that page states. Fewer lots were
+  verified here than in the larger Florida metros.
+sparefoot_slug: Panama-City-FL
+neighbor_path: florida/panama-city
+sparefoot_note: null
+photo: panama-city
+listings:
+  - slug: airport-road-easy-storage
+    name: Airport Road Easy Storage
+    street: 1916 Monroe Ave
+    city: Panama City
+    state_code: FL
+    postal_code: "32405"
+    lat: null
+    lng: null
+    phone: "(850) 392-7555"
+    website: https://www.airportroadeasystorage.net/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: 10
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: true
+    price_notes: >-
+      A 10-by-10 parking space for cars, trucks, trailers, and RV or motor
+      homes is $65 per month.
+    waitlist: null
+    notes: >-
+      Drive-up RV, boat, vehicle, and household storage. The page says the main
+      gates are at 1916 Monroe Ave and that gate access is 24 hours. The only
+      vehicle parking size printed is 10 by 10, so that is the recorded maximum
+      length. Cover type is not stated.
+    sources:
+      - url: https://www.airportroadeasystorage.net/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: bluegate-panama-city-beach
+    name: BlueGate Boat & RV
+    street: 156 Griffin Boulevard
+    city: Panama City Beach
+    state_code: FL
+    postal_code: "32413"
+    lat: null
+    lng: null
+    phone: "(850) 396-1079"
+    website: https://bluegateboatrv.com/locations/florida/panama-city/bluegate-panama-city/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 50
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered and uncovered stalls for boats and RVs. The page lists parking up
+      to 45 feet and says oversized stalls run up to 50 feet and longer.
+      Trickle charging is described for premium or select stalls. A
+      complimentary dump station and rinse or wash bay are stated, along with
+      keypad gate access and 24/7 video surveillance. Gate hours are 6:00 AM to
+      10:00 PM every day.
+    sources:
+      - url: https://bluegateboatrv.com/locations/florida/panama-city/bluegate-panama-city/
+        title: Official Panama City Beach location page
+    last_verified: "2026-11-18"
+
+  - slug: pcb-boat-rv-storage
+    name: PCB Boat & RV Storage
+    street: 7220 Laird St
+    city: Panama City Beach
+    state_code: FL
+    postal_code: "32408"
+    lat: null
+    lng: null
+    phone: "(850) 960-3310"
+    website: https://pcbboatandrvstoragefl.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Outdoor boat, RV, and trailer storage. The page states a gated lot,
+      24-hour access, and video surveillance. Length and rates are not printed.
+    sources:
+      - url: https://pcbboatandrvstoragefl.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: self-storage-plus-panama-city
+    name: Self Storage Plus - Panama City RV
+    street: 2125 Lisenby Ave
+    city: Panama City
+    state_code: FL
+    postal_code: "32405"
+    lat: null
+    lng: null
+    phone: "(850) 257-8989"
+    website: https://www.selfstorageplus.com/storage-facilities/fl/panama-city/2125-lisenby-ave-rv-storage/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: null
+    price_notes: >-
+      Parking rows print web rates of $59, $80, $104, and $146, with starting
+      rates of $84, $114, $149, and $209, and say the first month is free. The
+      boat and RV sections say rental is month-to-month. The size labels on
+      those rows include a 0-foot side, so those dimensions are not used.
+    waitlist: null
+    notes: >-
+      Boat spaces and RV spaces are described as 20 to 40 feet long in a
+      well-lit, gated, keypad parking lot. The page says gate access is seven
+      days a week and does not print clock hours. It does not say whether the
+      vehicle spaces are covered, enclosed, or open.
+    sources:
+      - url: https://www.selfstorageplus.com/storage-facilities/fl/panama-city/2125-lisenby-ave-rv-storage/
+        title: Official Panama City RV page
+    last_verified: "2026-11-18"
+
+  - slug: store-it-mini-panama-city
+    name: Store-It Mini Warehouses & Storage
+    street: 2309 Thomas Drive
+    city: Panama City
+    state_code: FL
+    postal_code: "32408"
+    lat: null
+    lng: null
+    phone: 850-235-0123
+    website: http://store-itpcb.com/rv-boat-parking/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Individual RV and boat spaces are listed as 11x19, 13x29, and 13x40. The
+      features page says temporary RV and boat parking is available, with video
+      surveillance, a fence, an electronic gate, and a FOB entry system. Access
+      is described as 7 days a week, without clock hours. Cover type is not
+      stated. The RV and boat page says pay for 12 months and receive the 13th
+      month free, and it does not print a dollar rate.
+    sources:
+      - url: http://store-itpcb.com/rv-boat-parking/
+        title: Official features page
+      - url: http://store-itpcb.com/store-it-mini-warehouses-storage-policies/
+        title: Official RV and boat sizes page
+    last_verified: "2026-11-18"

@@ -1,0 +1,252 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: port-st-lucie-fl
+city: Port St. Lucie
+state: Florida
+state_code: FL
+metro: Port St. Lucie
+summary: >-
+  These facilities publish an RV or boat storage page in Port St. Lucie, Fort
+  Pierce, Stuart, or Jensen Beach. Each card uses only what that page states.
+sparefoot_slug: Port-St-Lucie-FL
+neighbor_path: florida/port-st-lucie
+sparefoot_note: null
+photo: port-st-lucie
+listings:
+  - slug: fortress-rv-boat-fort-pierce
+    name: Fortress RV And Boat Storage
+    street: 4501 Orange Ave
+    city: Fort Pierce
+    state_code: FL
+    postal_code: "34947"
+    lat: null
+    lng: null
+    phone: "(772) 773-0771"
+    website: https://www.fortressvehiclestorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered and open spaces on paved asphalt, with electrical service and
+      trickle charging. The page states 24-hour access, touchless gated access,
+      digital video surveillance, an air compressor, a vacuum, and ice. Battery
+      tender service is $30 per month. A stall rent is not printed. The page
+      says to add 7 feet on a boat and 5 feet on an RV for clearance around the
+      space.
+    sources:
+      - url: https://www.fortressvehiclestorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: freedom-rv-storage-stuart
+    name: Freedom RV Storage
+    street: 870 SE Monterey Rd
+    city: Stuart
+    state_code: FL
+    postal_code: "34994"
+    lat: null
+    lng: null
+    phone: "(772) 298-4242"
+    website: https://freedomrvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: 55
+    clearance_ft: 14
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Private climate-controlled indoor bays, 15 by 55 feet, with 17-foot
+      ceilings and a 14-foot powered roll-up door. The page says the bays fit
+      boats up to 40 feet on a trailer and include a 50-amp hookup. It also
+      states an RV waste pump-out station, an on-site cleaning station,
+      cameras, and 24-hour key-fob access.
+    sources:
+      - url: https://freedomrvstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: gator-state-storage-fort-pierce
+    name: Gator State Storage - Fort Pierce
+    street: 6070 S US1
+    city: Fort Pierce
+    state_code: FL
+    postal_code: "34982"
+    lat: null
+    lng: null
+    phone: "(772) 882-9536"
+    website: https://www.fortpierce-storage.com/pages/rvboat
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 37
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: false
+    price_notes: >-
+      Half off the first six months. Non-covered 10x20 parking up to 20 feet is
+      $85 and $42.50 per month. Covered 13x32x10 parking up to 32 feet is $250
+      and $125 per month. Covered 13x37x12 parking up to 37 feet is $275 and
+      $137.50 per month.
+    waitlist: null
+    notes: >-
+      Covered and non-covered parking for boats, RVs, vehicles, and trailers.
+      Covered heights on the page are 10 feet and 12 feet, so clearance is not
+      a single number. Gate access is 7:00 AM to 10:00 PM every day.
+    sources:
+      - url: https://www.fortpierce-storage.com/pages/rvboat
+        title: Official RV and boat page
+    last_verified: "2026-11-18"
+
+  - slug: luxe-covered-port-st-lucie
+    name: Luxe Covered RV & Boat Storage
+    street: 2050 Commerce Lakes Drive
+    city: Port St. Lucie
+    state_code: FL
+    postal_code: "34986"
+    lat: null
+    lng: null
+    phone: "(772) 600-4480"
+    website: https://www.luxervcoveredparking.com/
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: 55
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: false
+    price_notes: >-
+      A covered 12-by-39 space is $300 for 2 weeks or $500 per month. A covered
+      12-by-50 space is $525 per month. A covered 12-by-55 space is $550 per
+      month. The rent page says a 30-amp hookup is included.
+    waitlist: null
+    notes: >-
+      Covered spaces from 12 by 39 feet to 12 by 55 feet. The home page says
+      trickle electric, water, and ice are included in the monthly rate. Yard
+      access is 6 AM to 10 PM. Text-on-approach gate access is stated.
+    sources:
+      - url: https://www.luxervcoveredparking.com/
+        title: Official homepage
+      - url: https://www.luxervcoveredparking.com/pages/rent
+        title: Official rent page
+    last_verified: "2026-11-18"
+
+  - slug: next-level-boat-rv-fort-pierce
+    name: Next Level Boat & RV
+    street: 3361 S. US HWY 1
+    city: Fort Pierce
+    state_code: FL
+    postal_code: null
+    lat: null
+    lng: null
+    phone: null
+    website: https://www.nextlevelboatrv.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Outdoor boat and RV parking. The page states 24-hour access, 24-hour
+      video surveillance, a full fence, and controlled gate access. A phone
+      number, ZIP code, length, and rate are not printed.
+    sources:
+      - url: https://www.nextlevelboatrv.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: prime-storage-jensen-beach
+    name: Prime Storage - Jensen Beach
+    street: 528 Northeast Jensen Beach Boulevard
+    city: Jensen Beach
+    state_code: FL
+    postal_code: "34957"
+    lat: null
+    lng: null
+    phone: "(772) 444-3011"
+    website: https://primestorage.com/locations/fl/jensen-beach/FL20/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      This location's feature list includes boat storage, RV storage, and
+      vehicle storage. Storage access hours are printed as 6:00 AM to 10:00 PM
+      daily, and the feature list also says 24-hour access, so 24-hour access
+      is not marked. The dollar rates on the page are for household units, not
+      for an RV or boat space. Cover type for the vehicle spaces is not stated.
+    sources:
+      - url: https://primestorage.com/locations/fl/jensen-beach/FL20/
+        title: Official Jensen Beach location page
+    last_verified: "2026-11-18"
+
+  - slug: your-place-for-space-stuart
+    name: Your Place For Space
+    street: 656 NW Buck Hendry Way
+    city: Stuart
+    state_code: FL
+    postal_code: "34994"
+    lat: null
+    lng: null
+    phone: 772-692-9555
+    website: https://www.yourplaceforspacefl.com/rv-boat-storage/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 45
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: null
+    price_notes: >-
+      A 10-by-20 outdoor space is $100 month to month. A 13-by-45 RV-trailer
+      space is $460 month to month and $440 on an annual lease.
+    waitlist: null
+    notes: >-
+      North Stuart Centre offers covered RV storage and uncovered parking, with
+      electric available if needed. The 10-by-20 line says the outdoor spaces
+      are 24-hour gated parking. The contact page says gate hours for RV
+      storage are 6:30 AM to 6:30 PM, seven days a week, so 24-hour access is
+      not marked.
+    sources:
+      - url: https://www.yourplaceforspacefl.com/rv-boat-storage/
+        title: Official RV and boat page
+      - url: https://www.yourplaceforspacefl.com/contact/
+        title: Contact page with gate hours
+    last_verified: "2026-11-18"

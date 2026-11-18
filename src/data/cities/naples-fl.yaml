@@ -1,0 +1,328 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: naples-fl
+city: Naples
+state: Florida
+state_code: FL
+metro: Naples
+summary: >-
+  These facilities publish an RV or boat storage page in Naples or Marco
+  Island. Each card uses only what that page states. This is not a complete
+  inventory of Collier County.
+sparefoot_slug: Naples-FL
+neighbor_path: florida/naples
+sparefoot_note: null
+photo: naples
+listings:
+  - slug: cubesmart-naples-blvd
+    name: CubeSmart Self Storage of Naples
+    street: 5650 Naples Blvd
+    city: Naples
+    state_code: FL
+    postal_code: "34109"
+    lat: null
+    lng: null
+    phone: "(239) 598-3828"
+    website: https://www.cubesmart.com/florida-self-storage/naples-self-storage/361.html
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 30
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Naples Boulevard facility. The page says this location has expanded
+      availability for RV storage, outside parking, and parking spaces for
+      boats. The vehicle-size guide lists 26 ft spaces for boats and Class B
+      RVs and 30 ft spaces for boats and Class A RVs. Access hours are daily
+      6:00 am to 10:00 pm, and the amenity list includes app gate access. The
+      phone is the current-customer number.
+    sources:
+      - url: https://www.cubesmart.com/florida-self-storage/naples-self-storage/361.html
+        title: Official location page
+    last_verified: "2026-11-18"
+
+  - slug: cubesmart-naples-tamiami
+    name: CubeSmart Self Storage of Naples
+    street: 11400 Tamiami Trl E
+    city: Naples
+    state_code: FL
+    postal_code: "34113"
+    lat: null
+    lng: null
+    phone: "(239) 775-5740"
+    website: https://www.cubesmart.com/florida-self-storage/naples-self-storage/339.html
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 30
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      East Naples facility on Tamiami Trail East with outside parking, parking
+      spaces for boats, and a page section for Naples RV and boat storage. The
+      vehicle-size guide lists 26 ft and 30 ft spaces. No vehicle space was
+      priced when the page was opened. Access hours are daily 6:00 am to 10:00
+      pm. The page says the facility has around-the-clock video recording and
+      app gate access.
+    sources:
+      - url: https://www.cubesmart.com/florida-self-storage/naples-self-storage/339.html
+        title: Official location page
+    last_verified: "2026-11-18"
+
+  - slug: go-store-it-basik-naples
+    name: Go Store It
+    street: 220 Basik Drive
+    city: Naples
+    state_code: FL
+    postal_code: "34114"
+    lat: null
+    lng: null
+    phone: "(239) 777-8474"
+    website: https://www.gostoreit.com/locations/florida/naples/220-basik-drive/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 70
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: >-
+      Outdoor parking is listed at $259.00, also shown as starting at $447.00,
+      for 30 ft; $310.00, also shown as starting at $534.00, for 35 ft with a
+      power outlet; $284.00, also shown as starting at $490.00, for 40 ft;
+      $400.00, also shown as starting at $690.00, for 55 ft; $505.00, also
+      shown as starting at $871.00, for 60 ft pull-through; and $622.00, also
+      shown as starting at $1,072.00, for 70 ft pull-through with a power
+      outlet. Each shows first month rent of $0.
+    waitlist: null
+    notes: >-
+      Naples facility near US-41 with uncovered outdoor parking for vehicles,
+      boats, and RVs, plus a statement that covered parking is now offered. The
+      page lists gated access, keypad entry, and HD video surveillance. Access
+      hours are 6:00 am to 10:00 pm Monday through Saturday. The priced parking
+      rows above are labeled outdoor.
+    sources:
+      - url: https://www.gostoreit.com/locations/florida/naples/220-basik-drive/
+        title: Official location page
+    last_verified: "2026-11-18"
+
+  - slug: hideout-storage-park-naples
+    name: The Hideout Storage Park
+    street: 195 Basik Dr.
+    city: Naples
+    state_code: FL
+    postal_code: "34114"
+    lat: null
+    lng: null
+    phone: "(239) 213-8029"
+    website: https://thehideoutstoragepark.com/naples-fl/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: 80
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      Outdoor RV and boat storage is listed at $175–$230 per month. Covered
+      storage is listed at $386–$572 per month. Elite enclosed storage is
+      priced on request.
+    waitlist: null
+    notes: >-
+      Naples vehicle storage park with 24/7 gate access, perimeter walls, and
+      security cameras. Covered spaces run from 12 ft by 25 ft to 12 ft by 80
+      ft, with about 120 covered units and 30-amp hookups. Elite units are
+      enclosed, with air-conditioned and non-air-conditioned options. The page
+      lists a wash area and dump station access.
+    sources:
+      - url: https://thehideoutstoragepark.com/naples-fl/
+        title: Naples facility page
+      - url: https://thehideoutstoragepark.com/parking-storage/
+        title: Outdoor storage page
+    last_verified: "2026-11-18"
+
+  - slug: marco-self-storage
+    name: Marco Self Storage
+    street: 940 Chalmer Drive
+    city: Marco Island
+    state_code: FL
+    postal_code: null
+    lat: null
+    lng: null
+    phone: "(239) 394-5900"
+    website: https://www.marcoselfstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Marco Island facility with an outside lot for RVs, boats, and jet skis on
+      trailers. The page says that lot has 24-hour access and is secured,
+      gated, fenced, and under video surveillance. The building is a separate
+      product and is accessible 7 am to 7 pm when the office is closed. The
+      page does not print a ZIP code.
+    sources:
+      - url: https://www.marcoselfstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: marco-yacht-sales-storage
+    name: Marco Yacht Sales boat storage
+    street: 975 Chalmer Dr
+    city: Marco Island
+    state_code: FL
+    postal_code: "34145"
+    lat: null
+    lng: null
+    phone: "(239) 970-5563"
+    website: https://marcoyachtsales.com/boat-storage/
+    vehicles: [boat]
+    storage_types: []
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Dry boat storage yard at 975 Chalmer Dr, with a stated maximum vessel
+      length of 40 ft. The page says the yard is fenced and gated, off the
+      water, and at a high elevation, with 24/7 security monitoring. Storage
+      includes scheduled pickup from a lift. The page does not label the yard
+      covered, enclosed, or open, and it does not post rates. The ZIP is
+      printed in the map embed.
+    sources:
+      - url: https://marcoyachtsales.com/boat-storage/
+        title: Boat storage page
+    last_verified: "2026-11-18"
+
+  - slug: port-32-marco-island
+    name: PORT 32 Marco Island
+    street: 705 East Elkcam Circle
+    city: Marco Island
+    state_code: FL
+    postal_code: "34145"
+    lat: null
+    lng: null
+    phone: "(239) 394-9333"
+    website: https://www.port32marinas.com/p32marinas/marco-island
+    vehicles: [boat]
+    storage_types: []
+    max_length_ft: 37
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Marco Island valet dry storage. The Marco section lists a maximum length
+      of 37 ft, a maximum height of 11 ft 6 in, and a maximum beam of 10 ft 6
+      in. Staff return the boat to a weatherproof storage space and wash it
+      down. The page does not label that space covered, enclosed, or open, and
+      it does not post a rate.
+    sources:
+      - url: https://www.port32marinas.com/p32marinas/marco-island
+        title: Official Marco Island page
+    last_verified: "2026-11-18"
+
+  - slug: port-32-naples
+    name: PORT 32 Naples
+    street: 475 North Road
+    city: Naples
+    state_code: FL
+    postal_code: "34104"
+    lat: null
+    lng: null
+    phone: "(239) 213-1441"
+    website: https://www.port32marinas.com/p32marinas/naples
+    vehicles: [boat]
+    storage_types: []
+    max_length_ft: 42
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Naples valet dry storage at 475 North Road. The Naples section lists a
+      maximum length of 42 ft, a maximum height of 14 ft, and a maximum beam of
+      13 ft. Staff return the boat to a weatherproof storage space and wash it
+      down. The page does not label that space covered, enclosed, or open, and
+      it does not post a rate.
+    sources:
+      - url: https://www.port32marinas.com/p32marinas/naples
+        title: Official Naples page
+    last_verified: "2026-11-18"
+
+  - slug: sw-florida-yard-storage-naples
+    name: SW Florida Yard & Storage
+    street: 15575 Recycling Way
+    city: Naples
+    state_code: FL
+    postal_code: "34114"
+    lat: null
+    lng: null
+    phone: "(239) 372-8899"
+    website: https://www.swoutdoorstorage.com/outdoor-storage-naples-fl/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: false
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: null
+    price_notes: >-
+      The introductory rate is $8 per foot, per month, based on the total
+      footprint. Page examples include about $192–$200 per month for a 21 ft
+      boat on a trailer and $280 per month for a 35 ft RV.
+    waitlist: null
+    notes: >-
+      Outdoor yard off the East Trail for boats, trailers, RVs, and campers.
+      The page says the yard is fenced and gated, access is by key or
+      combination lock, and business hours are Monday through Friday 8:00 am to
+      3:00 pm. It says the yard does not offer indoor storage or dumping.
+    sources:
+      - url: https://www.swoutdoorstorage.com/outdoor-storage-naples-fl/
+        title: Naples outdoor storage page
+    last_verified: "2026-11-18"

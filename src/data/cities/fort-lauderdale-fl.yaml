@@ -1,0 +1,319 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: fort-lauderdale-fl
+city: Fort Lauderdale
+state: Florida
+state_code: FL
+metro: Fort Lauderdale
+summary: >-
+  These facilities publish an RV or boat storage page in Broward County,
+  including Fort Lauderdale, Hollywood, Davie, Pembroke Pines, Pompano Beach,
+  and Coral Springs. Each card uses only what that page states.
+sparefoot_slug: Fort-Lauderdale-FL
+neighbor_path: florida/fort-lauderdale
+sparefoot_note: >-
+  The SpareFoot city token is Fort Lauderdale. These lots also include
+  Hollywood, Davie, Pembroke Pines, Pompano Beach, and Coral Springs.
+photo: fort-lauderdale
+listings:
+  - slug: crystal-lake-boat-rv-storage-pompano
+    name: Crystal Lake Boat and RV Storage
+    street: 1951 NW 44 Street
+    city: Pompano Beach
+    state_code: FL
+    postal_code: "33064"
+    lat: null
+    lng: null
+    phone: "(954) 973-4331"
+    website: https://browardboatstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Outdoor boat and RV parking with gated entry, 24/7 renter keycard access,
+      video monitoring, and flushing and cleaning stations.
+    sources:
+      - url: https://browardboatstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: cubesmart-davie-13290-state-road-84
+    name: CubeSmart Self Storage of Davie
+    street: 13290 W State Rd 84
+    city: Davie
+    state_code: FL
+    postal_code: "33325"
+    lat: null
+    lng: null
+    phone: "(954) 424-6460"
+    website: https://www.cubesmart.com/florida-self-storage/davie-self-storage/330.html
+    vehicles: [boat]
+    storage_types: [open]
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: false
+    price_notes: >-
+      20-foot outdoor parking, half off the first month and 25% off, is
+      $237.75/mo online and $317.00 in store. No price was printed for the
+      40-foot spaces.
+    waitlist: null
+    notes: >-
+      Services at this facility include boat parking and outdoor parking. The
+      about text says vessels can be parked in 40-foot outdoor vehicle spaces.
+      Access hours are daily 6:00 AM to 10:00 PM. RVs are not named on this
+      location page outside a shared size guide, so they are not marked.
+    sources:
+      - url: https://www.cubesmart.com/florida-self-storage/davie-self-storage/330.html
+        title: CubeSmart location page
+    last_verified: "2026-11-18"
+
+  - slug: florida-secure-pembroke-pines
+    name: Florida Secure Self-Storage
+    street: 19701 Sheridan St
+    city: Pembroke Pines
+    state_code: FL
+    postal_code: "33332"
+    lat: null
+    lng: null
+    phone: "(954) 252-5000"
+    website: https://www.floridasecurestorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: 90
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Indoor and outdoor parking for boats and RVs, with uncovered spaces from
+      20 to 50 feet and covered and fully enclosed spaces from 30 to 90 feet.
+      Access hours are 6:00 a.m. to 8:00 p.m. Cameras and the electronic gate
+      are printed with an asterisk the page does not define.
+    sources:
+      - url: https://www.floridasecurestorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: hollywood-rv-boat-storage
+    name: Hollywood RV / Boat Storage Facility
+    street: 6850 Sheridan Street
+    city: Hollywood
+    state_code: FL
+    postal_code: null
+    lat: null
+    lng: null
+    phone: "(954) 921-3535"
+    website: https://www.hollywoodfl.org/288/RV-Boat-Storage-Facility
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      Six-month or twelve-month leases: small 10 by 20 feet is $325 or $650;
+      medium 12.5 by 25 feet is $487 or $974; large 15 by 40 feet is $649 or
+      $1,298. A $100 refundable security deposit is also required.
+    waitlist: No spaces are available. Call Parking to be placed on the waiting list.
+    notes: >-
+      The city's outdoor lot has 59 spaces and is accessible 24 hours a day
+      through an electronic gate, with security lighting and cameras. Hollywood
+      residents have priority. The ZIP on the page belongs to City Hall, not
+      this lot, so it is not stored.
+    sources:
+      - url: https://www.hollywoodfl.org/288/RV-Boat-Storage-Facility
+        title: City of Hollywood facility page
+    last_verified: "2026-11-18"
+
+  - slug: intermarine-fort-lauderdale
+    name: InterMarine Fort Lauderdale
+    street: 4550 Anglers Avenue
+    city: Fort Lauderdale
+    state_code: FL
+    postal_code: "33312"
+    lat: null
+    lng: null
+    phone: "(954) 894-9895"
+    website: https://www.intermarineboats.com/boat-storage
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: >-
+      Rack storage is $18 per foot up to 25 feet, with a 25-foot minimum; $20
+      per foot for 26 to 29 feet; and $22 per foot for 30 to 35 feet at 8 feet
+      6 inches beam or less. Dead dry storage for 35 feet and up is $25 per
+      foot plus haul and launch of $20 per foot each way. T-top, hardtop, and
+      over-beam surcharges are $75 per month. Dock electric is $35 per month
+      without air conditioning or $100 per month with it. Boat trailer storage
+      is $125 per month when the boat is in storage.
+    waitlist: null
+    notes: >-
+      The Fort Lauderdale section says the facility has 75 dry-storage slips and
+      also stores RVs and motorcycles. Boats over 35 feet or 16,000 pounds
+      cannot be rack stored. An 8-foot-6-inch figure is beam, not height. The
+      same page also describes a Jupiter address, which is not this listing.
+    sources:
+      - url: https://www.intermarineboats.com/boat-storage
+        title: Storage page
+    last_verified: "2026-11-18"
+
+  - slug: port-32-fort-lauderdale
+    name: PORT 32 Fort Lauderdale
+    street: 1915 SW 21st Avenue
+    city: Fort Lauderdale
+    state_code: FL
+    postal_code: "33312"
+    lat: null
+    lng: null
+    phone: "(954) 895-8360"
+    website: https://www.port32marinas.com/p32marinas/ft-lauderdale
+    vehicles: [boat]
+    storage_types: []
+    max_length_ft: 55
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Valet dry-stack storage has a maximum length of 55 feet and a maximum
+      beam of 14 feet, and the page says boats are returned to a secure
+      weatherproof space. Wet slips are listed longer than the dry-stack
+      maximum, so 55 feet is the dry-storage length. Staff wash-down is a
+      service. RVs are not mentioned.
+    sources:
+      - url: https://www.port32marinas.com/p32marinas/ft-lauderdale
+        title: Fort Lauderdale location page
+    last_verified: "2026-11-18"
+
+  - slug: recnation-coral-springs-nw-42nd
+    name: RecNation RV & Boat Storage
+    street: 12101 NW 42nd St
+    city: Coral Springs
+    state_code: FL
+    postal_code: "33065"
+    lat: null
+    lng: null
+    phone: "(954) 753-1930"
+    website: https://www.recnationstorage.com/storage-facility/fl/coral-springs/12101-northwest-42nd-st/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 70
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: >-
+      Outdoor uncovered web rates include 11 by 20 feet at $261, 11 by 30 feet
+      at $319, 12 by 40 feet at $387, 12 by 50 feet at $481, and 13 by 70 feet
+      at $642. Truck spaces are labeled per month. The uncovered web rates are
+      not labeled with a billing period.
+    waitlist: null
+    notes: >-
+      This address lists uncovered boat, auto, and RV storage, remote gate
+      access, 24/7 cameras, and a water hose for rinses. The FAQ allows access
+      from 6:00 a.m. to 10:00 p.m., or 24 hours upon request, so 24-hour access
+      is not marked.
+    sources:
+      - url: https://www.recnationstorage.com/storage-facility/fl/coral-springs/12101-northwest-42nd-st/
+        title: Coral Springs facility page
+    last_verified: "2026-11-18"
+
+  - slug: riverfront-marina-fort-lauderdale
+    name: Riverfront Marina
+    street: 420 SW 3rd Ave.
+    city: Fort Lauderdale
+    state_code: FL
+    postal_code: "33315"
+    lat: null
+    lng: null
+    phone: "(954) 527-1829"
+    website: https://riverfrontmarina.com/
+    vehicles: [boat]
+    storage_types: [enclosed, open]
+    max_length_ft: 38
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Inside and outside dry storage for boats up to 38 feet, with unlimited in
+      and out and 24-hour access. The office is open daily 8:30 AM to 4:30 PM.
+      RVs are not mentioned.
+    sources:
+      - url: https://riverfrontmarina.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: vault-marine-pompano
+    name: Vault Marine
+    street: 2551 NW 19th Street
+    city: Pompano Beach
+    state_code: FL
+    postal_code: "33069"
+    lat: null
+    lng: null
+    phone: "(954) 595-7758"
+    website: https://www.vaultmarinefl.com/
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      A 50,000-square-foot indoor facility for boats and RVs, described as
+      category-5 hurricane resistant, with 24/7 video surveillance and secured
+      access. Six-month and 12-month plans include a motor flush and a
+      salt-removal wash. No dollar rates or access hours are printed.
+    sources:
+      - url: https://www.vaultmarinefl.com/
+        title: Official website
+    last_verified: "2026-11-18"

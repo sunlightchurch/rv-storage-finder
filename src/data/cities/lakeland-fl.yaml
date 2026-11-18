@@ -1,0 +1,355 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: lakeland-fl
+city: Lakeland
+state: Florida
+state_code: FL
+metro: Lakeland
+summary: >-
+  These facilities publish an RV or boat storage page in Lakeland, Winter
+  Haven, Auburndale, or Mulberry. Each card uses only what that page states.
+sparefoot_slug: Lakeland-FL
+neighbor_path: florida/lakeland
+sparefoot_note: null
+photo: lakeland
+listings:
+  - slug: a-plus-storage-winter-haven
+    name: A+ Storage Winter Haven
+    street: 2700 Eloise Loop Road
+    city: Winter Haven
+    state_code: FL
+    postal_code: "33884"
+    lat: null
+    lng: null
+    phone: "(863) 400-0533"
+    website: https://www.apluswinterhaven.com/vehicle-storage
+    vehicles: [rv, boat]
+    storage_types: [enclosed, open]
+    max_length_ft: 50
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Winter Haven facility by Lake Eloise. The site says it offers open boat
+      and RV parking, with spaces up to 50 ft and charging outlets on the 50 ft
+      spaces. Listed boat and RV sizes are 12 by 25, 12 by 30, 12 by 40, 12 by
+      45, and 12 by 50. Smaller watercraft such as jet skis and canoes can go
+      in drive-up indoor units. The pages list a coded gate and 24/7 digital
+      cameras. Pricing is by phone.
+    sources:
+      - url: https://www.apluswinterhaven.com/vehicle-storage
+        title: Vehicle storage page
+      - url: https://www.apluswinterhaven.com/
+        title: Official homepage
+    last_verified: "2026-11-18"
+
+  - slug: barton-storage-auburndale
+    name: Barton Storage
+    street: 1815 Thornhill Road
+    city: Auburndale
+    state_code: FL
+    postal_code: "33823"
+    lat: null
+    lng: null
+    phone: "(863) 967-8375"
+    website: https://www.gobartonstorage.com/boat.html
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The boat page names 1815 Thornhill Road and 310 Derby Road, both in
+      Auburndale 33823, and a second phone, (863) 967-7077. It describes
+      drive-up units that fit many boats and outdoor parking for vehicles,
+      boats, and RVs, and it does not say which address has which type, so
+      cover type is not marked. Access hours printed with these addresses are
+      6 am to 9:30 pm, seven days. No dollar rates are posted.
+    sources:
+      - url: https://www.gobartonstorage.com/boat.html
+        title: Vehicle, RV, and boat storage page
+    last_verified: "2026-11-18"
+
+  - slug: century-boat-rv-christina-lakeland
+    name: Century Boat & RV Storage – Christina
+    street: 455 Commerce Drive
+    city: Lakeland
+    state_code: FL
+    postal_code: "33813"
+    lat: null
+    lng: null
+    phone: "(863) 644-8559"
+    website: https://www.century-storage.com/storage-locations/fl/lakeland/400-commerce-drive
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Lakeland facility at 455 Commerce Drive with outdoor RV, auto, and boat
+      storage. The RV section also says covered and outdoor spaces are
+      available. The feature list includes controlled gate access, a security
+      camera system, a free wash area, and electrical power in units. Access
+      hours are 6:00 am to 10:00 pm every day, and the page says entry outside
+      those hours requires contacting management.
+    sources:
+      - url: https://www.century-storage.com/storage-locations/fl/lakeland/400-commerce-drive
+        title: Official Christina location page
+    last_verified: "2026-11-18"
+
+  - slug: century-boat-rv-sandpiper-lakeland
+    name: Century Boat & RV Storage – Sandpiper
+    street: 5915 Walt Loop Road
+    city: Lakeland
+    state_code: FL
+    postal_code: "33809"
+    lat: null
+    lng: null
+    phone: "(863) 858-2650"
+    website: https://www.century-storage.com/storage-locations/fl/lakeland/5915-walt-loop-road/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Lakeland facility near I-4 with covered, enclosed, and outdoor RV, auto,
+      and boat storage, controlled gate access, a security camera system, a
+      free wash area, and electrical power in units. The hours block lists
+      access from 6:00 am to 10:00 pm every day. A FAQ answer on the same page
+      says 6:00 am to 9:00 pm. Neither statement offers routine 24-hour access.
+    sources:
+      - url: https://www.century-storage.com/storage-locations/fl/lakeland/5915-walt-loop-road/
+        title: Official Sandpiper location page
+    last_verified: "2026-11-18"
+
+  - slug: cubesmart-winter-haven-cypress-gardens
+    name: CubeSmart Self Storage of Winter Haven
+    street: 6610 Cypress Gardens Blvd Se
+    city: Winter Haven
+    state_code: FL
+    postal_code: "33884"
+    lat: null
+    lng: null
+    phone: "(863) 342-1412"
+    website: https://www.cubesmart.com/florida-self-storage/winter-haven-self-storage/4925.html
+    vehicles: [boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The Winter Haven page says this facility has vehicle or boat storage. RV
+      storage is mentioned only in a chain-wide sentence, so it is not tagged.
+      The page lists daily access from 6:00 am to 10:00 pm, app gate access,
+      and 24/7 video recording. Posted unit prices are for indoor storage
+      units, not a boat space. The phone is the current-customer number on the
+      page.
+    sources:
+      - url: https://www.cubesmart.com/florida-self-storage/winter-haven-self-storage/4925.html
+        title: Official location page
+    last_verified: "2026-11-18"
+
+  - slug: imperial-storage-mulberry
+    name: Imperial Storage
+    street: 2651 Imperial Lakes Blvd
+    city: Mulberry
+    state_code: FL
+    postal_code: null
+    lat: null
+    lng: null
+    phone: "(863) 370-3705"
+    website: https://imperialstorage.llc/
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: 75
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: null
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Mulberry facility near County Line Road and State Road 60. Sites are
+      about 14 ft wide, and select sites are up to 75 ft long. The page lists
+      select covered sites, 24/7 access, camera viewing, a wash area, a dump
+      station, and water and electric stations. Pricing is by phone. The page
+      does not print a ZIP code or say the other sites are open parking.
+    sources:
+      - url: https://imperialstorage.llc/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: lakeland-boat-rv-storage
+    name: Lakeland Boat & RV Storage
+    street: 1304 Lanier Road
+    city: Lakeland
+    state_code: FL
+    postal_code: "33810"
+    lat: null
+    lng: null
+    phone: "(863) 315-2800"
+    website: https://lakelandboatrvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [enclosed, open]
+    max_length_ft: 70
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: true
+    gated: true
+    cameras: null
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Lakeland facility on US-98 near Interstate 4. Fully enclosed sizes are 14
+      by 35, 14 by 50, and 14 by 65. Outdoor sizes are 12 by 25, 16 by 35, 12
+      by 50, and 16 by 70. The page lists 20-amp and 30-amp electric service, a
+      wash station, indoor lighting, and 24/7 security and gate access. It does
+      not post rates.
+    sources:
+      - url: https://lakelandboatrvstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: south-lakeland-boat-and-rv
+    name: South Lakeland Boat and RV
+    street: 4783 Old Rd 37
+    city: Lakeland
+    state_code: FL
+    postal_code: "33813"
+    lat: null
+    lng: null
+    phone: "(863) 329-8299"
+    website: https://southlakelandboatandrv.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: 45
+    clearance_ft: null
+    power_hookups: null
+    dump_station: true
+    wash_station: true
+    gated: null
+    cameras: true
+    access_24h: null
+    price_notes: >-
+      A 12 ft by 38 ft space is $105 per month, a 12 ft by 40 ft space is $115
+      per month, and a 12 ft by 45 ft space is $130 per month.
+    waitlist: null
+    notes: >-
+      The address is printed in the map embed on the homepage. The rate cards
+      list 24/7 access, 24/7 security surveillance, and dump station access. A
+      FAQ answer says the pass code works during normal access hours, so
+      24-hour access is not marked. The spaces are not labeled covered,
+      enclosed, or open.
+    sources:
+      - url: https://southlakelandboatandrv.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: storage-king-lucerne-park-winter-haven
+    name: Storage King USA - Lucerne Park
+    street: 4620 Old Lucerne Park Road
+    city: Winter Haven
+    state_code: FL
+    postal_code: "33881"
+    lat: null
+    lng: null
+    phone: "(863) 293-1898"
+    website: https://www.storagekingusa.com/locations/florida/winter-haven/storage-king-usa-of-winter-haven-lucerne-park/
+    vehicles: [rv]
+    storage_types: [open]
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: null
+    price_notes: >-
+      Open parking rates on the page include a 10 by 20 at $51.00 in store and
+      $40.00 web, a 12 by 20 at $64.00 in store and $44.00 web, a 10 by 24 at
+      $64.00 in store and $44.00 web, and a 10 by 34 at $90.00 in store and
+      $58.00 web. The page does not state the billing period.
+    waitlist: null
+    notes: >-
+      Winter Haven store with open, uncovered RV parking up to 40 ft. The page
+      says none of those spaces are covered. Gate access is 6:00 am to 9:00 pm
+      every day, and 24/7 access is listed for an additional fee with manager
+      approval, so 24-hour access is not marked. A boat is mentioned only as
+      something to confirm by phone, so it is not listed as an accepted vehicle.
+    sources:
+      - url: https://www.storagekingusa.com/locations/florida/winter-haven/storage-king-usa-of-winter-haven-lucerne-park/
+        title: Official Lucerne Park page
+    last_verified: "2026-11-18"
+
+  - slug: winter-haven-rv-and-boat-storage
+    name: Winter Haven RV & Boat Storage
+    street: 5670 Lucerne Park Road
+    city: Winter Haven
+    state_code: FL
+    postal_code: "33881"
+    lat: null
+    lng: null
+    phone: "(863) 296-5021"
+    website: https://www.winterhavenrvboatstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: null
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Paved Winter Haven lot for RVs, boats, and jet skis, with outdoor parking
+      and covered canopies described as 140 mph hurricane resistant. The page
+      lists 24-hour access, monitored 24/7 video surveillance, a fill-wash
+      station, a free dump station, and 30-amp electric service. No rates or a
+      maximum length are posted.
+    sources:
+      - url: https://www.winterhavenrvboatstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"

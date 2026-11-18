@@ -1,0 +1,282 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: tallahassee-fl
+city: Tallahassee
+state: Florida
+state_code: FL
+metro: Tallahassee
+summary: >-
+  These facilities publish an RV or boat storage page in Tallahassee. Each card
+  uses only what that page states. This is not a complete inventory.
+sparefoot_slug: Tallahassee-FL
+neighbor_path: florida/tallahassee
+sparefoot_note: null
+photo: tallahassee
+listings:
+  - slug: myplace-self-storage-tallahassee
+    name: MyPlace Self-Storage
+    street: 1851 S Monroe Street
+    city: Tallahassee
+    state_code: FL
+    postal_code: "32301"
+    lat: null
+    lng: null
+    phone: 1-877-700-0155
+    website: https://myplaceselfstorage.com/storage-locations/fl/tallahassee/1851-s-monroe-st/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 35
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The location FAQ says this address has open parking spots from 30 to 35
+      feet for RVs, boats, and trailers, with a fence, recorded video
+      surveillance, and electronic gate access. Access hours are 6:00 AM to
+      10:00 PM daily. Another sentence says a vehicle sits under an expansive
+      cover.
+    sources:
+      - url: https://myplaceselfstorage.com/storage-locations/fl/tallahassee/1851-s-monroe-st/
+        title: Official Tallahassee location page
+    last_verified: "2026-11-18"
+
+  - slug: parkway-self-storage-tallahassee
+    name: Parkway Self Storage
+    street: 5460 Apalachee Parkway
+    city: Tallahassee
+    state_code: FL
+    postal_code: "32311"
+    lat: null
+    lng: null
+    phone: "(850) 848-8600"
+    website: https://parkway-storage.com/
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: 30
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: RV and boat storage monthly rates starting at $95.
+    waitlist: null
+    notes: >-
+      The page offers RV and boat parking and says an indoor 10 by 30 unit can
+      hold recreational vehicles and trailers. It lists electronic gate access,
+      a fully fenced lot, and 24-hour digital surveillance. It does not state
+      gate hours or whether the parking outside that unit is covered.
+    sources:
+      - url: https://parkway-storage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: prime-storage-tallahassee
+    name: Prime Storage - Tallahassee
+    street: 2428 North Monroe Street
+    city: Tallahassee
+    state_code: FL
+    postal_code: "32303"
+    lat: null
+    lng: null
+    phone: "(850) 385-7266"
+    website: https://primestorage.com/locations/fl/tallahassee/FL08/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The location page says outdoor RV, car, and boat storage is rented
+      monthly. A feature bullet says 24-hour access with an asterisk, while the
+      access-hours table lists 6:00 AM to 10:00 PM every day. No RV or boat
+      price is printed.
+    sources:
+      - url: https://primestorage.com/locations/fl/tallahassee/FL08/
+        title: Official Tallahassee location page
+    last_verified: "2026-11-18"
+
+  - slug: storage-king-usa-tallahassee-942
+    name: Storage King USA - Tallahassee 942
+    street: 942 Capital Circle SW
+    city: Tallahassee
+    state_code: FL
+    postal_code: "32304"
+    lat: null
+    lng: null
+    phone: "(850) 576-3764"
+    website: https://www.storagekingusa.com/locations/florida/tallahassee/storage-king-usa-tallahassee-942-capital-cir/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The location page lists RV storage and boat storage, and inventory lines
+      labeled Parking - Open run through 10 by 40. Standard access is 6:00 AM
+      to 10:00 PM daily. A separate line says 24/7 access is available for an
+      additional fee with manager approval, so 24-hour access is not marked.
+      The page also lists a mechanized gate and a video recorded security
+      system. Open parking prices are not printed.
+    sources:
+      - url: https://www.storagekingusa.com/locations/florida/tallahassee/storage-king-usa-tallahassee-942-capital-cir/
+        title: Official 942 Capital Circle SW page
+    last_verified: "2026-11-18"
+
+  - slug: storage-zone-capital-circle-nw
+    name: Storage Zone - Self Storage & Business Center
+    street: 4525 Capital Circle NW
+    city: Tallahassee
+    state_code: FL
+    postal_code: "32303"
+    lat: null
+    lng: null
+    phone: "(850) 562-4191"
+    website: https://mystoragezone.com/locations/florida/tallahassee/storage-zone-self-storage-business-center-3/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 35
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    price_notes: >-
+      A 10 ft by 35 ft parking space is listed at $112. A 10 ft by 20 ft
+      parking space is listed at $69, with a web rate of $49. Those parking
+      lines do not state a billing period.
+    waitlist: null
+    notes: >-
+      The Capital Circle NW page lists outdoor RV parking, boat storage, and
+      parking spaces for RVs, vehicles, and boats, with access hours marked 24
+      hours every day. Labeled parking sizes include 10 by 20, 10 by 35, 12 by
+      30, and 35 by 10.
+    sources:
+      - url: https://mystoragezone.com/locations/florida/tallahassee/storage-zone-self-storage-business-center-3/
+        title: Official Capital Circle NW page
+    last_verified: "2026-11-18"
+
+  - slug: storage-zone-capital-circle-sw
+    name: Storage Zone - Self Storage & Business Center
+    street: 424 Capital Circle SW
+    city: Tallahassee
+    state_code: FL
+    postal_code: "32304"
+    lat: null
+    lng: null
+    phone: "(850) 574-2100"
+    website: https://mystoragezone.com/locations/florida/tallahassee/storage-zone-self-storage-business-center-2/
+    vehicles: [rv]
+    storage_types: [covered, open]
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    price_notes: >-
+      A 10 ft by 20 ft parking space is listed at $139, with a web rate of $79.
+      A 12.5 ft by 40 ft parking space is listed with monthly rates of $215,
+      $214, and $299.
+    waitlist: null
+    notes: >-
+      This Capital Circle SW page says the facility has RV storage, covered
+      parking for cars and RVs, some high-clearance spots, outdoor parking, and
+      24-hour access. It does not give the high-clearance height. Boat storage
+      appears only in a shared parking blurb that tells readers to confirm the
+      location, so boats are not marked.
+    sources:
+      - url: https://mystoragezone.com/locations/florida/tallahassee/storage-zone-self-storage-business-center-2/
+        title: Official Capital Circle SW page
+    last_verified: "2026-11-18"
+
+  - slug: storquest-tallahassee-barcelona
+    name: StorQuest Self Storage
+    street: 2401 Barcelona Ln
+    city: Tallahassee
+    state_code: FL
+    postal_code: "32311"
+    lat: null
+    lng: null
+    phone: "(850) 792-5969"
+    website: https://www.storquest.com/self-storage/fl/tallahassee/2401-barcelona-lane/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      This location page says vehicle parking welcomes RVs, boats, and
+      vehicles, and lists Vehicle + RV Parking. It does not say whether that
+      parking is covered, enclosed, or open, and it does not print a parking
+      rate. Access hours are Monday through Saturday 9:00 AM to 6:00 PM and
+      Sunday 10:00 AM to 5:00 PM. The 24/7 line refers to agents by phone.
+    sources:
+      - url: https://www.storquest.com/self-storage/fl/tallahassee/2401-barcelona-lane/
+        title: Official Barcelona Lane page
+    last_verified: "2026-11-18"
+
+  - slug: tallahassee-saver-self-storage
+    name: Tallahassee Saver Self Storage
+    street: 1750 Norman Park Drive
+    city: Tallahassee
+    state_code: FL
+    postal_code: "32304"
+    lat: null
+    lng: null
+    phone: "(850) 404-7744"
+    website: https://www.saverselfstorage.com/self-storage-tallahassee-fl-f8059
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The page says the facility can store an RV or boat, offers RV parking
+      with maneuvering room, and says all RV and automobile storage is fenced
+      and paved. It also says the property is gated with keypad entry and has
+      24/7 video surveillance. Access hours are 6:30 AM to 9:00 PM every day.
+      Unit ceilings are described as 14 feet; that height is not stated for the
+      RV parking.
+    sources:
+      - url: https://www.saverselfstorage.com/self-storage-tallahassee-fl-f8059
+        title: Official Tallahassee page
+    last_verified: "2026-11-18"

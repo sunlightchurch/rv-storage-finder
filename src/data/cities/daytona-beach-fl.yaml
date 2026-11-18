@@ -1,0 +1,255 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: daytona-beach-fl
+city: Daytona Beach
+state: Florida
+state_code: FL
+metro: Daytona Beach
+summary: >-
+  These facilities publish an RV or boat storage page in Ormond Beach, South
+  Daytona, Port Orange, New Smyrna Beach, or DeLand. Each card uses only what
+  that page states.
+sparefoot_slug: Daytona-Beach-FL
+neighbor_path: florida/daytona-beach
+sparefoot_note: null
+photo: daytona-beach
+listings:
+  - slug: acorn-mini-storage-port-orange
+    name: Acorn Mini Storage of Port Orange
+    street: 6250 S Williamson Blvd
+    city: Port Orange
+    state_code: FL
+    postal_code: "32128"
+    lat: null
+    lng: null
+    phone: 386-238-9392
+    website: https://port-orange.acornmini.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      Outdoor boat and RV spaces print $195 and $175 for 12x30, $200 and $180
+      for 12x35, and $225 and $205 for 12x40, under a promo-rate label. A
+      first-time 3-month contract can include a third month free.
+    waitlist: null
+    notes: >-
+      Nearly 3 acres with more than 85 outdoor boat, RV, and trailer spaces.
+      Outdoor storage access is 24 hours, 7 days. Storage-unit access is 7 AM
+      to 10 PM. Two individually coded gates and cameras recording 24 hours are
+      stated. The page does not label the dollar figures with a billing period.
+    sources:
+      - url: https://port-orange.acornmini.com/
+        title: Official Port Orange page
+    last_verified: "2026-11-18"
+
+  - slug: all-aboard-rv-depot-south-daytona
+    name: All Aboard Storage - RV Depot
+    street: 2102 South Nova Road
+    city: South Daytona
+    state_code: FL
+    postal_code: "32119"
+    lat: null
+    lng: null
+    phone: "(386) 260-4393"
+    website: https://www.allaboardstorage.com/storage-locations/florida/port-orange/2102-s-nova-rd
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered and outdoor parking for boats, RVs, campers, motorhomes, and
+      trailers. The location page says the lot is fully fenced, with keypad
+      gate access and digital video recording. Access is 5:00 AM to 10:00 PM
+      every day. The page does not print a rate for this depot.
+    sources:
+      - url: https://www.allaboardstorage.com/storage-locations/florida/port-orange/2102-s-nova-rd
+        title: Official RV Depot location page
+    last_verified: "2026-11-18"
+
+  - slug: deland-self-storage
+    name: DeLand Self Storage
+    street: 1805 North Woodland Boulevard
+    city: DeLand
+    state_code: FL
+    postal_code: "32720"
+    lat: null
+    lng: null
+    phone: "(386) 736-3699"
+    website: https://www.deland-ss.com/vehicle-storage
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The vehicle page offers storage for a car, truck, trailer, boat, or RV
+      and states fencing, coded gate entry, and 24/7 HD digital recording. Gate
+      hours are 6:00 AM to 10:00 PM every day. The page does not say whether
+      the vehicle spaces are covered, enclosed, or open.
+    sources:
+      - url: https://www.deland-ss.com/vehicle-storage
+        title: Official vehicle storage page
+      - url: https://www.deland-ss.com/contact
+        title: Contact page with gate hours
+    last_verified: "2026-11-18"
+
+  - slug: max-vault-new-smyrna
+    name: New Smyrna Beach Boat & Storage Vault
+    street: 1245 Canal St
+    city: New Smyrna Beach
+    state_code: FL
+    postal_code: "32168"
+    lat: null
+    lng: null
+    phone: "(386) 388-5399"
+    website: https://www.maxvaultstorage.com/storage-units/florida/new-smyrna-beach/new-smyrna-beach-boat-storage-vaults-3502383/
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: 43
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: >-
+      A 15-by-35 space shows an online rate of $800 and a promo rate of $400.
+      The page also prints online rates of $1,000 and $1,200 with promo rates
+      of $500 and $600, and a 50% off first month's rent offer. The page does
+      not state the billing period for the dollar rates.
+    waitlist: null
+    notes: >-
+      Climate-controlled drive-up bays for boats, RVs, and trailers, from 15x35
+      to 15x43, with 12-foot and 14-foot roll-up doors and a 120V outlet in
+      each unit, so clearance is not a single number. The page says daily
+      access is 4 AM to 10 PM and also lists 24-hour access upon approval.
+    sources:
+      - url: https://www.maxvaultstorage.com/storage-units/florida/new-smyrna-beach/new-smyrna-beach-boat-storage-vaults-3502383/
+        title: Official New Smyrna Beach location page
+    last_verified: "2026-11-18"
+
+  - slug: recnation-deland-international-speedway
+    name: RecNation RV & Boat Storage
+    street: 2425 E. International Speedway Blvd
+    city: Deland
+    state_code: FL
+    postal_code: "32724"
+    lat: null
+    lng: null
+    phone: "(386) 703-8631"
+    website: https://www.recnationstorage.com/storage-facility/fl/deland/2425-e-international-speedway-blvd/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 50
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      Uncovered web rates on the page run from $88 for 11x20 to $153 for 11x45.
+      Canopy web rates run from $90 for 12x10 to $234 for 12x50. The FAQ says
+      covered parking starts at $75 per month and uncovered parking starts at
+      $100.
+    waitlist: null
+    notes: >-
+      Covered canopy and uncovered parking, with power listed at 3-amp, 30-amp,
+      and 50-amp, an RV dump station, and a water hose for rinses. The page
+      states video surveillance, a remote gate, and 24-hour parking access. The
+      longest space printed is 12 by 50 feet. The uncovered web rates are not
+      all labeled with a billing period.
+    sources:
+      - url: https://www.recnationstorage.com/storage-facility/fl/deland/2425-e-international-speedway-blvd/
+        title: Official DeLand facility page
+    last_verified: "2026-11-18"
+
+  - slug: shady-oak-storage-new-smyrna
+    name: Shady Oak Storage
+    street: 1765 Tionia Road
+    city: New Smyrna Beach
+    state_code: FL
+    postal_code: "32168"
+    lat: null
+    lng: null
+    phone: 952-380-7453
+    website: https://shadyoakstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Outdoor lot of nearly 3 acres for boats, RVs, trailers, and other
+      vehicles. A chain-link and barbed-wire fence, automated pin gate, and
+      24-hour recorded cameras are stated, and the page says clients have 24/7
+      access. The page offers a 10% discount for firefighters, police officers,
+      and veterans, and it does not print a dollar rate. The location line also
+      prints the street as 1765 Tiona Rd.
+    sources:
+      - url: https://shadyoakstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: stor-it-boat-rv-ormond-beach
+    name: Stor-It Boat and RV Center, LLC
+    street: 99 Portland St
+    city: Ormond Beach
+    state_code: FL
+    postal_code: "32174"
+    lat: null
+    lng: null
+    phone: "(386) 676-5018"
+    website: https://www.storitfl.com/99-portland-rd-ormond-beach-fl-32174
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered hurricane-rated steel canopies and uncovered parking for RVs,
+      boats, trailers, and other large vehicles. The office is at 1455 N US 1.
+      Individually coded gate access and video surveillance are stated. Access
+      is 6:00 AM to 10:00 PM, seven days a week. The inventory block did not
+      load a length or a rate.
+    sources:
+      - url: https://www.storitfl.com/99-portland-rd-ormond-beach-fl-32174
+        title: Official Ormond Beach boat and RV page
+    last_verified: "2026-11-18"
