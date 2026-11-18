@@ -1,0 +1,519 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: san-antonio-tx
+city: San Antonio
+state: Texas
+state_code: TX
+metro: San Antonio
+summary: >-
+  These facilities publish an RV or boat storage page in San Antonio or nearby
+  Selma, Schertz, New Braunfels, Boerne, or Converse. Each card uses only what
+  that page states.
+sparefoot_slug: San-Antonio-TX
+neighbor_path: texas/san-antonio
+sparefoot_note: null
+photo: san-antonio
+listings:
+  - slug: bb-boat-rv-storage
+    name: "B&B Boat & RV Storage"
+    street: 6643 Gass Rd
+    city: San Antonio
+    state_code: TX
+    postal_code: "78253"
+    lat: null
+    lng: null
+    phone: "(210) 629-2288"
+    website: https://www.bbboatandrvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Outdoor RV and boat parking, with cameras and a fenced gate. The contact
+      page lists access 8:00 AM to 7:00 PM with after-hours by appointment.
+      The location page also lists 24-hour access, so 24-hour access is not
+      marked yes or no.
+    sources:
+      - url: https://www.bbboatandrvstorage.com/contact-us
+        title: Contact page
+      - url: https://www.bbboatandrvstorage.com/6643-gass-rd-san-antonio-tx-78253
+        title: Location page
+    last_verified: "2026-11-18"
+
+  - slug: bergheim-boat-rv-storage
+    name: "Bergheim Boat & RV Storage"
+    street: 936 SH Hwy 46 East
+    city: Boerne
+    state_code: TX
+    postal_code: "78006"
+    lat: null
+    lng: null
+    phone: "(210) 827-6851"
+    website: https://www.bergheim-storage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: 70
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: A 14 by 70 drive-through enclosed space is listed at $499 per month.
+    waitlist: null
+    notes: >-
+      Enclosed, covered, and open parking for boats, campers, and RVs, with
+      70-foot drive-through spaces and 30-amp power on enclosed spaces. The
+      about text places the facility in Bergheim. The address line is Boerne.
+    sources:
+      - url: https://www.bergheim-storage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: bettis-boat-rv-storage
+    name: "Bettis Boat & RV Storage"
+    street: 11414 US-181
+    city: San Antonio
+    state_code: TX
+    postal_code: "78223"
+    lat: null
+    lng: null
+    phone: "(210) 633-3000"
+    website: https://bettisboatrvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: null
+    clearance_ft: 16
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      Enclosed prices are listed as 12 by 30 at $185 to $200, 12 by 40 at $210
+      to $225, and 15 by 50 at $320 to $335. The page does not say per month.
+    waitlist: null
+    notes: >-
+      Enclosed units are described as 16 feet tall, with electricity, a fenced
+      gate, cameras, and 24/7 customer access. The mailing address is 11445 S.
+      US Highway 181, San Antonio, Texas 78223.
+    sources:
+      - url: https://bettisboatrvstorage.com/
+        title: Official website
+      - url: https://bettisboatrvstorage.com/contact/
+        title: Contact page
+    last_verified: "2026-11-18"
+
+  - slug: blossom-boat-rv-storage
+    name: "Blossom Boat & RV Storage"
+    street: 11795 Starcrest Drive
+    city: San Antonio
+    state_code: TX
+    postal_code: "78247"
+    lat: null
+    lng: null
+    phone: 210-790-3462
+    website: https://www.blossomstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: 64
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Indoor, outdoor open, and outdoor covered parking for boats, RVs, and
+      campers, with a fenced keypad gate, cameras, and 24-hour gate access.
+      Spaces are described as large as 12 by 64. Staff work from 15630
+      Wurzbach Parkway.
+    sources:
+      - url: https://www.blossomstorage.com/
+        title: Official website
+      - url: https://www.blossomstorage.com/privacy-policy
+        title: Privacy policy contact block
+    last_verified: "2026-11-18"
+
+  - slug: boat-shed-mini-storage
+    name: Boat Shed Mini Storage
+    street: 1514 Thousand Oaks Drive
+    city: San Antonio
+    state_code: TX
+    postal_code: "78232"
+    lat: null
+    lng: null
+    phone: 210-494-6265
+    website: https://boatshed-ministorage.com/boat-storage-san-antonio/
+    vehicles: [boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: false
+    price_notes: >-
+      Monthly rent is enclosed boat 10 by 24 at $153, 10 by 28 at $155, and
+      10 by 30 at $163. Outside parking 10 by 20 is $75. Covered auto or truck
+      10 by 30 is $160.
+    waitlist: null
+    notes: >-
+      Boat storage, including enclosed bays and outside parking. A 7.83-foot
+      clearance is stated for covered auto and truck parking, not as a boat
+      clearance, so clearance is not listed. Gate hours are 7:00 AM to 9:00
+      PM, including holidays. RVs are not mentioned.
+    sources:
+      - url: https://boatshed-ministorage.com/boat-storage-san-antonio/
+        title: Boat storage page
+    last_verified: "2026-11-18"
+
+  - slug: kane-boat-rv-storage
+    name: "Kane Boat & RV Storage, LLC"
+    street: 1865 Grosenbacher Rd
+    city: San Antonio
+    state_code: TX
+    postal_code: "78245"
+    lat: null
+    lng: null
+    phone: "(210) 722-6873"
+    website: https://www.kanestoragesa3.com/pages/rent
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: >-
+      Uncovered parking starts at $76.50 per month. Covered starts at $162 per
+      month. Covered 18 by 40 is $195 per month.
+    waitlist: null
+    notes: >-
+      Uncovered, covered, and warehouse units. 110-volt and 220-volt power is
+      stated for Warehouse 3 and Warehouse 4, not for the parking spaces.
+    sources:
+      - url: https://www.kanestoragesa3.com/pages/rent
+        title: Rent page
+    last_verified: "2026-11-18"
+
+  - slug: lockaway-storage-i-35-schertz
+    name: Lockaway Storage
+    street: 18913 I-35 North
+    city: Schertz
+    state_code: TX
+    postal_code: "78154"
+    lat: null
+    lng: null
+    phone: "(830) 590-1711"
+    website: https://www.lockaway-storage.com/storage-units/texas/schertz/lockaway-storage-i-35-schertz-117202/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 45
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: >-
+      One parking listing shows $56 in store and $42. The page does not state
+      the billing period.
+    waitlist: null
+    notes: >-
+      Outdoor parking for RVs, cars, and boats, advertised from 16 feet to 45
+      feet, with security cameras and a gated entrance. The phone is the
+      current-tenant number printed on the page.
+    sources:
+      - url: https://www.lockaway-storage.com/storage-units/texas/schertz/lockaway-storage-i-35-schertz-117202/
+        title: Schertz location page
+    last_verified: "2026-11-18"
+
+  - slug: lone-star-boat-rv-storage-boerne
+    name: "Lone Star Boat & RV Storage"
+    street: 946 TX-46
+    city: Boerne
+    state_code: TX
+    postal_code: "78004"
+    lat: null
+    lng: null
+    phone: "(945) 231-1094"
+    website: https://www.lonestarboatrvstorage.com/946-tx-46-boerne-tx-78004
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: 60
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      The FAQ lists 12 by 30 covered starting at $89, 12.5 by 30 enclosed at
+      $249, 12 by 40 covered at $99, 12.5 by 40 enclosed at $299, and 12 by 60
+      covered pull-through at $179. It does not say per month.
+    waitlist: null
+    notes: >-
+      Covered, enclosed, and uncovered boat and RV storage, with 20-amp power,
+      24/7 gated access, and video surveillance. Welcome text says spaces up
+      to 50 feet, and the FAQ also lists a 12 by 60 covered pull-through.
+    sources:
+      - url: https://www.lonestarboatrvstorage.com/946-tx-46-boerne-tx-78004
+        title: Boerne location page
+    last_verified: "2026-11-18"
+
+  - slug: lone-star-calaveras-lake
+    name: "Lone Star Boat & RV Storage - Calaveras Lake"
+    street: 14156 E Loop 1604 South
+    city: San Antonio
+    state_code: TX
+    postal_code: "78223"
+    lat: null
+    lng: null
+    phone: "(210) 201-2575"
+    website: https://www.lonestarstorage.co/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The homepage amenity list is for Lone Star Storage, which also lists
+      Beaumont, Pleasanton, and Pearsall, and does not say whether the
+      Calaveras spaces are covered, enclosed, or open. It does list 24-hour
+      access, an automatic gate, digital video surveillance, and in-unit power.
+    sources:
+      - url: https://www.lonestarstorage.co/
+        title: Official website
+      - url: https://www.lonestarstorage.co/pages/contact
+        title: Contact page
+    last_verified: "2026-11-18"
+
+  - slug: on-the-way-boat-rv-storage
+    name: "On The Way Boat & RV Storage"
+    street: 15050 Culebra Road
+    city: San Antonio
+    state_code: TX
+    postal_code: "78253"
+    lat: null
+    lng: null
+    phone: "(210) 287-8131"
+    website: https://www.onthewaystorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: 80
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: >-
+      Open spaces are $75, $82, $87.50, and $95 per month. Published covered
+      prices are $112.50, $119.75, $139, $159, and $185.50 per month. Boat
+      barn enclosed is $104.99 per month.
+    waitlist: null
+    notes: >-
+      Open, covered, and boat-barn enclosed spaces, with a heading from 16
+      feet to 80 feet. Hours are listed as 8:00 AM to 8:00 PM every day and
+      are not labeled as office or gate hours.
+    sources:
+      - url: https://www.onthewaystorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: parkpad-storage-converse
+    name: ParkPad Storage
+    street: 8721 Binz Engleman Rd
+    city: Converse
+    state_code: TX
+    postal_code: "78109"
+    lat: null
+    lng: null
+    phone: "(210) 903-6966"
+    website: https://www.parkpadstorage.com/storage-units/texas/converse/parkpad-storage-3502447/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      RV, car, and boat parking, with security cameras and gated entry.
+      24-hour access is listed as upon approval, so it is not marked as
+      standard 24-hour access.
+    sources:
+      - url: https://www.parkpadstorage.com/storage-units/texas/converse/parkpad-storage-3502447/
+        title: Converse location page
+    last_verified: "2026-11-18"
+
+  - slug: parkway-boat-rv-storage
+    name: "Parkway Boat & RV Storage"
+    street: 15630 Wurzbach Parkway
+    city: San Antonio
+    state_code: TX
+    postal_code: "78216"
+    lat: null
+    lng: null
+    phone: "(210) 790-3462"
+    website: https://www.parkwayboatrvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Open, covered, and enclosed boat and RV storage, with a fenced keypad
+      gate, 24/7 cameras, 24/7 gate hours, and a dump station. A homepage
+      review mentions charging outlets, which was not treated as a facility
+      statement, so power is not listed.
+    sources:
+      - url: https://www.parkwayboatrvstorage.com/
+        title: Official website
+      - url: https://www.parkwayboatrvstorage.com/privacy-policy
+        title: Privacy policy contact block
+    last_verified: "2026-11-18"
+
+  - slug: recnation-boerne-scenic-loop
+    name: "RecNation RV & Boat Storage"
+    street: 29 Scenic Loop Rd.
+    city: Boerne
+    state_code: TX
+    postal_code: "78006"
+    lat: null
+    lng: null
+    phone: "(830) 386-3005"
+    website: https://www.recnationstorage.com/storage-facility/tx/boerne/29-scenic-loop-rd/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      The FAQ says enclosed storage for a mid-sized recreational vehicle
+      starts around $382 per month, covered parking around $100 per month, and
+      uncovered parking around $54 per month.
+    waitlist: null
+    notes: >-
+      Enclosed, covered, and outdoor boat and RV storage, with a fenced gate,
+      recorded video, power in some units, and 24/7 access. The page also says
+      to call (830) 251-6216.
+    sources:
+      - url: https://www.recnationstorage.com/storage-facility/tx/boerne/29-scenic-loop-rd/
+        title: Official facility page
+    last_verified: "2026-11-18"
+
+  - slug: recnation-selma-lookout
+    name: "RecNation RV & Boat Storage"
+    street: 16887 Lookout Rd
+    city: Selma
+    state_code: TX
+    postal_code: "78154"
+    lat: null
+    lng: null
+    phone: 210-651-6018
+    website: https://www.recnationstorage.com/storage-facility/tx/selma/16887-lookout-rd/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: true
+    access_24h: null
+    price_notes: >-
+      This location's inventory shows web rates such as uncovered 12 by 20 at
+      $43 and indoor garage 10 by 20 at $70. Those lines do not state a
+      billing period.
+    waitlist: null
+    notes: >-
+      Uncovered, covered, and enclosed RV and boat storage, with cameras and
+      on-site power. Posted access is 6:00 AM to 10:00 PM, with 24/7 access
+      upon request, so 24-hour access is not marked yes or no. The word gated
+      does not appear. Nearby-facility inventory was not used.
+    sources:
+      - url: https://www.recnationstorage.com/storage-facility/tx/selma/16887-lookout-rd/
+        title: Official facility page
+    last_verified: "2026-11-18"
+
+  - slug: rodeo-self-storage
+    name: Rodeo Self Storage
+    street: 3090 West San Antonio Street
+    city: New Braunfels
+    state_code: TX
+    postal_code: "78130"
+    lat: null
+    lng: null
+    phone: "(830) 625-6514"
+    website: https://www.rodeo-storage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Outdoor RV and boat parking, with a gate and cameras. Gate hours are
+      6:00 AM to 10:00 PM every day. Boat or RV rental requires a title or
+      registration and proof of insurance.
+    sources:
+      - url: https://www.rodeo-storage.com/
+        title: Official website
+      - url: https://www.rodeo-storage.com/contact
+        title: Contact page
+      - url: https://www.rodeo-storage.com/locations/new-braunfels-tx-78130/view-unit/10/25
+        title: Unit page with the street address
+    last_verified: "2026-11-18"

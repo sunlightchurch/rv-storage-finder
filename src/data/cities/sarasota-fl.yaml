@@ -1,0 +1,419 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: sarasota-fl
+city: Sarasota
+state: Florida
+state_code: FL
+metro: Sarasota
+summary: >-
+  These facilities publish an RV or boat storage page in Sarasota or nearby,
+  including Bradenton, Venice, and Lakewood Ranch. Each card uses only what
+  that page states.
+sparefoot_slug: Sarasota-FL
+neighbor_path: florida/sarasota
+sparefoot_note: null
+photo: sarasota
+listings:
+  - slug: blenker-boatworks-and-marina
+    name: "Blenker Boatworks & Marina"
+    street: 2504 88th St Ct NW
+    city: Bradenton
+    state_code: FL
+    postal_code: "34209"
+    lat: null
+    lng: null
+    phone: "(941) 794-5500"
+    website: https://blenkerboatworks.com/dry-storage
+    vehicles: [boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: >-
+      Dry storage is $25 per foot per month with a 23-foot minimum. A shorter
+      boat is billed as 23 feet, and tax applies to monthly charges.
+    waitlist: null
+    notes: >-
+      Power boats only. Sailboats are not accepted. The page does not say
+      whether the dry storage is covered, enclosed, or open. Trailer storage
+      is off-site and billed separately. RVs are not mentioned.
+    sources:
+      - url: https://blenkerboatworks.com/dry-storage
+        title: Dry storage page
+    last_verified: "2026-11-18"
+
+  - slug: ed-cote-rv-storage
+    name: Ed Cote RV Storage
+    street: 36 Shannon Rd.
+    city: Sarasota
+    state_code: FL
+    postal_code: "34240"
+    lat: null
+    lng: null
+    phone: 941-377-6220
+    website: https://www.edcotervstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered storage for motorhomes, travel trailers, fifth wheels, boats,
+      trucks, and cars. Gate access is 8:30 am to 6:00 pm every day, with
+      extended hours on request. An emergency phone, 941-376-6678, is also
+      printed.
+    sources:
+      - url: https://www.edcotervstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: getaway-storage-lakewood-ranch
+    name: Getaway Storage Lakewood Ranch
+    street: 14875 Rangeland Pkwy
+    city: Lakewood Ranch
+    state_code: FL
+    postal_code: "34211"
+    lat: null
+    lng: null
+    phone: "(941) 214-7384"
+    website: https://www.getawaystorage.com/14875-rangeland-pkwy-lakewood-ranch-fl-34211
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Outdoor boat and RV storage with 24/7 access, fencing, a gate, and
+      video surveillance. The location page also calls this address Bradenton.
+      Wash bays are described as expected in the near future, so a wash
+      station is not listed. The site says to call for pricing.
+    sources:
+      - url: https://www.getawaystorage.com/14875-rangeland-pkwy-lakewood-ranch-fl-34211
+        title: Location page
+      - url: https://www.getawaystorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: honey-bee-rv-storage-sarasota
+    name: Honey Bee RV Storage
+    street: 6808 33rd St East
+    city: Sarasota
+    state_code: FL
+    postal_code: "34243"
+    lat: null
+    lng: null
+    phone: "(941) 219-4143"
+    website: https://www.honeybeerv.com/rv-storage-locations/fl/sarasota/6808-33rd-street-east
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: 47
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered storage for boats, trailers, RVs, and motorcoaches up to 47
+      feet, with power, a dump station, wash stations, a gate code, and
+      24-hour cameras. The page also says to call (941) 265-1303. Gate hours
+      are not stated.
+    sources:
+      - url: https://www.honeybeerv.com/rv-storage-locations/fl/sarasota/6808-33rd-street-east
+        title: Sarasota location page
+    last_verified: "2026-11-18"
+
+  - slug: manatee-river-marina
+    name: Manatee River Marina
+    street: 226 6th St NE
+    city: Bradenton
+    state_code: FL
+    postal_code: "34208"
+    lat: null
+    lng: null
+    phone: "(941) 745-1199"
+    website: https://www.manateerivermarina.com/storage
+    vehicles: [boat]
+    storage_types: [enclosed, open]
+    max_length_ft: 40
+    clearance_ft: 30
+    power_hookups: null
+    dump_station: null
+    wash_station: true
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Indoor and outdoor boat storage up to 40 feet long, 30 feet tall, and
+      16,800 pounds, with wash racks. Marina hours are Tuesday through Sunday
+      7:30 AM to 4:30 PM. RVs are not mentioned.
+    sources:
+      - url: https://www.manateerivermarina.com/storage
+        title: Storage page
+    last_verified: "2026-11-18"
+
+  - slug: marker-1-marine-srq
+    name: Marker 1 Marine SRQ
+    street: 1306 N Orange Ave
+    city: Sarasota
+    state_code: FL
+    postal_code: "34236"
+    lat: null
+    lng: null
+    phone: "(941) 337-6479"
+    website: https://www.marker1marinesrq.com/rv-storage
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: null
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered and uncovered RV storage, with a gate, 24/7 access, electrical
+      hookups, wash stations, and waste disposal. The page also says it stores
+      boats and offers climate-controlled spaces.
+    sources:
+      - url: https://www.marker1marinesrq.com/rv-storage
+        title: RV storage page
+    last_verified: "2026-11-18"
+
+  - slug: next-level-boat-and-rv-storage
+    name: "Next Level Boat & RV Storage"
+    street: 1717 10th Way
+    city: Sarasota
+    state_code: FL
+    postal_code: "34236"
+    lat: null
+    lng: null
+    phone: 941-807-4405
+    website: https://nextlevelboatandrvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 60
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: true
+    gated: true
+    cameras: null
+    access_24h: true
+    price_notes: >-
+      Outdoor monthly spots are $249 a month up to 30 feet, $349 up to 40
+      feet, and $399 up to 60 feet.
+    waitlist: null
+    notes: >-
+      Gated outdoor yard for boats and RVs, with 24/7 access and an on-site
+      power wash. A 5- to 20-year plan lists an HOA of $299 a month, separate
+      from the monthly spot prices.
+    sources:
+      - url: https://nextlevelboatandrvstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: outer-space-of-bradenton
+    name: Outer Space of Bradenton
+    street: 2709 9th St E
+    city: Bradenton
+    state_code: FL
+    postal_code: "34208"
+    lat: null
+    lng: null
+    phone: "(941) 320-9323"
+    website: https://www.outerspaceofbradenton.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      Published monthly rates are 25 by 10 at $149, 35 by 10 at $199, 40 by 10
+      at $219, drive-through 40 by 10 at $239, 50 by 10 at $259, and
+      drive-through 50 by 10 at $279. Annual prepay is listed at 5 percent off.
+    waitlist: null
+    notes: >-
+      RV and boat storage with 24-hour access, cameras, a gate, a dump
+      station, and a wash station. The pages do not say whether the spaces are
+      covered, enclosed, or open.
+    sources:
+      - url: https://www.outerspaceofbradenton.com/
+        title: Official website
+      - url: https://www.outerspaceofbradenton.com/pages/rent
+        title: Rent page
+    last_verified: "2026-11-18"
+
+  - slug: recnation-bradenton-81st
+    name: "RecNation RV & Boat Storage"
+    street: 3106 81st Ct E
+    city: Bradenton
+    state_code: FL
+    postal_code: "34211"
+    lat: null
+    lng: null
+    phone: 941-745-1177
+    website: https://www.recnationstorage.com/storage-facility/fl/bradenton/3106-81st-ct-e/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: >-
+      Truck parking on the facility page lists covered 12 by 30 at $411 per
+      month and covered 12 by 50 at $572 per month. Vehicle-storage web rates
+      include uncovered 10 by 30 at $127 and canopy 12 by 50 at $572. Those
+      vehicle-storage lines do not label the billing period.
+    waitlist: null
+    notes: >-
+      Covered and uncovered boat and RV storage, with cameras, a remote gate,
+      a dump station, a washdown area, and electricity in some units. Standard
+      hours are given as 6:00 a.m. to 10:00 p.m., with 24/7 access upon
+      request, so 24-hour access is not marked yes or no. The boat page says
+      indoor boat storage is not currently available. A 12 by 50 space is not
+      stated as a maximum vehicle length.
+    sources:
+      - url: https://www.recnationstorage.com/storage-facility/fl/bradenton/3106-81st-ct-e/
+        title: Official facility page
+      - url: https://www.recnationstorage.com/boat-storage/fl/bradenton/
+        title: Bradenton boat storage page
+    last_verified: "2026-11-18"
+
+  - slug: safari-rv-and-storage
+    name: Safari RV and Storage
+    street: 1613 Florida Blvd
+    city: Bradenton
+    state_code: FL
+    postal_code: "34207"
+    lat: null
+    lng: null
+    phone: "(941) 755-3895"
+    website: https://www.safarirvandstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 50
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: >-
+      Monthly rates by listed maximum length, updated November 1, 2025: 18
+      feet $105, 23 feet $125, 30 feet $150, 35 feet $165, 40 feet $180, 45
+      feet $200, and 50 feet $220 per month. Quarterly and annual amounts are
+      also published.
+    waitlist: null
+    notes: >-
+      Outdoor storage for RVs, campers, and boats, with a gate and 24/7 video
+      surveillance. The site says access is daytime and is limited at night.
+    sources:
+      - url: https://www.safarirvandstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: sandler-ranch-rv-and-boat-storage
+    name: "Sandler Ranch RV & Boat Storage"
+    street: 1037 Albee Farm Road
+    city: Venice
+    state_code: FL
+    postal_code: "34285"
+    lat: null
+    lng: null
+    phone: "(941) 488-3390"
+    website: https://rvboatstoragevenice.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Parking for RVs and boats inside the Venice city limits, including RVs
+      described as 40 feet plus. The site says security is monitored 24 hours
+      and does not say covered, open, enclosed, gated, or cameras. A cell
+      number, (207) 858-6311, and (941) 356-6294 are also listed.
+    sources:
+      - url: https://rvboatstoragevenice.com/
+        title: Official website
+      - url: https://rvboatstoragevenice.com/location
+        title: Location page
+      - url: https://rvboatstoragevenice.com/contact-us
+        title: Contact page
+    last_verified: "2026-11-18"
+
+  - slug: venice-outdoor-storage
+    name: Venice Outdoor Storage
+    street: 167 James Street
+    city: Venice
+    state_code: FL
+    postal_code: "34285"
+    lat: null
+    lng: null
+    phone: "(941) 888-0617"
+    website: https://veniceoutdoorstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Outdoor boat and RV storage. Published parking spots are 10 by 35 feet,
+      with an electronic gate and 24/7 video surveillance. The page says to
+      email for pricing and says it serves Venice, Englewood, Nokomis,
+      Sarasota, and North Port. Surveillance is not stated as 24-hour customer
+      access.
+    sources:
+      - url: https://veniceoutdoorstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"

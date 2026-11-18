@@ -1,0 +1,430 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: atlanta-ga
+city: Atlanta
+state: Georgia
+state_code: GA
+metro: Atlanta
+summary: These facilities publish an RV or boat storage page in the Atlanta area, including Marietta,
+  Kennesaw, Buford, Peachtree City, and McDonough. Each card uses only what that page states.
+sparefoot_slug: Atlanta-GA
+neighbor_path: georgia/atlanta
+sparefoot_note: This link opens Atlanta results. Several verified lots are in Marietta, Buford, McDonough,
+  or Peachtree City.
+photo: atlanta
+listings:
+- slug: buford-dam-rd-boat-rv-storage
+  name: Buford Dam Rd Boat & RV Storage
+  street: 2140 Buford Dam Rd
+  city: Buford
+  state_code: GA
+  postal_code: '30518'
+  lat: null
+  lng: null
+  phone: (770) 831-3309
+  website: https://buforddamroadboatstorage.com/
+  vehicles:
+  - rv
+  - boat
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: true
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: The homepage describes this lot as paved, with 30- and 50-amp service and 10 wash-down areas.
+  sources:
+  - url: https://buforddamroadboatstorage.com/
+    title: Buford Dam Rd Boat and RV Storage on Lake Lanier!
+  - url: https://buforddamroadboatstorage.com/contact-us/
+    title: Contact Us - Buford Boat and RV Storage on Lake Lanier!
+  last_verified: '2026-11-18'
+- slug: general-storage-mcdonough
+  name: General Storage
+  street: 1371 South Zack Hinton Parkway
+  city: McDonough
+  state_code: GA
+  postal_code: '30253'
+  lat: null
+  lng: null
+  phone: 770-824-9984
+  website: https://www.generalstorageonline.com/locations/mc-donough-ga-30253
+  vehicles:
+  - rv
+  storage_types:
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: The page says the McDonough RV parking is outdoor and is not for commercial parking; gate hours
+    are 6:00 AM–10:00 PM every day.
+  sources:
+  - url: https://www.generalstorageonline.com/locations/mc-donough-ga-30253
+    title: Self Storage Units in McDonough, GA | General Storage
+  last_verified: '2026-11-18'
+- slug: hidden-harbor-boat-rv-storage
+  name: Hidden Harbor Boat & RV Storage
+  street: 2463 Buford Dam Road
+  city: Buford
+  state_code: GA
+  postal_code: '30518'
+  lat: null
+  lng: null
+  phone: 770-689-9362
+  website: https://www.hiddenharborboatstorage.com/
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: true
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: Covered back-in 11×25 ft $150 per month, 11×29 ft $160 per month, and 11×32 ft $170 per
+    month, with 110V power. Covered 12×50 ft pull-through with 30-amp access is $260 per month. Uncovered
+    back-in is $90–$125+ per month.
+  waitlist: null
+  notes: The site says the lot can store over 400 boats, campers, RVs, and PWCs.
+  sources:
+  - url: https://www.hiddenharborboatstorage.com/
+    title: Hidden Harbor Boat & RV Storage in Buford , GA
+  - url: https://www.hiddenharborboatstorage.com/pricing
+    title: Pricing | Hidden Harbor Storage
+  last_verified: '2026-11-18'
+- slug: holiday-boat-rv-storage
+  name: Holiday Boat & RV Storage
+  street: 6005 Lanier Islands Pkwy
+  city: Buford
+  state_code: GA
+  postal_code: '30518'
+  lat: null
+  lng: null
+  phone: (770) 831-3309
+  website: https://holidayroadboatstorage.com/
+  vehicles:
+  - rv
+  - boat
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: true
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: The same site header also prints 6005 Holiday Rd, Buford, GA 30518, while the location block
+    and contact address use 6005 Lanier Islands Pkwy.
+  sources:
+  - url: https://holidayroadboatstorage.com/
+    title: Holiday Boat & RV Storage on Lake Lanier!
+  - url: https://holidayroadboatstorage.com/contact-us/
+    title: Contact Us - Holiday Boat & RV Storage on Lake Lanier!
+  last_verified: '2026-11-18'
+- slug: little-harbor-boat-rv-storage
+  name: Little Harbor Boat & RV Storage
+  street: 2424 Buford Dam Road
+  city: Buford
+  state_code: GA
+  postal_code: '30518'
+  lat: null
+  lng: null
+  phone: (770) 530-7254
+  website: https://www.littleharborboatstorage.com/
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - open
+  max_length_ft: 30
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: Covered spaces $120 per month; uncovered spaces $75 per month.
+  waitlist: null
+  notes: Covered spaces are advertised for boats and RVs up to 28 feet, and uncovered spaces up to 30
+    feet.
+  sources:
+  - url: https://www.littleharborboatstorage.com/
+    title: Little Harbor Boat & RV Storage in Buford , GA
+  last_verified: '2026-11-18'
+- slug: marietta-outdoor-storage
+  name: Marietta Outdoor Storage
+  street: 4450 Winfred Dr
+  city: Marietta
+  state_code: GA
+  postal_code: '30066'
+  lat: null
+  lng: null
+  phone: (770) 315-6419
+  website: https://mariettaoutdoorstorage.com/
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - open
+  max_length_ft: 50
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: false
+  price_notes: Month-to-month outdoor spaces are $99 for 10 by 10, $109 for 10 by 20, $139 for 10 by 30,
+    $159 for 10 by 40, and $199 for 10 by 50.
+  waitlist: null
+  notes: Outdoor only, with a gated fenced lot and security cameras. Gate hours are Monday through Friday
+    8:00 am to 5:00 pm, and Saturday and Sunday by appointment. The RV page also prints (770) 404-9330.
+    Boats must be on trailers. The site says there are no indoor units.
+  sources:
+  - url: https://mariettaoutdoorstorage.com/
+    title: Official website
+  - url: https://mariettaoutdoorstorage.com/rv-and-boat-storage-in-marietta/
+    title: RV and boat storage page
+  last_verified: '2026-11-18'
+- slug: north-harbor-boat-rv-storage
+  name: North Harbor Boat & RV Storage
+  street: 6699 Mcever Road
+  city: Buford
+  state_code: GA
+  postal_code: '30518'
+  lat: null
+  lng: null
+  phone: (678) 786-7243
+  website: https://www.northharborstorage.net/
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: true
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: The site says the paved lot can store over 660 boats, campers, RVs, and PWCs, with electrical
+    access in select covered units.
+  sources:
+  - url: https://www.northharborstorage.net/
+    title: North Harbor Boat & RV Storage in Buford , GA
+  last_verified: '2026-11-18'
+- slug: parcrv-storage-service
+  name: ParcRV Storage & Service
+  street: 5780 Holiday Road
+  city: Buford
+  state_code: GA
+  postal_code: '30518'
+  lat: null
+  lng: null
+  phone: 770-271-2799
+  website: https://parcrv.com/
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: true
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: The page says the lot is less than a mile from Lake Lanier Islands and 3.3 miles from I-985 Exit
+    8.
+  sources:
+  - url: https://parcrv.com/
+    title: ParcRV – We Do More Than Store
+  - url: https://parcrv.com/contact-us/
+    title: Contact – ParcRV – We Do More Than Store
+  last_verified: '2026-11-18'
+- slug: routine-holdings-rv-storage
+  name: Routine Holdings RV Storage
+  street: 209 Huddleston Rd
+  city: Peachtree City
+  state_code: GA
+  postal_code: '30269'
+  lat: null
+  lng: null
+  phone: 770-856-3443
+  website: https://www.ptcrvstorage.com/
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: true
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: The page also lists 770-315-8803 and a second lot at 688 Hwy 85 South, Senoia, GA 30276.
+  sources:
+  - url: https://www.ptcrvstorage.com/
+    title: Routine Holdings RV Storage | RV Storage in Peachtree City
+  last_verified: '2026-11-18'
+- slug: southern-rv-vip-storage-mcdonough
+  name: Southern RV VIP Storage
+  street: 324 Industrial Blvd
+  city: McDonough
+  state_code: GA
+  postal_code: '30253'
+  lat: null
+  lng: null
+  phone: 770-477-0552
+  website: https://www.southernrv.com/southern-rv-storage-mcdonough
+  vehicles:
+  - rv
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: true
+  dump_station: true
+  wash_station: true
+  gated: null
+  cameras: true
+  access_24h: null
+  price_notes: Starting at $109 per month; monthly rates vary by RV length. Optional 120V, 15-amp power
+    is $35 per month, subject to availability.
+  waitlist: null
+  notes: Storage is through the McDonough dealership with valet drop-off and pickup; a separate Cumming
+    address is also listed.
+  sources:
+  - url: https://www.southernrv.com/southern-rv-storage-mcdonough
+    title: Southern RV VIP Storage
+  last_verified: '2026-11-18'
+- slug: space-shop-self-storage-delk
+  name: Space Shop Self Storage
+  street: 3000 Delk Rd SE
+  city: Marietta
+  state_code: GA
+  postal_code: '30067'
+  lat: null
+  lng: null
+  phone: (678) 447-0748
+  website: https://www.spaceshopselfstorage.com/locations/georgia/marietta/3000-delk-rd-se/
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: The Marietta page offers outdoor parking for boats and large RV storage.
+  sources:
+  - url: https://www.spaceshopselfstorage.com/locations/georgia/marietta/3000-delk-rd-se/
+    title: Climate Controlled Storage in Marietta, GA | Space Shop
+  last_verified: '2026-11-18'
+- slug: the-rv-loft
+  name: The RV Loft
+  street: 980 Marietta Industrial Drive
+  city: Marietta
+  state_code: GA
+  postal_code: '30062'
+  lat: null
+  lng: null
+  phone: 770-282-4960
+  website: https://rvloft.com/
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - enclosed
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: null
+  price_notes: $14 per linear foot per month; electric hookup available for an additional $35 per month.
+  waitlist: null
+  notes: The site describes valet-style storage in which the facility parks the vehicle and has it ready
+    on request.
+  sources:
+  - url: https://rvloft.com/
+    title: The RV Loft
+  last_verified: '2026-11-18'
+- slug: u-haul-vehicle-storage-kennesaw
+  name: U-Haul Vehicle Storage of Kennesaw
+  street: 2085 Cobb Parkway
+  city: Kennesaw
+  state_code: GA
+  postal_code: '30152'
+  lat: null
+  lng: null
+  phone: (770) 792-8555
+  website: https://property.uhaul.com/Entity/777033/StorageFacilityMap
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: false
+  price_notes: Open 12×30 listed at $164.95 per month; covered 12×40 listed at $239.95 per month. Sizes
+    are approximated. Electricity is listed as 20 amps for 2 hours.
+  waitlist: null
+  notes: The U-Haul listing for this address shows storage access Monday–Sunday 5 am–10 pm.
+  sources:
+  - url: https://property.uhaul.com/Entity/777033/StorageFacilityMap
+    title: U-Haul Vehicle Storage of Kennesaw
+  - url: https://www.uhaul.com/Locations/Self-Storage-near-Kennesaw-GA-30152/777033/
+    title: Self Storage Units Near Kennesaw, GA 30152 | U-Haul
+  last_verified: '2026-11-18'

@@ -1,0 +1,43 @@
+---
+import { href } from '../lib/data';
+import type { Photo } from '../lib/photos';
+
+interface Props {
+  photo: Photo;
+  alt?: string;
+  sizes: string;
+  eager?: boolean;
+  caption?: string;
+}
+
+const { photo, alt = photo.alt, sizes, eager = false, caption } = Astro.props;
+const src = (width: '640' | '960' | '1280') => href(`/${photo.files[width]}`);
+---
+
+<figure class="photo">
+  <img
+    src={src('960')}
+    srcset={`${src('640')} 640w, ${src('960')} 960w, ${src('1280')} 1280w`}
+    sizes={sizes}
+    width={photo.width}
+    height={photo.height}
+    alt={alt}
+    loading={eager ? 'eager' : 'lazy'}
+    decoding="async"
+    fetchpriority={eager ? 'high' : undefined}
+  />
+  {
+    (caption || photo.credit_required) && (
+      <figcaption>
+        {caption}
+        {caption && photo.credit_required ? ' ' : ''}
+        {photo.credit_required && (
+          <>
+            Photo: <a href={photo.source_url}>{photo.author}</a>,{' '}
+            <a href={photo.license_url}>{photo.license}</a>
+          </>
+        )}
+      </figcaption>
+    )
+  }
+</figure>

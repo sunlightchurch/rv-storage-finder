@@ -1,0 +1,394 @@
+# Licensed photos used on the site. Full credits: the Photo credits page.
+# Add a row here before a city file can reference the id. See PUBLISHING.md.
+- id: tampa
+  role: city
+  alt: "Downtown Tampa, Florida"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/tampa-640.webp
+    "960": photos/tampa-960.webp
+    "1280": photos/tampa-1280.webp
+  author: "Clément Bardot"
+  source_url: "https://commons.wikimedia.org/wiki/File:Downtown_Tampa,_Florida.jpg"
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  credit_required: true
+- id: orlando
+  role: city
+  alt: "Lake Eola in downtown Orlando, Florida"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/orlando-640.webp
+    "960": photos/orlando-960.webp
+    "1280": photos/orlando-1280.webp
+  author: "OrlandoThings.com"
+  source_url: "https://commons.wikimedia.org/wiki/File:Lake-eola-park-orlando-florida.jpg"
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  credit_required: true
+- id: phoenix
+  role: city
+  alt: "Downtown Phoenix, Arizona skyline"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/phoenix-640.webp
+    "960": photos/phoenix-960.webp
+    "1280": photos/phoenix-1280.webp
+  author: "Alan Stark from Goodyear, AZ, United States"
+  source_url: "https://commons.wikimedia.org/wiki/File:Downtown_Phoenix_Skyline_(6974043971).jpg"
+  license: "CC BY-SA 2.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  credit_required: true
+- id: houston
+  role: city
+  alt: "Downtown Houston, Texas skyline"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/houston-640.webp
+    "960": photos/houston-960.webp
+    "1280": photos/houston-1280.webp
+  author: "Jason Villanueva"
+  source_url: "https://commons.wikimedia.org/wiki/File:Buildings-city-houston-skyline-1870617.jpg"
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  credit_required: true
+- id: dallas
+  role: city
+  alt: "Dallas, Texas skyline in the evening"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/dallas-640.webp
+    "960": photos/dallas-960.webp
+    "1280": photos/dallas-1280.webp
+  author: "Matthew T Rader"
+  source_url: "https://commons.wikimedia.org/wiki/File:Dallas_Skyline_in_the_evening.jpg"
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  credit_required: true
+- id: jacksonville
+  role: city
+  alt: "Downtown Jacksonville, Florida and the St. Johns River"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/jacksonville-640.webp
+    "960": photos/jacksonville-960.webp
+    "1280": photos/jacksonville-1280.webp
+  author: "Quintin Soloviev"
+  source_url: "https://commons.wikimedia.org/wiki/File:Jacksonville_skyline.jpg"
+  license: "CC BY 4.0"
+  license_url: "https://creativecommons.org/licenses/by/4.0"
+  credit_required: true
+- id: fort-myers
+  role: city
+  alt: "The pier at Fort Myers Beach, Florida"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/fort-myers-640.webp
+    "960": photos/fort-myers-960.webp
+    "1280": photos/fort-myers-1280.webp
+  author: "Timothyvail"
+  source_url: "https://commons.wikimedia.org/wiki/File:Fort_myers_beach.jpg"
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  credit_required: true
+- id: sarasota
+  role: city
+  alt: "Bayfront Park marina in Sarasota, Florida"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/sarasota-640.webp
+    "960": photos/sarasota-960.webp
+    "1280": photos/sarasota-1280.webp
+  author: "Wendyrichmondrn"
+  source_url: "https://commons.wikimedia.org/wiki/File:Bayfront_Park_Marina,_Sarasota,_FL.jpg"
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  credit_required: true
+- id: tucson
+  role: city
+  alt: "Skyline of Tucson, Arizona"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/tucson-640.webp
+    "960": photos/tucson-960.webp
+    "1280": photos/tucson-1280.webp
+  author: "Sahmeditor"
+  source_url: "https://commons.wikimedia.org/wiki/File:Tucson_skyline.JPG"
+  license: "CC BY-SA 3.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  credit_required: true
+- id: mesa
+  role: city
+  alt: "The Mesa Arizona Temple in Mesa, Arizona"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/mesa-640.webp
+    "960": photos/mesa-960.webp
+    "1280": photos/mesa-1280.webp
+  author: "midiman from Tempe, USA"
+  source_url: "https://commons.wikimedia.org/wiki/File:Mesa_Temple.jpg"
+  license: "CC BY 2.0"
+  license_url: "https://creativecommons.org/licenses/by/2.0"
+  credit_required: true
+- id: san-antonio
+  role: city
+  alt: "San Antonio, Texas skyline from the north"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/san-antonio-640.webp
+    "960": photos/san-antonio-960.webp
+    "1280": photos/san-antonio-1280.webp
+  author: "Doc Searls from Santa Barbara, USA"
+  source_url: "https://commons.wikimedia.org/wiki/File:San_Antonio,_Texas_skyline_from_north.jpg"
+  license: "CC BY-SA 2.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  credit_required: true
+- id: austin
+  role: city
+  alt: "Downtown Austin, Texas skyline"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/austin-640.webp
+    "960": photos/austin-960.webp
+    "1280": photos/austin-1280.webp
+  author: "Sk5893"
+  source_url: "https://commons.wikimedia.org/wiki/File:Austin,_Texas_Skyline_2018.jpg"
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  credit_required: true
+- id: atlanta
+  role: city
+  alt: "Atlanta, Georgia skyline at dawn"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/atlanta-640.webp
+    "960": photos/atlanta-960.webp
+    "1280": photos/atlanta-1280.webp
+  author: "Shawn M. Kent"
+  source_url: "https://commons.wikimedia.org/wiki/File:Atlanta,_Georgia_Skyline.jpg"
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  credit_required: true
+- id: las-vegas
+  role: city
+  alt: "Hotels along the Las Vegas Strip in Nevada"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/las-vegas-640.webp
+    "960": photos/las-vegas-960.webp
+    "1280": photos/las-vegas-1280.webp
+  author: "Dietmar Rabich"
+  source_url: "https://commons.wikimedia.org/wiki/File:Las_Vegas_(Nevada,_USA),_The_Strip_--_2012_--_6215.jpg"
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  credit_required: true
+- id: charlotte
+  role: city
+  alt: "Charlotte, North Carolina skyline at night"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/charlotte-640.webp
+    "960": photos/charlotte-960.webp
+    "1280": photos/charlotte-1280.webp
+  author: "Digidreamgrafix"
+  source_url: "https://commons.wikimedia.org/wiki/File:2010_skyline_at_night_of_charlotte_north_carolina.jpg"
+  license: "CC BY-SA 3.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  credit_required: true
+- id: florida
+  role: state
+  alt: "Aerial view of Caspersen Beach on the Florida coast"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/florida-640.webp
+    "960": photos/florida-960.webp
+    "1280": photos/florida-1280.webp
+  author: "Grendelkhan"
+  source_url: "https://commons.wikimedia.org/wiki/File:Caspersen_Beach_top_down_aerial_view.jpg"
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  credit_required: true
+- id: arizona
+  role: state
+  alt: "Saguaro cacti in Saguaro National Park, Arizona"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/arizona-640.webp
+    "960": photos/arizona-960.webp
+    "1280": photos/arizona-1280.webp
+  author: "dconvertini"
+  source_url: "https://commons.wikimedia.org/wiki/File:Saguaro_National_Park_East,_Arizona,_USA_2024_14.jpg"
+  license: "CC BY-SA 2.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  credit_required: true
+- id: texas
+  role: state
+  alt: "Farmland along a highway in Guadalupe County, Texas"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/texas-640.webp
+    "960": photos/texas-960.webp
+    "1280": photos/texas-1280.webp
+  author: "Wilafa"
+  source_url: "https://commons.wikimedia.org/wiki/File:Farmland_in_the_blackland_prairie_region_seen_from_Highway_123,Guadalupe_County,_Texas,_USA_(9_July_2020).jpg"
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  credit_required: true
+- id: georgia
+  role: state
+  alt: "Georgia State Capitol in Atlanta"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/georgia-640.webp
+    "960": photos/georgia-960.webp
+    "1280": photos/georgia-1280.webp
+  author: "Ken Lund"
+  source_url: "https://commons.wikimedia.org/wiki/File:Georgia_State_Capitol,_Atlanta,_Georgia.jpg"
+  license: "CC BY-SA 2.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  credit_required: true
+- id: nevada
+  role: state
+  alt: "A road through Valley of Fire State Park, Nevada"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/nevada-640.webp
+    "960": photos/nevada-960.webp
+    "1280": photos/nevada-1280.webp
+  author: "Gzzz"
+  source_url: "https://commons.wikimedia.org/wiki/File:Road_in_Valley_of_Fire.jpg"
+  license: "CC BY 4.0"
+  license_url: "https://creativecommons.org/licenses/by/4.0"
+  credit_required: true
+- id: north-carolina
+  role: state
+  alt: "The Blue Ridge Parkway in North Carolina"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/north-carolina-640.webp
+    "960": photos/north-carolina-960.webp
+    "1280": photos/north-carolina-1280.webp
+  author: "Doug Kerr from Albany, NY, United States"
+  source_url: "https://commons.wikimedia.org/wiki/File:Blue_Ridge_Parkway_-_North_Carolina_(14584525620).jpg"
+  license: "CC BY-SA 2.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  credit_required: true
+- id: guide
+  role: guide
+  alt: "Recreational vehicles at a campground in a Texas state park"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/guide-640.webp
+    "960": photos/guide-960.webp
+    "1280": photos/guide-1280.webp
+  author: "Larry D. Moore"
+  source_url: "https://commons.wikimedia.org/wiki/File:Campground_Lake_Arrowhead_State_Park_Texas_2024.jpg"
+  license: "CC BY 4.0"
+  license_url: "https://creativecommons.org/licenses/by/4.0"
+  credit_required: true
+- id: generic-motorhome
+  role: generic
+  alt: "A Class C motorhome parked outdoors"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/generic-motorhome-640.webp
+    "960": photos/generic-motorhome-960.webp
+    "1280": photos/generic-motorhome-1280.webp
+  author: "Oleg Yunakov"
+  source_url: "https://commons.wikimedia.org/wiki/File:1994_Four_Winds_Class_C_motorhome_on_a_Chevrolet_G30_Van_chassis.jpg"
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  credit_required: true
+- id: generic-fifth
+  role: generic
+  alt: "A fifth-wheel travel trailer"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/generic-fifth-640.webp
+    "960": photos/generic-fifth-960.webp
+    "1280": photos/generic-fifth-1280.webp
+  author: "Anshamblen15"
+  source_url: "https://commons.wikimedia.org/wiki/File:Starcraft_RV_-_GSL_Fifth_Wheel.jpg"
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  credit_required: true
+- id: generic-resort
+  role: generic
+  alt: "Recreational vehicles parked in rows beside a harbor"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/generic-resort-640.webp
+    "960": photos/generic-resort-960.webp
+    "1280": photos/generic-resort-1280.webp
+  author: "Jlmorrow"
+  source_url: "https://commons.wikimedia.org/wiki/File:Area_infront_of_RV_Resort.jpg"
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  credit_required: true
+- id: hero
+  role: hero
+  alt: "Older travel trailers parked under a metal canopy"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/hero-640.webp
+    "960": photos/hero-960.webp
+    "1280": photos/hero-1280.webp
+  author: "Shixart1985"
+  source_url: "https://commons.wikimedia.org/wiki/File:Old_travel_trailers_parked_beside_a_blue_warehouse_in_rural_countryside.jpg"
+  license: "CC BY 2.0"
+  license_url: "https://creativecommons.org/licenses/by/2.0"
+  credit_required: true
+- id: generic-boat
+  role: generic
+  alt: "A motorboat on a trailer being hauled up a boat ramp"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/generic-boat-640.webp
+    "960": photos/generic-boat-960.webp
+    "1280": photos/generic-boat-1280.webp
+  author: "W.carter"
+  source_url: "https://commons.wikimedia.org/wiki/File:Getting_the_boat_out_of_the_water_5_-_Hauling_the_trailer_with_the_boat_up_from_the_boat_ramp_2.jpg"
+  license: "CC0"
+  license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  credit_required: false
+- id: generic-trailers
+  role: generic
+  alt: "Older travel trailers parked under a canopy next to a warehouse"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/generic-trailers-640.webp
+    "960": photos/generic-trailers-960.webp
+    "1280": photos/generic-trailers-1280.webp
+  author: "Shixart1985"
+  source_url: "https://commons.wikimedia.org/wiki/File:Old_travel_trailers_parked_beside_a_blue_warehouse_in_rural_countryside.jpg"
+  license: "CC BY 2.0"
+  license_url: "https://creativecommons.org/licenses/by/2.0"
+  credit_required: true

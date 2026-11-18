@@ -10,8 +10,8 @@ name: RV Storage Finder
 tagline: Sourced RV and boat storage by city.
 url: https://sunlightchurch.github.io/rv-storage-finder
 description: >-
-  A sourced directory of RV and boat storage in Tampa, Orlando, Phoenix,
-  Houston, and Dallas-Fort Worth.
+  A sourced directory of RV and boat storage by city. Cover type, power, and
+  prices appear only when a facility publishes them.
 repo: https://github.com/sunlightchurch/rv-storage-finder
 affiliates:
   neighbor:

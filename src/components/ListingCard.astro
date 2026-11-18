@@ -1,5 +1,7 @@
 ---
+import { listingPhoto } from '../lib/photos';
 import type { Listing } from '../lib/data';
+import Photo from './Photo.astro';
 import {
   factClass,
   formatBool,
@@ -16,6 +18,10 @@ interface Props {
 }
 
 const { listing } = Astro.props;
+const photo = listingPhoto(listing);
+const photoAlt = listing.photo
+  ? photo.alt
+  : `${photo.alt}. This is a typical photo, not ${listing.name}.`;
 const facts = [
   { label: 'Vehicles', value: formatVehicles(listing.vehicles), kind: 'text' },
   {
@@ -40,80 +46,105 @@ const facts = [
   { label: 'Cameras', value: formatBool(listing.cameras), kind: factClass(listing.cameras) },
   { label: '24-hour access', value: formatBool(listing.access_24h), kind: factClass(listing.access_24h) },
 ];
+const icons = [
+  listing.vehicles.includes('rv') ? 'RV' : null,
+  listing.vehicles.includes('boat') ? 'Boat' : null,
+  listing.storage_types.includes('covered') ? 'Covered' : null,
+  listing.storage_types.includes('enclosed') ? 'Enclosed' : null,
+  listing.storage_types.includes('open') ? 'Open' : null,
+  listing.power_hookups === true ? 'Power' : null,
+  listing.gated === true ? 'Gated' : null,
+].filter((item): item is string => Boolean(item));
 ---
 
-<article class="listing" id={listing.slug}>
-  <header class="listing-head">
-    <h3>{listing.name}</h3>
-    <address>
-      {listing.street}<br />
-      {listing.city}, {listing.state_code}{listing.postal_code ? ` ${listing.postal_code}` : ''}
-    </address>
-  </header>
-  <ul class="contacts">
-    <li>
+<article
+  class="listing"
+  id={listing.slug}
+  data-listing
+  data-covered={String(listing.storage_types.includes('covered'))}
+  data-enclosed={String(listing.storage_types.includes('enclosed'))}
+  data-power={String(listing.power_hookups === true)}
+  data-boat={String(listing.vehicles.includes('boat'))}
+  data-rv={String(listing.vehicles.includes('rv'))}
+  data-priced={String(Boolean(listing.price_notes))}
+>
+  <Photo
+    photo={photo}
+    alt={photoAlt}
+    sizes="(min-width: 800px) 340px, 100vw"
+    caption={listing.photo ? undefined : 'Typical photo, not this facility.'}
+  />
+  <div class="listing-body">
+    <header class="listing-head">
+      <h3>{listing.name}</h3>
+      <address>
+        {listing.street}<br />
+        {listing.city}, {listing.state_code}{listing.postal_code ? ` ${listing.postal_code}` : ''}
+      </address>
+    </header>
+    <ul class="icon-row" aria-label="Published features">
+      {icons.length ? icons.map((icon) => <li>{icon}</li>) : <li class="unknown">Features not listed</li>}
+    </ul>
+    <p class="price">
+      <span class="label">Published price</span><br />
+      <span class={listing.price_notes ? undefined : 'unknown'}>{listing.price_notes ?? 'Not listed'}</span>
+    </p>
+    <div class="actions">
       {
         listing.phone ? (
-          <a href={telHref(listing.phone)}>Call {listing.phone}</a>
-        ) : (
-          <span>
-            Phone <span class="unknown">Not listed</span>
-          </span>
-        )
-      }
-    </li>
-    <li>
-      {
-        listing.website ? (
-          <a href={listing.website} rel="noopener noreferrer" target="_blank">
+          <a class="action-primary" href={telHref(listing.phone)}>Call {listing.phone}</a>
+        ) : listing.website ? (
+          <a class="action-primary" href={listing.website} rel="noopener noreferrer" target="_blank">
             Website<span class="sr-only"> for {listing.name} (opens in a new tab)</span>
           </a>
         ) : (
-          <span>
-            Website <span class="unknown">Not listed</span>
-          </span>
+          <a class="action-primary" href={mapUrl(listing)} rel="noopener noreferrer" target="_blank">
+            Map<span class="sr-only"> for {listing.name} (opens in a new tab)</span>
+          </a>
         )
       }
-    </li>
-    <li>
+      {listing.phone && listing.website && (
+        <a href={listing.website} rel="noopener noreferrer" target="_blank">
+          Website<span class="sr-only"> for {listing.name} (opens in a new tab)</span>
+        </a>
+      )}
       <a href={mapUrl(listing)} rel="noopener noreferrer" target="_blank">
         Map<span class="sr-only"> for {listing.name} (opens in a new tab)</span>
       </a>
-    </li>
-  </ul>
-  <dl class="facts">
-    {
-      facts.map((fact) => (
-        <div>
-          <dt>{fact.label}</dt>
-          <dd class={fact.kind}>{fact.value}</dd>
-        </div>
-      ))
-    }
-  </dl>
-  <p class="price">
-    <span class="label">Published price</span><br />
-    <span class={listing.price_notes ? undefined : 'unknown'}>{listing.price_notes ?? 'Not listed'}</span>
-  </p>
-  <p class="wait">
-    <span class="label">Waitlist</span><br />
-    <span class={listing.waitlist ? undefined : 'unknown'}>{listing.waitlist ?? 'Not listed'}</span>
-  </p>
-  {listing.notes && <p class="note">{listing.notes}</p>}
-  <p class="checked">
-    Checked <time datetime={listing.last_verified}>{formatDate(listing.last_verified)}</time>
-  </p>
-  <p class="source-label">Sources</p>
-  <ul class="sources">
-    {
-      listing.sources.map((source) => (
-        <li>
-          <a href={source.url} rel="noopener noreferrer" target="_blank">
-            {source.title}
-            <span class="sr-only"> (opens in a new tab)</span>
-          </a>
-        </li>
-      ))
-    }
-  </ul>
+    </div>
+    <details class="details">
+      <summary>View details</summary>
+      <dl class="facts">
+        {
+          facts.map((fact) => (
+            <div>
+              <dt>{fact.label}</dt>
+              <dd class={fact.kind}>{fact.value}</dd>
+            </div>
+          ))
+        }
+      </dl>
+      <p class="wait">
+        <span class="label">Waitlist</span><br />
+        <span class={listing.waitlist ? undefined : 'unknown'}>{listing.waitlist ?? 'Not listed'}</span>
+      </p>
+      {listing.notes && <p class="note">{listing.notes}</p>}
+      <p class="checked">
+        Checked <time datetime={listing.last_verified}>{formatDate(listing.last_verified)}</time>
+      </p>
+      <p class="source-label">Sources</p>
+      <ul class="sources">
+        {
+          listing.sources.map((source) => (
+            <li>
+              <a href={source.url} rel="noopener noreferrer" target="_blank">
+                {source.title}
+                <span class="sr-only"> (opens in a new tab)</span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </details>
+  </div>
 </article>

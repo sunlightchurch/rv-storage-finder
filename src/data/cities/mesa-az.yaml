@@ -1,0 +1,487 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+# Does not repeat Mesa yards already listed on the Phoenix page.
+id: mesa-az
+city: Mesa
+state: Arizona
+state_code: AZ
+metro: Mesa
+summary: >-
+  These facilities publish an RV or boat storage page in Mesa, Gilbert, Apache
+  Junction, or Queen Creek and are not the same yards already listed under
+  Phoenix. Each card uses only what that page states.
+sparefoot_slug: Mesa-AZ
+neighbor_path: arizona/mesa
+sparefoot_note: null
+photo: mesa
+listings:
+  - slug: always-rv-mesa
+    name: Always RV
+    street: 9245 East Main Street
+    city: Mesa
+    state_code: AZ
+    postal_code: "85207"
+    lat: null
+    lng: null
+    phone: 480-626-2231
+    website: https://www.alwaysrv.com/storage-solutions
+    vehicles: [rv]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered and uncovered RV storage on the dealership property. Printed
+      hours are Monday 8:00 a.m. to 5:00 p.m., Tuesday through Friday 9:00 a.m.
+      to 5:00 p.m., and Saturday 9:00 a.m. to 2:00 p.m. Boats are not mentioned.
+    sources:
+      - url: https://www.alwaysrv.com/storage-solutions
+        title: Storage solutions page
+    last_verified: "2026-11-18"
+
+  - slug: arizona-covered-rv-boat-storage
+    name: "Arizona Covered RV & Boat Storage"
+    street: 5007 South Delaware Drive
+    city: Apache Junction
+    state_code: AZ
+    postal_code: "85120"
+    lat: null
+    lng: null
+    phone: "(480) 753-5900"
+    website: https://www.azcoveredrvboatstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered and uncovered storage for RVs and boats, with charging outlets
+      and video surveillance. Gate hours are 6:00 a.m. to 10:00 p.m. every day.
+    sources:
+      - url: https://www.azcoveredrvboatstorage.com/
+        title: Official website
+      - url: https://www.azcoveredrvboatstorage.com/contact
+        title: Contact page
+      - url: https://www.azcoveredrvboatstorage.com/locations/apache-junction-az-85120/view-unit/11/40
+        title: Unit page with the street address
+    last_verified: "2026-11-18"
+
+  - slug: big-boys-toys-indoor-storage
+    name: "Big Boy's Toys Indoor Storage"
+    street: 2895 S Winchester Rd
+    city: Apache Junction
+    state_code: AZ
+    postal_code: "85219"
+    lat: null
+    lng: null
+    phone: "(602) 935-4270"
+    website: https://www.bigboystoys-storage.com/
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Individual indoor garages for RVs, boats, trailers, and cars, with a
+      dump station, an air compressor, and 24-hour gated access. The ZIP
+      85219 is copied from the operator page.
+    sources:
+      - url: https://www.bigboystoys-storage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: carefree-covered-rv-storage-apache-junction
+    name: Carefree Covered RV Storage
+    street: 535 E 37th Ave
+    city: Apache Junction
+    state_code: AZ
+    postal_code: "85119"
+    lat: null
+    lng: null
+    phone: "(480) 983-7600"
+    website: https://www.carefreecoveredrvstorage.com/535-e-37th-ave-apache-junction-az-85119
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered and uncovered RV and boat spaces with trickle-charge power. Gate
+      access is 5:00 a.m. to 10:00 p.m. daily. The page lists 42 surveillance
+      cameras, a dump station, fresh water, air, and vacuum. This is not the
+      Chandler Carefree yard.
+    sources:
+      - url: https://www.carefreecoveredrvstorage.com/535-e-37th-ave-apache-junction-az-85119
+        title: Apache Junction location page
+    last_verified: "2026-11-18"
+
+  - slug: double-h-auto-rv-boat-storage
+    name: Double H Auto RV Boat Storage
+    street: 25813 South Power Road
+    city: Queen Creek
+    state_code: AZ
+    postal_code: "85142"
+    lat: null
+    lng: null
+    phone: "(480) 800-2550"
+    website: https://www.doublehautorvandboatstorage.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Three-acre lot for RVs, boats, and autos with keypad gate hours of
+      6:00 a.m. to 8:00 p.m. daily. The page does not say whether the spaces
+      are covered, enclosed, or open.
+    sources:
+      - url: https://www.doublehautorvandboatstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: gilbert-rv-storage-corral
+    name: Gilbert RV Storage Corral
+    street: 1215 W Houston Ave Ste B
+    city: Gilbert
+    state_code: AZ
+    postal_code: "85233"
+    lat: 33.371328
+    lng: -111.816316
+    phone: 480-892-5723
+    website: https://www.gilbertrvstoragecorral.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: null
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered spaces for units up to 40 feet and uncovered parking, with an
+      on-site dump station that is free for tenants. Gate hours are 5:00 a.m.
+      to 10:00 p.m. every day. Coordinates are on the facility page.
+    sources:
+      - url: https://www.gilbertrvstoragecorral.com/
+        title: Official website
+      - url: https://www.gilbertrvstoragecorral.com/1215-w-houston-ave-ste-b-gilbert-az-85233
+        title: Location page
+    last_verified: "2026-11-18"
+
+  - slug: island-storage-gilbert
+    name: Island Storage
+    street: 1530 W Houston Ave
+    city: Gilbert
+    state_code: AZ
+    postal_code: "85233"
+    lat: null
+    lng: null
+    phone: "(480) 695-0278"
+    website: https://www.islandstorageaz.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      Published monthly prices include 11 by 20 open at $85, 11 by 25 open at
+      $90, a 20-foot pull-through at $105, a 35-foot pull-through at $115, and
+      a 40-foot pull-through at $125. Several listed sizes, including the
+      28-foot covered space, have no price on the page.
+    waitlist: null
+    notes: >-
+      Open stalls and a 28-foot covered space for boats and RVs, with digital
+      video surveillance and 24-hour access.
+    sources:
+      - url: https://www.islandstorageaz.com/
+        title: Official website
+      - url: https://www.islandstorageaz.com/pages/rent
+        title: Rent page
+    last_verified: "2026-11-18"
+
+  - slug: mesa-rv-boat-self-storage-power-road
+    name: "Mesa RV, Boat & Self Storage on Power Road"
+    street: 550 N Power Rd
+    city: Mesa
+    state_code: AZ
+    postal_code: "85205"
+    lat: null
+    lng: null
+    phone: "(480) 854-1404"
+    website: https://www.mesarv-boatandselfstorageonpowerroad.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      Uncovered parking starting at $85 and covered parking starting at $145.
+      The page does not state the billing period.
+    waitlist: null
+    notes: >-
+      Uncovered and covered parking for RVs and boats, with 24-hour access
+      stated for that parking and digital video surveillance. Self-storage
+      unit access is listed separately as 5:00 a.m. to 9:00 p.m.
+    sources:
+      - url: https://www.mesarv-boatandselfstorageonpowerroad.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: out-of-sight-storage
+    name: Out of Sight Storage
+    street: 17639 South 144th Street
+    city: Gilbert
+    state_code: AZ
+    postal_code: "85297"
+    lat: null
+    lng: null
+    phone: "(480) 372-0074"
+    website: https://www.outofsightrvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 63
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: false
+    price_notes: >-
+      Monthly prices include 25 by 13 at $125, 33 by 13 at $135, 38 by 13
+      center-long spaces at $150, and 42 by 13 west wall at $160. Electric
+      hookups and septic or dump access are each an additional $10 per month
+      where offered. A $25 refundable deposit is listed.
+    waitlist: The 42 by 13 west-wall space is marked waiting list.
+    notes: >-
+      Outdoor spaces for boats, motorhomes, and fifth wheels, from 25 by 13 up
+      to a 63 by 13 pull-through when two spaces are combined. Gate access is
+      5:00 a.m. to 11:00 p.m. daily. The west-wall space says no electric.
+    sources:
+      - url: https://www.outofsightrvstorage.com/
+        title: Official website
+      - url: https://www.outofsightrvstorage.com/pages/rent
+        title: Sizes and prices
+    last_verified: "2026-11-18"
+
+  - slug: power-rv-storage
+    name: Power RV Storage
+    street: 25404 South Power Road
+    city: Queen Creek
+    state_code: AZ
+    postal_code: "85142"
+    lat: null
+    lng: null
+    phone: "(480) 750-1970"
+    website: https://powerrvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 45
+    clearance_ft: null
+    power_hookups: false
+    dump_station: false
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: Covered spots from $149 to $249 per month.
+    waitlist: null
+    notes: >-
+      Covered spots provide up to 45 feet of shade, and uncovered spaces are
+      also offered. The page says there are no power hookups and no dump
+      station. Daily access is printed both as 5:00 a.m. to 9:00 p.m. and as
+      5:00 a.m. to 10:00 p.m., so 24-hour access is not marked yes or no.
+    sources:
+      - url: https://powerrvstorage.com/
+        title: Official website
+      - url: https://powerrvstorage.com/contact-us/
+        title: Contact page
+    last_verified: "2026-11-18"
+
+  - slug: quality-secure-rv-boat-storage
+    name: "Quality Secure RV, Boat, Truck & Trailer Storage"
+    street: 335 W. Cullumber Ave
+    city: Gilbert
+    state_code: AZ
+    postal_code: "85233"
+    lat: null
+    lng: null
+    phone: 480-238-4205
+    website: https://www.azqrvandboatstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 70
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: >-
+      Uncovered monthly prices include boat trailers at $110, $140, and $160,
+      smaller motorhomes at $110 and $140, Class A motorhomes at $140 and $170,
+      and fifth wheels at $140, $170, and $200 for a 45 to 60 foot
+      pull-through. A $25 one-time account setup fee is listed. Pull-through
+      spaces are described as up to 70 feet.
+    waitlist: null
+    notes: >-
+      Uncovered parking for motorhomes, fifth wheels, travel trailers, and
+      boats, with locked gates and on-site cameras. The same page lists a
+      second lot at 396 W. Cullumber Ave, Gilbert, AZ 85233.
+    sources:
+      - url: https://www.azqrvandboatstorage.com/
+        title: Available spaces and pricing
+    last_verified: "2026-11-18"
+
+  - slug: seville-rv-boat-storage
+    name: "Seville RV & Boat Storage"
+    street: 17611 E Riggs Rd
+    city: Queen Creek
+    state_code: AZ
+    postal_code: "85142"
+    lat: null
+    lng: null
+    phone: 480-359-2767
+    website: https://www.sevillervandboatstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered RV and boat storage with an RV dump station, an
+      access-controlled gate, and digital camera surveillance. Access hours
+      are 6:00 a.m. to 10:00 p.m., seven days a week.
+    sources:
+      - url: https://www.sevillervandboatstorage.com/
+        title: Official website
+      - url: https://www.sevillervandboatstorage.com/self-storage/az/queen-creek/features
+        title: Features page
+      - url: https://www.sevillervandboatstorage.com/self-storage/az/queen-creek/rv-boat-storage-prices
+        title: Prices page
+    last_verified: "2026-11-18"
+
+  - slug: us-60-self-rv-storage
+    name: "US 60 Self & RV Storage"
+    street: "1661 S. Alma School Road, Suite 102"
+    city: Mesa
+    state_code: AZ
+    postal_code: "85210"
+    lat: 33.38451
+    lng: -111.85573
+    phone: "(480) 839-0050"
+    website: https://www.us60selfstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: 60
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: The contact page invites visitors to join a waitlist.
+    notes: >-
+      Enclosed RV and boat garages range from 12 by 50 to 15 by 60, and a
+      solar trickle charger is available for a fee. The contact page lists
+      access as 5:00 a.m. to 11:00 p.m., while the home page says business
+      storage has 24/7 unit access, so 24-hour access is not marked yes or no.
+      Coordinates are on the page. The 15-foot figure is unit width, not
+      clearance.
+    sources:
+      - url: https://www.us60selfstorage.com/
+        title: Official website
+      - url: https://www.us60selfstorage.com/info/rv-storage
+        title: RV and boat storage page
+      - url: https://www.us60selfstorage.com/about
+        title: Contact and access hours
+    last_verified: "2026-11-18"
+
+  - slug: vista-boat-rv-storage
+    name: "Vista Boat & RV Storage"
+    street: 21639 E Ocotillo Rd
+    city: Queen Creek
+    state_code: AZ
+    postal_code: "85142"
+    lat: null
+    lng: null
+    phone: "(480) 547-0394"
+    website: https://www.vistaboatandrvstorage.com/21639-e-ocotillo-rd-queen-creek-az-85142
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered and uncovered parking for RVs and boats. Access is listed as
+      open 24 hours, and the property is under 24-hour video surveillance. A
+      gate is not stated.
+    sources:
+      - url: https://www.vistaboatandrvstorage.com/21639-e-ocotillo-rd-queen-creek-az-85142
+        title: Queen Creek location page
+    last_verified: "2026-11-18"

@@ -1,0 +1,517 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: charlotte-nc
+city: Charlotte
+state: North Carolina
+state_code: NC
+metro: Charlotte
+summary: >-
+  These facilities publish an RV or boat storage page in Charlotte or nearby
+  Concord, Huntersville, Matthews, or Gastonia. Each card uses only what that
+  page states.
+sparefoot_slug: Charlotte-NC
+neighbor_path: north-carolina/charlotte
+sparefoot_note: null
+photo: charlotte
+listings:
+  - slug: anchor-self-storage-huntersville
+    name: Anchor Self Storage of Huntersville
+    street: 101 Parr Drive
+    city: Huntersville
+    state_code: NC
+    postal_code: null
+    lat: null
+    lng: null
+    phone: "(704) 659-4866"
+    website: https://www.anchorhuntersville.com/boat-rv-storage
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Outdoor parking for boats, RVs, and Class A motorhomes. Gate hours are
+      open 24 hours every day. The home page also describes the facility as on
+      Sam Furr Road. No ZIP is printed.
+    sources:
+      - url: https://www.anchorhuntersville.com/boat-rv-storage
+        title: Boat and RV storage page
+      - url: https://www.anchorhuntersville.com/units
+        title: Units and address
+      - url: https://www.anchorhuntersville.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: brookshire-mini-storage-charlotte
+    name: Brookshire Mini Storage
+    street: 5701 Brookshire Blvd
+    city: Charlotte
+    state_code: NC
+    postal_code: "28216"
+    lat: null
+    lng: null
+    phone: "(704) 394-5625"
+    website: https://www.brookshireministorage.com/5701-brookshire-blvd-charlotte-nc-28216
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Outdoor parking for RVs, boats, autos, and campers. Access hours are
+      listed as open 24 hours. Office hours are Monday through Friday 9:00 AM
+      to 5:00 PM and Saturday 9:00 AM to 1:00 PM.
+    sources:
+      - url: https://www.brookshireministorage.com/5701-brookshire-blvd-charlotte-nc-28216
+        title: Location page
+      - url: https://www.brookshireministorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: go-store-it-statesville-charlotte
+    name: Go Store It Self Storage
+    street: 9805 Statesville Road
+    city: Charlotte
+    state_code: NC
+    postal_code: "28269"
+    lat: null
+    lng: null
+    phone: "(980) 209-9426"
+    website: https://www.gostoreit.com/locations/north-carolina/charlotte/9805-statesville-rd/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: >-
+      20-foot outdoor parking is listed at $128.00, also shown as starting at
+      $171.00, with first month rent $0. 40-foot outdoor parking for vehicles,
+      boats, and RVs is listed at $173.00, also shown as starting at $231.00,
+      with first month rent $0.
+    waitlist: null
+    notes: >-
+      Outdoor parking. The 40-foot spaces are described for vehicles, boats,
+      and RVs. Access hours are 6:00 am to 10:00 pm Monday through Friday.
+    sources:
+      - url: https://www.gostoreit.com/locations/north-carolina/charlotte/9805-statesville-rd/
+        title: Official location page
+    last_verified: "2026-11-18"
+
+  - slug: keep-it-stored-pitts-school-concord
+    name: Keep It Stored - Pitts School Rd
+    street: 75 Pitts School Road NW
+    city: Concord
+    state_code: NC
+    postal_code: "28027"
+    lat: null
+    lng: null
+    phone: null
+    website: https://www.keepitstored.com/locations/pitts-school-rd-concord-nc-28027
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Outdoor RV and boat parking with an electronic gate and security
+      cameras. 24/7 access is listed as available if the manager unlocks it,
+      so it is not marked as standard 24-hour access. No phone number is
+      printed on the page.
+    sources:
+      - url: https://www.keepitstored.com/locations/pitts-school-rd-concord-nc-28027
+        title: Pitts School Road location page
+      - url: https://www.keepitstored.com/rv-storage
+        title: RV storage page
+    last_verified: "2026-11-18"
+
+  - slug: keep-it-stored-poplar-tent-concord
+    name: Keep It Stored - Poplar Tent Rd
+    street: 5180 Poplar Tent Rd
+    city: Concord
+    state_code: NC
+    postal_code: "28027"
+    lat: null
+    lng: null
+    phone: null
+    website: https://www.keepitstored.com/locations/poplar-tent-rd-concord-nc-28027/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Separate Concord lot from Pitts School Road. Outdoor RV and boat
+      parking, with gated entry and security cameras. 24/7 access is available
+      if the manager unlocks it. No phone number is printed on the page.
+    sources:
+      - url: https://www.keepitstored.com/locations/poplar-tent-rd-concord-nc-28027/
+        title: Poplar Tent Road location page
+      - url: https://www.keepitstored.com/boat-storage
+        title: Boat storage page
+    last_verified: "2026-11-18"
+
+  - slug: mint-hill-self-storage-arlington-church-charlotte
+    name: Mint Hill Self Storage
+    street: 11111 Arlington Church Road
+    city: Charlotte
+    state_code: NC
+    postal_code: "28227"
+    lat: null
+    lng: null
+    phone: "(704) 790-2961"
+    website: https://www.minthillselfstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      This record is the Charlotte street. The same page says both this lot
+      and 11223 Blair Road, Mint Hill, have outdoor boat, RV, and vehicle
+      parking, fencing, gates, and cameras. Access hours are 6:00 am to
+      9:00 pm daily.
+    sources:
+      - url: https://www.minthillselfstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: morningstar-matthews
+    name: Morningstar of Matthews
+    street: 11145 Monroe Rd
+    city: Matthews
+    state_code: NC
+    postal_code: "28105"
+    lat: null
+    lng: null
+    phone: 980-378-8815
+    website: https://www.morningstarstorage.com/locations/north-carolina/383/matthews-nc-11145-monroe-rd
+    vehicles: [rv, boat]
+    storage_types: [enclosed, open]
+    max_length_ft: 45
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Indoor RV storage and outdoor RV and boat parking up to 14 by 45 feet,
+      with 24-hour storage access. The page says surveillance and controlled
+      access without using the words camera or gate.
+    sources:
+      - url: https://www.morningstarstorage.com/locations/north-carolina/383/matthews-nc-11145-monroe-rd
+        title: Official location page
+    last_verified: "2026-11-18"
+
+  - slug: morningstar-new-hope-gastonia
+    name: Morningstar of New Hope
+    street: 935 N. New Hope Rd
+    city: Gastonia
+    state_code: NC
+    postal_code: "28054"
+    lat: null
+    lng: null
+    phone: 704-810-7474
+    website: https://www.morningstarstorage.com/locations/north-carolina/312/gastonia-nc-935-n-new-hope-rd
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 28
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Outdoor parking for cars, boats, and RVs. The largest spaces are stated
+      as 10 by 28. The page lists 24-hour surveillance cameras, electronic
+      gate access, and 24-hour access. A second number, 704-413-3464, is also
+      printed.
+    sources:
+      - url: https://www.morningstarstorage.com/locations/north-carolina/312/gastonia-nc-935-n-new-hope-rd
+        title: Official location page
+    last_verified: "2026-11-18"
+
+  - slug: morningstar-south-blvd-charlotte
+    name: Morningstar of South Blvd
+    street: 8100 South Blvd
+    city: Charlotte
+    state_code: NC
+    postal_code: "28273"
+    lat: null
+    lng: null
+    phone: 704-242-3449
+    website: https://www.morningstarstorage.com/locations/north-carolina/347/charlotte-nc-8100-south-blvd
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered parking and indoor car, boat, and RV storage, with 24-hour
+      storage access. The page says monitoring and surveillance without using
+      the word camera, and controlled access without using the word gate.
+    sources:
+      - url: https://www.morningstarstorage.com/locations/north-carolina/347/charlotte-nc-8100-south-blvd
+        title: Official location page
+    last_verified: "2026-11-18"
+
+  - slug: morningstar-wt-harris-charlotte
+    name: Morningstar of WT Harris
+    street: 5800 West WT Harris Blvd.
+    city: Charlotte
+    state_code: NC
+    postal_code: "28269"
+    lat: null
+    lng: null
+    phone: 704-599-1300
+    website: https://www.morningstarstorage.com/locations/north-carolina/324/charlotte-nc-5800-west-wt-harris-blvd
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 39
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Vehicle spaces from 10 by 15 up to 10 by 39, including standard parking,
+      covered parking, boat parking, and RV storage, with 24-hour storage
+      access. A customer review calls the facility gated. The facility copy
+      does not, so gated is not listed.
+    sources:
+      - url: https://www.morningstarstorage.com/locations/north-carolina/324/charlotte-nc-5800-west-wt-harris-blvd
+        title: Official location page
+    last_verified: "2026-11-18"
+
+  - slug: overflow-storage-gastonia
+    name: OverFlow Storage Solutions
+    street: 6879 Union Road
+    city: Gastonia
+    state_code: NC
+    postal_code: "28056"
+    lat: null
+    lng: null
+    phone: "(704) 351-8574"
+    website: https://www.overflowstoragesolutions.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Uncovered outdoor RV and boat parking. Covered RV and boat parking is
+      described as coming soon, so covered is not a current type. Gate access
+      is 6:00 AM to 10:00 PM daily. The page says it serves Charlotte. The
+      address is Gastonia.
+    sources:
+      - url: https://www.overflowstoragesolutions.com/
+        title: Official website
+      - url: https://www.overflowstoragesolutions.com/6879-union-road-gastonia-nc-28056
+        title: Union Road location page
+    last_verified: "2026-11-18"
+
+  - slug: storage-central-huntersville
+    name: Storage Central
+    street: 15746 Old Statesville Rd.
+    city: Huntersville
+    state_code: NC
+    postal_code: "28078"
+    lat: null
+    lng: null
+    phone: 704-875-0061
+    website: https://storagecentralhuntersville.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      Under 27 feet is $60 per month. 27 feet and over is $70 per month.
+      Pull-through spaces reserved for very large RVs and trailers are $80
+      per month. Checks or cash only.
+    waitlist: >-
+      When the lot is full, the office takes a name and number and calls when
+      a space opens.
+    notes: >-
+      Outdoor lot for campers, trailers, boats, and RVs, with a PIN gate,
+      24-hour video recording, and access 24/7. The office address on the
+      contact page is 16101 Old Statesville Rd., Huntersville, NC 28078.
+    sources:
+      - url: https://storagecentralhuntersville.com/
+        title: Official website
+      - url: https://storagecentralhuntersville.com/index.php/contact/
+        title: Contact page
+      - url: https://storagecentralhuntersville.com/index.php/about/
+        title: FAQ
+      - url: https://storagecentralhuntersville.com/index.php/services/
+        title: Pricing page
+    last_verified: "2026-11-18"
+
+  - slug: tjs-quality-rv-storage-concord
+    name: "TJ's Quality RV Storage & Repair"
+    street: 379 Central Drive NW
+    city: Concord
+    state_code: NC
+    postal_code: "28027"
+    lat: null
+    lng: null
+    phone: "(704) 960-4399"
+    website: https://www.tjsrv.com/storage/
+    vehicles: [rv, boat]
+    storage_types: [enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Indoor and outdoor storage for motorhomes, fifth wheels, travel
+      trailers, boats, and autos, with valet drop-off and 24/7 video
+      surveillance. Indoor boat and auto storage states a 7 foot 11 inch by
+      7 foot 11 inch restriction, which is not recorded as facility-wide
+      clearance. Move-in is during business hours.
+    sources:
+      - url: https://www.tjsrv.com/storage/
+        title: Storage page
+      - url: https://www.tjsrv.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: union-road-rv-storage-gastonia
+    name: Union Road RV Storage
+    street: 5513 Union Road
+    city: Gastonia
+    state_code: NC
+    postal_code: "28056"
+    lat: null
+    lng: null
+    phone: "(704) 813-2915"
+    website: https://www.unionroadrvstorage.com/5513-union-road-gastonia-nc-28056
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered and uncovered parking for RVs, boats, and vehicles, with gated
+      access control. Access hours are 6:30 AM to 10:30 PM every day. Unit
+      prices did not load.
+    sources:
+      - url: https://www.unionroadrvstorage.com/5513-union-road-gastonia-nc-28056
+        title: Official location page
+    last_verified: "2026-11-18"
+
+  - slug: university-boat-rv-storage-charlotte
+    name: "University Boat & RV Storage"
+    street: 5631 Racine Ave
+    city: Charlotte
+    state_code: NC
+    postal_code: "28269"
+    lat: null
+    lng: null
+    phone: "(704) 370-9037"
+    website: https://universityboatandrvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Outdoor spaces for boats and RVs. The home page says there is room for
+      more than 200 boats and RVs. Gate access is 24/7 with a code.
+    sources:
+      - url: https://universityboatandrvstorage.com/
+        title: Official website
+      - url: https://universityboatandrvstorage.com/services/
+        title: Services page
+      - url: https://universityboatandrvstorage.com/contact-us/
+        title: Contact page
+    last_verified: "2026-11-18"

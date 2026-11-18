@@ -3,42 +3,46 @@ import { filtersForCity, href, type City } from '../lib/data';
 
 interface Props {
   city: City;
-  current: string;
 }
 
-const { city, current } = Astro.props;
+const { city } = Astro.props;
 const pages = filtersForCity(city.id);
+const chips = [
+  { key: 'all', label: 'All' },
+  { key: 'covered', label: 'Covered' },
+  { key: 'enclosed', label: 'Enclosed' },
+  { key: 'power', label: 'Power' },
+  { key: 'boat', label: 'Boat' },
+  { key: 'rv', label: 'RV' },
+  { key: 'priced', label: 'Has price' },
+];
 ---
 
-<nav class="chips" aria-label={`Storage filters for ${city.city}`}>
-  <ul>
-    <li>
-      {
-        current === 'all' ? (
-          <span aria-current="page">
-            All listings <span class="count">{city.listings.length}</span>
-          </span>
-        ) : (
-          <a href={href(`/cities/${city.id}/`)}>
-            All listings <span class="count">{city.listings.length}</span>
-          </a>
-        )
-      }
-    </li>
+<div class="filter-tools">
+  <div class="chips" data-filter-bar role="group" aria-label={`Filter ${city.city} listings`}>
     {
-      pages.map((page) => (
-        <li>
-          {page.slug === current ? (
-            <span aria-current="page">
-              {page.filter.label} <span class="count">{page.matches.length}</span>
-            </span>
-          ) : (
-            <a href={href(page.path)}>
-              {page.filter.label} <span class="count">{page.matches.length}</span>
-            </a>
-          )}
-        </li>
+      chips.map((chip) => (
+        <button type="button" data-filter={chip.key} aria-pressed={chip.key === 'all' ? 'true' : 'false'}>
+          {chip.label}
+        </button>
       ))
     }
-  </ul>
-</nav>
+  </div>
+  {
+    pages.length > 0 && (
+      <nav class="seo-links" aria-label={`Shareable ${city.city} pages`}>
+        <p>
+          Shareable pages:{' '}
+          {pages.map((page, index) => (
+            <>
+              {index > 0 ? ', ' : ''}
+              <a href={href(page.path)}>
+                {page.filter.label} <span class="count">{page.matches.length}</span>
+              </a>
+            </>
+          ))}
+        </p>
+      </nav>
+    )
+  }
+</div>

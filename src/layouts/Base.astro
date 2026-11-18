@@ -19,10 +19,11 @@ const robots = noindex ? 'noindex, follow' : 'index, follow';
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="en" data-base={import.meta.env.BASE_URL}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="google-site-verification" content="G_BzY6Ui0LlkM3APTiLfoREZcGa0tpmbySp5zgKFWOo" />
     <title>{title}</title>
     <meta name="description" content={description} />
     <meta name="robots" content={robots} />
@@ -48,5 +49,6 @@ const robots = noindex ? 'noindex, follow' : 'index, follow';
       <slot />
     </main>
     <Footer />
+    <script src={`${import.meta.env.BASE_URL}search.js`} defer></script>
   </body>
 </html>
