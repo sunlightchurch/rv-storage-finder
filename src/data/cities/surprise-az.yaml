@@ -1,0 +1,293 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: surprise-az
+city: Surprise
+state: Arizona
+state_code: AZ
+metro: Surprise
+summary: >-
+  These facilities publish an RV or boat storage page in Surprise, including
+  yards that serve Sun City West. Advantage Boat and RV on Foxfire Drive is
+  already listed under Phoenix.
+sparefoot_slug: Surprise-AZ
+neighbor_path: arizona/surprise
+sparefoot_note: null
+photo: surprise
+listings:
+  - slug: carefree-covered-rv-surprise
+    name: Carefree Covered RV Storage
+    street: 18415 W Deer Valley Rd
+    city: Surprise
+    state_code: AZ
+    postal_code: "85387"
+    lat: null
+    lng: null
+    phone: "(623) 258-6695"
+    website: https://www.carefreecoveredrvstorage.com/18415-w-deer-valley-rd-surprise-az-85387
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered and uncovered boat and RV spaces. The page says each covered and
+      uncovered space has trickle-charge power. Features include 32 surveillance
+      cameras, keypad access, an 8-foot wall, a dump station and water, a free
+      self RV wash, air and vacuum, and charging outlets. Access is 5:00 a.m.
+      to 10:00 p.m. daily.
+    sources:
+      - url: https://www.carefreecoveredrvstorage.com/18415-w-deer-valley-rd-surprise-az-85387
+        title: Official Surprise page
+    last_verified: "2026-11-18"
+
+  - slug: cubesmart-surprise-bell-14690
+    name: CubeSmart Self Storage of Surprise
+    street: 14690 W Bell Rd
+    city: Surprise
+    state_code: AZ
+    postal_code: "85374"
+    lat: null
+    lng: null
+    phone: "(623) 321-2677"
+    website: https://www.cubesmart.com/arizona-self-storage/surprise-self-storage/4502.html
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: >-
+      Covered 12x40 parking: online $131.40 per month and in-store $219 per
+      month, with second month free and 40% off.
+    waitlist: null
+    notes: >-
+      Location amenities list RV storage and boat parking. The vehicle space
+      showing when the page was opened was covered 12x40 parking. The about
+      text says the site has around-the-clock video recording, and the
+      amenities say the app opens facility gates. Access hours are daily 6:00
+      a.m. to 10:00 p.m.
+    sources:
+      - url: https://www.cubesmart.com/arizona-self-storage/surprise-self-storage/4502.html
+        title: Official location page
+    last_verified: "2026-11-18"
+
+  - slug: cubesmart-surprise-bell-16455
+    name: CubeSmart Self Storage of Surprise
+    street: 16455 W Bell Rd
+    city: Surprise
+    state_code: AZ
+    postal_code: "85374"
+    lat: null
+    lng: null
+    phone: "(480) 401-2780"
+    website: https://www.cubesmart.com/arizona-self-storage/surprise-self-storage/4505.html
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The location page says it has dedicated amenities for RV storage, boat
+      storage, and vehicle storage. It does not say whether that parking is
+      covered, enclosed, or open, and no vehicle-parking price was listed when
+      the page was opened. The page says these units have round-the-clock video
+      recording, and the amenities say the app opens facility gates. Access
+      hours are daily 6:00 a.m. to 10:00 p.m.
+    sources:
+      - url: https://www.cubesmart.com/arizona-self-storage/surprise-self-storage/4505.html
+        title: Official location page
+    last_verified: "2026-11-18"
+
+  - slug: hv-rv-surprise
+    name: HV-RV Storage
+    street: 22611 N 159th Ave
+    city: Surprise
+    state_code: AZ
+    postal_code: "85387"
+    lat: null
+    lng: null
+    phone: "(602) 509-1071"
+    website: https://hv-rvstorage.com/surprise-az/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 70
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: >-
+      The page lists two unlabeled groups and does not state the billing
+      period. One group is 12x70 $280, 12x60 $240, 12x50 $200, 12x40 $185,
+      12x35 $160, 12x30 $145, and 12x25 $135. The other is 12x60 $360, 12x50
+      $300, 12x40 $265, 12x35 $255, 12x30 $240, and 12x25 $230.
+    waitlist: null
+    notes: >-
+      The Surprise page says it currently offers open stalls for RVs and boats,
+      with coded entry. The introduction says this location has 24/7
+      surveillance. Dump, wash, and power are not stated for Surprise. Gate
+      hours are not stated.
+    sources:
+      - url: https://hv-rvstorage.com/surprise-az/
+        title: Official Surprise page
+    last_verified: "2026-11-18"
+
+  - slug: peak-rv-storage-surprise
+    name: Peak RV Storage
+    street: 15925 W Pinnacle Peak Rd
+    city: Surprise
+    state_code: AZ
+    postal_code: "85387"
+    lat: null
+    lng: null
+    phone: "(480) 999-6469"
+    website: https://www.peakrvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Outdoor RV, boat, and trailer parking, with covered spaces and electrical
+      outlets. The page lists 24-hour video surveillance and a gated, lighted
+      lot. The boat page says access is seven days a week and does not give a
+      clock time. A text number, (480) 808-3993, is also printed.
+    sources:
+      - url: https://www.peakrvstorage.com/
+        title: Official website
+      - url: https://www.peakrvstorage.com/rv-storage/
+        title: RV storage page
+    last_verified: "2026-11-18"
+
+  - slug: securespace-surprise-sweetwater
+    name: SecureSpace Self Storage
+    street: 13930 W Sweetwater Avenue
+    city: Surprise
+    state_code: AZ
+    postal_code: "85379"
+    lat: null
+    lng: null
+    phone: "(623) 526-7740"
+    website: https://securespace.com/storage-units/az/surprise-self-storage/13930-w-sweetwater-ave-surprise-az-85379
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: >-
+      Covered 12x40 is listed at $104 per month and $115 per month. Enclosed
+      15x22.5 vehicle storage is listed at $321 per month and $354 per month.
+    waitlist: null
+    notes: >-
+      The page offers outdoor parking, covered parking, and enclosed vehicle
+      storage, and says parking spots are for vehicles, boats, or RVs. One
+      hours block says daily access is 6:00 a.m. to 10:00 p.m., and another
+      says Monday through Sunday open 24 hours, so 24-hour access is not marked.
+      The page lists an access gate and 24/7 surveillance cameras.
+    sources:
+      - url: https://securespace.com/storage-units/az/surprise-self-storage/13930-w-sweetwater-ave-surprise-az-85379
+        title: Official location page
+    last_verified: "2026-11-18"
+
+  - slug: sun-cities-rv-compound
+    name: Sun Cities RV Compound, Inc.
+    street: 16315 N. 115th Ave.
+    city: Surprise
+    state_code: AZ
+    postal_code: "85378"
+    lat: null
+    lng: null
+    phone: "(623) 972-8019"
+    website: https://www.scrvcompound.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      A nonprofit compound for residents inside the named Del Webb communities.
+      Stored vehicles include motorhomes, fifth wheels, travel trailers, boat
+      trailers, campers, and boats. Compound access is 6:00 a.m. to 6:00 p.m.
+      every day except Christmas. Cover type is not stated. The site menu names
+      a dump station and wash bays, but those pages were not opened, so those
+      amenities are not marked.
+    sources:
+      - url: https://www.scrvcompound.com/
+        title: Official website
+      - url: https://www.scrvcompound.com/about
+        title: About page
+    last_verified: "2026-11-18"
+
+  - slug: uhaul-surprise-westgate
+    name: U-Haul RV & U-Box of Sun City West
+    street: 13511 W Westgate Dr
+    city: Surprise
+    state_code: AZ
+    postal_code: "85378"
+    lat: null
+    lng: null
+    phone: "(623) 209-7377"
+    website: https://www.uhaul.com/Locations/Self-Storage-near-Surprise-AZ-85378/858027/
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: 40
+    clearance_ft: 14
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: >-
+      Covered 12x35x14 is $169.95 per month and covered 12x40x14 is $174.95 per
+      month. Both cards say the monthly price stays the same for the first 12
+      months.
+    waitlist: null
+    notes: >-
+      Covered RV, boat, and vehicle parking with 14-foot clearance stated for
+      those spaces. Storage access hours are Monday through Sunday 5:00 a.m. to
+      10:00 p.m. The feature list also says extended and 24-hour access is
+      available if you ask, so 24-hour access is not marked. The page lists
+      24-hour video monitoring and electronically controlled access.
+    sources:
+      - url: https://www.uhaul.com/Locations/Self-Storage-near-Surprise-AZ-85378/858027/
+        title: Official location page
+    last_verified: "2026-11-18"

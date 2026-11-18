@@ -1,0 +1,83 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: gilbert-az
+city: Gilbert
+state: Arizona
+state_code: AZ
+metro: Gilbert
+summary: >-
+  These Gilbert facilities publish an RV or boat storage page and are not the
+  Gilbert yards already listed under Mesa.
+sparefoot_slug: Gilbert-AZ
+neighbor_path: arizona/gilbert
+sparefoot_note: null
+photo: gilbert
+listings:
+  - slug: cubesmart-gilbert-power-rd
+    name: CubeSmart Self Storage of Gilbert
+    street: 5750 S Power Rd
+    city: Gilbert
+    state_code: AZ
+    postal_code: "85295"
+    lat: null
+    lng: null
+    phone: "(480) 279-4110"
+    website: https://www.cubesmart.com/arizona-self-storage/gilbert-self-storage/3442.html
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The location page says it offers parking for RV storage and boat storage.
+      It does not say whether that parking is covered, enclosed, or open, and
+      no vehicle-parking price was listed when the page was opened. The about
+      text says the location has 24-hour video recording, and the amenities say
+      the app opens facility gates. Access hours are daily 6:00 a.m. to 10:00
+      p.m.
+    sources:
+      - url: https://www.cubesmart.com/arizona-self-storage/gilbert-self-storage/3442.html
+        title: Official location page
+    last_verified: "2026-11-18"
+
+  - slug: pink-door-storage-gilbert
+    name: Pink Door Storage & RV - Gilbert
+    street: 4560 E Orchid Ln
+    city: Gilbert
+    state_code: AZ
+    postal_code: "85296"
+    lat: 33.326509
+    lng: -111.691719
+    phone: "(480) 676-3525"
+    website: https://www.pinkdoorstorage.com/self-storage-units-gilbert-arizona
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed]
+    max_length_ft: 50
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: false
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Enclosed and temperature-controlled RV units are listed at 14 feet wide
+      by 50 feet deep, and covered or enclosed parking is offered from 35 to 50
+      feet. The page lists an on-site dump station, a solar-powered trickle
+      charger, fencing with gated access, and surveillance cameras. A wash bay
+      is described as coming soon. Standard access hours are 6:00 a.m. to 10:00
+      p.m. daily, and another line offers 24/7 access with proof of a business
+      license, so 24-hour access is not marked. Coordinates are printed in the
+      page source.
+    sources:
+      - url: https://www.pinkdoorstorage.com/self-storage-units-gilbert-arizona
+        title: Official Gilbert page
+    last_verified: "2026-11-18"

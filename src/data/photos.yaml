@@ -700,3 +700,87 @@
   license: "CC BY-SA 4.0"
   license_url: "https://creativecommons.org/licenses/by-sa/4.0"
   credit_required: true
+- id: scottsdale
+  role: city
+  alt: "Scottsdale, Arizona"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/scottsdale-640.webp
+    "960": photos/scottsdale-960.webp
+    "1280": photos/scottsdale-1280.webp
+  author: "Quintin Soloviev"
+  source_url: "https://commons.wikimedia.org/wiki/File:Scottsdale,_Arizona.jpg"
+  license: "CC BY 4.0"
+  license_url: "https://creativecommons.org/licenses/by/4.0"
+  credit_required: true
+- id: chandler
+  role: city
+  alt: "An aerial view of Chandler, Arizona"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/chandler-640.webp
+    "960": photos/chandler-960.webp
+    "1280": photos/chandler-1280.webp
+  author: "Chris J"
+  source_url: "https://commons.wikimedia.org/wiki/File:Chandler_Arizona_aerial.jpg"
+  license: "CC BY-SA 2.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  credit_required: true
+- id: gilbert
+  role: city
+  alt: "A church on South Greenfield Road in Gilbert, Arizona"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/gilbert-640.webp
+    "960": photos/gilbert-960.webp
+    "1280": photos/gilbert-1280.webp
+  author: "Beyond My Ken"
+  source_url: "https://commons.wikimedia.org/wiki/File:2021_LDS_Church,_3775_South_Greenfield_Road,_Gilbert.jpg"
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  credit_required: true
+- id: glendale
+  role: city
+  alt: "The historic Santa Fe depot in Glendale, Arizona"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/glendale-640.webp
+    "960": photos/glendale-960.webp
+    "1280": photos/glendale-1280.webp
+  author: "Tony the Marine"
+  source_url: "https://commons.wikimedia.org/wiki/File:G-Glendale_Santa_Fe_Railroad_Depot-1895.jpg"
+  license: "CC BY-SA 3.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  credit_required: true
+- id: peoria
+  role: city
+  alt: "Old Town Peoria, Arizona"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/peoria-640.webp
+    "960": photos/peoria-960.webp
+    "1280": photos/peoria-1280.webp
+  author: "Tony the Marine"
+  source_url: "https://commons.wikimedia.org/wiki/File:Peoria-Old_Town_Peoria.jpg"
+  license: "CC BY-SA 3.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  credit_required: true
+- id: surprise
+  role: city
+  alt: "Surprise City Hall in Surprise, Arizona"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/surprise-640.webp
+    "960": photos/surprise-960.webp
+    "1280": photos/surprise-1280.webp
+  author: "Gage Skidmore"
+  source_url: "https://commons.wikimedia.org/wiki/File:Surprise_City_Hall_by_Gage_Skidmore.jpg"
+  license: "CC BY-SA 3.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  credit_required: true

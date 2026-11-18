@@ -1,0 +1,154 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: scottsdale-az
+city: Scottsdale
+state: Arizona
+state_code: AZ
+metro: Scottsdale
+summary: >-
+  These facilities publish an RV or boat storage page in Scottsdale or Fountain
+  Hills. Scottsdale Storage on North 73rd Street is already listed under
+  Phoenix and is not repeated here.
+sparefoot_slug: Scottsdale-AZ
+neighbor_path: arizona/scottsdale
+sparefoot_note: null
+photo: scottsdale
+listings:
+  - slug: cubesmart-scottsdale-115th
+    name: CubeSmart Self Storage of Scottsdale
+    street: 11000 N 115th St
+    city: Scottsdale
+    state_code: AZ
+    postal_code: "85259"
+    lat: null
+    lng: null
+    phone: "(480) 314-2100"
+    website: https://www.cubesmart.com/arizona-self-storage/scottsdale-self-storage/308.html
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 30
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: >-
+      Outdoor parking, with second month free and 40% off: 15 ft online $81 and
+      in-store $135 per month; 20 ft online $99 and in-store $165; 25 ft online
+      $112.20 and in-store $187; 30 ft online $120 and in-store $200.
+    waitlist: null
+    notes: >-
+      The location amenities list outside parking, RV storage, and parking
+      spaces for boats. Available vehicle spaces are outdoor parking at 15, 20,
+      25, and 30 feet. The page says the site has 24-hour video recording and
+      that the app opens facility gates. Access hours are daily 6:00 a.m. to
+      10:00 p.m.
+    sources:
+      - url: https://www.cubesmart.com/arizona-self-storage/scottsdale-self-storage/308.html
+        title: Official location page
+    last_verified: "2026-11-18"
+
+  - slug: falcon-crest-rv-storage
+    name: Falcon Crest RV Storage
+    street: 12027 North Falcon Drive
+    city: Fountain Hills
+    state_code: AZ
+    postal_code: "85268"
+    lat: null
+    lng: null
+    phone: "(480) 837-4247"
+    website: https://falconcrestrvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 45
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: true
+    price_notes: >-
+      The pricing page lists 20 ft $55, 25 ft $67.50, 30 ft $80, 35 ft $92.50,
+      40 ft $105, and 45 ft $117.50. It does not state the billing period.
+    waitlist: null
+    notes: >-
+      Outdoor spaces from 20 feet to 45 feet for boats, RVs, fifth wheels,
+      motorhomes, and trailers, including back-in and pull-through spots. The
+      lot has more than 130 spaces inside concrete block walls and an
+      electronic keypad gate. Office hours are 8:00 a.m. to 8:00 p.m. seven
+      days a week. Gate access is 24/7.
+    sources:
+      - url: https://falconcrestrvstorage.com/
+        title: Official website
+      - url: https://falconcrestrvstorage.com/pricing/
+        title: Pricing page
+    last_verified: "2026-11-18"
+
+  - slug: fountain-hills-rv-storage
+    name: Fountain Hills RV Storage
+    street: 17317 East Sioux Drive
+    city: Fountain Hills
+    state_code: AZ
+    postal_code: "85268"
+    lat: null
+    lng: null
+    phone: "(480) 707-9400"
+    website: http://fountainhillsrvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The page says the business has two Fountain Hills yards and describes
+      them together: 17317 East Sioux Drive and 12010 North Panorama Drive. A
+      ZIP is not printed for Panorama Drive, and amenities are not split by
+      yard, so this is one card. Spaces are approximately 13 feet 7 inches by
+      40 feet or 12 feet by 36 feet for RVs, boats, or campers. Covered,
+      enclosed, or open is not stated. There is a 4-month minimum. Pricing is
+      by phone.
+    sources:
+      - url: http://fountainhillsrvstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: scottsdale-auto-group-indoor-storage
+    name: Scottsdale Auto Group
+    street: 14747 N Northsight Blvd, Suite 111
+    city: Scottsdale
+    state_code: AZ
+    postal_code: "85260"
+    lat: null
+    lng: null
+    phone: "(480) 448-5898"
+    website: https://scottsdaleautogroup.com/vehiclestorage
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Indoor enclosed storage for RVs and large boats, plus other vehicles. The
+      page says the indoor areas are accessible only by the owners and facility
+      staff, and the header says by appointment only. A second contact number,
+      480-931-1600, is printed.
+    sources:
+      - url: https://scottsdaleautogroup.com/vehiclestorage
+        title: Vehicle storage page
+    last_verified: "2026-11-18"
