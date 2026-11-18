@@ -1,0 +1,183 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: athens-ga
+city: Athens
+state: Georgia
+state_code: GA
+metro: Athens
+summary: >-
+  These facilities publish an RV or boat storage page in Athens or Watkinsville. Each card
+  uses only what that page states.
+sparefoot_slug: Athens-GA
+neighbor_path: georgia/athens
+sparefoot_note: This link opens Athens results. Oconee RV Storage is in Watkinsville.
+photo: athens
+listings:
+- slug: devon-self-storage-lexington
+  name: Devon Self Storage
+  street: 2375 Lexington Road
+  city: Athens
+  state_code: GA
+  postal_code: "30605"
+  lat: null
+  lng: null
+  phone: "(706) 748-8365"
+  website: "https://www.devonselfstorage.com/storage-locations/ga/athens/2375-lexington-rd"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: null
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Lexington Road page lists outdoor parking, RV storage, and boat storage, with gate
+    access. Facility access is Monday through Sunday, 6:00 am to 10:00 pm. Office hours are
+    shorter and the facility is closed Wednesday and Sunday.
+  sources:
+  - url: "https://www.devonselfstorage.com/storage-locations/ga/athens/2375-lexington-rd"
+    title: Devon Self Storage Athens location page
+  last_verified: '2026-11-18'
+- slug: top-dog-athens-storage
+  name: Top Dog Athens Storage
+  street: 2205 Lexington Rd
+  city: Athens
+  state_code: GA
+  postal_code: "30605"
+  lat: null
+  lng: null
+  phone: "(706) 521-8785"
+  website: "https://topdogathensstorage.storageunitsoftware.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The page lists RV parking and boat parking, a keypad gate, fencing, and 24/7 cameras.
+    It also names 2970 Lexington Road as Top Dog East and does not assign the parking to one
+    address. Office hours are weekdays 9:00 am to 5:00 pm and Saturday morning. The 24/7 line
+    is for online account management.
+  sources:
+  - url: "https://topdogathensstorage.storageunitsoftware.com/"
+    title: Top Dog Athens Storage
+  last_verified: '2026-11-18'
+- slug: oconee-rv-storage
+  name: Oconee RV Storage
+  street: 420 Jerry Smith Dr.
+  city: Watkinsville
+  state_code: GA
+  postal_code: "30677"
+  lat: null
+  lng: null
+  phone: "(706) 340-3311"
+  website: "https://www.oconeervstorage.com/about-us"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - enclosed
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Watkinsville page lists 13 enclosed bays with electricity, 6 covered spots, and 25
+    uncovered spaces for RVs and boats, plus 24-hour access, an automatic gate, security cameras,
+    and a cleanout station. Posted hours are Monday through Friday, 9 am to 5 pm, by appointment
+    only.
+  sources:
+  - url: "https://www.oconeervstorage.com/about-us"
+    title: Oconee RV Storage about page
+  last_verified: '2026-11-18'
+- slug: storagemart-atlanta-hwy
+  name: StorageMart on Atlanta Highway
+  street: 3985 Atlanta Hwy
+  city: Athens
+  state_code: GA
+  postal_code: "30606"
+  lat: null
+  lng: null
+  phone: "(800) 264-9485"
+  website: "https://www.storage-mart.com/athens/30622-atlanta-hwy"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - open
+  max_length_ft: 28
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The location page offers RV and boat storage and outdoor parking on a paved lot, including
+    spaces 18 feet and 28 feet deep, with an electronic gate, fencing, and 24/7 video. The
+    access line is a same-day status that closes at 10:00 pm, so a weekly 24-hour rule is
+    not marked.
+  sources:
+  - url: "https://www.storage-mart.com/athens/30622-atlanta-hwy"
+    title: StorageMart Atlanta Highway location page
+  last_verified: '2026-11-18'
+- slug: storagemart-collins-industrial
+  name: StorageMart on Collins Industrial Boulevard
+  street: 251 Collins Ind Blvd
+  city: Athens
+  state_code: GA
+  postal_code: "30601"
+  lat: null
+  lng: null
+  phone: "(800) 264-9485"
+  website: "https://www.storage-mart.com/athens/30601-collins-industrial-blvd"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - open
+  max_length_ft: 28
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The location page offers uncovered outdoor parking for RVs and boats from 18 to 28 feet,
+    with gated entry and 24-hour digital recording. The access line is a same-day status that
+    opens at 6:00 am, so a weekly gate schedule is not marked.
+  sources:
+  - url: "https://www.storage-mart.com/athens/30601-collins-industrial-blvd"
+    title: StorageMart Collins Industrial Boulevard location page
+  last_verified: '2026-11-18'

@@ -1,0 +1,118 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: columbus-ga
+city: Columbus
+state: Georgia
+state_code: GA
+metro: Columbus
+summary: >-
+  These facilities publish an RV or boat storage page in Columbus. Each card uses only what
+  that page states. This is not a complete inventory.
+sparefoot_slug: Columbus-GA
+neighbor_path: georgia/columbus
+sparefoot_note: null
+photo: columbus
+listings:
+- slug: rivermill-storage
+  name: RiverMill Storage
+  street: 3715 First Avenue
+  city: Columbus
+  state_code: GA
+  postal_code: "31904"
+  lat: null
+  lng: null
+  phone: 706-327-2705
+  website: "https://www.rivermillstorage.com/indoor-boat-auto-and-rv-storage/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - enclosed
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: true
+  dump_station: true
+  wash_station: true
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The indoor boat, auto, and RV page lists 24-hour gate access, recorded video surveillance,
+    temperature control, electrical outlets in each bay, a wash station, an on-site dump station,
+    and valet pull-out service. Office hours vary by season and are separate from the gate.
+  sources:
+  - url: "https://www.rivermillstorage.com/indoor-boat-auto-and-rv-storage/"
+    title: RiverMill indoor boat, auto, and RV storage
+  - url: "https://www.rivermillstorage.com/"
+    title: RiverMill Storage homepage
+  last_verified: '2026-11-18'
+- slug: my-storage-block-columbus
+  name: My Storage Block
+  street: 2025 Box Rd
+  city: Columbus
+  state_code: GA
+  postal_code: "31907"
+  lat: null
+  lng: null
+  phone: "(706) 751-6592"
+  website: "https://www.lock-storage.com/2025-box-rd-columbus-ga-31907"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - enclosed
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The page offers indoor and outdoor boat, RV, and vehicle parking, plus covered and uncovered
+    parking, 24-hour access, a fenced and gated lot, security cameras, power, and valet service
+    for indoor boat and RV storage. Office hours are weekdays 9:00 am to 5:00 pm, with weekends
+    by appointment.
+  sources:
+  - url: "https://www.lock-storage.com/2025-box-rd-columbus-ga-31907"
+    title: My Storage Block Columbus location page
+  last_verified: '2026-11-18'
+- slug: storage-sense-columbus
+  name: Storage Sense - Columbus
+  street: 1444 Box Rd
+  city: Columbus
+  state_code: GA
+  postal_code: "31907"
+  lat: null
+  lng: null
+  phone: 706-225-2559
+  website: "https://www.storagesense.com/location/USA/GA/Columbus/sense-columbus/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Box Road page offers outdoor parking for RVs, boats, and other vehicles in a fenced,
+    gated area with keypad access and 24-hour security cameras. Access hours are Monday through
+    Sunday, 6:00 am to 10:00 pm.
+  sources:
+  - url: "https://www.storagesense.com/location/USA/GA/Columbus/sense-columbus/"
+    title: Storage Sense Columbus location page
+  last_verified: '2026-11-18'

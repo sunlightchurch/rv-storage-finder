@@ -1,0 +1,407 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: augusta-ga
+city: Augusta
+state: Georgia
+state_code: GA
+metro: Augusta
+summary: >-
+  These facilities publish an RV or boat storage page in Augusta, Evans, or Grovetown. No
+  card uses a Martinez street address. Each card uses only what that page states.
+sparefoot_slug: Augusta-GA
+neighbor_path: georgia/augusta
+sparefoot_note: >-
+  This link opens Augusta results. Verified lots are also in Evans and Grovetown. None of
+  these cards uses a Martinez street address.
+photo: augusta
+listings:
+- slug: storage-sense-evans
+  name: Storage Sense - Evans
+  street: 457 Columbia Industrial Boulevard, Suite 1
+  city: Evans
+  state_code: GA
+  postal_code: "30809"
+  lat: null
+  lng: null
+  phone: "(706) 261-5649"
+  website: "https://www.storagesense.com/location/USA/GA/Evans/sense-evans-1057/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Evans page offers outdoor parking for RV and boat storage, a gated and fenced lot,
+    keypad access, and 24-hour digital video cameras. Access hours are Monday through Sunday,
+    6:00 am to 10:00 pm. Units labeled Randolph are at 438 Columbia Industrial Blvd.
+  sources:
+  - url: "https://www.storagesense.com/location/USA/GA/Evans/sense-evans-1057/"
+    title: Storage Sense Evans location page
+  last_verified: '2026-11-18'
+- slug: go-store-it-augusta
+  name: Go Store It - Augusta
+  street: 1735 Barton Chapel Road
+  city: Augusta
+  state_code: GA
+  postal_code: "30909"
+  lat: null
+  lng: null
+  phone: "(706) 366-0483"
+  website: "https://www.gostoreit.com/locations/georgia/augusta/go-store-it-augusta/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - open
+  max_length_ft: 40
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: false
+  price_notes: >-
+    Outdoor parking for vehicles, boats, and RVs includes 30-foot spaces at $44.00, starting
+    at $92.00, and 40-foot spaces at $57.00, starting at $92.00, with an extra-wide 40-foot
+    space at $73.00, starting at $118.00. First month's rent is listed at $0. The page states
+    month-to-month rentals.
+  waitlist: null
+  notes: >-
+    The Augusta page describes oversized outdoor parking for RVs and boats, keypad gate entry,
+    fencing, and HD video surveillance. Printed access hours are Monday through Friday, 6:00
+    am to 10:00 pm. Saturday and Sunday access hours are not printed.
+  sources:
+  - url: "https://www.gostoreit.com/locations/georgia/augusta/go-store-it-augusta/"
+    title: Go Store It Augusta location page
+  last_verified: '2026-11-18'
+- slug: big-sky-truck-parking-augusta
+  name: Big Sky Truck Parking of Augusta
+  street: 2878 Lumpkin Rd
+  city: Augusta
+  state_code: GA
+  postal_code: "30906"
+  lat: null
+  lng: null
+  phone: "(706) 397-3266"
+  website: "https://bigskytruckparking.com/storage-locations/"
+  vehicles:
+  - rv
+  - boat
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The locations page says each site, including Augusta, has perimeter fencing, coded gate
+    access, and 24-hour surveillance, and offers RV and boat storage. The Augusta block also
+    prints (704) 389-0864. The page does not say whether the spaces are covered, enclosed,
+    or open, and it does not print gate hours.
+  sources:
+  - url: "https://bigskytruckparking.com/storage-locations/"
+    title: Big Sky Truck Parking locations
+  last_verified: '2026-11-18'
+- slug: augusta-rv-evans
+  name: Augusta RV
+  street: 801 Industrial Park Dr.
+  city: Evans
+  state_code: GA
+  postal_code: "30809"
+  lat: null
+  lng: null
+  phone: "(706) 855-5220"
+  website: "https://augustarv.net/"
+  vehicles:
+  - rv
+  storage_types:
+  - covered
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Evans page describes an 8.5-acre RV service and storage center with storage for over
+    100 campers, including 24 premium covered spots. An announcement says Monday through Friday,
+    9 am to 5 pm, while the hours table is incomplete, so access is left unset. The page does
+    not say it stores boats.
+  sources:
+  - url: "https://augustarv.net/"
+    title: Augusta RV homepage
+  last_verified: '2026-11-18'
+- slug: aaa-self-storage-milledgeville
+  name: AAA Self Storage on Milledgeville Rd
+  street: 3440 Milledgeville Rd
+  city: Augusta
+  state_code: GA
+  postal_code: "30909"
+  lat: null
+  lng: null
+  phone: "(706) 979-6599"
+  website: >-
+    https://www.absolutemgmt.com/storage-locations/ga/augusta/3440-milledgeville-rd-aaa-self-storage/
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Milledgeville Road page lists boat parking, RV parking, and uncovered parking, and
+    says the facility is fenced and gated with cameras and 24-hour access. Office hours are
+    by appointment. The office address on the page is 2208 Highland Ave. A separate chain
+    blurb about covered and enclosed parking tells the reader to call a nearby facility.
+  sources:
+  - url: >-
+      https://www.absolutemgmt.com/storage-locations/ga/augusta/3440-milledgeville-rd-aaa-self-storage/
+    title: AAA Self Storage Milledgeville Road
+  last_verified: '2026-11-18'
+- slug: legacy-washington-rd-4492
+  name: Washington Rd Self Storage
+  street: 4492 Washington Road
+  city: Evans
+  state_code: GA
+  postal_code: "30809"
+  lat: null
+  lng: null
+  phone: "(762) 260-9015"
+  website: >-
+    https://www.legacyselfstorage.com/storage-locations/ga/evans/4492-washington-rd
+  vehicles:
+  - rv
+  - boat
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Evans page says this gated, fenced facility is a place to park larger vehicles and
+    names boat and RV storage. It lists 24/7 security cameras. It does not print gate hours
+    or say whether the parking is covered, enclosed, or open. A one-time administrative fee
+    applies to new rentals.
+  sources:
+  - url: >-
+      https://www.legacyselfstorage.com/storage-locations/ga/evans/4492-washington-rd
+    title: Legacy Self Storage at 4492 Washington Road
+  last_verified: '2026-11-18'
+- slug: legacy-washington-rd-4731
+  name: Washington Road Self Storage - Legacy
+  street: 4731 Washington Road
+  city: Evans
+  state_code: GA
+  postal_code: "30809"
+  lat: null
+  lng: null
+  phone: "(706) 651-1881"
+  website: >-
+    https://www.legacyselfstorage.com/storage-locations/ga/evans/4731-washington-road
+  vehicles:
+  - rv
+  - boat
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The location page lists boat and RV storage and camper storage. The boat and RV page says
+    each of these facilities has gated access, fencing, and video surveillance, and extended
+    access hours. It does not print a gate schedule or a cover type.
+  sources:
+  - url: >-
+      https://www.legacyselfstorage.com/storage-locations/ga/evans/4731-washington-road
+    title: Legacy Self Storage at 4731 Washington Road
+  - url: "https://www.legacyselfstorage.com/boat-rv-storage"
+    title: Legacy Self Storage boat and RV page
+  last_verified: '2026-11-18'
+- slug: legacy-blanchard-evans
+  name: Washington Rd Self Storage
+  street: 854 Blanchard Rd
+  city: Evans
+  state_code: GA
+  postal_code: "30809"
+  lat: null
+  lng: null
+  phone: "(706) 651-1881"
+  website: "https://www.legacyselfstorage.com/boat-rv-storage"
+  vehicles:
+  - rv
+  - boat
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The boat and RV page lists boat and RV storage on Blanchard Road in Evans and prints 854
+    Blanchard Rd. It says each facility has gated access, fencing, and video surveillance.
+    It does not print a cover type or a gate schedule.
+  sources:
+  - url: "https://www.legacyselfstorage.com/boat-rv-storage"
+    title: Legacy Self Storage boat and RV page
+  - url: >-
+      https://www.legacyselfstorage.com/storage-locations/ga/evans/4731-washington-road
+    title: Nearby Legacy page listing the Blanchard address and phone
+  last_verified: '2026-11-18'
+- slug: southern-boat-rv-storage
+  name: "Southern Boat & RV Storage"
+  street: 324 UN Court
+  city: Grovetown
+  state_code: GA
+  postal_code: "30813"
+  lat: null
+  lng: null
+  phone: "(706) 814-4248"
+  website: "https://www.southernboatrvstorage.com/pages/rent"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - enclosed
+  - open
+  max_length_ft: 45
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: null
+  access_24h: true
+  price_notes: >-
+    Open parking is $80 per month for spaces up to 25 or 26 feet and $90 per month for 30
+    feet. Enclosed parking is $275 per month. A 45-foot open space is listed without a price
+    on the captured page.
+  waitlist: null
+  notes: >-
+    The Grovetown page offers open and enclosed RV and boat parking, 24-hour access, and a
+    power sliding gate with a keypad. The enclosed unit text gives one door height, so clearance
+    is left empty. Office hours are 9:00 am to 5:00 pm every day.
+  sources:
+  - url: "https://www.southernboatrvstorage.com/pages/rent"
+    title: Southern Boat and RV Storage rent page
+  last_verified: '2026-11-18'
+- slug: premier-storage-group-grovetown
+  name: Premier Storage Group
+  street: 340 GRIMAUDE BLVD
+  city: Grovetown
+  state_code: GA
+  postal_code: "30813"
+  lat: null
+  lng: null
+  phone: "(706) 955-6740"
+  website: "https://www.premierstoragegroup.com/pages/rent"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - enclosed
+  - open
+  max_length_ft: 70
+  clearance_ft: 14
+  power_hookups: true
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: null
+  price_notes: >-
+    The page says pricing is effective through May 31, 2026. Open gravel is $93.50 per month
+    for 40 by 11 feet and $104.50 per month for 50 by 11 feet, with no power. Covered spaces
+    run from $130 per month for 20 feet to $300 per month for a 70-foot pull-through, at 14
+    feet high. Fully enclosed spaces are $425 per month for 50 feet and $475 per month for
+    55 feet, at 13.5 feet high.
+  waitlist: null
+  notes: >-
+    Covered and enclosed spaces say power is available, including in select covered buildings.
+    Office hours are Monday through Friday, 9:00 am to 5:00 pm. The page does not print gate
+    hours, a gate, or cameras.
+  sources:
+  - url: "https://www.premierstoragegroup.com/pages/rent"
+    title: Premier Storage Group rent page
+  last_verified: '2026-11-18'
+- slug: william-few-storage
+  name: William Few Storage
+  street: 1824 William Few Parkway
+  city: Grovetown
+  state_code: GA
+  postal_code: "30813"
+  lat: null
+  lng: null
+  phone: null
+  website: "https://www.williamfewstorage.com/boat-rv-storage"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - enclosed
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The boat and RV page offers indoor and outdoor spaces for boats, RVs, and campers on a
+    concrete and asphalt lot, with 24/7 access, a gate, and security cameras, off I-20 at
+    Exit 190. The homepage prints this street address and does not print a phone number.
+  sources:
+  - url: "https://www.williamfewstorage.com/boat-rv-storage"
+    title: William Few Storage boat and RV page
+  - url: "https://www.williamfewstorage.com/"
+    title: William Few Storage homepage
+  last_verified: '2026-11-18'
