@@ -1,0 +1,535 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: dallas-fort-worth-tx
+city: Dallas-Fort Worth
+state: Texas
+state_code: TX
+metro: Dallas-Fort Worth
+summary: >-
+  These facilities publish an RV or boat storage page in the Dallas-Fort Worth
+  area, including Fort Worth, Arlington, Plano, Haslet, Lake Dallas, Wylie,
+  Lewisville, Dallas, Grand Prairie, and McKinney. The address keeps the
+  facility's own city. A price or amenity stays blank when that page does not
+  state it.
+sparefoot_slug: Dallas-TX
+neighbor_path: texas/dallas
+sparefoot_note: >-
+  SpareFoot and Neighbor list Dallas and Fort Worth on separate pages. These
+  links open the Dallas results.
+listings:
+  - slug: affordable-boat-rv-storage-mckinney
+    name: "Affordable Boat & RV Storage"
+    street: 3484 Co Rd 406
+    city: McKinney
+    state_code: TX
+    postal_code: "75071"
+    lat: null
+    lng: null
+    phone: "(469) 935-8999"
+    website: https://www.mckinney-storage.com/units
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      East-side McKinney facility near New Hope and Princeton. The page lists
+      covered parking and fully enclosed boat and RV parking. Gate hours are
+      listed as daily, open 24 hours. Office hours are Monday through Friday
+      8:30 AM to 5:30 PM.
+    sources:
+      - url: https://www.mckinney-storage.com/units
+        title: Units page
+    last_verified: "2026-11-18"
+
+  - slug: carefree-covered-rv-storage-wylie
+    name: Carefree Covered RV Storage
+    street: 1405 Parker Rd
+    city: Wylie
+    state_code: TX
+    postal_code: "75098"
+    lat: null
+    lng: null
+    phone: "(972) 213-6214"
+    website: https://www.carefreecoveredrvstorage.com/1405-parker-rd-wylie-tx-75098
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered and uncovered boat and RV spaces with trickle-charge power, a dump
+      station and water, keypad gates, and 32 surveillance cameras. Access hours
+      are 5:00 AM to 10:00 PM every day. Office hours are Monday through Saturday
+      9:00 AM to 6:00 PM.
+    sources:
+      - url: https://www.carefreecoveredrvstorage.com/1405-parker-rd-wylie-tx-75098
+        title: Official Wylie page
+    last_verified: "2026-11-18"
+
+  - slug: fort-worth-rv-and-boat-storage
+    name: Fort Worth RV and Boat Storage
+    street: 5015 Dick Price RD
+    city: Fort Worth
+    state_code: TX
+    postal_code: "76140"
+    lat: null
+    lng: null
+    phone: "(817) 223-3155"
+    website: https://www.fwrvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered spots with 15-amp electricity, a dump station with fresh water,
+      24-hour gated access, and digital video surveillance. The owners also
+      operate Sportsman's RV Rentals from this facility.
+    sources:
+      - url: https://www.fwrvstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: haslet-boat-rv-storage
+    name: "Haslet Boat & RV Storage"
+    street: 800 Blue Mound Road E
+    city: Haslet
+    state_code: TX
+    postal_code: "76052"
+    lat: null
+    lng: null
+    phone: "(817) 769-8544"
+    website: https://www.hasletstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: 63
+    clearance_ft: null
+    power_hookups: null
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: >-
+      Dump-station membership is listed at $200 per year, up to 2 dumps per
+      month. No monthly storage-space rate was published on the page opened.
+    waitlist: null
+    notes: >-
+      Uncovered parking, canopy parking, and fully enclosed drive-up units.
+      Pull-through uncovered spaces are listed up to 12 by 63 feet. The page
+      lists a dump station and wash area and 24/7 video surveillance. The gate
+      is open daily from 5:00 AM to 11:00 PM, and 24-hour access is described
+      as available upon approval, so it is not marked as standard 24-hour access.
+    sources:
+      - url: https://www.hasletstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: honey-bee-rv-storage-lewisville
+    name: Honey Bee RV Storage
+    street: 801 S. Railroad Street
+    city: Lewisville
+    state_code: TX
+    postal_code: "75057"
+    lat: null
+    lng: null
+    phone: "(469) 228-8722"
+    website: https://www.honeybeerv.com/rv-storage-locations/tx/lewisville/801-s-railroad-st
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: 60
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered, uncovered, and enclosed RV storage. Space sizes are listed from
+      10 by 8 to 12 by 60. The page lists trickle-charge electricity, a dump
+      station, wash stations, a personal gate code, and 24-hour high-definition
+      video surveillance. Access hours shown were 5:00 AM to 10:00 PM, and
+      office hours 9:00 AM to 5:00 PM.
+    sources:
+      - url: https://www.honeybeerv.com/rv-storage-locations/tx/lewisville/801-s-railroad-st
+        title: Lewisville location page
+    last_verified: "2026-11-18"
+
+  - slug: king-bros-boat-storage-lake-dallas
+    name: King Bros Boat Storage
+    street: 965 Main St
+    city: Lake Dallas
+    state_code: TX
+    postal_code: "75065"
+    lat: null
+    lng: null
+    phone: "(940) 321-3685"
+    website: https://www.kingbros.net/
+    vehicles: [boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Family-owned boat storage since 1984. The page does not use the words
+      covered, enclosed, or open. Newer units have electric doors. A dump
+      station, air, and water are available. Code-access gates, 24/7 camera
+      monitoring, and 24/7 access are stated. West Lake Park boat ramp is next
+      to the facility. A cell number, (940) 367-6224, is also listed. RVs are
+      not named.
+    sources:
+      - url: https://www.kingbros.net/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: lakeview-boat-rv-storage-grand-prairie
+    name: "Lakeview Boat & RV Storage"
+    street: 1051 N. Day Miar Rd.
+    city: Grand Prairie
+    state_code: TX
+    postal_code: "75052"
+    lat: null
+    lng: null
+    phone: "(817) 557-8772"
+    website: https://lakeviewstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 50
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: true
+    price_notes: >-
+      Uncovered 10 by 25 ft from $100 per month; covered 10 by 20 ft from $119;
+      covered 10 by 25 ft from $137; covered 12 by 20 ft $130; covered 12 by 25
+      ft $172; uncovered 12 by 30 ft $177; covered 12 by 30 ft from $202;
+      uncovered 12 by 35 ft $221; covered 12 by 35 ft $255; uncovered 12 by 50
+      ft $237; covered 12 by 50 ft $297 per month. Electric is noted on the
+      12 by 35 ft and 12 by 50 ft sizes.
+    waitlist: null
+    notes: >-
+      Outdoor and covered parking next to Loyd Park. The site says the lot
+      serves Mansfield, Arlington, Grand Prairie, and Cedar Hill, with a fenced
+      gate and 24-hour access. Office hours are Monday through Friday 10 AM
+      to 2 PM. The street spelling follows the facility page.
+    sources:
+      - url: https://lakeviewstorage.com/
+        title: Official website
+      - url: https://lakeviewstorage.com/sizes-and-prices/
+        title: Sizes and prices
+    last_verified: "2026-11-18"
+
+  - slug: myplace-self-storage-dallas-maple
+    name: MyPlace Self-Storage
+    street: 6434 Maple Avenue
+    city: Dallas
+    state_code: TX
+    postal_code: "75235"
+    lat: null
+    lng: null
+    phone: "(877) 700-0155"
+    website: https://myplaceselfstorage.com/storage-locations/tx/dallas/6434-maple-ave/dallas-rv-storage/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Dallas RV page states secure gated access and covered and uncovered
+      parking for RVs, boats, and trailers on Maple Avenue. The page says
+      24/7 surveillance monitoring and does not say cameras or video at this
+      location, so cameras are not listed. The only phone printed is
+      877-700-0155.
+    sources:
+      - url: https://myplaceselfstorage.com/storage-locations/tx/dallas/6434-maple-ave/dallas-rv-storage/
+        title: Dallas RV storage page
+    last_verified: "2026-11-18"
+
+  - slug: north-fort-worth-storage-haslet
+    name: North Fort Worth Storage
+    street: 12500 Willow Springs Rd
+    city: Haslet
+    state_code: TX
+    postal_code: "76052"
+    lat: null
+    lng: null
+    phone: "(817) 727-4410"
+    website: https://nfwstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: 40
+    clearance_ft: 16
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: >-
+      Covered parking with electric, 40 by 12 by 16 ft, is listed at $220 per
+      month. A fully enclosed unit with electric, 33 by 14 by 16 ft, is listed
+      at $350 per month, with 30-amp power and 14 ft wide by 16 ft tall roll-up
+      doors. Uncovered parking was shown with no units available and no price.
+    waitlist: null
+    notes: >-
+      Covered spaces are described as a roof with no walls, and indoor units
+      as fully enclosed. The page lists gated code access and digital video
+      surveillance. The main site and the rent page list different office hours.
+    sources:
+      - url: https://nfwstorage.com/
+        title: Official website
+      - url: https://nfwstorage.com/map-directions/
+        title: Map and directions
+      - url: https://nfwstorage.storageunitsoftware.com/pages/rent
+        title: Rent page
+    last_verified: "2026-11-18"
+
+  - slug: outrig-storage-keller-east
+    name: Outrig Storage Keller East
+    street: 4520 Keller Hicks Road
+    city: Fort Worth
+    state_code: TX
+    postal_code: "76244"
+    lat: null
+    lng: null
+    phone: 817-337-5554
+    website: https://outrig.com/locations/keller-east/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed]
+    max_length_ft: 52
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      Covered canopy spaces from $199 to $394 per month (12 ft by 30 ft through
+      12.5 ft by 50 ft, with power). Enclosed garages from $370 to $659 per
+      month (10 ft by 28 ft through 17 ft by 52 ft, with 15-amp power).
+    waitlist: null
+    notes: >-
+      Enclosed sizes run to 17 by 52 feet and canopy sizes to 12.5 by 50 feet.
+      One FAQ line says spaces run up to 50 feet long. The page lists electric
+      in every unit, dump and air stations, drive-through wash bays, 24/7 gated
+      entry, security cameras, and gate access every day, 24 hours. The address
+      is north Fort Worth on the Keller side.
+    sources:
+      - url: https://outrig.com/locations/keller-east/
+        title: Official Keller East page
+    last_verified: "2026-11-18"
+
+  - slug: recnation-rv-boat-storage-fort-worth-377
+    name: "RecNation RV & Boat Storage (Highway 377)"
+    street: 16161 Highway 377
+    city: Fort Worth
+    state_code: TX
+    postal_code: "76126"
+    lat: null
+    lng: null
+    phone: "(469) 658-8369"
+    website: https://www.recnationstorage.com/storage-facility/tx/fort-worth/16161-highway-377/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: 50
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      The unit list shows outdoor uncovered 12 by 20 ft at $44 per month,
+      outdoor canopy 12 by 20 ft at $66, indoor garage 12 by 20 ft at $77,
+      and outdoor canopy 12 by 50 ft at $124. The FAQ says small covered units
+      begin at $71 per month and small uncovered units at $65 per month.
+    waitlist: null
+    notes: >-
+      Indoor garage, outdoor canopy, and outdoor uncovered spaces. The longest
+      RV or boat space on this facility's list is a 12 by 50 ft canopy.
+      Tractor-trailer parking is listed separately at 12 by 70 ft and was not
+      used as the RV length. The page lists power in some units, remote gate
+      access, 24/7 security cameras, and 24-hour access. It also prints
+      (469) 770-7955.
+    sources:
+      - url: https://www.recnationstorage.com/storage-facility/tx/fort-worth/16161-highway-377/
+        title: Official facility page
+    last_verified: "2026-11-18"
+
+  - slug: recnation-rv-boat-storage-plano
+    name: "RecNation RV & Boat Storage (East Plano Pkwy)"
+    street: "1700 E Plano Pkwy #100"
+    city: Plano
+    state_code: TX
+    postal_code: "75074"
+    lat: null
+    lng: null
+    phone: "(972) 833-1166"
+    website: https://www.recnationstorage.com/storage-facility/tx/plano/1700-e-plano-pkwy/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 65
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      This facility's unit list shows outdoor uncovered from $144 per month
+      (10 by 20 ft) to $287 per month (12 by 65 ft) and outdoor canopy from
+      $161 per month (10 by 20 ft) to $364 per month (12 by 50 ft). The FAQ
+      says uncovered storage starts at $60 per month and covered storage starts
+      at $280 per month.
+    waitlist: null
+    notes: >-
+      Covered and uncovered parking at this address. Indoor garage rates farther
+      down the page are labeled as nearby facilities and were not tagged here.
+      The page lists electrical power, an RV dump station, a vehicle washdown
+      area, remote gate access, 24/7 security cameras, and 24-hour access. It
+      also calls the site All Star RV Center and says an RV repair company is
+      on site.
+    sources:
+      - url: https://www.recnationstorage.com/storage-facility/tx/plano/1700-e-plano-pkwy/
+        title: Official facility page
+    last_verified: "2026-11-18"
+
+  - slug: saswatch-storage-lake-dallas
+    name: SasWatch Storage
+    street: 311 Carlisle Drive
+    city: Lake Dallas
+    state_code: TX
+    postal_code: "75065"
+    lat: null
+    lng: null
+    phone: null
+    website: https://www.saswatchstorage.com/pages/rent
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 45
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: >-
+      A 28 by 10 ft open space is $125 per month and a 30 by 10 ft open space
+      is $135 per month. No price was shown for the 20 by 10 ft or 45 by 10 ft
+      spaces.
+    waitlist: null
+    notes: >-
+      Open spaces listed are 20 by 10 ft, 28 by 10 ft, 30 by 10 ft, and 45 by
+      10 ft, for boats and RVs. No phone number was published on the page.
+    sources:
+      - url: https://www.saswatchstorage.com/pages/rent
+        title: Rent page
+    last_verified: "2026-11-18"
+
+  - slug: suresafe-rv-boat-storage-fort-worth
+    name: "SureSafe RV & Boat Storage"
+    street: 10103 Harmon Rd
+    city: Fort Worth
+    state_code: TX
+    postal_code: "76177"
+    lat: null
+    lng: null
+    phone: 817-232-2300
+    website: https://www.suresafervstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: 50
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: true
+    price_notes: A single unit is listed at $165 per month.
+    waitlist: null
+    notes: >-
+      The site advertises shaded storage, electrical hookups, tenant gate codes,
+      and 24/7 tenant access for items up to 11 ft by 50 ft plus. Shaded storage
+      is tagged as covered. The rental form includes boat and RV.
+    sources:
+      - url: https://www.suresafervstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: vanguard-rv-boat-storage-arlington
+    name: "Vanguard RV & Boat Storage — Arlington"
+    street: 7425 U.S. 287 Frontage Rd
+    city: Arlington
+    state_code: TX
+    postal_code: "76001"
+    lat: null
+    lng: null
+    phone: "(817) 572-4000"
+    website: https://www.vanguardstorage.com/7425-us-287-frontage-rd-arlington-tx-76001
+    vehicles: [rv, boat]
+    storage_types: [enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: Listed from $60 per month.
+    waitlist: null
+    notes: >-
+      Indoor enclosed units or outdoor uncovered spaces, with electronic gated
+      entry and HD security cameras. Gate hours are 6 AM to 11 PM daily.
+      24/7 access is stated for commercial tenants, so 24-hour access is not
+      marked for the general gate. In-office time is Tuesdays and by appointment.
+    sources:
+      - url: https://www.vanguardstorage.com/7425-us-287-frontage-rd-arlington-tx-76001
+        title: Official Arlington page
+    last_verified: "2026-11-18"

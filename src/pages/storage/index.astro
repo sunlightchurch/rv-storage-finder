@@ -1,0 +1,32 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import FilterIndex from '../../components/FilterIndex.astro';
+import { directoryStats } from '../../lib/data';
+import { breadcrumbNode, pageGraph, webPageNode } from '../../lib/schema';
+
+const title = 'RV and boat storage by type | RV Storage Finder';
+const description =
+  'Filter sourced RV and boat storage by covered, enclosed, outdoor, power, dump station, and published monthly prices in Tampa, Orlando, Phoenix, Houston, and Dallas-Fort Worth.';
+const path = '/storage/';
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'Storage types', path },
+];
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: directoryStats().latest }),
+  breadcrumbNode(crumbs),
+]);
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <div class="wrap">
+    <Breadcrumbs items={crumbs} />
+    <h1>Browse storage by need</h1>
+    <p class="summary">
+      Each link is a city subset. A filter page exists only when at least one sourced facility matches.
+      Silence on a facility page does not count as a match.
+    </p>
+    <FilterIndex />
+  </div>
+</Base>

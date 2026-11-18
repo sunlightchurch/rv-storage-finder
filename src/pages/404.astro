@@ -1,0 +1,15 @@
+---
+import Base from '../layouts/Base.astro';
+import { href } from '../lib/data';
+
+const title = 'Page not found | RV Storage Finder';
+const description = 'That address is not a city, state, or storage filter in this directory.';
+---
+
+<Base title={title} description={description} path="/404.html" noindex={true}>
+  <div class="wrap prose">
+    <h1>Page not found</h1>
+    <p>That address is not a city, state, or storage filter in this directory.</p>
+    <p><a href={href('/')}>Back to the directory</a></p>
+  </div>
+</Base>

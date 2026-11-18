@@ -1,0 +1,84 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import FilterChips from '../../components/FilterChips.astro';
+import FindMore from '../../components/FindMore.astro';
+import ListingCard from '../../components/ListingCard.astro';
+import { getFilterPage, getFilterPages, href, stateSlug } from '../../lib/data';
+import { breadcrumbNode, faqNode, itemListNode, pageGraph, webPageNode } from '../../lib/schema';
+
+export function getStaticPaths() {
+  return getFilterPages().map((page) => ({ params: { slug: page.slug } }));
+}
+
+const page = getFilterPage(Astro.params.slug!);
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: page.city.state, path: `/states/${stateSlug(page.city.state)}/` },
+  { label: page.city.city, path: `/cities/${page.city.id}/` },
+  { label: page.filter.label, path: page.path },
+];
+const priced = page.matches.filter((listing) => listing.price_notes).length;
+const label = page.filter.label.toLowerCase();
+const faqs = [
+  {
+    q: `How many ${label} facilities are listed in ${page.city.city}?`,
+    a: `${page.matches.length} facilities in this directory match. This is not every lot in ${page.city.metro}. Each match links to a public source.`,
+  },
+  {
+    q: `How much does ${label} cost in ${page.city.city}?`,
+    a:
+      priced > 0
+        ? `${priced} of ${page.matches.length} matching facilities publish a price on the source we checked. The figures are copied here and are not averaged. Tax and fees may be extra.`
+        : `None of the matching facilities published a price on the source we checked, so price says not listed. The cost guide explains how to read a national range beside a local quote.`,
+  },
+  {
+    q: 'What does not listed mean?',
+    a: 'The source page we opened did not state that fact. It does not mean the facility lacks it. Call before you rule an amenity out.',
+  },
+];
+const latest = page.matches.map((listing) => listing.last_verified).sort().at(-1);
+const schema = pageGraph([
+  webPageNode({
+    title: page.title,
+    description: page.description,
+    path: page.path,
+    dateModified: latest,
+  }),
+  breadcrumbNode(crumbs),
+  itemListNode(page.h1, page.matches),
+  faqNode(faqs),
+]);
+---
+
+<Base title={page.title} description={page.description} path={page.path} schema={schema}>
+  <div class="wrap">
+    <Breadcrumbs items={crumbs} />
+    <p class="eyebrow">{page.city.city}, {page.city.state_code}</p>
+    <h1>{page.h1}</h1>
+    <p class="summary">{page.intro}</p>
+    <p class="legend">
+      {page.matches.length} facilities match. {priced} publish a price. Prices on this page are not averaged.
+    </p>
+    <FilterChips city={page.city} current={page.slug} />
+    <h2>Matching facilities</h2>
+    {page.matches.map((listing) => <ListingCard listing={listing} />)}
+    <section class="faq">
+      <h2>Questions</h2>
+      {
+        faqs.map((faq) => (
+          <>
+            <h3>{faq.q}</h3>
+            <p>{faq.a}</p>
+          </>
+        ))
+      }
+    </section>
+    <FindMore city={page.city} />
+    <p class="cross">
+      <a href={href(`/cities/${page.city.id}/`)}>All {page.city.city} listings</a>
+      <a href={href('/guide/')}>What RV storage costs</a>
+      <a href={href('/storage/')}>All filters</a>
+    </p>
+  </div>
+</Base>

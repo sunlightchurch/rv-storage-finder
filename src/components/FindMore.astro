@@ -1,0 +1,36 @@
+---
+import { href, partnerUrl, type City } from '../lib/data';
+
+interface Props {
+  city?: City;
+}
+
+const { city } = Astro.props;
+const headingId = city ? `more-${city.id}` : 'more-storage';
+const place = city ? ` near ${city.city}` : '';
+---
+
+<aside class="cta" aria-labelledby={headingId}>
+  <h2 id={headingId}>
+    Find more storage{place}
+    <span class="tag">Commercial links</span>
+  </h2>
+  <p>
+    Neighbor and SpareFoot list more facilities, driveways, and garages{place}. Affiliate IDs are not
+    turned on yet, so these open the public marketplace pages.
+    <a href={href('/disclosure/')}>Affiliate disclosure</a>.
+  </p>
+  <ul>
+    <li>
+      <a href={partnerUrl('neighbor', city)} rel="sponsored nofollow noopener noreferrer" target="_blank">
+        Neighbor RV storage{place}<span class="sr-only"> (opens in a new tab)</span>
+      </a>
+    </li>
+    <li>
+      <a href={partnerUrl('sparefoot', city)} rel="sponsored nofollow noopener noreferrer" target="_blank">
+        SpareFoot RV storage{place}<span class="sr-only"> (opens in a new tab)</span>
+      </a>
+    </li>
+  </ul>
+  {city?.sparefoot_note && <p class="fine">{city.sparefoot_note}</p>}
+</aside>

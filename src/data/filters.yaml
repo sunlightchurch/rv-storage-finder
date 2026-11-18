@@ -1,0 +1,132 @@
+# Each filter becomes one page per city that has at least one match.
+# Adding a city file creates these pages automatically. No new template is required.
+# Match rules are AND across the flags below.
+# vehicles: the listing must include at least one of these.
+# storage_types: the listing must include every type listed here (empty = any type).
+# require_*: the listing must explicitly have that fact. Silence does not match.
+
+- id: covered-rv
+  slug_prefix: covered-rv-storage
+  label: Covered RV storage
+  vehicles: [rv]
+  storage_types: [covered]
+  require_power: false
+  require_dump: false
+  require_wash: false
+  require_price: false
+  title: "Covered RV storage in {city}, {state_code}"
+  description: "Covered RV storage in and near {city}, {state}: {count} sourced facilities. Length, clearance, power, and monthly prices only when published."
+  h1: "Covered RV storage in {city}"
+  intro: "These facilities in and near {city}, {state} publicly list covered RV storage, such as a roof, canopy, or carport. Lots that do not describe a cover stay on the full city page."
+
+- id: enclosed-rv
+  slug_prefix: enclosed-rv-storage
+  label: Enclosed RV storage
+  vehicles: [rv]
+  storage_types: [enclosed]
+  require_power: false
+  require_dump: false
+  require_wash: false
+  require_price: false
+  title: "Enclosed RV storage in {city}, {state_code}"
+  description: "Enclosed and indoor RV storage in and near {city}, {state}: {count} sourced facilities. Door height, length, and monthly prices only when published."
+  h1: "Enclosed RV storage in {city}"
+  intro: "These facilities in and near {city}, {state} publicly list enclosed or indoor RV storage, such as a garage bay or a warehouse. Covered canopies without walls are on the covered page."
+
+- id: outdoor-rv
+  slug_prefix: outdoor-rv-storage
+  label: Outdoor RV storage
+  vehicles: [rv]
+  storage_types: [open]
+  require_power: false
+  require_dump: false
+  require_wash: false
+  require_price: false
+  title: "Outdoor RV storage in {city}, {state_code}"
+  description: "Outdoor and uncovered RV storage in and near {city}, {state}: {count} sourced facilities. Length and monthly prices only when the facility publishes them."
+  h1: "Outdoor RV storage in {city}"
+  intro: "These facilities in and near {city}, {state} publicly list open or uncovered RV storage. A roofed space is on the covered page instead."
+
+- id: rv-power
+  slug_prefix: rv-storage-with-power
+  label: RV storage with power
+  vehicles: [rv]
+  storage_types: []
+  require_power: true
+  require_dump: false
+  require_wash: false
+  require_price: false
+  title: "RV storage with power in {city}, {state_code}"
+  description: "RV storage with power hookups in and near {city}, {state}: {count} sourced facilities. Amperage, length, and monthly prices only when published."
+  h1: "RV storage with power in {city}"
+  intro: "These facilities in and near {city}, {state} state that electrical hookups or outlets are available for RVs. A trickle charger and a 50-amp pedestal are both recorded as power. The note quotes amperage when the facility prints it."
+
+- id: rv-dump
+  slug_prefix: rv-storage-with-dump
+  label: RV storage with a dump station
+  vehicles: [rv]
+  storage_types: []
+  require_power: false
+  require_dump: true
+  require_wash: false
+  require_price: false
+  title: "RV storage with a dump station in {city}, {state_code}"
+  description: "RV storage with a dump station in and near {city}, {state}: {count} sourced facilities. On-site dump stations only, with prices when published."
+  h1: "RV storage with a dump station in {city}"
+  intro: "These facilities in and near {city}, {state} state that an RV dump station is available. A dumpster for household trash is not counted. A station at a different address is not counted."
+
+- id: boat
+  slug_prefix: boat-storage
+  label: Boat storage
+  vehicles: [boat]
+  storage_types: []
+  require_power: false
+  require_dump: false
+  require_wash: false
+  require_price: false
+  title: "Boat storage in {city}, {state_code}"
+  description: "Boat storage in and near {city}, {state}: {count} sourced facilities. Covered, enclosed, and outdoor options, plus prices when the facility publishes them."
+  h1: "Boat storage in {city}"
+  intro: "These facilities in and near {city}, {state} publicly list boat storage. Many also store RVs. Dry-stack buildings and trailer lots are both included when the page says boats are stored."
+
+- id: covered-boat
+  slug_prefix: covered-boat-storage
+  label: Covered boat storage
+  vehicles: [boat]
+  storage_types: [covered]
+  require_power: false
+  require_dump: false
+  require_wash: false
+  require_price: false
+  title: "Covered boat storage in {city}, {state_code}"
+  description: "Covered boat storage in and near {city}, {state}: {count} sourced facilities. Length, clearance, and monthly prices only when published."
+  h1: "Covered boat storage in {city}"
+  intro: "These facilities in and near {city}, {state} publicly list covered boat storage. Enclosed dry-stack buildings are on the boat storage page and are tagged enclosed rather than covered."
+
+- id: boat-power
+  slug_prefix: boat-storage-with-power
+  label: Boat storage with power
+  vehicles: [boat]
+  storage_types: []
+  require_power: true
+  require_dump: false
+  require_wash: false
+  require_price: false
+  title: "Boat storage with power in {city}, {state_code}"
+  description: "Boat storage with power in and near {city}, {state}: {count} sourced facilities. Hookups, length, and monthly prices only when the facility publishes them."
+  h1: "Boat storage with power in {city}"
+  intro: "These facilities in and near {city}, {state} store boats and state that power is available. The listing note quotes amperage when the page prints it."
+
+- id: prices
+  slug_prefix: storage-prices
+  label: Published storage prices
+  vehicles: [rv, boat]
+  storage_types: []
+  require_power: false
+  require_dump: false
+  require_wash: false
+  require_price: true
+  title: "RV storage prices in {city}, {state_code}"
+  description: "Published RV and boat storage prices in and near {city}, {state}. {count} facilities print a rate. Figures are copied from the source and are not averaged."
+  h1: "RV storage prices in {city}"
+  intro: "These facilities in and near {city}, {state} print a price on the page we checked. The figure may be a length tier, a starting rate, or a promotional online rate beside a higher in-store rate. This page does not average them. Facilities that do not print a price are on the city page, with price marked not listed."

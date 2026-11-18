@@ -1,0 +1,535 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: phoenix-az
+city: Phoenix
+state: Arizona
+state_code: AZ
+metro: Phoenix
+summary: >-
+  These facilities publish an RV or boat storage page in Phoenix or nearby,
+  including Peoria, Glendale, Surprise, Waddell, Scottsdale, Mesa, and Chandler.
+  Covered canopies are common on these pages. Clearance and price are filled
+  in only when the facility prints a number.
+sparefoot_slug: Phoenix-AZ
+neighbor_path: arizona/phoenix
+sparefoot_note: null
+listings:
+  - slug: 202-rv-valet-storage
+    name: 202 RV Valet Storage
+    street: 8847 E Main St
+    city: Mesa
+    state_code: AZ
+    postal_code: "85207"
+    lat: null
+    lng: null
+    phone: "(480) 912-7200"
+    website: https://www.202rvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Fully enclosed units for RVs, boats, campers, and trailers, with a wash
+      bay, fresh water, and an LP fueling station. Valet drop-off is offered.
+      The page says the facility is fenced and gated, has 24-hour video
+      surveillance, and gate access is 24 hours. Office hours are Monday through
+      Friday 9:00 a.m. to 6:00 p.m. and Saturday 9:00 a.m. to 4:00 p.m.
+    sources:
+      - url: https://www.202rvstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: advantage-boat-and-rv-surprise
+    name: Advantage Boat and RV
+    street: 13516 W. Foxfire Dr.
+    city: Surprise
+    state_code: AZ
+    postal_code: "85378"
+    lat: null
+    lng: null
+    phone: 623-214-8484
+    website: https://www.advantagestorage.net/storage-locations/az/surprise/13516-w-foxfire-dr/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed]
+    max_length_ft: 80
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: >-
+      Published parking prices on the page include 11x35 in-store $216 and $166,
+      12x35 at $172, and 12x80 at $322. Other listed sizes had no price in the
+      fetched text.
+    waitlist: null
+    notes: >-
+      Covered and enclosed RV and boat space. Unit cards include covered parking
+      up to 11x80 and 12x80, while the FAQ size list stops at 12x50. Access hours
+      are Monday through Sunday 5:00 a.m. to 10:00 p.m. A second phone number,
+      (623) 335-0295, is also printed. The page says the facility is gated and
+      has on-site surveillance cameras.
+    sources:
+      - url: https://www.advantagestorage.net/storage-locations/az/surprise/13516-w-foxfire-dr/
+        title: Official location page
+    last_verified: "2026-11-18"
+
+  - slug: ameripark-mesa
+    name: Ameripark Covered Storage Mesa
+    street: 40 South Ellsworth Road
+    city: Mesa
+    state_code: AZ
+    postal_code: "85207"
+    lat: null
+    lng: null
+    phone: "(480) 898-4141"
+    website: https://ameriparkcoveredstorage.com/mesa/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 45
+    clearance_ft: 15
+    power_hookups: true
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: Starting at $180 per month.
+    waitlist: null
+    notes: >-
+      Covered and uncovered spaces at 30, 35, 40, and 45 feet, including covered
+      40-foot pull-throughs. The company says every Mesa space has a trickle-charge
+      outlet and the canopies are 15 feet high. Both Mesa and Waddell are described
+      as having an RV sewage dump station, a gated lot, and 24/7 video cameras,
+      with access from 3:00 a.m. to 11:00 p.m.
+    sources:
+      - url: https://ameriparkcoveredstorage.com/mesa/
+        title: Mesa location page
+      - url: https://ameriparkcoveredstorage.com/
+        title: Company homepage
+    last_verified: "2026-11-18"
+
+  - slug: ameripark-waddell
+    name: Ameripark Covered Storage Waddell
+    street: 17220 W Bethany Home Rd
+    city: Waddell
+    state_code: AZ
+    postal_code: "85355"
+    lat: null
+    lng: null
+    phone: "(623) 632-1166"
+    website: https://ameriparkcoveredstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 60
+    clearance_ft: 15
+    power_hookups: true
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: Starting at $140 per month.
+    waitlist: null
+    notes: >-
+      Covered lengths of 30, 35, and 40 feet, and uncovered lengths of 30, 40,
+      45, and 60 feet. Trickle-charge outlets are on covered spaces only at
+      Waddell. The site says canopies are 15 feet high, both yards have an RV
+      dump station, and access is 3:00 a.m. to 11:00 p.m. The page says this
+      yard serves Surprise, Peoria, Glendale, and Buckeye.
+    sources:
+      - url: https://ameriparkcoveredstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: arrowhead-rv-boat-storage
+    name: "Arrowhead RV & Boat Storage"
+    street: 9701 W. Peoria Ave.
+    city: Peoria
+    state_code: AZ
+    postal_code: "85345"
+    lat: null
+    lng: null
+    phone: "(623) 537-4200"
+    website: https://arrowheadstorage.com/rv-storage-boat/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: 48
+    clearance_ft: 14
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      Uncovered 10x21 to 11x41, $83 to $140 per month. Covered: 11x30 $175,
+      11x33 $190, 11x40 $230, and 11x44 $255 per month. Enclosed garages
+      $220 to $410 per month. Premium garages: 13.5x42 $460, 13.5x44 $490,
+      and 15x48 $599 per month.
+    waitlist: null
+    notes: >-
+      Uncovered, covered, and enclosed garage parking. Door heights are listed
+      at 10, 12, 13, or 14 feet depending on the space. The page lists temporary
+      power plug-ins, a covered waste dump station, a covered RV wash bay,
+      24-hour electronic gate access, and 24-hour video surveillance. Office
+      hours are Tuesday through Saturday 9 a.m. to 6 p.m.
+    sources:
+      - url: https://arrowheadstorage.com/rv-storage-boat/
+        title: Official RV and boat page
+    last_verified: "2026-11-18"
+
+  - slug: carefree-covered-rv-storage-chandler
+    name: Carefree Covered RV Storage
+    street: 1575 S Nelson Dr
+    city: Chandler
+    state_code: AZ
+    postal_code: "85226"
+    lat: null
+    lng: null
+    phone: "(480) 488-9504"
+    website: https://www.carefreecoveredrvstorage.com/1575-s-nelson-dr-chandler-az-85226
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered, uncovered, and fully enclosed boat and RV spaces just south of I-10.
+      The page lists trickle-charge outlets, a dump station and water, a free
+      self RV wash, keypad gates, and 108 surveillance cameras. Access hours are
+      5:00 AM to 10:00 PM. Office hours are Monday through Saturday 9:00 a.m.
+      to 6:00 p.m. Available-unit prices were still loading on the page.
+    sources:
+      - url: https://www.carefreecoveredrvstorage.com/1575-s-nelson-dr-chandler-az-85226
+        title: Official Chandler page
+    last_verified: "2026-11-18"
+
+  - slug: deer-valley-mini-rv-storage
+    name: "Deer Valley Mini & RV Storage"
+    street: 1930 W Adobe Drive
+    city: Phoenix
+    state_code: AZ
+    postal_code: "85027"
+    lat: null
+    lng: null
+    phone: 623-869-7010
+    website: https://www.phoenixboatstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: false
+    price_notes: >-
+      Monthly prices exclude tax. Uncovered: up to 20 ft $64, 25 ft $79, 30 ft $99,
+      35 ft $115, and 40 ft $125. Covered: up to 20 ft $74. Sizes are described
+      as approximate.
+    waitlist: null
+    notes: >-
+      The page titles the offer Phoenix Boat Storage and names Deer Valley Mini
+      & RV Storage at this address. Gate access hours are 5:00 a.m. to 10:00 p.m.
+      Office hours are 8:30 a.m. to 5:30 p.m. Monday through Saturday.
+    sources:
+      - url: https://www.phoenixboatstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: happy-wife-rv-boat-trailer-storage
+    name: "Happy Wife RV, Boat & Trailer Storage"
+    street: 3815 S. Sossaman Road
+    city: Mesa
+    state_code: AZ
+    postal_code: "85212"
+    lat: null
+    lng: null
+    phone: "(480) 900-6500"
+    website: https://www.happywifestorage.com/pages/coveredstorage
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 70
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      Examples on the page include covered 10x20 at $165, 12x25 at $205, 12x30
+      at $225, 12x35 on concrete at $265, 12x35 on millings at $235, 12x40 on
+      millings at $265, 12x46 at $375, 12x70 pull-through on concrete at $490,
+      and 12x70 covered on millings at $450 per month. Semi-shaded examples
+      include 12x25 at $155 and 12x35 at $180 per month.
+    waitlist: The page says to call if a size shows waiting-list status.
+    notes: >-
+      Covered canopies, semi-shaded spaces with no overhead roof, and open-air
+      parking from 10x20 to 12x70, including pull-throughs. Many spaces have a
+      trickle-charge plug. The page lists an electronic gate, digital video
+      surveillance, unlimited dump-station use, and 24/7 gate access. Office
+      hours are Monday through Friday 9:00 a.m. to 4:00 p.m., Saturday 9:00 a.m.
+      to 12:00 p.m., and Sunday by appointment.
+    sources:
+      - url: https://www.happywifestorage.com/pages/coveredstorage
+        title: Covered storage page
+    last_verified: "2026-11-18"
+
+  - slug: i-10-rv-storage
+    name: I-10 RV Storage
+    street: 6740 W. Germann Rd.
+    city: Chandler
+    state_code: AZ
+    postal_code: "85226"
+    lat: null
+    lng: null
+    phone: "(480) 841-5770"
+    website: https://i10rvstorage.com/reserve-a-spot-2-2/
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: 70
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered spaces from 12x25 to 12x70 near I-10 and Loop 202. The page lists
+      electrical outlets at each covered space, a dump station, a wash bay,
+      keypad gates, and 24-hour video surveillance. The reservation form asks
+      for a quote rather than posting rates. Boat is one of the vehicle types
+      on that form.
+    sources:
+      - url: https://i10rvstorage.com/reserve-a-spot-2-2/
+        title: Reservation page
+    last_verified: "2026-11-18"
+
+  - slug: north-phoenix-storage
+    name: North Phoenix Storage
+    street: 21835 N 21st Ave
+    city: Phoenix
+    state_code: AZ
+    postal_code: "85027"
+    lat: null
+    lng: null
+    phone: 623-582-6406
+    website: https://northphoenixstorage.com/phoenix-rv-storage/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Uncovered RV spaces are listed at 15, 20, 25, 30, 35, and 40 feet. The
+      boat page also advertises covered parking and garage-style enclosed spots
+      for trailered boats and personal watercraft. The pages describe keypad
+      entry and security cameras recording continuously. Gate access hours are
+      5:00 AM to 10:00 PM.
+    sources:
+      - url: https://northphoenixstorage.com/phoenix-rv-storage/
+        title: RV storage page
+      - url: https://northphoenixstorage.com/phoenix-boat-storage/
+        title: Boat storage page
+    last_verified: "2026-11-18"
+
+  - slug: octane-marine-indoor-storage
+    name: Octane Marine
+    street: 22012 North 27th Avenue
+    city: Phoenix
+    state_code: AZ
+    postal_code: "85027"
+    lat: null
+    lng: null
+    phone: "(602) 670-3335"
+    website: https://octanemarine.com/indoor-boat-%26-rv-storage
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: 80
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      About 52,000 square feet of indoor boat and RV storage. Standard lengths
+      are 40 and 50 feet, and a 40-foot space can be expanded up to 80 feet.
+      The page says each unit has power and access is 24 hours.
+    sources:
+      - url: https://octanemarine.com/indoor-boat-%26-rv-storage
+        title: Indoor storage page
+    last_verified: "2026-11-18"
+
+  - slug: pecos-storage
+    name: Pecos Storage
+    street: 17200 South 32nd Street
+    city: Phoenix
+    state_code: AZ
+    postal_code: "85048"
+    lat: null
+    lng: null
+    phone: "(480) 252-6670"
+    website: https://pecosstorage.com/rv-and-boat-storage/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 50
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: true
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: >-
+      Headed monthly rates include uncovered 11x21 $58.95, 11x25 $68.95,
+      11x27 $73.95, 11x30 $82.95, 11x35 $95.95, and 11x40 $100.95; uncovered
+      premium 12x30 $89.95, 12x35 $104.95, 12x40 $119.95, 12x45 $134.95, and
+      12x50 $149.95; covered premium 12x45 $214.95. The page also prints 12x22
+      $99.95, 12x40 $189.95, and 12x45 $214.95 without a category heading.
+    waitlist: null
+    notes: >-
+      Covered and uncovered parking for RVs, motorhomes, campers, trailers, and
+      boats near Ahwatukee, with spaces extending to 50 feet. Covered premium
+      spaces include electrical outlets, and the page lists an RV and boat wash
+      area. Office hours are Sunday through Thursday 8:00 a.m. to 2:00 p.m. and
+      Friday through Saturday 8:00 a.m. to 5:00 p.m.
+    sources:
+      - url: https://pecosstorage.com/rv-and-boat-storage/
+        title: RV and boat storage page
+    last_verified: "2026-11-18"
+
+  - slug: recnation-mesa-1921-w-1st-ave
+    name: "RecNation RV & Boat Storage"
+    street: 1921 West 1st Avenue
+    city: Mesa
+    state_code: AZ
+    postal_code: "85202"
+    lat: null
+    lng: null
+    phone: "(480) 685-9252"
+    website: https://www.recnationstorage.com/storage-facility/az/mesa/1921-west-1st-avenue/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      The page says vehicle storage starts from $141 per month. Listed web rates
+      include uncovered 10x20 $141, 10x25 $157, 10x30 $173, 11x35 $210, and
+      11x40 $210; outdoor canopy 11x20 $208, 11x25 $233, 11x30 $259, 11x35 $285,
+      and 12x40 $285. The 10x20 uncovered card also shows a from-price of $161.
+    waitlist: null
+    notes: >-
+      Outdoor canopy and uncovered paved spaces for RVs, boats, and trailers.
+      The longest listed space is 40 feet. Uncovered spaces are described as
+      having no height limit, which is not a numeric clearance. The page lists
+      electrical access, an RV dump station, remote gate access, 24/7 security
+      cameras, and 24-hour access. Call-center hours are 6:00 a.m. to 10:00 p.m.
+    sources:
+      - url: https://www.recnationstorage.com/storage-facility/az/mesa/1921-west-1st-avenue/
+        title: Official facility page
+    last_verified: "2026-11-18"
+
+  - slug: scottsdale-storage
+    name: Scottsdale Storage
+    street: 2929 N 73rd st
+    city: Scottsdale
+    state_code: AZ
+    postal_code: "85251"
+    lat: null
+    lng: null
+    phone: "(480) 947-1898"
+    website: https://www.scottsdalestorage.net/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Uncovered parking for RVs, boats, and automobiles, plus household storage
+      units. The page lists digital video surveillance. Office hours are
+      Monday through Saturday 9:00 a.m. to 6:00 p.m.
+    sources:
+      - url: https://www.scottsdalestorage.net/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: southwest-rv-storage
+    name: Southwest RV Storage
+    street: 17030 N 63rd Ave
+    city: Glendale
+    state_code: AZ
+    postal_code: "85308"
+    lat: null
+    lng: null
+    phone: "(623) 486-3452"
+    website: https://www.southwest-rv.com/rv-storage/
+    vehicles: [rv]
+    storage_types: [open]
+    max_length_ft: 45
+    clearance_ft: null
+    power_hookups: null
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: >-
+      Monthly rates include city sales tax: 20 ft $119, 25 ft $131, 32 ft $146,
+      34 ft $152, 35 ft $171, 40 ft $184, 45 ft $200, and 45 ft pull-through $225.
+      Semi-annual payment is discounted 5% and annual payment 10%. A gate card
+      fee is $25 refundable, and a new-customer setup fee is $25.
+    waitlist: The page says to join a wait list when a size is unavailable.
+    notes: >-
+      Uncovered spaces for motorhomes, fifth wheels, pop-up campers, and trailers,
+      from 20 to 45 feet. The page lists a dump station and air compressor,
+      23-hour electronic gate access, and 24/7 video surveillance. Boats are
+      not named. Office hours are Monday through Friday 8:00 a.m. to 5:00 p.m.
+    sources:
+      - url: https://www.southwest-rv.com/rv-storage/
+        title: RV storage page
+    last_verified: "2026-11-18"

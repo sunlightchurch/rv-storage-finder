@@ -1,0 +1,119 @@
+---
+import type { Listing } from '../lib/data';
+import {
+  factClass,
+  formatBool,
+  formatDate,
+  formatFeet,
+  formatTypes,
+  formatVehicles,
+  mapUrl,
+  telHref,
+} from '../lib/format';
+
+interface Props {
+  listing: Listing;
+}
+
+const { listing } = Astro.props;
+const facts = [
+  { label: 'Vehicles', value: formatVehicles(listing.vehicles), kind: 'text' },
+  {
+    label: 'Storage',
+    value: formatTypes(listing.storage_types),
+    kind: listing.storage_types.length ? 'text' : 'unknown',
+  },
+  {
+    label: 'Longest length listed',
+    value: formatFeet(listing.max_length_ft),
+    kind: listing.max_length_ft == null ? 'unknown' : 'text',
+  },
+  {
+    label: 'Tallest clearance listed',
+    value: formatFeet(listing.clearance_ft),
+    kind: listing.clearance_ft == null ? 'unknown' : 'text',
+  },
+  { label: 'Power hookups', value: formatBool(listing.power_hookups), kind: factClass(listing.power_hookups) },
+  { label: 'Dump station', value: formatBool(listing.dump_station), kind: factClass(listing.dump_station) },
+  { label: 'Wash station', value: formatBool(listing.wash_station), kind: factClass(listing.wash_station) },
+  { label: 'Gated', value: formatBool(listing.gated), kind: factClass(listing.gated) },
+  { label: 'Cameras', value: formatBool(listing.cameras), kind: factClass(listing.cameras) },
+  { label: '24-hour access', value: formatBool(listing.access_24h), kind: factClass(listing.access_24h) },
+];
+---
+
+<article class="listing" id={listing.slug}>
+  <header class="listing-head">
+    <h3>{listing.name}</h3>
+    <address>
+      {listing.street}<br />
+      {listing.city}, {listing.state_code}{listing.postal_code ? ` ${listing.postal_code}` : ''}
+    </address>
+  </header>
+  <ul class="contacts">
+    <li>
+      {
+        listing.phone ? (
+          <a href={telHref(listing.phone)}>Call {listing.phone}</a>
+        ) : (
+          <span>
+            Phone <span class="unknown">Not listed</span>
+          </span>
+        )
+      }
+    </li>
+    <li>
+      {
+        listing.website ? (
+          <a href={listing.website} rel="noopener noreferrer" target="_blank">
+            Website<span class="sr-only"> for {listing.name} (opens in a new tab)</span>
+          </a>
+        ) : (
+          <span>
+            Website <span class="unknown">Not listed</span>
+          </span>
+        )
+      }
+    </li>
+    <li>
+      <a href={mapUrl(listing)} rel="noopener noreferrer" target="_blank">
+        Map<span class="sr-only"> for {listing.name} (opens in a new tab)</span>
+      </a>
+    </li>
+  </ul>
+  <dl class="facts">
+    {
+      facts.map((fact) => (
+        <div>
+          <dt>{fact.label}</dt>
+          <dd class={fact.kind}>{fact.value}</dd>
+        </div>
+      ))
+    }
+  </dl>
+  <p class="price">
+    <span class="label">Published price</span><br />
+    <span class={listing.price_notes ? undefined : 'unknown'}>{listing.price_notes ?? 'Not listed'}</span>
+  </p>
+  <p class="wait">
+    <span class="label">Waitlist</span><br />
+    <span class={listing.waitlist ? undefined : 'unknown'}>{listing.waitlist ?? 'Not listed'}</span>
+  </p>
+  {listing.notes && <p class="note">{listing.notes}</p>}
+  <p class="checked">
+    Checked <time datetime={listing.last_verified}>{formatDate(listing.last_verified)}</time>
+  </p>
+  <p class="source-label">Sources</p>
+  <ul class="sources">
+    {
+      listing.sources.map((source) => (
+        <li>
+          <a href={source.url} rel="noopener noreferrer" target="_blank">
+            {source.title}
+            <span class="sr-only"> (opens in a new tab)</span>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</article>

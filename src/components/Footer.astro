@@ -1,0 +1,52 @@
+---
+import { checkedLabel, getCities, href, partnerUrl, site } from '../lib/data';
+const cities = getCities();
+---
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <p class="brand-name">RV Storage Finder</p>
+      <p>{checkedLabel()} Unknown facts stay marked “Not listed”.</p>
+    </div>
+    <nav aria-label="Cities">
+      <p class="footer-label">Cities</p>
+      <ul>
+        {
+          cities.map((city) => (
+            <li>
+              <a href={href(`/cities/${city.id}/`)}>
+                {city.city}, {city.state_code}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+    <nav aria-label="About this directory">
+      <p class="footer-label">About</p>
+      <ul>
+        <li><a href={href('/guide/')}>What storage costs</a></li>
+        <li><a href={href('/about/')}>How listings are checked</a></li>
+        <li><a href={href('/disclosure/')}>Affiliate disclosure and privacy</a></li>
+        <li>
+          <a href={site.repo} rel="noopener noreferrer">GitHub repository<span class="sr-only"> (opens in a new tab)</span></a>
+        </li>
+      </ul>
+    </nav>
+    <nav aria-label="Storage marketplaces">
+      <p class="footer-label">Commercial links</p>
+      <ul>
+        <li>
+          <a href={partnerUrl('neighbor')} rel="sponsored nofollow noopener noreferrer">Neighbor<span class="sr-only"> (opens in a new tab)</span></a>
+        </li>
+        <li>
+          <a href={partnerUrl('sparefoot')} rel="sponsored nofollow noopener noreferrer">SpareFoot<span class="sr-only"> (opens in a new tab)</span></a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <p class="legal">
+    Facility links are public sources. Neighbor and SpareFoot links are commercial and are marked sponsored.
+  </p>
+</footer>
