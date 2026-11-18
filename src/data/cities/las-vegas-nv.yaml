@@ -1,0 +1,488 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: las-vegas-nv
+city: Las Vegas
+state: Nevada
+state_code: NV
+metro: Las Vegas
+summary: These facilities publish an RV or boat storage page in Las Vegas, Henderson, North Las Vegas,
+  or Boulder City. Each card uses only what that page states.
+sparefoot_slug: Las-Vegas-NV
+neighbor_path: nevada/las-vegas
+sparefoot_note: This link opens Las Vegas results. Several verified lots are in Henderson, North Las Vegas,
+  or Boulder City.
+photo: las-vegas
+listings:
+- slug: all-storage-seven-hills
+  name: All Storage of Seven Hills
+  street: 999 Beasley St
+  city: Henderson
+  state_code: NV
+  postal_code: '89052'
+  lat: null
+  lng: null
+  phone: (702) 255-7988
+  website: https://www.allstoragevegas.com/locations/nevada/seven-hills/
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: The Henderson page offers covered RV and boat parking and lists outside vehicle parking. Access
+    hours are 6:00 a.m. to 9:00 p.m. every day.
+  sources:
+  - url: https://www.allstoragevegas.com/locations/nevada/seven-hills/
+    title: All Storage of Seven Hills location page
+  last_verified: '2026-11-18'
+- slug: all-storage-vehicles-and-more
+  name: All Storage Vehicles and More
+  street: 1160 W Welpman Way
+  city: Henderson
+  state_code: NV
+  postal_code: '89044'
+  lat: null
+  lng: null
+  phone: (702) 463-0365
+  website: https://www.allstoragevegas.com/locations/nevada/vehicles-more/
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: null
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: The page offers covered and uncovered parking for RVs, boats, and cars. Access hours are 6:00
+    a.m. to 9:00 p.m. every day.
+  sources:
+  - url: https://www.allstoragevegas.com/locations/nevada/vehicles-more/
+    title: All Storage Vehicles and More location page
+  last_verified: '2026-11-18'
+- slug: beltway-boat-rv-storage
+  name: Beltway Boat & RV Storage, LLC
+  street: 6370 San Mateo Street
+  city: North Las Vegas
+  state_code: NV
+  postal_code: '89084'
+  lat: null
+  lng: null
+  phone: (702) 917-5074
+  website: https://www.beltwayboatandrv.com/
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - open
+  max_length_ft: 46
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: true
+  access_24h: false
+  price_notes: Covered 20x9 is $200/mo and covered 46x12 is $275/mo.
+  waitlist: null
+  notes: Covered and uncovered spaces are listed for boats, RVs, and motor homes, including a 46x12 uncovered
+    space, an open yard, and shipping containers. Hours of operation are 6:00 a.m. to 10:00 p.m.
+  sources:
+  - url: https://www.beltwayboatandrv.com/
+    title: Official website
+  last_verified: '2026-11-18'
+- slug: epic-storage-ann
+  name: Epic Storage Ann
+  street: 10430 W Hammer Ln
+  city: Las Vegas
+  state_code: NV
+  postal_code: '89166'
+  lat: null
+  lng: null
+  phone: (702) 843-6365
+  website: https://epicstorage.com/storage-types/rv-storage/covered-rv-storage-northwest-las-vegas/
+  vehicles:
+  - rv
+  storage_types:
+  - covered
+  max_length_ft: 40
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: false
+  price_notes: Regular rates are $275, $290, $315, and $400 per month for 12x25, 12x27, 12x30, and 12x40.
+    New-renter specials for those sizes are $199, $209, $199, and $249 per month for the first 3 months.
+  waitlist: null
+  notes: Covered RV parking at the Ann location runs from 12x25 to 12x40, with gate access from 6:00 a.m.
+    to 9:00 p.m. A gate-help line is (702) 803-1750.
+  sources:
+  - url: https://epicstorage.com/storage-types/rv-storage/covered-rv-storage-northwest-las-vegas/
+    title: Covered RV storage page for the Ann location
+  last_verified: '2026-11-18'
+- slug: green-valley-black-mountain
+  name: Green Valley Storage - Black Mountain
+  street: 140 N Gibson Rd
+  city: Henderson
+  state_code: NV
+  postal_code: '89014'
+  lat: null
+  lng: null
+  phone: (702) 568-5206
+  website: https://www.gvstorage.com/facility/140-n-gibson-rd-henderson-nv-89014
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - enclosed
+  max_length_ft: 42
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: The location page says this facility stores boats and RVs inside large units. The size guide
+    lists drive-ups through 12x42 with doors from 10 to 12 ft tall, one 756 sq ft garage with a 12-ft
+    door, and no parking spaces.
+  sources:
+  - url: https://www.gvstorage.com/facility/140-n-gibson-rd-henderson-nv-89014
+    title: Black Mountain location page
+  - url: https://www.gvstorage.com/size-guide
+    title: Green Valley size guide
+  last_verified: '2026-11-18'
+- slug: green-valley-blue-diamond
+  name: Green Valley Storage - Blue Diamond
+  street: 8945 Kens Court
+  city: Las Vegas
+  state_code: NV
+  postal_code: '89139'
+  lat: null
+  lng: null
+  phone: (702) 617-0219
+  website: https://www.gvstorage.com/facility/8945-kens-ct-las-vegas-nv-89139
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - enclosed
+  max_length_ft: 40
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: The location page says every space is an enclosed unit and that there are no outdoor parking
+    spaces. Drive-ins run through 12x40, and the size guide states 10-ft doors for the 12x35 and for garages
+    of 400 to 580 sq ft.
+  sources:
+  - url: https://www.gvstorage.com/facility/8945-kens-ct-las-vegas-nv-89139
+    title: Blue Diamond location page
+  - url: https://www.gvstorage.com/size-guide
+    title: Green Valley size guide
+  last_verified: '2026-11-18'
+- slug: green-valley-lake-mead-pkwy
+  name: Green Valley Storage - Lake Mead Pkwy
+  street: 799 E Lake Mead Pkwy
+  city: Henderson
+  state_code: NV
+  postal_code: '89015'
+  lat: null
+  lng: null
+  phone: (702) 564-3633
+  website: https://www.gvstorage.com/facility/799-e-lake-mead-pkwy-henderson-nv-89015
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - enclosed
+  - open
+  max_length_ft: 56
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: Uncovered RV and boat parking is listed at 12x30, 11x40, and 11x50. Enclosed spaces include drive-ups
+    through 14x45 with 12-ft doors, a 55x20 with an 11-ft door, and a 48x56 with a 12-ft door.
+  sources:
+  - url: https://www.gvstorage.com/facility/799-e-lake-mead-pkwy-henderson-nv-89015
+    title: Lake Mead Parkway location page
+  - url: https://www.gvstorage.com/size-guide
+    title: Green Valley size guide
+  last_verified: '2026-11-18'
+- slug: green-valley-marine-rv
+  name: Green Valley Storage - Marine & RV
+  street: 19 Commerce Center Dr
+  city: Henderson
+  state_code: NV
+  postal_code: '89014'
+  lat: null
+  lng: null
+  phone: (702) 456-2628
+  website: https://www.gvstorage.com/facility/19-commerce-center-dr-henderson-nv-89014
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - enclosed
+  - open
+  max_length_ft: 38
+  clearance_ft: null
+  power_hookups: true
+  dump_station: true
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: Covered spaces run up to 38 ft long and each has power. Uncovered spaces are 10x18 and 10x30,
+    enclosed drive-ups are 12x34 with 12-ft doors, and there is an RV dump station.
+  sources:
+  - url: https://www.gvstorage.com/facility/19-commerce-center-dr-henderson-nv-89014
+    title: Marine and RV location page
+  - url: https://www.gvstorage.com/size-guide
+    title: Green Valley size guide
+  last_verified: '2026-11-18'
+- slug: green-valley-windmill
+  name: Green Valley Storage - Windmill
+  street: 2525 Windmill Pkwy
+  city: Henderson
+  state_code: NV
+  postal_code: '89074'
+  lat: null
+  lng: null
+  phone: (702) 897-9640
+  website: https://www.gvstorage.com/facility/2525-windmill-pkwy-henderson-nv-89074
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - enclosed
+  max_length_ft: 36
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: The location FAQ says drive-up garages at this address are enclosed and designed for boats, RVs,
+    and trailers. The size guide lists 12x34, 12x35, and 12x36 drive-ups with doors about 12 ft tall,
+    garages of 535 to 1,620 sq ft, and no parking spaces.
+  sources:
+  - url: https://www.gvstorage.com/facility/2525-windmill-pkwy-henderson-nv-89074
+    title: Windmill location page
+  - url: https://www.gvstorage.com/size-guide
+    title: Green Valley size guide
+  last_verified: '2026-11-18'
+- slug: las-vegas-boat-harbor
+  name: Las Vegas Boat Harbor
+  street: 490 Horsepower Cove Rd.
+  city: Boulder City
+  state_code: NV
+  postal_code: '89005'
+  lat: 36.0293117
+  lng: -114.7742363
+  phone: 702-293-1191
+  website: https://boatinglakemead.com/ships-store/storage/
+  vehicles:
+  - boat
+  storage_types:
+  - covered
+  - enclosed
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: null
+  access_24h: true
+  price_notes: The storage page lists enclosed dry storage at $225.00 per month for a room 35 ft long,
+    14 ft high, and 12 ft wide, and open dry storage at $80.00 per month up to 25 ft and $100.00 per month
+    from 25 ft 1 in to 36 ft. Over 36 ft is call for price. Another page on the same site says open dry
+    storage starts at $45 per month and enclosed dry storage is $160 per month, and it lists open slips
+    at $9 to $10.20 per foot and covered slips at $11 to $13 per foot.
+  waitlist: null
+  notes: Dry storage at this address is called Las Vegas Bay Dry Storage and has 24-hour key-card access.
+    The enclosed room on the rate page is 14 feet high; that height is not listed as clearance for the
+    open dry-storage spaces. Power is described as an option at a slip, not at dry storage. The dry-storage
+    section lists an on-site info line at 702-565-9223. A map link on the storage page is centered at the
+    coordinates above.
+  sources:
+  - url: https://boatinglakemead.com/ships-store/storage/
+    title: Las Vegas Bay dry storage rates
+  - url: https://boatinglakemead.com/about-us/las-vegas-boat-storage/
+    title: Las Vegas boat storage page
+  last_verified: '2026-11-18'
+- slug: maximum-rv-storage-lake-mead
+  name: Maximum RV Storage - Lake Mead
+  street: 4440 E Lake Mead Blvd
+  city: Las Vegas
+  state_code: NV
+  postal_code: '89115'
+  lat: 36.196136
+  lng: -115.076647
+  phone: (702) 819-9717
+  website: https://www.maximumrvstorage.com/
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - open
+  max_length_ft: 72
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: false
+  price_notes: Homepage buttons say Covered Parking From $160 and Uncovered parking From $62.
+  waitlist: null
+  notes: The homepage says there are more than 550 covered and uncovered spaces from 10x20 to 12x64, and
+    the location-page unit data also lists a 15x72 parking space. Access hours are 6:00 a.m. to 8:00 p.m.
+    The location page prints the coordinates above with this address. The homepage prices do not state a
+    billing period.
+  sources:
+  - url: https://www.maximumrvstorage.com/
+    title: Official website
+  - url: https://www.maximumrvstorage.com/4440-e-lake-mead-blvd-las-vegas-nv-89115
+    title: Lake Mead location page
+  - url: https://www.maximumrvstorage.com/faq
+    title: FAQ
+  last_verified: '2026-11-18'
+- slug: mini-storage-of-nevada
+  name: Mini Storage of Nevada LLC
+  street: 4303 S. Arville St.
+  city: Las Vegas
+  state_code: NV
+  postal_code: '89103'
+  lat: null
+  lng: null
+  phone: (702) 876-3926
+  website: https://ministorageofnevada.com/rv-storage-in-las-vegas/
+  vehicles:
+  - rv
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: All RV spaces are $115 per month.
+  waitlist: null
+  notes: The page lists designated RV parking for motorhomes, camping trailers, fifth wheels, and other
+    RVs. Business hours are 7:00 a.m. to 5:00 p.m. seven days a week.
+  sources:
+  - url: https://ministorageofnevada.com/rv-storage-in-las-vegas/
+    title: RV storage page
+  last_verified: '2026-11-18'
+- slug: storage-at-summerlin
+  name: Storage At Summerlin
+  street: 7441 W. Lake Mead Boulevard, Suite 1
+  city: Las Vegas
+  state_code: NV
+  postal_code: '89128'
+  lat: null
+  lng: null
+  phone: (702) 254-2421
+  website: https://storageatsummerlinlv.com/
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  max_length_ft: 40
+  clearance_ft: null
+  power_hookups: null
+  dump_station: true
+  wash_station: null
+  gated: null
+  cameras: true
+  access_24h: true
+  price_notes: Monthly prices on the RV page are 10x20 covered $165, 10x30 covered $165, 12x30x15 canopy
+    $195, 10x40x16 canopy $215, 12x30x16 canopy $195, and 12x40x15 canopy $215.
+  waitlist: null
+  notes: The RV page lists covered spaces and canopies up to 40 ft, including both 15-ft and 16-ft canopy
+    heights, plus a dump station. Clearance is not a single number because those heights differ. The homepage
+    says boat and RV owners have 24/7 access.
+  sources:
+  - url: https://storageatsummerlinlv.com/
+    title: Official homepage
+  - url: https://storageatsummerlinlv.com/rvs-boats/
+    title: RV and boat storage page
+  last_verified: '2026-11-18'
+- slug: sunset-boat-rv-storage
+  name: Sunset Boat & RV Storage
+  street: 1320 E Lake Mead Pkwy
+  city: Henderson
+  state_code: NV
+  postal_code: '89015'
+  lat: 36.0686639
+  lng: -114.9568318
+  phone: 702-564-4111
+  website: https://www.sunsetboatrv.com/boat-rv-storage-nv
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - open
+  max_length_ft: 58
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: true
+  gated: true
+  cameras: null
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: Covered spaces run from 12x25 to 12x58 and uncovered spaces from 10x24 to 12x58 on eight paved
+    acres inside an eight-foot brick wall, with a wash-down rack and 24-hour access. A map link on the page
+    is centered at the coordinates above.
+  sources:
+  - url: https://www.sunsetboatrv.com/boat-rv-storage-nv
+    title: Official Henderson page
+  last_verified: '2026-11-18'

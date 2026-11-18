@@ -60,7 +60,7 @@ const schema = pageGraph([
     <p class="legend">
       {page.matches.length} facilities match. {priced} publish a price. Prices on this page are not averaged.
     </p>
-    <FilterChips city={page.city} current={page.slug} />
+    <FilterChips city={page.city} />
     <h2>Matching facilities</h2>
     {page.matches.map((listing) => <ListingCard listing={listing} />)}
     <section class="faq">

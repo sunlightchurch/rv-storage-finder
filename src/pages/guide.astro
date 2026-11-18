@@ -2,7 +2,9 @@
 import Base from '../layouts/Base.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import FindMore from '../components/FindMore.astro';
-import { directoryStats, href } from '../lib/data';
+import { directoryStats, getCities, href } from '../lib/data';
+import { guidePhoto } from '../lib/photos';
+import Photo from '../components/Photo.astro';
 import { breadcrumbNode, faqNode, pageGraph, webPageNode } from '../lib/schema';
 
 const title = 'How to choose RV storage and what it costs per month';
@@ -50,6 +52,7 @@ const schema = pageGraph([
 <Base title={title} description={description} path={path} schema={schema}>
   <article class="wrap prose">
     <Breadcrumbs items={crumbs} />
+    <Photo photo={guidePhoto()} sizes="(min-width: 800px) 680px, 100vw" eager />
     <h1>How to choose RV storage and what it costs</h1>
     <p>
       A useful quote names the space, the length, and the total due. The city pages in this directory
@@ -163,11 +166,11 @@ const schema = pageGraph([
 
     <h2>Look up a city</h2>
     <ul>
-      <li><a href={href('/cities/tampa-fl/')}>Tampa RV and boat storage</a></li>
-      <li><a href={href('/cities/orlando-fl/')}>Orlando RV and boat storage</a></li>
-      <li><a href={href('/cities/phoenix-az/')}>Phoenix RV and boat storage</a></li>
-      <li><a href={href('/cities/houston-tx/')}>Houston RV and boat storage</a></li>
-      <li><a href={href('/cities/dallas-fort-worth-tx/')}>Dallas-Fort Worth RV and boat storage</a></li>
+      {getCities().map((city) => (
+        <li>
+          <a href={href(`/cities/${city.id}/`)}>{city.city}, {city.state_code}</a>
+        </li>
+      ))}
       <li><a href={href('/storage/')}>Browse by covered, power, dump, and published price</a></li>
     </ul>
 

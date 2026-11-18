@@ -3,6 +3,7 @@ import path from 'node:path';
 import yaml from 'js-yaml';
 import { z } from 'zod';
 import { formatDate } from './format';
+import { assertKnownPhoto, assertCityPhoto } from './photos';
 
 const dataDir = path.join(process.cwd(), 'src/data');
 
@@ -82,6 +83,12 @@ const listingSchema = z
         }),
       )
       .min(1),
+    photo: z
+      .string()
+      .regex(/^[a-z0-9-]+$/)
+      .nullable()
+      .optional()
+      .transform((value) => value ?? null),
     last_verified: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
   })
   .superRefine((listing, ctx) => {
@@ -110,8 +117,9 @@ const citySchema = z.object({
   metro: z.string().trim().min(2),
   summary: z.string().trim().min(40),
   sparefoot_slug: z.string().regex(/^[A-Za-z0-9-]+$/),
-  neighbor_path: z.string().regex(/^[a-z]+\/[a-z0-9-]+$/),
+  neighbor_path: z.string().regex(/^[a-z]+(?:-[a-z]+)*\/[a-z0-9-]+$/),
   sparefoot_note: nullString.optional().transform((value) => value ?? null),
+  photo: z.string().regex(/^[a-z0-9-]+$/),
   listings: z.array(listingSchema).min(1),
 });
 
@@ -197,6 +205,10 @@ function loadCities(): City[] {
     const expected = name.replace(/\.yaml$/, '');
     if (city.id !== expected) {
       throw new Error(`${name}: id "${city.id}" must match the filename.`);
+    }
+    assertCityPhoto(city.photo);
+    for (const listing of city.listings) {
+      if (listing.photo) assertKnownPhoto(listing.photo);
     }
     return {
       ...city,
@@ -301,6 +313,24 @@ export function getState(slug: string): StateGroup {
 
 export function siblingCities(city: City): City[] {
   return cities.filter((item) => item.state_code === city.state_code && item.id !== city.id);
+}
+
+export function searchIndex(): {
+  id: string;
+  city: string;
+  state: string;
+  code: string;
+  metro: string;
+  zips: string[];
+}[] {
+  return cities.map((city) => ({
+    id: city.id,
+    city: city.city,
+    state: city.state,
+    code: city.state_code,
+    metro: city.metro,
+    zips: [...new Set(city.listings.map((listing) => listing.postal_code).filter((zip): zip is string => Boolean(zip)))],
+  }));
 }
 
 export function listingMatches(listing: Listing, filter: FilterDef): boolean {
@@ -458,6 +488,7 @@ export function allPublicPaths(): { path: string; lastmod: string }[] {
     { path: '/guide/', lastmod: latest },
     { path: '/about/', lastmod: latest },
     { path: '/disclosure/', lastmod: latest },
+    { path: '/credits/', lastmod: latest },
   ];
   for (const state of getStates()) {
     paths.push({

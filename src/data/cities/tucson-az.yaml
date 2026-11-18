@@ -1,0 +1,513 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: tucson-az
+city: Tucson
+state: Arizona
+state_code: AZ
+metro: Tucson
+summary: >-
+  These facilities publish an RV or boat storage page in Tucson or nearby
+  Marana, Oro Valley, or Sahuarita. Each card uses only what that page states.
+sparefoot_slug: Tucson-AZ
+neighbor_path: arizona/tucson
+sparefoot_note: null
+photo: tucson
+listings:
+  - slug: alvernon-rv-storage
+    name: Alvernon RV Storage
+    street: 5370 S. Alvernon Way
+    city: Tucson
+    state_code: AZ
+    postal_code: "85706"
+    lat: null
+    lng: null
+    phone: "(520) 900-9111"
+    website: https://www.armored-mini-storage.com/5370-s-alvernon-way-tucson-az-85706
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered outdoor boat, RV, and vehicle parking, with an on-site dump
+      station, trickle charge, a gate, and video surveillance. Gate access is
+      7 am to 7 pm, seven days a week. The address block spells the city Tuscon.
+    sources:
+      - url: https://www.armored-mini-storage.com/5370-s-alvernon-way-tucson-az-85706
+        title: Official location page
+    last_verified: "2026-11-18"
+
+  - slug: arizona-rv-storage-tucson
+    name: Arizona RV Storage LLC
+    street: 6990 E. Old Vail Road
+    city: Tucson
+    state_code: AZ
+    postal_code: "85756"
+    lat: null
+    lng: null
+    phone: "(520) 447-4143"
+    website: https://www.azrvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      RV, boat, and vehicle storage. Lots 1 and 2 are 24/7. Lot 3 is business
+      hours only. The FAQ says the site has 31 cameras. Covered, open, or
+      enclosed is not stated.
+    sources:
+      - url: https://www.azrvstorage.com/self-storage-tucson-az-f5978
+        title: Tucson location page
+      - url: https://www.azrvstorage.com/info/faq
+        title: FAQ
+    last_verified: "2026-11-18"
+
+  - slug: arizona-self-storage-oro-valley
+    name: Arizona Self Storage - Oro Valley
+    street: 10880 N. Mavinee Dr.
+    city: Oro Valley
+    state_code: AZ
+    postal_code: "85737"
+    lat: null
+    lng: null
+    phone: "(520) 900-1679"
+    website: https://www.selfstoragesolutions.com/facilities/arizona/oro-valley/arizona-self-storage-at-oro-valley
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: A waitlisted parking rate of $189 is listed. The page does not state the billing period.
+    waitlist: Parking is listed as on a waitlist.
+    notes: >-
+      Covered RV, boat, and vehicle storage, with trickle charge, night-vision
+      cameras, an electronic gate, and an on-site dump station. Access is
+      5:00 am to 10:00 pm. A parking-availability phone, (520) 645-2402, is
+      also printed.
+    sources:
+      - url: https://www.selfstoragesolutions.com/facilities/arizona/oro-valley/arizona-self-storage-at-oro-valley
+        title: Oro Valley facility page
+    last_verified: "2026-11-18"
+
+  - slug: arizona-self-storage-sahuarita
+    name: Arizona Self Storage - Sahuarita
+    street: 18240 S La Canada Dr.
+    city: Sahuarita
+    state_code: AZ
+    postal_code: "85629"
+    lat: null
+    lng: null
+    phone: "(520) 462-8710"
+    website: https://www.selfstoragesolutions.com/facilities/arizona/sahuarita/arizona-self-storage-rv-center
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: 50
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: false
+    price_notes: >-
+      Listed parking rates include uncovered 10 by 20 at $149 and indoor
+      air-cooled 12 by 50 at $369. The page does not state the billing period.
+    waitlist: Some parking sizes are listed as on a waitlist.
+    notes: >-
+      RV storage is described as indoor and covered. Boat storage is described
+      as covered and indoor. The page lists trickle charge and smartphone gate
+      access. Access is 5:00 am to 10:00 pm. The amenity list does not say
+      cameras.
+    sources:
+      - url: https://www.selfstoragesolutions.com/facilities/arizona/sahuarita/arizona-self-storage-rv-center
+        title: Sahuarita facility page
+    last_verified: "2026-11-18"
+
+  - slug: arizona-self-storage-tucson-east
+    name: Arizona Self Storage - Tucson East
+    street: 1351 S. Eastside Loop
+    city: Tucson
+    state_code: AZ
+    postal_code: "85710"
+    lat: null
+    lng: null
+    phone: "(520) 462-1138"
+    website: https://www.selfstoragesolutions.com/facilities/arizona/tucson/arizona-self-storage-at-pantano
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 35
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: An uncovered 10 by 20 parking space is listed at a rate of $119. The page does not state the billing period.
+    waitlist: null
+    notes: >-
+      Covered and uncovered parking for RVs and boats. Covered spaces are
+      published as measuring up to 12 by 35. The page lists night-vision
+      cameras and an electronic gate. Access is 5:00 am to 10:00 pm.
+    sources:
+      - url: https://www.selfstoragesolutions.com/facilities/arizona/tucson/arizona-self-storage-at-pantano
+        title: Tucson East facility page
+    last_verified: "2026-11-18"
+
+  - slug: honey-bee-rv-storage-tucson-east
+    name: Honey Bee RV Storage in Tucson - East
+    street: 9070 E Old Vail Rd
+    city: Tucson
+    state_code: AZ
+    postal_code: "85747"
+    lat: null
+    lng: null
+    phone: "(520) 240-1210"
+    website: https://www.honeybeerv.com/rv-storage-locations/az/tucson/9070-e-old-vail-road
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered and uncovered parking for RVs and boats, with power, a dump
+      station, wash stations, cameras, and a gate code. The same page also
+      prints (520) 214-4195. Gate hours are not stated.
+    sources:
+      - url: https://www.honeybeerv.com/rv-storage-locations/az/tucson/9070-e-old-vail-road
+        title: East Old Vail location page
+    last_verified: "2026-11-18"
+
+  - slug: honey-bee-rv-storage-tucson-west
+    name: Honey Bee RV Storage in Tucson - West
+    street: 8800 E Old Vail Rd
+    city: Tucson
+    state_code: AZ
+    postal_code: "85747"
+    lat: null
+    lng: null
+    phone: "(520) 240-1210"
+    website: https://www.honeybeerv.com/rv-storage-locations/az/tucson/8800-e-old-vail
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered and uncovered parking for RVs, boats, and trailers, with power,
+      wash stations, a dump station, cameras, and a gate code. Access hours
+      are 5:00 a.m. to 10:00 p.m.
+    sources:
+      - url: https://www.honeybeerv.com/rv-storage-locations/az/tucson/8800-e-old-vail
+        title: West Old Vail location page
+      - url: https://www.honeybeerv.com/rv-storage-locations/az/tucson/9070-e-old-vail-road
+        title: East page describing both Rita Road lots
+    last_verified: "2026-11-18"
+
+  - slug: marana-rv-boat-storage
+    name: "Marana RV & Boat Storage"
+    street: 7727 North Avra Road
+    city: Tucson
+    state_code: AZ
+    postal_code: "85743"
+    lat: null
+    lng: null
+    phone: "(520) 954-4422"
+    website: https://www.maranarvboatstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: true
+    price_notes: >-
+      $40 per month for a 20 by 13 foot spot, $50 per month for 13 by 30, and
+      $60 per month for 13 by 40.
+    waitlist: null
+    notes: >-
+      Outdoor gravel lot with 24/7 access to a code-operated gate. The mailing
+      address is 884 Calle Tepache, Rio Rico, AZ 85648.
+    sources:
+      - url: https://www.maranarvboatstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: outrig-storage-tucson
+    name: Outrig Storage Tucson
+    street: 6260 North Travel Center Drive
+    city: Tucson
+    state_code: AZ
+    postal_code: "85741"
+    lat: null
+    lng: null
+    phone: "(520) 379-3590"
+    website: https://outrig.com/locations/tucson/
+    vehicles: [rv, boat]
+    storage_types: [enclosed, open]
+    max_length_ft: 45
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      Indoor valet monthly rates from $199 to $499 for 12 by 15 through 12 by
+      45. Outdoor monthly rates from $69 to $89 for 12 by 15 through 12 by 30.
+    waitlist: null
+    notes: >-
+      Indoor valet and outdoor RV and boat storage, with cameras, a gated
+      entry, a dump station, and power hookups. Gate access is 24 hours.
+      Valet retrieval is only during service hours.
+    sources:
+      - url: https://outrig.com/locations/tucson/
+        title: Official Tucson location page
+    last_verified: "2026-11-18"
+
+  - slug: rancho-sahuarita-self-storage-and-rv
+    name: Rancho Sahuarita Self Storage and RV
+    street: 14233 S Rancho Sahuarita Blvd
+    city: Sahuarita
+    state_code: AZ
+    postal_code: "85629"
+    lat: null
+    lng: null
+    phone: 520-314-9048
+    website: https://www.ranchosahuaritaselfstorageandrv.com/
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered RV and boat spaces with an access-controlled gate. Access hours
+      are 6:00 am to 10:00 pm every day.
+    sources:
+      - url: https://www.ranchosahuaritaselfstorageandrv.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: recnation-tucson-wilmot
+    name: "RecNation RV & Boat Storage"
+    street: 6455 S Wilmot Rd
+    city: Tucson
+    state_code: AZ
+    postal_code: "85756"
+    lat: null
+    lng: null
+    phone: 520-833-8016
+    website: https://www.recnationstorage.com/storage-facility/az/tucson/6455-s-wilmot-rd/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 70
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: null
+    cameras: true
+    access_24h: null
+    price_notes: >-
+      The Tucson RV page lists spaces from $55 per month. The facility page
+      lists outdoor uncovered 10 by 15 at a web rate of $55 and outdoor canopy
+      12 by 40 at a web rate of $171. The facility FAQ says prices start at
+      $106 and go up to $181.
+    waitlist: null
+    notes: >-
+      Covered and uncovered boat and RV storage, with vehicle lengths from 11
+      to 70 feet, cameras, power, a washdown area, and a dump station. Posted
+      access is 6:00 a.m. to 10:00 p.m., and 24/7 access is offered upon
+      request, so 24-hour access is not marked yes or no. The word gate does
+      not appear. Uncovered copy says no height limits, which is not a
+      clearance number.
+    sources:
+      - url: https://www.recnationstorage.com/storage-facility/az/tucson/6455-s-wilmot-rd/
+        title: Official facility page
+      - url: https://www.recnationstorage.com/rv-storage/az/tucson/
+        title: Tucson RV storage page
+    last_verified: "2026-11-18"
+
+  - slug: sahuarita-auto-rv-storage
+    name: Sahuarita Auto RV Storage
+    street: 16301 S. Santa Rita Rd
+    city: Sahuarita
+    state_code: AZ
+    postal_code: "85629"
+    lat: null
+    lng: null
+    phone: "(520) 625-2222"
+    website: https://www.sahuaritarvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 60
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    price_notes: >-
+      Starting at $30 per month for 20 by 11, $45 for 30 by 12, $60 for 40 by
+      12, $75 for 50 by 12, and $90 for 60 by 12. The monthly figure is billed
+      as a 6-month term payable in full, with no refunds on unused time.
+    waitlist: null
+    notes: >-
+      Uncovered spaces for RVs and boats, from 20 to 60 feet long, with
+      24-hour access. The page heading is Sahuarita RV Storage. Covered in
+      gravel describes the surface, not a roof.
+    sources:
+      - url: https://www.sahuaritarvstorage.com/
+        title: Official website
+      - url: https://www.sahuaritarvstorage.com/pages/rent
+        title: Rent page
+    last_verified: "2026-11-18"
+
+  - slug: sonoran-spaces
+    name: Sonoran Spaces
+    street: 1863 W. Rillito Street
+    city: Tucson
+    state_code: AZ
+    postal_code: "85705"
+    lat: null
+    lng: null
+    phone: "(520) 609-3717"
+    website: https://sonoranspaces.com/boat-storage/
+    vehicles: [boat]
+    storage_types: [open]
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Uncovered boat storage with 24/7 access. Listed sizes are 10 by 20 feet
+      and 12 by 40 feet. The page says the lot is gated and monitored.
+      Monitored was not recorded as cameras. RVs are not mentioned.
+    sources:
+      - url: https://sonoranspaces.com/boat-storage/
+        title: Boat storage page
+    last_verified: "2026-11-18"
+
+  - slug: tortolita-mountain-rv-boat-storage
+    name: Tortolita Mountain RV/Boat Storage
+    street: 13051 N Tortolita Rd
+    city: Marana
+    state_code: AZ
+    postal_code: "85658"
+    lat: null
+    lng: null
+    phone: "(520) 572-0563"
+    website: https://www.rv-storage-tucson.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: false
+    price_notes: >-
+      RV rates are $60 per month up to 20 feet, $70 for 21 to 29 feet, $80 for
+      30 to 39 feet, and $90 for 40 feet or more. Boat rates are $60 up to 20
+      feet, $70 for 21 to 29 feet, and $80 for 30 feet or more.
+    waitlist: null
+    notes: >-
+      Gated RV and boat storage in Marana, with dump stations, compressed air,
+      and water. Gate access is daily 6 am to 9 pm. Covered, open, or enclosed
+      is not stated. A second phone, (520) 572-0574, is also printed. Water is
+      not recorded as a wash station.
+    sources:
+      - url: https://www.rv-storage-tucson.com/
+        title: Official website
+      - url: https://www.rv-storage-tucson.com/contact
+        title: Contact page
+      - url: https://www.rv-storage-tucson.com/tucson-rv-storage-rates
+        title: RV rates
+      - url: https://www.rv-storage-tucson.com/tucson-boat-self-storage
+        title: Boat rates
+    last_verified: "2026-11-18"
+
+  - slug: tucson-rv-storage
+    name: Tucson RV Storage
+    street: 5450 N. Camino de la Tierra
+    city: Tucson
+    state_code: AZ
+    postal_code: "85705"
+    lat: null
+    lng: null
+    phone: "(520) 488-2444"
+    website: https://www.rvstoragetucson.com/
+    vehicles: [rv]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered and uncovered RV parking, with video surveillance and a
+      monitored gate. Gate hours are 6 AM to 8 PM daily, with extended access
+      available. A dump station is described as less than 5 miles away, so it
+      is not listed as on site. Boats are not mentioned.
+    sources:
+      - url: https://www.rvstoragetucson.com/
+        title: Official website
+    last_verified: "2026-11-18"

@@ -1,0 +1,25 @@
+---
+interface Props {
+  inputId?: string;
+  label?: string;
+}
+
+const { inputId = 'home-q', label = 'Search by city or ZIP code' } = Astro.props;
+const resultsId = `${inputId}-results`;
+---
+
+<form class="home-search" role="search">
+  <label for={inputId}>{label}</label>
+  <input
+    id={inputId}
+    data-city-search
+    type="search"
+    placeholder="Try Tampa, 33610, or Austin"
+    autocomplete="off"
+    aria-controls={resultsId}
+    aria-expanded="false"
+    enterkeyhint="search"
+  />
+  <ul id={resultsId} class="search-results" role="listbox" hidden></ul>
+  <p class="fine">Type a city or a ZIP from a listed facility. Results open that city’s page.</p>
+</form>

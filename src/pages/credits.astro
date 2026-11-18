@@ -1,0 +1,57 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { directoryStats, href } from '../lib/data';
+import { getPhotos } from '../lib/photos';
+import { breadcrumbNode, pageGraph, webPageNode } from '../lib/schema';
+
+const title = 'Photo credits | RV Storage Finder';
+const description =
+  'Authors, sources, and licenses for the photographs on this directory. Facility pages do not use unlicensed business photos.';
+const path = '/credits/';
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'Photo credits', path },
+];
+const photos = getPhotos();
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: directoryStats().latest }),
+  breadcrumbNode(crumbs),
+]);
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <article class="wrap prose">
+    <Breadcrumbs items={crumbs} />
+    <h1>Photo credits</h1>
+    <p>
+      City, state, guide, and example photos are stored in this site and come from Wikimedia Commons.
+      Licenses are CC0, CC BY, or CC BY-SA. A listing card uses a generic photo unless that facility has
+      its own licensed image. The caption says when the picture is not of that business.
+    </p>
+    <ul class="credit-list">
+      {
+        photos.map((photo) => (
+          <li>
+            <img
+              src={href(`/${photo.files['640']}`)}
+              width="160"
+              height="107"
+              alt=""
+              loading="lazy"
+              decoding="async"
+            />
+            <p>
+              <strong>{photo.alt}</strong><br />
+              {photo.author}.{' '}
+              <a href={photo.source_url}>{photo.source_url.replace('https://commons.wikimedia.org/wiki/', '')}</a>
+              <br />
+              <a href={photo.license_url}>{photo.license}</a>
+              {photo.credit_required ? '. Attribution is required.' : '. Attribution is not required.'}
+            </p>
+          </li>
+        ))
+      }
+    </ul>
+  </article>
+</Base>

@@ -1,0 +1,519 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: jacksonville-fl
+city: Jacksonville
+state: Florida
+state_code: FL
+metro: Jacksonville
+summary: >-
+  These facilities publish an RV or boat storage page in Jacksonville or nearby,
+  including Orange Park and Jacksonville Beach. Each card uses only what that
+  page states.
+sparefoot_slug: Jacksonville-FL
+neighbor_path: florida/jacksonville
+sparefoot_note: null
+photo: jacksonville
+listings:
+  - slug: arlington-marina
+    name: Arlington Marina
+    street: 5137 Arlington Rd
+    city: Jacksonville
+    state_code: FL
+    postal_code: "32211"
+    lat: null
+    lng: null
+    phone: "(904) 743-2628"
+    website: https://arlingtonmarina.com/
+    vehicles: [boat]
+    storage_types: [covered]
+    max_length_ft: 60
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: true
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered dry storage is listed up to 28 feet. Wet slips go to 40 feet with
+      shore power, and transient slips are listed up to 60 feet. Hours are
+      8:00 am to 6:00 pm daily. RVs are not mentioned.
+    sources:
+      - url: https://arlingtonmarina.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: beach-marine-jacksonville
+    name: Beach Marine
+    street: "2315 Beach Blvd., Suite 104"
+    city: Jacksonville Beach
+    state_code: FL
+    postal_code: "32250"
+    lat: null
+    lng: null
+    phone: "(904) 694-2080"
+    website: https://jaxbeachmarine.com/storage/
+    vehicles: [boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The storage page lists 273 dry-storage spaces and 30 outside dry-storage
+      spaces. A 200-foot figure is the maximum slip length, not a dry-storage
+      length, so length is not listed. A second phone, (904) 249-8200, is also
+      printed. RVs are not mentioned.
+    sources:
+      - url: https://jaxbeachmarine.com/storage/
+        title: Storage page
+    last_verified: "2026-11-18"
+
+  - slug: boomoo-storage
+    name: BooMoo Storage
+    street: 12953 N. Main Street
+    city: Jacksonville
+    state_code: FL
+    postal_code: "32218"
+    lat: null
+    lng: null
+    phone: "(904) 826-7795"
+    website: https://www.boomoostorage.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The homepage says the facility stores RVs, boats, and trucks, with 24-hour
+      access to a gated lot and digital video surveillance. It does not say
+      whether the spaces are covered, enclosed, or open.
+    sources:
+      - url: https://www.boomoostorage.com/
+        title: Official website
+      - url: https://www.boomoostorage.com/pages/contact
+        title: Contact page
+    last_verified: "2026-11-18"
+
+  - slug: bulls-bay-storage
+    name: Bulls Bay Storage
+    street: 8721 Old Kings Rd.
+    city: Jacksonville
+    state_code: FL
+    postal_code: null
+    lat: null
+    lng: null
+    phone: "(904) 788-6719"
+    website: https://bullsbaystorage.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: 80
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      RV and boat storage from $130 monthly. Truck and trailer parking is $30
+      daily, $100 weekly, and $180 monthly.
+    waitlist: null
+    notes: >-
+      Lanes are described as large as 80 by 16 feet. The pages do not print a
+      ZIP code or say whether the spaces are covered, enclosed, or open.
+    sources:
+      - url: https://bullsbaystorage.com/
+        title: Official website
+      - url: https://bullsbaystorage.com/rv-storage-parking/
+        title: RV storage page
+    last_verified: "2026-11-18"
+
+  - slug: doctors-lake-marina
+    name: Doctors Lake Marina
+    street: 3108 US-17
+    city: Orange Park
+    state_code: FL
+    postal_code: "32003"
+    lat: null
+    lng: null
+    phone: "(904) 264-0505"
+    website: https://doctorslakemarina.com/
+    vehicles: [boat]
+    storage_types: [covered, open]
+    max_length_ft: 70
+    clearance_ft: null
+    power_hookups: null
+    dump_station: true
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The homepage lists covered or uncovered wet slips from 17 to 70 feet and
+      a pumpout station. The about page says the marina is in Fleming Island,
+      with wet slips up to 65 feet and dry storage for 200 boats on trailers.
+      RVs are not mentioned.
+    sources:
+      - url: https://doctorslakemarina.com/
+        title: Official website
+      - url: https://doctorslakemarina.com/about
+        title: About page
+    last_verified: "2026-11-18"
+
+  - slug: duval-truck-rv-boat-storage
+    name: "Duval Truck, RV & Boat Storage"
+    street: 13967 Duval Road
+    city: Jacksonville
+    state_code: FL
+    postal_code: "32218"
+    lat: null
+    lng: null
+    phone: "(904) 304-8908"
+    website: https://duvalstoragejax.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: true
+    price_notes: >-
+      Month-to-month rates are $100 per month up to 20 ft, $125 per month over
+      20 ft up to 40 ft, and $150 per month over 40 ft. Daily is $30 any size
+      and weekly is $100 any size.
+    waitlist: null
+    notes: >-
+      The site says it does not store semi trucks or commercial tractors. The
+      over-40-foot tier has no stated upper length, and the pages do not say
+      whether the spaces are covered, enclosed, or open.
+    sources:
+      - url: https://duvalstoragejax.com/
+        title: Official website
+      - url: https://duvalstoragejax.com/rv-storage-jacksonville
+        title: RV storage page
+    last_verified: "2026-11-18"
+
+  - slug: jax-boat-rv-storage
+    name: "Jax Boat & RV Storage"
+    street: 607 St. Johns Bluff Road North
+    city: Jacksonville
+    state_code: FL
+    postal_code: "32225"
+    lat: null
+    lng: null
+    phone: "(904) 549-7333"
+    website: https://www.jaxboatrvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The homepage says outdoor uncovered and some covered spaces, with a boat
+      and RV wash area, an electronic gate code, video security, and 24-hour
+      access.
+    sources:
+      - url: https://www.jaxboatrvstorage.com/
+        title: Official website
+      - url: https://www.jaxboatrvstorage.com/storage-locations/fl/jacksonville/607-st-johns-bluff-road-north
+        title: Location page
+    last_verified: "2026-11-18"
+
+  - slug: lees-rv-and-boat-storage
+    name: "Lee's RV and Boat Storage"
+    street: 261 Jefferson Avenue
+    city: Orange Park
+    state_code: FL
+    postal_code: "32065"
+    lat: null
+    lng: null
+    phone: 904-272-2750
+    website: https://www.storewithlees.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered, uncovered, outdoor, and fully enclosed climate-controlled spaces
+      are listed. The enclosed option is described as supplied with electricity.
+      The site says surveillance is 24/7 and does not state gate hours.
+    sources:
+      - url: https://www.storewithlees.com/storage/
+        title: Storage page
+      - url: https://www.storewithlees.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: oakleaf-premier-boat-rv-storage
+    name: Oakleaf Premier Boat RV Storage
+    street: 782 Oakleaf Plantation Pkwy
+    city: Orange Park
+    state_code: FL
+    postal_code: "32065"
+    lat: null
+    lng: null
+    phone: "(904) 621-1533"
+    website: https://www.coppersafestorage.com/storage-locations/florida/orange-park/782-oakleaf-plantation-pkwy
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Uncovered open-air boat and RV spaces, with a wash-out station, fencing,
+      a gate, and cameras. One paragraph says 24-hour boat and RV access and
+      another lists access from 6:00 a.m. to 10:00 p.m., so 24-hour access is
+      not marked yes or no.
+    sources:
+      - url: https://www.coppersafestorage.com/storage-locations/florida/orange-park/782-oakleaf-plantation-pkwy
+        title: Official location page
+    last_verified: "2026-11-18"
+
+  - slug: old-river-boat-storage
+    name: Old River Boat Storage
+    street: 4837 Ocean Street
+    city: Jacksonville
+    state_code: FL
+    postal_code: "32233"
+    lat: null
+    lng: null
+    phone: "(904) 874-4132"
+    website: https://www.oldriverboatstorage.com/
+    vehicles: [boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Outdoor boat and trailer storage across from the Mayport ferry. Spaces
+      are described as 12 feet wide, with a text-to-open gate, 24-hour video
+      surveillance, and 24/7 access. RVs are not mentioned.
+    sources:
+      - url: https://www.oldriverboatstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: philips-rv-boat-storage
+    name: "Philips RV & Boat Storage"
+    street: 11231 Philips Industrial Blvd E
+    city: Jacksonville
+    state_code: FL
+    postal_code: "32256"
+    lat: null
+    lng: null
+    phone: "(904) 262-6380"
+    website: https://philipsrvboatstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 80
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      RV, boat, and camper spaces from $115 per month, listed as 12 feet wide
+      and 20 to 49 feet long. Semi-truck spaces from $195 per month, listed as
+      12 feet wide and 53 to 80 feet long.
+    waitlist: null
+    notes: >-
+      Outdoor storage on an all-concrete lot, with gated 24/7 code access and
+      24/7 video security. Spaces are described as 20 to 80 feet long.
+    sources:
+      - url: https://philipsrvboatstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: public-storage-shetter-ave
+    name: Public Storage
+    street: 1200 Shetter Ave
+    city: Jacksonville Beach
+    state_code: FL
+    postal_code: "32250"
+    lat: null
+    lng: null
+    phone: 904-372-8349
+    website: https://www.publicstorage.com/self-storage-fl-jacksonville-beach/1622.html
+    vehicles: [rv, boat]
+    storage_types: [enclosed, open]
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: >-
+      A parking space listed as 10 by 40 feet is $322 per month. Other prices
+      on the page are for storage units that are not identified as RV or boat
+      spaces.
+    waitlist: null
+    notes: >-
+      The feature list includes boat storage, RV storage, uncovered parking,
+      and enclosed parking, plus electronic gates and video recording. Property
+      hours are 6:00 AM to 10:00 PM, and the page also says 24/7 access is
+      available, so 24-hour access is not marked yes or no.
+    sources:
+      - url: https://www.publicstorage.com/self-storage-fl-jacksonville-beach/1622.html
+        title: Official location page
+    last_verified: "2026-11-18"
+
+  - slug: recnation-greenland-road
+    name: "RecNation RV & Boat Storage"
+    street: 6466 Greenland Rd
+    city: Jacksonville
+    state_code: FL
+    postal_code: "32258"
+    lat: null
+    lng: null
+    phone: "(904) 574-5000"
+    website: https://www.recnationstorage.com/storage-facility/fl/jacksonville/6466-greenland-road/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 50
+    clearance_ft: null
+    power_hookups: null
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: >-
+      A vehicle-storage heading says starting from $49 per month. The FAQ says
+      starting at $105 and does not state a billing period for that figure.
+      Outdoor uncovered examples at this address include 12 by 20 feet at a
+      web rate of $131, also shown as from $151, and 12 by 50 feet at a web
+      rate of $199. A bobtail space is listed at $144 per month.
+    waitlist: null
+    notes: >-
+      This address lists outdoor uncovered spaces, described as open-air with
+      no height limit, which is not a numeric clearance. Access is listed as
+      24 hours and a FAQ says 24/7 access is upon request, so 24-hour access
+      is not marked yes or no. Indoor and canopy rows on the page belong to
+      other addresses.
+    sources:
+      - url: https://www.recnationstorage.com/storage-facility/fl/jacksonville/6466-greenland-road/
+        title: Official facility page
+    last_verified: "2026-11-18"
+
+  - slug: solomons-rv-boat-storage
+    name: "Solomon's RV & Boat Storage"
+    street: 14255 Beach Blvd
+    city: Jacksonville
+    state_code: FL
+    postal_code: "32250"
+    lat: null
+    lng: null
+    phone: "(904) 223-0888"
+    website: https://www.solomons.net/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      Billed monthly on the 1st. Rates do not include tax. Wash-down lots are
+      $169.00 up to 28 feet and $225.00 up to 40 feet. A lot without wash-down
+      access is $159.00 up to 28 feet.
+    waitlist: null
+    notes: >-
+      368 parking sites. Office hours are Monday through Friday 9:00 am to
+      2:00 pm. The site says it is within 5 miles of Jacksonville Beach and
+      does not say whether the spaces are covered, enclosed, or open.
+    sources:
+      - url: https://www.solomons.net/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: wilsons-rv-boat-storage
+    name: "Wilsons RV & Boat Storage"
+    street: 1882 Dunn Ave
+    city: Jacksonville
+    state_code: FL
+    postal_code: "32218"
+    lat: null
+    lng: null
+    phone: 904-374-1143
+    website: https://www.wilsonsrvandboatstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: true
+    wash_station: null
+    gated: null
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered spaces are advertised. Access is Monday through Sunday 5 am to
+      10 pm, with limited 24-hour access by contacting the facility, so
+      24-hour access is not marked yes or no. The FAQ says the dump station
+      has no charge.
+    sources:
+      - url: https://www.wilsonsrvandboatstorage.com/
+        title: Official website
+      - url: https://www.wilsonsrvandboatstorage.com/faq/
+        title: FAQ
+      - url: https://www.wilsonsrvandboatstorage.com/about-us/
+        title: About page
+    last_verified: "2026-11-18"

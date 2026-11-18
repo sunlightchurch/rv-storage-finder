@@ -1,0 +1,517 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: fort-myers-cape-coral-fl
+city: Fort Myers-Cape Coral
+state: Florida
+state_code: FL
+metro: Fort Myers-Cape Coral
+summary: >-
+  These facilities publish an RV or boat storage page in Fort Myers, Cape Coral,
+  North Fort Myers, Bonita Springs, or Lehigh Acres. Each card uses the
+  facility's own city and only the facts that page states.
+sparefoot_slug: Fort-Myers-FL
+neighbor_path: florida/fort-myers
+sparefoot_note: >-
+  SpareFoot and Neighbor list Fort Myers and Cape Coral on separate pages.
+  These links open the Fort Myers results.
+photo: fort-myers
+listings:
+  - slug: aquaterra-boat-rv-storage-lehigh-acres
+    name: AquaTerra Boat and RV Storage
+    street: 5501 8th St. W.
+    city: Lehigh Acres
+    state_code: FL
+    postal_code: "33971"
+    lat: null
+    lng: null
+    phone: "(239) 422-8730"
+    website: https://www.aquaterrastorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: 14
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      The pricing guide lists small units at $119, medium at $268, large at
+      $389, and XL at $438, plus 50 percent off the first 2 months. It does
+      not state a billing period for those unit prices.
+    waitlist: null
+    notes: >-
+      Covered and uncovered RV and boat storage, with 15- and 30-amp service,
+      a wash bay, an RV dump station, and 33 cameras. The 14-foot figure is
+      the height of the two entrance roll-up gates.
+    sources:
+      - url: https://www.aquaterrastorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: ballpark-rv-boat-storage-fort-myers
+    name: "Ballpark RV & Boat Storage"
+    street: 13351 Rickenbacker Parkway
+    city: Fort Myers
+    state_code: FL
+    postal_code: "33913"
+    lat: null
+    lng: null
+    phone: "(239) 202-8813"
+    website: https://www.ballparkrvandboatstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      A 10 percent discount for military and first responders, and a 10 percent
+      discount for 12-month prepaid rental units. No base monthly rate was on
+      the page.
+    waitlist: null
+    notes: >-
+      Covered storage for RVs, campers, and boats, with 24-hour gated access,
+      16 security cameras, a sewer pump-out, a wash station, and electricity.
+      The contact block spells the name Ball Park RV and Boat Storage.
+    sources:
+      - url: https://www.ballparkrvandboatstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: big-toys-rv-boat-storage-north-fort-myers
+    name: Big Toys RV and Boat Storage
+    street: 2600 NE Pine Island Rd
+    city: North Fort Myers
+    state_code: FL
+    postal_code: null
+    lat: null
+    lng: null
+    phone: "(239) 339-7350"
+    website: https://bigtoysrvandboatstorage.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      RV and boat storage on a fully gated lot with 24-hour code access. The
+      site does not publish a ZIP code or say whether the spaces are covered,
+      enclosed, or open.
+    sources:
+      - url: https://bigtoysrvandboatstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: bluegate-boat-rv-storage-bonita-springs
+    name: "BlueGate Boat & RV Storage"
+    street: 24501 Production Circle
+    city: Bonita Springs
+    state_code: FL
+    postal_code: "34135"
+    lat: null
+    lng: null
+    phone: "(239) 374-2146"
+    website: https://bluegateboatrv.com/locations/florida/bonita-springs/bluegate-boat-rv-storage-bonita-springs/
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: 45
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered parking through 45 feet, with trickle-charge power, a rinse
+      station, an electronic gate, and video surveillance. Access is 6:00 am
+      to 10:00 pm. One paragraph also gives 24381 S. Tamiami Trail, Bonita
+      Springs, FL 34134.
+    sources:
+      - url: https://bluegateboatrv.com/locations/florida/bonita-springs/bluegate-boat-rv-storage-bonita-springs/
+        title: Bonita Springs location page
+      - url: https://bluegateboatrv.com/locations/florida/
+        title: Florida locations
+    last_verified: "2026-11-18"
+
+  - slug: caloosa-rv-boat-storage-fort-myers
+    name: "Caloosa RV & Boat Storage"
+    street: 3031 Palm Beach Blvd
+    city: Fort Myers
+    state_code: FL
+    postal_code: "33916"
+    lat: null
+    lng: null
+    phone: "(239) 872-8429"
+    website: https://www.caloosastorage.com/
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: 50
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: true
+    price_notes: >-
+      Rates are $12 per square foot of unit size per year. 20 by 40 is $800
+      per month, 20 by 50 is $1,000 per month, 40 by 40 is $1,600 per month,
+      and 40 by 50 is $2,000 per month.
+    waitlist: null
+    notes: >-
+      Enclosed RV and boat units on the same property as an Extra Space
+      Storage store, rented separately, with gated 24/7 tenant access.
+    sources:
+      - url: https://www.caloosastorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: diplomat-rv-boat-storage-cape-coral
+    name: "Diplomat RV & Boat Storage"
+    street: 2900 Diplomat Pkwy E
+    city: Cape Coral
+    state_code: FL
+    postal_code: "33909"
+    lat: null
+    lng: null
+    phone: "(239) 458-2200"
+    website: https://www.diplomatrvboat.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: >-
+      Open-air asphalt from $135 per month, covered parking from $205 per
+      month, and garage storage from $506 per month.
+    waitlist: null
+    notes: >-
+      Open, covered, and garage storage, with key-fob gates from 6 am to 10 pm,
+      cameras, three sewer dumps, a wash bay, and 30-amp service. The homepage
+      states both 35 and 52 security cameras.
+    sources:
+      - url: https://www.diplomatrvboat.com/
+        title: Official website
+      - url: https://www.diplomatrvboat.com/rates-and-rental-agreement/
+        title: Rates page
+    last_verified: "2026-11-18"
+
+  - slug: honey-bee-rv-storage-bonita-springs
+    name: Honey Bee RV Storage
+    street: 24300 S. Tamiami Trail
+    city: Bonita Springs
+    state_code: FL
+    postal_code: "34134"
+    lat: null
+    lng: null
+    phone: "(239) 390-5997"
+    website: https://www.honeybeerv.com/rv-storage-locations/fl/bonita-springs/24300-s-tamiami-trail
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: >-
+      New customers can get up to 50 percent off select spaces. The page also
+      lists a 10 percent military discount and up to a 50 percent referral
+      discount. No base monthly rate was printed.
+    waitlist: null
+    notes: >-
+      Covered boat and RV storage with a gate, 24-hour cameras, power, a wash
+      station, and a dump station. Customer access is described as 7 days a
+      week, not as 24 hours. A later line also prints (239) 893-9500.
+    sources:
+      - url: https://www.honeybeerv.com/rv-storage-locations/fl/bonita-springs/24300-s-tamiami-trail
+        title: Bonita Springs location page
+    last_verified: "2026-11-18"
+
+  - slug: metromaxx-rv-boat-storage-fort-myers
+    name: "MetroMaxx Recreational Vehicles & Boat Storage"
+    street: 11659 Metro Pkwy
+    city: Fort Myers
+    state_code: FL
+    postal_code: "33966"
+    lat: null
+    lng: null
+    phone: "(239) 689-5046"
+    website: https://www.metro-maxx.com/
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: 50
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      Pricing starts at $1,295 per month and includes electricity. Long-term
+      rental discounts are available.
+    waitlist: null
+    notes: >-
+      The operator says all 95 units are enclosed and climate-controlled, and
+      that standard units are 16 feet wide by 50 feet deep, with 24/7 gated
+      access and HD cameras.
+    sources:
+      - url: https://www.metro-maxx.com/
+        title: Official website
+      - url: https://www.metro-maxx.com/blog/metromaxx-rv-and-boat-storage-opens-premium-facility-in-fort-myers
+        title: Opening announcement
+    last_verified: "2026-11-18"
+
+  - slug: on-guard-rv-boat-storage-fort-myers
+    name: On Guard RV Boat Storage
+    street: 2950 Work Dr
+    city: Fort Myers
+    state_code: FL
+    postal_code: "33916"
+    lat: null
+    lng: null
+    phone: "(239) 288-7158"
+    website: https://www.onguardrvboatstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 65
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered spaces are listed from 27 to 45 feet, with a limited number of
+      65-foot pull-through spaces and 15/20- and 30-amp service. Open spaces
+      go up to 45 feet. The page lists a 24/7 gate, video surveillance, a free
+      wash station, and a dump station.
+    sources:
+      - url: https://www.onguardrvboatstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: palm-beach-rv-boat-storage-fort-myers
+    name: "Palm Beach RV & Boat Storage"
+    street: 11190 Palm Beach Boulevard
+    city: Fort Myers
+    state_code: FL
+    postal_code: "33905"
+    lat: null
+    lng: null
+    phone: "(239) 523-0756"
+    website: https://palmbeachrvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: 15
+    power_hookups: true
+    dump_station: null
+    wash_station: true
+    gated: true
+    cameras: null
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      362 covered spots for boats and RVs, with 15-foot clearance, 30-amp
+      electric, a gate code, 24-hour gate access, and an enclosed wash bay.
+      The site says it does not store food trucks or food trailers.
+    sources:
+      - url: https://palmbeachrvstorage.com/
+        title: Official website
+      - url: https://palmbeachrvstorage.com/units/
+        title: Units page
+    last_verified: "2026-11-18"
+
+  - slug: park-720-cape-coral
+    name: Park 720
+    street: 710 NE 25th Ave
+    city: Cape Coral
+    state_code: FL
+    postal_code: "33909"
+    lat: null
+    lng: null
+    phone: "(239) 573-9990"
+    website: https://www.park720.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Uncovered, covered, and indoor boat and RV storage, with 24/7 access, a
+      gate, more than 20 cameras, a dump station, a wash bay, and charging
+      outlets. The site says the property has 15-foot steel walls.
+    sources:
+      - url: https://www.park720.com/
+        title: Official website
+      - url: https://www.park720.com/units
+        title: Units page
+    last_verified: "2026-11-18"
+
+  - slug: parksmart-rv-boat-storage-fort-myers
+    name: ParkSmart
+    street: 10431 Radar Court
+    city: Fort Myers
+    state_code: FL
+    postal_code: null
+    lat: null
+    lng: null
+    phone: null
+    website: https://www.rswparksmart.com/storage
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: 10
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered and uncovered RV and boat bays, with 24/7 access. Covered 9 by
+      34 foot and 18 by 34 foot bays are listed as 120 inches high. The page
+      does not publish a ZIP code or a phone number.
+    sources:
+      - url: https://www.rswparksmart.com/storage
+        title: Storage page
+      - url: https://www.rswparksmart.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: recnation-rv-boat-storage-old-metro-pkwy
+    name: "RecNation RV & Boat Storage"
+    street: 3151 Old Metro Parkway
+    city: Fort Myers
+    state_code: FL
+    postal_code: "33916"
+    lat: null
+    lng: null
+    phone: 239-423-2939
+    website: https://www.recnationstorage.com/storage-facility/fl/fort-myers/3151-old-metro-pkwy/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: 60
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: >-
+      Vehicle-storage web rates include an outdoor uncovered 11 by 20 foot
+      space at $137 and an indoor garage 15 by 60 foot space at $565. Those
+      web-rate lines do not state a billing period. A truck-parking line lists
+      a 12 by 40 foot space at $258 per month.
+    waitlist: null
+    notes: >-
+      Enclosed, covered, and uncovered RV and boat storage, with cameras, a
+      remote gate, and in-unit power. The page lists access as 24 hours and
+      also says the facility is open 6:00 a.m. to 10:00 p.m., with 24/7 access
+      upon request, so 24-hour access is not marked yes or no.
+    sources:
+      - url: https://www.recnationstorage.com/storage-facility/fl/fort-myers/3151-old-metro-pkwy/
+        title: Official facility page
+    last_verified: "2026-11-18"
+
+  - slug: senyah-open-air-storage-lehigh-acres
+    name: Senyah Open Air Storage
+    street: 5421 Lee Street
+    city: Lehigh Acres
+    state_code: FL
+    postal_code: "33971"
+    lat: 26.617361
+    lng: -81.744333
+    phone: "(941) 451-7822"
+    website: https://www.senyahopenairstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Open-air RV and boat parking. The site publishes coordinates
+      26.617361, -81.744333, says the lot is over 2.5 acres, and says
+      tractor-trailers are not allowed. Gate hours are 6 am to 10 pm.
+    sources:
+      - url: https://www.senyahopenairstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: the-boat-house-cape-coral
+    name: The Boat House
+    street: 1516 SE 46th St
+    city: Cape Coral
+    state_code: FL
+    postal_code: "33904"
+    lat: null
+    lng: null
+    phone: "(239) 549-2628"
+    website: https://www.boathouseh2o.com/boat-storage-in-cape-coral-fl/
+    vehicles: [boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Indoor dry-stack boat storage plus outdoor covered and uncovered
+      storage, valet dry-stack, and wet slips. The pages list surveillance
+      cameras and secured access gates. RVs are not mentioned.
+    sources:
+      - url: https://www.boathouseh2o.com/boat-storage-in-cape-coral-fl/
+        title: Cape Coral boat storage page
+      - url: https://www.boathouseh2o.com/cape-coral-fl-indoor-dry-stack-storage/
+        title: Indoor dry-stack page
+    last_verified: "2026-11-18"

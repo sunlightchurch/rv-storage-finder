@@ -12,8 +12,9 @@ The build fails if a file breaks the schema, a listing has no source URL, a slug
 4. Set `sparefoot_slug` to SpareFoot's public city token, such as `Austin-TX`. The live page is `https://www.sparefoot.com/Austin-TX-self-storage/rv-storage.html`. Open it before you commit the slug.
 5. Set `neighbor_path` to Neighbor's public path, such as `texas/austin`. The live page is `https://www.neighbor.com/rv-storage-near-me/texas/austin`. Open it before you commit the path.
 6. Leave `sparefoot_note` as `null` unless those links need a caveat, as Dallas-Fort Worth does.
-7. Add listings. A new state appears on its own as soon as one city file uses that `state` name.
-8. Run `npm run build` and `npm run verify`.
+7. Set `photo` to an id from `src/data/photos.yaml` whose `role` is `city`. The build fails if the id is missing or is not a city photo. To add a photograph, put optimized WebP files in `public/photos/` (640, 960, and 1280 pixels wide, 3:2) and add a catalog row with author, source URL, license, and `credit_required`. Use Wikimedia Commons files that are CC0, CC BY, or CC BY-SA, or another license that allows reuse. Do not hotlink, and do not copy a facility, Google, or Yelp photo unless that source explicitly allows reuse.
+8. Add listings. A new state appears on its own as soon as one city file uses that `state` name. A new state also needs a `role: state` photo whose id matches the state slug (`florida`, `georgia`).
+9. Run `npm run build` and `npm run verify`.
 
 Filter pages are created automatically for every filter in `src/data/filters.yaml` that matches at least one listing. A city with no covered RV listing does not get a covered-RV page.
 
@@ -36,6 +37,7 @@ Every listing needs every key below. Use `null` when the source does not say. Us
 | `waitlist` | A short note if the page describes a waitlist, or `null`. |
 | `notes` | One or two factual sentences. Paraphrase. Do not paste a marketing paragraph. |
 | `sources` | At least one `url` and `title`. Prefer the facility's own page. |
+| `photo` | A catalog id, or `null`. `null` shows a shared licensed photo of a typical RV, trailer, or boat. The card says that picture is not this facility. Set an id only when you have a photo that license allows you to store, and record it in `src/data/photos.yaml` first. |
 | `last_verified` | The day you opened the source, `YYYY-MM-DD`, in quotes. |
 
 Quote YAML values that contain `&`, `#`, or `:`.

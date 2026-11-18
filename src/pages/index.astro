@@ -1,20 +1,26 @@
 ---
 import Base from '../layouts/Base.astro';
-import FilterIndex from '../components/FilterIndex.astro';
+import CitySearch from '../components/CitySearch.astro';
 import FindMore from '../components/FindMore.astro';
-import { cityStats, directoryStats, getCities, href, site } from '../lib/data';
+import Photo from '../components/Photo.astro';
+import { cityStats, directoryStats, getStates, href, site } from '../lib/data';
+import { heroPhoto, getPhoto } from '../lib/photos';
 import { breadcrumbNode, faqNode, pageGraph, webPageNode } from '../lib/schema';
 
-const cities = getCities();
+const states = getStates();
+const cities = states.flatMap((state) => state.cities);
 const stats = directoryStats();
-const title = 'RV and boat storage directory | Tampa, Orlando, Phoenix, Houston, DFW';
+const title = 'RV and boat storage by city | RV Storage Finder';
 const description =
-  'Sourced RV and boat storage in and near Tampa, Orlando, Phoenix, Houston, and Dallas-Fort Worth. Cover type, power, and monthly prices appear only when a facility publishes them.';
+  'Search sourced RV and boat storage by city or ZIP. Cover type, power, and monthly prices appear only when a facility publishes them.';
 const path = '/';
+const cityNames = states
+  .map((state) => `${state.name} (${state.cities.map((city) => city.city).join(', ')})`)
+  .join('; ');
 const faqs = [
   {
     q: 'Which cities are in this directory?',
-    a: 'Launch pages cover Tampa and Orlando, Florida; Phoenix, Arizona; and Houston and Dallas-Fort Worth, Texas, including nearby suburbs named on each city page.',
+    a: `Pages currently cover ${cityNames}. A facility keeps the city printed on its own page, which may be a suburb.`,
   },
   {
     q: 'Why does a listing say not listed?',
@@ -51,51 +57,64 @@ const schema = pageGraph([
 
 <Base title={title} description={description} path={path} schema={schema}>
   <div class="wrap">
-    <p class="eyebrow">RV and boat storage</p>
-    <h1>Storage with a source on every listing</h1>
-    <p class="lede">
-      Compare covered, enclosed, and outdoor RV and boat storage in five high-demand metros. People
-      search for covered RV storage near Tampa, boat storage with power near Phoenix, and RV storage
-      prices per month. Each city page records those facts only when a facility publishes them.
-    </p>
-    <p class="stats">
-      <span><strong>{stats.facilities}</strong> facilities</span>
-      <span><strong>{stats.cities}</strong> cities</span>
-      <span><strong>{stats.priced}</strong> publish a price</span>
-    </p>
-    <h2>Cities</h2>
-    <ul class="city-grid">
-      {
-        cities.map((city) => {
-          const counts = cityStats(city);
-          return (
-            <li>
-              <a class="city-card" href={href(`/cities/${city.id}/`)}>
-                <span class="eyebrow">{city.state}</span>
-                <span class="city-name">{city.city}</span>
-                <span class="city-meta">
-                  {counts.total} facilities · {counts.priced} with a published price
-                </span>
-              </a>
-            </li>
-          );
-        })
-      }
-    </ul>
-    <p class="legend">
-      This is a sourced sample, not every lot in those metros. On a facility card, Yes and No come from
-      the source. Not listed means that page was silent.
-    </p>
-    <h2>Browse by need</h2>
-    <FilterIndex />
-    <section class="prose">
-      <h2>How to choose, and what it costs</h2>
-      <p>
-        Measure length and height before you call. A gate is a different fact from 24-hour access, and a
-        published national range is a different fact from a facility’s own rate.
-      </p>
-      <p><a href={href('/guide/')}>Read the storage guide</a></p>
+    <section class="home-hero">
+      <div>
+        <p class="eyebrow">RV and boat storage</p>
+        <h1>Find storage with a source on every listing</h1>
+        <p class="lede">
+          Compare covered, enclosed, and outdoor lots. If a facility did not publish a price or an
+          amenity, the card says not listed.
+        </p>
+        <CitySearch />
+        <p class="stats">
+          <span><strong>{stats.facilities}</strong> facilities</span>
+          <span><strong>{stats.cities}</strong> cities</span>
+          <span><strong>{stats.priced}</strong> publish a price</span>
+        </p>
+      </div>
+      <Photo photo={heroPhoto()} sizes="(min-width: 900px) 420px, 100vw" eager />
     </section>
+    <h2>Browse by state</h2>
+    {
+      states.map((state) => (
+        <section class="state-block">
+          <h3>
+            <a href={href(`/states/${state.slug}/`)}>{state.name}</a>
+          </h3>
+          <ul class="city-grid">
+            {state.cities.map((city) => {
+              const counts = cityStats(city);
+              const photo = getPhoto(city.photo);
+              return (
+                <li>
+                  <a class="city-card" href={href(`/cities/${city.id}/`)}>
+                    <img
+                      src={href(`/${photo.files['640']}`)}
+                      srcset={`${href(`/${photo.files['640']}`)} 640w, ${href(`/${photo.files['960']}`)} 960w`}
+                      sizes="(min-width: 800px) 280px, 100vw"
+                      width={photo.width}
+                      height={photo.height}
+                      alt=""
+                      loading="lazy"
+                      decoding="async"
+                    />
+                    <span class="city-name">{city.city}</span>
+                    <span class="city-meta">
+                      {counts.total} facilities · {counts.priced} with a published price
+                    </span>
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      ))
+    }
+    <p class="legend">
+      City photos show the place, not a storage lot. Listing photos are typical vehicles or lots and are
+      labeled when they are not that facility. <a href={href('/credits/')}>Photo credits</a>.
+    </p>
+    <p><a href={href('/guide/')}>How to choose storage and what it costs</a></p>
     <section class="faq prose">
       <h2>Questions</h2>
       {

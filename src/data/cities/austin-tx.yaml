@@ -1,0 +1,458 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: austin-tx
+city: Austin
+state: Texas
+state_code: TX
+metro: Austin
+summary: >-
+  These facilities publish an RV or boat storage page in Austin or nearby
+  Round Rock. Each card uses only what that page states. Coordinates are
+  included only when the opened page prints them.
+sparefoot_slug: Austin-TX
+neighbor_path: texas/austin
+sparefoot_note: null
+photo: austin
+listings:
+  - slug: arons-boat-rv-storage
+    name: "Aron's Boat & RV Storage"
+    street: 500 Co Rd 117
+    city: Round Rock
+    state_code: TX
+    postal_code: "78665"
+    lat: null
+    lng: null
+    phone: "(512) 255-4545"
+    website: https://www.aronsboatstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The site says every space is covered, with electric outlets, 24-hour
+      gate access, custom gate codes, and 24/7 cameras. It says the business
+      has served customers since 2010.
+    sources:
+      - url: https://www.aronsboatstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: bergstrom-storage
+    name: Bergstrom Storage
+    street: 530 Bastrop Hwy. SB
+    city: Austin
+    state_code: TX
+    postal_code: "78741"
+    lat: 30.2360829
+    lng: -97.6868065
+    phone: "(512) 519-9188"
+    website: https://www.premiumspaces.com/storage-locations/tx/austin/530-bastrop-hwy-sb
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: 80
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: >-
+      Small units start around $40 per month, medium units around $124 per
+      month, and large units around $203 per month. Separate boat and RV
+      parking prices are not listed.
+    waitlist: null
+    notes: >-
+      Covered, uncovered, and enclosed boat and RV spaces from 14 by 20 to 14
+      by 80 feet. Enclosed RV spaces have electricity. The page says customers
+      can retrieve items day or night and does not say access is 24 hours.
+      Coordinates are on the page's map marker.
+    sources:
+      - url: https://www.premiumspaces.com/storage-locations/tx/austin/530-bastrop-hwy-sb
+        title: Official location page
+    last_verified: "2026-11-18"
+
+  - slug: boat-town-austin
+    name: Boat Town
+    street: 4630 South Lamar Boulevard
+    city: Austin
+    state_code: TX
+    postal_code: "78735"
+    lat: 30.2332704
+    lng: -97.8073173
+    phone: "(512) 892-2220"
+    website: https://www.boattown.com/boat-and-rv-self-service-storage
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: >-
+      Boat storage is $125 per month, tax free. Non-boat storage, including
+      RVs and trailers, is $125 per month plus tax.
+    waitlist: null
+    notes: >-
+      Open-air boat and RV storage. The page's business-location record is
+      4630 South Lamar Boulevard and includes the coordinates. Listed hours
+      are Tuesday through Friday 9 am to 5 pm and Saturday 9 am to 2 pm.
+    sources:
+      - url: https://www.boattown.com/boat-and-rv-self-service-storage
+        title: Storage page
+    last_verified: "2026-11-18"
+
+  - slug: executive-enclosed-rv-boat-storage
+    name: "Executive Enclosed RV & Boat Storage"
+    street: 1531 Red Bud Lane
+    city: Round Rock
+    state_code: TX
+    postal_code: "78664"
+    lat: null
+    lng: null
+    phone: "(512) 759-8778"
+    website: https://www.execenclosed.com/
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: 50
+    clearance_ft: 15
+    power_hookups: true
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Enclosed units are 14 feet wide by 50 feet deep by 15 feet high, with
+      electricity included, gated 24-hour access, video surveillance, and an
+      RV dump station.
+    sources:
+      - url: https://www.execenclosed.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: forest-creek-mini-storage
+    name: Forest Creek Mini Storage
+    street: 1901 Red Bud Ln
+    city: Round Rock
+    state_code: TX
+    postal_code: "78664"
+    lat: null
+    lng: null
+    phone: 512-310-9227
+    website: https://forestcreekministorage.com/parking/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    price_notes: >-
+      Uncovered 12 by 40 is $80 per month. Covered 12 by 30 is $105, 12 by 35
+      is $122, and 12 by 40 is $133 per month. Covered with electricity is
+      $120, $137, and $148 per month for those same lengths.
+    waitlist: null
+    notes: >-
+      Uncovered and covered boat and RV spaces up to 12 by 40 feet, with
+      electricity on covered spaces. The site says storage customers receive
+      24-hour unit access.
+    sources:
+      - url: https://forestcreekministorage.com/parking/
+        title: Parking page
+      - url: https://forestcreekministorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: hudson-bend-boat-camper-storage
+    name: "Hudson Bend Boat & Camper Storage"
+    street: 4704 Hudson Bend Road
+    city: Austin
+    state_code: TX
+    postal_code: "78734"
+    lat: 30.4082552
+    lng: -97.9274745
+    phone: "(512) 266-2565"
+    website: https://www.hudsonbendstoragetx.com/pages/rent-boat-rv-storage
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: null
+    clearance_ft: 11
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: >-
+      Starts at $65 per month. Boat trailer under 24 feet is $65. Boat and
+      trailer under 24 feet is $75, and over 24 feet is $85. RVs 30 feet and
+      under are $80, 31 to 35 feet $85, 36 to 40 feet $90, and 40 feet and
+      over $100. An inside unit 26 by 11 by 11 is $175 per month.
+    waitlist: null
+    notes: >-
+      Open, covered, and enclosed boat and RV storage. Inside units are 11
+      feet high. RV spaces include a 40 feet and over category, so no maximum
+      length is recorded. Coordinates are in the page schema.
+    sources:
+      - url: https://www.hudsonbendstoragetx.com/pages/rent-boat-rv-storage
+        title: Rent page
+    last_verified: "2026-11-18"
+
+  - slug: king-size-storage
+    name: King Size Storage
+    street: 5256 W US Hwy 290 Service Rd
+    city: Austin
+    state_code: TX
+    postal_code: "78735"
+    lat: null
+    lng: null
+    phone: "(512) 892-2391"
+    website: https://www.kingsizestorageaustin.com/
+    vehicles: [rv, boat]
+    storage_types: [enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Outdoor and fully enclosed boat and RV storage, with a gated facility
+      and electricity in warehouse units. Gate hours are 6:00 AM to 10:00 PM
+      every day. The street address is from a location directory page, not
+      printed on the operator site, so coordinates from that directory were
+      not used.
+    sources:
+      - url: https://www.kingsizestorageaustin.com/
+        title: Official website
+      - url: https://www.kingsizestorageaustin.com/outdoor-boat-rv-storage
+        title: Outdoor storage page
+      - url: https://www.kingsizestorageaustin.com/indoor-boat-rv-storage
+        title: Indoor storage page
+      - url: https://www.loc8nearme.com/texas/austin/kingsize-storage/4240471/
+        title: Location directory page
+    last_verified: "2026-11-18"
+
+  - slug: lake-austin-storage
+    name: Lake Austin Storage
+    street: 1215 Terjo Lane
+    city: Austin
+    state_code: TX
+    postal_code: "78732"
+    lat: null
+    lng: null
+    phone: "(512) 266-5757"
+    website: https://www.lakeaustinstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    price_notes: >-
+      Covered storage 28 by 12 is $250 per month. Open field storage 28 by 12
+      is $125 per month. Boat enclosed storage 33 by 14 is $300 per month.
+      Enclosed storage 20 by 12 is $175 per month. Short covered storage 28 by
+      12 for non-tower boats is $200 per month.
+    waitlist: null
+    notes: >-
+      Open, covered, and enclosed storage for boats, RVs, and jet skis, with
+      24-hour access.
+    sources:
+      - url: https://www.lakeaustinstorage.com/
+        title: Official website
+      - url: https://www.lakeaustinstorage.com/pages/rent
+        title: Rent page
+    last_verified: "2026-11-18"
+
+  - slug: longhorn-boat-and-camper-storage
+    name: Longhorn Boat and Camper Storage
+    street: 7807 Ranch Rd 620 N
+    city: Austin
+    state_code: TX
+    postal_code: "78726"
+    lat: 30.412241
+    lng: -97.8489781
+    phone: "(512) 331-4666"
+    website: https://www.longhornboatandcamperstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Enclosed and uncovered parking for boats and RVs, with a gate, cameras,
+      light and power in each unit, and 24/7 access. Listed unit sizes include
+      11 by 36, 11 by 30, 11 by 28, 11 by 26, 10 by 20, and 12 by 16, with
+      rates by phone. Coordinates are on the page.
+    sources:
+      - url: https://www.longhornboatandcamperstorage.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: park-place-rv-boat-storage
+    name: "Park Place RV & Boat Storage"
+    street: 12311 Anderson Mill Rd
+    city: Austin
+    state_code: TX
+    postal_code: "78726"
+    lat: 30.457376
+    lng: -97.834794
+    phone: "(512) 258-3875"
+    website: https://www.parkplacestorageaustin.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Outdoor boat and RV storage, with 24-hour access, electric keypad gates,
+      and security cameras. The site says the gates opened in 1985 and the
+      fence is 7 feet. Coordinates are on the page's map link.
+    sources:
+      - url: https://www.parkplacestorageaustin.com/
+        title: Official website
+    last_verified: "2026-11-18"
+
+  - slug: south-austin-marine
+    name: South Austin Marine
+    street: 5340 Highway 290 West
+    city: Austin
+    state_code: TX
+    postal_code: "78735"
+    lat: null
+    lng: null
+    phone: "(512) 892-2432"
+    website: https://www.southaustinmarine.com/storage
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    price_notes: >-
+      Covered storage is $200 per month. Payment is due on the 1st, the first
+      month plus a deposit is required up front, and the minimum contract is
+      3 months.
+    waitlist: null
+    notes: >-
+      Covered boat and RV storage with 24/7 access. The storage page says no
+      power outlets are available on site.
+    sources:
+      - url: https://www.southaustinmarine.com/storage
+        title: Storage page
+    last_verified: "2026-11-18"
+
+  - slug: storagedepot-austin-brushy-creek
+    name: StorageDepot Austin Brushy Creek
+    street: 15418 RR 620 North
+    city: Austin
+    state_code: TX
+    postal_code: "78717"
+    lat: 30.4846903
+    lng: -97.7381056
+    phone: 512-255-8535
+    website: https://storagedepotaustin.com/brushy-creek/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: >-
+      Open parking plus Texas sales tax: boats under 25 feet $90, 25 to 29
+      feet $99, and over 29 feet $115 per month. RV, camper, trailer, or
+      vehicle under 25 feet $95, 25 to 32 feet $115, and over 32 feet $135
+      per month. Covered boat and RV rates run from $185 to $210 per month by
+      those length bands. Electricity on covered parking is an additional $15
+      per month. A fully enclosed 12 by 32 is $235 per month.
+    waitlist: null
+    notes: >-
+      Open, covered, and enclosed boat and RV parking. Access is by keypad
+      from 6:00 am to 10:00 pm, seven days a week. Coordinates are on the
+      page's map link.
+    sources:
+      - url: https://storagedepotaustin.com/brushy-creek/
+        title: Brushy Creek location page
+    last_verified: "2026-11-18"
+
+  - slug: storagemax-boat-rv-storage
+    name: "Storagemax Boat & RV Storage"
+    street: 1410 E Palm Valley Blvd.
+    city: Round Rock
+    state_code: TX
+    postal_code: "78664"
+    lat: 30.5177404
+    lng: -97.6640957
+    phone: "(512) 310-0000"
+    website: https://storagemaxtx.com/storagemax-boat-rv-storage/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      A 9 by 17 space is on sale at $69.95 per month, regularly $79.95 per
+      month. The page says this sale price is limited and is a phone or online
+      price only.
+    waitlist: null
+    notes: >-
+      Open and covered boat and RV spaces, with 24-hour gate access and
+      24-hour digital cameras. Free water and free air for tires are available
+      during business hours. XL spaces are described as from 31 feet and up,
+      so no maximum length is recorded. Coordinates are on the map link.
+    sources:
+      - url: https://storagemaxtx.com/storagemax-boat-rv-storage/
+        title: Boat and RV storage page
+    last_verified: "2026-11-18"
