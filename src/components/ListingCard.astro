@@ -72,6 +72,9 @@ const icons = [
   data-boat={String(listing.vehicles.includes('boat'))}
   data-rv={String(listing.vehicles.includes('rv'))}
   data-priced={String(Boolean(listing.price_notes))}
+  data-zip={listing.postal_code ? String(listing.postal_code).replace(/\D/g, '').slice(0, 5) : undefined}
+  data-lat={listing.lat ?? undefined}
+  data-lng={listing.lng ?? undefined}
 >
   <Photo
     photo={photo}
@@ -90,6 +93,7 @@ const icons = [
         {listing.city}, {listing.state_code}{listing.postal_code ? ` ${listing.postal_code}` : ''}
       </address>
     </header>
+    <p class="distance-note" data-distance-note hidden></p>
     <p class="fit-note" data-fit-note hidden></p>
     <ul class="icon-row" aria-label="Published features">
       {icons.length ? icons.map((icon) => <li>{icon}</li>) : <li class="unknown">Features not listed</li>}

@@ -611,6 +611,10 @@ th .fine {
   margin-top: 0.35rem;
 }
 
+.distance-note {
+  margin: 0.35rem 0 0;
+}
+
 .table-wrap {
   overflow-x: auto;
   margin: 1rem 0;
