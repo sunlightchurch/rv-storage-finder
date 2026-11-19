@@ -1,0 +1,18 @@
+---
+interface Props {
+  lines: string[];
+  offered: boolean;
+}
+
+const { lines, offered } = Astro.props;
+---
+
+{
+  lines.length ? (
+    lines.map((line) => <span class="price-cell-line">{line}</span>)
+  ) : offered ? (
+    'Price not posted, call for rates'
+  ) : (
+    '—'
+  )
+}

@@ -1,10 +1,21 @@
 ---
-import { formatMoney, formatMoneyList } from '../lib/prices';
+import CoverPrice from './CoverPrice.astro';
+
+interface CoverCell {
+  lines: string[];
+  offered: boolean;
+}
 
 interface Row {
   name: string;
   place: string;
   href: string;
+  open: CoverCell;
+  covered: CoverCell;
+  enclosed: CoverCell;
+  unstated: string[];
+  sourceHref: string | null;
+  sourceTitle: string | null;
   monthly: number[];
   perFoot: number[];
   checked: string;
@@ -57,9 +68,10 @@ const hasMonthly = rows.some((row) => row.monthly.length > 0);
       <thead>
         <tr>
           <th scope="col">Facility</th>
-          <th scope="col">Published monthly</th>
-          {hasFoot && <th scope="col">Per foot</th>}
-          <th scope="col">Checked</th>
+          <th scope="col">Open</th>
+          <th scope="col">Covered</th>
+          <th scope="col">Enclosed</th>
+          <th scope="col">Source</th>
         </tr>
       </thead>
       <tbody>
@@ -74,17 +86,29 @@ const hasMonthly = rows.some((row) => row.monthly.length > 0);
               <th scope="row">
                 <a href={row.href}>{row.name}</a>
                 {row.place ? <span class="fine">{row.place}</span> : null}
+                {row.unstated.length > 0 && (
+                  <span class="fine">
+                    Cover type not stated: {row.unstated.join('; ')}
+                  </span>
+                )}
+                <span class="fine">Checked {row.checked}</span>
+                <span class="fine foot-estimate" data-foot-estimate />
               </th>
-              <td>{row.monthly.length ? formatMoneyList(row.monthly) : 'Not listed'}</td>
-              {
-                hasFoot && (
-                  <td>
-                    {row.perFoot.length ? row.perFoot.map((rate) => `${formatMoney(rate)}/ft`).join(', ') : 'Not listed'}
-                    <span class="fine foot-estimate" data-foot-estimate />
-                  </td>
-                )
-              }
-              <td>{row.checked}</td>
+              <td><CoverPrice lines={row.open.lines} offered={row.open.offered} /></td>
+              <td><CoverPrice lines={row.covered.lines} offered={row.covered.offered} /></td>
+              <td><CoverPrice lines={row.enclosed.lines} offered={row.enclosed.offered} /></td>
+              <td>
+                {
+                  row.sourceHref && row.sourceTitle ? (
+                    <a href={row.sourceHref} rel="noopener noreferrer" target="_blank">
+                      {row.sourceTitle}
+                      <span class="sr-only"> (opens in a new tab)</span>
+                    </a>
+                  ) : (
+                    'Not listed'
+                  )
+                }
+              </td>
             </tr>
           ))
         }

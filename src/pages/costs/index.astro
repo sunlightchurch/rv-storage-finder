@@ -2,7 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { getStates, href } from '../../lib/data';
-import { monthlySpan, parsePriceNote } from '../../lib/prices';
+import { formatMonthlyRange, monthlySpan, parsePriceNote } from '../../lib/prices';
 import { breadcrumbNode, pageGraph, webPageNode } from '../../lib/schema';
 
 const states = getStates().map((state) => {
@@ -40,11 +40,7 @@ const schema = pageGraph([
           </h2>
           <p>
             {span.count} of {total} facilities print a monthly amount
-            {span.low != null && span.high != null
-              ? span.low === span.high
-                ? `, and that figure is $${span.low.toLocaleString('en-US')}.`
-                : `, from $${span.low.toLocaleString('en-US')} to $${span.high.toLocaleString('en-US')}.`
-              : '.'}
+            {span.low != null && span.high != null ? `, ${formatMonthlyRange(span.low, span.high)}.` : '.'}
           </p>
           <ul class="jump">
             {state.cities.map((city) => (

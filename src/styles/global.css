@@ -446,6 +446,61 @@ address {
   max-width: 75ch;
 }
 
+.price-from {
+  display: block;
+  margin: 0.25rem 0 0.45rem;
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
+
+.price-groups {
+  display: grid;
+  gap: 0.35rem;
+  margin: 0.15rem 0 0.45rem;
+}
+
+.price-group {
+  display: grid;
+  grid-template-columns: 7.5rem 1fr;
+  gap: 0.15rem 0.65rem;
+  align-items: start;
+}
+
+.price-cover {
+  font-weight: 650;
+}
+
+.price-group ul,
+.price-group li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.price-details {
+  margin-top: 0.35rem;
+}
+
+.price-details summary {
+  cursor: pointer;
+  font-weight: 650;
+}
+
+.price-cell-line {
+  display: block;
+}
+
+.compare td {
+  white-space: pre-line;
+}
+
+@media (max-width: 520px) {
+  .price-group {
+    grid-template-columns: 1fr;
+    gap: 0.1rem;
+  }
+}
+
 .note {
   max-width: 75ch;
   background: var(--stamp);

@@ -6,10 +6,14 @@ import { formatDate } from '../../lib/format';
 import { getCities, getCity, getState, getStates, href, stateSlug } from '../../lib/data';
 import {
   cityCostDescription,
-  formatMoney,
+  formatMonthlyRange,
   monthlySpan,
   parsePriceNote,
+  priceLineText,
+  priceLines,
+  priceSortRank,
   stateCostDescription,
+  type CoverKind,
 } from '../../lib/prices';
 import { breadcrumbNode, faqNode, pageGraph, webPageNode } from '../../lib/schema';
 
@@ -61,44 +65,53 @@ const crumbs = city
 const range =
   span.low == null || span.high == null
     ? 'No monthly dollar amount was printed.'
-    : span.low === span.high
-      ? `The published monthly figure is ${formatMoney(span.low)}.`
-      : `Published monthly figures run from ${formatMoney(span.low)} to ${formatMoney(span.high)}.`;
+    : `Published monthly figures run ${formatMonthlyRange(span.low, span.high)}.`;
 const faqs = [
   {
     q: city ? `How many ${city.city} facilities published a monthly price?` : `How many ${state!.name} facilities published a monthly price?`,
-    a: `${span.count} of ${total} facilities printed a dollar amount next to a month. ${range} A note that names a dollar amount without saying it is monthly is left off this total.`,
+    a: `${span.count} of ${total} facilities printed a dollar amount next to a month. ${range} A dollar amount with no billing period is shown as “period not stated” and is not counted in this total.`,
   },
   {
     q: 'Is the lowest figure the price I will pay?',
     a: 'No. It is the smallest amount that page tied to a month. It may be a short space, a promotion, or one size in a list. The facility row keeps every monthly figure that page printed.',
   },
 ];
-const rows = city
-  ? city.listings.map((listing) => {
-      const note = parsePriceNote(listing.price_notes);
-      return {
-        name: listing.name,
-        place: '',
-        href: href(`/cities/${city.id}/#${listing.slug}`),
-        monthly: note.monthly,
-        perFoot: note.perFoot,
-        checked: formatDate(listing.last_verified),
-      };
-    })
+function priceRow(
+  listing: (typeof sourceListings)[number],
+  place: string,
+  rowHref: string,
+) {
+  const lines = priceLines(listing);
+  const cell = (cover: CoverKind) => ({
+    lines: lines.filter((line) => line.cover === cover).map((line) => priceLineText(line, false)),
+    offered: listing.storage_types.includes(cover),
+  });
+  const source = listing.sources[0];
+  return {
+    name: listing.name,
+    place,
+    href: rowHref,
+    open: cell('open'),
+    covered: cell('covered'),
+    enclosed: cell('enclosed'),
+    unstated: lines.filter((line) => line.cover == null).map((line) => priceLineText(line, false)),
+    sourceHref: source?.url ?? null,
+    sourceTitle: source?.title ?? null,
+    monthly: lines.filter((line) => line.unit === 'mo').map((line) => line.amount),
+    perFoot: lines.filter((line) => line.unit === 'ft' || line.unit === 'ft-mo').map((line) => line.amount),
+    checked: formatDate(listing.last_verified),
+    rank: priceSortRank(lines),
+  };
+}
+
+const rows = (city
+  ? city.listings.map((listing) => priceRow(listing, '', href(`/cities/${city.id}/#${listing.slug}`)))
   : state!.cities.flatMap((item) =>
-      item.listings.map((listing) => {
-        const note = parsePriceNote(listing.price_notes);
-        return {
-          name: listing.name,
-          place: `${item.city}, ${item.state_code}`,
-          href: href(`/cities/${item.id}/#${listing.slug}`),
-          monthly: note.monthly,
-          perFoot: note.perFoot,
-          checked: formatDate(listing.last_verified),
-        };
-      }),
-    );
+      item.listings.map((listing) =>
+        priceRow(listing, `${item.city}, ${item.state_code}`, href(`/cities/${item.id}/#${listing.slug}`)),
+      ),
+    )
+).sort((a, b) => a.rank[0] - b.rank[0] || a.rank[1] - b.rank[1] || a.name.localeCompare(b.name));
 const schema = pageGraph([
   webPageNode({ title, description, path, dateModified: latest }),
   breadcrumbNode(crumbs),
@@ -112,8 +125,9 @@ const schema = pageGraph([
     <h1>{city ? `Monthly prices in ${city.city}` : `Monthly prices in ${state!.name}`}</h1>
     <p class="summary">{description}</p>
     <p class="legend">
-      Checked through <time datetime={latest}>{latest ? formatDate(latest) : ''}</time>. A per-foot rate is
-      not turned into a monthly total until you enter a length.
+      Checked through <time datetime={latest}>{latest ? formatDate(latest) : ''}</time>. Amounts stay in
+      the unit the page printed. /mo and /ft/mo are shown only when the page says month. A dollar amount
+      with no billing period is marked “period not stated.” Nothing here is an average.
     </p>
     {
       state && (
@@ -141,9 +155,7 @@ const schema = pageGraph([
                     <td>
                       {itemSpan.low == null || itemSpan.high == null
                         ? 'Not listed'
-                        : itemSpan.low === itemSpan.high
-                          ? formatMoney(itemSpan.low)
-                          : `${formatMoney(itemSpan.low)}–${formatMoney(itemSpan.high)}`}
+                        : formatMonthlyRange(itemSpan.low, itemSpan.high)}
                     </td>
                   </tr>
                 );
