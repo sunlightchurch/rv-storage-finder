@@ -2,10 +2,46 @@
 import Base from '../layouts/Base.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import FindMore from '../components/FindMore.astro';
-import { directoryStats, getCities, href } from '../lib/data';
+import { directoryStats, getCities, getStates, href } from '../lib/data';
+import { formatSpan, monthlyByCover, monthlySpan, type CoverKind, type MonthlySpan } from '../lib/prices';
 import { guidePhoto } from '../lib/photos';
 import Photo from '../components/Photo.astro';
 import { breadcrumbNode, faqNode, pageGraph, webPageNode } from '../lib/schema';
+
+const coverOrder = ['open', 'covered', 'enclosed'] as const;
+const coverLabel: Record<CoverKind, string> = {
+  open: 'Open',
+  covered: 'Covered',
+  enclosed: 'Enclosed',
+};
+const emptyBuckets = (): Record<CoverKind, number[][]> => ({ open: [], covered: [], enclosed: [] });
+const directoryBuckets = emptyBuckets();
+const stateRows = getStates().map((state) => {
+  const buckets = emptyBuckets();
+  for (const city of state.cities) {
+    for (const listing of city.listings) {
+      const byType = monthlyByCover(listing);
+      for (const kind of coverOrder) {
+        if (!byType[kind].length) continue;
+        buckets[kind].push(byType[kind]);
+        directoryBuckets[kind].push(byType[kind]);
+      }
+    }
+  }
+  return {
+    state,
+    spans: {
+      open: monthlySpan(buckets.open),
+      covered: monthlySpan(buckets.covered),
+      enclosed: monthlySpan(buckets.enclosed),
+    } satisfies Record<CoverKind, MonthlySpan>,
+  };
+});
+const directorySpans = {
+  open: monthlySpan(directoryBuckets.open),
+  covered: monthlySpan(directoryBuckets.covered),
+  enclosed: monthlySpan(directoryBuckets.enclosed),
+} satisfies Record<CoverKind, MonthlySpan>;
 
 const title = 'How to choose RV storage and what it costs per month';
 const description =
@@ -18,7 +54,7 @@ const crumbs = [
 const faqs = [
   {
     q: 'How much does RV storage cost per month?',
-    a: 'SelfStorage.com, read on November 18, 2026, lists national average monthly ranges of $75 to $150 for outdoor storage, $125 to $200 for covered storage, and $150 to $400 for indoor storage. Those ranges are not a quote for a facility in this directory. City pages repeat a price only when that facility publishes one, and this site does not average those prices.',
+    a: `Published monthly figures in this directory run ${formatSpan(directorySpans.open)} for open storage, ${formatSpan(directorySpans.covered)} for covered storage, and ${formatSpan(directorySpans.enclosed)} for enclosed storage. Those are the lowest and highest amounts tied to that type, not an average. SelfStorage.com, read on November 18, 2026, lists separate national averages of $75 to $150 outdoor, $125 to $200 covered, and $150 to $400 indoor.`,
   },
   {
     q: 'What is the difference between covered and enclosed RV storage?',
@@ -75,11 +111,64 @@ const schema = pageGraph([
 
     <h2>Covered, enclosed, and open</h2>
     <p>
-      Open storage is a marked space on a lot. It is usually the lowest published rate and it leaves the
-      finish in the sun, hail, and sap. Covered storage adds a roof or canopy and still has open sides.
-      Enclosed storage is a garage bay or a warehouse. It costs more, and it is the option people choose
-      for a long sit or a boat that should stay out of the weather.
+      Open storage is a marked space with no roof. Covered storage adds a roof or canopy and leaves the
+      sides open. Enclosed storage is a garage bay or a warehouse. A listing is tagged only when the
+      facility page describes that kind of space.
     </p>
+    <p>
+      The table uses monthly amounts from those pages. If a facility offers only one type, its monthly
+      figures count for that type. If it offers more than one, a figure counts only when the same
+      sentence names that type. A mixed sentence stays on the city price page and is left out of the
+      comparison.
+    </p>
+    <div class="table-wrap">
+      <table>
+        <caption>Published monthly figures in this directory, by cover type</caption>
+        <thead>
+          <tr>
+            <th scope="col">Type</th>
+            <th scope="col">Lowest to highest published</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            coverOrder.map((kind) => (
+              <tr>
+                <th scope="row">{coverLabel[kind]}</th>
+                <td>{formatSpan(directorySpans[kind])}</td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <caption>The same published figures, by state</caption>
+        <thead>
+          <tr>
+            <th scope="col">State</th>
+            <th scope="col">Open</th>
+            <th scope="col">Covered</th>
+            <th scope="col">Enclosed</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            stateRows.map((row) => (
+              <tr>
+                <th scope="row">
+                  <a href={href(`/costs/${row.state.slug}/`)}>{row.state.name}</a>
+                </th>
+                {coverOrder.map((kind) => (
+                  <td>{formatSpan(row.spans[kind])}</td>
+                ))}
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+    </div>
     <p>
       In Tampa and Orlando, ask what the lot does when a hurricane watch is posted. In Phoenix, a roof is
       mostly about the sun. In Houston and Dallas-Fort Worth, ask about hail. Those are questions for the

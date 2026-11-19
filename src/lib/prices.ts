@@ -43,34 +43,85 @@ function nextBreak(text: string, from: number): number {
   return text.length;
 }
 
-export function parsePriceNote(note: string | null): PriceNote {
-  if (!note) return { monthly: [], perFoot: [], sawDollar: false };
-  const monthly: number[] = [];
-  const perFoot: number[] = [];
+export interface TaggedAmount {
+  value: number;
+  kind: 'month' | 'foot' | 'other';
+  sentence: string;
+}
+
+export function taggedAmounts(note: string | null): TaggedAmount[] {
+  if (!note) return [];
+  const found: TaggedAmount[] = [];
   for (const match of note.matchAll(amountPattern)) {
     const value = amountValue(match);
     if (!Number.isFinite(value) || value <= 0 || value > 5000) continue;
     const index = match.index ?? 0;
     const after = note.slice(index + match[0].length, nextBreak(note, index + match[0].length));
     const before = note.slice(Math.max(0, index - 48), index);
-    const sentenceStart = previousBreak(note, index);
-    const sentenceEnd = nextBreak(note, index + match[0].length);
-    const sentence = note.slice(sentenceStart + 1, sentenceEnd);
+    const sentence = note.slice(previousBreak(note, index) + 1, nextBreak(note, index + match[0].length));
     let kind = classify(after);
     const ownYear = /\b(?:per|a)\s+year\b|\bannually\b/i.test(after);
     const sentenceMonthly = /\b(?:per|a)\s+month\b|\/\s*(?:month|mo)\b|\bmonthly\b/i.test(sentence);
     const sentencePerFoot = /\b(?:per|a)\s+(?:linear\s+)?foot\b|\/\s*ft\b/i.test(sentence);
     if (kind === 'other' && sentenceMonthly && !ownYear && !sentencePerFoot) kind = 'month';
     if (kind === 'month' && isAddOn(before, after)) kind = 'other';
-    if (kind === 'month') monthly.push(value);
-    if (kind === 'foot') perFoot.push(value);
+    found.push({ value, kind, sentence });
   }
+  return found;
+}
+
+export function parsePriceNote(note: string | null): PriceNote {
+  const found = taggedAmounts(note);
   const unique = (values: number[]) => [...new Set(values)].sort((a, b) => a - b);
   return {
-    monthly: unique(monthly),
-    perFoot: unique(perFoot),
-    sawDollar: note.includes('$'),
+    monthly: unique(found.filter((item) => item.kind === 'month').map((item) => item.value)),
+    perFoot: unique(found.filter((item) => item.kind === 'foot').map((item) => item.value)),
+    sawDollar: Boolean(note?.includes('$')),
   };
+}
+
+export type CoverKind = 'open' | 'covered' | 'enclosed';
+
+const coverWord: Record<CoverKind, RegExp> = {
+  open: /\b(?:uncovered|outdoor|open(?:\s+(?:parking|storage|area|lot))?)\b/i,
+  covered: /\b(?:covered|canopy|carport)\b/i,
+  enclosed: /\b(?:enclosed|indoor|garage|warehouse)\b/i,
+};
+
+function uniqueNumbers(values: number[]): number[] {
+  return [...new Set(values)].sort((a, b) => a - b);
+}
+
+export function monthlyByCover(listing: {
+  storage_types: readonly string[];
+  price_notes: string | null;
+}): Record<CoverKind, number[]> {
+  const buckets: Record<CoverKind, number[]> = { open: [], covered: [], enclosed: [] };
+  const monthly = taggedAmounts(listing.price_notes).filter((item) => item.kind === 'month');
+  const types = (['open', 'covered', 'enclosed'] as const).filter((type) => listing.storage_types.includes(type));
+  if (!monthly.length || !types.length) {
+    return { open: [], covered: [], enclosed: [] };
+  }
+  if (types.length === 1) {
+    buckets[types[0]] = uniqueNumbers(monthly.map((item) => item.value));
+    return buckets;
+  }
+  for (const amount of monthly) {
+    const named = types.filter((type) => coverWord[type].test(amount.sentence));
+    if (named.length === 1) buckets[named[0]].push(amount.value);
+  }
+  return {
+    open: uniqueNumbers(buckets.open),
+    covered: uniqueNumbers(buckets.covered),
+    enclosed: uniqueNumbers(buckets.enclosed),
+  };
+}
+
+export function formatSpan(span: MonthlySpan): string {
+  if (span.count === 0 || span.low == null || span.high == null) return 'Not listed';
+  const range = span.low === span.high ? formatMoney(span.low) : `${formatMoney(span.low)}–${formatMoney(span.high)}`;
+  const facilities = span.count === 1 ? '1 facility' : `${span.count} facilities`;
+  return `${range} · ${facilities}`;
 }
 
 export function formatMoney(value: number): string {
