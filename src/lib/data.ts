@@ -3,6 +3,7 @@ import path from 'node:path';
 import yaml from 'js-yaml';
 import { z } from 'zod';
 import { formatDate } from './format';
+import { getCostGuides } from './guides';
 import { assertKnownPhoto, assertCityPhoto } from './photos';
 
 const dataDir = path.join(process.cwd(), 'src/data');
@@ -516,6 +517,7 @@ export function allPublicPaths(): { path: string; lastmod: string }[] {
     { path: '/', lastmod: latest },
     { path: '/storage/', lastmod: latest },
     { path: '/guide/', lastmod: latest },
+    { path: '/guides/', lastmod: latest },
     { path: '/checklists/seasonal/', lastmod: latest },
     { path: '/checklists/security/', lastmod: latest },
     { path: '/insurance/', lastmod: '2026-11-19' },
@@ -555,6 +557,9 @@ export function allPublicPaths(): { path: string; lastmod: string }[] {
       path: `/costs/${city.id}/`,
       lastmod: maxDate(dates),
     });
+  }
+  for (const guide of getCostGuides()) {
+    paths.push({ path: guide.path, lastmod: guide.lastmod });
   }
   for (const page of getFilterPages()) {
     paths.push({

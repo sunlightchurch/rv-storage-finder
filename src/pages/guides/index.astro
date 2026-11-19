@@ -1,0 +1,53 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { directoryStats, href } from '../../lib/data';
+import { formatBand, getCityCostGuides, getCompareCostGuide } from '../../lib/guides';
+import { breadcrumbNode, pageGraph, webPageNode } from '../../lib/schema';
+
+const cities = getCityCostGuides();
+const compare = getCompareCostGuide();
+const title = 'RV storage cost guides | RV Storage Prices';
+const description =
+  'Monthly RV storage prices from facilities that published a rate. City pages give the low, median, and high. A blank price is not guessed.';
+const path = '/guides/';
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'Guides', path },
+];
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: directoryStats().latest }),
+  breadcrumbNode(crumbs),
+]);
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <div class="wrap">
+    <Breadcrumbs items={crumbs} />
+    <h1>RV storage cost guides</h1>
+    <p class="summary">
+      These pages use only monthly dollar amounts already printed on a facility page in this directory.
+      A note that does not say “per month” is left out. Cities with fewer than three facilities that
+      published a monthly price are not given a page.
+    </p>
+    <ul>
+      <li>
+        <a href={href(compare.path)}>Covered vs uncovered vs indoor RV storage</a>
+        <span class="fine"> {compare.sampledFacilities} facilities with a monthly price</span>
+      </li>
+      {
+        cities.map((guide) => (
+          <li>
+            <a href={href(guide.path)}>
+              How much does RV storage cost in {guide.city.city}, {guide.city.state_code}?
+            </a>
+            <span class="fine">
+              {' '}
+              {formatBand(guide.overall.min)}–{formatBand(guide.overall.max)} · {guide.sampled.length} facilities
+            </span>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</Base>
