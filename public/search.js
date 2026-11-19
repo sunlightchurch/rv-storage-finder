@@ -76,25 +76,74 @@
     });
   });
 
+  const header = document.querySelector('.site-header');
+  if (header) {
+    const pin = () => {
+      document.documentElement.style.setProperty('--header-sticky', `${header.offsetHeight}px`);
+    };
+    pin();
+    window.addEventListener('resize', pin);
+  }
+
   document.querySelectorAll('[data-filter-bar]').forEach((bar) => {
     const root = bar.closest('[data-filter-root]') || document;
     const cards = [...root.querySelectorAll('[data-listing]')];
     const empty = root.querySelector('[data-filter-empty]');
+    const count = root.querySelector('[data-filter-count]');
+    const lengthInput = bar.querySelector('[data-min-length]');
+    const total = cards.length;
+
+    function apply() {
+      const keys = [...bar.querySelectorAll('[data-filter]')]
+        .filter((button) => button.getAttribute('data-filter') !== 'all' && button.getAttribute('aria-pressed') === 'true')
+        .map((button) => button.getAttribute('data-filter'));
+      const minLength = Number(lengthInput && lengthInput.value);
+      const useLength = Number.isFinite(minLength) && minLength > 0;
+      let shown = 0;
+      let unknownLength = 0;
+      cards.forEach((card) => {
+        const attrs = keys.every((key) => card.getAttribute(`data-${key}`) === 'true');
+        const published = card.getAttribute('data-max-length');
+        const tooShort = useLength && published && Number(published) < minLength;
+        const ok = attrs && !tooShort;
+        card.hidden = !ok;
+        if (!ok) return;
+        shown += 1;
+        if (useLength && !published) unknownLength += 1;
+      });
+      if (empty) empty.hidden = shown !== 0;
+      if (count) {
+        const noun = shown === 1 ? 'facility' : 'facilities';
+        let text = `${shown} of ${total} ${noun}`;
+        if (useLength && unknownLength) {
+          text += `. ${unknownLength} ${unknownLength === 1 ? 'has' : 'have'} no published length, so ${unknownLength === 1 ? 'it is' : 'they are'} not ruled out`;
+        }
+        count.textContent = text;
+      }
+    }
+
     bar.addEventListener('click', (event) => {
       const button = event.target.closest('[data-filter]');
       if (!button || !bar.contains(button)) return;
       event.preventDefault();
       const filter = button.getAttribute('data-filter');
-      bar.querySelectorAll('[data-filter]').forEach((item) => {
-        item.setAttribute('aria-pressed', item === button ? 'true' : 'false');
-      });
-      let shown = 0;
-      cards.forEach((card) => {
-        const ok = filter === 'all' || card.getAttribute(`data-${filter}`) === 'true';
-        card.hidden = !ok;
-        if (ok) shown += 1;
-      });
-      if (empty) empty.hidden = shown !== 0;
+      if (filter === 'all') {
+        bar.querySelectorAll('[data-filter]').forEach((item) => {
+          item.setAttribute('aria-pressed', item === button ? 'true' : 'false');
+        });
+      } else {
+        const next = button.getAttribute('aria-pressed') !== 'true';
+        button.setAttribute('aria-pressed', next ? 'true' : 'false');
+        const any = [...bar.querySelectorAll('[data-filter]')].some(
+          (item) => item.getAttribute('data-filter') !== 'all' && item.getAttribute('aria-pressed') === 'true',
+        );
+        const all = bar.querySelector('[data-filter="all"]');
+        if (all) all.setAttribute('aria-pressed', any ? 'false' : 'true');
+      }
+      apply();
     });
+
+    if (lengthInput) lengthInput.addEventListener('input', apply);
+    apply();
   });
 })();
