@@ -1,0 +1,114 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { correctionMailto, href } from '../../lib/data';
+import { breadcrumbNode, faqNode, pageGraph, webPageNode } from '../../lib/schema';
+
+const title = 'Security checklist for a stored RV or boat | RV Storage Finder';
+const description =
+  'Questions to ask before you leave an RV or a boat on a lot: locks, gate codes, cameras, and who can get in. A listing’s Yes is not a security audit.';
+const path = '/checklists/security/';
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'Security checklist', path },
+];
+const faqs = [
+  {
+    q: 'Does a gated lot with cameras mean the vehicle is safe?',
+    a: 'No. Gated Yes and cameras Yes mean the source we checked said a gate and cameras exist. They do not say the gate stays shut, that anyone watches the cameras, or that theft cannot happen.',
+  },
+  {
+    q: 'Is 24-hour access the safer choice?',
+    a: 'This page does not call it safer. 24-hour access Yes means the source said entry is not limited to posted hours. Other people with access can enter then too. Read the gate-hours line on the same card. A staffed night is a question to ask the facility, because no listing has a staffed field.',
+  },
+];
+const schema = pageGraph([
+  webPageNode({ title, description, path }),
+  breadcrumbNode(crumbs),
+  faqNode(faqs),
+]);
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <article class="wrap prose">
+    <Breadcrumbs items={crumbs} />
+    <h1>Security checklist for a stored RV or boat</h1>
+    <p>
+      Use this when you leave an RV or a boat on a lot. Check the boxes for yourself. They are not
+      saved, and they are not a rating of any facility in this directory. A gate or a camera on a card
+      is not a promise that theft cannot happen, and it does not replace your own insurance.
+    </p>
+    <p>
+      Yes means the source says so. No means the source says it does not. Not listed means the page we
+      checked is silent. Silence is not a no.
+    </p>
+
+    <h2>On the vehicle</h2>
+    <ul class="checklist">
+      <li><label><input type="checkbox" /> Lock the doors, windows, and outside compartments that vehicle has. If the owner’s manual names a storage lockup step, follow that step.</label></li>
+      <li><label><input type="checkbox" /> Take out papers, electronics, and anything you would not leave in a parked car. This list does not suggest a hiding place.</label></li>
+      <li><label><input type="checkbox" /> If you add a hitch lock, a coupler lock, or a wheel lock, use one that fits that trailer and that the facility allows. This page does not rank brands or grades.</label></li>
+      <li><label><input type="checkbox" /> Photograph the vehicle and the space on drop-off day, including damage that is already there, and write down the space number.</label></li>
+      <li><label><input type="checkbox" /> Ask who at the facility has a key or a code for your vehicle, and whether you are required to leave one. This page does not tell you to leave a key or to refuse.</label></li>
+    </ul>
+
+    <h2>What the listing already says</h2>
+    <p>
+      Three facts on each card are about entry, and each one is narrow.
+      Gated Yes means the source said there is a gate. It does not say the gate is closed, that codes
+      expire, or that a person checks them.
+      Cameras Yes means the source said cameras exist. It does not say they record, that anyone watches
+      them, how long a recording is kept, or that your space is in view.
+      24-hour access Yes means the source said entry is not limited to posted hours. It is not a
+      statement that a guard is there. Read the gate-hours line on the same card. The
+      <a href={href('/guide/')}>cost guide</a> uses West Tampa Storage as the example: ordinary gate
+      hours and a paid 24-hour card are two facts.
+    </p>
+    <ul class="checklist">
+      <li><label><input type="checkbox" /> Read gated, cameras, and 24-hour access on the card before you treat the lot as closed or watched.</label></li>
+      <li><label><input type="checkbox" /> If the card says gated, ask how a code is issued, who else has it, and how it is turned off when you leave.</label></li>
+      <li><label><input type="checkbox" /> If the card says cameras, ask whether they record, how long that recording is kept, and whether your space is in view. The listing does not answer those questions.</label></li>
+      <li><label><input type="checkbox" /> If either fact says not listed, ask in person. Do not fill the blank in from a neighboring facility or from the company name.</label></li>
+      <li><label><input type="checkbox" /> Ask whether anyone is on the lot, and during which hours. This directory has no staffed field, so no card answers that.</label></li>
+    </ul>
+
+    <h2>While it sits</h2>
+    <ul class="checklist">
+      <li><label><input type="checkbox" /> Keep the gate code, the space number, and photos that show both the vehicle and the lot name off public posts.</label></li>
+      <li><label><input type="checkbox" /> Decide how often you will visit, and what you will look at: the lock, the tires, and whether the vehicle is still in the space you photographed.</label></li>
+      <li><label><input type="checkbox" /> If something is missing or damaged, tell the facility and your insurer. If a card is wrong, send a correction.</label></li>
+      <li><label><input type="checkbox" /> Ask what the facility does when a storm is forecast. A listing does not include a storm plan unless that facility’s page says so.</label></li>
+    </ul>
+    <p>
+      <a href={correctionMailto()}>Email a correction</a> when a gate, a camera line, or a price on a card
+      is wrong.
+    </p>
+
+    <h2>What this list does not decide</h2>
+    <ul>
+      <li>It does not score a facility, and it does not say a gate plus cameras is enough.</li>
+      <li>It does not describe how to defeat a lock, a gate, or a camera.</li>
+      <li>It does not say what your insurance policy covers. Ask the insurer and read the facility’s own rules.</li>
+    </ul>
+
+    <h2>Where to take the questions</h2>
+    <ul>
+      <li><a href={href('/checklists/seasonal/')}>Seasonal checklist for an RV or a boat</a></li>
+      <li><a href={href('/storage/')}>City pages for a gate, cameras, or 24-hour access</a>, which exist only after three facilities in that city state the fact</li>
+      <li><a href={href('/guide/')}>How to read a price, a gate hour, and a camera line</a></li>
+      <li><a href={href('/')}>City pages</a>, where each card keeps the source</li>
+    </ul>
+
+    <section class="faq">
+      <h2>Questions</h2>
+      {
+        faqs.map((faq) => (
+          <>
+            <h3>{faq.q}</h3>
+            <p>{faq.a}</p>
+          </>
+        ))
+      }
+    </section>
+  </article>
+</Base>
