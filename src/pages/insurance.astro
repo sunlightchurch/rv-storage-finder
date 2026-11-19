@@ -1,0 +1,173 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { href } from '../lib/data';
+import { breadcrumbNode, faqNode, pageGraph, webPageNode } from '../lib/schema';
+
+const title = 'Insurance while an RV or boat is stored | RV Storage Finder';
+const description =
+  'NAIC’s June 11, 2026 article says an auto policy will not cover an RV. This page quotes that and says what it does not decide about a vehicle in storage.';
+const path = '/insurance/';
+const checked = '2026-11-19';
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'Insurance', path },
+];
+const faqs = [
+  {
+    q: 'Does the storage lot’s insurance cover the RV or the boat?',
+    a: 'This page did not find an NAIC sentence that says it does. The rental agreement is the lot’s contract. The vehicle policy is a separate contract. Ask the facility what the agreement says it will not pay for, and ask the insurer whether the policy applies at that address.',
+  },
+  {
+    q: 'Does comprehensive coverage on a car cover an RV parked at the lot?',
+    a: 'NAIC’s June 11, 2026 article says comprehensive pays for non-collision damage to a car, and the same article says an auto policy will not cover an RV. The car sentence is not a promise about the coach. Read the policy that names the RV.',
+  },
+];
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: checked }),
+  breadcrumbNode(crumbs),
+  faqNode(faqs),
+]);
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <article class="wrap prose">
+    <Breadcrumbs items={crumbs} />
+    <h1>Insurance while an RV or boat is stored</h1>
+    <p>
+      This page quotes the National Association of Insurance Commissioners. It is not insurance advice,
+      not a reading of a policy, and not a statement that a storage lot insures the vehicle. No listing
+      in this directory has an insurance field. A gate, a camera, or a roof is not coverage.
+    </p>
+    <p>
+      Checked <time datetime={checked}>November 19, 2026</time>. The consumer article below is dated
+      June 11, 2026. The boat definition is from the NAIC glossary as posted that day. The product-code
+      sentence is from the 2021 matrix file still posted on the NAIC site. This page does not claim a
+      later matrix replaced it.
+    </p>
+
+    <h2>An auto policy and an RV</h2>
+    <p>
+      <a href="https://content.naic.org/article/what-does-auto-insurance-cover" rel="noopener noreferrer">“What Does Auto Insurance Cover?”</a>
+      says, under what is not covered:
+    </p>
+    <blockquote>
+      <p>
+        Specialty vehicles. Your auto policy will not cover motorcycles, all-terrain vehicles (ATVs),
+        off-road vehicles, recreational vehicles (RVs), or commercial vehicles.
+      </p>
+    </blockquote>
+    <p>
+      The same article describes comprehensive coverage for a car: “Comprehensive coverage pays for
+      damage to your car that’s not caused by a collision (wreck or crash), like theft, hail,
+      windstorm, flood, fire, or impact by an animal.” That sentence says car. It sits in the same
+      article as the sentence that an auto policy will not cover an RV. This page does not treat the
+      car sentence as coverage for a stored coach.
+    </p>
+    <p>
+      A separate NAIC file, the
+      <a href="https://content.naic.org/sites/default/files/inline-files/2021%20PC%20PCM.pdf" rel="noopener noreferrer">2021 Uniform Property &amp; Casualty Product Coding Matrix</a>,
+      gives RV policies their own code, 19.0003:
+    </p>
+    <blockquote>
+      <p>
+        RV filings (including filings for Golf Carts) which include singularly or in any combination
+        coverage such as the following: Auto Liability, PIP, MP, Uninsured Motorist and/or Underinsured
+        Motorists (UM/UIM); Specified Causes of loss, Comprehensive, and Collision.
+      </p>
+    </blockquote>
+    <p>
+      That sentence describes how an RV filing can be coded. It does not say a particular policy stays
+      in force at a storage lot, and it does not say an open lot and an enclosed building are the same
+      risk. It also does not undo the consumer sentence: the auto policy that covers a car is not, on
+      that article’s words, the policy that covers the RV.
+    </p>
+
+    <h2>A boat</h2>
+    <p>
+      The
+      <a href="https://content.naic.org/glossary-insurance-terms" rel="noopener noreferrer">NAIC glossary</a>
+      defines the boatowners line this way:
+    </p>
+    <blockquote>
+      <p>
+        Boatowners/Personal Watercraft — covers damage to pleasure boats, motors, trailers, boating
+        equipment, and personal watercraft as well as bodily injury and property damage liability to
+        others.
+      </p>
+    </blockquote>
+    <p>
+      That is a description of the line of business. It names the boat, the motor, the trailer, and the
+      equipment. It does not say the coverage applies while the boat sits in a lot, and it does not say
+      the tow vehicle’s auto policy includes the hull. Ask which contract names the boat.
+    </p>
+
+    <h2>Household goods in a storage unit</h2>
+    <p>
+      NAIC’s article
+      <a href="https://content.naic.org/article/consumer-insight-moving-places-changing-spaces" rel="noopener noreferrer">“Moving Places, Changing Spaces,”</a>
+      dated December 1, 2015, has a different storage sentence. The page’s date-modified field read
+      January 16, 2024. Under “Storing Your Possessions” it says:
+    </p>
+    <blockquote>
+      <p>
+        If you’re putting your items in storage during the relocation, talk to your insurer about what
+        coverage you will have for your possessions while they are in the facility. You might need to
+        purchase a policy known as an inland marine policy or floater to provide you the coverage you
+        need while your possessions are being stored.
+      </p>
+    </blockquote>
+    <p>
+      Those possessions are household goods during a move. The sentence is not a rule for an RV or a
+      boat, and this page does not turn it into one.
+    </p>
+
+    <h2>The lot’s paperwork is a second contract</h2>
+    <p>
+      None of the NAIC pages above says a storage facility’s insurance covers the customer’s vehicle.
+      The rental agreement is a contract with the lot. The vehicle policy is a contract with an insurer.
+      A listing that says gated, cameras, or covered is not either contract.
+    </p>
+    <p>Take these questions to the policy and to the facility. This page does not answer them.</p>
+    <ol>
+      <li>Which policy is supposed to cover this RV or this boat? If the only policy names a car, read the specialty-vehicle sentence again.</li>
+      <li>Does that policy apply while the vehicle is stored, and does the address or the kind of space change the answer?</li>
+      <li>Which of theft, hail, wind, flood, and fire does the policy name, and what deductible does it print?</li>
+      <li>Are contents, a dinghy, and electronics included, or only the vehicle named on the declarations page?</li>
+      <li>Does the policy require notice of where the vehicle is kept?</li>
+      <li>Does the rental agreement require proof of insurance, and does the facility’s own policy name this vehicle?</li>
+    </ol>
+    <p>
+      A state insurance regulator, not this directory, takes complaints about an insurer. NAIC lists
+      those departments at
+      <a href="https://content.naic.org/state-insurance-departments" rel="noopener noreferrer">state insurance departments</a>.
+    </p>
+
+    <h2>What this page does not decide</h2>
+    <ul>
+      <li>It does not quote a Florida, Nevada, Arizona, Texas, Georgia, or North Carolina insurance statute. Those codes were not the source.</li>
+      <li>It does not say that storing a vehicle keeps coverage, or that storing a vehicle voids it.</li>
+      <li>It does not state a premium, a deductible, or a lay-up credit. Those numbers are on a policy, if they are anywhere.</li>
+      <li>A facility listing remains a storage lot. It is not proof of insurance.</li>
+    </ul>
+
+    <h2>Related notes</h2>
+    <ul>
+      <li><a href={href('/checklists/security/')}>Security checklist</a>, which says a gate and cameras do not replace a policy</li>
+      <li><a href={href('/checklists/seasonal/')}>Seasonal checklist</a>, including the step to confirm a stored vehicle is still covered</li>
+      <li><a href={href('/guide/')}>How to read a price, a gate hour, and a camera line</a></li>
+    </ul>
+
+    <section class="faq">
+      <h2>Questions</h2>
+      {
+        faqs.map((faq) => (
+          <>
+            <h3>{faq.q}</h3>
+            <p>{faq.a}</p>
+          </>
+        ))
+      }
+    </section>
+  </article>
+</Base>
