@@ -2,7 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import FindMore from '../../components/FindMore.astro';
-import { cityStats, getState, getStates, href } from '../../lib/data';
+import { absolute, cityStats, getState, getStates, href } from '../../lib/data';
 import { getPhoto, statePhoto } from '../../lib/photos';
 import Photo from '../../components/Photo.astro';
 import { breadcrumbNode, faqNode, pageGraph, webPageNode } from '../../lib/schema';
@@ -48,7 +48,7 @@ const path = `/states/${state.slug}/`;
 const total = state.cities.reduce((sum, city) => sum + city.listings.length, 0);
 const names = state.cities.map((city) => city.city);
 const shortList = names.length <= 3 ? names.join(' and ') : `${names.slice(0, 2).join(', ')} and ${names.length - 2} more`;
-const title = `RV and boat storage in ${state.name} | RV Storage Finder`;
+const title = `RV and boat storage in ${state.name} | RV Storage Prices`;
 const description = `${total} sourced RV and boat storage facilities in ${shortList}, ${state.code}, plus nearby communities on each city page.`;
 const crumbs = [
   { label: 'Home', path: '/' },
@@ -75,7 +75,7 @@ const schema = pageGraph([
       '@type': 'ListItem',
       position: index + 1,
       name: `${city.city}, ${city.state_code}`,
-      url: `https://sunlightchurch.github.io/rv-storage-finder/cities/${city.id}/`,
+      url: absolute(`/cities/${city.id}/`),
     })),
   },
   faqNode(faqs),

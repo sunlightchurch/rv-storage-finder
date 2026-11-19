@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import FindMore from '../components/FindMore.astro';
-import { directoryStats, getCities, getStates, href } from '../lib/data';
+import { absolute, directoryStats, getCities, getStates, href, site } from '../lib/data';
 import { formatSpan, monthlyByCover, monthlySpan, type CoverKind, type MonthlySpan } from '../lib/prices';
 import { guidePhoto } from '../lib/photos';
 import Photo from '../components/Photo.astro';
@@ -77,9 +77,9 @@ const schema = pageGraph([
     headline: title,
     description,
     dateModified: directoryStats().latest,
-    mainEntityOfPage: 'https://sunlightchurch.github.io/rv-storage-finder/guide/',
-    author: { '@type': 'Organization', name: 'RV Storage Finder' },
-    publisher: { '@type': 'Organization', name: 'RV Storage Finder' },
+    mainEntityOfPage: absolute('/guide/'),
+    author: { '@type': 'Organization', name: site.name },
+    publisher: { '@type': 'Organization', name: site.name },
   },
   faqNode(faqs),
 ]);

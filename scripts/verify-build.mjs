@@ -4,8 +4,8 @@ import yaml from 'js-yaml';
 
 const root = process.cwd();
 const dist = path.join(root, 'dist');
-const base = '/rv-storage-finder';
-const origin = 'https://sunlightchurch.github.io';
+const base = '';
+const origin = 'https://rvstorageprices.com';
 const failures = [];
 
 function fail(message) {

@@ -6,9 +6,9 @@
 # if they require a tracking domain instead of a query parameter.
 # TODO: do the same for SpareFoot. Do not invent an id.
 
-name: RV Storage Finder
+name: RV Storage Prices
 tagline: Sourced RV and boat storage by city.
-url: https://sunlightchurch.github.io/rv-storage-finder
+url: https://rvstorageprices.com
 description: >-
   A sourced directory of RV and boat storage by city. Cover type, power, and
   prices appear only when a facility publishes them.
