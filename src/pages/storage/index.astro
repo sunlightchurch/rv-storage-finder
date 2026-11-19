@@ -24,8 +24,8 @@ const schema = pageGraph([
     <Breadcrumbs items={crumbs} />
     <h1>Browse storage by need</h1>
     <p class="summary">
-      Each link is a city subset. A filter page exists only when at least one sourced facility matches.
-      Silence on a facility page does not count as a match.
+      Each link is a city subset. Most pages exist when one facility matches. Gate, camera, wash, and
+      24-hour pages wait until three facilities in that city state the fact. Silence does not count.
     </p>
     <FilterIndex />
   </div>

@@ -45,6 +45,9 @@ const facts = [
   { label: 'Gated', value: formatBool(listing.gated), kind: factClass(listing.gated) },
   { label: 'Cameras', value: formatBool(listing.cameras), kind: factClass(listing.cameras) },
   { label: '24-hour access', value: formatBool(listing.access_24h), kind: factClass(listing.access_24h) },
+  ...(listing.access_hours
+    ? [{ label: 'Gate hours', value: listing.access_hours, kind: 'text' }]
+    : []),
 ];
 const icons = [
   listing.vehicles.includes('rv') ? 'RV' : null,
