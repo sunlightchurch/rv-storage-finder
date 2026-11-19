@@ -1,0 +1,64 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { href } from '../lib/data';
+import { breadcrumbNode, pageGraph, webPageNode } from '../lib/schema';
+
+const title = 'Privacy policy | RV Storage Prices';
+const description =
+  'This static site has no accounts and does not collect visitor data itself. GitHub Pages may log requests. Affiliate sites you open may set their own cookies.';
+const path = '/privacy/';
+const checked = '2026-11-19';
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'Privacy', path },
+];
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: checked }),
+  breadcrumbNode(crumbs),
+]);
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <article class="wrap prose">
+    <Breadcrumbs items={crumbs} />
+    <h1>Privacy policy</h1>
+    <p>
+      Effective <time datetime={checked}>November 19, 2026</time>. This directory is a static website.
+      It does not have accounts, and it does not collect personal data itself.
+    </p>
+    <h2>What this site does not do</h2>
+    <ul>
+      <li>There is no login, no profile, and no form that stores what you type on a server we run.</li>
+      <li>The city search runs in your browser. The query is not sent to us.</li>
+      <li>This site does not set its own cookies and does not run an analytics script.</li>
+      <li>A phone link opens your dialer. It does not pass through us.</li>
+    </ul>
+    <h2>Hosting logs</h2>
+    <p>
+      The files are hosted on GitHub Pages. GitHub may keep standard request logs, such as an IP
+      address, a browser type, the page requested, and the time, in order to deliver the site. Those
+      logs are GitHub’s. Their privacy policy covers them. We do not operate that log.
+    </p>
+    <h2>Google Search Console</h2>
+    <p>
+      The pages include a Google Search Console verification meta tag so the owner can see how the site
+      appears in Google Search. That tag does not run a script and does not set a cookie by itself.
+      Search Console uses data Google already has from search. It is not a visitor tracker installed
+      by this site.
+    </p>
+    <h2>Affiliate and other outbound links</h2>
+    <p>
+      Some pages link to Neighbor, SpareFoot, a facility website, or a map. Those are other sites.
+      An affiliate or marketplace site may set its own cookies when you open it. This site does not
+      receive those cookies and does not see what you do there. Commercial links are described on the
+      <a href={href('/disclosure/')}>disclosure</a> page.
+    </p>
+    <h2>Email</h2>
+    <p>
+      If you email <a href="mailto:contact@rvstorageprices.com">contact@rvstorageprices.com</a>, that
+      message is ordinary email. We use it to answer you or to correct a listing. We do not add you to
+      a mailing list.
+    </p>
+  </article>
+</Base>

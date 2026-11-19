@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
-import { directoryStats, partnerUrl } from '../lib/data';
+import { directoryStats, href, partnerUrl } from '../lib/data';
 import { breadcrumbNode, pageGraph, webPageNode } from '../lib/schema';
 
 const title = 'Affiliate disclosure and privacy';
@@ -40,9 +40,9 @@ const schema = pageGraph([
     </p>
     <h2>Privacy</h2>
     <p>
-      This directory is a static site. It has no accounts, no search box that sends a query to a server
-      we operate, and no analytics script. We do not set cookies. GitHub Pages, which hosts the files,
-      may log requests in order to deliver the site. Their policy covers that logging.
+      The <a href={href('/privacy/')}>privacy policy</a> is the full note. In short, this directory is a
+      static site. It has no accounts and does not collect visitor data itself. GitHub Pages may log
+      requests in order to deliver the files. An affiliate site you open may set its own cookies.
     </p>
     <p>
       A link to a facility, to Google Maps, or to a marketplace leaves this site. The next site has its

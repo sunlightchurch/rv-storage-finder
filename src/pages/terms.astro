@@ -1,0 +1,56 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { href } from '../lib/data';
+import { breadcrumbNode, pageGraph, webPageNode } from '../lib/schema';
+
+const title = 'Terms of use | RV Storage Prices';
+const description =
+  'Listings are information, not an offer. Prices change, so call the facility. There is no warranty. A paid placement is labeled on the card.';
+const path = '/terms/';
+const checked = '2026-11-19';
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'Terms', path },
+];
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: checked }),
+  breadcrumbNode(crumbs),
+]);
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <article class="wrap prose">
+    <Breadcrumbs items={crumbs} />
+    <h1>Terms of use</h1>
+    <p>Effective <time datetime={checked}>November 19, 2026</time>.</p>
+    <h2>Listings are information</h2>
+    <p>
+      The pages list facilities from public sources. A listing is not an offer to rent a space, not a
+      reservation, and not a statement that a space is open. Call the facility before you rely on a
+      price, a length, or an amenity.
+    </p>
+    <h2>Prices change</h2>
+    <p>
+      A price on a card is what a public page said on the date printed there. Rates change. Call the
+      facility to confirm the amount, the billing period, and any fee that was not on the page we
+      opened.
+    </p>
+    <h2>No warranty</h2>
+    <p>
+      The directory is provided as is. There is no warranty that a listing is complete, current, or fit
+      for a particular rig. We are not a party to a rental you make with a facility.
+    </p>
+    <h2>Paid placements</h2>
+    <p>
+      A paid placement is labeled. If a card says Featured and “Paid placement,” that label is an
+      advertisement. It is not a review and not a rank. Listings without that label are not paid
+      placements. Commercial links to other companies are described on the
+      <a href={href('/disclosure/')}>disclosure</a> page.
+    </p>
+    <p>
+      Questions go to <a href="mailto:contact@rvstorageprices.com">contact@rvstorageprices.com</a> or the
+      <a href={href('/contact/')}>contact page</a>.
+    </p>
+  </article>
+</Base>

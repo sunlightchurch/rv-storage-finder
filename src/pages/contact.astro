@@ -1,0 +1,51 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { href } from '../lib/data';
+import { breadcrumbNode, pageGraph, webPageNode } from '../lib/schema';
+
+const title = 'Contact | RV Storage Prices';
+const description =
+  'Email contact@rvstorageprices.com for a listing correction, a facility owner question, or anything else. Mail: 477 SW Cashmere Blvd, Port Saint Lucie, FL 34986.';
+const path = '/contact/';
+const checked = '2026-11-19';
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'Contact', path },
+];
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: checked }),
+  breadcrumbNode(crumbs),
+]);
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <article class="wrap prose">
+    <Breadcrumbs items={crumbs} />
+    <h1>Contact</h1>
+    <p>
+      Write to
+      <a href="mailto:contact@rvstorageprices.com">contact@rvstorageprices.com</a>
+      for a listing correction, a question from a facility owner, or a general question about this
+      directory.
+    </p>
+    <h2>Mailing address</h2>
+    <address>
+      RV Storage Prices<br />
+      477 SW Cashmere Blvd<br />
+      Port Saint Lucie, FL 34986
+    </address>
+    <p>
+      A correction should name the facility, the city, and what changed. Prices and amenities on the
+      cards are copied from a public page on the date shown. Calling the facility is the way to confirm
+      a rate.
+    </p>
+    <p>
+      <a href={href('/about/')}>How listings are checked</a>
+      {' · '}
+      <a href={href('/privacy/')}>Privacy</a>
+      {' · '}
+      <a href={href('/terms/')}>Terms</a>
+    </p>
+  </article>
+</Base>
