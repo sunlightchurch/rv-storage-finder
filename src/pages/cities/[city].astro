@@ -59,6 +59,22 @@ const siblings = siblingCities(city);
     </p>
     <FilterChips city={city} />
     <p class="legend" data-filter-empty hidden>No facilities on this page match that filter.</p>
+    <form class="budget" data-fit-form>
+      <h2>Will my rig fit?</h2>
+      <label>
+        Length in feet
+        <input type="number" inputmode="decimal" min="1" max="120" step="1" value="30" data-fit-length />
+      </label>
+      <label>
+        Height in feet
+        <input type="number" inputmode="decimal" min="1" max="20" step="0.5" value="13" data-fit-height />
+      </label>
+      <button type="submit">Check published limits</button>
+      <p class="fine" data-fit-summary aria-live="polite">
+        Compare this length and height with the longest length and tallest clearance each facility printed.
+        A blank limit is not a yes.
+      </p>
+    </form>
     <h2>Facilities</h2>
     {city.listings.map((listing) => <ListingCard listing={listing} />)}
     <section class="faq">
@@ -81,4 +97,79 @@ const siblings = siblingCities(city);
       {siblings.map((sibling) => <a href={href(`/cities/${sibling.id}/`)}>{sibling.city}</a>)}
     </p>
   </div>
+  <script>
+    function fitState(limit: number | null, needed: number): 'yes' | 'no' | 'unknown' {
+      if (limit == null || Number.isNaN(limit)) return 'unknown';
+      return needed <= limit ? 'yes' : 'no';
+    }
+
+    document.querySelectorAll('[data-fit-form]').forEach((form) => {
+      const root = form.closest('[data-filter-root]') ?? document;
+      const lengthInput = form.querySelector<HTMLInputElement>('[data-fit-length]');
+      const heightInput = form.querySelector<HTMLInputElement>('[data-fit-height]');
+      const summary = form.querySelector<HTMLElement>('[data-fit-summary]');
+
+      function readLimit(card: Element, name: string): number | null {
+        const raw = card.getAttribute(name);
+        if (!raw) return null;
+        const value = Number(raw);
+        return Number.isFinite(value) ? value : null;
+      }
+
+      function check() {
+        const length = Number(lengthInput?.value);
+        const height = Number(heightInput?.value);
+        if (!Number.isFinite(length) || !Number.isFinite(height) || length <= 0 || height <= 0) return;
+        let fits = 0;
+        let exceeds = 0;
+        let unknown = 0;
+        root.querySelectorAll('[data-listing]').forEach((card) => {
+          const maxLength = readLimit(card, 'data-max-length');
+          const clearance = readLimit(card, 'data-clearance');
+          const lengthState = fitState(maxLength, length);
+          const heightState = fitState(clearance, height);
+          const note = card.querySelector<HTMLElement>('[data-fit-note]');
+          let text = '';
+          if (lengthState === 'no' || heightState === 'no') {
+            exceeds += 1;
+            const reasons = [
+              lengthState === 'no' ? `published length is ${maxLength} ft` : '',
+              heightState === 'no' ? `published clearance is ${clearance} ft` : '',
+            ].filter(Boolean);
+            text = `This rig is past a published limit: ${reasons.join('; ')}.`;
+          } else if (lengthState === 'yes' && heightState === 'yes') {
+            fits += 1;
+            text = `Published limits cover ${length} ft long and ${height} ft tall.`;
+          } else {
+            unknown += 1;
+            const missing = [
+              lengthState === 'unknown' ? 'length' : '',
+              heightState === 'unknown' ? 'height' : '',
+            ].filter(Boolean);
+            const known = [
+              lengthState === 'yes' ? `length up to ${maxLength} ft fits` : '',
+              heightState === 'yes' ? `clearance up to ${clearance} ft fits` : '',
+            ].filter(Boolean);
+            text =
+              missing.length === 2
+                ? 'Length and height are not listed, so this rig is not ruled in or out.'
+                : `${missing.join(' and ')} ${missing.length === 1 ? 'is' : 'are'} not listed. ${known.join('. ')}.`;
+          }
+          if (note) {
+            note.hidden = false;
+            note.textContent = text;
+          }
+        });
+        if (summary) {
+          summary.textContent = `${fits} publish limits that cover this rig. ${exceeds} publish a shorter length or a lower clearance. ${unknown} are missing a limit, so they are not ruled in or out.`;
+        }
+      }
+
+      form.addEventListener('submit', (event) => {
+        event.preventDefault();
+        check();
+      });
+      check();
+    });
+  </script>
 </Base>

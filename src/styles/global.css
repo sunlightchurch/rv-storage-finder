@@ -578,6 +578,11 @@ th .fine {
   font-weight: 450;
 }
 
+.fit-note {
+  margin: 0.4rem 0 0.2rem;
+  font-weight: 650;
+}
+
 .table-wrap {
   overflow-x: auto;
   margin: 1rem 0;
