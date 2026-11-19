@@ -1,0 +1,44 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { href } from '../../lib/data';
+import { breadcrumbNode, pageGraph, webPageNode } from '../../lib/schema';
+
+const title = 'HOA rules for parking an RV at home | RV Storage Finder';
+const description =
+  'Notes on homeowners’ association rules for an RV or boat kept at home. Florida is summarized from section 720.3045. Other states are not written up yet.';
+const path = '/rules/';
+const checked = '2026-11-19';
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'HOA rules', path },
+];
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: checked }),
+  breadcrumbNode(crumbs),
+]);
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <article class="wrap prose">
+    <Breadcrumbs items={crumbs} />
+    <h1>HOA rules for an RV or boat at home</h1>
+    <p>
+      These notes quote a statute and say what that sentence does not decide. They are not legal advice,
+      and they are not a reading of your declaration, your city code, or a condominium document.
+    </p>
+    <ul>
+      <li>
+        <a href={href('/rules/florida/')}>Florida</a>. Section 720.3045, read on November 19, 2026.
+      </li>
+    </ul>
+    <p>
+      Arizona, Texas, Georgia, Nevada, and North Carolina are not summarized here. A storage listing in
+      those states is not a statement about driveway or HOA rules.
+    </p>
+    <p>
+      <a href={href('/states/florida/')}>Florida storage listings</a> are off-site facilities, separate
+      from parking on a parcel.
+    </p>
+  </article>
+</Base>
