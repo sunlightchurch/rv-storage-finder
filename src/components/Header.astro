@@ -3,6 +3,7 @@ import { href, searchIndex } from '../lib/data';
 
 const pathname = Astro.url.pathname;
 const guide = pathname.startsWith(href('/guide/'));
+const prices = pathname.startsWith(href('/costs/'));
 const about = pathname.startsWith(href('/about/')) || pathname.startsWith(href('/credits/'));
 const index = searchIndex();
 ---
@@ -36,6 +37,7 @@ const index = searchIndex();
     <nav aria-label="Primary">
       <ul>
         <li><a href={href('/guide/')} aria-current={guide ? 'page' : undefined}>Cost guide</a></li>
+        <li><a href={href('/costs/')} aria-current={prices ? 'page' : undefined}>Prices</a></li>
         <li><a href={href('/about/')} aria-current={about ? 'page' : undefined}>About</a></li>
       </ul>
     </nav>
