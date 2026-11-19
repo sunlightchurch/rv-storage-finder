@@ -1,0 +1,342 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: conroe-the-woodlands-tx
+city: Conroe
+state: Texas
+state_code: TX
+metro: Conroe–The Woodlands
+summary: >-
+  These facilities publish an RV or boat storage page in Conroe, Montgomery, or Magnolia.
+  None of these websites are the Houston listings already on the site.
+sparefoot_slug: Conroe-TX
+neighbor_path: texas/conroe
+sparefoot_note: The link opens Conroe, and The Woodlands lots are on the same page.
+photo: conroe
+listings:
+- slug: boat-rv-storage-1488
+  name: "1488 Boat & RV Storage"
+  street: 4392 FM 1488 Road
+  city: Conroe
+  state_code: TX
+  postal_code: "77384"
+  lat: null
+  lng: null
+  phone: "(281) 298-6695"
+  website: "https://www.1488boatandrvstorage.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - enclosed
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    Fully enclosed storage for boats, RVs, trailers, and cars on FM 1488, with 24/7 gated
+    access, interior outlets for trickle charging, and 24/7 video recording. The page says
+    it serves The Woodlands, Magnolia, and Conroe. The printed address is Conroe.
+  sources:
+  - url: "https://www.1488boatandrvstorage.com/"
+    title: Official website
+  last_verified: '2026-11-18'
+- slug: lake-meadows-boat-rv-storage
+  name: "Lake Meadows Boat & RV Storage"
+  street: 265 Lake Meadows Drive
+  city: Montgomery
+  state_code: TX
+  postal_code: "77316"
+  lat: null
+  lng: null
+  phone: "(936) 588-1818"
+  website: "https://www.lakemeadowstorage.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - enclosed
+  - open
+  max_length_ft: 50
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    Lockable enclosed spaces from 10 by 12 up to 50 feet long by 14 feet wide by 13.5 feet
+    high, plus uncovered parking from 20 by 12 to 50 by 12. The page lists 28 cameras and
+    a gate with 24-hour video surveillance. Office hours are weekdays 8:30 AM to 5:30 PM,
+    with weekend hours by appointment.
+  sources:
+  - url: "https://www.lakemeadowstorage.com/"
+    title: Official website
+  last_verified: '2026-11-18'
+- slug: toy-vault-montgomery
+  name: Toy Vault
+  street: 13396 Scotts Ridge Road
+  city: Montgomery
+  state_code: TX
+  postal_code: "77356"
+  lat: null
+  lng: null
+  phone: "(832) 457-9442"
+  website: "https://www.toyvaultconroe.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - enclosed
+  max_length_ft: 60
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: true
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: >-
+    Enclosed boat and RV rates checked on the page for November 2, 2026, are 30 by 14 by 16
+    at $256.50 per month and 35 by 14 by 16 at $293 per month. Large pull-through starts at
+    $564.50 per month, premium RV at $583.50 per month, and jumbo RV at $672 per month. The
+    page says the rental page has the current rate.
+  waitlist: The page says to check availability or join the waiting list.
+  notes: >-
+    Fully enclosed boat and RV units near FM 1097, with gated entry, camera monitoring, 24/7
+    smart-app access, an on-site toy wash, and 20-, 30-, or 50-amp power in select spaces.
+    Door text says 14-foot roll-up doors, while several unit sizes are printed as 16 feet
+    high, so no single clearance is recorded. Facility hours are labeled 24/7 and also printed
+    as 12:00 AM to 11:45 PM.
+  sources:
+  - url: "https://www.toyvaultconroe.com/"
+    title: Official website
+  last_verified: '2026-11-18'
+- slug: storage-105-conroe
+  name: Storage 105
+  street: 13921 Highway 105 West
+  city: Conroe
+  state_code: TX
+  postal_code: "77304"
+  lat: null
+  lng: null
+  phone: "(936) 588-1900"
+  website: "https://www.storage105.com/rv-storage"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - enclosed
+  - open
+  max_length_ft: 100
+  clearance_ft: 14
+  power_hookups: true
+  dump_station: true
+  wash_station: true
+  gated: true
+  cameras: true
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: >-
+    Enclosed RV units run 40 to 50 feet, or 90 to 100 feet for drive-through, with doors 12
+    feet wide by 14 feet high and electrical service. Covered parking is 10 by 49, and outdoor
+    parking is also listed. Boat parking is described with a 14-foot door. The units page
+    prints gate hours of 6:00 AM to 11:00 PM daily, more than 85 cameras, a dump station,
+    and a wash station. The street is the address on the facility privacy page. The homepage
+    prints gate access from 5 AM to 11 PM.
+  sources:
+  - url: "https://www.storage105.com/rv-storage"
+    title: RV storage page
+  - url: "https://www.storage105.com/units"
+    title: Rates and gate hours
+  - url: "https://www.storage105.com/privacy-policy"
+    title: Privacy policy contact address
+  - url: "https://www.storage105.com/"
+    title: Homepage
+  last_verified: '2026-11-18'
+- slug: soaring-eagle-storage-conroe
+  name: Soaring Eagle Storage
+  street: 11715 Sleepy Hollow Rd
+  city: Conroe
+  state_code: TX
+  postal_code: "77385"
+  lat: null
+  lng: null
+  phone: "(281) 706-0000"
+  website: "https://soaringeaglestorage.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - enclosed
+  max_length_ft: 70
+  clearance_ft: null
+  power_hookups: true
+  dump_station: true
+  wash_station: true
+  gated: true
+  cameras: true
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: >-
+    Insulated 25 by 50 spaces with 14 by 14 roll-up doors, plus angled 14 by 70 pull-through
+    units for boats and larger vehicles. The page lists electrical outlets, a wash station,
+    a dump station, 24-hour video surveillance, and a gated cellular lock. Tenant access is
+    6 AM to 10 PM, seven days a week.
+  sources:
+  - url: "https://soaringeaglestorage.com/"
+    title: Official website
+  last_verified: '2026-11-18'
+- slug: montgomery-self-storage-mccaleb
+  name: Montgomery Self Storage
+  street: 450 N McCaleb Road
+  city: Conroe
+  state_code: TX
+  postal_code: "77316"
+  lat: null
+  lng: null
+  phone: "(936) 202-8242"
+  website: "https://montgomeryss.com/locations/mccaleb-road-conroe-tx/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - enclosed
+  max_length_ft: 38
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The McCaleb page lists 12 by 38 covered parking for RVs, campers, and fifth wheels. The
+    footer says the location has outdoor and indoor covered RV and boat storage and was formerly
+    Landry's Boat & RV Storage. Access hours are not printed.
+  sources:
+  - url: "https://montgomeryss.com/locations/mccaleb-road-conroe-tx/"
+    title: McCaleb Road location page
+  last_verified: '2026-11-18'
+- slug: lockaway-storage-lake-conroe
+  name: Lockaway Storage - Lake Conroe
+  street: 1950 Old River Road
+  city: Montgomery
+  state_code: TX
+  postal_code: "77356"
+  lat: null
+  lng: null
+  phone: "(936) 256-2773"
+  website: >-
+    https://www.lockaway-storage.com/storage-units/texas/montgomery/lockaway-storage-lake-conroe-396004/
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - enclosed
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: >-
+    An 11 by 26 enclosed space is $219 online and $109.50 on the promo rate. A 14 by 23 enclosed
+    space is $320 in-store and $240 starting. A 12 by 30 enclosed space is $391 and $293.
+    The page does not state the billing period. It also prints 2 months at 50% off on the
+    11 by 26 space.
+  waitlist: null
+  notes: >-
+    Covered, uncovered, and enclosed boat storage, plus covered, uncovered, and enclosed parking
+    for RVs. The page lists a private dock and launch, gated entry, security cameras, and
+    a power outlet on some spaces. Access is described as extended hours. The phone is labeled
+    for current tenants.
+  sources:
+  - url: >-
+      https://www.lockaway-storage.com/storage-units/texas/montgomery/lockaway-storage-lake-conroe-396004/
+    title: Lake Conroe location page
+  last_verified: '2026-11-18'
+- slug: brothers-boat-rv-storage-conroe
+  name: "Brothers Boat & RV Storage"
+  street: 4745 Old Highway 105W
+  city: Conroe
+  state_code: TX
+  postal_code: "77304"
+  lat: null
+  lng: null
+  phone: "(713) 203-8268"
+  website: "https://www.brothersboatrvstorage.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: true
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The homepage lists this Conroe address beside the Magnolia lot and does not separate amenities
+    by address. Shared claims are 24-hour access, digital video surveillance, a fully fenced
+    site, trickle-charge plugs, a 50-amp RV service upgrade, and 90-foot drives. Cover type
+    is not stated.
+  sources:
+  - url: "https://www.brothersboatrvstorage.com/"
+    title: Official website
+  last_verified: '2026-11-18'
+- slug: brothers-boat-rv-storage-magnolia
+  name: "Brothers Boat & RV Storage"
+  street: 26403 Hufsmith Conroe Rd.
+  city: Magnolia
+  state_code: TX
+  postal_code: "77354"
+  lat: null
+  lng: null
+  phone: "(713) 203-8268"
+  website: null
+  vehicles:
+  - rv
+  - boat
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: true
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The homepage places this lot just outside The Woodlands off 2978. The same page lists
+    24-hour access, digital video surveillance, a fully fenced site, trickle-charge plugs,
+    a 50-amp RV service upgrade, and 90-foot drives, without saying which claims apply only
+    to Magnolia. Cover type is not stated. The operator website is shared with another listing
+    in this directory, so the website button is omitted here and the page stays in the sources.
+  sources:
+  - url: "https://www.brothersboatrvstorage.com/"
+    title: Official website
+  last_verified: '2026-11-18'

@@ -1,0 +1,170 @@
+---
+import { formatMoney, formatMoneyList } from '../lib/prices';
+
+interface Row {
+  name: string;
+  place: string;
+  href: string;
+  monthly: number[];
+  perFoot: number[];
+  checked: string;
+}
+
+interface Props {
+  rows: Row[];
+  caption: string;
+  rootId: string;
+}
+
+const { rows, caption, rootId } = Astro.props;
+const hasFoot = rows.some((row) => row.perFoot.length > 0);
+const hasMonthly = rows.some((row) => row.monthly.length > 0);
+---
+
+<div id={rootId} data-price-root>
+  {
+    hasMonthly && (
+      <form class="budget" data-budget-form>
+        <label>
+          Monthly budget
+          <input type="number" inputmode="decimal" min="1" max="5000" step="1" value="150" data-budget-input />
+        </label>
+        <button type="submit">Show matches</button>
+        <button type="button" data-budget-reset>Show all</button>
+        <p class="fine" data-budget-result aria-live="polite">
+          Enter a budget to hide facilities whose published monthly figures are all above it.
+        </p>
+      </form>
+    )
+  }
+  {
+    hasFoot && (
+      <form class="budget" data-length-form>
+        <label>
+          Stored length in feet
+          <input type="number" inputmode="decimal" min="1" max="80" step="1" value="30" data-length-input />
+        </label>
+        <p class="fine">
+          The estimate multiplies a published per-foot rate by that length. Tax and fees are extra. It is
+          not a quote.
+        </p>
+      </form>
+    )
+  }
+  <div class="table-wrap">
+    <table>
+      <caption>{caption}</caption>
+      <thead>
+        <tr>
+          <th scope="col">Facility</th>
+          <th scope="col">Published monthly</th>
+          {hasFoot && <th scope="col">Per foot</th>}
+          <th scope="col">Checked</th>
+        </tr>
+      </thead>
+      <tbody>
+        {
+          rows.map((row) => (
+            <tr
+              data-price-row
+              data-monthly={row.monthly.join(',')}
+              data-foot={row.perFoot.join(',')}
+              hidden={false}
+            >
+              <th scope="row">
+                <a href={row.href}>{row.name}</a>
+                {row.place ? <span class="fine">{row.place}</span> : null}
+              </th>
+              <td>{row.monthly.length ? formatMoneyList(row.monthly) : 'Not listed'}</td>
+              {
+                hasFoot && (
+                  <td>
+                    {row.perFoot.length ? row.perFoot.map((rate) => `${formatMoney(rate)}/ft`).join(', ') : 'Not listed'}
+                    <span class="fine foot-estimate" data-foot-estimate />
+                  </td>
+                )
+              }
+              <td>{row.checked}</td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+  function money(value: number): string {
+    const digits = Number.isInteger(value) ? 0 : 2;
+    return `$${value.toLocaleString('en-US', { minimumFractionDigits: digits, maximumFractionDigits: 2 })}`;
+  }
+
+  document.querySelectorAll('[data-price-root]').forEach((root) => {
+    const rows = [...root.querySelectorAll<HTMLTableRowElement>('[data-price-row]')];
+    const budgetForm = root.querySelector<HTMLFormElement>('[data-budget-form]');
+    const budgetInput = root.querySelector<HTMLInputElement>('[data-budget-input]');
+    const budgetResult = root.querySelector<HTMLElement>('[data-budget-result]');
+    const lengthInput = root.querySelector<HTMLInputElement>('[data-length-input]');
+
+    function amounts(row: HTMLTableRowElement, name: string): number[] {
+      const raw = row.dataset[name] ?? '';
+      if (!raw) return [];
+      return raw.split(',').map(Number).filter((value) => Number.isFinite(value));
+    }
+
+    function applyBudget(budget: number | null) {
+      let shown = 0;
+      for (const row of rows) {
+        const monthly = amounts(row, 'monthly');
+        const match = budget == null || monthly.some((value) => value <= budget);
+        row.hidden = !match;
+        if (match && monthly.length) shown += 1;
+      }
+      if (!budgetResult) return;
+      if (budget == null) {
+        budgetResult.textContent = 'Showing every facility. A budget hides rows whose monthly figures are all higher.';
+        return;
+      }
+      budgetResult.textContent =
+        shown > 0
+          ? `${shown} ${shown === 1 ? 'facility publishes' : 'facilities publish'} a monthly figure at or below ${money(budget)}. A higher figure on the same row is a different space or rate.`
+          : `No facility on this page publishes a monthly figure at or below ${money(budget)}.`;
+    }
+
+    function applyLength() {
+      const length = Number(lengthInput?.value);
+      const usable = Number.isFinite(length) && length > 0 ? length : null;
+      for (const row of rows) {
+        const slot = row.querySelector<HTMLElement>('[data-foot-estimate]');
+        if (!slot) continue;
+        const rates = amounts(row, 'foot');
+        if (!usable || !rates.length) {
+          slot.textContent = '';
+          continue;
+        }
+        const bits = rates.map((rate) => `${length} ft × ${money(rate)} = ${money(Math.round(rate * length * 100) / 100)}`);
+        slot.textContent = bits.join('; ');
+      }
+    }
+
+    budgetForm?.addEventListener('submit', (event) => {
+      event.preventDefault();
+      const budget = Number(budgetInput?.value);
+      if (!Number.isFinite(budget) || budget <= 0) {
+        applyBudget(null);
+        return;
+      }
+      applyBudget(budget);
+    });
+    root.querySelector('[data-budget-reset]')?.addEventListener('click', () => {
+      rows.forEach((row) => {
+        row.hidden = false;
+      });
+      if (budgetResult) {
+        budgetResult.textContent = 'Showing every facility on this page.';
+      }
+    });
+    lengthInput?.addEventListener('input', applyLength);
+    applyLength();
+  });
+</script>

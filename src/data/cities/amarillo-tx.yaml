@@ -1,0 +1,262 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: amarillo-tx
+city: Amarillo
+state: Texas
+state_code: TX
+metro: Amarillo
+summary: >-
+  These facilities publish an RV or boat storage page in Amarillo. Each card uses only what
+  that page states.
+sparefoot_slug: Amarillo-TX
+neighbor_path: texas/amarillo
+sparefoot_note: null
+photo: amarillo
+listings:
+- slug: affordable-storage-amarillo
+  name: Affordable Storage
+  street: 13195 Interstate 27
+  city: Amarillo
+  state_code: TX
+  postal_code: "79119"
+  lat: null
+  lng: null
+  phone: "(806) 803-9119"
+  website: "https://affordablesuperstorage.com/boat-rv-storage-amarillo/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - enclosed
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: true
+  dump_station: true
+  wash_station: true
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Amarillo page offers outdoor, covered, and indoor vehicle storage for boats and RVs,
+    with free dump stations, wash stations, 20-amp electricity, gated access, and security
+    cameras. The contact block prints 13195 Interstate 27. A heading on the same page prints
+    Interstate 97. Gate hours are not stated.
+  sources:
+  - url: "https://affordablesuperstorage.com/boat-rv-storage-amarillo/"
+    title: Affordable Storage Amarillo boat and RV page
+  last_verified: '2026-11-18'
+- slug: easy-stop-storage-washington
+  name: Easy Stop Storage - Amarillo
+  street: 4907 South Washington Street
+  city: Amarillo
+  state_code: TX
+  postal_code: "79110"
+  lat: null
+  lng: null
+  phone: "(806) 372-3171"
+  website: >-
+    https://www.easystopstorage.com/storage-units/texas/amarillo/south-washington-street
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Washington Street page lists boat parking and RV parking, with covered vehicle storage
+    and uncovered parking, a coded security gate, and 24/7 video surveillance. Access hours
+    are daily, 6:00 am to 10:00 pm. The listed unit prices are for household and warehouse
+    units, not for RV or boat spaces.
+  sources:
+  - url: >-
+      https://www.easystopstorage.com/storage-units/texas/amarillo/south-washington-street
+    title: Easy Stop Amarillo Washington Street page
+  last_verified: '2026-11-18'
+- slug: panhandle-security-storage
+  name: Panhandle Security Storage - Amarillo
+  street: 12600 S. FM 1541
+  city: Amarillo
+  state_code: TX
+  postal_code: "79118"
+  lat: null
+  lng: null
+  phone: "(806) 622-9864"
+  website: "https://www.panhandlesecuritystorage.com/pages/rent"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - enclosed
+  max_length_ft: 51
+  clearance_ft: 14
+  power_hookups: true
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: null
+  price_notes: >-
+    Camper and boat storage of 42 by 12, with a door 12 feet wide by 12 feet 6 inches tall,
+    starts at $174.17 per month. RV and boat storage of 51 by 12, with a door 12 feet wide
+    by 14 feet tall, starts at $201.67 per month. The page says prices may reflect a longer-term
+    discount.
+  waitlist: null
+  notes: >-
+    Both listed stalls have a concrete floor, a light, and a standard outlet. Office hours
+    shown are by appointment on Monday. Gate hours are not stated.
+  sources:
+  - url: "https://www.panhandlesecuritystorage.com/pages/rent"
+    title: Panhandle Security Storage rent page
+  last_verified: '2026-11-18'
+- slug: stallion-storage-amarillo
+  name: Stallion Storage
+  street: 11051 West Interstate 40
+  city: Amarillo
+  state_code: TX
+  postal_code: null
+  lat: null
+  lng: null
+  phone: "(806) 677-7778"
+  website: "https://www.stallionstoragetx.com/facility/stallion-storage-amarillo"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: null
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Amarillo page lists RV parking, boat storage, and covered parking, and it describes
+    covered outdoor parking for an RV, boat, or vehicle. The property is fenced and gated.
+    Facility hours are 6:00 AM to 9:00 PM every day. No ZIP code is printed.
+  sources:
+  - url: "https://www.stallionstoragetx.com/facility/stallion-storage-amarillo"
+    title: Stallion Storage Amarillo page
+  last_verified: '2026-11-18'
+- slug: staters-acres-rv-storage
+  name: "Stater's Acres RV Storage"
+  street: 14301 Canyon E-Way
+  city: Amarillo
+  state_code: TX
+  postal_code: "79119"
+  lat: null
+  lng: null
+  phone: "(806) 622-1544"
+  website: "https://stateracresrv.com/"
+  vehicles:
+  - rv
+  storage_types:
+  - enclosed
+  - open
+  max_length_ft: 50
+  clearance_ft: 14
+  power_hookups: true
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: null
+  price_notes: >-
+    Monthly RV rates list outside parking at $44.10. Inside storage runs from a 14 by 29 with
+    12-foot doors at $128.90 to a 14 by 50 with a concrete floor and 30 amp service at $262.50.
+  waitlist: null
+  notes: >-
+    The page offers indoor and outdoor RV spaces. Door heights on the inside sizes are 12
+    feet or 14 feet. A second phone, 806-670-0013, is also printed. Boat storage is not stated,
+    and gate hours are not stated.
+  sources:
+  - url: "https://stateracresrv.com/"
+    title: "Stater's Acres homepage"
+  last_verified: '2026-11-18'
+- slug: tate-rv-storage
+  name: Tate RV Storage
+  street: 7900 South Osage Street
+  city: Amarillo
+  state_code: TX
+  postal_code: "79118"
+  lat: null
+  lng: null
+  phone: "(806) 236-5332"
+  website: "https://tatervstorage.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - enclosed
+  max_length_ft: 40
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: >-
+    Totally enclosed storage of 14 by 36 feet is $240.00 per month. Covered sizes run from
+    12 by 32 at $125.00 per month to 20 by 40 at $200.00 per month.
+  waitlist: null
+  notes: >-
+    The page stores recreational vehicles, motor homes, boats, and automobiles. Enclosed units
+    have a 12-foot garage door and electricity available. Covered units are described as covered
+    on three sides, with locking security gates. Video surveillance and 24/7 access are stated.
+    A three-month minimum and bank-draft billing are required.
+  sources:
+  - url: "https://tatervstorage.com/"
+    title: Tate RV Storage homepage
+  last_verified: '2026-11-18'
+- slug: trenfield-rv-storage
+  name: Trenfield RV LLC Storage
+  street: 11750 I-27 South Frontage Rd
+  city: Amarillo
+  state_code: TX
+  postal_code: "79119"
+  lat: null
+  lng: null
+  phone: "(806) 676-1350"
+  website: "https://trenfieldrv.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - enclosed
+  max_length_ft: 52
+  clearance_ft: null
+  power_hookups: null
+  dump_station: true
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The page offers RV or boat storage in a gated facility with security cameras, 24 hour
+    access seven days a week, an onsite dumping station, and a fresh water site. It describes
+    a unit with two doors that are 12 feet wide and 14 feet tall, and a 30 by 52 unit. The
+    page also prints 11601 South Coulter as a second entrance.
+  sources:
+  - url: "https://trenfieldrv.com/"
+    title: Trenfield RV Storage homepage
+  last_verified: '2026-11-18'

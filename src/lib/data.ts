@@ -486,20 +486,31 @@ export function allPublicPaths(): { path: string; lastmod: string }[] {
     { path: '/', lastmod: latest },
     { path: '/storage/', lastmod: latest },
     { path: '/guide/', lastmod: latest },
+    { path: '/costs/', lastmod: latest },
     { path: '/about/', lastmod: latest },
     { path: '/disclosure/', lastmod: latest },
     { path: '/credits/', lastmod: latest },
   ];
   for (const state of getStates()) {
+    const dates = state.cities.flatMap((city) => city.listings.map((listing) => listing.last_verified));
     paths.push({
       path: `/states/${state.slug}/`,
-      lastmod: maxDate(state.cities.flatMap((city) => city.listings.map((listing) => listing.last_verified))),
+      lastmod: maxDate(dates),
+    });
+    paths.push({
+      path: `/costs/${state.slug}/`,
+      lastmod: maxDate(dates),
     });
   }
   for (const city of cities) {
+    const dates = city.listings.map((listing) => listing.last_verified);
     paths.push({
       path: `/cities/${city.id}/`,
-      lastmod: maxDate(city.listings.map((listing) => listing.last_verified)),
+      lastmod: maxDate(dates),
+    });
+    paths.push({
+      path: `/costs/${city.id}/`,
+      lastmod: maxDate(dates),
     });
   }
   for (const page of getFilterPages()) {

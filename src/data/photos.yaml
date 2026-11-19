@@ -882,6 +882,202 @@
   license: "CC BY-SA 4.0"
   license_url: "https://creativecommons.org/licenses/by-sa/4.0"
   credit_required: true
+- id: el-paso
+  role: city
+  alt: "Downtown El Paso, Texas, with mountains behind the skyline"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/el-paso-640.webp
+    "960": photos/el-paso-960.webp
+    "1280": photos/el-paso-1280.webp
+  author: "Z3lvs"
+  source_url: "https://commons.wikimedia.org/wiki/File:Downtown_El_Paso_skyline_with_mountains_at_dusk,_Texas.jpg"
+  license: "CC0"
+  license_url: "https://creativecommons.org/publicdomain/zero/1.0/"
+  credit_required: false
+- id: corpus-christi
+  role: city
+  alt: "The Corpus Christi, Texas skyline and marina"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/corpus-christi-640.webp
+    "960": photos/corpus-christi-960.webp
+    "1280": photos/corpus-christi-1280.webp
+  author: "Quintin Soloviev"
+  source_url: "https://commons.wikimedia.org/wiki/File:Corpus_Christi_skyline.jpg"
+  license: "CC BY 4.0"
+  license_url: "https://creativecommons.org/licenses/by/4.0"
+  credit_required: true
+- id: lubbock
+  role: city
+  alt: "The Lubbock, Texas skyline"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/lubbock-640.webp
+    "960": photos/lubbock-960.webp
+    "1280": photos/lubbock-1280.webp
+  author: "Quintin Soloviev"
+  source_url: "https://commons.wikimedia.org/wiki/File:Lubbock,_Texas_skyline.jpg"
+  license: "CC BY 4.0"
+  license_url: "https://creativecommons.org/licenses/by/4.0"
+  credit_required: true
+- id: amarillo
+  role: city
+  alt: "Downtown Amarillo, Texas"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/amarillo-640.webp
+    "960": photos/amarillo-960.webp
+    "1280": photos/amarillo-1280.webp
+  author: "Dallas Peters from Austin, TX, USA"
+  source_url: "https://commons.wikimedia.org/wiki/File:Chase_and_Fisk,_Downtown_Amarillo.jpg"
+  license: "CC BY 2.0"
+  license_url: "https://creativecommons.org/licenses/by/2.0"
+  credit_required: true
+- id: mcallen
+  role: city
+  alt: "A street in McAllen, Texas"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/mcallen-640.webp
+    "960": photos/mcallen-960.webp
+    "1280": photos/mcallen-1280.webp
+  author: "Anthony Acosta"
+  source_url: "https://commons.wikimedia.org/wiki/File:Cityscape_of_McAllen,_Texas.jpg"
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  credit_required: true
+- id: killeen
+  role: city
+  alt: "Killeen City Hall, the former Avenue D School, in Killeen, Texas"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/killeen-640.webp
+    "960": photos/killeen-960.webp
+    "1280": photos/killeen-1280.webp
+  author: "Larry D. Moore"
+  source_url: "https://commons.wikimedia.org/wiki/File:Avenue_D_School_Killeen_Texas_Entrance.jpg"
+  license: "CC BY 4.0"
+  license_url: "https://creativecommons.org/licenses/by/4.0"
+  credit_required: true
+- id: waco
+  role: city
+  alt: "Downtown Waco, Texas, and the Brazos River from the air"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/waco-640.webp
+    "960": photos/waco-960.webp
+    "1280": photos/waco-1280.webp
+  author: "HuecoBear"
+  source_url: "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Downtown_Waco_2009_Looking_East.jpg"
+  license: "CC BY-SA 3.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  credit_required: true
+- id: beaumont
+  role: city
+  alt: "The Beaumont, Texas skyline across the Neches River"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/beaumont-640.webp
+    "960": photos/beaumont-960.webp
+    "1280": photos/beaumont-1280.webp
+  author: "Wbband08"
+  source_url: "https://commons.wikimedia.org/wiki/File:BeaumontTX.JPG"
+  license: "Public domain"
+  license_url: "https://creativecommons.org/publicdomain/mark/1.0/"
+  credit_required: false
+- id: midland
+  role: city
+  alt: "Downtown Midland, Texas from the air"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/midland-640.webp
+    "960": photos/midland-960.webp
+    "1280": photos/midland-1280.webp
+  author: "Dclemens1971"
+  source_url: "https://commons.wikimedia.org/wiki/File:Downtown_Midland_aerial_view.jpg"
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  credit_required: true
+- id: tyler
+  role: city
+  alt: "A downtown street in Tyler, Texas"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/tyler-640.webp
+    "960": photos/tyler-960.webp
+    "1280": photos/tyler-1280.webp
+  author: "Rupak.bhattacharya"
+  source_url: "https://commons.wikimedia.org/wiki/File:Downtown_Tyler,_Texas.jpg"
+  license: "CC BY-SA 3.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  credit_required: true
+- id: college-station
+  role: city
+  alt: "The Academic Building at Texas A&M University in College Station, Texas"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/college-station-640.webp
+    "960": photos/college-station-960.webp
+    "1280": photos/college-station-1280.webp
+  author: "Stu Seeger"
+  source_url: "https://commons.wikimedia.org/wiki/File:AcademicBuilding-TAMU.jpg"
+  license: "CC BY 2.0"
+  license_url: "https://creativecommons.org/licenses/by/2.0"
+  credit_required: true
+- id: laredo
+  role: city
+  alt: "San Agustin Plaza in Laredo, Texas"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/laredo-640.webp
+    "960": photos/laredo-960.webp
+    "1280": photos/laredo-1280.webp
+  author: "Carol M. Highsmith"
+  source_url: "https://commons.wikimedia.org/wiki/File:San_Agustin_Plaza_in_Laredo,_Texas_LCCN2014630559.tif"
+  license: "Public domain"
+  license_url: "https://creativecommons.org/publicdomain/mark/1.0/"
+  credit_required: false
+- id: conroe
+  role: city
+  alt: "The Montgomery County Courthouse in Conroe, Texas"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/conroe-640.webp
+    "960": photos/conroe-960.webp
+    "1280": photos/conroe-1280.webp
+  author: "Larry D. Moore"
+  source_url: "https://commons.wikimedia.org/wiki/File:Montgomery_county_tx_courthouse_2014.jpg"
+  license: "CC BY 4.0"
+  license_url: "https://creativecommons.org/licenses/by/4.0"
+  credit_required: true
+- id: galveston
+  role: city
+  alt: "The Galveston, Texas skyline from the harbor"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/galveston-640.webp
+    "960": photos/galveston-960.webp
+    "1280": photos/galveston-1280.webp
+  author: "TheAustinMan"
+  source_url: "https://commons.wikimedia.org/wiki/File:Galveston_Texas_Skyline_From_The_Carnival_Ecstasy.jpg"
+  license: "CC BY-SA 3.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  credit_required: true
 - id: wilmington
   role: city
   alt: "The Wilmington, North Carolina riverfront"

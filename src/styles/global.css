@@ -529,6 +529,55 @@ address {
   margin-top: 0.35rem;
 }
 
+.budget {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+  align-items: end;
+  margin: 1rem 0;
+  padding: 0.85rem;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+}
+
+.budget label {
+  display: grid;
+  gap: 0.3rem;
+  font-weight: 650;
+}
+
+.budget input {
+  width: 8rem;
+  min-height: 44px;
+  font: inherit;
+  padding: 0.4rem 0.7rem;
+  border: 1px solid var(--rule);
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.budget button {
+  min-height: 44px;
+  font: inherit;
+  padding: 0.4rem 0.85rem;
+  border: 1px solid var(--header-bg);
+  background: var(--header-bg);
+  color: var(--header-ink);
+}
+
+.budget button[data-budget-reset] {
+  background: transparent;
+  color: var(--ink);
+}
+
+.budget .fine,
+.foot-estimate,
+th .fine {
+  flex-basis: 100%;
+  display: block;
+  font-weight: 450;
+}
+
 .table-wrap {
   overflow-x: auto;
   margin: 1rem 0;

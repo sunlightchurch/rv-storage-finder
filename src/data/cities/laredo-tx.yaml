@@ -1,0 +1,188 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: laredo-tx
+city: Laredo
+state: Texas
+state_code: TX
+metro: Laredo
+summary: >-
+  These facilities publish an RV or boat storage page in Laredo. Stor-More states enclosed
+  vehicle sizes. The Store It All pages do not state a cover type.
+sparefoot_slug: Laredo-TX
+neighbor_path: texas/laredo
+sparefoot_note: null
+photo: laredo
+listings:
+- slug: stor-more-industrial-laredo
+  name: "Stor-More: Industrial"
+  street: 1506 Industrial Boulevard
+  city: Laredo
+  state_code: TX
+  postal_code: "78041"
+  lat: null
+  lng: null
+  phone: "(956) 722-7171"
+  website: "https://www.stormorelaredo.com/locations/laredo-tx-78041"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - enclosed
+  max_length_ft: 30
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: null
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    Enclosed boat and RV storage on Industrial Boulevard, with vehicle sizes up to 10 by 30
+    and gated access. The location page does not print access hours. The street and phone
+    are on the facility unit page.
+  sources:
+  - url: "https://www.stormorelaredo.com/locations/laredo-tx-78041"
+    title: Industrial location page
+  - url: "https://www.stormorelaredo.com/locations/laredo-tx-78041/view-unit/10/30"
+    title: Industrial unit page
+  last_verified: '2026-11-18'
+- slug: stor-more-muller-laredo
+  name: "Stor-More: Muller"
+  street: 1315 Muller Road
+  city: Laredo
+  state_code: TX
+  postal_code: "78041"
+  lat: null
+  lng: null
+  phone: "(956) 727-3040"
+  website: "https://www.stormorelaredo.com/locations/muller-road-laredo-tx-78041"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - enclosed
+  - open
+  max_length_ft: 30
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    Uncovered and enclosed boat and RV storage. Enclosed spaces go up to 10 by 30. The location
+    page lists security cameras, perimeter fencing, and gated access, and requires title or
+    registration plus insurance. The street and phone are on the facility unit page. Access
+    hours are not printed.
+  sources:
+  - url: "https://www.stormorelaredo.com/locations/muller-road-laredo-tx-78041"
+    title: Muller location page
+  - url: >-
+      https://www.stormorelaredo.com/locations/muller-road-laredo-tx-78041/view-unit/10/20
+    title: Muller unit page
+  last_verified: '2026-11-18'
+- slug: store-it-all-mines-laredo
+  name: Store It All Self Storage - Mines
+  street: 9807 Mines Rd
+  city: Laredo
+  state_code: TX
+  postal_code: "78045"
+  lat: null
+  lng: null
+  phone: "(956) 704-1050"
+  website: "https://www.storeitallstorage.com/self-storage/tx/laredo/mines-rd/rv-boat-auto"
+  vehicles:
+  - rv
+  - boat
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Mines location page says it offers RV, boat, and automobile storage. Access hours
+    are 6:00 AM to 9:00 PM, seven days a week. Office hours are weekdays 9:00 AM to 5:00 PM
+    and Saturday 9:00 AM to 1:00 PM. Cover type is not stated.
+  sources:
+  - url: "https://www.storeitallstorage.com/self-storage/tx/laredo/mines-rd/rv-boat-auto"
+    title: Mines RV, boat, and auto page
+  last_verified: '2026-11-18'
+- slug: store-it-all-cerrito-prieto-laredo
+  name: Store It All Self Storage - Affordable
+  street: 5602 Cerrito Prieto Ct
+  city: Laredo
+  state_code: TX
+  postal_code: "78041"
+  lat: null
+  lng: null
+  phone: "(956) 267-5578"
+  website: >-
+    https://www.storeitallstorage.com/self-storage/tx/laredo/cerrito-prieto-ct/rv-boat-auto
+  vehicles:
+  - rv
+  - boat
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Cerrito Prieto page says it offers RV, boat, and automobile storage. Office hours
+    are weekdays 9:00 AM to 5:00 PM and Saturday 9:00 AM to 1:00 PM. Sunday is printed as
+    both closed and by appointment. The access hours heading has no hours under it, and cover
+    type is not stated.
+  sources:
+  - url: >-
+      https://www.storeitallstorage.com/self-storage/tx/laredo/cerrito-prieto-ct/rv-boat-auto
+    title: Cerrito Prieto RV, boat, and auto page
+  last_verified: '2026-11-18'
+- slug: store-it-all-del-norte-laredo
+  name: Store It All Self Storage - Del Norte
+  street: 5115 San Francisco Ave
+  city: Laredo
+  state_code: TX
+  postal_code: "78041"
+  lat: null
+  lng: null
+  phone: "(956) 307-4175"
+  website: >-
+    https://www.storeitallstorage.com/self-storage/tx/laredo/san-francisco-ave/rv-boat-auto
+  vehicles:
+  - rv
+  - boat
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Del Norte page says it offers RV, boat, and automobile storage. Office hours are weekdays
+    9:00 AM to 5:00 PM and Saturday 9:00 AM to 1:00 PM. Access hours and cover type are not
+    stated.
+  sources:
+  - url: >-
+      https://www.storeitallstorage.com/self-storage/tx/laredo/san-francisco-ave/rv-boat-auto
+    title: Del Norte RV, boat, and auto page
+  last_verified: '2026-11-18'

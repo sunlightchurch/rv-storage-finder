@@ -76,6 +76,7 @@ const siblings = siblingCities(city);
     <h2>Keep browsing</h2>
     <p class="cross">
       <a href={href(`/states/${stateSlug(city.state)}/`)}>All {city.state} cities</a>
+      <a href={href(`/costs/${city.id}/`)}>Monthly prices in {city.city}</a>
       <a href={href('/guide/')}>What RV storage costs</a>
       {siblings.map((sibling) => <a href={href(`/cities/${sibling.id}/`)}>{sibling.city}</a>)}
     </p>

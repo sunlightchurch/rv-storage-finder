@@ -1,0 +1,189 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: tyler-tx
+city: Tyler
+state: Texas
+state_code: TX
+metro: Tyler
+summary: >-
+  These facilities publish an RV or boat storage page in Tyler or nearby Flint. Cover type
+  and monthly rates are included only when that page states them.
+sparefoot_slug: Tyler-TX
+neighbor_path: texas/tyler
+sparefoot_note: null
+photo: tyler
+listings:
+- slug: walts-rv-boat-storage
+  name: "Walt's RV & Boat Storage"
+  street: 1201 S SE Loop 323
+  city: Tyler
+  state_code: TX
+  postal_code: "75701"
+  lat: null
+  lng: null
+  phone: "(903) 630-1157"
+  website: "https://www.waltsrvstorage.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - open
+  max_length_ft: 50
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: true
+  access_24h: null
+  price_notes: >-
+    Covered without electricity is $125 per month or $1,375 per year. Covered with electricity
+    is $150 per month or $1,650 per year. Uncovered is $45 per month or $495 per year. Annual
+    prices include one month free.
+  waitlist: null
+  notes: >-
+    Twelve covered spaces hold units up to 45 feet, and 25 uncovered spaces hold vehicles
+    up to 50 feet, with or without electrical hookups. The lot is behind Walt's Army Navy
+    Store, with a barbed-wire fence and 24/7 video recording. Access hours are not printed.
+  sources:
+  - url: "https://www.waltsrvstorage.com/"
+    title: Official website
+  last_verified: '2026-11-18'
+- slug: east-texas-storage-center
+  name: East Texas Storage Center
+  street: 12447 State Hwy 64 West
+  city: Tyler
+  state_code: TX
+  postal_code: "75704"
+  lat: null
+  lng: null
+  phone: "(903) 592-5350"
+  website: "https://www.tylerstorage.com/covered-rv-and-boat-facilities/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - enclosed
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: true
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    Covered and open storage for RVs and boats, plus enclosed auto and boat bays that are
+    12 by 30 with an overhead door. Covered bays are 14 feet wide, and 110-volt or 220-volt
+    electricity is available. The page lists video cameras, fences, and onsite air and water.
+    Office hours are weekdays 9:30 AM to 5:00 PM and Saturday 9:00 AM to 12:00 PM.
+  sources:
+  - url: "https://www.tylerstorage.com/covered-rv-and-boat-facilities/"
+    title: Covered RV and boat page
+  last_verified: '2026-11-18'
+- slug: storage-warehouse-tyler
+  name: Storage Warehouse
+  street: 15426 Old Jacksonville Hwy
+  city: Tyler
+  state_code: TX
+  postal_code: null
+  lat: null
+  lng: null
+  phone: "(903) 871-5678"
+  website: "https://www.storagewh.com/company-pages/rv-boat-storage-tyler-texas/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - enclosed
+  max_length_ft: null
+  clearance_ft: 14
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    Warehouse-enclosed units for RVs, boats, and cars, each with a 12-foot-wide by 14-foot-tall
+    roll-up door. The page lists 24-hour security cameras and gated entry with personal codes.
+    It does not print a ZIP or access hours.
+  sources:
+  - url: "https://www.storagewh.com/company-pages/rv-boat-storage-tyler-texas/"
+    title: Tyler RV and boat page
+  last_verified: '2026-11-18'
+- slug: spring-creek-rv-park-storage
+  name: Spring Creek RV Park
+  street: 13390 CR 4134
+  city: Tyler
+  state_code: TX
+  postal_code: "75704"
+  lat: null
+  lng: null
+  phone: "(903) 526-1717"
+  website: "https://www.springcreekrvtyler.com/storage-facility/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - enclosed
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: null
+  access_24h: true
+  price_notes: >-
+    Enclosed units are $340 a month. Covered RV storage is $165 a month. Outdoor storage for
+    vehicles and trailers is $50 per month.
+  waitlist: null
+  notes: >-
+    The storage page says the facility stores RVs, travel trailers, cars, and boats inside
+    a gated area with 24-hour customer access. Fully enclosed and covered RV units are listed
+    along with outdoor spaces.
+  sources:
+  - url: "https://www.springcreekrvtyler.com/storage-facility/"
+    title: Storage facility page
+  last_verified: '2026-11-18'
+- slug: storage-village-tyler
+  name: Storage Village Tyler
+  street: 10627 County Road 127
+  city: Flint
+  state_code: TX
+  postal_code: "75762"
+  lat: null
+  lng: null
+  phone: "(903) 508-4170"
+  website: "https://www.storagevillagetyler.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    RV storage and boat storage are both listed as covered parking, with 24-hour access. Office
+    hours are 9:00 AM to 5:00 PM every day. The page does not print a rate.
+  sources:
+  - url: "https://www.storagevillagetyler.com/"
+    title: Official website
+  last_verified: '2026-11-18'
