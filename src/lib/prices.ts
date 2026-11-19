@@ -47,6 +47,9 @@ export interface TaggedAmount {
   value: number;
   kind: 'month' | 'foot' | 'other';
   sentence: string;
+  start: number;
+  end: number;
+  addon: boolean;
 }
 
 export function taggedAmounts(note: string | null): TaggedAmount[] {
@@ -63,9 +66,17 @@ export function taggedAmounts(note: string | null): TaggedAmount[] {
     const ownYear = /\b(?:per|a)\s+year\b|\bannually\b/i.test(after);
     const sentenceMonthly = /\b(?:per|a)\s+month\b|\/\s*(?:month|mo)\b|\bmonthly\b/i.test(sentence);
     const sentencePerFoot = /\b(?:per|a)\s+(?:linear\s+)?foot\b|\/\s*ft\b/i.test(sentence);
+    const addon = isAddOn(before, after);
     if (kind === 'other' && sentenceMonthly && !ownYear && !sentencePerFoot) kind = 'month';
-    if (kind === 'month' && isAddOn(before, after)) kind = 'other';
-    found.push({ value, kind, sentence });
+    if (kind === 'month' && addon) kind = 'other';
+    found.push({
+      value,
+      kind,
+      sentence,
+      start: index,
+      end: index + match[0].length,
+      addon,
+    });
   }
   return found;
 }
@@ -81,6 +92,12 @@ export function parsePriceNote(note: string | null): PriceNote {
 }
 
 export type CoverKind = 'open' | 'covered' | 'enclosed';
+
+export const coverLabel: Record<CoverKind, string> = {
+  open: 'Open',
+  covered: 'Covered',
+  enclosed: 'Enclosed',
+};
 
 const coverWord: Record<CoverKind, RegExp> = {
   open: /\b(?:uncovered|outdoor|open(?:\s+(?:parking|storage|area|lot))?)\b/i,
@@ -117,11 +134,167 @@ export function monthlyByCover(listing: {
   };
 }
 
+export function formatMonthlyRange(low: number, high: number): string {
+  if (low === high) return `${formatMoney(low)}/mo`;
+  return `${formatMoney(low)}–${formatMoney(high)}/mo`;
+}
+
 export function formatSpan(span: MonthlySpan): string {
   if (span.count === 0 || span.low == null || span.high == null) return 'Not listed';
-  const range = span.low === span.high ? formatMoney(span.low) : `${formatMoney(span.low)}–${formatMoney(span.high)}`;
   const facilities = span.count === 1 ? '1 facility' : `${span.count} facilities`;
-  return `${range} · ${facilities}`;
+  return `${formatMonthlyRange(span.low, span.high)} · ${facilities}`;
+}
+
+export type PriceUnit = 'mo' | 'ft-mo' | 'ft' | 'yr' | 'unstated';
+
+export interface PriceLine {
+  amount: number;
+  unit: PriceUnit;
+  cover: CoverKind | null;
+  length: string | null;
+}
+
+const monthWords = /\b(?:per|a)\s+month\b|\/\s*(?:month|mo)\b|\bmonthly\b/i;
+const footWords = /\b(?:per|a)\s+(?:linear\s+)?foot\b|\/\s*ft\b/i;
+const yearWords = /\b(?:per|a)\s+year\b|\bannually\b/i;
+
+function coversNamed(text: string, allowed: readonly CoverKind[]): CoverKind[] {
+  return allowed.filter((type) => coverWord[type].test(text));
+}
+
+function lengthLabel(text: string): string | null {
+  const upTo = text.match(/\bup to\s+(\d+(?:\.\d+)?)\s*(?:ft|feet)\b/i);
+  if (upTo) return `up to ${trimLength(upTo[1])} ft`;
+  const plus = text.match(/\b(\d+)\+\s*(?:ft|feet)\b/i);
+  if (plus) return `${plus[1]}+ ft`;
+  const range = text.match(
+    /\b(\d+(?:\.\d+)?)\s*(?:ft|feet)?\s+to\s+(\d+(?:\.\d+)?)\s*(?:ft|feet)(?:\s+(\d+)\s*in)?\b/i,
+  );
+  if (range) {
+    const endIn = range[3] ? ` ${range[3]} in` : '';
+    return `${trimLength(range[1])} ft–${trimLength(range[2])} ft${endIn}`;
+  }
+  const single = text.match(/\b(?:for\s+)?(\d+(?:\.\d+)?)\s*(?:ft|feet)\b/i);
+  if (single && !/\bper\s+(?:linear\s+)?foot\b/i.test(single[0])) return `${trimLength(single[1])} ft`;
+  return null;
+}
+
+function lengthForClause(clause: string): string | null {
+  const dollar = clause.search(/\$\s*\d/);
+  const before = dollar >= 0 ? clause.slice(0, dollar) : clause;
+  const after = dollar >= 0 ? clause.slice(dollar) : '';
+  const paren = after.match(/\$\s*\d[\d,]*(?:\.\d{2})?\s*(?:per\s+[a-z]+\s*)*\(([^)]*(?:ft|feet)[^)]*)\)/i);
+  if (paren) return lengthLabel(paren[1]);
+  const beforeLength = lengthLabel(before);
+  if (beforeLength) return beforeLength;
+  return lengthLabel(after.split(',')[0] ?? '');
+}
+
+function trimLength(raw: string): string {
+  const value = Number(raw);
+  if (!Number.isFinite(value)) return raw;
+  return Number.isInteger(value) ? String(value) : String(value);
+}
+
+function unitFor(item: TaggedAmount): PriceUnit {
+  if (item.kind === 'month') return 'mo';
+  if (item.kind === 'foot') return monthWords.test(item.sentence) ? 'ft-mo' : 'ft';
+  if (yearWords.test(item.sentence) && !monthWords.test(item.sentence)) return 'yr';
+  return 'unstated';
+}
+
+export function priceLines(listing: {
+  storage_types: readonly string[];
+  price_notes: string | null;
+}): PriceLine[] {
+  const note = listing.price_notes;
+  if (!note) return [];
+  const amounts = taggedAmounts(note).filter((item) => !item.addon);
+  const types = (['open', 'covered', 'enclosed'] as const).filter((type) => listing.storage_types.includes(type));
+  const lines: PriceLine[] = [];
+  for (const [index, item] of amounts.entries()) {
+    const sentenceStart = Math.max(0, note.lastIndexOf(item.sentence, item.start));
+    const sentenceEnd = sentenceStart + item.sentence.length;
+    const previous = amounts[index - 1];
+    const next = amounts[index + 1];
+    const clauseStart = previous && previous.start >= sentenceStart ? previous.end : sentenceStart;
+    const clauseEnd = next && next.start < sentenceEnd ? next.start : sentenceEnd;
+    const clause = note.slice(clauseStart, clauseEnd);
+    const dollar = clause.search(/\$\s*\d/);
+    const before = dollar >= 0 ? clause.slice(0, dollar) : clause;
+    const afterHead = (dollar >= 0 ? clause.slice(dollar) : '').split(/,|\band\b/i)[0] ?? '';
+    const near = coversNamed(`${before} ${afterHead}`, ['open', 'covered', 'enclosed']);
+    const sentenceCovers = coversNamed(item.sentence, ['open', 'covered', 'enclosed']);
+    let leadIn: CoverKind | null = null;
+    if (sentenceCovers.length === 1) {
+      const match = item.sentence.match(coverWord[sentenceCovers[0]]);
+      const firstAmount = amounts.find((amount) => amount.start >= sentenceStart && amount.start < sentenceEnd);
+      if (match?.index != null && firstAmount && sentenceStart + match.index < firstAmount.start) {
+        leadIn = sentenceCovers[0];
+      }
+    }
+    const previousLine = lines.at(-1);
+    let cover: CoverKind | null = null;
+    if (near.length === 1) cover = near[0];
+    else if (previousLine && previous && previous.start >= sentenceStart && /\bto\s*$/i.test(before.trim())) {
+      cover = previousLine.cover;
+    } else if (leadIn) cover = leadIn;
+    else if (types.length === 1) cover = types[0];
+    lines.push({
+      amount: item.value,
+      unit: unitFor(item),
+      cover,
+      length: lengthForClause(clause),
+    });
+  }
+  return lines;
+}
+
+export function priceAmount(line: PriceLine): string {
+  const money = formatMoney(line.amount);
+  if (line.unit === 'mo') return `${money}/mo`;
+  if (line.unit === 'ft-mo') return `${money}/ft/mo`;
+  if (line.unit === 'ft') return `${money}/ft · period not stated`;
+  if (line.unit === 'yr') return `${money}/yr`;
+  return `${money} · period not stated`;
+}
+
+export function priceLineText(line: PriceLine, includeCover = true): string {
+  const parts = [priceAmount(line)];
+  if (includeCover && line.cover) parts.push(coverLabel[line.cover]);
+  if (line.length) parts.push(line.length);
+  return parts.join(' · ');
+}
+
+export function priceHeadline(lines: PriceLine[]): string | null {
+  const monthly = lines.filter((line) => line.unit === 'mo');
+  if (monthly.length) return `From ${formatMoney(Math.min(...monthly.map((line) => line.amount)))}/mo`;
+  const perFoot = lines.filter((line) => line.unit === 'ft-mo');
+  if (perFoot.length) return `From ${formatMoney(Math.min(...perFoot.map((line) => line.amount)))}/ft/mo`;
+  return null;
+}
+
+export function priceSortRank(lines: PriceLine[]): [number, number] {
+  const monthly = lines.filter((line) => line.unit === 'mo').map((line) => line.amount);
+  if (monthly.length) return [0, Math.min(...monthly)];
+  const perFoot = lines.filter((line) => line.unit === 'ft-mo').map((line) => line.amount);
+  if (perFoot.length) return [1, Math.min(...perFoot)];
+  const rest = lines
+    .filter((line) => line.unit === 'ft' || line.unit === 'yr' || line.unit === 'unstated')
+    .map((line) => line.amount);
+  if (rest.length) return [2, Math.min(...rest)];
+  return [3, Number.POSITIVE_INFINITY];
+}
+
+export function formatPriceBlock(listing: {
+  storage_types: readonly string[];
+  price_notes: string | null;
+}): string {
+  const lines = priceLines(listing);
+  if (!lines.length) return 'Price not posted, call for rates';
+  const head = priceHeadline(lines);
+  const body = lines.map((line) => priceLineText(line, true)).join('\n');
+  return head ? `${head}\n${body}` : body;
 }
 
 export function formatMoney(value: number): string {
@@ -154,12 +327,12 @@ export function cityCostDescription(input: {
 }): string {
   const { city, state, total, span } = input;
   if (span.count === 0 || span.low == null || span.high == null) {
-    return `None of the ${total} sourced facilities in ${city}, ${state} printed a monthly dollar amount. A note without a billing period stays off this page.`;
+    return `None of the ${total} sourced facilities in ${city}, ${state} printed a monthly dollar amount. A dollar amount with no billing period is marked “period not stated.”`;
   }
   if (span.low === span.high) {
-    return `${span.count} of ${total} facilities in ${city}, ${state} print a monthly amount. That published figure is ${formatMoney(span.low)}. These notes are copied, not averaged.`;
+    return `${span.count} of ${total} facilities in ${city}, ${state} print a monthly amount. That published figure is ${formatMoney(span.low)}/mo. These notes are copied, not averaged.`;
   }
-  return `${span.count} of ${total} facilities in ${city}, ${state} print a monthly amount. Published figures run from ${formatMoney(span.low)} to ${formatMoney(span.high)}, and are not averaged.`;
+  return `${span.count} of ${total} facilities in ${city}, ${state} print a monthly amount. Published figures run from ${formatMoney(span.low)}/mo to ${formatMoney(span.high)}/mo, and are not averaged.`;
 }
 
 export function stateCostDescription(input: {
@@ -169,10 +342,10 @@ export function stateCostDescription(input: {
 }): string {
   const { state, total, span } = input;
   if (span.count === 0 || span.low == null || span.high == null) {
-    return `None of the ${total} sourced facilities in ${state} printed a monthly dollar amount. Notes that skip the billing period are not turned into a rate.`;
+    return `None of the ${total} sourced facilities in ${state} printed a monthly dollar amount. A dollar amount with no billing period is marked “period not stated.”`;
   }
   if (span.low === span.high) {
-    return `${span.count} of ${total} facilities in ${state} print a monthly amount. That published figure is ${formatMoney(span.low)}. City pages list the facility behind it.`;
+    return `${span.count} of ${total} facilities in ${state} print a monthly amount. That published figure is ${formatMoney(span.low)}/mo. City pages list the facility behind it.`;
   }
-  return `${span.count} of ${total} facilities in ${state} print a monthly amount. Published figures run from ${formatMoney(span.low)} to ${formatMoney(span.high)}. Each city page names the facility.`;
+  return `${span.count} of ${total} facilities in ${state} print a monthly amount. Published figures run from ${formatMoney(span.low)}/mo to ${formatMoney(span.high)}/mo. Each city page names the facility.`;
 }

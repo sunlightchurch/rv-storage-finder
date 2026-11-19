@@ -12,6 +12,7 @@ import {
   mapUrl,
   telHref,
 } from '../lib/format';
+import { coverLabel, priceHeadline, priceLines, priceLineText, type CoverKind } from '../lib/prices';
 
 interface Props {
   listing: Listing;
@@ -49,6 +50,14 @@ const facts = [
     ? [{ label: 'Gate hours', value: listing.access_hours, kind: 'text' }]
     : []),
 ];
+const lines = priceLines(listing);
+const from = priceHeadline(lines);
+const groups = (['open', 'covered', 'enclosed', null] as const)
+  .map((cover) => ({
+    cover,
+    lines: lines.filter((line) => line.cover === cover),
+  }))
+  .filter((group) => group.lines.length);
 const icons = [
   listing.vehicles.includes('rv') ? 'RV' : null,
   listing.vehicles.includes('boat') ? 'Boat' : null,
@@ -103,10 +112,38 @@ const icons = [
     <ul class="icon-row" aria-label="Published features">
       {icons.length ? icons.map((icon) => <li>{icon}</li>) : <li class="unknown">Features not listed</li>}
     </ul>
-    <p class="price">
-      <span class="label">Published price</span><br />
-      <span class={listing.price_notes ? undefined : 'unknown'}>{listing.price_notes ?? 'Not listed'}</span>
-    </p>
+    <div class="price">
+      <span class="label">Published price</span>
+      {from && <strong class="price-from">{from}</strong>}
+      {
+        groups.length ? (
+          <div class="price-groups">
+            {groups.map((group) => (
+              <div class="price-group">
+                <span class="price-cover">
+                  {group.cover ? coverLabel[group.cover as CoverKind] : 'Cover type not stated'}
+                </span>
+                <ul>
+                  {group.lines.map((line) => (
+                    <li>{priceLineText(line, false)}</li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <p class="unknown">Price not posted, call for rates</p>
+        )
+      }
+      {
+        listing.price_notes && (
+          <details class="price-details">
+            <summary>Price details</summary>
+            <p>{listing.price_notes}</p>
+          </details>
+        )
+      }
+    </div>
     <div class="actions">
       {
         listing.phone ? (

@@ -7,6 +7,7 @@ import ListingCard from '../../components/ListingCard.astro';
 import Photo from '../../components/Photo.astro';
 import { correctionMailto, getCities, getCity, href, siblingCities, stateSlug } from '../../lib/data';
 import { formatBool, formatDate, formatFeet, formatTypes, formatVehicles } from '../../lib/format';
+import { formatPriceBlock } from '../../lib/prices';
 import { normalizeZip, zipCentroids } from '../../lib/zips';
 import { getPhoto } from '../../lib/photos';
 import { breadcrumbNode, faqNode, itemListNode, pageGraph, webPageNode } from '../../lib/schema';
@@ -71,7 +72,7 @@ const compareListings = city.listings.map((listing) => ({
   access: formatBool(listing.access_24h),
   hours: listing.access_hours ?? 'Not listed',
   waitlist: listing.waitlist ?? 'Not listed',
-  price: listing.price_notes ?? 'Not listed',
+  price: formatPriceBlock(listing),
   phone: listing.phone,
   website: listing.website,
   checked: formatDate(listing.last_verified),
