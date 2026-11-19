@@ -66,8 +66,8 @@ A page is emitted only when a city has at least one match. `npm run build` print
 
 ## Deploy
 
-`npm run build` writes `dist/`. `npm run verify` checks titles, descriptions, canonical URLs, the `/rv-storage-finder/` base path, JSON-LD, sitemap, robots, and that every source URL appears on its city page.
+`npm run build` writes `dist/`. `npm run verify` checks titles, descriptions, canonical URLs, the root path, JSON-LD, sitemap, robots, and that every source URL appears on its city page.
 
-Merging to `main` runs `.github/workflows/pages.yml`, which builds and deploys to GitHub Pages. The repository Pages setting has to use **GitHub Actions** as the source. The site URL is `https://sunlightchurch.github.io/rv-storage-finder/`.
+Merging to `main` runs `.github/workflows/pages.yml`, which builds and deploys to GitHub Pages. The repository Pages setting has to use **GitHub Actions** as the source. `public/CNAME` is `rvstorageprices.com`, and the site URL is `https://rvstorageprices.com/`.
 
 Marketplace links are configured in `src/data/site.yaml`. Leave `affiliate_id` and `affiliate_param` empty until the partner account is approved. Set both, or the build fails. While they are empty, the public Neighbor and SpareFoot URLs are used and still carry `rel="sponsored nofollow"`.

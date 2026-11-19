@@ -9,7 +9,7 @@ const states = getStates().map((state) => {
   const notes = state.cities.flatMap((city) => city.listings.map((listing) => parsePriceNote(listing.price_notes).monthly));
   return { state, span: monthlySpan(notes), total: state.cities.reduce((sum, city) => sum + city.listings.length, 0) };
 });
-const title = 'Monthly RV storage prices by city | RV Storage Finder';
+const title = 'Monthly RV storage prices by city | RV Storage Prices';
 const description =
   'Monthly dollar amounts copied from facility pages, grouped by state and city. Per-foot rates stay separate. Nothing on this page is an average.';
 const path = '/costs/';

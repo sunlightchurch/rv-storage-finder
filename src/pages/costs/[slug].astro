@@ -44,8 +44,8 @@ const latest = (city ? city.listings : state!.cities.flatMap((item) => item.list
   .at(-1);
 
 const title = city
-  ? `Monthly RV storage prices in ${city.city}, ${city.state_code} | RV Storage Finder`
-  : `Monthly RV storage prices in ${state!.name} | RV Storage Finder`;
+  ? `Monthly RV storage prices in ${city.city}, ${city.state_code} | RV Storage Prices`
+  : `Monthly RV storage prices in ${state!.name} | RV Storage Prices`;
 const description = city
   ? cityCostDescription({ city: city.city, state: city.state, total, span })
   : stateCostDescription({ state: state!.name, total, span });

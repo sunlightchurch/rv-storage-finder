@@ -3,14 +3,14 @@ import Base from '../layouts/Base.astro';
 import CitySearch from '../components/CitySearch.astro';
 import FindMore from '../components/FindMore.astro';
 import Photo from '../components/Photo.astro';
-import { cityStats, directoryStats, getStates, href, site } from '../lib/data';
+import { absolute, cityStats, directoryStats, getStates, href, site } from '../lib/data';
 import { heroPhoto, getPhoto } from '../lib/photos';
 import { breadcrumbNode, faqNode, pageGraph, webPageNode } from '../lib/schema';
 
 const states = getStates();
 const cities = states.flatMap((state) => state.cities);
 const stats = directoryStats();
-const title = 'RV and boat storage by city | RV Storage Finder';
+const title = 'RV and boat storage by city | RV Storage Prices';
 const description =
   'Search sourced RV and boat storage by city or ZIP. Cover type, power, and monthly prices appear only when a facility publishes them.';
 const path = '/';
@@ -36,7 +36,7 @@ const schema = pageGraph([
   {
     '@type': 'WebSite',
     name: site.name,
-    url: 'https://sunlightchurch.github.io/rv-storage-finder/',
+    url: absolute('/'),
     description: site.description,
   },
   breadcrumbNode([{ label: 'Home', path }]),
@@ -48,7 +48,7 @@ const schema = pageGraph([
       '@type': 'ListItem',
       position: index + 1,
       name: `${city.city}, ${city.state_code}`,
-      url: `https://sunlightchurch.github.io/rv-storage-finder/cities/${city.id}/`,
+      url: absolute(`/cities/${city.id}/`),
     })),
   },
   faqNode(faqs),

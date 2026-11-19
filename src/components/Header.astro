@@ -1,5 +1,5 @@
 ---
-import { href, searchIndex } from '../lib/data';
+import { href, searchIndex, site } from '../lib/data';
 
 const pathname = Astro.url.pathname;
 const guide = pathname.startsWith(href('/guide/'));
@@ -18,7 +18,7 @@ const index = searchIndex();
         <circle cx="11" cy="23.5" r="2.1" fill="#0c5c56"></circle>
         <circle cx="22" cy="23.5" r="2.1" fill="#0c5c56"></circle>
       </svg>
-      <span class="brand-name">RV Storage Finder</span>
+      <span class="brand-name">{site.name}</span>
     </a>
     <form class="header-search" role="search">
       <label class="sr-only" for="header-q">Search cities or ZIP codes</label>

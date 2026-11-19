@@ -1,9 +1,9 @@
 import { defineConfig } from 'astro/config';
 
-// Project-site base. Pages, canonical URLs, and built asset paths all use it.
+// Custom domain at the site root. Canonical URLs, the sitemap, and assets use it.
 export default defineConfig({
-  site: 'https://sunlightchurch.github.io',
-  base: '/rv-storage-finder',
+  site: 'https://rvstorageprices.com',
+  base: '/',
   trailingSlash: 'always',
   build: {
     format: 'directory',

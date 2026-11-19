@@ -1,8 +1,8 @@
-# RV Storage Finder
+# RV Storage Prices
 
-Sourced directory of RV and boat storage for Tampa, Orlando, Phoenix, Houston, and Dallas-Fort Worth. Unknown amenities stay **Not listed**. Prices are copied from the facility page that states them.
+Sourced directory of RV and boat storage. Unknown amenities stay **Not listed**. Prices are copied from the facility page that states them.
 
-The public site is [https://sunlightchurch.github.io/rv-storage-finder/](https://sunlightchurch.github.io/rv-storage-finder/). Astro is configured with `site` `https://sunlightchurch.github.io` and `base` `/rv-storage-finder`, so canonical URLs, the sitemap, and built assets include that project subpath.
+The public site is [https://rvstorageprices.com/](https://rvstorageprices.com/). Astro is configured with `site` `https://rvstorageprices.com` and `base` `/`, so canonical URLs, the sitemap, and built assets are at the domain root.
 
 ## Develop
 
@@ -11,7 +11,7 @@ npm install
 npm run dev
 ```
 
-Open `http://127.0.0.1:4321/rv-storage-finder/`.
+Open `http://127.0.0.1:4321/`.
 
 ```bash
 npm run build
