@@ -1,0 +1,106 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { href } from '../../lib/data';
+import { breadcrumbNode, faqNode, pageGraph, webPageNode } from '../../lib/schema';
+
+const title = 'Seasonal RV and boat storage checklist | RV Storage Finder';
+const description =
+  'A layup checklist for an RV and for a boat before a storage lot. Each step points to the vehicle manual or the facility rules. No fluid ratio is invented here.';
+const path = '/checklists/seasonal/';
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'Seasonal checklist', path },
+];
+const faqs = [
+  {
+    q: 'Does this checklist replace the owner’s manual?',
+    a: 'No. Drain points, antifreeze type, battery switches, and fuel treatment differ by coach and by engine. The manual for that vehicle wins. This list is the set of questions to take to that manual and to the storage facility.',
+  },
+  {
+    q: 'Can I skip winterizing if the space is covered or enclosed?',
+    a: 'No. A roof or a garage changes sun, hail, and some humidity. It does not, by itself, drain a water line or fog an engine. Ask what the facility allows: shore power, a trickle charger, a wash bay, and a dump station are separate facts on each listing.',
+  },
+];
+const schema = pageGraph([
+  webPageNode({ title, description, path }),
+  breadcrumbNode(crumbs),
+  faqNode(faqs),
+]);
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <article class="wrap prose">
+    <Breadcrumbs items={crumbs} />
+    <h1>Seasonal storage checklist</h1>
+    <p>
+      Use this before a winter layup or any long sit, including a hot-season or storm-season sit in
+      Florida, Arizona, Texas, Georgia, Nevada, or North Carolina. Check the boxes for yourself. They
+      are not saved, and they are not a work order from a facility in this directory.
+    </p>
+
+    <h2>Before it goes to the lot</h2>
+    <ul class="checklist">
+      <li><label><input type="checkbox" /> Read the layup section of the coach or engine manual, and follow that procedure where it conflicts with a generic list.</label></li>
+      <li><label><input type="checkbox" /> Measure stored length and height, including the hitch, spare, and the tallest roof equipment. Compare those numbers with the limits the facility printed, using the check on the city page.</label></li>
+      <li><label><input type="checkbox" /> Empty the holding tanks at a dump station the facility actually offers, or somewhere else if the card says not listed. Do not assume a dumpster counts.</label></li>
+      <li><label><input type="checkbox" /> Remove food, and close or screen the openings the manual names, so rodents are not invited in.</label></li>
+      <li><label><input type="checkbox" /> Confirm insurance and registration still cover a stored vehicle, and ask what the facility’s own policy does not cover.</label></li>
+      <li><label><input type="checkbox" /> Photograph the condition and the lot space on drop-off day.</label></li>
+    </ul>
+
+    <h2>RV</h2>
+    <ul class="checklist">
+      <li><label><input type="checkbox" /> Water system: drain, bypass the water heater, and use only the antifreeze the manual names, if it names one. Do not invent a mix ratio.</label></li>
+      <li><label><input type="checkbox" /> If the lot does not freeze, still ask the manual what to do about standing water, the water-heater anode, and a long sit in heat.</label></li>
+      <li><label><input type="checkbox" /> Propane: shut the supply off the way the manual describes, unless the manual says a particular appliance must stay supplied.</label></li>
+      <li><label><input type="checkbox" /> Batteries: follow the manual for disconnect, removal, or a maintainer. Then check the listing. Power “not listed” means the page we opened did not promise an outlet.</label></li>
+      <li><label><input type="checkbox" /> Tires: set pressure from the vehicle placard, not from memory. Ask whether the lot requires tire covers or periodic movement.</label></li>
+      <li><label><input type="checkbox" /> Roof and vents: close, cover, or leave cracked only as the manual and the climate require. A covered space is not the same decision as an open lot.</label></li>
+      <li><label><input type="checkbox" /> Slideouts and leveling: leave them in the position the manual allows for storage, and ask the facility if a slide must be in.</label></li>
+      <li><label><input type="checkbox" /> Refrigerator, awning, and steps: stored per the manual so a storm or a neighbor’s rig cannot catch them.</label></li>
+    </ul>
+
+    <h2>Boat</h2>
+    <ul class="checklist">
+      <li><label><input type="checkbox" /> Engine: follow that engine’s manual for fuel stabilizer, fogging, and draining or protecting the cooling system. Outboards, sterndrives, and inboards are not the same job.</label></li>
+      <li><label><input type="checkbox" /> Drain livewells, ballasts, and the bilge. Decide the drain plug from the manual and from the lot’s rule, not from a guess. Some lots want the plug out so rain cannot fill the hull.</label></li>
+      <li><label><input type="checkbox" /> Batteries: the same question as the RV. A maintainer needs power the listing actually states.</label></li>
+      <li><label><input type="checkbox" /> Cover: a breathable cover, a shrink wrap, or an enclosed bay is a choice. Ask the facility which covers are allowed and whether a frame can stay on the trailer.</label></li>
+      <li><label><input type="checkbox" /> Trailer: tire pressure from the trailer placard, lights, winch strap, and wheel bearings if the manual or the last service says they need attention before a long sit.</label></li>
+      <li><label><input type="checkbox" /> Fuel: fill or leave low only as the engine manual says. Do not treat one rule as universal.</label></li>
+      <li><label><input type="checkbox" /> If the boat stays in the water, this dry-lot checklist is the wrong list. Ask the marina about bottom paint, zincs, and freeze protection for that slip.</label></li>
+    </ul>
+
+    <h2>Heat, humidity, and storms</h2>
+    <p>
+      In this directory’s states, a seasonal sit is often sun, humidity, or a named storm, not a hard
+      freeze. Ask the facility what it does when a hurricane, hail, or a dust storm is forecast. A
+      listing does not claim a storm plan unless that facility’s page says so.
+    </p>
+    <ul class="checklist">
+      <li><label><input type="checkbox" /> Choose open, covered, or enclosed on purpose. The cost guide compares published prices for those types and does not treat a roof as freeze protection.</label></li>
+      <li><label><input type="checkbox" /> Confirm you can reach the vehicle during the facility’s real gate hours. 24-hour access is a separate fact, and some lots charge extra for it.</label></li>
+      <li><label><input type="checkbox" /> Wash salt or dust off only where a wash station is marked yes. Otherwise plan to rinse somewhere else.</label></li>
+    </ul>
+
+    <h2>Where to take the questions</h2>
+    <ul>
+      <li><a href={href('/guide/')}>How covered, enclosed, and open storage differ</a></li>
+      <li><a href={href('/storage/')}>Facilities that publish cover type, power, a dump station, or a price</a></li>
+      <li><a href={href('/')}>City pages</a>, including the length and height check and the distance sort</li>
+    </ul>
+
+    <section class="faq">
+      <h2>Questions</h2>
+      {
+        faqs.map((faq) => (
+          <>
+            <h3>{faq.q}</h3>
+            <p>{faq.a}</p>
+          </>
+        ))
+      }
+    </section>
+  </article>
+</Base>
