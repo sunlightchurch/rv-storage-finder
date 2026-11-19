@@ -6,6 +6,7 @@ import FindMore from '../../components/FindMore.astro';
 import ListingCard from '../../components/ListingCard.astro';
 import Photo from '../../components/Photo.astro';
 import { correctionMailto, getCities, getCity, href, siblingCities, stateSlug } from '../../lib/data';
+import { formatBool, formatDate, formatFeet, formatTypes, formatVehicles } from '../../lib/format';
 import { normalizeZip, zipCentroids } from '../../lib/zips';
 import { getPhoto } from '../../lib/photos';
 import { breadcrumbNode, faqNode, itemListNode, pageGraph, webPageNode } from '../../lib/schema';
@@ -54,6 +55,28 @@ for (const listing of city.listings) {
   const zip = normalizeZip(listing.postal_code);
   if (zip && centroids[zip]) pageCentroids[zip] = centroids[zip];
 }
+const compareListings = city.listings.map((listing) => ({
+  slug: listing.slug,
+  name: listing.name,
+  address: `${listing.street}, ${listing.city}, ${listing.state_code}${listing.postal_code ? ` ${listing.postal_code}` : ''}`,
+  vehicles: formatVehicles(listing.vehicles),
+  storage: formatTypes(listing.storage_types),
+  length: formatFeet(listing.max_length_ft),
+  clearance: formatFeet(listing.clearance_ft),
+  power: formatBool(listing.power_hookups),
+  dump: formatBool(listing.dump_station),
+  wash: formatBool(listing.wash_station),
+  gated: formatBool(listing.gated),
+  cameras: formatBool(listing.cameras),
+  access: formatBool(listing.access_24h),
+  hours: listing.access_hours ?? 'Not listed',
+  waitlist: listing.waitlist ?? 'Not listed',
+  price: listing.price_notes ?? 'Not listed',
+  phone: listing.phone,
+  website: listing.website,
+  checked: formatDate(listing.last_verified),
+}));
+const compareJson = JSON.stringify(compareListings).replaceAll('<', '\\u003c');
 ---
 
 <Base title={title} description={description} path={path} schema={schema}>
@@ -100,6 +123,16 @@ for (const listing of city.listings) {
         A blank limit is not a yes.
       </p>
     </form>
+    <section class="compare" id="compare" data-compare>
+      <h2>Compare side by side</h2>
+      <p class="fine" data-compare-summary>
+        Check Compare on two or three facilities. A blank stays “Not listed.” A row is marked when the
+        facilities do not all say the same thing.
+      </p>
+      <button type="button" data-compare-clear>Clear comparison</button>
+      <div class="table-wrap" data-compare-mount></div>
+      <script id="compare-listings" type="application/json" set:html={compareJson} />
+    </section>
     <h2>Facilities</h2>
     <div data-listing-list>
       {city.listings.map((listing) => <ListingCard listing={listing} />)}
@@ -343,6 +376,195 @@ for (const listing of city.listings) {
         check();
       });
       check();
+    });
+  </script>
+  <script>
+    type CompareListing = {
+      slug: string;
+      name: string;
+      address: string;
+      vehicles: string;
+      storage: string;
+      length: string;
+      clearance: string;
+      power: string;
+      dump: string;
+      wash: string;
+      gated: string;
+      cameras: string;
+      access: string;
+      hours: string;
+      waitlist: string;
+      price: string;
+      phone: string | null;
+      website: string | null;
+      checked: string;
+    };
+
+    const compareRows: { label: string; key: keyof CompareListing }[] = [
+      { label: 'Address', key: 'address' },
+      { label: 'Vehicles', key: 'vehicles' },
+      { label: 'Storage', key: 'storage' },
+      { label: 'Longest length listed', key: 'length' },
+      { label: 'Tallest clearance listed', key: 'clearance' },
+      { label: 'Power hookups', key: 'power' },
+      { label: 'Dump station', key: 'dump' },
+      { label: 'Wash station', key: 'wash' },
+      { label: 'Gated', key: 'gated' },
+      { label: 'Cameras', key: 'cameras' },
+      { label: '24-hour access', key: 'access' },
+      { label: 'Gate hours', key: 'hours' },
+      { label: 'Waitlist', key: 'waitlist' },
+      { label: 'Published price', key: 'price' },
+      { label: 'Phone', key: 'phone' },
+      { label: 'Website', key: 'website' },
+      { label: 'Checked', key: 'checked' },
+    ];
+
+    const idleSummary =
+      'Check Compare on two or three facilities. A blank stays “Not listed.” A row is marked when the facilities do not all say the same thing.';
+
+    function phoneHref(phone: string): string {
+      const digits = phone.replace(/\D/g, '');
+      const national = digits.length === 11 && digits.startsWith('1') ? digits.slice(1) : digits;
+      return `tel:+1${national}`;
+    }
+
+    function factText(listing: CompareListing, key: keyof CompareListing): string {
+      const value = listing[key];
+      if (value == null || value === '') return 'Not listed';
+      return String(value);
+    }
+
+    document.querySelectorAll('[data-compare]').forEach((section) => {
+      const root = section.closest('[data-filter-root]') ?? document;
+      const summary = section.querySelector<HTMLElement>('[data-compare-summary]');
+      const mount = section.querySelector<HTMLElement>('[data-compare-mount]');
+      const dataNode = section.querySelector('#compare-listings');
+      const catalog: CompareListing[] = dataNode?.textContent ? JSON.parse(dataNode.textContent) : [];
+      const bySlug = new Map(catalog.map((listing) => [listing.slug, listing]));
+      const order: string[] = [];
+      let shown = 0;
+
+      function selected(): CompareListing[] {
+        return order.flatMap((slug) => {
+          const listing = bySlug.get(slug);
+          return listing ? [listing] : [];
+        });
+      }
+
+      function render() {
+        const items = selected();
+        if (summary) {
+          if (catalog.length < 2) {
+            summary.textContent = 'This page lists one facility, so there is no second lot to put beside it.';
+          } else if (items.length === 0) {
+            summary.textContent = idleSummary;
+          } else if (items.length === 1) {
+            summary.textContent = '1 facility checked. Select one more. Three is the most.';
+          } else if (items.length === 2) {
+            summary.textContent = '2 facilities. A marked row is one where they do not all say the same thing. A blank stays “Not listed.”';
+          } else {
+            summary.textContent = '3 facilities, which is the most. Uncheck one to swap in another. A marked row is a difference.';
+          }
+        }
+        if (!mount) return;
+        mount.replaceChildren();
+        if (items.length < 2) {
+          shown = items.length;
+          return;
+        }
+        const table = document.createElement('table');
+        const caption = document.createElement('caption');
+        caption.textContent = 'Published facts for the facilities you checked';
+        table.append(caption);
+        const head = document.createElement('thead');
+        const headRow = document.createElement('tr');
+        const corner = document.createElement('th');
+        corner.scope = 'col';
+        corner.textContent = 'Fact';
+        headRow.append(corner);
+        for (const listing of items) {
+          const th = document.createElement('th');
+          th.scope = 'col';
+          const link = document.createElement('a');
+          link.href = `#${listing.slug}`;
+          link.textContent = listing.name;
+          th.append(link);
+          headRow.append(th);
+        }
+        head.append(headRow);
+        table.append(head);
+        const body = document.createElement('tbody');
+        for (const row of compareRows) {
+          const values = items.map((listing) => factText(listing, row.key));
+          const differs = new Set(values).size > 1;
+          const tr = document.createElement('tr');
+          const th = document.createElement('th');
+          th.scope = 'row';
+          th.textContent = row.label;
+          if (differs) th.className = 'diff';
+          tr.append(th);
+          items.forEach((listing, index) => {
+            const td = document.createElement('td');
+            if (differs) td.className = 'diff';
+            if (row.key === 'phone' && listing.phone) {
+              const link = document.createElement('a');
+              link.href = phoneHref(listing.phone);
+              link.textContent = listing.phone;
+              td.append(link);
+            } else if (row.key === 'website' && listing.website) {
+              const link = document.createElement('a');
+              link.href = listing.website;
+              link.target = '_blank';
+              link.rel = 'noopener noreferrer';
+              link.textContent = 'Website';
+              const note = document.createElement('span');
+              note.className = 'sr-only';
+              note.textContent = ` for ${listing.name} (opens in a new tab)`;
+              link.append(note);
+              td.append(link);
+            } else {
+              td.textContent = values[index];
+            }
+            tr.append(td);
+          });
+          body.append(tr);
+        }
+        table.append(body);
+        mount.append(table);
+        if (shown < 2) section.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        shown = items.length;
+      }
+
+      root.addEventListener('change', (event) => {
+        const input = event.target;
+        if (!(input instanceof HTMLInputElement) || !input.matches('[data-compare-pick]')) return;
+        const slug = input.value;
+        if (!bySlug.has(slug)) return;
+        if (input.checked) {
+          if (order.length >= 3) {
+            input.checked = false;
+            if (summary) summary.textContent = 'Three facilities is the limit. Uncheck one to add another.';
+            return;
+          }
+          if (!order.includes(slug)) order.push(slug);
+        } else {
+          const index = order.indexOf(slug);
+          if (index >= 0) order.splice(index, 1);
+        }
+        render();
+      });
+
+      section.querySelector('[data-compare-clear]')?.addEventListener('click', () => {
+        order.splice(0, order.length);
+        root.querySelectorAll<HTMLInputElement>('[data-compare-pick]').forEach((input) => {
+          input.checked = false;
+        });
+        render();
+      });
+
+      if (catalog.length < 2) render();
     });
   </script>
 </Base>

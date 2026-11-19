@@ -633,6 +633,47 @@ th .fine {
   margin: 0.35rem 0 0;
 }
 
+.compare-pick {
+  display: inline-flex;
+  align-items: center;
+  flex-basis: 100%;
+  gap: 0.4rem;
+  margin-top: 0.15rem;
+  font-weight: 650;
+}
+
+.compare {
+  margin: 1.25rem 0 1.5rem;
+  padding: 1rem;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+}
+
+.compare .table-wrap {
+  margin-bottom: 0;
+}
+
+.compare table {
+  min-width: 36rem;
+}
+
+.compare th[scope='row'] {
+  position: sticky;
+  left: 0;
+  background: var(--paper);
+  min-width: 9rem;
+}
+
+.compare td.diff,
+.compare th.diff {
+  background: var(--stamp);
+  box-shadow: inset 3px 0 0 var(--clay);
+}
+
+.compare button {
+  margin: 0.6rem 0 0.2rem;
+}
+
 .table-wrap {
   overflow-x: auto;
   margin: 1rem 0;
