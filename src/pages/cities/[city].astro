@@ -5,7 +5,7 @@ import FilterChips from '../../components/FilterChips.astro';
 import FindMore from '../../components/FindMore.astro';
 import ListingCard from '../../components/ListingCard.astro';
 import Photo from '../../components/Photo.astro';
-import { getCities, getCity, href, siblingCities, stateSlug } from '../../lib/data';
+import { correctionMailto, getCities, getCity, href, siblingCities, stateSlug } from '../../lib/data';
 import { getPhoto } from '../../lib/photos';
 import { breadcrumbNode, faqNode, itemListNode, pageGraph, webPageNode } from '../../lib/schema';
 
@@ -44,6 +44,9 @@ const schema = pageGraph([
   faqNode(faqs),
 ]);
 const siblings = siblingCities(city);
+const reportedFull = city.listings.filter((listing) => listing.waitlist);
+const notReportedFull = city.listings.filter((listing) => !listing.waitlist);
+const correctionHref = correctionMailto(city.city);
 ---
 
 <Base title={title} description={description} path={path} schema={schema}>
@@ -61,6 +64,37 @@ const siblings = siblingCities(city);
     <p class="legend" data-filter-empty hidden>No facilities on this page match that filter.</p>
     <h2>Facilities</h2>
     {city.listings.map((listing) => <ListingCard listing={listing} />)}
+    {
+      reportedFull.length > 0 && (
+        <section class="try-these">
+          <h2>Lots full? Try these</h2>
+          <p>
+            {reportedFull.length} of {city.listings.length} facilities on this page reported a waitlist or no
+            open space. The others did not say that. Not reported is not the same as a vacancy.
+          </p>
+          {
+            notReportedFull.length > 0 ? (
+              <ul>
+                {notReportedFull.map((listing) => (
+                  <li>
+                    <a href={`#${listing.slug}`}>{listing.name}</a>
+                    <span class="fine">
+                      {' '}
+                      {listing.city}, {listing.state_code}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <p>Every facility on this page reported a waitlist. A lot in a nearby city may still have space.</p>
+            )
+          }
+          <p>
+            <a href={correctionHref}>Email a correction</a> if a lot filled up or a card is wrong.
+          </p>
+        </section>
+      )
+    }
     <section class="faq">
       <h2>Questions about {city.city}</h2>
       {
