@@ -1,0 +1,183 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { href } from '../../lib/data';
+import {
+  coverGuideLabel,
+  formatBand,
+  getCityCostGuides,
+  getCompareCostGuide,
+  type CostGuide,
+  type PriceBand,
+} from '../../lib/guides';
+import { breadcrumbNode, faqNode, pageGraph, webPageNode } from '../../lib/schema';
+
+export function getStaticPaths() {
+  const pages: CostGuide[] = [getCompareCostGuide(), ...getCityCostGuides()];
+  return pages.map((guide) => ({ params: { slug: guide.slug }, props: { guide } }));
+}
+
+interface Props {
+  guide: CostGuide;
+}
+
+const { guide } = Astro.props;
+const isCity = guide.kind === 'city';
+const title = isCity
+  ? `How much does RV storage cost in ${guide.city.city}, ${guide.city.state_code}? | RV Storage Prices`
+  : 'Covered vs uncovered vs indoor RV storage | RV Storage Prices';
+const description = isCity
+  ? `Published monthly RV storage in ${guide.city.city}, ${guide.city.state_code} runs ${formatBand(guide.overall.min)} to ${formatBand(guide.overall.max)} across ${guide.sampled.length} facilities. Not a guess for lots that printed no price.`
+  : `Uncovered, covered, and indoor RV storage prices from ${guide.sampledFacilities} facilities that printed a monthly amount. Each row is the low, median, and high of those amounts.`;
+const path = guide.path;
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'Guides', path: '/guides/' },
+  { label: isCity ? guide.city.city : 'Covered vs uncovered vs indoor', path },
+];
+const faqs = isCity
+  ? [
+      {
+        q: `What is the lowest published monthly RV storage price in ${guide.city.city}?`,
+        a: `${formatBand(guide.overall.min)}. That is the smallest monthly amount printed by the ${guide.sampled.length} facilities in this sample, not a promise that a space is available at that rate.`,
+      },
+      {
+        q: `How many ${guide.city.city} facilities are in this price sample?`,
+        a: `${guide.sampled.length} of ${guide.city.listings.length} facilities on the city page printed at least one monthly dollar amount. The rest are left out of the low, median, and high.`,
+      },
+      {
+        q: 'Should I call before I rely on this?',
+        a: 'Yes. These figures are what a public page said on the date checked. Call the facility to confirm the rate, the billing period, and any fee that was not printed.',
+      },
+    ]
+  : [
+      {
+        q: 'What is the difference between uncovered, covered, and indoor storage?',
+        a: 'Uncovered is the open or outdoor tag. Covered is a roof or canopy. Indoor is the enclosed tag, a garage bay or an indoor building. A facility is counted in a row only when a monthly amount was tied to that type.',
+      },
+      {
+        q: 'Are these national averages?',
+        a: `No. Each row is the lowest, the median, and the highest monthly amount among the ${guide.sampledFacilities} facilities in this directory that printed one for that type. A facility with no monthly price is not in the count.`,
+      },
+    ];
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: guide.lastmod }),
+  breadcrumbNode(crumbs),
+  faqNode(faqs),
+]);
+
+function evenMedian(band: PriceBand): boolean {
+  return band.amounts % 2 === 0;
+}
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <article class="wrap prose">
+    <Breadcrumbs items={crumbs} />
+    <h1>
+      {
+        isCity
+          ? `How much does RV storage cost in ${guide.city.city}?`
+          : 'Covered vs uncovered vs indoor RV storage'
+      }
+    </h1>
+    {
+      isCity ? (
+        <p>
+          {guide.sampled.length} of {guide.city.listings.length} facilities on the {guide.city.city} page
+          printed a monthly dollar amount. Among those amounts, the low is {formatBand(guide.overall.min)},
+          the median is {formatBand(guide.overall.median)}, and the high is {formatBand(guide.overall.max)}.
+          {guide.overall.amounts} monthly amounts were counted. A price note that does not say it is monthly
+          is not in these numbers.
+        </p>
+      ) : (
+        <p>
+          These rows use monthly amounts from {guide.sampledFacilities} facilities in this directory.
+          Uncovered is open storage, covered is a roof or canopy, and indoor is enclosed storage. A
+          facility is in a row only when a monthly amount was tied to that type.
+        </p>
+      )
+    }
+    {
+      (isCity ? guide.covers : guide.covers).length > 0 && (
+        <div class="table-wrap">
+          <table>
+            <caption>
+              {isCity
+                ? `Published monthly amounts in ${guide.city.city} by cover type`
+                : 'Published monthly amounts by cover type'}
+            </caption>
+            <thead>
+              <tr>
+                <th scope="col">Type</th>
+                <th scope="col">Low</th>
+                <th scope="col">Median</th>
+                <th scope="col">High</th>
+                <th scope="col">Facilities</th>
+              </tr>
+            </thead>
+            <tbody>
+              {(isCity ? guide.covers : guide.covers).map((row) => (
+                <tr>
+                  <th scope="row">{row.cover ? coverGuideLabel[row.cover] : 'Any'}</th>
+                  <td>{formatBand(row.min)}</td>
+                  <td>
+                    {formatBand(row.median)}
+                    {evenMedian(row) ? <span class="fine"> midpoint of the two middle amounts</span> : null}
+                  </td>
+                  <td>{formatBand(row.max)}</td>
+                  <td>{row.facilities}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )
+    }
+    {
+      isCity && (
+        <>
+          <h2>Facilities in the sample</h2>
+          <ul>
+            {guide.sampled.map((row) => (
+              <li>
+                <a href={href(`/cities/${guide.city.id}/#${row.listing.slug}`)}>{row.listing.name}</a>
+                {' · '}
+                {formatBand(Math.min(...row.amounts))}
+                {Math.max(...row.amounts) !== Math.min(...row.amounts)
+                  ? `–${formatBand(Math.max(...row.amounts))}`
+                  : ''}
+                {row.covers.length
+                  ? ` · ${row.covers.map((cover) => coverGuideLabel[cover]).join(', ')}`
+                  : ' · cover type not stated'}
+              </li>
+            ))}
+          </ul>
+          <p>
+            <a href={href(`/cities/${guide.city.id}/`)}>All {guide.city.city} listings</a>
+            {' · '}
+            <a href={href(`/costs/${guide.city.id}/`)}>Price table</a>
+          </p>
+        </>
+      )
+    }
+    {
+      !isCity && (
+        <p>
+          <a href={href('/guides/')}>City cost guides</a> use the same monthly amounts, one city at a time.
+        </p>
+      )
+    }
+    <section class="faq">
+      <h2>Questions</h2>
+      {
+        faqs.map((faq) => (
+          <>
+            <h3>{faq.q}</h3>
+            <p>{faq.a}</p>
+          </>
+        ))
+      }
+    </section>
+  </article>
+</Base>
