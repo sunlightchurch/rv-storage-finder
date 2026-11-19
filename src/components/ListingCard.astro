@@ -64,6 +64,8 @@ const icons = [
   class="listing"
   id={listing.slug}
   data-listing
+  data-max-length={listing.max_length_ft ?? undefined}
+  data-clearance={listing.clearance_ft ?? undefined}
   data-covered={String(listing.storage_types.includes('covered'))}
   data-enclosed={String(listing.storage_types.includes('enclosed'))}
   data-power={String(listing.power_hookups === true)}
@@ -92,6 +94,7 @@ const icons = [
       </address>
     </header>
     <p class="distance-note" data-distance-note hidden></p>
+    <p class="fit-note" data-fit-note hidden></p>
     <ul class="icon-row" aria-label="Published features">
       {icons.length ? icons.map((icon) => <li>{icon}</li>) : <li class="unknown">Features not listed</li>}
     </ul>

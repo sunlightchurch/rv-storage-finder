@@ -578,6 +578,11 @@ th .fine {
   font-weight: 450;
 }
 
+.fit-note {
+  margin: 0.4rem 0 0.2rem;
+  font-weight: 650;
+}
+
 .badge {
   display: inline-block;
   margin-left: 0.45rem;
