@@ -72,6 +72,7 @@ const listingSchema = z
     gated: nullBool,
     cameras: nullBool,
     access_24h: nullBool,
+    access_hours: nullString.optional().transform((value) => value ?? null),
     price_notes: nullString,
     waitlist: nullString,
     notes: nullString,
@@ -133,6 +134,25 @@ const filterSchema = z.object({
   require_dump: z.boolean(),
   require_wash: z.boolean(),
   require_price: z.boolean(),
+  require_24h: z
+    .boolean()
+    .optional()
+    .transform((value) => value ?? false),
+  require_gated: z
+    .boolean()
+    .optional()
+    .transform((value) => value ?? false),
+  require_cameras: z
+    .boolean()
+    .optional()
+    .transform((value) => value ?? false),
+  min_matches: z
+    .number()
+    .int()
+    .min(1)
+    .max(20)
+    .optional()
+    .transform((value) => value ?? 1),
   title: z.string().min(8),
   description: z.string().min(20),
   h1: z.string().min(8),
@@ -340,6 +360,9 @@ export function listingMatches(listing: Listing, filter: FilterDef): boolean {
   if (filter.require_dump && listing.dump_station !== true) return false;
   if (filter.require_wash && listing.wash_station !== true) return false;
   if (filter.require_price && !listing.price_notes) return false;
+  if (filter.require_24h && listing.access_24h !== true) return false;
+  if (filter.require_gated && listing.gated !== true) return false;
+  if (filter.require_cameras && listing.cameras !== true) return false;
   return true;
 }
 
@@ -359,7 +382,7 @@ export function getFilterPages(): FilterPage[] {
   for (const city of cities) {
     for (const filter of filters) {
       const matches = city.listings.filter((listing) => listingMatches(listing, filter));
-      if (!matches.length) continue;
+      if (matches.length < filter.min_matches) continue;
       const slug = `${filter.slug_prefix}-${city.id}`;
       if (slugs.has(slug)) throw new Error(`Duplicate filter slug ${slug}.`);
       slugs.add(slug);

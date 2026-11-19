@@ -1,4 +1,4 @@
-# Each filter becomes one page per city that has at least one match.
+# Each filter becomes one page per city that has at least min_matches facilities (default 1).
 # Adding a city file creates these pages automatically. No new template is required.
 # Match rules are AND across the flags below.
 # vehicles: the listing must include at least one of these.
@@ -130,3 +130,66 @@
   description: "Published RV and boat storage prices in and near {city}, {state}. {count} facilities print a rate. Figures are copied from the source and are not averaged."
   h1: "RV storage prices in {city}"
   intro: "These facilities in and near {city}, {state} print a price on the page we checked. The figure may be a length tier, a starting rate, or a promotional online rate beside a higher in-store rate. This page does not average them. Facilities that do not print a price are on the city page, with price marked not listed."
+
+- id: access-24h
+  slug_prefix: rv-storage-24-hour
+  label: 24-hour access
+  vehicles: [rv, boat]
+  storage_types: []
+  require_power: false
+  require_dump: false
+  require_wash: false
+  require_price: false
+  require_24h: true
+  min_matches: 3
+  title: "24-hour RV storage in {city}, {state_code}"
+  description: "24-hour RV storage in and near {city}, {state}: {count} facilities state it. A daytime gate window is not counted."
+  h1: "24-hour RV storage in {city}"
+  intro: "These facilities in and near {city}, {state} say tenants can enter at all hours. A lot that prints a daytime window, or that sells 24-hour access as an extra, stays on the city page unless the listing is marked yes."
+
+- id: gated
+  slug_prefix: gated-rv-storage
+  label: Gated RV storage
+  vehicles: [rv, boat]
+  storage_types: []
+  require_power: false
+  require_dump: false
+  require_wash: false
+  require_price: false
+  require_gated: true
+  min_matches: 3
+  title: "Gated RV storage in {city}, {state_code}"
+  description: "Gated RV storage in and near {city}, {state}: {count} facilities say the lot has a gate. A fence without a stated gate does not count."
+  h1: "Gated RV storage in {city}"
+  intro: "These facilities in and near {city}, {state} state a gate. The city page still lists lots that do not mention one."
+
+- id: cameras
+  slug_prefix: rv-storage-with-cameras
+  label: RV storage with cameras
+  vehicles: [rv, boat]
+  storage_types: []
+  require_power: false
+  require_dump: false
+  require_wash: false
+  require_price: false
+  require_cameras: true
+  min_matches: 3
+  title: "RV storage with cameras in {city}, {state_code}"
+  description: "RV storage with cameras in and near {city}, {state}: {count} facilities state video surveillance. A camera claim that covers a whole company is not counted."
+  h1: "RV storage with cameras in {city}"
+  intro: "These facilities in and near {city}, {state} state cameras or video surveillance on the lot. The listing note has the wording the page used."
+
+- id: wash
+  slug_prefix: rv-storage-with-wash
+  label: RV storage with a wash station
+  vehicles: [rv, boat]
+  storage_types: []
+  require_power: false
+  require_dump: false
+  require_wash: true
+  require_price: false
+  min_matches: 3
+  title: "RV wash station storage in {city}, {state_code}"
+  description: "RV storage with a wash station in and near {city}, {state}: {count} facilities say one is on site. A hose at another address does not count."
+  h1: "RV storage with a wash station in {city}"
+  intro: "These facilities in and near {city}, {state} state a wash station or wash bay on the property. A dump station is a different page."
