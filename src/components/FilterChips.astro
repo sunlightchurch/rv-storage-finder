@@ -11,7 +11,9 @@ const chips = [
   { key: 'all', label: 'All' },
   { key: 'covered', label: 'Covered' },
   { key: 'enclosed', label: 'Enclosed' },
+  { key: 'open', label: 'Outdoor' },
   { key: 'power', label: 'Power' },
+  { key: 'dump', label: 'Dump' },
   { key: 'boat', label: 'Boat' },
   { key: 'rv', label: 'RV' },
   { key: 'priced', label: 'Has price' },
@@ -27,22 +29,28 @@ const chips = [
         </button>
       ))
     }
+    <label class="length-filter">
+      At least
+      <input type="number" inputmode="decimal" min="1" max="80" step="1" placeholder="ft" data-min-length aria-label={`Minimum published length in feet for ${city.city}`} />
+      ft
+    </label>
   </div>
-  {
-    pages.length > 0 && (
-      <nav class="seo-links" aria-label={`Shareable ${city.city} pages`}>
-        <p>
-          Shareable pages:{' '}
-          {pages.map((page, index) => (
-            <>
-              {index > 0 ? ', ' : ''}
-              <a href={href(page.path)}>
-                {page.filter.label} <span class="count">{page.matches.length}</span>
-              </a>
-            </>
-          ))}
-        </p>
-      </nav>
-    )
-  }
+  <p class="filter-count" data-filter-count aria-live="polite">{city.listings.length} facilities</p>
 </div>
+{
+  pages.length > 0 && (
+    <nav class="seo-links" aria-label={`Shareable ${city.city} pages`}>
+      <p>
+        Shareable pages:{' '}
+        {pages.map((page, index) => (
+          <>
+            {index > 0 ? ', ' : ''}
+            <a href={href(page.path)}>
+              {page.filter.label} <span class="count">{page.matches.length}</span>
+            </a>
+          </>
+        ))}
+      </p>
+    </nav>
+  )
+}

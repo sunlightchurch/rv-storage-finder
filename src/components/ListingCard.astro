@@ -77,7 +77,9 @@ const icons = [
   data-clearance={listing.clearance_ft ?? undefined}
   data-covered={String(listing.storage_types.includes('covered'))}
   data-enclosed={String(listing.storage_types.includes('enclosed'))}
+  data-open={String(listing.storage_types.includes('open'))}
   data-power={String(listing.power_hookups === true)}
+  data-dump={String(listing.dump_station === true)}
   data-boat={String(listing.vehicles.includes('boat'))}
   data-rv={String(listing.vehicles.includes('rv'))}
   data-priced={String(Boolean(listing.price_notes))}
@@ -107,11 +109,6 @@ const icons = [
         <span class="sr-only">{listing.name}</span>
       </label>
     </header>
-    <p class="distance-note" data-distance-note hidden></p>
-    <p class="fit-note" data-fit-note hidden></p>
-    <ul class="icon-row" aria-label="Published features">
-      {icons.length ? icons.map((icon) => <li>{icon}</li>) : <li class="unknown">Features not listed</li>}
-    </ul>
     <div class="price">
       <span class="label">Published price</span>
       {from && <strong class="price-from">{from}</strong>}
@@ -132,7 +129,7 @@ const icons = [
             ))}
           </div>
         ) : (
-          <p class="unknown">Price not posted, call for rates</p>
+          <p class="price-missing">Price not posted, call for rates</p>
         )
       }
       {
@@ -144,6 +141,11 @@ const icons = [
         )
       }
     </div>
+    <p class="distance-note" data-distance-note hidden></p>
+    <p class="fit-note" data-fit-note hidden></p>
+    <ul class="icon-row" aria-label="Published features">
+      {icons.length ? icons.map((icon) => <li>{icon}</li>) : <li class="unknown">Features not listed</li>}
+    </ul>
     <div class="actions">
       {
         listing.phone ? (
@@ -154,18 +156,20 @@ const icons = [
           </a>
         ) : (
           <a class="action-primary" href={mapUrl(listing)} rel="noopener noreferrer" target="_blank">
-            Map<span class="sr-only"> for {listing.name} (opens in a new tab)</span>
+            Directions<span class="sr-only"> for {listing.name} (opens in a new tab)</span>
           </a>
         )
       }
       {listing.phone && listing.website && (
-        <a href={listing.website} rel="noopener noreferrer" target="_blank">
+        <a class="action-secondary" href={listing.website} rel="noopener noreferrer" target="_blank">
           Website<span class="sr-only"> for {listing.name} (opens in a new tab)</span>
         </a>
       )}
-      <a href={mapUrl(listing)} rel="noopener noreferrer" target="_blank">
-        Map<span class="sr-only"> for {listing.name} (opens in a new tab)</span>
-      </a>
+      {(listing.phone || listing.website) && (
+        <a class="action-secondary" href={mapUrl(listing)} rel="noopener noreferrer" target="_blank">
+          Directions<span class="sr-only"> for {listing.name} (opens in a new tab)</span>
+        </a>
+      )}
     </div>
     <details class="details">
       <summary>View details</summary>
