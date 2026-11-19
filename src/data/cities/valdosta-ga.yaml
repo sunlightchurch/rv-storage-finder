@@ -1,0 +1,154 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: valdosta-ga
+city: Valdosta
+state: Georgia
+state_code: GA
+metro: Valdosta
+summary: >-
+  These facilities publish an RV or boat storage page in Valdosta or Hahira. Each card uses
+  only what that page states.
+sparefoot_slug: Valdosta-GA
+neighbor_path: georgia/valdosta
+sparefoot_note: >-
+  This link opens Valdosta results. Franks Creek Storage and Valdosta RV are in Hahira.
+photo: valdosta
+listings:
+- slug: mini-storage-depot-valdosta
+  name: Mini Storage Depot - Valdosta
+  street: 3833 Inner Perimeter Rd
+  city: Valdosta
+  state_code: GA
+  postal_code: "31602"
+  lat: null
+  lng: null
+  phone: "(229) 290-8343"
+  website: >-
+    https://www.ministoragedepot.com/storage-locations/ga/valdosta/mini-storage-depot-valdosta/
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: true
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Valdosta page lists outdoor RV, boat, and auto parking, a fully fenced facility, and
+    a digital surveillance system. Access is every day from 6:00 am to 10:00 pm. A covered-parking
+    blurb tells the reader to contact a nearby facility, so covered is not marked.
+  sources:
+  - url: >-
+      https://www.ministoragedepot.com/storage-locations/ga/valdosta/mini-storage-depot-valdosta/
+    title: Mini Storage Depot Valdosta location page
+  last_verified: '2026-11-18'
+- slug: flying-tiger-storage
+  name: Flying Tiger Storage
+  street: 4036 Bemiss Road
+  city: Valdosta
+  state_code: GA
+  postal_code: "31605"
+  lat: null
+  lng: null
+  phone: "(229) 484-8282"
+  website: >-
+    https://www.absolutemgmt.com/storage-locations/ga/valdosta/4036-bemiss-road-flying-tiger-storage/
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Bemiss Road page lists RV parking, uncovered parking, and boat and RV storage, with
+    a fence, gated access, and cameras. The access-hours block is blank. The page also prints
+    (229) 463-0340. Covered and enclosed parking text tells the reader to call a nearby facility.
+  sources:
+  - url: >-
+      https://www.absolutemgmt.com/storage-locations/ga/valdosta/4036-bemiss-road-flying-tiger-storage/
+    title: Flying Tiger Storage location page
+  last_verified: '2026-11-18'
+- slug: franks-creek-storage
+  name: Franks Creek Storage
+  street: 6125 Union Rd
+  city: Hahira
+  state_code: GA
+  postal_code: "31632"
+  lat: null
+  lng: null
+  phone: "(229) 794-8104"
+  website: "https://www.frankscreekstorage.com/pages/boatrv-storage"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  max_length_ft: 27
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: null
+  access_24h: true
+  price_notes: Covered boat and RV space, 27 by 12 by 14 feet, is $150 per month.
+  waitlist: null
+  notes: >-
+    The Hahira page offers one covered boat and RV size and says the gated facility is accessible
+    24/7. Office hours are Monday through Thursday, 9:00 am to 5:00 pm, and Friday until noon.
+    Clearance is left empty because only that one space lists a height.
+  sources:
+  - url: "https://www.frankscreekstorage.com/pages/boatrv-storage"
+    title: Franks Creek Storage boat and RV page
+  last_verified: '2026-11-18'
+- slug: valdosta-rv
+  name: Valdosta RV
+  street: 201 B J Miley Street
+  city: Hahira
+  state_code: GA
+  postal_code: null
+  lat: null
+  lng: null
+  phone: "(229) 561-9591"
+  website: "https://valdostarv.com/index.php/rv-storage"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - enclosed
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The storage page describes a 120,000 square foot indoor facility with electricity for
+    RVs and boats, plus outdoor and covered outdoor slots. Hours printed with the address
+    are Monday through Friday, 8 am to 4 pm. No ZIP code is printed. Military storage is 5
+    percent off, and a year paid in advance is 5 percent off.
+  sources:
+  - url: "https://valdostarv.com/index.php/rv-storage"
+    title: Valdosta RV indoor storage page
+  last_verified: '2026-11-18'

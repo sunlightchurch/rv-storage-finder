@@ -1,0 +1,82 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: albany-ga
+city: Albany
+state: Georgia
+state_code: GA
+metro: Albany
+summary: >-
+  These facilities publish an RV or boat storage page in Albany. Each card uses only what
+  that page states. This is not a complete inventory.
+sparefoot_slug: Albany-GA
+neighbor_path: georgia/albany
+sparefoot_note: null
+photo: albany
+listings:
+- slug: dawson-road-self-storage
+  name: Dawson Road Self Storage
+  street: 1515 Dawson Road
+  city: Albany
+  state_code: GA
+  postal_code: null
+  lat: null
+  lng: null
+  phone: 229-344-6092
+  website: "https://www.dawsonrdselfstorage.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The page says it has uncovered parking for RVs, cars, and boats inside a fully fenced
+    and gated facility with coded gate entry and 24-hour video surveillance. The headline
+    also says indoor and outdoor vehicle parking, and the body describes the uncovered spaces.
+    No ZIP code or gate hours are printed.
+  sources:
+  - url: "https://www.dawsonrdselfstorage.com/"
+    title: Dawson Road Self Storage
+  last_verified: '2026-11-18'
+- slug: tri-star-storage-albany
+  name: Tri Star Storage - Albany
+  street: 2425 Sylvester Hwy
+  city: Albany
+  state_code: GA
+  postal_code: "31705"
+  lat: null
+  lng: null
+  phone: "(229) 500-6095"
+  website: null
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The company page says each facility, including this Albany address, offers outdoor parking
+    for RVs, boats, and vehicles. Keypad access and 24/7 video surveillance appear as company-wide
+    bullets, so those fields are left unset. The operator website is shared with another listing
+    in this directory, so the website button is omitted here and the page stays in the sources.
+  sources:
+  - url: "https://www.tristarstor.com/index.aspx"
+    title: Tri Star Storage locations
+  last_verified: '2026-11-18'

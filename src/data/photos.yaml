@@ -784,6 +784,104 @@
   license: "CC BY-SA 3.0"
   license_url: "https://creativecommons.org/licenses/by-sa/3.0"
   credit_required: true
+- id: savannah
+  role: city
+  alt: "The fountain in Forsyth Park, Savannah, Georgia"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/savannah-640.webp
+    "960": photos/savannah-960.webp
+    "1280": photos/savannah-1280.webp
+  author: "Jennifer Morrow from San Francisco"
+  source_url: "https://commons.wikimedia.org/wiki/File:Forsyth_Park_Fountain_(1).jpg"
+  license: "CC BY 2.0"
+  license_url: "https://creativecommons.org/licenses/by/2.0"
+  credit_required: true
+- id: augusta
+  role: city
+  alt: "The downtown Augusta, Georgia skyline across the Savannah River"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/augusta-640.webp
+    "960": photos/augusta-960.webp
+    "1280": photos/augusta-1280.webp
+  author: "c_live_lee"
+  source_url: "https://commons.wikimedia.org/wiki/File:Augusta,_GA_Downtown_Skyline_2017.jpg"
+  license: "CC0"
+  license_url: "https://creativecommons.org/publicdomain/zero/1.0/"
+  credit_required: false
+- id: columbus
+  role: city
+  alt: "The riverfront in Columbus, Georgia"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/columbus-640.webp
+    "960": photos/columbus-960.webp
+    "1280": photos/columbus-1280.webp
+  author: "Thechased"
+  source_url: "https://commons.wikimedia.org/wiki/File:Columbus_Georgia_skyline.jpeg"
+  license: "CC BY-SA 3.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  credit_required: true
+- id: macon
+  role: city
+  alt: "The First Presbyterian Church steeple in Macon, Georgia"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/macon-640.webp
+    "960": photos/macon-960.webp
+    "1280": photos/macon-1280.webp
+  author: "Ken Lund"
+  source_url: "https://commons.wikimedia.org/wiki/File:Approaching_Downtown_Macon,_Georgia.jpg"
+  license: "CC BY-SA 2.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  credit_required: true
+- id: athens
+  role: city
+  alt: "Downtown Athens, Georgia, at the Morton Theatre"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/athens-640.webp
+    "960": photos/athens-960.webp
+    "1280": photos/athens-1280.webp
+  author: "Harrison Keely"
+  source_url: "https://commons.wikimedia.org/wiki/File:Exterior_of_the_Morton_Theatre_in_downtown_Athens,_Georgia_04.jpg"
+  license: "CC BY 4.0"
+  license_url: "https://creativecommons.org/licenses/by/4.0"
+  credit_required: true
+- id: albany
+  role: city
+  alt: "The U.S. Post Office and Courthouse in Albany, Georgia"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/albany-640.webp
+    "960": photos/albany-960.webp
+    "1280": photos/albany-1280.webp
+  author: "Michael Rivera"
+  source_url: "https://commons.wikimedia.org/wiki/File:U.S._Post_Office_and_Courthouse,_Albany_(2016).jpg"
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  credit_required: true
+- id: valdosta
+  role: city
+  alt: "The Lowndes County Courthouse in Valdosta, Georgia"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/valdosta-640.webp
+    "960": photos/valdosta-960.webp
+    "1280": photos/valdosta-1280.webp
+  author: "Farrargirl"
+  source_url: "https://commons.wikimedia.org/wiki/File:Lowndes_County_Courthouse,_Valdosta,_Georgia.jpg"
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  credit_required: true
 - id: el-paso
   role: city
   alt: "Downtown El Paso, Texas, with mountains behind the skyline"

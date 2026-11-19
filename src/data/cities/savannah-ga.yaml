@@ -1,0 +1,371 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: savannah-ga
+city: Savannah
+state: Georgia
+state_code: GA
+metro: Savannah
+summary: >-
+  These facilities publish an RV or boat storage page in Savannah, Pooler, Garden City, or
+  Port Wentworth. Each card uses only what that page states.
+sparefoot_slug: Savannah-GA
+neighbor_path: georgia/savannah
+sparefoot_note: >-
+  This link opens Savannah results. Verified lots are also in Pooler, Garden City, and Port
+  Wentworth.
+photo: savannah
+listings:
+- slug: travelers-vip-rv-storage
+  name: "Traveler's VIP RV Storage"
+  street: 2788 Hwy 80
+  city: Garden City
+  state_code: GA
+  postal_code: "31405"
+  lat: null
+  lng: null
+  phone: 912.965.9091
+  website: "https://travelerstorage.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: true
+  dump_station: true
+  wash_station: true
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: >-
+    Average Joe uncovered lot space is $175 per month. VIP Traveler canopy RV/boat storage
+    is $350 per month and includes the self-dumping station and washing/fill station. Optional
+    electricity is $50 per month for 15 amp and $100 per month for 30 amp.
+  waitlist: null
+  notes: >-
+    The lot is in Garden City behind Kelly Tours, with the main office at this address. The
+    site lists 24/7 access, 24-hour surveillance, a gated paved property, and 15/30 amp electrical
+    service.
+  sources:
+  - url: "https://travelerstorage.com/"
+    title: "Traveler's VIP RV Storage homepage"
+  - url: "https://travelerstorage.com/about-us/"
+    title: About Us
+  - url: "https://travelerstorage.com/contact-us/"
+    title: Contact Us
+  last_verified: '2026-11-18'
+- slug: storage-sense-pooler
+  name: Storage Sense - Pooler
+  street: 1415 Quacco Rd
+  city: Pooler
+  state_code: GA
+  postal_code: "31322"
+  lat: null
+  lng: null
+  phone: 912-737-3787
+  website: "https://www.storagesense.com/location/USA/GA/Pooler/sense-pooler/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: null
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Pooler page offers outdoor parking for an RV, boat, or vehicle and Nokē smart gate
+    access. Property hours are Monday through Sunday, 6:00 am to 10:00 pm. No RV or boat price
+    is printed.
+  sources:
+  - url: "https://www.storagesense.com/location/USA/GA/Pooler/sense-pooler/"
+    title: Storage Sense Pooler location page
+  last_verified: '2026-11-18'
+- slug: u-haul-savannah-ogeechee
+  name: "U-Haul Moving & Storage of Savannah Ogeechee"
+  street: 3802 Ogeechee Rd
+  city: Savannah
+  state_code: GA
+  postal_code: "31405"
+  lat: null
+  lng: null
+  phone: "(912) 233-9912"
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Savannah-GA-31405/768070/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  max_length_ft: 45
+  clearance_ft: 14
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: >-
+    Covered RV, boat, and vehicle spaces are listed at $164.95 per month for 12 by 35 by 14
+    feet, $169.95 per month for 12 by 40 by 14 feet, and $174.95 per month for 12 by 45 by
+    14 feet.
+  waitlist: null
+  notes: >-
+    Storage access is listed Monday through Sunday, 5 am to 10 pm. A feature line says 24-hour
+    access is available if you ask, so 24-hour access is left unset. The page lists gate remote
+    access and 24-hour video monitoring, and says to inquire about dump stations and electrical
+    outlets.
+  sources:
+  - url: "https://www.uhaul.com/Locations/Self-Storage-near-Savannah-GA-31405/768070/"
+    title: U-Haul Savannah Ogeechee location page
+  last_verified: '2026-11-18'
+- slug: stop-n-stor-benton-blvd
+  name: Stop N Stor - Benton Blvd
+  street: 2180 Benton Blvd
+  city: Savannah
+  state_code: GA
+  postal_code: "31407"
+  lat: null
+  lng: null
+  phone: "(912) 209-6620"
+  website: >-
+    https://www.stopnstorstorage.com/storage-units/georgia/savannah/benton-blvd-3502566/
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Benton Boulevard page offers outdoor storage for boats, RVs, campers, and trailers,
+    with 24/7 gated access, electronic gated access, and 24-hour security cameras. The printed
+    phone is the current-tenant number.
+  sources:
+  - url: >-
+      https://www.stopnstorstorage.com/storage-units/georgia/savannah/benton-blvd-3502566/
+    title: Stop N Stor Benton Blvd location page
+  last_verified: '2026-11-18'
+- slug: stop-n-stor-sh-morgan-parkway
+  name: Stop N Stor - SH Morgan Parkway
+  street: 1010 SH Morgan Parkway
+  city: Pooler
+  state_code: GA
+  postal_code: "31322"
+  lat: null
+  lng: null
+  phone: "(912) 386-0500"
+  website: >-
+    https://www.stopnstorstorage.com/storage-units/georgia/pooler/pooler-parkway-3502564/
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Pooler page lists canopy parking spaces and RV, car, and boat storage, plus 24/7 gated
+    access and 24/7 video surveillance. It does not describe an uncovered RV space. The printed
+    phone is the current-tenant number.
+  sources:
+  - url: >-
+      https://www.stopnstorstorage.com/storage-units/georgia/pooler/pooler-parkway-3502564/
+    title: Stop N Stor SH Morgan Parkway location page
+  last_verified: '2026-11-18'
+- slug: otter-self-storage-garden-city
+  name: Otter Self Storage - Augusta Garden
+  street: 4019 Augusta Rd
+  city: Garden City
+  state_code: GA
+  postal_code: "31408"
+  lat: null
+  lng: null
+  phone: "(912) 421-2191"
+  website: "https://www.otterstorage.com/storage-locations/ga/garden-city/4019-augusta-rd"
+  vehicles:
+  - rv
+  - boat
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The feature list includes small RV, boat, vehicle, and trailer storage, gate access with
+    a personalized code, and 24-hour video recording. The 24/7 line refers to online rental
+    and payment. The page also prints (912) 557-9416. It does not say whether the vehicle
+    spaces are covered, enclosed, or open.
+  sources:
+  - url: "https://www.otterstorage.com/storage-locations/ga/garden-city/4019-augusta-rd"
+    title: Otter Self Storage Garden City location page
+  last_verified: '2026-11-18'
+- slug: secure-storage-center-ogeechee
+  name: Secure Storage Center
+  street: 3825A Ogeechee Rd
+  city: Savannah
+  state_code: GA
+  postal_code: "31405"
+  lat: null
+  lng: null
+  phone: 912-232-2377
+  website: "https://www.savannahstorageunits.com/vehicle-storage-in-savannah-ga/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The vehicle page says outdoor and covered parking for cars, boats, and RVs is available
+    only at this address, on a gated lot with surveillance. It also calls the lot Savannah
+    Storage West. It does not print gate hours.
+  sources:
+  - url: "https://www.savannahstorageunits.com/vehicle-storage-in-savannah-ga/"
+    title: Secure Storage Center vehicle storage page
+  last_verified: '2026-11-18'
+- slug: great-american-boat-rv-port-wentworth
+  name: Great American Boat and RV Storage of Greater Savannah
+  street: 150 Highway 30
+  city: Port Wentworth
+  state_code: GA
+  postal_code: "31407"
+  lat: null
+  lng: null
+  phone: "(912) 289-5455"
+  website: >-
+    https://www.greatamericanselfstorage.com/storage-units/georgia/port-wentworth/great-american-rv-storage-of-savannah-3502809/
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - enclosed
+  max_length_ft: 58
+  clearance_ft: 14
+  power_hookups: true
+  dump_station: true
+  wash_station: true
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: >-
+    Listed prices include covered 14 by 39 feet at $349 and covered 14 by 52 feet at $399,
+    and enclosed spaces from 14 by 30 feet at $499 to 14 by 58 feet at $899. The page does
+    not state the billing period.
+  waitlist: null
+  notes: >-
+    The Port Wentworth page lists enclosed RV storage, canopy parking, 12-foot and 14-foot
+    tall doors, gated entry, 24-hour security cameras, a dump station, a boat and RV wash
+    rack, and power outlets. It does not print access hours.
+  sources:
+  - url: >-
+      https://www.greatamericanselfstorage.com/storage-units/georgia/port-wentworth/great-american-rv-storage-of-savannah-3502809/
+    title: Great American Boat and RV Storage of Greater Savannah
+  last_verified: '2026-11-18'
+- slug: stop-n-stor-highway-21
+  name: Stop N Stor - Georgia Highway 21
+  street: 8901 GA Hwy. 21
+  city: Port Wentworth
+  state_code: GA
+  postal_code: "31407"
+  lat: null
+  lng: null
+  phone: "(912) 335-8772"
+  website: >-
+    https://www.stopnstorstorage.com/storage-units/georgia/port-wentworth/georgia-highway-21-3502565/
+  vehicles:
+  - rv
+  - boat
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    This Port Wentworth page says it offers RV, car, and boat storage, with 24/7 gated access
+    and 24-hour security cameras. It does not say whether those spaces are covered, enclosed,
+    or open.
+  sources:
+  - url: >-
+      https://www.stopnstorstorage.com/storage-units/georgia/port-wentworth/georgia-highway-21-3502565/
+    title: Stop N Stor Highway 21 location page
+  last_verified: '2026-11-18'
+- slug: stop-n-stor-highway-30
+  name: Stop N Stor - Georgia Highway 30
+  street: 315 Highway 30
+  city: Port Wentworth
+  state_code: GA
+  postal_code: "31407"
+  lat: null
+  lng: null
+  phone: "(912) 964-4433"
+  website: >-
+    https://www.stopnstorstorage.com/storage-units/georgia/port-wentworth/georgia-highway-30-3502561/
+  vehicles:
+  - rv
+  - boat
+  storage_types: []
+  max_length_ft: 25
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Highway 30 page offers RV, car, and boat storage and names 10 by 25 foot parking spaces,
+    with 24/7 gated access and 24/7 video surveillance. It does not say whether the parking
+    is covered, enclosed, or open.
+  sources:
+  - url: >-
+      https://www.stopnstorstorage.com/storage-units/georgia/port-wentworth/georgia-highway-30-3502561/
+    title: Stop N Stor Highway 30 location page
+  last_verified: '2026-11-18'

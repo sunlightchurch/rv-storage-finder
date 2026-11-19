@@ -1,0 +1,157 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: macon-ga
+city: Macon
+state: Georgia
+state_code: GA
+metro: Macon
+summary: >-
+  These facilities publish an RV or boat storage page in Macon or Warner Robins. Each card
+  uses only what that page states.
+sparefoot_slug: Macon-GA
+neighbor_path: georgia/macon
+sparefoot_note: >-
+  This link opens Macon results. Orange Gate, World Storage, and Tri Star are in Warner Robins.
+photo: macon
+listings:
+- slug: orange-gate-boat-rv-storage
+  name: Orange Gate Boat And RV Storage
+  street: 801 Corder Rd
+  city: Warner Robins
+  state_code: GA
+  postal_code: "31088"
+  lat: null
+  lng: null
+  phone: "(478) 293-4444"
+  website: "https://www.orangegatestorage.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - enclosed
+  - open
+  max_length_ft: 50
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: null
+  price_notes: >-
+    Uncovered 15 by 50 foot parking is $150 per month. Enclosed 15 by 50 foot space is $559
+    per month, and enclosed 30 by 50 foot space is $1,000 per month. Unlabeled 15 by 45 foot
+    space is $249 per month and unlabeled 15 by 50 foot space is $269 per month.
+  waitlist: null
+  notes: >-
+    The facility address is 801 Corder Rd. The mailing address on the same page is 810 Corder
+    Rd. The page does not print gate hours, cameras, or a height. The unlabeled spaces are
+    not described as covered.
+  sources:
+  - url: "https://www.orangegatestorage.com/"
+    title: Orange Gate Boat And RV Storage
+  last_verified: '2026-11-18'
+- slug: world-storage-warner-robins
+  name: World Storage
+  street: 1549 Russell Parkway
+  city: Warner Robins
+  state_code: GA
+  postal_code: "31088"
+  lat: null
+  lng: null
+  phone: null
+  website: "https://www.worldstoragewr.com/units"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - enclosed
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The page offers indoor vehicle storage, outdoor covered vehicle storage for boats and
+    RVs, and outdoor parking, with 24/7 access at no extra cost, a gated entrance, and 24-hour
+    video recording. The contact page lists gate hours as open 24 hours. No phone number is
+    printed.
+  sources:
+  - url: "https://www.worldstoragewr.com/units"
+    title: World Storage Warner Robins
+  - url: "https://www.worldstoragewr.com/contact"
+    title: World Storage contact page
+  last_verified: '2026-11-18'
+- slug: superstorage-macon
+  name: SuperStorage Macon
+  street: 1985 Gray Hwy
+  city: Macon
+  state_code: GA
+  postal_code: "31211"
+  lat: null
+  lng: null
+  phone: "(478) 741-0999"
+  website: "https://superstoragemacon.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: null
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The page says boats and RVs can be parked, and that RVs can use covered or uncovered spaces.
+    Gate hours are 6 am to 10 pm, seven days a week. Another sentence says belongings are
+    at hand night or day, so 24-hour access is left unset.
+  sources:
+  - url: "https://superstoragemacon.com/"
+    title: SuperStorage Macon
+  last_verified: '2026-11-18'
+- slug: tri-star-storage-warner-robins
+  name: Tri Star Storage - Warner Robins
+  street: 828 N Houston Rd
+  city: Warner Robins
+  state_code: GA
+  postal_code: "31093"
+  lat: null
+  lng: null
+  phone: "(478) 370-4880"
+  website: "https://www.tristarstor.com/index.aspx"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The company page says each facility, including this Warner Robins address, offers outdoor
+    parking for RVs, boats, and vehicles. Keypad access and 24/7 video surveillance are listed
+    as company features rather than repeated in that sentence, so those fields are left unset.
+  sources:
+  - url: "https://www.tristarstor.com/index.aspx"
+    title: Tri Star Storage locations
+  last_verified: '2026-11-18'
