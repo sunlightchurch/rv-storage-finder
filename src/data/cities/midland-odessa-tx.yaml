@@ -1,0 +1,329 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: midland-odessa-tx
+city: Midland
+state: Texas
+state_code: TX
+metro: Midland–Odessa
+summary: >-
+  These facilities publish an RV or boat storage page in Midland or Odessa. Covered, uncovered,
+  and enclosed options appear only when that page states them.
+sparefoot_slug: Midland-TX
+neighbor_path: texas/midland
+sparefoot_note: The link opens Midland, and Odessa lots are on the same page.
+photo: midland
+listings:
+- slug: oasis-rv-boat-storage-midland
+  name: "Oasis RV & Boat Storage"
+  street: 8803 W County Road 60
+  city: Midland
+  state_code: TX
+  postal_code: "79707"
+  lat: null
+  lng: null
+  phone: "(432) 214-7866"
+  website: "https://oasisrvboat.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  max_length_ft: 50
+  clearance_ft: null
+  power_hookups: null
+  dump_station: true
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Midland lot lists 147 covered spaces at 40 feet and 80 covered spaces at 50 feet,
+    with pull-through and back-in spots for boats, RVs, and trailers. The page says both lots
+    have 24/7 gated access, electronic surveillance, and dump, water, and air.
+  sources:
+  - url: "https://oasisrvboat.com/"
+    title: Official website
+  last_verified: '2026-11-18'
+- slug: oasis-rv-boat-storage-odessa
+  name: "Oasis RV & Boat Storage"
+  street: 4109 South County Road 1297
+  city: Odessa
+  state_code: TX
+  postal_code: "79765"
+  lat: null
+  lng: null
+  phone: "(432) 214-7866"
+  website: null
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  max_length_ft: 50
+  clearance_ft: null
+  power_hookups: null
+  dump_station: true
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Odessa lot lists 138 covered spaces at 40 feet and 10 covered spaces at 50 feet, off
+    Highway 80. The same page says both locations have 24/7 gated access, electronic surveillance,
+    and dump, water, and air. The operator website is shared with another listing in this
+    directory, so the website button is omitted here and the page stays in the sources.
+  sources:
+  - url: "https://oasisrvboat.com/"
+    title: Official website
+  last_verified: '2026-11-18'
+- slug: westward-rv-boat-storage
+  name: "Westward RV & Boat Storage"
+  street: 903 W Stokes Ave
+  city: Midland
+  state_code: TX
+  postal_code: "79701"
+  lat: null
+  lng: null
+  phone: "(432) 538-9200"
+  website: "https://www.westwardstorage.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: true
+  dump_station: true
+  wash_station: true
+  gated: true
+  cameras: null
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    Covered and uncovered RV and boat parking with 12-volt electricity in every unit, a dump
+    station, a wash station, and a fence and gate. The page says access is 24 hours and a
+    security guard is on site. It also prints the street as 903 Stokes Ave.
+  sources:
+  - url: "https://www.westwardstorage.com/"
+    title: Official website
+  last_verified: '2026-11-18'
+- slug: smart-rv-boat-storage-midland
+  name: "Smart RV & Boat Storage"
+  street: 3200 W Gist Ave
+  city: Midland
+  state_code: TX
+  postal_code: "79701"
+  lat: null
+  lng: null
+  phone: "(432) 255-1234"
+  website: "https://www.smartrvstorage.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: true
+  dump_station: true
+  wash_station: null
+  gated: null
+  cameras: true
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    Pull-through parking for RVs, boats, trailers, and fleet vehicles, with water, electricity,
+    a waste station, digital video surveillance, and 24-hour access. The page does not say
+    whether the spaces are covered, enclosed, or open.
+  sources:
+  - url: "https://www.smartrvstorage.com/"
+    title: Official website
+  last_verified: '2026-11-18'
+- slug: family-rv-storage-midland
+  name: "Family RV & Storage"
+  street: 5601 W. Industrial Suite A
+  city: Midland
+  state_code: TX
+  postal_code: "79706"
+  lat: null
+  lng: null
+  phone: "(432) 699-4646"
+  website: "https://familyrvstorage.storageunitsoftware.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - enclosed
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    Covered, enclosed, and outdoor uncovered storage for RVs, boats, and vehicles, with 20-
+    and 30-amp electrical service, 24-hour gate access, and more than 40 security cameras.
+  sources:
+  - url: "https://familyrvstorage.storageunitsoftware.com/"
+    title: Official website
+  last_verified: '2026-11-18'
+- slug: discount-storage-midland-fairgrounds
+  name: "Discount Storage: North Fairgrounds Rd."
+  street: 115 North Fairgrounds Rd.
+  city: Midland
+  state_code: TX
+  postal_code: "79701"
+  lat: null
+  lng: null
+  phone: "(432) 203-2511"
+  website: >-
+    https://discountselfstoragetexas.com/store-locations/midland-shops-rv-fairgrounds/
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - enclosed
+  - open
+  max_length_ft: 45
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: null
+  access_24h: false
+  price_notes: >-
+    A 12.5 by 25 covered canopy is $190 per month, with an additional 20% off at checkout.
+    Other listed prices on the page are $200, $210, $235, $240, $270, $310, $320, and $350
+    per month. Those other lines do not each repeat a cover type.
+  waitlist: null
+  notes: >-
+    The page offers covered canopy, fully enclosed, deluxe enclosed, and open parking for
+    RVs and boats. Daily gate access is 6:00 AM to 12:00 AM. Shop tenants are listed separately
+    at 24 hours. Listed vehicle lengths run from 25 to 45 feet.
+  sources:
+  - url: >-
+      https://discountselfstoragetexas.com/store-locations/midland-shops-rv-fairgrounds/
+    title: Fairgrounds location page
+  last_verified: '2026-11-18'
+- slug: odessa-texas-rv-boat-storage
+  name: "Odessa Texas RV & Boat Storage"
+  street: 317 S FM 1936
+  city: Odessa
+  state_code: TX
+  postal_code: "79763"
+  lat: null
+  lng: null
+  phone: "(432) 232-1726"
+  website: "https://www.odessatexasrvstorage.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: true
+  dump_station: true
+  wash_station: null
+  gated: true
+  cameras: null
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    Covered and uncovered pull-through spaces for motorhomes, trailers, and boats, with electricity
+    and a dump station inside a fenced gate. Tenant gate access is 24 hours. Office hours
+    are Monday through Friday, 8:00 AM to 8:00 PM. The page says to call for the current price.
+  sources:
+  - url: "https://www.odessatexasrvstorage.com/"
+    title: Official website
+  last_verified: '2026-11-18'
+- slug: big-stuff-rv-storage-odessa
+  name: Big Stuff RV Storage
+  street: 200 Vfw Lane
+  city: Odessa
+  state_code: TX
+  postal_code: "79762"
+  lat: null
+  lng: null
+  phone: "(432) 638-1630"
+  website: "https://bigstuffrvstorage.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - enclosed
+  - open
+  max_length_ft: 50
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: >-
+    A 15 by 50 enclosed space is $500 per month. A 15 by 45 open space on the west side is
+    $200 per month. Smaller covered parking is $75 per month.
+  waitlist: null
+  notes: >-
+    The page lists enclosed and canopy-covered parking, open boat spaces, and 30-, 50-, or
+    110-amp hookups. It also lists gated key-card entry and 24/7 video surveillance. It does
+    not print a tenant access window.
+  sources:
+  - url: "https://bigstuffrvstorage.com/"
+    title: Official website
+  last_verified: '2026-11-18'
+- slug: storage-units-odessa-42nd
+  name: Storage Units Odessa
+  street: 2600 W 42nd St
+  city: Odessa
+  state_code: TX
+  postal_code: "79764"
+  lat: null
+  lng: null
+  phone: null
+  website: "https://storageunitsodessa.com/rv-boat-storage"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - enclosed
+  - open
+  max_length_ft: 45
+  clearance_ft: null
+  power_hookups: null
+  dump_station: true
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: >-
+    The page headline says from $75 per month. The labeled tiers say uncovered from $65 per
+    month, covered canopy from $95 per month, and fully enclosed from $145 per month.
+  waitlist: null
+  notes: >-
+    Outdoor, covered, and enclosed RV and boat spaces up to 45 feet, with 24/7 keypad gate
+    access, video surveillance, and a dump station and water on site. The page does not print
+    a phone number.
+  sources:
+  - url: "https://storageunitsodessa.com/rv-boat-storage"
+    title: RV and boat storage page
+  last_verified: '2026-11-18'

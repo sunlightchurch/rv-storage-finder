@@ -1,0 +1,200 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: galveston-tx
+city: Galveston
+state: Texas
+state_code: TX
+metro: Galveston
+summary: >-
+  These facilities publish an RV or boat storage page in Galveston or Texas City. Limited
+  gate hours and access conflicts are left in the note.
+sparefoot_slug: Galveston-TX
+neighbor_path: texas/galveston
+sparefoot_note: null
+photo: galveston
+listings:
+- slug: bayside-self-storage-galveston
+  name: Bayside Self Storage
+  street: 17616 Termini-San Luis Pass Rd
+  city: Galveston
+  state_code: TX
+  postal_code: "77554"
+  lat: null
+  lng: null
+  phone: "(469) 361-3369"
+  website: "https://www.baysideselfstoragegalveston.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - enclosed
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: true
+  gated: true
+  cameras: true
+  access_24h: false
+  price_notes: >-
+    The page offers free first-month storage and does not print a boat or RV parking price.
+  waitlist: null
+  notes: >-
+    The West End page lists indoor and outdoor storage and says RV, car, and boat parking
+    is outdoor. It also lists a wash hose, fresh water for an RV or boat, 24/7 security cameras,
+    and a fenced gate. Access hours are 6 AM to 10 PM daily. An 8-foot ceiling is described
+    for standard units, not for vehicle or boat spaces. The page also shortens the street
+    to Termini-San Luis Rd.
+  sources:
+  - url: "https://www.baysideselfstoragegalveston.com/"
+    title: Official website
+  last_verified: '2026-11-18'
+- slug: texas-city-boat-rv-storage
+  name: "Texas City Boat & RV Storage"
+  street: 310 5th Ave N
+  city: Texas City
+  state_code: TX
+  postal_code: "77511"
+  lat: null
+  lng: null
+  phone: "(832) 479-2579"
+  website: "https://texascityboatstorage.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - enclosed
+  max_length_ft: 38
+  clearance_ft: 12
+  power_hookups: true
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: >-
+    The page offers up to 3 months free on qualifying terms and says no public pricing is
+    shown.
+  waitlist: null
+  notes: >-
+    Twelve enclosed bays, each about 38 feet long by 11 feet wide by 12 feet high, with door
+    clearance about 11 feet wide by 12 feet high. Gate access is 24 hours for verified tenants.
+    Trickle-charger hookups are available, and the page says 30-amp and 50-amp shore power
+    are not offered. Bays 7 through 12 have a stated approach limit of a 20-foot trailer or
+    a 35-foot motorhome.
+  sources:
+  - url: "https://texascityboatstorage.com/"
+    title: Official website
+  last_verified: '2026-11-18'
+- slug: moses-lake-boat-rv-storage
+  name: Moses Lake Boat and RV Storage
+  street: 3902 Hwy 146 N
+  city: Texas City
+  state_code: TX
+  postal_code: "77590"
+  lat: null
+  lng: null
+  phone: "(832) 646-8388"
+  website: "https://www.moseslakeboatandrvstorage.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - enclosed
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: >-
+    The page prints $380 and does not state the billing period or which space it buys. Referrals
+    from current tenants receive $25 off the next month's rent.
+  waitlist: null
+  notes: >-
+    Covered boat and RV storage and enclosed sizes for boats and RVs, plus accessory units
+    of 5 by 5, 5 by 10, and 10 by 15. The page lists 24-hour coded gate access, digital video
+    surveillance, power, a boat launch, and a boat flush. It also says the facility is open
+    24/7. Printed office hours are 4:00 AM to 7:00 PM daily. The street is also printed as
+    3902 TX-146.
+  sources:
+  - url: "https://www.moseslakeboatandrvstorage.com/"
+    title: Official website
+  last_verified: '2026-11-18'
+- slug: come-store-it-texas-city
+  name: Big Boat and RV Storage - Texas City
+  street: 210 South Gulf Fwy
+  city: Texas City
+  state_code: TX
+  postal_code: "77591"
+  lat: null
+  lng: null
+  phone: "(409) 449-5000"
+  website: "http://www.comestoreit.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: true
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Texas City location block says 210 South Gulf Fwy and that the facility stores RVs
+    and boats, with 24-hour access and digital video surveillance. The contact block on the
+    same page prints 110 South Gulf Fwy. Cover type is not stated. A La Marque address on
+    the page is a separate location.
+  sources:
+  - url: "http://www.comestoreit.com/"
+    title: Official website
+  last_verified: '2026-11-18'
+- slug: recnation-texas-city-wye
+  name: "RecNation RV & Boat Storage"
+  street: 226 Texas City Wye
+  city: Texas City
+  state_code: TX
+  postal_code: "77568"
+  lat: null
+  lng: null
+  phone: "(409) 230-0092"
+  website: >-
+    https://www.recnationstorage.com/storage-facility/tx/la-marque/226-texas-city-wye/
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - enclosed
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: true
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: >-
+    The page says uncovered spaces start at $60 per month and go up to $790 per month for
+    the largest space. The vehicle-storage section also prints starting from $51 per month.
+  waitlist: null
+  notes: >-
+    The address line is Texas City. The copy also calls the lot RecNation of La Marque and
+    lists outdoor, covered, and indoor or enclosed vehicle storage, electrical access, a washdown
+    area, cameras, and a remote or keypad gate. Standard access is 6:00 AM to 10:00 PM, and
+    24/7 access is offered upon request. The page also has a 24-hour access bullet, so access
+    is not marked true or false.
+  sources:
+  - url: >-
+      https://www.recnationstorage.com/storage-facility/tx/la-marque/226-texas-city-wye/
+    title: Texas City Wye location page
+  last_verified: '2026-11-18'

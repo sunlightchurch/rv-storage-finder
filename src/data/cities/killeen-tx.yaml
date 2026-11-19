@@ -1,0 +1,258 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: killeen-tx
+city: Killeen
+state: Texas
+state_code: TX
+metro: Killeen
+summary: >-
+  These facilities publish an RV or boat storage page in Killeen, Harker Heights, or Copperas
+  Cove. Each card uses only what that page states.
+sparefoot_slug: Killeen-TX
+neighbor_path: texas/killeen
+sparefoot_note: null
+photo: killeen
+listings:
+- slug: amys-attic-harker-heights
+  name: "Amy's Attic Self Storage"
+  street: 800 Prospector Trail
+  city: Harker Heights
+  state_code: TX
+  postal_code: "76548"
+  lat: null
+  lng: null
+  phone: "(254) 526-7867"
+  website: "https://www.amysatticss.com/harker-heights-tx/"
+  vehicles:
+  - rv
+  - boat
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: null
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The company RV page and boat page both name this Harker Heights address. The location
+    page prints office hours of 9:00 am to 6:00 pm Monday through Saturday and also prints
+    24/7. The boat page says the Harker Heights location page lists 24/7 gate access. Cover
+    type is not stated for this address.
+  sources:
+  - url: "https://www.amysatticss.com/harker-heights-tx/"
+    title: "Amy's Attic Harker Heights page"
+  - url: "https://www.amysatticss.com/rv-storage/"
+    title: "Amy's Attic RV storage page"
+  - url: "https://www.amysatticss.com/boat-storage/"
+    title: "Amy's Attic boat storage page"
+  last_verified: '2026-11-18'
+- slug: amys-attic-killeen
+  name: "Amy's Attic Self Storage"
+  street: 3216 Stagecoach Road
+  city: Killeen
+  state_code: TX
+  postal_code: "76542"
+  lat: null
+  lng: null
+  phone: "(254) 870-9757"
+  website: "https://www.amysatticss.com/killeen-tx/"
+  vehicles:
+  - rv
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The RV storage page names 3216 Stagecoach Road for RV storage and says cover type and
+    access hours vary by location. The Killeen location page does not describe the RV spaces.
+    Boat storage at this address conflicts with the boat-page FAQ, so boat is not recorded.
+  sources:
+  - url: "https://www.amysatticss.com/rv-storage/"
+    title: "Amy's Attic RV storage page"
+  - url: "https://www.amysatticss.com/killeen-tx/"
+    title: "Amy's Attic Killeen page"
+  last_verified: '2026-11-18'
+- slug: big-red-barn-self-storage-killeen
+  name: Big Red Barn Self Storage I
+  street: 1328 W Stan Schlueter Loop
+  city: Killeen
+  state_code: TX
+  postal_code: "76549"
+  lat: null
+  lng: null
+  phone: "(254) 526-4848"
+  website: >-
+    https://www.bigredbarnselfstorage.com/1328-w-stan-schlueter-loop-killeen-tx-76549
+  vehicles:
+  - rv
+  - boat
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: true
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    This Killeen page lists boat storage and RV storage, 24 hour access, and security cameras.
+    Cover type is not stated. A note says the first access after an online rental has to be
+    finished with the office during Monday through Saturday business hours.
+  sources:
+  - url: >-
+      https://www.bigredbarnselfstorage.com/1328-w-stan-schlueter-loop-killeen-tx-76549
+    title: Big Red Barn Killeen page
+  last_verified: '2026-11-18'
+- slug: cubesmart-copperas-cove
+  name: CubeSmart Self Storage of Copperas Cove
+  street: 903 Industrial Ave
+  city: Copperas Cove
+  state_code: TX
+  postal_code: "76522"
+  lat: null
+  lng: null
+  phone: "(254) 518-5555"
+  website: >-
+    https://www.cubesmart.com/texas-self-storage/copperas-cove-self-storage/vehicle/2687.html
+  vehicles:
+  - rv
+  storage_types:
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: null
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Copperas Cove page says this facility offers RV storage and outdoor vehicle parking,
+    and that the app opens facility gates. Access hours are 6:00 AM to 10:00 PM daily. The
+    vehicle-storage filter returned no units when the page was opened. Boat sizes in the size
+    guide are not tied to this facility's inventory.
+  sources:
+  - url: >-
+      https://www.cubesmart.com/texas-self-storage/copperas-cove-self-storage/vehicle/2687.html
+    title: CubeSmart Copperas Cove page
+  last_verified: '2026-11-18'
+- slug: harker-heights-truck-parking
+  name: Harker Heights Truck Parking
+  street: 297 Lookout Ridge Blvd
+  city: Harker Heights
+  state_code: TX
+  postal_code: "76548"
+  lat: null
+  lng: null
+  phone: "(254) 295-1984"
+  website: >-
+    https://www.harkerheightstruckparking.com/storage-units/texas/harker-heights/harker-heights-truck-parking-3502178/
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - open
+  max_length_ft: 75
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: >-
+    An 11 by 40 parking space is listed starting at $80, with an in-store figure of $83. A
+    12 by 75 space is listed starting at $175, with an in-store figure of $178. The page does
+    not state the billing period.
+  waitlist: null
+  notes: >-
+    The Harker Heights page lists RV, car, and boat storage, paved parking, gated entry, and
+    24 hour security cameras. It also says 24 hour access is upon approval. Parking rows include
+    video surveillance.
+  sources:
+  - url: >-
+      https://www.harkerheightstruckparking.com/storage-units/texas/harker-heights/harker-heights-truck-parking-3502178/
+    title: Harker Heights Truck Parking page
+  last_verified: '2026-11-18'
+- slug: killeen-store-it
+  name: Killeen Store-It
+  street: 415 E. Stan Schlueter Loop
+  city: Killeen
+  state_code: TX
+  postal_code: "76542"
+  lat: null
+  lng: null
+  phone: "(214) 906-5115"
+  website: "https://www.killeenstoreit.com/pages/rent-rv-storage"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - open
+  max_length_ft: 25
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: >-
+    A 9 by 25 outdoor space for cars, boats, and small RVs is listed at $64.95 and $60, with
+    a rate of $48.71 per month. A 10 by 20 outdoor space is listed at the same $48.71 per
+    month rate.
+  waitlist: null
+  notes: >-
+    The page says the lot is fully fenced, with 24-hour video surveillance, and the facility
+    map labels a gate. It also says 24/7 access and prints hours of 5:00 AM to 11:00 PM.
+  sources:
+  - url: "https://www.killeenstoreit.com/pages/rent-rv-storage"
+    title: Killeen Store-It RV storage page
+  last_verified: '2026-11-18'
+- slug: roll-in-storage-copperas-cove
+  name: Roll In Storage
+  street: 2405 South FM 116
+  city: Copperas Cove
+  state_code: TX
+  postal_code: "76522"
+  lat: null
+  lng: null
+  phone: "(254) 314-8848"
+  website: "https://www.rollinstorage.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: true
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Copperas Cove page offers boat and RV storage and lists 24-hour access and digital
+    video surveillance. Cover type, a gate, and a price are not stated. The heading "RV &
+    Boat Storage Starting At" has no figure under it.
+  sources:
+  - url: "https://www.rollinstorage.com/"
+    title: Roll In Storage homepage
+  last_verified: '2026-11-18'

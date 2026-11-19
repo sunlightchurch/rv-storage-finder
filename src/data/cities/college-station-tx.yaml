@@ -1,0 +1,252 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: college-station-tx
+city: College Station
+state: Texas
+state_code: TX
+metro: College Station
+summary: >-
+  These facilities publish an RV or boat storage page in College Station or Bryan. Enclosed,
+  covered, and outdoor spaces are marked only when the page states them.
+sparefoot_slug: College-Station-TX
+neighbor_path: texas/college-station
+sparefoot_note: null
+photo: college-station
+listings:
+- slug: 12th-park-rv-storage
+  name: 12th Park RV Storage
+  street: 6245 Raymond Stotzer Parkway
+  city: College Station
+  state_code: TX
+  postal_code: "77845"
+  lat: null
+  lng: null
+  phone: "(979) 220-0167"
+  website: "https://www.12thparkstorage.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: true
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The page offers boat and RV storage with 24-hour access and digital video surveillance.
+    It does not say whether the spaces are covered, enclosed, or open. A second new-rentals
+    number, (254) 721-6179, is also printed.
+  sources:
+  - url: "https://www.12thparkstorage.com/"
+    title: Official website
+  last_verified: '2026-11-18'
+- slug: dowling-road-storage
+  name: Dowling Road Storage
+  street: 10257 N Dowling Road
+  city: College Station
+  state_code: TX
+  postal_code: "77845"
+  lat: null
+  lng: null
+  phone: "(979) 220-5578"
+  website: "https://www.dowlingroadstoragetx.com/vehicle-storage/"
+  vehicles:
+  - rv
+  - boat
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: null
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    Vehicle storage for cars, RVs, boats, and trucks, with oversized spaces, an electronic
+    gate, and extended access hours. The page does not print a cover type, a clock window,
+    or a price.
+  sources:
+  - url: "https://www.dowlingroadstoragetx.com/vehicle-storage/"
+    title: Vehicle storage page
+  last_verified: '2026-11-18'
+- slug: reveille-rv-storage
+  name: "Reveille RV & Storage"
+  street: "16272 I & Gn Rd"
+  city: College Station
+  state_code: TX
+  postal_code: "77845"
+  lat: null
+  lng: null
+  phone: "(979) 217-6101"
+  website: "https://reveillervandstorage.com/storage-solutions/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - enclosed
+  - open
+  max_length_ft: 50
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: >-
+    Monthly pricing for uncovered RV and boat storage starts at $40. Covered electric hookups
+    are an extra fee, and that fee is not listed.
+  waitlist: null
+  notes: >-
+    Covered and uncovered RV and boat storage, plus a 12.5 by 50 enclosed parking space with
+    a roll-up door and a 15 by 50 covered space. Optional electricity is listed. The page
+    says 24/7 gate access and 24-hour video surveillance, and also prints Monday through Saturday
+    6:00 AM to 9:00 PM.
+  sources:
+  - url: "https://reveillervandstorage.com/storage-solutions/"
+    title: Storage solutions page
+  last_verified: '2026-11-18'
+- slug: howdy-storage-college-station
+  name: Howdy Storage
+  street: 8877 Stewarts Meadow
+  city: College Station
+  state_code: TX
+  postal_code: "77845"
+  lat: null
+  lng: null
+  phone: "(936) 577-9801"
+  website: "https://www.howdystorage.com/pages/faqs"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - open
+  max_length_ft: 45
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: >-
+    Outdoor 12 by 45 RV, boat, and trailer parking is $95 per month. A 10 by 15 drive-up unit
+    is $110 per month.
+  waitlist: null
+  notes: >-
+    The FAQ says outdoor parking uses the same 24/7 keypad gate and security cameras as the
+    storage units. The 10 by 15 units are drive-up and not climate controlled. Phone hours
+    are 8:00 AM to 8:00 PM daily, and the page says gate access stays 24/7.
+  sources:
+  - url: "https://www.howdystorage.com/pages/faqs"
+    title: FAQ page
+  last_verified: '2026-11-18'
+- slug: arrington-self-storage-college-station
+  name: Arrington Self Storage
+  street: 1555 Arrington Rd
+  city: College Station
+  state_code: TX
+  postal_code: "77845"
+  lat: null
+  lng: null
+  phone: "(979) 777-2090"
+  website: "https://www.arringtonstorage.com/vehicle-storage/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - enclosed
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: true
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    Fully enclosed storage for RVs, boats, and vehicles, with 24/7 access and HD surveillance.
+    Office hours are Monday through Saturday 8:00 AM to 4:00 PM. The page does not print a
+    length or a price.
+  sources:
+  - url: "https://www.arringtonstorage.com/vehicle-storage/"
+    title: Vehicle storage page
+  last_verified: '2026-11-18'
+- slug: moore-rv-storage-bryan
+  name: Moore RV Storage
+  street: 12728 State Highway 6
+  city: Bryan
+  state_code: TX
+  postal_code: "77807"
+  lat: null
+  lng: null
+  phone: "(979) 505-1700"
+  website: "https://www.moorervstoragebcs.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - open
+  max_length_ft: 45
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: >-
+    Covered 12.5 by 45 storage is $199 a month and includes a dedicated 15-amp electrical
+    service. Open storage is $99 a month.
+  waitlist: null
+  notes: >-
+    RV, boat, and trailer storage just north of Bryan, with 24/7 tenant access through a keypad
+    gate, a 4K camera system, and LED lighting. The page title prints ZIP 77807.
+  sources:
+  - url: "https://www.moorervstoragebcs.com/"
+    title: Official website
+  last_verified: '2026-11-18'
+- slug: luxe-20x50-storage-bryan
+  name: LUXE 20x50 Storage
+  street: 1820 N Earl Rudder Freeway
+  city: Bryan
+  state_code: TX
+  postal_code: "77808"
+  lat: null
+  lng: null
+  phone: "(979) 553-7065"
+  website: "https://www.20x50storage.com/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - enclosed
+  max_length_ft: 50
+  clearance_ft: null
+  power_hookups: true
+  dump_station: true
+  wash_station: null
+  gated: null
+  cameras: true
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    Enclosed insulated 20 by 50 units for RVs and boats, with 14 by 14 roll-up doors, 30-amp
+    and 50-amp options, 110-volt power, a water dump station, cameras, and 24/7 access. The
+    page says the property is fully fenced and does not print a rate.
+  sources:
+  - url: "https://www.20x50storage.com/"
+    title: Official website
+  last_verified: '2026-11-18'
