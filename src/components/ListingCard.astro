@@ -1,6 +1,6 @@
 ---
 import { listingPhoto } from '../lib/photos';
-import type { Listing } from '../lib/data';
+import { href, type Listing } from '../lib/data';
 import Photo from './Photo.astro';
 import {
   factClass,
@@ -70,7 +70,7 @@ const icons = [
 ---
 
 <article
-  class="listing"
+  class:list={['listing', listing.featured && 'is-featured']}
   id={listing.slug}
   data-listing
   data-max-length={listing.max_length_ft ?? undefined}
@@ -97,6 +97,7 @@ const icons = [
     <header class="listing-head">
       <h3>
         {listing.name}
+        {listing.featured && <span class="badge">Featured</span>}
         {listing.waitlist && <span class="badge">Waitlist reported</span>}
       </h3>
       <address>
@@ -108,6 +109,7 @@ const icons = [
         Compare
         <span class="sr-only">{listing.name}</span>
       </label>
+      {listing.featured && <p class="paid-note">Paid placement</p>}
     </header>
     <div class="price">
       <span class="label">Published price</span>
@@ -171,6 +173,9 @@ const icons = [
         </a>
       )}
     </div>
+    <p class="fine">
+      <a href={href('/advertise/')}>Own this facility? Get featured</a>
+    </p>
     <details class="details">
       <summary>View details</summary>
       <dl class="facts">

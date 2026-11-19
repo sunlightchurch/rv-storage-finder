@@ -1,0 +1,42 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { href, site } from '../../lib/data';
+import { breadcrumbNode, pageGraph, webPageNode } from '../../lib/schema';
+
+const title = 'Featured listing payment | RV Storage Prices';
+const description =
+  'Stripe handles the $29 monthly featured placement. The Featured label is added only after the payment is confirmed. Cancel anytime by email.';
+const path = '/advertise/thanks/';
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'Get featured', path: '/advertise/' },
+  { label: 'Payment', path },
+];
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: '2026-11-19' }),
+  breadcrumbNode(crumbs),
+]);
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <article class="wrap prose">
+    <Breadcrumbs items={crumbs} />
+    <h1>Payment received by Stripe</h1>
+    <p>
+      If checkout finished, Stripe has the $29 monthly subscription. The city card is not labeled
+      Featured until that payment is confirmed and the listing is published with
+      <code>featured: true</code>.
+    </p>
+    <p>
+      Cancel anytime by emailing
+      <a href={`mailto:${site.corrections_email}?subject=Cancel%20featured%20listing`}>{site.corrections_email}</a>.
+      The Featured label and the paid-placement note come off, and the card returns to its ordinary place.
+    </p>
+    <p>
+      <a href={href('/advertise/')}>Back to featured placement</a>
+      {' · '}
+      <a href={href('/')}>Home</a>
+    </p>
+  </article>
+</Base>

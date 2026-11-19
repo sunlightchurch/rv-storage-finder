@@ -78,6 +78,7 @@ const compareListings = city.listings.map((listing) => ({
   checked: formatDate(listing.last_verified),
 }));
 const compareJson = JSON.stringify(compareListings).replaceAll('<', '\\u003c');
+const orderedListings = [...city.listings].sort((a, b) => Number(b.featured) - Number(a.featured));
 ---
 
 <Base title={title} description={description} path={path} schema={schema}>
@@ -135,8 +136,11 @@ const compareJson = JSON.stringify(compareListings).replaceAll('<', '\\u003c');
       <script id="compare-listings" type="application/json" set:html={compareJson} />
     </section>
     <h2>Facilities</h2>
+    <p class="fine">
+      <a href={href('/advertise/')}>Own a storage facility? Get featured</a>
+    </p>
     <div data-listing-list>
-      {city.listings.map((listing) => <ListingCard listing={listing} />)}
+      {orderedListings.map((listing) => <ListingCard listing={listing} />)}
     </div>
     {
       reportedFull.length > 0 && (

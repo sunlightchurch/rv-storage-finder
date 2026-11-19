@@ -689,6 +689,18 @@ th .fine {
   font-weight: 650;
 }
 
+.listing.is-featured {
+  border-color: var(--lagoon);
+}
+
+.paid-note {
+  flex-basis: 100%;
+  margin: 0.15rem 0 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 650;
+}
+
 .badge {
   display: inline-block;
   margin-left: 0.45rem;
