@@ -83,7 +83,7 @@ const schema = pageGraph([
       </div>
       <Photo photo={heroPhoto()} sizes="(min-width: 900px) 420px, 100vw" eager />
     </section>
-    <h2>Browse by state</h2>
+    <h2><a href={href('/states/')}>Browse by state</a></h2>
     {
       states.map((state) => (
         <section class="state-block">

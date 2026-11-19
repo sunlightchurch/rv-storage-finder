@@ -1,15 +1,28 @@
 ---
 import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import CitySearch from '../components/CitySearch.astro';
 import { href } from '../lib/data';
 
 const title = 'Page not found | RV Storage Prices';
-const description = 'That address is not a city, state, or storage filter in this directory.';
+const description =
+  'That address is not a city, state, or guide in this directory. Search by city or ZIP, or open the state list.';
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'Page not found', path: '/404.html' },
+];
 ---
 
 <Base title={title} description={description} path="/404.html" noindex={true}>
   <div class="wrap prose">
+    <Breadcrumbs items={crumbs} />
     <h1>Page not found</h1>
-    <p>That address is not a city, state, or storage filter in this directory.</p>
-    <p><a href={href('/')}>Back to the directory</a></p>
+    <p>That address is not a city, state, or guide in this directory. Search for a city or a ZIP.</p>
+    <CitySearch />
+    <p>
+      <a href={href('/states/')}>Browse by state</a>
+      {' · '}
+      <a href={href('/')}>Home</a>
+    </p>
   </div>
 </Base>

@@ -516,6 +516,7 @@ export function allPublicPaths(): { path: string; lastmod: string }[] {
   const paths: { path: string; lastmod: string }[] = [
     { path: '/', lastmod: latest },
     { path: '/storage/', lastmod: latest },
+    { path: '/states/', lastmod: latest },
     { path: '/guide/', lastmod: latest },
     { path: '/guides/', lastmod: latest },
     { path: '/checklists/seasonal/', lastmod: latest },
