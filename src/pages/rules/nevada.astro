@@ -1,0 +1,99 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { getState, href } from '../../lib/data';
+import { breadcrumbNode, pageGraph, webPageNode } from '../../lib/schema';
+
+const title = 'Nevada HOA rules for an RV or boat | RV Storage Finder';
+const description =
+  'Nevada NRS 116.350, read November 19, 2026, allows reasonable limits on RV, watercraft, and trailer parking in a common-interest community. Not a right to store a rig at home.';
+const path = '/rules/nevada/';
+const checked = '2026-11-19';
+const nevada = getState('nevada');
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'HOA rules', path: '/rules/' },
+  { label: 'Nevada', path },
+];
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: checked }),
+  breadcrumbNode(crumbs),
+]);
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <article class="wrap prose">
+    <Breadcrumbs items={crumbs} />
+    <h1>Nevada HOA rules for an RV or boat</h1>
+    <p>
+      This page quotes the Nevada Revised Statutes. It is not legal advice, not a ruling on your
+      governing documents, and not a substitute for the city or county code.
+    </p>
+    <p>
+      Checked <time datetime={checked}>November 19, 2026</time> on the
+      <a href="https://www.leg.state.nv.us/NRS/NRS-116.html" rel="noopener noreferrer">Nevada Legislature’s copy of NRS Chapter 116</a>.
+      NRS 116.350 is titled “Limitations regarding regulation of certain roads, streets, alleys or other
+      thoroughfares; permissible regulation of parking or storage of certain vehicles.” The page read
+      that day did not print an “Added to NRS” history line on this section. This page does not state
+      an effective date.
+    </p>
+    <h2>Public roads, then the RV sentence</h2>
+    <p>Subsection 1 says:</p>
+    <blockquote>
+      <p>
+        In a common-interest community which is not gated or enclosed and the access to which is not
+        restricted or controlled by a person or device, the executive board shall not and the governing
+        documents must not provide for the regulation of any road, street, alley or other thoroughfare
+        the right-of-way of which is accepted by the State or a local government for dedication as a
+        road, street, alley or other thoroughfare for public use.
+      </p>
+    </blockquote>
+    <p>Subsection 2 says:</p>
+    <blockquote>
+      <p>
+        Except as otherwise provided in subsection 3, the provisions of subsection 1 do not preclude an
+        association from adopting, and do not preclude the governing documents of an association from
+        setting forth, rules that reasonably restrict the parking or storage of recreational vehicles,
+        watercraft, trailers or commercial vehicles in the common-interest community to the extent
+        authorized by law. The governing documents of an association may authorize the executive board
+        of the association to impose a fine pursuant to NRS 116.31031 for any violation of the rules
+        authorized pursuant to this subsection.
+      </p>
+    </blockquote>
+    <h2>What those sentences do not decide</h2>
+    <ul>
+      <li>
+        Subsection 2 allows reasonable restrictions on recreational vehicles, watercraft, trailers, and
+        commercial vehicles. It is not a right to keep one on a driveway or out of sight.
+      </li>
+      <li>
+        Subsection 1 is about a public road in a community that is not gated and whose access is not
+        controlled. It does not, by itself, stop a rule about a private driveway.
+      </li>
+      <li>
+        Subsection 3 limits bans on certain utility-service, law-enforcement, and emergency-services
+        vehicles. Those words are not “recreational vehicle” or “watercraft.”
+      </li>
+      <li>
+        Chapter 116 is the common-interest community statute. This page does not read a community that
+        sits outside that chapter, and it does not read a local ordinance.
+      </li>
+    </ul>
+    <h2>Off-site storage is a different question</h2>
+    <p>
+      A facility listing in this directory is a storage lot, not a statement that an association allows
+      the vehicle at the house. {nevada.cities.length} Nevada city pages list those lots.
+    </p>
+    <ul>
+      {
+        nevada.cities.map((city) => (
+          <li>
+            <a href={href(`/cities/${city.id}/`)}>
+              {city.city}, {city.state_code}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </article>
+</Base>

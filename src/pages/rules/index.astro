@@ -6,7 +6,7 @@ import { breadcrumbNode, pageGraph, webPageNode } from '../../lib/schema';
 
 const title = 'HOA rules for parking an RV at home | RV Storage Finder';
 const description =
-  'Notes on homeowners’ association rules for an RV or boat kept at home. Florida is summarized from section 720.3045. Other states are not written up yet.';
+  'Notes on association rules for an RV or boat kept at home. Florida, Nevada, Arizona, Texas, Georgia, and North Carolina each have a page. Not legal advice.';
 const path = '/rules/';
 const checked = '2026-11-19';
 const crumbs = [
@@ -29,16 +29,33 @@ const schema = pageGraph([
     </p>
     <ul>
       <li>
-        <a href={href('/rules/florida/')}>Florida</a>. Section 720.3045, read on November 19, 2026.
+        <a href={href('/rules/florida/')}>Florida</a>. Section 720.3045 limits some bans on an RV or boat
+        that is not visible from listed places.
+      </li>
+      <li>
+        <a href={href('/rules/nevada/')}>Nevada</a>. NRS 116.350 allows reasonable restrictions on RV,
+        watercraft, and trailer parking.
+      </li>
+      <li>
+        <a href={href('/rules/arizona/')}>Arizona</a>. No statute found that sets an RV or boat parking
+        rule for a planned community.
+      </li>
+      <li>
+        <a href={href('/rules/texas/')}>Texas</a>. Section 209.015 mentions a recreational vehicle only
+        inside an adjacent-lot definition, and only if the instrument already permits it.
+      </li>
+      <li>
+        <a href={href('/rules/georgia/')}>Georgia</a>. No statute found that names an RV or boat parking
+        rule for a property owners’ association.
+      </li>
+      <li>
+        <a href={href('/rules/north-carolina/')}>North Carolina</a>. Chapter 47F has no section that names
+        an RV or a boat.
       </li>
     </ul>
     <p>
-      Arizona, Texas, Georgia, Nevada, and North Carolina are not summarized here. A storage listing in
-      those states is not a statement about driveway or HOA rules.
-    </p>
-    <p>
-      <a href={href('/states/florida/')}>Florida storage listings</a> are off-site facilities, separate
-      from parking on a parcel.
+      Each page was checked on November 19, 2026. A storage listing is a lot for hire. It is not a
+      statement about driveway or association rules.
     </p>
   </article>
 </Base>

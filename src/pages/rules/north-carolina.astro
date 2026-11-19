@@ -1,0 +1,94 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { getState, href } from '../../lib/data';
+import { breadcrumbNode, pageGraph, webPageNode } from '../../lib/schema';
+
+const title = 'North Carolina HOA rules for an RV or boat | RV Storage Finder';
+const description =
+  'North Carolina Planned Community Act, Chapter 47F, has no section that names an RV or a boat. The declaration and local ordinances still control parking. Not legal advice.';
+const path = '/rules/north-carolina/';
+const checked = '2026-11-19';
+const carolina = getState('north-carolina');
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'HOA rules', path: '/rules/' },
+  { label: 'North Carolina', path },
+];
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: checked }),
+  breadcrumbNode(crumbs),
+]);
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <article class="wrap prose">
+    <Breadcrumbs items={crumbs} />
+    <h1>North Carolina HOA rules for an RV or boat</h1>
+    <p>
+      This page quotes the North Carolina General Statutes. It is not legal advice, not a ruling on
+      your declaration, and not a substitute for the city or county code.
+    </p>
+    <p>
+      Checked <time datetime={checked}>November 19, 2026</time> on the
+      <a href="https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByChapter/Chapter_47F.html" rel="noopener noreferrer">General Assembly’s copy of Chapter 47F</a>,
+      the North Carolina Planned Community Act. That chapter file does not contain the words
+      “recreational vehicle,” “motor home,” or “boat,” and it has no section that sets an RV or boat
+      parking rule. A private community’s rules PDF is not part of the chapter.
+    </p>
+    <h2>The declaration and the rules power</h2>
+    <p>G.S. 47F-2-103(a) says:</p>
+    <blockquote>
+      <p>
+        To the extent not inconsistent with the provisions of this Chapter, the declaration, bylaws,
+        and articles of incorporation form the basis for the legal authority for the planned community
+        to act as provided in the declaration, bylaws, and articles of incorporation, and the
+        declaration, bylaws, and articles of incorporation are enforceable by their terms.
+      </p>
+    </blockquote>
+    <p>
+      G.S. 47F-3-102 opens: “Unless the articles of incorporation or the declaration expressly provides
+      to the contrary, the association may do all of the following.” Item (1) is “Adopt and amend bylaws
+      and rules and regulations.” Item (6) is “Regulate the use, maintenance, repair, replacement, and
+      modification of common elements.” Neither item names an RV or a boat. A parking rule, if one
+      exists, is in the declaration or in rules the declaration allows. This page does not read those
+      documents.
+    </p>
+    <h2>What the chapter does not decide</h2>
+    <ul>
+      <li>
+        G.S. 47F-1-102(a) says the chapter applies to planned communities created in the state on or
+        after January 1, 1999, with exceptions in that section, including a community of no more than 20
+        lots unless the declaration opts in. Some listed sections, including 47F-3-102(1), also apply to
+        older communities unless the articles or the declaration say otherwise. This page does not
+        decide which sentence applies to a particular community.
+      </li>
+      <li>
+        G.S. 47F-1-106 says that, aside from a rule against treating a planned community differently from
+        a substantially similar development, “no provision of this Chapter invalidates or modifies any
+        provision of any zoning, subdivision, or building code or any other real estate use law,
+        ordinance, or regulation.” A local parking ordinance still has to be read.
+      </li>
+      <li>
+        The chapter does not grant a right to keep an RV or a boat on a driveway, and it does not void
+        a covenant that forbids one.
+      </li>
+    </ul>
+    <h2>Off-site storage is a different question</h2>
+    <p>
+      A facility listing in this directory is a storage lot, not a statement that an association allows
+      the vehicle at the house. {carolina.cities.length} North Carolina city pages list those lots.
+    </p>
+    <ul>
+      {
+        carolina.cities.map((city) => (
+          <li>
+            <a href={href(`/cities/${city.id}/`)}>
+              {city.city}, {city.state_code}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </article>
+</Base>

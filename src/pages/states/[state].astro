@@ -12,6 +12,38 @@ export function getStaticPaths() {
 }
 
 const state = getState(Astro.params.state!);
+const ruleNote = {
+  FL: {
+    path: '/rules/florida/',
+    label: 'Florida HOA notes for an RV or boat on a parcel',
+    detail: 'quote section 720.3045.',
+  },
+  NV: {
+    path: '/rules/nevada/',
+    label: 'Nevada HOA notes for an RV or boat',
+    detail: 'quote NRS 116.350.',
+  },
+  AZ: {
+    path: '/rules/arizona/',
+    label: 'Arizona HOA notes for an RV or boat',
+    detail: 'say no RV or boat parking statute was found.',
+  },
+  TX: {
+    path: '/rules/texas/',
+    label: 'Texas HOA notes for an RV or boat',
+    detail: 'quote Property Code section 209.015.',
+  },
+  GA: {
+    path: '/rules/georgia/',
+    label: 'Georgia HOA notes for an RV or boat',
+    detail: 'say no RV or boat parking statute was found.',
+  },
+  NC: {
+    path: '/rules/north-carolina/',
+    label: 'North Carolina HOA notes for an RV or boat',
+    detail: 'quote Chapter 47F, which does not name an RV or a boat.',
+  },
+}[state.code];
 const path = `/states/${state.slug}/`;
 const total = state.cities.reduce((sum, city) => sum + city.listings.length, 0);
 const names = state.cities.map((city) => city.city);
@@ -100,10 +132,10 @@ const schema = pageGraph([
       ))
     }
     {
-      state.code === 'FL' && (
+      ruleNote && (
         <p>
-          <a href={href('/rules/florida/')}>Florida HOA notes for an RV or boat on a parcel</a> quote
-          section 720.3045. They are not legal advice, and they are separate from these storage lots.
+          <a href={href(ruleNote.path)}>{ruleNote.label}</a> {ruleNote.detail} They are not legal
+          advice, and they are separate from these storage lots.
         </p>
       )
     }
