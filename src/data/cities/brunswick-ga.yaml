@@ -1,0 +1,182 @@
+# Verified against public facility pages on 2026-11-19. See PUBLISHING.md.
+id: brunswick-ga
+city: Brunswick
+state: Georgia
+state_code: GA
+metro: Brunswick
+summary: >-
+  These facilities publish an RV or boat storage page in Brunswick, St. Simons
+  Island, or Jekyll Island. Each card uses only what that page states.
+sparefoot_slug: Brunswick-GA
+neighbor_path: georgia/brunswick
+sparefoot_note: >-
+  This link opens Brunswick results. Verified boat storage is also on St. Simons
+  Island and Jekyll Island.
+photo: brunswick
+listings:
+  - slug: scarlett-self-storage-brunswick
+    name: Scarlett Self Storage
+    street: 2901 Scarlett Street
+    city: Brunswick
+    state_code: GA
+    postal_code: "31520"
+    lat: null
+    lng: null
+    phone: "(912) 456-3596"
+    website: https://www.scarlettselfstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 40
+    clearance_ft: 14
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: >-
+      The U-Haul listing for this address shows a covered 12 by 40 by 14 ft RV,
+      boat, or vehicle space at $200.00 per month, with no electricity.
+    waitlist: null
+    notes: >-
+      Scarlett's own site says covered and uncovered RV storage and covered and
+      uncovered boat storage, and that tenants have 24/7 access. The U-Haul page
+      for the same address lists access as 8 am to 5 pm, an electronic gate, and
+      video surveillance, and prints (912) 264-8189. Because the hours conflict,
+      24-hour access is not marked yes or no.
+    sources:
+      - url: https://www.scarlettselfstorage.com/
+        title: Official website
+      - url: https://www.uhaul.com/Locations/Self-Storage-near-Brunswick-GA-31520/019234/
+        title: U-Haul listing for Scarlett Storage
+    last_verified: "2026-11-19"
+
+  - slug: driven-boat-rv-brunswick
+    name: Driven 24/7 Boat & RV Storage
+    street: 7394 Blythe Island Hwy
+    city: Brunswick
+    state_code: GA
+    postal_code: "31523"
+    lat: null
+    lng: null
+    phone: "(912) 580-7524"
+    website: https://www.drivenstorage247.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The Brunswick page is titled boat and RV storage and says tenants have
+      24-hour access, digital video surveillance, and onsite security. It does
+      not say whether the spaces are covered, enclosed, or open, and it does not
+      print a rate.
+    sources:
+      - url: https://www.drivenstorage247.com/
+        title: Official website
+    last_verified: "2026-11-19"
+
+  - slug: superior-storage-brunswick
+    name: Superior Storage - Brunswick
+    street: 6300 New Jesup Hwy
+    city: Brunswick
+    state_code: GA
+    postal_code: "31523"
+    lat: null
+    lng: null
+    phone: "(912) 513-3646"
+    website: https://www.superiorstorage.com/self-storage/georgia/brunswick/superior-storage-brunswick/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: >-
+      The page says vehicle parking for RVs and boats averages $145 per month,
+      depending on the space.
+    waitlist: null
+    notes: >-
+      The Brunswick page offers uncovered and covered parking for cars, RVs, trailers,
+      and boats, with spaces as large as 10 by 40, a coded gate, and security cameras.
+      Access hours are 6:00 am to 10:00 pm every day, a second phone, (912) 299-8137,
+      is also printed, and a chain-wide electricity line was not treated as a Brunswick fact.
+    sources:
+      - url: https://www.superiorstorage.com/self-storage/georgia/brunswick/superior-storage-brunswick/
+        title: Official location page
+    last_verified: "2026-11-19"
+
+  - slug: jekyll-harbor-dry-storage
+    name: Jekyll Harbor Marina dry storage
+    street: 1 Harbor Road
+    city: Jekyll Island
+    state_code: GA
+    postal_code: "31527"
+    lat: 31.046765
+    lng: -81.422602
+    phone: "(912) 635-3137"
+    website: https://jekyllharbor.com/dry-storage/
+    vehicles: [boat]
+    storage_types: [enclosed, open]
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The dry-storage page says the indoor building holds boats up to 34 ft and
+      12,000 pounds, and outdoor racks hold boats up to 40 ft. Staff launch and
+      haul the boats. The page prints latitude 31.046765 and longitude -81.422602.
+      RVs are not mentioned.
+    sources:
+      - url: https://jekyllharbor.com/dry-storage/
+        title: Jekyll Harbor dry storage page
+    last_verified: "2026-11-19"
+
+  - slug: morningstar-golden-isles
+    name: Morningstar Marinas Golden Isles
+    street: 206 Marina Dr
+    city: St. Simons Island
+    state_code: GA
+    postal_code: "31522"
+    lat: null
+    lng: null
+    phone: "(912) 634-1128"
+    website: https://www.morningstarmarinas.com/location/706/ga/st-simons-island/morningstar-marinas-golden-isles/
+    vehicles: [boat]
+    storage_types: [covered]
+    max_length_ft: 30
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The marina page lists covered dry-slip storage for boats up to 30 ft or 15,000
+      pounds, plus wet slips, and marina hours are 7:00 am to 6:00 pm daily. The 30,
+      50, and 100 amp line sits in the mixed location-feature list, so power is not
+      marked for the dry slips, and RVs are not mentioned.
+    sources:
+      - url: https://www.morningstarmarinas.com/location/706/ga/st-simons-island/morningstar-marinas-golden-isles/
+        title: Morningstar Golden Isles page
+    last_verified: "2026-11-19"

@@ -1218,3 +1218,73 @@
   license: "CC BY-SA 3.0"
   license_url: "https://creativecommons.org/licenses/by-sa/3.0"
   credit_required: true
+- id: brownsville
+  role: city
+  alt: "Brownsville, Texas, seen from the International Space Station"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/brownsville-640.webp
+    "960": photos/brownsville-960.webp
+    "1280": photos/brownsville-1280.webp
+  author: "NASA"
+  source_url: "https://commons.wikimedia.org/wiki/File:2009_ISS_Brownsville,_Texas.jpg"
+  license: "Public domain"
+  license_url: "https://creativecommons.org/publicdomain/mark/1.0/"
+  credit_required: false
+- id: the-villages
+  role: city
+  alt: "Canal Street at Lake Sumter Landing in The Villages, Florida"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/the-villages-640.webp
+    "960": photos/the-villages-960.webp
+    "1280": photos/the-villages-1280.webp
+  author: "Ebyabe"
+  source_url: "https://commons.wikimedia.org/wiki/File:Villages_LSL01.jpg"
+  license: "CC BY 2.5"
+  license_url: "https://creativecommons.org/licenses/by/2.5"
+  credit_required: true
+- id: fort-walton-beach
+  role: city
+  alt: "Destin Harbor at night in Destin, Florida"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/fort-walton-beach-640.webp
+    "960": photos/fort-walton-beach-960.webp
+    "1280": photos/fort-walton-beach-1280.webp
+  author: "Jackstrawer"
+  source_url: "https://commons.wikimedia.org/wiki/File:Destin,_FL_Harbor_at_Night.jpg"
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  credit_required: true
+- id: punta-gorda
+  role: city
+  alt: "City Hall in Punta Gorda, Florida"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/punta-gorda-640.webp
+    "960": photos/punta-gorda-960.webp
+    "1280": photos/punta-gorda-1280.webp
+  author: "Wknight94"
+  source_url: "https://commons.wikimedia.org/wiki/File:Punta_Gorda_City_Hall.jpg"
+  license: "CC BY-SA 3.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  credit_required: true
+- id: brunswick
+  role: city
+  alt: "City Hall in Brunswick, Georgia"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/brunswick-640.webp
+    "960": photos/brunswick-960.webp
+    "1280": photos/brunswick-1280.webp
+  author: "Bubba73 (Jud McCranie)"
+  source_url: "https://commons.wikimedia.org/wiki/File:Brunswick,_Georgia_City_Hall_Building.JPG"
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  credit_required: true

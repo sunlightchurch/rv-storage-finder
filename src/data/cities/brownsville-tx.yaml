@@ -1,0 +1,251 @@
+# Verified against public facility pages on 2026-11-19. See PUBLISHING.md.
+id: brownsville-tx
+city: Brownsville
+state: Texas
+state_code: TX
+metro: Brownsville–Harlingen
+summary: >-
+  These facilities publish an RV or boat storage page in Brownsville, Harlingen,
+  San Benito, Los Fresnos, or South Padre Island. Each card uses only what that
+  page states.
+sparefoot_slug: Brownsville-TX
+neighbor_path: texas/brownsville
+sparefoot_note: >-
+  This link opens Brownsville results. Verified lots are also in Harlingen,
+  San Benito, Los Fresnos, and South Padre Island.
+photo: brownsville
+listings:
+  - slug: uhaul-boca-chica-brownsville
+    name: U-Haul Moving & Storage on Boca Chica
+    street: 2400 Boca Chica Blvd
+    city: Brownsville
+    state_code: TX
+    postal_code: "78521"
+    lat: null
+    lng: null
+    phone: "(956) 525-4659"
+    website: https://www.uhaul.com/Locations/Self-Storage-near-Brownsville-TX-78521/832071/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 45
+    clearance_ft: 14
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: >-
+      The vehicle map lists an open 10 by 30 ft space at $109.95 per month and a
+      covered 10 by 30 ft space with electricity at $129.95 per month. A covered
+      12 by 45 ft space with electricity is $144.95 per month. Sizes are approximated.
+    waitlist: null
+    notes: >-
+      The map says covered and open RV, vehicle, and boat storage, 14 ft clearance,
+      and electricity in every space at 20 amps for 2 hours, with a gated perimeter
+      and 24-hour video monitoring. Storage access is printed as 5 am to 10 pm,
+      and the location page also says to ask whether 24-hour access is available.
+    sources:
+      - url: https://property.uhaul.com/Entity/832071/StorageFacilityMap
+        title: U-Haul vehicle storage map, Boca Chica
+      - url: https://www.uhaul.com/Locations/Self-Storage-near-Brownsville-TX-78521/832071/
+        title: U-Haul Boca Chica location page
+    last_verified: "2026-11-19"
+
+  - slug: laguna-sea-harlingen
+    name: Laguna Sea Boat & RV Storage
+    street: "4901 E. Harrison (FM 106)"
+    city: Harlingen
+    state_code: TX
+    postal_code: "78550"
+    lat: null
+    lng: null
+    phone: "(956) 556-5877"
+    website: https://lagunaseaboatclub.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: true
+    gated: null
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The Harlingen page lists covered and uncovered boat and RV storage, a new
+      wash bay, 24/7 surveillance cameras, and water and electricity on the premises.
+      Pricing headings are on the page, but the dollar amounts are not in the text.
+    sources:
+      - url: https://lagunaseaboatclub.com/
+        title: Official website
+    last_verified: "2026-11-19"
+
+  - slug: ko-storage-harlingen-tyler
+    name: KO Storage of Harlingen - E Tyler Ave
+    street: 2426 East Tyler Ave
+    city: Harlingen
+    state_code: TX
+    postal_code: "78550"
+    lat: null
+    lng: null
+    phone: "(956) 302-1188"
+    website: https://www.kostorage.com/storage-locations/texas/harlingen/ko-storage-of-harlingen-2426-e-tyler-ave
+    vehicles: [rv, boat]
+    storage_types: [enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The East Tyler page says this location has enclosed storage for boats, RVs,
+      campers, and vehicles, plus outdoor uncovered parking. It also lists electronic
+      gated access and 24-hour surveillance cameras. Unit sizes of 5 by 5 through
+      10 by 30 are for household units, not a stated RV length.
+    sources:
+      - url: https://www.kostorage.com/storage-locations/texas/harlingen/ko-storage-of-harlingen-2426-e-tyler-ave
+        title: Official location page
+    last_verified: "2026-11-19"
+
+  - slug: extra-space-san-benito
+    name: Extra Space Storage
+    street: 1151 E Expressway 83
+    city: San Benito
+    state_code: TX
+    postal_code: "78586"
+    lat: null
+    lng: null
+    phone: "(956) 396-8805"
+    website: https://www.extraspace.com/storage/facilities/us/texas/san_benito/6388/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: 30
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: >-
+      The page's offer data lists a covered 12 by 25 ft RV space at $63, a covered
+      12 by 30 ft RV space at $70, and an enclosed 10 by 20 ft vehicle unit at $111.
+      Those offer prices do not state the billing period.
+    waitlist: null
+    notes: >-
+      The San Benito page says outdoor parking holds cars, motorcycles, boats, RVs,
+      trailers, and campers, and that covered vehicle parking is also available.
+      It lists video surveillance and electronic gate access. Access is 6:00 AM to
+      10:00 PM. The phone is the current-customer number on the page.
+    sources:
+      - url: https://www.extraspace.com/storage/facilities/us/texas/san_benito/6388/
+        title: Extra Space San Benito location page
+    last_verified: "2026-11-19"
+
+  - slug: shallow-master-los-fresnos
+    name: Shallow Master Boat & RV Storage
+    street: 36332 State Highway 100
+    city: Los Fresnos
+    state_code: TX
+    postal_code: "78566"
+    lat: null
+    lng: null
+    phone: "(956) 233-9662"
+    website: https://www.islandrvboatstorage.com/36306-tx-100-los-fresnos-tx-78566
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The location page lists uncovered outdoor RV, car, and boat parking, a fence,
+      a gate, and security cameras. It also says gate-code access is 24/7, while the
+      FAQ says access is 5:00 AM to midnight, so 24-hour access is not marked. The
+      header prints 36306 TX 100 and the body prints 36332 State Highway 100.
+    sources:
+      - url: https://www.islandrvboatstorage.com/36306-tx-100-los-fresnos-tx-78566
+        title: Official location page
+      - url: https://www.islandrvboatstorage.com/faq
+        title: Shallow Master FAQ
+    last_verified: "2026-11-19"
+
+  - slug: south-padre-island-storage
+    name: South Padre Island Storage
+    street: 103 West Saturn Lane
+    city: South Padre Island
+    state_code: TX
+    postal_code: "78597"
+    lat: null
+    lng: null
+    phone: "(956) 426-1878"
+    website: https://www.southpadrestorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The homepage lists outdoor vehicle storage and RV and vehicle parking at
+      103 West Saturn Lane, with a fenced gate and digital video surveillance.
+      The boat, RV, and vehicle page is titled for those vehicles. Climate-controlled
+      unit sizes are not vehicle lengths.
+    sources:
+      - url: https://www.southpadrestorage.com/
+        title: Official website
+      - url: https://www.southpadrestorage.com/boat-rv-vehicle-storage-south-padre-island
+        title: Boat, RV, and vehicle storage page
+    last_verified: "2026-11-19"
+
+  - slug: southern-comfort-south-padre
+    name: Southern Comfort Boat Storage
+    street: 107 W. Polaris
+    city: South Padre Island
+    state_code: TX
+    postal_code: null
+    lat: null
+    lng: null
+    phone: "(956) 279-0367"
+    website: https://southernopportunities.com/
+    vehicles: [boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The page describes an enclosed secure lot one block from a public boat ramp
+      and says trailers, golf carts, and jet skis are welcome, with video monitoring
+      and water and electricity at every space 24/7. It does not mention RVs. A
+      second phone, 956-279-8434, is also printed. No ZIP is on the page.
+    sources:
+      - url: https://southernopportunities.com/
+        title: Official website
+    last_verified: "2026-11-19"

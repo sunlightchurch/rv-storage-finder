@@ -1,0 +1,323 @@
+# Verified against public facility pages on 2026-11-19. See PUBLISHING.md.
+id: fort-walton-beach-fl
+city: Fort Walton Beach
+state: Florida
+state_code: FL
+metro: Fort Walton Beach–Destin
+summary: >-
+  These facilities publish an RV or boat storage page in Fort Walton Beach,
+  Niceville, Crestview, or Navarre. Each card uses only what that page states.
+sparefoot_slug: Fort-Walton-Beach-FL
+neighbor_path: florida/fort-walton-beach
+sparefoot_note: >-
+  This link opens Fort Walton Beach results. Verified lots are also in Niceville,
+  Crestview, and Navarre.
+photo: fort-walton-beach
+listings:
+  - slug: uhaul-fort-walton-beach
+    name: U-Haul Moving & Storage of Fort Walton Beach-Destin
+    street: 200 Irwin Ave NE
+    city: Fort Walton Beach
+    state_code: FL
+    postal_code: "32548"
+    lat: null
+    lng: null
+    phone: "(850) 659-6113"
+    website: https://www.uhaul.com/Locations/Self-Storage-near-Fort-Walton-Beach-FL-32548/778072/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 40
+    clearance_ft: 14
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: >-
+      The vehicle map lists a 12 by 35 ft space at $274.95 per month and a 12 by
+      40 ft space at $294.95 per month. It does not label those two rates as open
+      or covered. Sizes are approximated.
+    waitlist: null
+    notes: >-
+      The map says covered and open RV, vehicle, and boat storage, 14 ft clearance,
+      electricity in every space at 20 amps for 2 hours, a gated perimeter, and
+      24-hour video monitoring. The location page lists storage access as 5 am to
+      10 pm and also says to ask whether 24-hour access is available.
+    sources:
+      - url: https://property.uhaul.com/Entity/778072/StorageFacilityMap
+        title: U-Haul vehicle storage map, Fort Walton Beach-Destin
+      - url: https://www.uhaul.com/Locations/Self-Storage-near-Fort-Walton-Beach-FL-32548/778072/
+        title: U-Haul Fort Walton Beach location page
+    last_verified: "2026-11-19"
+
+  - slug: thrifty-storage-fort-walton
+    name: Thrifty Storage
+    street: 220 Santa Rosa St SW
+    city: Fort Walton Beach
+    state_code: FL
+    postal_code: "32548"
+    lat: null
+    lng: null
+    phone: "(850) 629-5012"
+    website: https://www.thriftystorageunits.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The site says it can store an RV or a boat in a parking spot and, on the
+      about page, that the facility has 24-hour access. The small, medium, and
+      large starting prices are not labeled as vehicle parking, so they are not copied.
+    sources:
+      - url: https://www.thriftystorageunits.com/
+        title: Official website
+      - url: https://www.thriftystorageunits.com/about
+        title: Thrifty Storage contact page
+    last_verified: "2026-11-19"
+
+  - slug: freedom-self-storage-lewis
+    name: Freedom Self Storage
+    street: 311 Lewis Street
+    city: Fort Walton Beach
+    state_code: FL
+    postal_code: null
+    lat: null
+    lng: null
+    phone: "(850) 598-6444"
+    website: https://www.freedomselfstoragefwb.com/outdoor-boat-rv-1/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The outdoor boat and RV page for 311 Lewis Street lists computer-controlled
+      gate access, perimeter fencing, video recording, and no deposits or admin fees.
+      Hours of operation are Monday through Friday, 8:00 am to 8:00 pm. The page
+      does not print a ZIP. The phone is the number encoded on that page.
+    sources:
+      - url: https://www.freedomselfstoragefwb.com/outdoor-boat-rv-1/
+        title: Outdoor boat and RV page
+    last_verified: "2026-11-19"
+
+  - slug: usave-storage-niceville
+    name: U-Save Storage
+    street: 1400 Reeves St.
+    city: Niceville
+    state_code: FL
+    postal_code: "32578"
+    lat: null
+    lng: null
+    phone: "(850) 678-4146"
+    website: https://usavestorageniceville.com/storage/vehicles/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: null
+    price_notes: >-
+      The vehicle page says storage starts at $70 plus tax, and lists monthly boat
+      storage at $75 and monthly RV storage at $75. Both figures depend on overall
+      length and do not include the deposit or tax.
+    waitlist: null
+    notes: >-
+      The lot at 1400 Reeves Street is an open lot for RVs, boats, and cars, and
+      the page says it is fenced and gated. The office address, 1141 John Sims
+      Parkway E, is separate. Business hours are 11:30 am to 5 pm on Monday,
+      Wednesday, and Friday.
+    sources:
+      - url: https://usavestorageniceville.com/storage/vehicles/
+        title: Vehicle storage page
+      - url: https://usavestorageniceville.com/
+        title: U-Save Storage homepage
+    last_verified: "2026-11-19"
+
+  - slug: browns-outdoor-storage-crestview
+    name: Brown's Outdoor Storage
+    street: 4759 Live Oak Church Rd
+    city: Crestview
+    state_code: FL
+    postal_code: "32539"
+    lat: null
+    lng: null
+    phone: "(850) 642-1111"
+    website: https://brownsoutdoorstorage.com/outdoor-covered-storage-boats-rvs/
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The covered boat and RV page gives the lot address as 4759 Live Oak Church
+      Road and says access is 24 hours a day, with trickle electricity and a dumping
+      station. The mini-storage office at 190 John King Road is a different address.
+    sources:
+      - url: https://brownsoutdoorstorage.com/outdoor-covered-storage-boats-rvs/
+        title: Covered boat and RV page
+    last_verified: "2026-11-19"
+
+  - slug: east-bay-boat-rv-navarre
+    name: East Bay Boat & RV Storage
+    street: 3352 Hwy 87 S
+    city: Navarre
+    state_code: FL
+    postal_code: "32566"
+    lat: null
+    lng: null
+    phone: "(850) 396-5159"
+    website: https://www.eastbayboatrvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: >-
+      Listed spaces are $100 per month for 12 by 20 ft, 12 by 30 ft, and 12 by 40 ft.
+    waitlist: >-
+      The page says to request a unit to join a waitlist when a size is not available.
+    notes: >-
+      The Navarre page lists boat and RV spaces at 3352 Hwy 87 S and prints how
+      many of each size were available. It does not say whether the spaces are
+      covered or open.
+    sources:
+      - url: https://www.eastbayboatrvstorage.com/
+        title: Official website
+    last_verified: "2026-11-19"
+
+  - slug: navarre-boat-rv-storage
+    name: Navarre Boat & RV Storage
+    street: 8138 3rd St.
+    city: Navarre
+    state_code: FL
+    postal_code: "32566"
+    lat: null
+    lng: null
+    phone: "(850) 865-7490"
+    website: https://www.navarreboatandrvstoragellc.com/
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: 30
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    price_notes: >-
+      Covered jet-ski parking, 12 by 12 ft, is $100 per month. Boat and RV slips
+      up to 20 ft and up to 30 ft are $150 per month. A daily slip is $25 per day.
+    waitlist: null
+    notes: >-
+      The page says 24-hour access and that the lot is about one mile from the boat
+      ramp. Covered is stated for the jet-ski spaces. The boat and RV slips are not
+      labeled covered or open. A house rental on the same page is not storage.
+    sources:
+      - url: https://www.navarreboatandrvstoragellc.com/
+        title: Official website
+    last_verified: "2026-11-19"
+
+  - slug: lonas-boat-rv-navarre
+    name: Lona's Boat & RV Storage
+    street: 8936 Navarre Pky.
+    city: Navarre
+    state_code: FL
+    postal_code: "32566"
+    lat: null
+    lng: null
+    phone: "(850) 889-5662"
+    website: https://www.lonasboatandrvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: true
+    access_24h: null
+    price_notes: >-
+      The long-term rate is $150 per month for standard units up to 40 ft. The
+      listed 12 by 20, 12 by 30, and 12 by 40 ft spaces are each $150 per month.
+      Short-term storage is $25 per day.
+    waitlist: null
+    notes: >-
+      The page says the Navarre lot stores boats and RVs, with security cameras
+      and water and power on site for maintenance. Long-term storage has a two-month
+      minimum. The mailing address, 8435 Navarre Parkway, is different from the
+      unit address.
+    sources:
+      - url: https://www.lonasboatandrvstorage.com/
+        title: Official website
+    last_verified: "2026-11-19"
+
+  - slug: a1-boat-storage-navarre
+    name: A-1 Boat Storage
+    street: 8275 East Bay Blvd.
+    city: Navarre
+    state_code: FL
+    postal_code: "32566"
+    lat: null
+    lng: null
+    phone: "(850) 803-5384"
+    website: https://www.a1boatstoragenavarre.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 40
+    clearance_ft: 10
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: >-
+      Outdoor spaces are $85 per month for an 8 by 20 ft trailer spot, $100 per
+      month for 10 by 30 ft boat parking, and $100 per month for 12 by 38 ft large
+      RV parking. A 10 by 35 ft space with power and water is $125 per month.
+      Covered 10 by 40 ft spaces are $185 per month with a 7 ft height limit and
+      $200 per month for a 10 ft carport.
+    waitlist: null
+    notes: >-
+      The unit list includes outdoor boat and RV parking and covered carport spaces
+      with 110-volt power and non-potable water. A covered medium space is limited
+      to 7 ft tall. The mailing address is 7330 Olympia Street. The first month
+      adds a $20 setup fee and a $25 cleaning deposit.
+    sources:
+      - url: https://www.a1boatstoragenavarre.com/
+        title: Official website
+    last_verified: "2026-11-19"

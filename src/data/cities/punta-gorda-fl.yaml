@@ -1,0 +1,174 @@
+# Verified against public facility pages on 2026-11-19. See PUBLISHING.md.
+id: punta-gorda-fl
+city: Punta Gorda
+state: Florida
+state_code: FL
+metro: Punta Gorda
+summary: >-
+  These facilities publish an RV or boat storage page in Punta Gorda, Port
+  Charlotte, or Englewood. Each card uses only what that page states.
+sparefoot_slug: Punta-Gorda-FL
+neighbor_path: florida/punta-gorda
+sparefoot_note: >-
+  This link opens Punta Gorda results. Verified lots are also in Port Charlotte
+  and Englewood.
+photo: punta-gorda
+listings:
+  - slug: charlotte-county-rv-boat
+    name: Charlotte County RV & Boat Storage
+    street: 25505 Old Landfill Rd
+    city: Punta Gorda
+    state_code: FL
+    postal_code: "33980"
+    lat: null
+    lng: null
+    phone: "(941) 867-6800"
+    website: https://charlottecountyrvandboatstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The page says the covered facility is open, with 10-foot overhangs, metered
+      30-amp power billed separately, a wash bay, a dump station, air compressors,
+      and 24/7 gated access with cameras. No monthly rate is printed.
+    sources:
+      - url: https://charlottecountyrvandboatstorage.com/
+        title: Official website
+    last_verified: "2026-11-19"
+
+  - slug: century-punta-gorda
+    name: Century Boat & RV Storage – Punta Gorda
+    street: 6300 Florida Street
+    city: Punta Gorda
+    state_code: FL
+    postal_code: "33950"
+    lat: null
+    lng: null
+    phone: "(941) 505-2424"
+    website: https://www.century-storage.com/storage-locations/fl/punta-gorda/6300-florida-street
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: 75
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The Florida Street page says there are 127 spaces from 30 ft to 75 ft, in
+      covered, enclosed, and outdoor parking, with electrical outlets, a free wash
+      area, water, ice, and tire air. It lists a gate, a fence, and cameras. One
+      paragraph says access is 6:00 a.m. to 9:00 p.m., and the hours block says
+      6:00 am to 10:00 pm.
+    sources:
+      - url: https://www.century-storage.com/storage-locations/fl/punta-gorda/6300-florida-street
+        title: Official location page
+    last_verified: "2026-11-19"
+
+  - slug: honey-bee-punta-gorda
+    name: Honey Bee RV Punta Gorda
+    street: 6800 Taylor Road
+    city: Punta Gorda
+    state_code: FL
+    postal_code: "33950"
+    lat: null
+    lng: null
+    phone: "(941) 239-3194"
+    website: https://www.honeybeerv.com/rv-storage-locations/fl/punta-gorda/6800-taylor-rd
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The Taylor Road page says this location stores RVs, boats, and cars, and the
+      FAQ says covered storage is available. Leases are month to month. Feature
+      lists printed inside nearby Fort Myers cards were not copied onto this lot.
+    sources:
+      - url: https://www.honeybeerv.com/rv-storage-locations/fl/punta-gorda/6800-taylor-rd
+        title: Official location page
+    last_verified: "2026-11-19"
+
+  - slug: store-at-the-yard-port-charlotte
+    name: Store at the Yard
+    street: 23016 Harbor View Rd
+    city: Port Charlotte
+    state_code: FL
+    postal_code: "33980"
+    lat: null
+    lng: null
+    phone: "(941) 740-1880"
+    website: https://storeattheyard.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The page says every space is open-air outdoor parking for boats and RVs, with
+      24/7 keypad gate access, and it describes a wash station and ice machine as
+      coming soon. The address block says Port Charlotte, the FAQ also says Charlotte
+      Harbor, and a 50 percent discount on the first two months is advertised without
+      a base rate.
+    sources:
+      - url: https://storeattheyard.com/
+        title: Official website
+    last_verified: "2026-11-19"
+
+  - slug: frogpad-englewood
+    name: FrogPad Outdoor Storage
+    street: 2341 Englewood Road
+    city: Englewood
+    state_code: FL
+    postal_code: "34223"
+    lat: null
+    lng: null
+    phone: "(941) 475-9485"
+    website: https://frogpadstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The Englewood page lists outdoor storage for boats, RVs, and trailers, with
+      24-hour gated access, site-wide cameras, and wash pads. It says the lot is
+      within 10 minutes of three boat ramps. No rate is printed.
+    sources:
+      - url: https://frogpadstorage.com/
+        title: Official website
+    last_verified: "2026-11-19"

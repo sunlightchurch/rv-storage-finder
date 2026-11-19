@@ -1,0 +1,223 @@
+# Verified against public facility pages on 2026-11-19. See PUBLISHING.md.
+# Summerfield lots already listed under Ocala are not repeated here.
+id: the-villages-fl
+city: The Villages
+state: Florida
+state_code: FL
+metro: The Villages
+summary: >-
+  These facilities publish an RV or boat storage page in The Villages, Lady Lake,
+  Wildwood, Oxford, or Fruitland Park. The district lots are the community's own
+  spaces. Each card uses only what that page states.
+sparefoot_slug: Lady-Lake-FL
+neighbor_path: florida/the-villages
+sparefoot_note: >-
+  SpareFoot lists Lady Lake rather than The Villages. This link opens the Lady
+  Lake results. Verified lots are also in Wildwood, Oxford, and Fruitland Park.
+photo: the-villages
+listings:
+  - slug: villages-district-rv-lots
+    name: The Villages District RV storage
+    street: Rolling Acres Road
+    city: The Villages
+    state_code: FL
+    postal_code: null
+    lat: null
+    lng: null
+    phone: "(352) 753-4508"
+    website: https://www.districtgov.org/services/resident/rv-storage/
+    vehicles: [rv]
+    storage_types: []
+    max_length_ft: 50
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: >-
+      Monthly fees are $42 plus tax for 20 ft, $50 plus tax for 30 ft, $53 plus
+      tax for 40 ft, and $59 plus tax for 50 ft. A temporary space is $16 plus tax.
+    waitlist: null
+    notes: >-
+      The district page offers RV space rentals at an Industrial lot off Rolling
+      Acres Road, with 20, 30, 40, and 50 ft spaces, and an Alhambra lot near the
+      Village of Alhambra, with 20, 30, and 40 ft spaces. No street number is printed,
+      monthly fees go on the utility bill, daily spaces are for residents, and boats
+      are not mentioned.
+    sources:
+      - url: https://www.districtgov.org/services/resident/rv-storage/
+        title: Villages District RV storage page
+    last_verified: "2026-11-19"
+
+  - slug: discount-mini-storage-lady-lake
+    name: Discount Mini Storage – The Villages
+    street: 708 S Hwy 441
+    city: Lady Lake
+    state_code: FL
+    postal_code: "32159"
+    lat: null
+    lng: null
+    phone: "(352) 259-8128"
+    website: https://www.dmsthevillages.com/self-storage-solutions/vehicle-storage/
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The Villages section of the vehicle page says this Lady Lake address has
+      covered shelter parking for boats and RVs, plus fencing, video recording,
+      a security gate, and onsite staff. Access hours are 6 am to 9 pm. A garage
+      is mentioned only as something offered at several company locations, so it
+      is not marked here.
+    sources:
+      - url: https://www.dmsthevillages.com/self-storage-solutions/vehicle-storage/
+        title: Vehicle storage page
+    last_verified: "2026-11-19"
+
+  - slug: us-storage-teague-trail
+    name: US Storage Centers
+    street: 1370 Teague Trail
+    city: Lady Lake
+    state_code: FL
+    postal_code: "32159"
+    lat: null
+    lng: null
+    phone: "(352) 290-7271"
+    website: https://www.usstoragecenters.com/storage-units/fl/lady-lake/1370-teague-trail
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The Teague Trail page says the property has 136 covered RV and boat spaces,
+      an electronic keypad gate, a fence, and 24/7 video recording. Access hours
+      are 6:00 am to 10:00 pm every day. Prices shown for other US Storage cities
+      were not copied.
+    sources:
+      - url: https://www.usstoragecenters.com/storage-units/fl/lady-lake/1370-teague-trail
+        title: Official location page
+    last_verified: "2026-11-19"
+
+  - slug: compass-rv-boat-wildwood
+    name: Compass Boat & R.V. Storage – E. State Road 44
+    street: 2175 E. State Road 44
+    city: Wildwood
+    state_code: FL
+    postal_code: "34785"
+    lat: null
+    lng: null
+    phone: "(352) 661-2661"
+    website: https://www.compassselfstorage.com/self-storage/fl/wildwood/east-state-road-44/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The Wildwood page lists covered and uncovered spaces for boats and RVs, a
+      free dump station, a wash station, and 15, 20, and 30 amp hookups on select
+      spaces. It lists gated keypad entry and 24/7 security cameras. Access is
+      6:00 AM to 10:00 PM, and 24-hour access is listed by request.
+    sources:
+      - url: https://www.compassselfstorage.com/self-storage/fl/wildwood/east-state-road-44/
+        title: Official location page
+    last_verified: "2026-11-19"
+
+  - slug: cover-all-storage-oxford
+    name: Cover All Storage
+    street: 11089 N US-301
+    city: Oxford
+    state_code: FL
+    postal_code: "34484"
+    lat: null
+    lng: null
+    phone: "(352) 330-5920"
+    website: https://www.coverallstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The Oxford site lists covered and uncovered boat and RV storage, power on
+      select spaces, an on-site dump station, and, on the unit page, a wash bay,
+      security cameras, and an electrified fence. Gate hours are 5:00 AM to 12:00 AM
+      every day, and the street address is printed on the unit page.
+    sources:
+      - url: https://www.coverallstorage.com/
+        title: Official website
+      - url: https://www.coverallstorage.com/contact
+        title: Cover All contact and gate hours
+      - url: https://www.coverallstorage.com/locations/oxford-fl-34484/view-unit/12/25
+        title: Cover All Oxford unit page
+    last_verified: "2026-11-19"
+
+  - slug: recnation-fruitland-park
+    name: RecNation RV & Boat Storage
+    street: 2363 US-27
+    city: Fruitland Park
+    state_code: FL
+    postal_code: "34731"
+    lat: null
+    lng: null
+    phone: "(352) 394-0505"
+    website: https://www.recnationstorage.com/storage-facility/fl/fruitland-park/2363-us-441/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 120
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: true
+    access_24h: null
+    price_notes: >-
+      Outdoor uncovered web rates on the page include $52 for 12 by 20 ft (from $72),
+      $58 for 12 by 25 ft (from $78), $64 for 12 by 30 ft (from $84), $73 for 12 by
+      35 ft (from $93), $91 for 12 by 45 ft (from $111), $67 for 12 by 65 ft (from $87),
+      $75 for 12 by 70 ft (from $95), $83 for 12 by 75 ft (from $103), $92 for 12 by
+      80 ft (from $112), and $91 for 9 by 40 ft (from $111). A 100 by 120 ft space
+      is listed at a web rate of $975 (from $995). The page does not name the billing period.
+    waitlist: null
+    notes: >-
+      The Fruitland Park page says the lot is outdoor uncovered parking for boats
+      and RVs, with 24/7 security cameras and a fence. The address line reads 2363
+      US-27, and other sentences say U.S. Highway 441. Regular hours are 6:00 a.m.
+      to 10:00 p.m., with 24/7 access upon request.
+    sources:
+      - url: https://www.recnationstorage.com/storage-facility/fl/fruitland-park/2363-us-441/
+        title: Official facility page
+    last_verified: "2026-11-19"
