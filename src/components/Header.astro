@@ -2,6 +2,7 @@
 import { href, searchIndex, site } from '../lib/data';
 
 const pathname = Astro.url.pathname;
+const home = pathname === '/' || pathname === href('/');
 const guide = pathname.startsWith(href('/guide/'));
 const prices = pathname.startsWith(href('/costs/'));
 const about = pathname.startsWith(href('/about/')) || pathname.startsWith(href('/credits/'));
@@ -20,6 +21,7 @@ const index = searchIndex();
       </svg>
       <span class="brand-name">{site.name}</span>
     </a>
+    {!home && (
     <form class="header-search" role="search">
       <label class="sr-only" for="header-q">Search cities or ZIP codes</label>
       <input
@@ -34,6 +36,7 @@ const index = searchIndex();
       />
       <ul id="header-results" class="search-results" role="listbox" hidden></ul>
     </form>
+    )}
     <nav aria-label="Primary">
       <ul>
         <li><a href={href('/guide/')} aria-current={guide ? 'page' : undefined}>Cost guide</a></li>
