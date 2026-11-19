@@ -1,0 +1,247 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: asheville-nc
+city: Asheville
+state: North Carolina
+state_code: NC
+metro: Asheville
+summary: >-
+  These facilities publish an RV or boat storage page in Asheville, Arden, or
+  Fletcher. Each card uses only what that page states.
+sparefoot_slug: Asheville-NC
+neighbor_path: north-carolina/asheville
+sparefoot_note: null
+photo: asheville
+listings:
+  - slug: arden-fletcher-self-storage
+    name: Arden Fletcher Self Storage
+    street: 53 E Johnson Farm Ct
+    city: Fletcher
+    state_code: NC
+    postal_code: "28732"
+    lat: null
+    lng: null
+    phone: "(828) 691-9978"
+    website: https://www.selfstoragefletcher.com/rv-storage/
+    vehicles: [rv, boat]
+    storage_types: [enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: Outside space is $65 a month.
+    waitlist: null
+    notes: >-
+      Outdoor RV parking, plus indoor and outdoor storage for boats, cars, and
+      trailers. The pages list a perimeter fence, a keypad electronic gate, and
+      24/7 video surveillance. Office visits are by appointment. Gate hours are
+      not printed.
+    sources:
+      - url: https://www.selfstoragefletcher.com/rv-storage/
+        title: RV storage page
+      - url: https://www.selfstoragefletcher.com/
+        title: Homepage
+    last_verified: "2026-11-18"
+
+  - slug: go-store-it-fletcher
+    name: Go Store It Self Storage
+    street: 206 Old Airport Road
+    city: Fletcher
+    state_code: NC
+    postal_code: "28732"
+    lat: null
+    lng: null
+    phone: "(828) 651-0080"
+    website: https://www.gostoreit.com/locations/north-carolina/fletcher/206-old-airport-rd/
+    vehicles: [boat]
+    storage_types: [open]
+    max_length_ft: 20
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: >-
+      20-foot outdoor parking for vehicles and trailers is listed at $142.00,
+      also shown as starting at $173.00, with first month rent $0.
+    waitlist: null
+    notes: >-
+      Boat storage is a listed feature, and the available parking line is
+      outdoor parking in a gated lot. The page also lists HD video surveillance
+      and keypad access. Access-hour blocks list 6:00 am to 10:00 pm, with one
+      block through Thursday and another through Friday, so 24-hour access is
+      not marked. RVs are not named on this location page.
+    sources:
+      - url: https://www.gostoreit.com/locations/north-carolina/fletcher/206-old-airport-rd/
+        title: Fletcher location page
+    last_verified: "2026-11-18"
+
+  - slug: go-store-it-mills-gap-asheville
+    name: Go Store It Self Storage
+    street: 270 Mills Gap Road
+    city: Asheville
+    state_code: NC
+    postal_code: "28803"
+    lat: null
+    lng: null
+    phone: "(828) 684-6111"
+    website: https://www.gostoreit.com/locations/north-carolina/asheville/270-mills-gap-rd/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 30
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: >-
+      25-foot outdoor parking for vehicles, boats, and RVs is listed at $113.00,
+      also shown as starting at $177.00, with first month rent $0. 30-foot
+      outdoor parking is listed at $119.00, also shown as starting at $186.00,
+      with first month rent $0.
+    waitlist: null
+    notes: >-
+      Outdoor gated parking. The address is Asheville, and the page says it
+      serves the Arden and Royal Pines area. Features include a keypad gate and
+      24/7 video surveillance. Access-hour blocks do not agree on which days the
+      6:00 am to 10:00 pm window applies, so 24-hour access is not marked.
+    sources:
+      - url: https://www.gostoreit.com/locations/north-carolina/asheville/270-mills-gap-rd/
+        title: Mills Gap Road location page
+    last_verified: "2026-11-18"
+
+  - slug: jumbo-storage-arden
+    name: Jumbo Storage
+    street: 36 Glenn Willow Drive
+    city: Arden
+    state_code: NC
+    postal_code: "28704"
+    lat: null
+    lng: null
+    phone: "(828) 450-1077"
+    website: https://jumbostorageusa.com/boat-and-rv-storage-asheville-nc
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: null
+    clearance_ft: 14
+    power_hookups: null
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Indoor garages for campers, motorhomes, and boat trailers, with 14-foot
+      bay doors, a gate, security cameras, 24/7 access, and on-site dump and
+      wash stations.
+    sources:
+      - url: https://jumbostorageusa.com/boat-and-rv-storage-asheville-nc
+        title: Boat and RV storage page
+      - url: https://jumbostorageusa.com/contact
+        title: Contact page
+    last_verified: "2026-11-18"
+
+  - slug: myplace-self-storage-arden
+    name: MyPlace Self-Storage
+    street: 2508 Hendersonville Rd
+    city: Arden
+    state_code: NC
+    postal_code: "28704"
+    lat: null
+    lng: null
+    phone: 1-877-700-0155
+    website: https://myplaceselfstorage.com/storage-locations/nc/arden/2508-hendersonville-rd/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The Arden page says this location has uncovered outdoor parking for RV
+      and boat storage. It describes schedule-friendly access hours and does
+      not print a clock time. A location card prints (828) 356-7128 beside this
+      address.
+    sources:
+      - url: https://myplaceselfstorage.com/storage-locations/nc/arden/2508-hendersonville-rd/
+        title: Arden location page
+    last_verified: "2026-11-18"
+
+  - slug: myplace-self-storage-fletcher
+    name: MyPlace Self-Storage
+    street: 575 Mills Gap Rd
+    city: Fletcher
+    state_code: NC
+    postal_code: "28732"
+    lat: null
+    lng: null
+    phone: 1-877-700-0155
+    website: https://myplaceselfstorage.com/storage-locations/nc/fletcher/575-mills-gap-rd/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 70
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Uncovered parking from 10 by 15 feet to 12 by 70 feet, including larger
+      RVs and boat storage. The page says access hours are sensible and does
+      not print the clock times. Another card prints (828) 356-7133 beside this
+      address.
+    sources:
+      - url: https://myplaceselfstorage.com/storage-locations/nc/fletcher/575-mills-gap-rd/
+        title: Fletcher location page
+    last_verified: "2026-11-18"
+
+  - slug: myplace-self-storage-sand-hill-asheville
+    name: MyPlace Self-Storage
+    street: 990 Sand Hill Road
+    city: Asheville
+    state_code: NC
+    postal_code: "28806"
+    lat: null
+    lng: null
+    phone: 1-877-700-0155
+    website: https://myplaceselfstorage.com/storage-locations/nc/asheville/990-sand-hill-rd/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 50
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The location FAQ says this address has open parking from 25 to 50 feet
+      for large RVs, boats, and trailers, plus a fence, recorded video
+      surveillance, and an electronic gate. Access hours are 6:00 AM to 10:00
+      PM daily.
+    sources:
+      - url: https://myplaceselfstorage.com/storage-locations/nc/asheville/990-sand-hill-rd/
+        title: Sand Hill Road location page
+    last_verified: "2026-11-18"

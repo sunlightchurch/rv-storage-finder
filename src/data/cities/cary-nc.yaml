@@ -1,0 +1,124 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: cary-nc
+city: Cary
+state: North Carolina
+state_code: NC
+metro: Cary
+summary: >-
+  These facilities publish an RV or boat storage page at a Cary address. Each card uses only
+  what that page states.
+sparefoot_slug: Cary-NC
+neighbor_path: north-carolina/cary
+sparefoot_note: null
+photo: cary
+listings:
+- slug: country-stor-house-holt-cary
+  name: Country Stor-House
+  street: 1804 Holt Rd
+  city: Cary
+  state_code: NC
+  postal_code: "27519"
+  lat: null
+  lng: null
+  phone: "(919) 625-0736"
+  website: "https://www.countrystorhouse.com/1804-holt-rd-cary-nc-27519"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - covered
+  - open
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: null
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The Holt Road page offers covered and uncovered parking for RVs, cars, and boats, with
+    fenced gated access and 24-hour access. A second page for Country Living Rentals prints
+    the same address and phone and also lists covered and uncovered boat and RV parking.
+  sources:
+  - url: "https://www.countrystorhouse.com/1804-holt-rd-cary-nc-27519"
+    title: Country Stor-House location page
+  - url: "https://www.countrystorhouse.com/1800-holt-rd-cary-nc-27519"
+    title: Country Living Rentals parking page
+  last_verified: '2026-11-18'
+- slug: cubesmart-chatham-cary
+  name: CubeSmart Self Storage of Cary
+  street: 920 W Chatham St
+  city: Cary
+  state_code: NC
+  postal_code: "27511"
+  lat: null
+  lng: null
+  phone: "(919) 469-8989"
+  website: >-
+    https://www.cubesmart.com/north-carolina-self-storage/cary-self-storage/drive-up/399.html
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - open
+  max_length_ft: 40
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: null
+  access_24h: false
+  price_notes: >-
+    Outdoor parking is listed per month at $93 online and $155 in store for 20 ft, $100.80
+    online and $168 in store for 25 ft, $110.40 online and $184 in store for 30 ft, and $117.60
+    online and $196 in store for 40 ft. Those spaces show a second month free and 40% off.
+  waitlist: null
+  notes: >-
+    This Cary page lists RV storage and boat parking, and it shows outdoor parking spaces
+    up to 40 feet. Access hours are 6:00 a.m. to 10:00 p.m. daily. The facility amenity list
+    says the app opens the gates. Current-customer phone is (919) 469-8989.
+  sources:
+  - url: >-
+      https://www.cubesmart.com/north-carolina-self-storage/cary-self-storage/drive-up/399.html
+    title: CubeSmart Cary location page
+  last_verified: '2026-11-18'
+- slug: go-store-it-trinity-cary
+  name: Go Store It Self Storage
+  street: 1101 Trinity Rd
+  city: Cary
+  state_code: NC
+  postal_code: "27513"
+  lat: null
+  lng: null
+  phone: "(919) 740-9762"
+  website: "https://www.gostoreit.com/locations/north-carolina/raleigh/1101-trinity-rd/"
+  vehicles:
+  - rv
+  - boat
+  storage_types:
+  - open
+  max_length_ft: 40
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: false
+  price_notes: >-
+    Outdoor parking for vehicles, boats, and RVs is listed at $88, starting at $107, for 20
+    ft, and $147, starting at $179, for 40 ft. First month's rent is $0 on those spaces.
+  waitlist: null
+  notes: >-
+    The Cary page lists outdoor gated parking for boats and RVs and says the facility has
+    24/7 video surveillance. Access hours are printed as 6:00 a.m. to 10:00 p.m. Monday through
+    Thursday. Support hours are Monday through Saturday 6:00 a.m. to 10:00 p.m., with Sunday
+    support closed.
+  sources:
+  - url: "https://www.gostoreit.com/locations/north-carolina/raleigh/1101-trinity-rd/"
+    title: Go Store It Cary location page
+  last_verified: '2026-11-18'

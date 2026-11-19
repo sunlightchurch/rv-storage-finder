@@ -1,0 +1,175 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: high-point-nc
+city: High Point
+state: North Carolina
+state_code: NC
+metro: High Point
+summary: >-
+  These facilities publish an RV or boat storage page in High Point. Each card
+  uses only what that page states.
+sparefoot_slug: High-Point-NC
+neighbor_path: north-carolina/high-point
+sparefoot_note: null
+photo: high-point
+listings:
+  - slug: aaa-self-storage-high-point-road
+    name: AAA Self Storage
+    street: 5235 High Point Rd.
+    city: High Point
+    state_code: NC
+    postal_code: "27265"
+    lat: null
+    lng: null
+    phone: "(336) 869-2003"
+    website: https://www.aaastorage4u.com/self-storage/nc/high-point/5235-high-point-rd
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The facility copy lists RV, boat, and motorcycle parking, gated entry,
+      and 24-hour security cameras. It does not say whether the parking is
+      covered, enclosed, or open, and it does not state the gate hours.
+    sources:
+      - url: https://www.aaastorage4u.com/self-storage/nc/high-point/5235-high-point-rd
+        title: High Point Road location page
+    last_verified: "2026-11-18"
+
+  - slug: aaa-self-storage-n-main-high-point
+    name: AAA Self Storage
+    street: 4005 N. Main St
+    city: High Point
+    state_code: NC
+    postal_code: "27265"
+    lat: null
+    lng: null
+    phone: "(336) 869-0993"
+    website: https://www.aaastorage4u.com/self-storage/nc/high-point/4005-n-main-st
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      A separate High Point lot from High Point Road. The page lists RV, boat,
+      and motorcycle parking, 24-hour access, 24-hour security cameras, and
+      gated access. It does not name the parking cover type.
+    sources:
+      - url: https://www.aaastorage4u.com/self-storage/nc/high-point/4005-n-main-st
+        title: North Main Street location page
+    last_verified: "2026-11-18"
+
+  - slug: federal-10-storage-bethel-high-point
+    name: 10 Federal Storage
+    street: 1977 Bethel Drive
+    city: High Point
+    state_code: NC
+    postal_code: null
+    lat: null
+    lng: null
+    phone: "(336) 559-7043"
+    website: https://10federalstorage.com/storage-units/north-carolina/high-point/bethel
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: >-
+      A 10 by 40 RV, boat, and trailer parking space is listed at $36/month,
+      with December rent $0.
+    waitlist: null
+    notes: >-
+      The page lists RV and boat storage, uncovered parking, covered RV,
+      uncovered RV, and enclosed drive-up parking, with keypad gate access and
+      security cameras. It says 24/7 access for most units, so 24-hour access
+      is not marked for every space. The header ZIP is 27260 and the contact
+      block ZIP is 27265.
+    sources:
+      - url: https://10federalstorage.com/storage-units/north-carolina/high-point/bethel
+        title: Bethel Drive location page
+    last_verified: "2026-11-18"
+
+  - slug: modbox-storage-eastchester-high-point
+    name: ModBox Storage
+    street: 1925 Eastchester Dr
+    city: High Point
+    state_code: NC
+    postal_code: "27265"
+    lat: null
+    lng: null
+    phone: "(336) 515-1657"
+    website: https://www.thestorageadvantage.com/storage-units/north-carolina/high-point/modbox/eastchester-dr
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The High Point section says this Eastchester Drive facility has uncovered
+      parking for vehicles, RVs, and boats, video surveillance, security
+      cameras, and gated access. Access is listed as 6am to 10pm.
+    sources:
+      - url: https://www.thestorageadvantage.com/storage-units/north-carolina/high-point/modbox/eastchester-dr
+        title: Eastchester Drive location page
+    last_verified: "2026-11-18"
+
+  - slug: public-storage-english-road-high-point
+    name: Public Storage
+    street: 2729 W English Road
+    city: High Point
+    state_code: NC
+    postal_code: "27262"
+    lat: null
+    lng: null
+    phone: "(336) 899-8123"
+    website: https://www.publicstorage.com/self-storage-nc-high-point/2085.html
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The location feature list includes boat storage, RV storage, and outdoor
+      storage units. Property hours are Monday through Sunday, 6:00 AM to 10:00
+      PM, and the same page says 24/7 access is available, so 24-hour access is
+      not marked. A security blurb says electronic gates and cameras are
+      features at many Public Storage locations, so those are not marked here.
+      Cover type of the RV and boat spaces is not stated.
+    sources:
+      - url: https://www.publicstorage.com/self-storage-nc-high-point/2085.html
+        title: West English Road location page
+    last_verified: "2026-11-18"

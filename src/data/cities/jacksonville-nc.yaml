@@ -1,0 +1,240 @@
+# Verified against public facility pages on 2026-11-18. See PUBLISHING.md.
+id: jacksonville-nc
+city: Jacksonville
+state: North Carolina
+state_code: NC
+metro: Jacksonville
+summary: >-
+  These facilities publish an RV or boat storage page in Jacksonville or
+  Swansboro, North Carolina. Each card uses only what that page states. This is
+  Jacksonville, North Carolina, not Florida.
+sparefoot_slug: Jacksonville-NC
+neighbor_path: north-carolina/jacksonville
+sparefoot_note: null
+photo: jacksonville-nc
+listings:
+  - slug: aa-self-storage-jacksonville-nc
+    name: AA Self Storage
+    street: 1345 LeJeune Blvd
+    city: Jacksonville
+    state_code: NC
+    postal_code: "28540"
+    lat: null
+    lng: null
+    phone: "(910) 347-1447"
+    website: https://www.aa-self-storage.com/locations/jacksonville-nc/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The Jacksonville, North Carolina page lists boat and RV storage and
+      well-lit parking for cars, trucks, RVs, boats, and trailers. It states an
+      individual gate code, 24 hour video surveillance, and gate access from
+      6:30 am to 10 pm, 365 days a year. Cover type is not stated.
+    sources:
+      - url: https://www.aa-self-storage.com/locations/jacksonville-nc/
+        title: Jacksonville, North Carolina location page
+    last_verified: "2026-11-18"
+
+  - slug: ajm-boat-rv-storage-jacksonville-nc
+    name: AJM Boat and RV Storage
+    street: 1690 Wilmington Hwy
+    city: Jacksonville
+    state_code: NC
+    postal_code: "28540"
+    lat: null
+    lng: null
+    phone: "(910) 741-0100"
+    website: https://www.ajmboatrvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 75
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: true
+    price_notes: >-
+      A 10 by 30 space is $40 every month. A 20 by 50 space is $60 every month.
+      A 20 by 75 space is $125 every month. The page also shows "Usually $90"
+      and "Usually $175" without tying either figure to a size.
+    waitlist: null
+    notes: >-
+      Outdoor storage for boats, campers, and RVs, with gated individual codes
+      and 24 hour access. The contact page prints 1690 Wilmington Hwy. The home
+      page title prints 1640 Wilmington Highway. Surveillance is stated; the
+      word camera is not.
+    sources:
+      - url: https://www.ajmboatrvstorage.com/contact-3
+        title: Contact page
+      - url: https://www.ajmboatrvstorage.com/pricing-plans/list
+        title: Pricing page
+    last_verified: "2026-11-18"
+
+  - slug: dempsey-mini-storage-jacksonville-nc
+    name: Dempsey Mini Storage
+    street: 1693 Catherine Lake Rd
+    city: Jacksonville
+    state_code: NC
+    postal_code: "28540"
+    lat: null
+    lng: null
+    phone: "(910) 324-2315"
+    website: https://www.dempseysministorage.com/rv-storage
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      A parking lot for RVs, boats, and other vehicles. Each tenant gets an
+      individual code for 24/7 access to the vehicle. The page says the lot is
+      monitored and does not say gate or camera. Office hours are Monday
+      through Saturday, 9:00 am to 6:00 pm.
+    sources:
+      - url: https://www.dempseysministorage.com/rv-storage
+        title: RV and boat storage page
+    last_verified: "2026-11-18"
+
+  - slug: ko-storage-swansboro
+    name: KO Storage of Swansboro
+    street: 2489 Hwy 58
+    city: Swansboro
+    state_code: NC
+    postal_code: "28584"
+    lat: null
+    lng: null
+    phone: "(252) 427-0127"
+    website: https://www.kostorage.com/storage-locations/north-carolina/swansboro/ko-storage-of-swansboro-n-carolina-58
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The Swansboro page lists covered RV, auto, and boat storage, outdoor RV,
+      auto, and boat storage, cameras, and secure gated access. Gate hours are
+      not printed.
+    sources:
+      - url: https://www.kostorage.com/storage-locations/north-carolina/swansboro/ko-storage-of-swansboro-n-carolina-58
+        title: Swansboro location page
+    last_verified: "2026-11-18"
+
+  - slug: pinnacle-storage-air-station-jacksonville-nc
+    name: Pinnacle Storage
+    street: 1121 Old Maplehurst Road
+    city: Jacksonville
+    state_code: NC
+    postal_code: "28540"
+    lat: null
+    lng: null
+    phone: "(910) 219-7750"
+    website: https://www.pinnaclestorage.net/locations/jacksonville-nc-28540
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The Air Station page offers space for a boat, RV, or car and describes
+      outdoor vehicle parking. Gate hours are 6:00 AM to 10:00 PM every day.
+    sources:
+      - url: https://www.pinnaclestorage.net/locations/jacksonville-nc-28540
+        title: Old Maplehurst Road location page
+    last_verified: "2026-11-18"
+
+  - slug: pinnacle-storage-gum-branch-jacksonville-nc
+    name: Pinnacle Storage
+    street: 2457 Gum Branch Road Suite 100
+    city: Jacksonville
+    state_code: NC
+    postal_code: null
+    lat: null
+    lng: null
+    phone: "(910) 238-2762"
+    website: https://www.pinnaclestorage.net/locations/gum-branch-road-jacksonville-nc-28540
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Enclosed boat and RV units, plus RV parking whose cover type is not
+      stated, so only enclosed is marked. The page lists security cameras and
+      keypad gate access. Gate hours are 6:00 AM to 10:00 PM every day. The ZIP
+      is not printed.
+    sources:
+      - url: https://www.pinnaclestorage.net/locations/gum-branch-road-jacksonville-nc-28540
+        title: Gum Branch Road location page
+    last_verified: "2026-11-18"
+
+  - slug: stormark-self-storage-piney-green-jacksonville-nc
+    name: StorMark Self Storage
+    street: 1197 Piney Green Rd
+    city: Jacksonville
+    state_code: NC
+    postal_code: "28546"
+    lat: null
+    lng: null
+    phone: "(910) 898-3480"
+    website: https://www.stormarkstorage.com/boat---rv-storage-in-jacksonville--nc
+    vehicles: [rv, boat]
+    storage_types: [enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Paved open-air uncovered parking for boats, RVs, trucks, and cars, plus
+      enclosed drive-up units. The page lists a fence, gate access, and
+      security cameras. Gate hours are not printed. A customer-service number,
+      (888) 299-6990, is also printed.
+    sources:
+      - url: https://www.stormarkstorage.com/boat---rv-storage-in-jacksonville--nc
+        title: Piney Green boat and RV page
+    last_verified: "2026-11-18"
