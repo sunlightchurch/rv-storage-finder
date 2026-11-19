@@ -173,6 +173,7 @@ const siteSchema = z.object({
   url: z.string().url(),
   description: z.string().min(20),
   repo: publicUrl,
+  corrections_email: z.string().email(),
   affiliates: z.object({
     neighbor: affiliateSchema,
     sparefoot: affiliateSchema,
@@ -485,6 +486,12 @@ export function href(urlPath: string): string {
 
 export function absolute(urlPath: string): string {
   return new URL(href(urlPath), new URL(site.url).origin).href;
+}
+
+export function correctionMailto(cityName?: string): string {
+  const subject = cityName ? `RV storage correction: ${cityName}` : 'RV storage correction';
+  const body = 'Facility name, city, and what changed:';
+  return `mailto:${site.corrections_email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 }
 
 export function partnerUrl(which: 'neighbor' | 'sparefoot', city?: City): string {

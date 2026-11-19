@@ -13,6 +13,7 @@ description: >-
   A sourced directory of RV and boat storage by city. Cover type, power, and
   prices appear only when a facility publishes them.
 repo: https://github.com/sunlightchurch/rv-storage-finder
+corrections_email: makbwxxp@mail.grokbot.com
 affiliates:
   neighbor:
     name: Neighbor

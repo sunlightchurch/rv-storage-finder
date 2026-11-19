@@ -1,5 +1,5 @@
 ---
-import { checkedLabel, getStates, href, partnerUrl, site } from '../lib/data';
+import { checkedLabel, correctionMailto, getStates, href, partnerUrl, site } from '../lib/data';
 const states = getStates();
 ---
 
@@ -30,6 +30,7 @@ const states = getStates();
         <li><a href={href('/about/')}>How listings are checked</a></li>
         <li><a href={href('/credits/')}>Photo credits</a></li>
         <li><a href={href('/disclosure/')}>Affiliate disclosure and privacy</a></li>
+        <li><a href={correctionMailto()}>Report a correction</a></li>
         <li>
           <a href={site.repo} rel="noopener noreferrer">GitHub repository<span class="sr-only"> (opens in a new tab)</span></a>
         </li>
