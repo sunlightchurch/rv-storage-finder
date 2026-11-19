@@ -1,0 +1,105 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { getState, href } from '../../lib/data';
+import { breadcrumbNode, pageGraph, webPageNode } from '../../lib/schema';
+
+const title = 'Texas HOA rules for an RV or boat | RV Storage Finder';
+const description =
+  'Texas Property Code section 209.015 mentions a recreational vehicle only inside an adjacent-lot definition, and only if the dedicatory instrument already permits it.';
+const path = '/rules/texas/';
+const checked = '2026-11-19';
+const texas = getState('texas');
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'HOA rules', path: '/rules/' },
+  { label: 'Texas', path },
+];
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: checked }),
+  breadcrumbNode(crumbs),
+]);
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <article class="wrap prose">
+    <Breadcrumbs items={crumbs} />
+    <h1>Texas HOA rules for an RV or boat</h1>
+    <p>
+      This page quotes the Texas Property Code. It is not legal advice, not a ruling on your dedicatory
+      instrument, and not a substitute for the city or county code.
+    </p>
+    <p>
+      Checked <time datetime={checked}>November 19, 2026</time> on the
+      <a href="https://statutes.capitol.texas.gov/Docs/PR/htm/PR.209.htm" rel="noopener noreferrer">Texas Constitution and Statutes copy of Property Code Chapter 209</a>.
+      The only use of “recreational vehicle” in that chapter file is inside section 209.015. The
+      <a href="https://statutes.capitol.texas.gov/Docs/PR/htm/PR.202.htm" rel="noopener noreferrer">Chapter 202 file</a>
+      retrieved the same day did not contain those words. Section 202.010 in that file is “Regulation of
+      solar energy devices,” so this page does not cite it as a vehicle rule. No section was found that
+      voids an association ban on an RV or a boat the way Florida’s section 720.3045 does. No section
+      naming a boat was found in either file.
+    </p>
+    <h2>The adjacent-lot definition</h2>
+    <p>
+      Section 209.015 is titled “Regulation of land use: residential purpose.” The history line on the
+      file says it was added by Acts 2013, 83rd Leg., R.S., Ch. 219 (H.B. 35), Sec. 1, effective June
+      14, 2013, and amended by Acts 2021, 87th Leg., R.S., Ch. 951 (S.B. 1588), Sec. 19, effective
+      September 1, 2021. The quote below is the text posted on the date above. This page does not say
+      which words the 2021 act changed.
+    </p>
+    <p>Section 209.015(a)(2) says “residential purpose” with respect to the use of a lot:</p>
+    <blockquote>
+      <p>
+        (B) includes the location on the lot of a garage, sidewalk, driveway, parking area, children's
+        swing or playscape, fence, septic system, swimming pool, utility line, or water well and, if
+        otherwise specifically permitted by the dedicatory instrument, the parking or storage of a
+        recreational vehicle.
+      </p>
+    </blockquote>
+    <p>Subsection (b) says:</p>
+    <blockquote>
+      <p>
+        Except as provided by this section, a property owners' association may not adopt or enforce a
+        provision in a dedicatory instrument that prohibits or restricts the owner of a lot on which a
+        residence is located from using for residential purposes an adjacent lot owned by the property
+        owner.
+      </p>
+    </blockquote>
+    <h2>What that section does not decide</h2>
+    <ul>
+      <li>
+        The recreational-vehicle words sit inside a definition, and only “if otherwise specifically
+        permitted by the dedicatory instrument.” The section does not require the instrument to permit
+        an RV.
+      </li>
+      <li>
+        Subsection (b) is about using an adjacent lot for a residential purpose. It is not a rule that
+        an RV may be parked on the lot where the residence already stands.
+      </li>
+      <li>
+        Subsection (c) still requires association or architectural-review approval, based on criteria in
+        the dedicatory instruments, before an owner places an improvement for that residential purpose
+        on the adjacent lot. This page does not apply that approval sentence to a particular RV.
+      </li>
+      <li>
+        The section does not mention a boat. A city or county rule is outside this quote.
+      </li>
+    </ul>
+    <h2>Off-site storage is a different question</h2>
+    <p>
+      A facility listing in this directory is a storage lot, not a statement that an association allows
+      the vehicle at the house. {texas.cities.length} Texas city pages list those lots.
+    </p>
+    <ul>
+      {
+        texas.cities.map((city) => (
+          <li>
+            <a href={href(`/cities/${city.id}/`)}>
+              {city.city}, {city.state_code}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </article>
+</Base>

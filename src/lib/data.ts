@@ -521,6 +521,11 @@ export function allPublicPaths(): { path: string; lastmod: string }[] {
     { path: '/about/', lastmod: latest },
     { path: '/rules/', lastmod: '2026-11-19' },
     { path: '/rules/florida/', lastmod: '2026-11-19' },
+    { path: '/rules/nevada/', lastmod: '2026-11-19' },
+    { path: '/rules/arizona/', lastmod: '2026-11-19' },
+    { path: '/rules/texas/', lastmod: '2026-11-19' },
+    { path: '/rules/georgia/', lastmod: '2026-11-19' },
+    { path: '/rules/north-carolina/', lastmod: '2026-11-19' },
     { path: '/disclosure/', lastmod: latest },
     { path: '/credits/', lastmod: latest },
   ];

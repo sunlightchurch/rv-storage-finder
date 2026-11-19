@@ -1,0 +1,76 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { getState, href } from '../../lib/data';
+import { breadcrumbNode, pageGraph, webPageNode } from '../../lib/schema';
+
+const title = 'Georgia HOA rules for an RV or boat | RV Storage Finder';
+const description =
+  'No Georgia statute was found that names an RV, a boat, or driveway parking as something a property owners’ association must allow or must forbid. Not legal advice.';
+const path = '/rules/georgia/';
+const checked = '2026-11-19';
+const georgia = getState('georgia');
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'HOA rules', path: '/rules/' },
+  { label: 'Georgia', path },
+];
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: checked }),
+  breadcrumbNode(crumbs),
+]);
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <article class="wrap prose">
+    <Breadcrumbs items={crumbs} />
+    <h1>Georgia HOA rules for an RV or boat</h1>
+    <p>
+      This page is not legal advice. On <time datetime={checked}>November 19, 2026</time>, no Georgia
+      statute was found that names a recreational vehicle, motor home, boat, or driveway parking rule
+      as something a property owners’ association must allow or must forbid.
+    </p>
+    <p>
+      The association statute is the Georgia Property Owners’ Association Act, Article 6 of Chapter 3
+      of Title 44 of the Official Code of Georgia Annotated. The
+      <a href="https://www.legis.ga.gov/laws" rel="noopener noreferrer">Georgia General Assembly laws page</a>
+      did not return the code text during this review, so this page does not quote a section of that
+      article. Secondary reprints of the article were not used as the statute.
+    </p>
+    <h2>What that finding does not decide</h2>
+    <ul>
+      <li>
+        No statute found is not a statement that an association may not adopt a parking rule. The
+        recorded instrument, the bylaws, and any rules the instrument allows still have to be read.
+      </li>
+      <li>
+        This page does not decide whether a particular association is governed by Article 6. That
+        question is in the recorded instrument and in the Act’s applicability section, which this
+        review did not quote.
+      </li>
+      <li>
+        A city or county ordinance can still regulate parking. This page does not read one.
+      </li>
+      <li>
+        A community rule, a covenant PDF, or a law-firm summary is not a statute. None of those was
+        treated as the Code.
+      </li>
+    </ul>
+    <h2>Off-site storage is a different question</h2>
+    <p>
+      A facility listing in this directory is a storage lot, not a statement that an association allows
+      the vehicle at the house. {georgia.cities.length} Georgia city pages list those lots.
+    </p>
+    <ul>
+      {
+        georgia.cities.map((city) => (
+          <li>
+            <a href={href(`/cities/${city.id}/`)}>
+              {city.city}, {city.state_code}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </article>
+</Base>

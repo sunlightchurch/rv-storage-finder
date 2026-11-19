@@ -1,0 +1,107 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { getState, href } from '../../lib/data';
+import { breadcrumbNode, pageGraph, webPageNode } from '../../lib/schema';
+
+const title = 'Arizona HOA rules for an RV or boat | RV Storage Finder';
+const description =
+  'No Arizona statute found that sets an RV or boat parking rule for a planned community. A.R.S. 33-1809 and 33-1818 cover other vehicles and public roads. Not legal advice.';
+const path = '/rules/arizona/';
+const checked = '2026-11-19';
+const arizona = getState('arizona');
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'HOA rules', path: '/rules/' },
+  { label: 'Arizona', path },
+];
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: checked }),
+  breadcrumbNode(crumbs),
+]);
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <article class="wrap prose">
+    <Breadcrumbs items={crumbs} />
+    <h1>Arizona HOA rules for an RV or boat</h1>
+    <p>
+      This page is not legal advice. On <time datetime={checked}>November 19, 2026</time>, no Arizona
+      statute was found that names a recreational vehicle, motor home, or boat as something a planned
+      community must allow, or must forbid, on a lot or a driveway.
+    </p>
+    <p>
+      Two nearby sections were read on the Arizona Legislature site. Neither one is an RV or boat rule.
+      A third section uses the words “recreational vehicle” for a rented space in a park, not for a lot
+      in a planned community.
+    </p>
+    <h2>Employment vehicles, not rigs</h2>
+    <p>
+      <a href="https://www.azleg.gov/ars/33/01809.htm" rel="noopener noreferrer">A.R.S. § 33-1809</a>
+      is titled “Parking; public service and public safety emergency vehicles; definition.” Subsection A
+      says:
+    </p>
+    <blockquote>
+      <p>
+        Notwithstanding any provision in the community documents, an association shall not prohibit a
+        resident from parking a motor vehicle on a street or driveway in the planned community if the
+        vehicle is required to be available at designated periods at the person's residence as a
+        condition of the person's employment and either of the following applies:
+      </p>
+    </blockquote>
+    <p>
+      The two conditions that follow are a public-service vehicle of 20,000 pounds gross vehicle weight
+      rating or less, and a public-safety vehicle of 10,000 pounds or less. Each must bear an official
+      emblem or other visible designation. The section does not name a recreational vehicle or a boat.
+      This page does not treat that sentence as a rule for an RV.
+    </p>
+    <h2>Public roadways</h2>
+    <p>
+      <a href="https://www.azleg.gov/ars/33/01818.htm" rel="noopener noreferrer">A.R.S. § 33-1818</a>
+      is titled “Community authority over public roadways; vote of the membership; applicability.”
+      Subsection A says that for a planned community whose declaration is recorded after December 31,
+      2014, after the period of declarant control, and notwithstanding any provision in the community
+      documents, an association “has no authority over and shall not regulate any roadway for which the
+      ownership has been dedicated to or is otherwise held by a governmental entity.” Subsection C says
+      the section “does not apply to any one-way streets, without regard to ownership, or to any
+      privately owned roadways.” The section does not name a recreational vehicle or a boat. Older
+      declarations have a membership-vote path in subsection B. This page does not decide how that vote
+      came out in any community.
+    </p>
+    <h2>An RV park rental is a different statute</h2>
+    <p>
+      <a href="https://www.azleg.gov/ars/33/02101.htm" rel="noopener noreferrer">A.R.S. § 33-2101</a>
+      says its chapter applies to a recreational vehicle space rented in a recreational vehicle park or
+      mobile home park by the same tenant for more than 180 consecutive days. That is landlord-tenant
+      law for a park space. It is not a rule for parking on a planned-community lot.
+    </p>
+    <h2>What the silence does not decide</h2>
+    <ul>
+      <li>
+        No statute found is not a statement that an association may not adopt a parking rule. The
+        declaration, the bylaws, and the city or county code still have to be read.
+      </li>
+      <li>
+        <a href="https://www.azleg.gov/ars/33/01802.htm" rel="noopener noreferrer">A.R.S. § 33-1802</a>
+        defines “planned community” for that chapter and excludes a condominium governed by chapter 9
+        and a timeshare governed by chapter 20. This page does not read a condominium document.
+      </li>
+    </ul>
+    <h2>Off-site storage is a different question</h2>
+    <p>
+      A facility listing in this directory is a storage lot, not a statement that an association allows
+      the vehicle at the house. {arizona.cities.length} Arizona city pages list those lots.
+    </p>
+    <ul>
+      {
+        arizona.cities.map((city) => (
+          <li>
+            <a href={href(`/cities/${city.id}/`)}>
+              {city.city}, {city.state_code}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </article>
+</Base>
