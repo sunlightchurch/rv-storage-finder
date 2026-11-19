@@ -81,7 +81,10 @@ const icons = [
   />
   <div class="listing-body">
     <header class="listing-head">
-      <h3>{listing.name}</h3>
+      <h3>
+        {listing.name}
+        {listing.waitlist && <span class="badge">Waitlist reported</span>}
+      </h3>
       <address>
         {listing.street}<br />
         {listing.city}, {listing.state_code}{listing.postal_code ? ` ${listing.postal_code}` : ''}
