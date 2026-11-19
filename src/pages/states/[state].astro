@@ -92,6 +92,8 @@ const schema = pageGraph([
           <p>{city.summary}</p>
           <p>
             <a href={href(`/cities/${city.id}/`)}>All {city.city} listings</a>
+            {' · '}
+            <a href={href(`/costs/${city.id}/`)}>Monthly prices</a>
           </p>
           <FindMore city={city} />
         </section>

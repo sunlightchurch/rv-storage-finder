@@ -1,0 +1,180 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import PriceTable from '../../components/PriceTable.astro';
+import { formatDate } from '../../lib/format';
+import { getCities, getCity, getState, getStates, href, stateSlug } from '../../lib/data';
+import {
+  cityCostDescription,
+  formatMoney,
+  monthlySpan,
+  parsePriceNote,
+  stateCostDescription,
+} from '../../lib/prices';
+import { breadcrumbNode, faqNode, pageGraph, webPageNode } from '../../lib/schema';
+
+export function getStaticPaths() {
+  const paths = [
+    ...getCities().map((city) => ({ params: { slug: city.id }, props: { kind: 'city' as const } })),
+    ...getStates().map((state) => ({ params: { slug: state.slug }, props: { kind: 'state' as const } })),
+  ];
+  const seen = new Set<string>();
+  for (const path of paths) {
+    if (seen.has(path.params.slug)) throw new Error(`Duplicate cost page slug ${path.params.slug}.`);
+    seen.add(path.params.slug);
+  }
+  return paths;
+}
+
+const { kind } = Astro.props;
+const slug = Astro.params.slug!;
+
+const city = kind === 'city' ? getCity(slug) : null;
+const state = kind === 'state' ? getState(slug) : null;
+const sourceListings = city ? city.listings : state!.cities.flatMap((item) => item.listings);
+const span = monthlySpan(sourceListings.map((listing) => parsePriceNote(listing.price_notes).monthly));
+const total = sourceListings.length;
+const latest = (city ? city.listings : state!.cities.flatMap((item) => item.listings))
+  .map((listing) => listing.last_verified)
+  .sort()
+  .at(-1);
+
+const title = city
+  ? `Monthly RV storage prices in ${city.city}, ${city.state_code} | RV Storage Finder`
+  : `Monthly RV storage prices in ${state!.name} | RV Storage Finder`;
+const description = city
+  ? cityCostDescription({ city: city.city, state: city.state, total, span })
+  : stateCostDescription({ state: state!.name, total, span });
+const path = `/costs/${slug}/`;
+const crumbs = city
+  ? [
+      { label: 'Home', path: '/' },
+      { label: 'Prices', path: '/costs/' },
+      { label: city.state, path: `/costs/${stateSlug(city.state)}/` },
+      { label: city.city, path },
+    ]
+  : [
+      { label: 'Home', path: '/' },
+      { label: 'Prices', path: '/costs/' },
+      { label: state!.name, path },
+    ];
+const range =
+  span.low == null || span.high == null
+    ? 'No monthly dollar amount was printed.'
+    : span.low === span.high
+      ? `The published monthly figure is ${formatMoney(span.low)}.`
+      : `Published monthly figures run from ${formatMoney(span.low)} to ${formatMoney(span.high)}.`;
+const faqs = [
+  {
+    q: city ? `How many ${city.city} facilities published a monthly price?` : `How many ${state!.name} facilities published a monthly price?`,
+    a: `${span.count} of ${total} facilities printed a dollar amount next to a month. ${range} A note that names a dollar amount without saying it is monthly is left off this total.`,
+  },
+  {
+    q: 'Is the lowest figure the price I will pay?',
+    a: 'No. It is the smallest amount that page tied to a month. It may be a short space, a promotion, or one size in a list. The facility row keeps every monthly figure that page printed.',
+  },
+];
+const rows = city
+  ? city.listings.map((listing) => {
+      const note = parsePriceNote(listing.price_notes);
+      return {
+        name: listing.name,
+        place: '',
+        href: href(`/cities/${city.id}/#${listing.slug}`),
+        monthly: note.monthly,
+        perFoot: note.perFoot,
+        checked: formatDate(listing.last_verified),
+      };
+    })
+  : state!.cities.flatMap((item) =>
+      item.listings.map((listing) => {
+        const note = parsePriceNote(listing.price_notes);
+        return {
+          name: listing.name,
+          place: `${item.city}, ${item.state_code}`,
+          href: href(`/cities/${item.id}/#${listing.slug}`),
+          monthly: note.monthly,
+          perFoot: note.perFoot,
+          checked: formatDate(listing.last_verified),
+        };
+      }),
+    );
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: latest }),
+  breadcrumbNode(crumbs),
+  faqNode(faqs),
+]);
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <div class="wrap">
+    <Breadcrumbs items={crumbs} />
+    <h1>{city ? `Monthly prices in ${city.city}` : `Monthly prices in ${state!.name}`}</h1>
+    <p class="summary">{description}</p>
+    <p class="legend">
+      Checked through <time datetime={latest}>{latest ? formatDate(latest) : ''}</time>. A per-foot rate is
+      not turned into a monthly total until you enter a length.
+    </p>
+    {
+      state && (
+        <div class="table-wrap">
+          <table>
+            <caption>Cities in {state.name}</caption>
+            <thead>
+              <tr>
+                <th scope="col">City</th>
+                <th scope="col">Facilities</th>
+                <th scope="col">With a monthly figure</th>
+                <th scope="col">Published range</th>
+              </tr>
+            </thead>
+            <tbody>
+              {state.cities.map((item) => {
+                const itemSpan = monthlySpan(item.listings.map((listing) => parsePriceNote(listing.price_notes).monthly));
+                return (
+                  <tr>
+                    <th scope="row">
+                      <a href={href(`/costs/${item.id}/`)}>{item.city}</a>
+                    </th>
+                    <td>{item.listings.length}</td>
+                    <td>{itemSpan.count}</td>
+                    <td>
+                      {itemSpan.low == null || itemSpan.high == null
+                        ? 'Not listed'
+                        : itemSpan.low === itemSpan.high
+                          ? formatMoney(itemSpan.low)
+                          : `${formatMoney(itemSpan.low)}–${formatMoney(itemSpan.high)}`}
+                    </td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+      )
+    }
+    <PriceTable
+      rows={rows}
+      rootId={`prices-${slug}`}
+      caption={city ? `Published figures in ${city.city}` : `Published figures in ${state!.name}`}
+    />
+    <section class="faq">
+      <h2>Questions</h2>
+      {
+        faqs.map((faq) => (
+          <>
+            <h3>{faq.q}</h3>
+            <p>{faq.a}</p>
+          </>
+        ))
+      }
+    </section>
+    <p class="cross">
+      {city && <a href={href(`/cities/${city.id}/`)}>All {city.city} listings</a>}
+      {city && <a href={href(`/costs/${stateSlug(city.state)}/`)}>{city.state} prices</a>}
+      {state && <a href={href(`/states/${state.slug}/`)}>All {state.name} listings</a>}
+      <a href={href('/costs/')}>All published prices</a>
+      <a href={href('/guide/')}>How to read a storage price</a>
+    </p>
+  </div>
+</Base>
