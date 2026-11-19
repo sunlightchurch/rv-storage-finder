@@ -92,6 +92,11 @@ const icons = [
         {listing.street}<br />
         {listing.city}, {listing.state_code}{listing.postal_code ? ` ${listing.postal_code}` : ''}
       </address>
+      <label class="compare-pick">
+        <input type="checkbox" data-compare-pick value={listing.slug} />
+        Compare
+        <span class="sr-only">{listing.name}</span>
+      </label>
     </header>
     <p class="distance-note" data-distance-note hidden></p>
     <p class="fit-note" data-fit-note hidden></p>
