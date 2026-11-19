@@ -518,6 +518,7 @@ export function allPublicPaths(): { path: string; lastmod: string }[] {
     { path: '/guide/', lastmod: latest },
     { path: '/checklists/seasonal/', lastmod: latest },
     { path: '/checklists/security/', lastmod: latest },
+    { path: '/insurance/', lastmod: '2026-11-19' },
     { path: '/costs/', lastmod: latest },
     { path: '/about/', lastmod: latest },
     { path: '/rules/', lastmod: '2026-11-19' },
