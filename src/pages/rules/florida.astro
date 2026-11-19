@@ -1,0 +1,120 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { getState, href } from '../../lib/data';
+import { breadcrumbNode, pageGraph, webPageNode } from '../../lib/schema';
+
+const title = 'Florida HOA rules for storing an RV or boat | RV Storage Finder';
+const description =
+  'Florida Statutes section 720.3045 is quoted from the Senate site, read November 19, 2026. It limits some HOA bans on RVs and boats that are not visible from listed places. Not legal advice.';
+const path = '/rules/florida/';
+const checked = '2026-11-19';
+const florida = getState('florida');
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'HOA rules', path: '/rules/' },
+  { label: 'Florida', path },
+];
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: checked }),
+  breadcrumbNode(crumbs),
+]);
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <article class="wrap prose">
+    <Breadcrumbs items={crumbs} />
+    <h1>Florida HOA rules for an RV or boat on a parcel</h1>
+    <p>
+      This page quotes the Florida Statutes. It is not legal advice, not a ruling on your declaration,
+      and not a substitute for the city or county code where the parcel sits.
+    </p>
+    <p>
+      Checked <time datetime={checked}>November 19, 2026</time> on two official copies. The operative
+      sentence matched on the
+      <a href="https://www.flsenate.gov/Laws/Statutes/2025/720.3045" rel="noopener noreferrer">2025 Florida Statutes, section 720.3045</a>
+      (Florida Senate) and on
+      <a href="https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0720/Sections/0720.3045.html" rel="noopener noreferrer">Online Sunshine’s 2026 statutes, section 720.3045</a>.
+      The Senate history line reads: s. 3, ch. 2023-64; s. 6, ch. 2024-221. This page does not state an
+      effective date.
+    </p>
+
+    <h2>The sentence</h2>
+    <blockquote>
+      <p>
+        720.3045 Installation, display, and storage of items.— Regardless of any covenants, restrictions,
+        bylaws, rules, or requirements of an association, and unless prohibited by general law or local
+        ordinance, an association may not restrict parcel owners or their tenants from installing,
+        displaying, or storing any items on a parcel which are not visible from the parcel’s frontage or
+        an adjacent parcel, an adjacent common area, or a community golf course, including, but not
+        limited to, artificial turf, boats, flags, vegetable gardens, clotheslines, and recreational
+        vehicles.
+      </p>
+    </blockquote>
+
+    <h2>What that sentence is attached to</h2>
+    <p>
+      The section sits in Chapter 720, Homeowners’ Associations. In that chapter, section 720.301, read
+      the same day on the
+      <a href="https://www.flsenate.gov/Laws/Statutes/2025/720.301" rel="noopener noreferrer">Florida Senate’s 2025 copy</a>,
+      defines the words the storage sentence uses:
+    </p>
+    <ul>
+      <li>
+        Subsection (9) says “homeowners’ association” or “association” means a Florida corporation
+        responsible for the operation of a community or a mobile home subdivision, with voting membership
+        made up of parcel owners or their agents, or a combination of them, where membership is a
+        mandatory condition of parcel ownership, and which is authorized to impose assessments that, if
+        unpaid, may become a lien on the parcel. The same subsection says the term does not include a
+        community development district or other similar special taxing district created pursuant to
+        statute.
+      </li>
+      <li>
+        Subsection (11) says “parcel” means a platted or unplatted lot, tract, unit, or other subdivision
+        of real property within a community, as described in the declaration, which is capable of
+        separate conveyance, and of which the parcel owner, or an association in which the parcel owner
+        must be a member, is obligated by the governing documents to be a member of an association that
+        serves the community and to pay assessments that, if not paid, may result in a lien.
+      </li>
+    </ul>
+    <p>
+      The storage sentence does not say it governs a condominium association that is outside Chapter 720.
+      It also names items stored on a parcel. It does not, in this sentence, assign a right to store an
+      RV on a common area, on a street, or on someone else’s parcel.
+    </p>
+
+    <h2>Visibility, the driveway, and local law</h2>
+    <p>
+      The ban in the sentence is on restricting items “which are not visible from” the parcel’s frontage
+      or an adjacent parcel, an adjacent common area, or a community golf course. Boats and recreational
+      vehicles are in the “including, but not limited to” list. An RV or boat that is visible from the
+      frontage is outside those “not visible” words, so this sentence does not say the association is
+      barred from restricting it. A driveway that the street can see is a frontage question, not a
+      promise that the statute allows the parking.
+    </p>
+    <p>
+      The opening clause says the limit applies “unless prohibited by general law or local ordinance.” A
+      county or city rule can still forbid the storage. The sentence also says “regardless of any
+      covenants, restrictions, bylaws, rules, or requirements of an association.” This page does not
+      decide whether that clause changes a declaration recorded before the statute, or how a judge would
+      apply it to a particular set of documents.
+    </p>
+
+    <h2>Off-site storage is a different question</h2>
+    <p>
+      A facility listing in this directory is a storage lot, not a statement that an association allows
+      the vehicle at the house. {florida.cities.length} Florida city pages list those lots.
+    </p>
+    <ul>
+      {
+        florida.cities.map((city) => (
+          <li>
+            <a href={href(`/cities/${city.id}/`)}>
+              {city.city}, {city.state_code}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </article>
+</Base>
