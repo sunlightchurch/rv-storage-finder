@@ -1,0 +1,67 @@
+id: val-verde
+name: Val Verde County
+state: Texas
+state_code: TX
+summary: >-
+  RV and boat storage in Val Verde County with a street address from each
+  facility page. Towns on this page: Del Rio.
+listings:
+  - slug: lakeridge-boat-storage-del-rio
+    name: Lakeridge Boat Storage
+    street: 7670 Hwy 90 W
+    city: Del Rio
+    state_code: TX
+    postal_code: "78840"
+    lat: null
+    lng: null
+    phone: "(915) 269-9900"
+    website: https://www.lakeridgeboatstorage.com/
+    vehicles: [boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: "9:00 AM - 5:00 PM daily"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The Del Rio page offers boat storage near Lake Amistad. Office hours are 9:00 am to 5:00 pm every day."
+    sources:
+      - url: https://www.lakeridgeboatstorage.com/
+        title: Lakeridge Boat Storage
+    last_verified: "2026-11-20"
+
+  - slug: lakeridge-boat-storage-del-rio-2
+    name: Lakeridge Boat Storage #2
+    street: 8969 US Hwy 90 W
+    city: Del Rio
+    state_code: TX
+    postal_code: "78840"
+    lat: null
+    lng: null
+    phone: "(915) 269-9900"
+    website: null
+    vehicles: [boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The same Del Rio page lists a second storage location at 8969 US Hwy 90 W. The page does not give separate hours or prices for this lot."
+    sources:
+      - url: https://www.lakeridgeboatstorage.com/
+        title: Lakeridge Boat Storage locations
+    last_verified: "2026-11-20"

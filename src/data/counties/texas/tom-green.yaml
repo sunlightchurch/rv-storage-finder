@@ -1,0 +1,37 @@
+id: tom-green
+name: Tom Green County
+state: Texas
+state_code: TX
+summary: >-
+  RV and boat storage in Tom Green County with a street address from each
+  facility page. Towns on this page: San Angelo.
+listings:
+  - slug: us-87-rv-boat-storage-san-angelo
+    name: 87 S RV & Boat Storage
+    street: 1214 US 87 S
+    city: San Angelo
+    state_code: TX
+    postal_code: "76904"
+    lat: null
+    lng: null
+    phone: "(325) 944-7936"
+    website: https://www.sanangelorvboatstorage.com/contact-us
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The contact page gives this physical address for 87 S RV & Boat Storage in San Angelo. It does not print cover type, hours, or a rate."
+    sources:
+      - url: https://www.sanangelorvboatstorage.com/contact-us
+        title: 87 S RV and Boat Storage contact
+    last_verified: "2026-11-20"

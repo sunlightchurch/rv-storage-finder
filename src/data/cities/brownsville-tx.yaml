@@ -309,3 +309,33 @@ listings:
       - url: "https://www.uhaul.com/Locations/Self-Storage-near-Los-Fresnos-TX-78566/024064"
         title: Real Storage location page
     last_verified: "2026-11-20"
+
+  - slug: spi-boat-storage
+    name: South Padre Island Boat Storage
+    street: 111 W Corral St
+    city: South Padre Island
+    state_code: TX
+    postal_code: "78597"
+    lat: null
+    lng: null
+    phone: "(888) 709-8283"
+    website: https://spiexcursions.com/boatstoragesouthpadreisland/
+    vehicles: [boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: "Boat storage is $10 a day, or $125 per month if booked by phone."
+    billing_term: short-term
+    waitlist: null
+    notes: "The South Padre page offers fenced storage for fishing boats and jet skis at this address, a block from the Palm Street boat ramp. It says the lot is well lit and monitored."
+    sources:
+      - url: https://spiexcursions.com/boatstoragesouthpadreisland/
+        title: South Padre Island boat storage
+    last_verified: "2026-11-20"
