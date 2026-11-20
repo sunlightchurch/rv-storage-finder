@@ -534,3 +534,303 @@ listings:
       - url: https://www.vanguardstorage.com/7425-us-287-frontage-rd-arlington-tx-76001
         title: Official Arlington page
     last_verified: "2026-11-18"
+
+  - slug: uhaul-045430
+    name: Lone Star Storage
+    street: "3588 Golden Triangle Blvd #100"
+    city: Fort Worth
+    state_code: TX
+    postal_code: 76244
+    lat: null
+    lng: null
+    phone: (817) 431-3825
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Fort-Worth-TX-76244/045430"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $59.00 per month (1st Floor, Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Fort-Worth-TX-76244/045430"
+        title: Lone Star Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-835054
+    name: "U-Haul Moving & Storage at Downtown Main St"
+    street: 1117 E Main St
+    city: Grand Prairie
+    state_code: TX
+    postal_code: 75050
+    lat: null
+    lng: null
+    phone: (972) 262-5116
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Grand-Prairie-TX-75050/835054"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Thur: 7 am - 7 pm Fri: 7 am - 8 pm Sat: 7 am - 7"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $79.95 per month (Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Thur: 7 am - 7 pm Fri: 7 am - 8 pm Sat: 7 am - 7."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Grand-Prairie-TX-75050/835054"
+        title: "U-Haul Moving & Storage at Downtown Main St location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1036604
+    name: Elizabeth Creek RV Storage
+    street: 13376 John Day Rd
+    city: Haslet
+    state_code: TX
+    postal_code: 76052
+    lat: null
+    lng: null
+    phone: (817) 210-4070
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Haslet-TX-76052/1036604"
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $100.00 per month (Outside Level, No Electricity); $125.00 per month (Outside Level, No Electricity); $225.00 per month (Covered Level, Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Haslet-TX-76052/1036604"
+        title: Elizabeth Creek RV Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-835043
+    name: "U-Haul Moving & Storage at I-20 & 360"
+    street: 3020 I-20 W
+    city: Grand Prairie
+    state_code: TX
+    postal_code: 75052
+    lat: null
+    lng: null
+    phone: (972) 623-3575
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Grand-Prairie-TX-75052/835043"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $169.95 per month (Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Grand-Prairie-TX-75052/835043"
+        title: "U-Haul Moving & Storage at I-20 & 360 location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-859027
+    name: "U-Haul Moving & Storage of Lake Lewisville"
+    street: 811 E State Hwy 121 Business
+    city: Lewisville
+    state_code: TX
+    postal_code: 75057
+    lat: null
+    lng: null
+    phone: (972) 420-1211
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Lewisville-TX-75057/859027"
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $184.95 per month (Outside Level, No Climate); $189.95 per month (Outside Level, No Climate); $209.95 per month (Covered Level, No Climate); $229.95 per month (Covered Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Lewisville-TX-75057/859027"
+        title: "U-Haul Moving & Storage of Lake Lewisville location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-006555
+    name: SQP Truck Parking And Storage
+    street: 3460 CR 341
+    city: McKinney
+    state_code: TX
+    postal_code: 75071
+    lat: null
+    lng: null
+    phone: (214) 385-4215
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-McKinney-TX-75071/006555"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $75.00 per month (1st Floor, Outside Level, Drivethrough); $140.00 per month (1st Floor, Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-McKinney-TX-75071/006555"
+        title: SQP Truck Parking And Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1035910
+    name: Squeezepenny Storage (1)
+    street: 4085 Fm 2933
+    city: Mckinney
+    state_code: TX
+    postal_code: 75071
+    lat: null
+    lng: null
+    phone: (214) 326-3781
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Mckinney-TX-75071/1035910"
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $140.00 per month (1st Floor, Outside Level, Drivethrough); $150.00 per month (1st Floor, Covered Level, Drivethrough)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Mckinney-TX-75071/1035910"
+        title: Squeezepenny Storage (1) location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1038701
+    name: Squeezepenny Storage (3)
+    street: 3421 County Road 341
+    city: Mckinney
+    state_code: TX
+    postal_code: 75071
+    lat: null
+    lng: null
+    phone: (214) 326-3781
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Mckinney-TX-75071/1038701"
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $90.00 per month (1st Floor, Outside Level, No Climate); $125.00 per month (Covered Level, Drivethrough, No Climate); $140.00 per month (1st Floor, Outside Level, No Climate); $165.00 per month (1st Floor, Covered Level, Drivethrough)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Mckinney-TX-75071/1038701"
+        title: Squeezepenny Storage (3) location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-931075
+    name: "U-Haul Moving & Storage of East McKinney"
+    street: 345 E University Dr
+    city: McKinney
+    state_code: TX
+    postal_code: 75071
+    lat: null
+    lng: null
+    phone: (972) 548-5035
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-McKinney-TX-75071/931075"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $94.95 per month (Outside Level, No Electricity); $119.95 per month (Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-McKinney-TX-75071/931075"
+        title: "U-Haul Moving & Storage of East McKinney location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-931025
+    name: "U-Haul Moving & Storage of West McKinney"
+    street: 10061 W University Dr
+    city: McKinney
+    state_code: TX
+    postal_code: 75071
+    lat: null
+    lng: null
+    phone: (972) 548-1699
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-McKinney-TX-75071/931025"
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $104.95 per month (1st Floor, Outside Level, No Climate); $154.95 per month (Covered Level, No Climate, Electricity); $154.95 per month (1st Floor, Covered Level, No Climate); $169.95 per month (Covered Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-McKinney-TX-75071/931025"
+        title: "U-Haul Moving & Storage of West McKinney location page"
+    last_verified: "2026-11-20"

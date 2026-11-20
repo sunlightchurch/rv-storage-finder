@@ -1,0 +1,157 @@
+id: hood
+name: Hood County
+state: Texas
+state_code: TX
+summary: >-
+  RV and boat storage in Hood County with a street address from each facility
+  page. Towns on this page: Granbury, Lipan.
+listings:
+  - slug: uhaul-046441
+    name: Westgate Storage LLC
+    street: 3118 W Hwy 377
+    city: Granbury
+    state_code: TX
+    postal_code: 76048
+    lat: null
+    lng: null
+    phone: (817) 573-1108
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Granbury-TX-76048/046441"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $115.00 per month (No Climate, Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Granbury-TX-76048/046441"
+        title: Westgate Storage LLC location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1039513
+    name: Western Gate Moving LLC
+    street: 4315 Weatherford Hwy
+    city: Granbury
+    state_code: TX
+    postal_code: 76049
+    lat: null
+    lng: null
+    phone: (940) 328-3864
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Granbury-TX-76049/1039513"
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $90.00 per month (1st Floor, Covered Level, Drivethrough); $95.00 per month (1st Floor, Covered Level, Drivethrough)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Granbury-TX-76049/1039513"
+        title: Western Gate Moving LLC location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-056064
+    name: U Loc It Storage
+    street: 1951 Acton Hwy
+    city: Granbury
+    state_code: TX
+    postal_code: 76049
+    lat: null
+    lng: null
+    phone: (817) 326-6210
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Granbury-TX-76049/056064"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 6 am - 9 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $40.00 per month (Outside Level)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 6 am - 9 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Granbury-TX-76049/056064"
+        title: U Loc It Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-044683
+    name: Brians Place LLC
+    street: 34488 US Hwy 281
+    city: Lipan
+    state_code: TX
+    postal_code: 76462
+    lat: null
+    lng: null
+    phone: (254) 646-2121
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Lipan-TX-76462/044683"
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $129.90 per month (1st Floor, Covered Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Lipan-TX-76462/044683"
+        title: Brians Place LLC location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1036673
+    name: Lipan Storage
+    street: 76462 Lipan Storage 20482 Hwy 281
+    city: Lipan
+    state_code: TX
+    postal_code: 76462
+    lat: null
+    lng: null
+    phone: (254) 646-3678
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Lipan-TX-76462/1036673"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 6 am - 11:30 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $50.00 per month."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 6 am - 11:30 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Lipan-TX-76462/1036673"
+        title: Lipan Storage location page
+    last_verified: "2026-11-20"

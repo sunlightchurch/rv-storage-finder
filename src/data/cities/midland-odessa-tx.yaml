@@ -327,3 +327,93 @@ listings:
   - url: "https://storageunitsodessa.com/rv-boat-storage"
     title: RV and boat storage page
   last_verified: '2026-11-18'
+
+- slug: uhaul-020569
+  name: CFC Self Storage
+  street: 4928 N Lamesa Rd
+  city: Midland
+  state_code: TX
+  postal_code: 79705
+  lat: null
+  lng: null
+  phone: (432) 218-4002
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Midland-TX-79705/020569"
+  vehicles: [rv, boat]
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  access_hours: "Mon-Sun: 6 am - 10 pm"
+  price_notes: null
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 6 am - 10 pm."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Midland-TX-79705/020569"
+      title: CFC Self Storage location page
+  last_verified: "2026-11-20"
+
+- slug: uhaul-740072
+  name: "U-Haul Moving & Storage of Country Club"
+  street: 3463 Billy Hext Rd
+  city: Odessa
+  state_code: TX
+  postal_code: 79765
+  lat: null
+  lng: null
+  phone: (432) 366-4422
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Odessa-TX-79765/740072"
+  vehicles: [rv, boat]
+  storage_types: [open]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: false
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  access_hours: "Mon-Sun: 5 am - 10 pm"
+  price_notes: "Spaces tagged RV, boat, and vehicle parking: $74.95 per month (Outside Level, No Climate); $99.95 per month (Outside Level, No Climate, No Electricity)."
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Odessa-TX-79765/740072"
+      title: "U-Haul Moving & Storage of Country Club location page"
+  last_verified: "2026-11-20"
+
+- slug: uhaul-740086
+  name: "U-Haul Moving & Storage of South East Odessa"
+  street: 6190 Cargo Rd
+  city: Odessa
+  state_code: TX
+  postal_code: 79762
+  lat: null
+  lng: null
+  phone: (432) 614-9358
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Odessa-TX-79762/740086"
+  vehicles: [rv, boat]
+  storage_types: [covered, enclosed]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  access_hours: "Mon-Sun: 5 am - 10 pm"
+  price_notes: "Spaces tagged RV, boat, and vehicle parking: $149.95 per month (Covered Level, No Climate); $244.95 per month (Enclosed Level, No Climate)."
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Odessa-TX-79762/740086"
+      title: "U-Haul Moving & Storage of South East Odessa location page"
+  last_verified: "2026-11-20"

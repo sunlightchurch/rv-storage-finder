@@ -265,3 +265,63 @@ listings:
   - url: "https://storagextx.com/locations/lubbock-tx-79423/"
     title: Storage X Lubbock Hwy 87 page
   last_verified: '2026-11-18'
+
+- slug: uhaul-052609
+  name: A Storage Place
+  street: 11209 Slide Rd
+  city: Lubbock
+  state_code: TX
+  postal_code: 79424
+  lat: null
+  lng: null
+  phone: (806) 589-2013
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Lubbock-TX-79424/052609"
+  vehicles: [rv, boat]
+  storage_types: [covered]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  access_hours: "Mon-Sun: 6 am - 10 pm"
+  price_notes: "Spaces tagged RV, boat, and vehicle parking: $94.00 per month (1st Floor, Covered Level, No Climate); $99.00 per month (1st Floor, Covered Level, No Climate)."
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 6 am - 10 pm."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Lubbock-TX-79424/052609"
+      title: A Storage Place location page
+  last_verified: "2026-11-20"
+
+- slug: uhaul-1033239
+  name: Storage Monkey
+  street: 6211 114th St
+  city: Lubbock
+  state_code: TX
+  postal_code: 79424
+  lat: null
+  lng: null
+  phone: (806) 500-5103
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Lubbock-TX-79424/1033239"
+  vehicles: [rv, boat]
+  storage_types: [open]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: false
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  access_hours: "Mon-Sun: 6 am - 10 pm"
+  price_notes: "Spaces tagged RV, boat, and vehicle parking: $50.00 per month (Outside Level, Drivethrough, No Climate)."
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 6 am - 10 pm."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Lubbock-TX-79424/1033239"
+      title: Storage Monkey location page
+  last_verified: "2026-11-20"

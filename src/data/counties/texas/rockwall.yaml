@@ -1,0 +1,97 @@
+id: rockwall
+name: Rockwall County
+state: Texas
+state_code: TX
+summary: >-
+  RV and boat storage in Rockwall County with a street address from each
+  facility page. Towns on this page: Rockwall, Royse City.
+listings:
+  - slug: uhaul-1036038
+    name: Lock and Leave Self Storage
+    street: 4480 I-30 Frontage Rd
+    city: Rockwall
+    state_code: TX
+    postal_code: 75087
+    lat: null
+    lng: null
+    phone: (214) 802-6373
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Rockwall-TX-75087/1036038"
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $40.00 per month (1st Floor, Outside Level, Drivethrough); $59.99 per month (1st Floor, Outside Level, Drivethrough); $64.99 per month (1st Floor, Outside Level, Drivethrough); $180.00 per month (1st Floor, Covered Level, Drivethrough)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Rockwall-TX-75087/1036038"
+        title: Lock and Leave Self Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-050569
+    name: BTA Self Storage Rockwall
+    street: 4422 Hwy 276
+    city: Rockwall
+    state_code: TX
+    postal_code: 75032
+    lat: null
+    lng: null
+    phone: (972) 722-1901
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Rockwall-TX-75032/050569"
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 6 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $69.00 per month (1st Floor, Outside Level, No Climate); $79.00 per month (Lower Level, Outside Level, No Climate); $159.00 per month (Lower Level, Covered Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 6 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Rockwall-TX-75032/050569"
+        title: BTA Self Storage Rockwall location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-026212
+    name: "Longhorn Self Storage & RV Park"
+    street: 4940 Hwy 66
+    city: Royse City
+    state_code: TX
+    postal_code: 75189
+    lat: null
+    lng: null
+    phone: (903) 213-4348
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Royse-City-TX-75189/026212"
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 6 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $99.00 per month (Covered Level); $149.00 per month (Covered Level, Electricity); $164.00 per month (Covered Level, Electricity); $279.00 per month (Covered Level, Drivethrough, Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 6 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Royse-City-TX-75189/026212"
+        title: "Longhorn Self Storage & RV Park location page"
+    last_verified: "2026-11-20"

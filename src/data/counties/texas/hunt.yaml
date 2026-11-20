@@ -1,0 +1,67 @@
+id: hunt
+name: Hunt County
+state: Texas
+state_code: TX
+summary: >-
+  RV and boat storage in Hunt County with a street address from each facility
+  page. Towns on this page: Campbell, Greenville.
+listings:
+  - slug: uhaul-1037336
+    name: i30 Parking LLC
+    street: 6122 E. Interstate 30
+    city: Campbell
+    state_code: TX
+    postal_code: 75422
+    lat: null
+    lng: null
+    phone: (903) 717-7275
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Campbell-TX-75422/1037336"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $125.00 per month (1st Floor); $145.00 per month (1st Floor, Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Campbell-TX-75422/1037336"
+        title: i30 Parking LLC location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-048444
+    name: 380 Self Storage LLC
+    street: 6301 Old US 380
+    city: Greenville
+    state_code: TX
+    postal_code: 75401
+    lat: null
+    lng: null
+    phone: (903) 303-5254
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Greenville-TX-75401/048444"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Greenville-TX-75401/048444"
+        title: 380 Self Storage LLC location page
+    last_verified: "2026-11-20"

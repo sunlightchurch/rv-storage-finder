@@ -142,3 +142,63 @@ listings:
       - url: https://www.youngsrvstorage.com/pages/rv-storage-abilene-tx
         title: Young's RV Storage in Abilene
     last_verified: "2026-11-20"
+
+  - slug: uhaul-1038764
+    name: MDJ Storage LLC
+    street: 433 Clark Rd
+    city: Abilene
+    state_code: TX
+    postal_code: 79602
+    lat: null
+    lng: null
+    phone: (325) 864-3973
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Abilene-TX-79602/1038764"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $69.00 per month (Lower Level, Outside Level, Drivethrough); $99.00 per month (Lower Level, Outside Level, Drivethrough)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Abilene-TX-79602/1038764"
+        title: MDJ Storage LLC location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-050520
+    name: Abilene Rv And Boat Storage
+    street: 102 Market St
+    city: Tye
+    state_code: TX
+    postal_code: 79563
+    lat: null
+    lng: null
+    phone: (325) 672-0688
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Tye-TX-79563/050520"
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $225.00 per month (Covered Level, Electricity); $299.00 per month (Enclosed Level, Electricity); $349.00 per month (Enclosed Level, Electricity); $399.00 per month (Enclosed Level, Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Tye-TX-79563/050520"
+        title: Abilene Rv And Boat Storage location page
+    last_verified: "2026-11-20"

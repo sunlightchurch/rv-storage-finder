@@ -1,0 +1,37 @@
+id: gillespie
+name: Gillespie County
+state: Texas
+state_code: TX
+summary: >-
+  RV and boat storage in Gillespie County with a street address from each
+  facility page. Towns on this page: Fredericksburg.
+listings:
+  - slug: uhaul-1038785
+    name: Stonewall Storage
+    street: 11905 E Us Hwy 290
+    city: Fredericksburg
+    state_code: TX
+    postal_code: 78624
+    lat: null
+    lng: null
+    phone: (830) 733-0816
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Fredericksburg-TX-78624/1038785"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 6 am - 9 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $290.00 per month."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 6 am - 9 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Fredericksburg-TX-78624/1038785"
+        title: Stonewall Storage location page
+    last_verified: "2026-11-20"

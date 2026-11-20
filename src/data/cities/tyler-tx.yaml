@@ -187,3 +187,33 @@ listings:
   - url: "https://www.storagevillagetyler.com/"
     title: Official website
   last_verified: '2026-11-18'
+
+- slug: uhaul-1007887
+  name: All-Tex Storage
+  street: 17066 Fm 2493
+  city: Flint
+  state_code: TX
+  postal_code: 75762
+  lat: null
+  lng: null
+  phone: (903) 520-9381
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Bullard-TX-75757/1007887"
+  vehicles: [rv, boat]
+  storage_types: [open]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: true
+  access_hours: "Mon-Sun: 24 hours"
+  price_notes: "Spaces tagged RV, boat, and vehicle parking: $85.00 per month (Outside Level, No Climate)."
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Bullard-TX-75757/1007887"
+      title: All-Tex Storage location page
+  last_verified: "2026-11-20"

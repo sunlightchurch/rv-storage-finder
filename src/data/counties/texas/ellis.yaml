@@ -1,0 +1,97 @@
+id: ellis
+name: Ellis County
+state: Texas
+state_code: TX
+summary: >-
+  RV and boat storage in Ellis County with a street address from each facility
+  page. Towns on this page: Ennis, Midlothian, Waxahachie.
+listings:
+  - slug: uhaul-1036512
+    name: "Gresham Self Storage #1"
+    street: 1004 S I-45
+    city: Ennis
+    state_code: TX
+    postal_code: 75119
+    lat: null
+    lng: null
+    phone: (469) 992-5474
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Ennis-TX-75119/1036512"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 6 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $59.00 per month (Outside Level)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 6 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Ennis-TX-75119/1036512"
+        title: "Gresham Self Storage #1 location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-012411
+    name: "Patriot RV & Storage"
+    street: 3896 E FM 875
+    city: Midlothian
+    state_code: TX
+    postal_code: 76065
+    lat: null
+    lng: null
+    phone: (469) 253-4209
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Venus-TX-76084/012411"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 7 am - 7 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $65.99 per month; $85.99 per month; $105.99 per month (Drivethrough, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 7 am - 7 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Venus-TX-76084/012411"
+        title: "Patriot RV & Storage location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1028592
+    name: One Way Storage
+    street: 1103 W Hwy 287 Bypass
+    city: Waxahachie
+    state_code: TX
+    postal_code: 75165
+    lat: null
+    lng: null
+    phone: (972) 923-9797
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Waxahachie-TX-75165/1028592"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Waxahachie-TX-75165/1028592"
+        title: One Way Storage location page
+    last_verified: "2026-11-20"

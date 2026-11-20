@@ -249,3 +249,63 @@ listings:
       - url: https://southernopportunities.com/
         title: Official website
     last_verified: "2026-11-19"
+
+  - slug: uhaul-1037988
+    name: CINCO HERMANOS MINI STORAGE LLC
+    street: 36 Sam Perl Blvd
+    city: Brownsville
+    state_code: TX
+    postal_code: 78520
+    lat: null
+    lng: null
+    phone: (956) 801-2062
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Brownsville-TX-78520/1037988"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $69.00 per month (No Climate, No Electricity); $69.00 per month (Outside Level, No Climate, No Electricity); $69.00 per month (Outside Level, No Electricity); $88.00 per month (Outside Level, No Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Brownsville-TX-78520/1037988"
+        title: CINCO HERMANOS MINI STORAGE LLC location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-024064
+    name: Real Storage
+    street: 696 E Ocean Blvd
+    city: Los Fresnos
+    state_code: TX
+    postal_code: 78566
+    lat: null
+    lng: null
+    phone: (956) 233-7089
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Los-Fresnos-TX-78566/024064"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Fri: 9 am - 5 pm Sat-Sun: Closed"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $55.00 per month (1st Floor, Outside Level, Drivethrough)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Fri: 9 am - 5 pm Sat-Sun: Closed."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Los-Fresnos-TX-78566/024064"
+        title: Real Storage location page
+    last_verified: "2026-11-20"

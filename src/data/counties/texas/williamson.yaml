@@ -1,0 +1,37 @@
+id: williamson
+name: Williamson County
+state: Texas
+state_code: TX
+summary: >-
+  RV and boat storage in Williamson County with a street address from each
+  facility page. Towns on this page: Cedar Park.
+listings:
+  - slug: uhaul-756056
+    name: "U-Haul Moving & Storage of Cedar Park"
+    street: 700 S Bell Blvd
+    city: Cedar Park
+    state_code: TX
+    postal_code: 78613
+    lat: null
+    lng: null
+    phone: (512) 335-9261
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Cedar-Park-TX-78613/756056"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Cedar-Park-TX-78613/756056"
+        title: "U-Haul Moving & Storage of Cedar Park location page"
+    last_verified: "2026-11-20"

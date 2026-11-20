@@ -1,0 +1,37 @@
+id: mclennan
+name: McLennan County
+state: Texas
+state_code: TX
+summary: >-
+  RV and boat storage in McLennan County with a street address from each
+  facility page. Towns on this page: Lorena.
+listings:
+  - slug: uhaul-017628
+    name: Ritchie Road Self Storage
+    street: 511 Ritchie Rd
+    city: Lorena
+    state_code: TX
+    postal_code: 76655
+    lat: null
+    lng: null
+    phone: (254) 230-4965
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Lorena-TX-76655/017628"
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $47.50 per month (1st Floor, Outside Level, Drivethrough); $67.50 per month (1st Floor, Outside Level, Drivethrough); $75.00 per month (1st Floor, Outside Level, Drivethrough); $75.00 per month (1st Floor, Covered Level, Drivethrough)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Lorena-TX-76655/017628"
+        title: Ritchie Road Self Storage location page
+    last_verified: "2026-11-20"

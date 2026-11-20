@@ -1,0 +1,67 @@
+id: gregg
+name: Gregg County
+state: Texas
+state_code: TX
+summary: >-
+  RV and boat storage in Gregg County with a street address from each facility
+  page. Towns on this page: Longview, White Oak.
+listings:
+  - slug: uhaul-1027302
+    name: North Ranch Self Storage
+    street: 518 Henderson Lane
+    city: Longview
+    state_code: TX
+    postal_code: 75605
+    lat: null
+    lng: null
+    phone: (903) 663-2988
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Longview-TX-75605/1027302"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Longview-TX-75605/1027302"
+        title: North Ranch Self Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1030645
+    name: W.O. Storage LLC
+    street: 116 N White Oak Road
+    city: White Oak
+    state_code: TX
+    postal_code: 75693
+    lat: null
+    lng: null
+    phone: (903) 759-2472
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-White-Oak-TX-75693/1030645"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 7 am - 8 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 7 am - 8 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-White-Oak-TX-75693/1030645"
+        title: W.O. Storage LLC location page
+    last_verified: "2026-11-20"

@@ -1,0 +1,67 @@
+id: collin
+name: Collin County
+state: Texas
+state_code: TX
+summary: >-
+  RV and boat storage in Collin County with a street address from each
+  facility page. Towns on this page: Anna, Princeton.
+listings:
+  - slug: uhaul-041138
+    name: All Your Storage
+    street: 7700 Co Rd 513
+    city: Anna
+    state_code: TX
+    postal_code: 75409
+    lat: null
+    lng: null
+    phone: (469) 425-3623
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Anna-TX-75409/041138"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $60.00 per month (Outside Level, No Climate, No Electricity); $75.00 per month (Outside Level, No Climate, No Electricity); $90.00 per month (Outside Level, No Climate, No Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Anna-TX-75409/041138"
+        title: All Your Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1028769
+    name: Whitacre Storage
+    street: 4973 Fm 982
+    city: Princeton
+    state_code: TX
+    postal_code: 75407
+    lat: null
+    lng: null
+    phone: (214) 683-3343
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Princeton-TX-75407/1028769"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Princeton-TX-75407/1028769"
+        title: Whitacre Storage location page
+    last_verified: "2026-11-20"

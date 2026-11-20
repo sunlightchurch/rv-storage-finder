@@ -1,0 +1,67 @@
+id: aransas
+name: Aransas County
+state: Texas
+state_code: TX
+summary: >-
+  RV and boat storage in Aransas County with a street address from each
+  facility page. Towns on this page: Rockport.
+listings:
+  - slug: uhaul-1038144
+    name: Goose Island Park Storage
+    street: 1401 Eighth Street
+    city: Rockport
+    state_code: TX
+    postal_code: 78382
+    lat: null
+    lng: null
+    phone: (361) 230-3668
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Rockport-TX-78382/1038144"
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $80.00 per month (Outside Level, No Climate, No Electricity); $125.00 per month (No Climate, No Electricity); $175.00 per month (Covered Level, No Climate, No Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Rockport-TX-78382/1038144"
+        title: Goose Island Park Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-026702
+    name: 188 Storage
+    street: 510 State Hwy 188
+    city: Rockport
+    state_code: TX
+    postal_code: 78382
+    lat: null
+    lng: null
+    phone: (361) 386-2256
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Rockport-TX-78382/026702"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 4 am - 9 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $50.00 per month (1st Floor, Outside Level, ADA); $55.00 per month (1st Floor, Outside Level, ADA); $60.00 per month (1st Floor, Outside Level, ADA)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 4 am - 9 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Rockport-TX-78382/026702"
+        title: 188 Storage location page
+    last_verified: "2026-11-20"

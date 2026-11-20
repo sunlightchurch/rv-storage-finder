@@ -1,0 +1,67 @@
+id: travis
+name: Travis County
+state: Texas
+state_code: TX
+summary: >-
+  RV and boat storage in Travis County with a street address from each
+  facility page. Towns on this page: Manor, Pflugerville.
+listings:
+  - slug: uhaul-1038954
+    name: EPG Storage
+    street: 78653 EPG Storage 8017 Cele Rd
+    city: Manor
+    state_code: TX
+    postal_code: 78653
+    lat: null
+    lng: null
+    phone: (512) 203-2115
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Manor-TX-78653/1038954"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $100.00 per month (1st Floor, Outside Level, Drivethrough); $150.00 per month (1st Floor, Outside Level, Drivethrough)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Manor-TX-78653/1038954"
+        title: EPG Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-756032
+    name: "U-Haul Moving & Storage at Steeds Crossing"
+    street: 20607 FM Rd 685
+    city: Pflugerville
+    state_code: TX
+    postal_code: 78660
+    lat: null
+    lng: null
+    phone: (512) 251-2090
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Pflugerville-TX-78660/756032"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $124.95 per month (Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Pflugerville-TX-78660/756032"
+        title: "U-Haul Moving & Storage at Steeds Crossing location page"
+    last_verified: "2026-11-20"

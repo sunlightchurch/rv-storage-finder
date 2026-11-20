@@ -458,3 +458,153 @@ listings:
       - url: https://storagemaxtx.com/storagemax-boat-rv-storage/
         title: Boat and RV storage page
     last_verified: "2026-11-18"
+
+  - slug: uhaul-756062
+    name: "U-Haul Moving & Storage at Hwy 620"
+    street: 11320 Hwy 620 N
+    city: Austin
+    state_code: TX
+    postal_code: 78726
+    lat: null
+    lng: null
+    phone: (512) 258-1056
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Austin-TX-78726/756062"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Austin-TX-78726/756062"
+        title: "U-Haul Moving & Storage at Hwy 620 location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-737060
+    name: "U-Haul Moving & Storage at Burnet Rd & FM 2222"
+    street: 6610 Burnet Rd
+    city: Austin
+    state_code: TX
+    postal_code: 78757
+    lat: null
+    lng: null
+    phone: (512) 302-3604
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Austin-TX-78757/737060"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $124.95 per month (Outside Level, No Climate); $149.95 per month (Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Austin-TX-78757/737060"
+        title: "U-Haul Moving & Storage at Burnet Rd & FM 2222 location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-737044
+    name: "U-Haul Moving & Storage at Research Blvd"
+    street: 12611 Research Blvd
+    city: Austin
+    state_code: TX
+    postal_code: 78759
+    lat: null
+    lng: null
+    phone: (512) 258-5255
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Austin-TX-78759/737044"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Austin-TX-78759/737044"
+        title: "U-Haul Moving & Storage at Research Blvd location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-024758
+    name: Storagemax Self Storage
+    street: 3019 N Interstate Hwy 35
+    city: Round Rock
+    state_code: TX
+    postal_code: 78664
+    lat: null
+    lng: null
+    phone: (512) 782-8973
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Round-Rock-TX-78664/024758"
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 6 am - 9 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $99.00 per month (Outside Level, No Climate, No Electricity); $199.95 per month (Covered Level, No Climate, No Electricity); $215.00 per month (Covered Level, No Climate, No Electricity); $259.00 per month (Covered Level, No Climate, No Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 6 am - 9 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Round-Rock-TX-78664/024758"
+        title: Storagemax Self Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-756073
+    name: U-Haul Storage of Chisholm Valley
+    street: 1301 Chisholm Valley Dr
+    city: Round Rock
+    state_code: TX
+    postal_code: 78681
+    lat: null
+    lng: null
+    phone: (512) 782-8979
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Round-Rock-TX-78681/756073"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $124.95 per month (Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Round-Rock-TX-78681/756073"
+        title: U-Haul Storage of Chisholm Valley location page
+    last_verified: "2026-11-20"

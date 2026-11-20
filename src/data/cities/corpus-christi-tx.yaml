@@ -262,3 +262,93 @@ listings:
       https://safeguardministorage.com/safeguard-self-storage-locations-in-texas/9642-s-padre-island-dr-boat-rv-storage
     title: Safeguard Padre Island boat and RV page
   last_verified: '2026-11-18'
+
+- slug: uhaul-1037491
+  name: U Store
+  street: 14242 Northwest Blvd
+  city: Corpus Christi
+  state_code: TX
+  postal_code: 78410
+  lat: null
+  lng: null
+  phone: (361) 387-6318
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Corpus-Christi-TX-78410/1037491"
+  vehicles: [rv, boat]
+  storage_types: [open]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  access_hours: "Mon-Sun: 5 am - 8 pm"
+  price_notes: "Spaces tagged RV, boat, and vehicle parking: $75.00 per month (Outside Level)."
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 8 pm."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Corpus-Christi-TX-78410/1037491"
+      title: U Store location page
+  last_verified: "2026-11-20"
+
+- slug: uhaul-832065
+  name: "U-Haul Moving & Storage at S Padre Island Dr"
+  street: 4344 S Padre Isl Dr
+  city: Corpus Christi
+  state_code: TX
+  postal_code: 78411
+  lat: null
+  lng: null
+  phone: (361) 855-3977
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Corpus-Christi-TX-78411/832065"
+  vehicles: [rv, boat]
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  access_hours: "Mon-Sun: 5 am - 10 pm"
+  price_notes: null
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Corpus-Christi-TX-78411/832065"
+      title: "U-Haul Moving & Storage at S Padre Island Dr location page"
+  last_verified: "2026-11-20"
+
+- slug: uhaul-832062
+  name: "U-Haul Moving & Storage of Crosstown"
+  street: 3611 S Port
+  city: Corpus Christi
+  state_code: TX
+  postal_code: 78415
+  lat: null
+  lng: null
+  phone: (361) 855-4434
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Corpus-Christi-TX-78415/832062"
+  vehicles: [rv, boat]
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  access_hours: "Mon-Sun: 5 am - 10 pm"
+  price_notes: null
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Corpus-Christi-TX-78415/832062"
+      title: "U-Haul Moving & Storage of Crosstown location page"
+  last_verified: "2026-11-20"

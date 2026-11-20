@@ -1,0 +1,37 @@
+id: el-paso
+name: El Paso County
+state: Texas
+state_code: TX
+summary: >-
+  RV and boat storage in El Paso County with a street address from each
+  facility page. Towns on this page: Canutillo.
+listings:
+  - slug: uhaul-036725
+    name: Rio Grande Self Storage
+    street: 409 FM Rd 259
+    city: Canutillo
+    state_code: TX
+    postal_code: 79835
+    lat: null
+    lng: null
+    phone: (915) 877-5632
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Canutillo-TX-79835/036725"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sat: 10 am - 9 pm Sun: Closed"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sat: 10 am - 9 pm Sun: Closed."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Canutillo-TX-79835/036725"
+        title: Rio Grande Self Storage location page
+    last_verified: "2026-11-20"

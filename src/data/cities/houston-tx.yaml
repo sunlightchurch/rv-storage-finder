@@ -546,3 +546,303 @@ listings:
       - url: https://www.weimanstorage.com/pages/rent
         title: Rates page
     last_verified: "2026-11-18"
+
+  - slug: uhaul-019708
+    name: Cy Fair Storage
+    street: 11650 Barker Cypress Rd
+    city: Cypress
+    state_code: TX
+    postal_code: 77433
+    lat: null
+    lng: null
+    phone: (281) 213-3191
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Cypress-TX-77433/019708"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 6 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $164.00 per month (1st Floor, Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 6 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Cypress-TX-77433/019708"
+        title: Cy Fair Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-746075
+    name: "U-Haul Moving & Storage of South Cypress"
+    street: 21346 FM 529
+    city: Cypress
+    state_code: TX
+    postal_code: 77433
+    lat: null
+    lng: null
+    phone: (281) 500-9004
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Cypress-TX-77433/746075"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Cypress-TX-77433/746075"
+        title: "U-Haul Moving & Storage of South Cypress location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-745040
+    name: "U-Haul Moving & Storage of Fuqua"
+    street: 12475 Gulf Frwy
+    city: Houston
+    state_code: TX
+    postal_code: 77034
+    lat: null
+    lng: null
+    phone: (281) 922-5801
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Houston-TX-77034/745040"
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $109.95 per month (Covered Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Houston-TX-77034/745040"
+        title: "U-Haul Moving & Storage of Fuqua location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-930056
+    name: "U-Haul Moving & Storage of Westbelt"
+    street: 10515 Southwest Frwy
+    city: Houston
+    state_code: TX
+    postal_code: 77074
+    lat: null
+    lng: null
+    phone: (713) 981-9431
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Houston-TX-77074/930056"
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $184.95 per month (Covered Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Houston-TX-77074/930056"
+        title: "U-Haul Moving & Storage of Westbelt location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-746028
+    name: "U-Haul Moving & Storage at Sugarland Airport Area"
+    street: 8518 S Texas 6
+    city: Houston
+    state_code: TX
+    postal_code: 77083
+    lat: null
+    lng: null
+    phone: (281) 879-6065
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Houston-TX-77083/746028"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $94.95 per month (Outside Level, No Climate); $134.95 per month (Outside Level, No Climate); $144.95 per month (Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Houston-TX-77083/746028"
+        title: "U-Haul Moving & Storage at Sugarland Airport Area location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1031336
+    name: Americas Best Storage
+    street: 20220 Morton Road
+    city: Katy
+    state_code: TX
+    postal_code: 77449
+    lat: null
+    lng: null
+    phone: (281) 647-6789
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Katy-TX-77449/1031336"
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 6 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $141.00 per month (1st Floor, Outside Level, ADA); $196.00 per month (1st Floor, Covered Level, ADA); $218.00 per month (1st Floor, Outside Level, ADA); $229.00 per month (Lower Level, Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 6 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Katy-TX-77449/1031336"
+        title: Americas Best Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1033731
+    name: A-Mini Storage
+    street: 3202 Preston Rd
+    city: Pasadena
+    state_code: TX
+    postal_code: 77505
+    lat: null
+    lng: null
+    phone: (713) 944-9248
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Pasadena-TX-77505/1033731"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 6 am - 9 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $79.00 per month (1st Floor, Outside Level, Drivethrough)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 6 am - 9 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Pasadena-TX-77505/1033731"
+        title: A-Mini Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1039542
+    name: BriteLock Storage Pearland
+    street: 4147 S Main St
+    city: Pearland
+    state_code: TX
+    postal_code: 77581
+    lat: null
+    lng: null
+    phone: (281) 888-0168
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Pearland-TX-77581/1039542"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $75.00 per month (1st Floor, Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Pearland-TX-77581/1039542"
+        title: BriteLock Storage Pearland location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1038975
+    name: Affordable Storage Settegast
+    street: 321 Settegast Ranch Rd
+    city: Richmond
+    state_code: TX
+    postal_code: 77406
+    lat: null
+    lng: null
+    phone: (281) 341-7885
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Richmond-TX-77406/1038975"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $99.00 per month; $135.00 per month (No Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Richmond-TX-77406/1038975"
+        title: Affordable Storage Settegast location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-929052
+    name: "U-Haul Moving & Storage of Woodlands"
+    street: 24540 I-45
+    city: Spring
+    state_code: TX
+    postal_code: 77386
+    lat: null
+    lng: null
+    phone: (281) 364-7913
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Spring-TX-77386/929052"
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $114.95 per month (Covered Level, No Climate); $119.95 per month (Covered Level, No Climate); $149.95 per month (Covered Level, No Climate, Electricity); $149.95 per month (Covered Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Spring-TX-77386/929052"
+        title: "U-Haul Moving & Storage of Woodlands location page"
+    last_verified: "2026-11-20"

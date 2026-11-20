@@ -1,0 +1,97 @@
+id: galveston
+name: Galveston County
+state: Texas
+state_code: TX
+summary: >-
+  RV and boat storage in Galveston County with a street address from each
+  facility page. Towns on this page: Dickinson, La Marque, League City.
+listings:
+  - slug: uhaul-052266
+    name: All American Self Storage
+    street: 1515 Dickinson Ave
+    city: Dickinson
+    state_code: TX
+    postal_code: 77539
+    lat: null
+    lng: null
+    phone: (832) 769-8130
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Dickinson-TX-77539/052266"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $115.00 per month (1st Floor, Outside Level, Drivethrough)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Dickinson-TX-77539/052266"
+        title: All American Self Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-745041
+    name: "U-Haul Moving & Storage of La Marque"
+    street: 4701 Gulf Frwy
+    city: La Marque
+    state_code: TX
+    postal_code: 77568
+    lat: null
+    lng: null
+    phone: (409) 935-9352
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-La-Marque-TX-77568/745041"
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $134.95 per month (Covered Level, No Climate); $139.95 per month (Outside Level, No Climate); $154.95 per month (Covered Level, No Climate); $164.95 per month (Covered Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-La-Marque-TX-77568/745041"
+        title: "U-Haul Moving & Storage of La Marque location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-745053
+    name: U-Haul Storage of League City
+    street: 2500 W Main St
+    city: League City
+    state_code: TX
+    postal_code: 77573
+    lat: null
+    lng: null
+    phone: (281) 554-5168
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-League-City-TX-77573/745053"
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $199.95 per month (Covered Level, No Climate); $279.95 per month (Enclosed Level, No Climate, Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-League-City-TX-77573/745053"
+        title: U-Haul Storage of League City location page
+    last_verified: "2026-11-20"

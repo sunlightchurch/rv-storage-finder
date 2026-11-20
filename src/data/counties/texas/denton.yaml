@@ -1,0 +1,187 @@
+id: denton
+name: Denton County
+state: Texas
+state_code: TX
+summary: >-
+  RV and boat storage in Denton County with a street address from each
+  facility page. Towns on this page: Aubrey, Justin, Krum, Roanoke, Sanger.
+listings:
+  - slug: uhaul-931080
+    name: U-Haul Storage of Little Elm Aubrey
+    street: 26778 US-380
+    city: Aubrey
+    state_code: TX
+    postal_code: 76227
+    lat: null
+    lng: null
+    phone: (972) 347-5562
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Aubrey-TX-76227/931080"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $124.95 per month (Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Aubrey-TX-76227/931080"
+        title: U-Haul Storage of Little Elm Aubrey location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-859071
+    name: "U-Haul Moving & Storage of Justin"
+    street: 16300 FM 156 S
+    city: Justin
+    state_code: TX
+    postal_code: 76247
+    lat: null
+    lng: null
+    phone: (940) 242-6531
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Justin-TX-76247/859071"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $94.95 per month (Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Justin-TX-76247/859071"
+        title: "U-Haul Moving & Storage of Justin location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-054477
+    name: Krum Self Storage
+    street: 2348 Mitchell Rd
+    city: Krum
+    state_code: TX
+    postal_code: 76249
+    lat: null
+    lng: null
+    phone: (940) 482-3159
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Krum-TX-76249/054477"
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 6 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $149.00 per month (Lower Level, Covered Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 6 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Krum-TX-76249/054477"
+        title: Krum Self Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-859064
+    name: "U-Haul Moving & Storage of Roanoke"
+    street: 1600 Mesa Butte Ct
+    city: Roanoke
+    state_code: TX
+    postal_code: 76262
+    lat: null
+    lng: null
+    phone: (817) 491-1114
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Roanoke-TX-76262/859064"
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $99.95 per month (Outside Level, No Climate); $169.95 per month (Covered Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Roanoke-TX-76262/859064"
+        title: "U-Haul Moving & Storage of Roanoke location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1032780
+    name: Bond Boat And RV Storage
+    street: 2923 Chisam Rd
+    city: Sanger
+    state_code: TX
+    postal_code: 76266
+    lat: null
+    lng: null
+    phone: (940) 390-6982
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Sanger-TX-76266/1032780"
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 7 am - 7 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $35.00 per month (Outside Level); $119.00 per month (Lower Level, Covered Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 7 am - 7 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Sanger-TX-76266/1032780"
+        title: Bond Boat And RV Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-028139
+    name: Sanger Storage
+    street: 703 S Stemmons
+    city: Sanger
+    state_code: TX
+    postal_code: 76266
+    lat: null
+    lng: null
+    phone: (940) 458-0693
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Sanger-TX-76266/028139"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $65.00 per month (Lower Level, Outside Level, Drivethrough); $120.00 per month (Lower Level, Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Sanger-TX-76266/028139"
+        title: Sanger Storage location page
+    last_verified: "2026-11-20"

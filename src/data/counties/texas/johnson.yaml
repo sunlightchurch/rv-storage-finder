@@ -1,0 +1,67 @@
+id: johnson
+name: Johnson County
+state: Texas
+state_code: TX
+summary: >-
+  RV and boat storage in Johnson County with a street address from each
+  facility page. Towns on this page: Burleson, Cleburne.
+listings:
+  - slug: uhaul-036265
+    name: Willow Creek Storage
+    street: 2901 SW Wilshire Blvd
+    city: Burleson
+    state_code: TX
+    postal_code: 76028
+    lat: null
+    lng: null
+    phone: (817) 945-6925
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Burleson-TX-76028/036265"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Burleson-TX-76028/036265"
+        title: Willow Creek Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-001316
+    name: Valley Rose Storage
+    street: 1002 Highland Rd
+    city: Cleburne
+    state_code: TX
+    postal_code: 76033
+    lat: null
+    lng: null
+    phone: (817) 556-3119
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Cleburne-TX-76033/001316"
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $75.00 per month (Outside Level); $89.00 per month (Covered Level, No Electricity); $99.00 per month (Covered Level, No Electricity); $99.00 per month (Covered Level, Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Cleburne-TX-76033/001316"
+        title: Valley Rose Storage location page
+    last_verified: "2026-11-20"

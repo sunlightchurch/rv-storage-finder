@@ -1,0 +1,67 @@
+id: parker
+name: Parker County
+state: Texas
+state_code: TX
+summary: >-
+  RV and boat storage in Parker County with a street address from each
+  facility page. Towns on this page: Weatherford.
+listings:
+  - slug: uhaul-1039541
+    name: Completely Storage
+    street: 200 Baggett Rd
+    city: Weatherford
+    state_code: TX
+    postal_code: 76085
+    lat: null
+    lng: null
+    phone: (817) 757-2965
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Weatherford-TX-76085/1039541"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 6 am - 9 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $45.00 per month."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 6 am - 9 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Weatherford-TX-76085/1039541"
+        title: Completely Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-025360
+    name: Storage Of Weatherford
+    street: 445 Ric Williamson Memorial Hwy
+    city: Weatherford
+    state_code: TX
+    postal_code: 76088
+    lat: null
+    lng: null
+    phone: (682) 803-2203
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Weatherford-TX-76088/025360"
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 6 am - 11 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $170.00 per month (Covered Level, Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 6 am - 11 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Weatherford-TX-76088/025360"
+        title: Storage Of Weatherford location page
+    last_verified: "2026-11-20"

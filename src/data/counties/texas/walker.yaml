@@ -1,0 +1,67 @@
+id: walker
+name: Walker County
+state: Texas
+state_code: TX
+summary: >-
+  RV and boat storage in Walker County with a street address from each
+  facility page. Towns on this page: Huntsville, New Waverly.
+listings:
+  - slug: uhaul-1021649
+    name: Unlimited Storage
+    street: 2235 Us 190 East
+    city: Huntsville
+    state_code: TX
+    postal_code: 77340
+    lat: null
+    lng: null
+    phone: (936) 291-1117
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Huntsville-TX-77340/1021649"
+    vehicles: [rv, boat]
+    storage_types: [enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $54.45 per month (Outside Level); $200.00 per month (Enclosed Level, Electricity); $250.00 per month (Enclosed Level, No Climate, Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Huntsville-TX-77340/1021649"
+        title: Unlimited Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1037294
+    name: Hillside Storage New Waverly
+    street: 950 W State Highway150
+    city: New Waverly
+    state_code: TX
+    postal_code: 77358
+    lat: null
+    lng: null
+    phone: (936) 284-2119
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-New-Waverly-TX-77358/1037294"
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $385.00 per month (1st Floor, Enclosed Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-New-Waverly-TX-77358/1037294"
+        title: Hillside Storage New Waverly location page
+    last_verified: "2026-11-20"

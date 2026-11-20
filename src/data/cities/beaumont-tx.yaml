@@ -304,3 +304,93 @@ listings:
       https://www.storagesense.com/location/USA/TX/Port-Arthur/sense-port-arthur-9999/
     title: Port Arthur location page
   last_verified: '2026-11-18'
+
+- slug: uhaul-927049
+  name: U-Haul Storage of Eastex Freeway
+  street: 7910 Eastex Frwy
+  city: Beaumont
+  state_code: TX
+  postal_code: 77708
+  lat: null
+  lng: null
+  phone: (409) 812-2298
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Beaumont-TX-77708/927049"
+  vehicles: [rv, boat]
+  storage_types: [open]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: true
+  access_hours: "Mon-Sun: 24 hours"
+  price_notes: "Spaces tagged RV, boat, and vehicle parking: $39.95 per month (Outside Level, No Climate); $44.95 per month (Outside Level, No Climate); $59.95 per month (Outside Level, No Climate)."
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Beaumont-TX-77708/927049"
+      title: U-Haul Storage of Eastex Freeway location page
+  last_verified: "2026-11-20"
+
+- slug: uhaul-927035
+  name: "U-Haul Moving & Storage at Eastex Freeway & Lawrence Exit"
+  street: 8161 Eastex Frwy
+  city: Beaumont
+  state_code: TX
+  postal_code: 77708
+  lat: null
+  lng: null
+  phone: (409) 892-1184
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Beaumont-TX-77708/927035"
+  vehicles: [rv, boat]
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  access_hours: "Mon-Sun: 5 am - 10 pm"
+  price_notes: null
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Beaumont-TX-77708/927035"
+      title: "U-Haul Moving & Storage at Eastex Freeway & Lawrence Exit location page"
+  last_verified: "2026-11-20"
+
+- slug: uhaul-927071
+  name: "U-Haul Moving & Storage at I-10 and College"
+  street: 3885 Milam St
+  city: Beaumont
+  state_code: TX
+  postal_code: 77701
+  lat: null
+  lng: null
+  phone: (409) 833-4358
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Beaumont-TX-77701/927071"
+  vehicles: [rv, boat]
+  storage_types: [open]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  access_hours: "Mon-Sun: 5 am - 10 pm"
+  price_notes: "Spaces tagged RV, boat, and vehicle parking: $74.95 per month (Outside Level, No Climate)."
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Beaumont-TX-77701/927071"
+      title: "U-Haul Moving & Storage at I-10 and College location page"
+  last_verified: "2026-11-20"

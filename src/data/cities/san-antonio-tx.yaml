@@ -519,3 +519,303 @@ listings:
       - url: https://www.rodeo-storage.com/locations/new-braunfels-tx-78130/view-unit/10/25
         title: Unit page with the street address
     last_verified: "2026-11-18"
+
+  - slug: uhaul-1021670
+    name: "Anytime Storage, Llc - New Braunfels"
+    street: 150 Ferryboat Ln
+    city: New Braunfels
+    state_code: TX
+    postal_code: 78130
+    lat: null
+    lng: null
+    phone: (830) 627-8673
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-New-Braunfels-TX-78130/1021670"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $100.00 per month (Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-New-Braunfels-TX-78130/1021670"
+        title: "Anytime Storage, Llc - New Braunfels location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1036130
+    name: "Storemore Warehouses, LLC"
+    street: 105 Schumans Beach Road
+    city: New Braunfels
+    state_code: TX
+    postal_code: 78130
+    lat: null
+    lng: null
+    phone: (830) 626-6800
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-New-Braunfels-TX-78130/1036130"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 6 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $80.00 per month (1st Floor, Outside Level, No Climate); $170.00 per month (1st Floor, Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 6 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-New-Braunfels-TX-78130/1036130"
+        title: "Storemore Warehouses, LLC location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-744080
+    name: "U-Haul Moving & Storage at San Pedro"
+    street: 5810 San Pedro Ave
+    city: San Antonio
+    state_code: TX
+    postal_code: 78212
+    lat: null
+    lng: null
+    phone: (210) 731-2800
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-San-Antonio-TX-78212/744080"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-San-Antonio-TX-78212/744080"
+        title: "U-Haul Moving & Storage at San Pedro location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-874051
+    name: "U-Haul Moving & Storage of Castle Hills"
+    street: 1951 NW Loop 410
+    city: San Antonio
+    state_code: TX
+    postal_code: 78213
+    lat: null
+    lng: null
+    phone: (210) 375-0213
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-San-Antonio-TX-78213/874051"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $139.95 per month (Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-San-Antonio-TX-78213/874051"
+        title: "U-Haul Moving & Storage of Castle Hills location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-744068
+    name: "U-Haul Moving & Storage at Austin Hwy"
+    street: 2390 Austin Hwy
+    city: San Antonio
+    state_code: TX
+    postal_code: 78218
+    lat: null
+    lng: null
+    phone: (210) 656-2014
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-San-Antonio-TX-78218/744068"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $74.95 per month (Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-San-Antonio-TX-78218/744068"
+        title: "U-Haul Moving & Storage at Austin Hwy location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1031784
+    name: "Pioneer Stor & Lok Self Storage"
+    street: 9415 South Interstate 35 Frontage Rd
+    city: San Antonio
+    state_code: TX
+    postal_code: 78233
+    lat: null
+    lng: null
+    phone: (210) 653-3326
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-San-Antonio-TX-78233/1031784"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 6 am - 9 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 6 am - 9 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-San-Antonio-TX-78233/1031784"
+        title: "Pioneer Stor & Lok Self Storage location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-038039
+    name: "S&R Boat & RV Storage"
+    street: 12534 Nacogdoches Rd
+    city: San Antonio
+    state_code: TX
+    postal_code: 78217
+    lat: null
+    lng: null
+    phone: (830) 980-9780
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-San-Antonio-TX-78258/038039"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 6 am - 8 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 6 am - 8 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-San-Antonio-TX-78258/038039"
+        title: "S&R Boat & RV Storage location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-874050
+    name: "U-Haul Moving & Storage of Wurzbach"
+    street: 3817 Parkdale Dr
+    city: San Antonio
+    state_code: TX
+    postal_code: 78229
+    lat: null
+    lng: null
+    phone: (210) 593-0824
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-San-Antonio-TX-78229/874050"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-San-Antonio-TX-78229/874050"
+        title: "U-Haul Moving & Storage of Wurzbach location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-874033
+    name: "U-Haul Moving & Storage of Eckhert"
+    street: "7741 Eckhert Rd #43"
+    city: San Antonio
+    state_code: TX
+    postal_code: 78240
+    lat: null
+    lng: null
+    phone: (210) 684-8688
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-San-Antonio-TX-78240/874033"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $99.95 per month (Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-San-Antonio-TX-78240/874033"
+        title: "U-Haul Moving & Storage of Eckhert location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-744069
+    name: "U-Haul Moving & Storage of Woodlake"
+    street: 6745 FM 78
+    city: San Antonio
+    state_code: TX
+    postal_code: 78244
+    lat: null
+    lng: null
+    phone: (210) 666-1065
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-San-Antonio-TX-78244/744069"
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $99.95 per month (Covered Level, No Climate, Electricity); $104.95 per month (Covered Level, No Climate, Electricity); $209.95 per month (Covered Level, No Climate, Electricity); $219.95 per month (Covered Level, No Climate, Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-San-Antonio-TX-78244/744069"
+        title: "U-Haul Moving & Storage of Woodlake location page"
+    last_verified: "2026-11-20"

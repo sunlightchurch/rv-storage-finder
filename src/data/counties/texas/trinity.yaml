@@ -1,0 +1,37 @@
+id: trinity
+name: Trinity County
+state: Texas
+state_code: TX
+summary: >-
+  RV and boat storage in Trinity County with a street address from each
+  facility page. Towns on this page: Trinity.
+listings:
+  - slug: uhaul-1039237
+    name: Storage at White Rock Creek LLC
+    street: 1630 Fm 356
+    city: Trinity
+    state_code: TX
+    postal_code: 75862
+    lat: null
+    lng: null
+    phone: (936) 594-0075
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Trinity-TX-75862/1039237"
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 8 am - 5 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $275.00 per month (Enclosed Level, Electricity); $330.00 per month (Enclosed Level, Electricity); $350.00 per month (Enclosed Level, Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 8 am - 5 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Trinity-TX-75862/1039237"
+        title: Storage at White Rock Creek LLC location page
+    last_verified: "2026-11-20"

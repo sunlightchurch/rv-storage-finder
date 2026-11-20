@@ -182,3 +182,33 @@ listings:
   - url: "https://www.uhaul.com/Locations/Self-Storage-near-Pharr-TX-78577/832050/"
     title: U-Haul Pharr location page
   last_verified: '2026-11-18'
+
+- slug: uhaul-006779
+  name: Access Mini Storage LP
+  street: 2701 W University Dr
+  city: Edinburg
+  state_code: TX
+  postal_code: 78539
+  lat: null
+  lng: null
+  phone: (956) 587-5980
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Edinburg-TX-78539/006779"
+  vehicles: [rv, boat]
+  storage_types: [open]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  access_hours: "Mon-Sun: 5 am - 9 pm"
+  price_notes: "Spaces tagged RV, boat, and vehicle parking: $70.00 per month (1st Floor, Outside Level, Drivethrough)."
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 9 pm."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Edinburg-TX-78539/006779"
+      title: Access Mini Storage LP location page
+  last_verified: "2026-11-20"
