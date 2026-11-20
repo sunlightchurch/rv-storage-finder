@@ -81,6 +81,19 @@ export function taggedAmounts(note: string | null): TaggedAmount[] {
   return found;
 }
 
+export function lowestMonthlyAmounts(notes: (string | null)[]): number[] {
+  const amounts: number[] = [];
+  for (const note of notes) {
+    const monthly = parsePriceNote(note).monthly;
+    if (monthly.length) amounts.push(Math.min(...monthly));
+  }
+  return amounts;
+}
+
+export function pageIsThin(listings: { price_notes: string | null }[]): boolean {
+  return listings.length < 2 && lowestMonthlyAmounts(listings.map((listing) => listing.price_notes)).length === 0;
+}
+
 export function parsePriceNote(note: string | null): PriceNote {
   const found = taggedAmounts(note);
   const unique = (values: number[]) => [...new Set(values)].sort((a, b) => a - b);

@@ -60,7 +60,7 @@ export function faqNode(faqs: { q: string; a: string }[]): Record<string, unknow
 
 export function listingNode(listing: Listing): Record<string, unknown> {
   const node: Record<string, unknown> = {
-    '@type': 'SelfStorage',
+    '@type': ['LocalBusiness', 'SelfStorage'],
     name: listing.name,
     address: {
       '@type': 'PostalAddress',

@@ -1,0 +1,106 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { absolute, countiesInState, getStates, href } from '../lib/data';
+import { locationCount } from '../lib/format';
+import { medianOf } from '../lib/guides';
+import { formatMoney, lowestMonthlyAmounts } from '../lib/prices';
+import { breadcrumbNode, faqNode, pageGraph, webPageNode } from '../lib/schema';
+
+const focus = ['Florida', 'Arizona', 'Texas', 'Georgia', 'Nevada', 'North Carolina'];
+const groups = getStates()
+  .filter((state) => focus.includes(state.name))
+  .map((state) => {
+    const hubs = countiesInState(state.code);
+    const listings = [
+      ...state.cities.flatMap((city) => city.listings),
+      ...hubs.flatMap((county) => county.listings),
+    ].filter((listing) => listing.vehicles.includes('boat'));
+    const cities = state.cities
+      .map((city) => ({
+        city,
+        boats: city.listings.filter((listing) => listing.vehicles.includes('boat')).length,
+      }))
+      .filter((row) => row.boats > 0);
+    const monthly = lowestMonthlyAmounts(listings.map((listing) => listing.price_notes));
+    return { state, listings, cities, median: monthly.length ? medianOf(monthly) : null };
+  });
+const allBoats = groups.flatMap((group) => group.listings);
+const title = 'Boat Storage in Six States';
+const description = `${locationCount(allBoats.length)} in Florida, Arizona, Texas, Georgia, Nevada, and North Carolina list boat storage on their own page. A monthly price is shown only when that page printed one.`;
+const path = '/boat-storage/';
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'Boat storage', path },
+];
+const faqs = [
+  {
+    q: 'Which facilities are included?',
+    a: 'Only facilities whose own page says they store a boat. An RV-only lot is not included.',
+  },
+  {
+    q: 'Where do the prices come from?',
+    a: 'A monthly figure is copied from the facility page. If that page did not tie a dollar amount to a month, the listing has no monthly price.',
+  },
+];
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: '2026-11-20' }),
+  breadcrumbNode(crumbs),
+  {
+    '@type': 'ItemList',
+    name: 'Boat storage by state',
+    numberOfItems: groups.length,
+    itemListElement: groups.map((group, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: group.state.name,
+      url: absolute(`/states/${group.state.slug}/`),
+    })),
+  },
+  faqNode(faqs),
+]);
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <article class="wrap">
+    <Breadcrumbs items={crumbs} />
+    <h1>Boat storage</h1>
+    <p class="summary">
+      {locationCount(allBoats.length)} in six states say they store a boat. Open a state for every
+      listing, or a city for the lots there.
+      <a href={href('/guides/boat-storage-costs/')}>How dry stack, a covered lot, and a wet slip differ</a>.
+    </p>
+    {
+      groups.map((group) => (
+        <section>
+          <h2>
+            <a href={href(`/states/${group.state.slug}/`)}>{group.state.name}</a>
+          </h2>
+          <p>
+            {locationCount(group.listings.length)} list boat storage.
+            {group.median == null ? ' No monthly price is published.' : ` From ${formatMoney(group.median)}/mo median.`}
+          </p>
+          <ul class="jump">
+            {group.cities.map(({ city, boats }) => (
+              <li>
+                <a href={href(`/cities/${city.id}/`)}>
+                  {city.city}, {city.state_code}
+                  <span class="count">{locationCount(boats)}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))
+    }
+    <section class="faq">
+      <h2>Questions</h2>
+      {faqs.map((faq) => (
+        <>
+          <h3>{faq.q}</h3>
+          <p>{faq.a}</p>
+        </>
+      ))}
+    </section>
+  </article>
+</Base>

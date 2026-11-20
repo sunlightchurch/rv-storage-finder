@@ -5,6 +5,7 @@ import { z } from 'zod';
 import { formatDate } from './format';
 import { BOAT_LENGTHS, getFitPages, RV_LENGTHS } from './fit';
 import { getCostGuides } from './guides';
+import { pageIsThin } from './prices';
 import { assertKnownPhoto, assertCityPhoto } from './photos';
 
 const dataDir = path.join(process.cwd(), 'src/data');
@@ -639,6 +640,8 @@ export function allPublicPaths(): { path: string; lastmod: string }[] {
     { path: '/states/', lastmod: latest },
     { path: '/guide/', lastmod: latest },
     { path: '/guides/', lastmod: latest },
+    { path: '/boat-storage/', lastmod: latest },
+    { path: '/guides/boat-storage-costs/', lastmod: '2026-11-20' },
     { path: '/guides/snowbird-rv-storage-florida/', lastmod: '2026-11-20' },
     { path: '/guides/snowbird-rv-storage-arizona/', lastmod: '2026-11-20' },
     { path: '/guides/short-term-rv-storage/', lastmod: '2026-11-20' },
@@ -686,6 +689,7 @@ export function allPublicPaths(): { path: string; lastmod: string }[] {
     });
   }
   for (const county of counties) {
+    if (pageIsThin(county.listings)) continue;
     const dates = county.listings.map((listing) => listing.last_verified);
     paths.push({
       path: countyPath(county),
@@ -694,10 +698,12 @@ export function allPublicPaths(): { path: string; lastmod: string }[] {
   }
   for (const city of cities) {
     const dates = city.listings.map((listing) => listing.last_verified);
-    paths.push({
-      path: `/cities/${city.id}/`,
-      lastmod: maxDate(dates),
-    });
+    if (!pageIsThin(city.listings)) {
+      paths.push({
+        path: `/cities/${city.id}/`,
+        lastmod: maxDate(dates),
+      });
+    }
     paths.push({
       path: `/costs/${city.id}/`,
       lastmod: maxDate(dates),
