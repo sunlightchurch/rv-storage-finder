@@ -77,6 +77,38 @@ const listingSchema = z
     price_notes: nullString,
     waitlist: nullString,
     featured: z.boolean().optional().default(false),
+    billing_term: z
+      .enum(['month-to-month', 'short-term'])
+      .nullable()
+      .optional()
+      .transform((value) => value ?? null),
+    billing_detail: z
+      .union([z.string(), z.null()])
+      .optional()
+      .transform((value) => {
+        if (value == null) return null;
+        const trimmed = value.trim();
+        return trimmed.length ? trimmed : null;
+      }),
+    fees: z
+      .object({
+        admin: nullString.optional(),
+        gate_card: nullString.optional(),
+        deposit: nullString.optional(),
+        access_24h: nullString.optional(),
+        late: nullString.optional(),
+        lock_or_insurance: nullString.optional(),
+      })
+      .partial()
+      .optional()
+      .transform((value) => ({
+        admin: value?.admin ?? null,
+        gate_card: value?.gate_card ?? null,
+        deposit: value?.deposit ?? null,
+        access_24h: value?.access_24h ?? null,
+        late: value?.late ?? null,
+        lock_or_insurance: value?.lock_or_insurance ?? null,
+      })),
     notes: nullString,
     sources: z
       .array(
@@ -145,6 +177,10 @@ const filterSchema = z.object({
     .optional()
     .transform((value) => value ?? false),
   require_cameras: z
+    .boolean()
+    .optional()
+    .transform((value) => value ?? false),
+  require_short_term: z
     .boolean()
     .optional()
     .transform((value) => value ?? false),
@@ -366,6 +402,7 @@ export function listingMatches(listing: Listing, filter: FilterDef): boolean {
   if (filter.require_24h && listing.access_24h !== true) return false;
   if (filter.require_gated && listing.gated !== true) return false;
   if (filter.require_cameras && listing.cameras !== true) return false;
+  if (filter.require_short_term && listing.billing_term == null) return false;
   return true;
 }
 
@@ -520,6 +557,16 @@ export function allPublicPaths(): { path: string; lastmod: string }[] {
     { path: '/states/', lastmod: latest },
     { path: '/guide/', lastmod: latest },
     { path: '/guides/', lastmod: latest },
+    { path: '/guides/snowbird-rv-storage-florida/', lastmod: '2026-11-20' },
+    { path: '/guides/snowbird-rv-storage-arizona/', lastmod: '2026-11-20' },
+    { path: '/guides/short-term-rv-storage/', lastmod: '2026-11-20' },
+    { path: '/guides/rv-storage-fees-move-in-costs/', lastmod: '2026-11-20' },
+    { path: '/guides/can-hoa-ban-rv-parking-florida/', lastmod: '2026-11-20' },
+    { path: '/guides/can-hoa-ban-rv-parking-arizona/', lastmod: '2026-11-20' },
+    { path: '/guides/can-hoa-ban-rv-parking-texas/', lastmod: '2026-11-20' },
+    { path: '/guides/can-hoa-ban-rv-parking-georgia/', lastmod: '2026-11-20' },
+    { path: '/guides/can-hoa-ban-rv-parking-nevada/', lastmod: '2026-11-20' },
+    { path: '/guides/can-hoa-ban-rv-parking-north-carolina/', lastmod: '2026-11-20' },
     { path: '/checklists/seasonal/', lastmod: latest },
     { path: '/checklists/security/', lastmod: latest },
     { path: '/insurance/', lastmod: '2026-11-19' },

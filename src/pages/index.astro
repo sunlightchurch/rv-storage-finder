@@ -56,33 +56,34 @@ const schema = pageGraph([
 ---
 
 <Base title={title} description={description} path={path} schema={schema}>
+  <section class="hero-bleed">
+    <Photo class="hero-photo" photo={heroPhoto()} sizes="100vw" eager />
+    <div class="hero-shade" aria-hidden="true"></div>
+    <div class="wrap hero-copy">
+      <p class="eyebrow">RV and boat storage</p>
+      <h1>Find storage with a source on every listing</h1>
+      <p class="lede">
+        Compare covered, enclosed, and outdoor lots. If a facility did not publish a price or an
+        amenity, the card says not listed.
+      </p>
+      <CitySearch />
+      <ul class="trust">
+        <li>
+          <strong>{stats.facilities}</strong> facilities
+          <span>Each card names the public page it came from.</span>
+        </li>
+        <li>
+          <strong>Not listed</strong>
+          <span>Means that page was silent. It is not a guess, and it is not a no.</span>
+        </li>
+        <li>
+          <strong>{stats.priced}</strong> publish a price
+          <span>{checkedLabel()}</span>
+        </li>
+      </ul>
+    </div>
+  </section>
   <div class="wrap">
-    <section class="home-hero">
-      <div>
-        <p class="eyebrow">RV and boat storage</p>
-        <h1>Find storage with a source on every listing</h1>
-        <p class="lede">
-          Compare covered, enclosed, and outdoor lots. If a facility did not publish a price or an
-          amenity, the card says not listed.
-        </p>
-        <CitySearch />
-        <ul class="trust">
-          <li>
-            <strong>{stats.facilities}</strong> facilities
-            <span>Each card names the public page it came from.</span>
-          </li>
-          <li>
-            <strong>Not listed</strong>
-            <span>Means that page was silent. It is not a guess, and it is not a no.</span>
-          </li>
-          <li>
-            <strong>{stats.priced}</strong> publish a price
-            <span>{checkedLabel()}</span>
-          </li>
-        </ul>
-      </div>
-      <Photo photo={heroPhoto()} sizes="(min-width: 900px) 420px, 100vw" eager />
-    </section>
     <h2><a href={href('/states/')}>Browse by state</a></h2>
     {
       states.map((state) => (

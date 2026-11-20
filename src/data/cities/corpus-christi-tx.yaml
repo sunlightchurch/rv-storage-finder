@@ -81,6 +81,9 @@ listings:
     title: Outrig Boat Stop location page
   last_verified: '2026-11-18'
 - slug: padre-island-storage-bullfinch
+  billing_term: month-to-month
+  fees:
+    admin: "$10 admin fee"
   name: Padre Island Storage
   street: 1017 Bullfinch Street
   city: Corpus Christi

@@ -1,0 +1,96 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { href } from '../../lib/data';
+import { feeExamples } from '../../lib/topic';
+import { breadcrumbNode, faqNode, pageGraph, webPageNode } from '../../lib/schema';
+
+const title = 'RV storage fees and move-in costs | RV Storage Prices';
+const description =
+  'Admin fees, gate cards, and deposits copied from facility pages in this directory. A blank fee on a card means that page did not print it.';
+const path = '/guides/rv-storage-fees-move-in-costs/';
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'Guides', path: '/guides/' },
+  { label: 'Move-in fees', path },
+];
+const faqs = [
+  {
+    q: 'What move-in fees do RV storage facilities publish?',
+    a: 'Only the amounts on this page. Southwest RV Storage in Glendale, Arizona, prints a $25 refundable gate card and a $25 new-customer setup fee. Other cards stay “Not listed” when the source is silent.',
+  },
+  {
+    q: 'Is a 24-hour access fee the same as 24-hour access?',
+    a: 'No. The amenity line says whether the page states 24-hour access. The fee line is a separate charge for that access. No facility note in this directory printed a 24-hour access fee or a late fee.',
+  },
+  {
+    q: 'Can the monthly rate go up after I sign?',
+    a: 'These pages do not say. Ask the facility whether the rate can change, how much notice you get, and whether a promotion ends. That answer is not on the cards.',
+  },
+];
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: '2026-11-20' }),
+  breadcrumbNode(crumbs),
+  faqNode(faqs),
+]);
+const examples = feeExamples();
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <article class="wrap prose">
+    <Breadcrumbs items={crumbs} />
+    <h1>RV storage fees and move-in costs</h1>
+    <p>
+      A monthly headline can leave out the amount due at the gate. Each line below is a fee already
+      written in that facility’s notes, from the page linked on the card. If a fee type is missing, the
+      card says “Not listed.” That is not a claim that the fee is zero.
+    </p>
+    <h2>Published examples</h2>
+    <p>
+      Southwest RV Storage, 17030 N 63rd Ave, Glendale, Arizona, prints a $25 refundable gate card and a
+      $25 new-customer setup fee on its
+      <a href="https://www.southwest-rv.com/rv-storage/" rel="noopener noreferrer">RV storage page</a>.
+      The same page’s monthly rates, from $119 for 20 feet to $225 for a 45-foot pull-through, are on
+      the <a href={href('/cities/phoenix-az/#southwest-rv-storage')}>Phoenix city card</a>.
+    </p>
+    <ul>
+      {
+        examples.map((row) => (
+          <li>
+            <a href={href(`/cities/${row.city.id}/#${row.listing.slug}`)}>{row.listing.name}</a>
+            {` · ${row.listing.city}, ${row.listing.state_code} · ${row.label}: ${row.value}`}
+          </li>
+        ))
+      }
+    </ul>
+    <p>
+      24/7 Indoor Storage in Las Vegas also prints a $75 per month forklift fee for boats, camp
+      trailers, and car dollies. That charge is not an admin fee, a gate card, or a deposit, so it stays
+      in the price note rather than in those six fields.
+    </p>
+    <h2>Questions to ask before you sign</h2>
+    <ul>
+      <li>Is the rate month-to-month, and is there a minimum number of months?</li>
+      <li>What is due at move-in besides the first month: admin, setup, gate card, deposit, or tax?</li>
+      <li>Is the deposit refundable, and what is kept if you leave?</li>
+      <li>Does 24-hour access cost extra, or is a gate card replaced at a fee?</li>
+      <li>Is a lock or an insurance policy required, and do they sell one?</li>
+      <li>When can the monthly rate change, and how many days of notice does the contract give?</li>
+      <li>What is the late fee, and on which day is rent late?</li>
+      <li>What is the notice you must give before you take the rig out for good?</li>
+    </ul>
+    <p>Those questions are not answered by a card that says “Not listed.” Call the facility.</p>
+    <p>
+      <a href={href('/guides/short-term-rv-storage/')}>Month-to-month and short-term terms</a>
+    </p>
+    <section class="faq">
+      <h2>Questions</h2>
+      {faqs.map((faq) => (
+        <>
+          <h3>{faq.q}</h3>
+          <p>{faq.a}</p>
+        </>
+      ))}
+    </section>
+  </article>
+</Base>

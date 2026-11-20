@@ -353,6 +353,8 @@ listings:
     last_verified: "2026-11-18"
 
   - slug: south-austin-marine
+    fees:
+      deposit: "A deposit is required up front. The amount is not printed."
     name: South Austin Marine
     street: 5340 Highway 290 West
     city: Austin

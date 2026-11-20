@@ -178,6 +178,8 @@ listings:
     last_verified: "2026-11-18"
 
   - slug: duval-truck-rv-boat-storage
+    billing_term: month-to-month
+    billing_detail: "Daily is $30 any size and weekly is $100 any size."
     name: "Duval Truck, RV & Boat Storage"
     street: 13967 Duval Road
     city: Jacksonville

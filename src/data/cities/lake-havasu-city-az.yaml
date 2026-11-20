@@ -145,6 +145,7 @@ listings:
     last_verified: "2026-11-18"
 
   - slug: havasu-boat-storage
+    billing_term: month-to-month
     name: Havasu Boat Storage
     street: 850 London Bridge Road
     city: Lake Havasu City

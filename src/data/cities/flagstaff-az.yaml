@@ -175,6 +175,8 @@ listings:
     last_verified: "2026-11-18"
 
   - slug: katlon-rv-boat-storage
+    billing_term: month-to-month
+    billing_detail: "Month to month, with a three-month minimum."
     name: Katlon RV & Boat Storage
     street: 5700 E Old Walnut Canyon Rd
     city: Flagstaff

@@ -1,0 +1,80 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import StateLots from '../../components/StateLots.astro';
+import { href } from '../../lib/data';
+import { breadcrumbNode, faqNode, pageGraph, webPageNode } from '../../lib/schema';
+
+const title = 'Can an Arizona HOA ban RV parking? | RV Storage Prices';
+const description =
+  'No Arizona statute was found that requires a planned community to allow or forbid an RV or boat on a lot. Nearby sections are quoted. Not legal advice.';
+const path = '/guides/can-hoa-ban-rv-parking-arizona/';
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'Guides', path: '/guides/' },
+  { label: 'Arizona HOA parking', path },
+];
+const faqs = [
+  {
+    q: 'Can an Arizona HOA ban RV parking?',
+    a: 'On November 19, 2026, no Arizona statute was found that names a recreational vehicle, motor home, or boat as something a planned community must allow or must forbid on a lot. That silence is not a statement that an association may not adopt a parking rule.',
+  },
+  {
+    q: 'Does A.R.S. 33-1809 cover an RV?',
+    a: 'The quoted subsection is about a motor vehicle required for the resident’s employment, a public-service or public-safety vehicle with a weight limit and an official emblem. It does not name a recreational vehicle or a boat.',
+  },
+  {
+    q: 'Where can the RV go if the house rule says no?',
+    a: 'The Arizona city list on this page links storage lots in this directory. A listing is not permission to park at the house.',
+  },
+];
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: '2026-11-20' }),
+  breadcrumbNode(crumbs),
+  faqNode(faqs),
+]);
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <article class="wrap prose">
+    <Breadcrumbs items={crumbs} />
+    <h1>Can an Arizona HOA ban RV parking?</h1>
+    <p>
+      This is not legal advice. On November 19, 2026, no Arizona statute was found that names a
+      recreational vehicle, motor home, or boat as something a planned community must allow, or must
+      forbid, on a lot or a driveway. The longer note is the
+      <a href={href('/rules/arizona/')}>Arizona HOA rules page</a>.
+    </p>
+    <p>
+      <a href="https://www.azleg.gov/ars/33/01809.htm" rel="noopener noreferrer">A.R.S. § 33-1809</a>
+      subsection A says:
+    </p>
+    <blockquote>
+      <p>
+        Notwithstanding any provision in the community documents, an association shall not prohibit a
+        resident from parking a motor vehicle on a street or driveway in the planned community if the
+        vehicle is required to be available at designated periods at the person's residence as a
+        condition of the person's employment and either of the following applies:
+      </p>
+    </blockquote>
+    <p>
+      The conditions that follow are a public-service vehicle and a public-safety vehicle, each with a
+      weight limit and an official emblem. The section does not name a recreational vehicle or a boat.
+    </p>
+    <p>
+      <a href="https://www.azleg.gov/ars/33/02101.htm" rel="noopener noreferrer">A.R.S. § 33-2101</a>
+      uses “recreational vehicle” for a space rented in a park for more than 180 consecutive days. That
+      is landlord-tenant law for a park, not a planned-community lot.
+    </p>
+    <StateLots stateSlug="arizona" inputId="hoa-az" />
+    <section class="faq">
+      <h2>Questions</h2>
+      {faqs.map((faq) => (
+        <>
+          <h3>{faq.q}</h3>
+          <p>{faq.a}</p>
+        </>
+      ))}
+    </section>
+  </article>
+</Base>

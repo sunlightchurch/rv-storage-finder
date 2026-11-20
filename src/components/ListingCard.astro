@@ -13,6 +13,7 @@ import {
   telHref,
 } from '../lib/format';
 import { coverLabel, priceHeadline, priceLines, priceLineText, type CoverKind } from '../lib/prices';
+import { feeFields, termLabel } from '../lib/terms';
 
 interface Props {
   listing: Listing;
@@ -143,6 +144,26 @@ const icons = [
         )
       }
     </div>
+    <p>
+      <span class="label">Terms</span><br />
+      <span class={listing.billing_term ? undefined : 'unknown'}>
+        {termLabel(listing.billing_term)}
+        {listing.billing_detail ? ` ${listing.billing_detail}` : ''}
+      </span>
+    </p>
+    <details class="details">
+      <summary>Published fees</summary>
+      <dl class="facts">
+        {
+          feeFields.map(([key, label]) => (
+            <div>
+              <dt>{label}</dt>
+              <dd class={listing.fees[key] ? undefined : 'unknown'}>{listing.fees[key] ?? 'Not listed'}</dd>
+            </div>
+          ))
+        }
+      </dl>
+    </details>
     <p class="distance-note" data-distance-note hidden></p>
     <p class="fit-note" data-fit-note hidden></p>
     <ul class="icon-row" aria-label="Published features">
@@ -151,24 +172,31 @@ const icons = [
     <div class="actions">
       {
         listing.phone ? (
-          <a class="action-primary" href={telHref(listing.phone)}>Call {listing.phone}</a>
+          <a class="action-primary" href={telHref(listing.phone)}>
+            <svg class="ico" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 4h3l1.5 4-2 1.2a12 12 0 0 0 6.3 6.3L16 13.5 20 15v3a2 2 0 0 1-2 2A16 16 0 0 1 4 6a2 2 0 0 1 2-2z"></path></svg>
+            Call {listing.phone}
+          </a>
         ) : listing.website ? (
           <a class="action-primary" href={listing.website} rel="noopener noreferrer" target="_blank">
+            <svg class="ico" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"></circle><path d="M4 12h16M12 4a14 14 0 0 1 0 16M12 4a14 14 0 0 0 0 16"></path></svg>
             Website<span class="sr-only"> for {listing.name} (opens in a new tab)</span>
           </a>
         ) : (
           <a class="action-primary" href={mapUrl(listing)} rel="noopener noreferrer" target="_blank">
+            <svg class="ico" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11z"></path><circle cx="12" cy="10" r="2"></circle></svg>
             Directions<span class="sr-only"> for {listing.name} (opens in a new tab)</span>
           </a>
         )
       }
       {listing.phone && listing.website && (
         <a class="action-secondary" href={listing.website} rel="noopener noreferrer" target="_blank">
+          <svg class="ico" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"></circle><path d="M4 12h16M12 4a14 14 0 0 1 0 16M12 4a14 14 0 0 0 0 16"></path></svg>
           Website<span class="sr-only"> for {listing.name} (opens in a new tab)</span>
         </a>
       )}
       {(listing.phone || listing.website) && (
         <a class="action-secondary" href={mapUrl(listing)} rel="noopener noreferrer" target="_blank">
+          <svg class="ico" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11z"></path><circle cx="12" cy="10" r="2"></circle></svg>
           Directions<span class="sr-only"> for {listing.name} (opens in a new tab)</span>
         </a>
       )}

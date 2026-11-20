@@ -487,6 +487,8 @@ listings:
     title: Official Henderson page
   last_verified: '2026-11-18'
 - slug: 24-7-indoor-storage
+  billing_term: month-to-month
+  billing_detail: "Month-to-month is $17.50 per foot per month. Six-month and 12-month plans are also printed."
   name: 24/7 Indoor Storage
   street: 3930 W Windmill Ln #130-A
   city: Las Vegas

@@ -154,6 +154,7 @@ listings:
     last_verified: "2026-11-18"
 
   - slug: honey-bee-el-mirage
+    billing_term: month-to-month
     name: Honey Bee RV Storage
     street: 8750 N Dysart Rd
     city: El Mirage

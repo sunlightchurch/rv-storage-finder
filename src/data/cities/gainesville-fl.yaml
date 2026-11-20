@@ -47,6 +47,8 @@ listings:
     last_verified: "2026-11-18"
 
   - slug: dibros-rv-boat-storage
+    fees:
+      deposit: "$100 refundable deposit"
     name: Dibros RV & Boat Storage
     street: 104 SW 131st Street
     city: Newberry

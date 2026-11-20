@@ -112,6 +112,7 @@ listings:
     last_verified: "2026-11-18"
 
   - slug: self-storage-plus-panama-city
+    billing_term: month-to-month
     name: Self Storage Plus - Panama City RV
     street: 2125 Lisenby Ave
     city: Panama City

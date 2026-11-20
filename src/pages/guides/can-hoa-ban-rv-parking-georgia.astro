@@ -1,0 +1,70 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import StateLots from '../../components/StateLots.astro';
+import { href } from '../../lib/data';
+import { breadcrumbNode, faqNode, pageGraph, webPageNode } from '../../lib/schema';
+
+const title = 'Can a Georgia HOA ban RV parking? | RV Storage Prices';
+const description =
+  'No Georgia statute was found that requires a property owners’ association to allow or forbid an RV or boat. The code text was not quoted. Not legal advice.';
+const path = '/guides/can-hoa-ban-rv-parking-georgia/';
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'Guides', path: '/guides/' },
+  { label: 'Georgia HOA parking', path },
+];
+const faqs = [
+  {
+    q: 'Can a Georgia HOA ban RV parking?',
+    a: 'On November 19, 2026, no Georgia statute was found that names a recreational vehicle, motor home, boat, or driveway parking rule as something a property owners’ association must allow or must forbid. That is not a statement that an association may not adopt a rule.',
+  },
+  {
+    q: 'Why is the Property Owners’ Association Act not quoted here?',
+    a: 'The Georgia General Assembly laws page did not return the code text during that review, so the rules page does not quote a section. Secondary reprints were not used as the statute.',
+  },
+  {
+    q: 'Where is RV storage in Georgia?',
+    a: 'The city list on this page links the Georgia storage lots in this directory. A listing is not a reading of a recorded instrument.',
+  },
+];
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: '2026-11-20' }),
+  breadcrumbNode(crumbs),
+  faqNode(faqs),
+]);
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <article class="wrap prose">
+    <Breadcrumbs items={crumbs} />
+    <h1>Can a Georgia HOA ban RV parking?</h1>
+    <p>
+      This is not legal advice. On November 19, 2026, no Georgia statute was found that names a
+      recreational vehicle, motor home, boat, or driveway parking rule as something a property owners’
+      association must allow or must forbid. The longer note is the
+      <a href={href('/rules/georgia/')}>Georgia HOA rules page</a>.
+    </p>
+    <p>
+      The association statute is the Georgia Property Owners’ Association Act, Article 6 of Chapter 3
+      of Title 44. The
+      <a href="https://www.legis.ga.gov/laws" rel="noopener noreferrer">Georgia General Assembly laws page</a>
+      did not return the code text during that review, so this page does not quote a section. A
+      secondary reprint was not used as the statute.
+    </p>
+    <p>
+      No statute found is not a statement that an association may not adopt a parking rule. The
+      recorded instrument still has to be read. A city or county ordinance can still regulate parking.
+    </p>
+    <StateLots stateSlug="georgia" inputId="hoa-ga" />
+    <section class="faq">
+      <h2>Questions</h2>
+      {faqs.map((faq) => (
+        <>
+          <h3>{faq.q}</h3>
+          <p>{faq.a}</p>
+        </>
+      ))}
+    </section>
+  </article>
+</Base>

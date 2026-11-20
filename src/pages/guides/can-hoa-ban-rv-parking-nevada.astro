@@ -1,0 +1,74 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import StateLots from '../../components/StateLots.astro';
+import { href } from '../../lib/data';
+import { breadcrumbNode, faqNode, pageGraph, webPageNode } from '../../lib/schema';
+
+const title = 'Can a Nevada HOA ban RV parking? | RV Storage Prices';
+const description =
+  'NRS 116.350 is quoted from the Nevada Legislature. It allows reasonable restrictions on recreational vehicles and watercraft. Not legal advice.';
+const path = '/guides/can-hoa-ban-rv-parking-nevada/';
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'Guides', path: '/guides/' },
+  { label: 'Nevada HOA parking', path },
+];
+const faqs = [
+  {
+    q: 'Can a Nevada HOA ban RV parking?',
+    a: 'NRS 116.350 subsection 2 says an association may adopt rules that reasonably restrict the parking or storage of recreational vehicles, watercraft, trailers, or commercial vehicles, to the extent authorized by law. It is not a right to keep one in a driveway.',
+  },
+  {
+    q: 'Does that section cover a public road?',
+    a: 'Subsection 1 limits regulation of a public road in a community that is not gated and whose access is not controlled. The RV sentence is subsection 2. Read both on the Nevada rules page.',
+  },
+  {
+    q: 'Where is RV storage in Nevada if the house does not allow it?',
+    a: 'The city list on this page links the Nevada storage lots in this directory. A listing is not permission to park at the house.',
+  },
+];
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: '2026-11-20' }),
+  breadcrumbNode(crumbs),
+  faqNode(faqs),
+]);
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <article class="wrap prose">
+    <Breadcrumbs items={crumbs} />
+    <h1>Can a Nevada HOA ban RV parking?</h1>
+    <p>
+      This is not legal advice and not a reading of your governing documents. The longer note is the
+      <a href={href('/rules/nevada/')}>Nevada HOA rules page</a>. Checked November 19, 2026, on the
+      <a href="https://www.leg.state.nv.us/NRS/NRS-116.html" rel="noopener noreferrer">Nevada Legislature’s copy of NRS Chapter 116</a>.
+    </p>
+    <p>NRS 116.350 subsection 2 says:</p>
+    <blockquote>
+      <p>
+        Except as otherwise provided in subsection 3, the provisions of subsection 1 do not preclude an
+        association from adopting, and do not preclude the governing documents of an association from
+        setting forth, rules that reasonably restrict the parking or storage of recreational vehicles,
+        watercraft, trailers or commercial vehicles in the common-interest community to the extent
+        authorized by law. The governing documents of an association may authorize the executive board
+        of the association to impose a fine pursuant to NRS 116.31031 for any violation of the rules
+        authorized pursuant to this subsection.
+      </p>
+    </blockquote>
+    <p>
+      That sentence allows reasonable restrictions. It is not a right to keep a recreational vehicle or
+      a boat on a driveway.
+    </p>
+    <StateLots stateSlug="nevada" inputId="hoa-nv" />
+    <section class="faq">
+      <h2>Questions</h2>
+      {faqs.map((faq) => (
+        <>
+          <h3>{faq.q}</h3>
+          <p>{faq.a}</p>
+        </>
+      ))}
+    </section>
+  </article>
+</Base>

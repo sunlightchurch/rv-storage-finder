@@ -85,6 +85,9 @@ listings:
     last_verified: "2026-11-19"
 
   - slug: freedom-self-storage-lewis
+    fees:
+      admin: "No admin fee"
+      deposit: "No deposit"
     name: Freedom Self Storage
     street: 311 Lewis Street
     city: Fort Walton Beach
@@ -117,6 +120,8 @@ listings:
     last_verified: "2026-11-19"
 
   - slug: usave-storage-niceville
+    fees:
+      deposit: "The printed rate does not include the deposit or tax."
     name: U-Save Storage
     street: 1400 Reeves St.
     city: Niceville
@@ -251,6 +256,8 @@ listings:
     last_verified: "2026-11-19"
 
   - slug: lonas-boat-rv-navarre
+    billing_term: short-term
+    billing_detail: "Short-term storage is $25 per day."
     name: Lona's Boat & RV Storage
     street: 8936 Navarre Pky.
     city: Navarre
@@ -286,6 +293,9 @@ listings:
     last_verified: "2026-11-19"
 
   - slug: a1-boat-storage-navarre
+    fees:
+      admin: "$20 setup fee"
+      deposit: "$25 cleaning deposit"
     name: A-1 Boat Storage
     street: 8275 East Bay Blvd.
     city: Navarre

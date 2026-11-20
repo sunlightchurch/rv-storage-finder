@@ -215,6 +215,8 @@ listings:
     last_verified: "2026-11-18"
 
   - slug: your-place-for-space-stuart
+    billing_term: month-to-month
+    billing_detail: "A 10-by-20 outdoor space is $100 month to month. A 13-by-45 space is $460 month to month and $440 on an annual lease."
     name: Your Place For Space
     street: 656 NW Buck Hendry Way
     city: Stuart

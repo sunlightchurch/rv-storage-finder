@@ -1,0 +1,90 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import StateLots from '../../components/StateLots.astro';
+import TermList from '../../components/TermList.astro';
+import { getState, href } from '../../lib/data';
+import { formatBand, getCityCostGuides } from '../../lib/guides';
+import { termRows } from '../../lib/topic';
+import { breadcrumbNode, faqNode, pageGraph, webPageNode } from '../../lib/schema';
+
+const title = 'Snowbird RV storage in Florida | RV Storage Prices';
+const description =
+  'Florida facilities in this directory that publish a month-to-month or short-term term, plus the monthly prices already printed on city pages. Not a snowbird rate.';
+const path = '/guides/snowbird-rv-storage-florida/';
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'Guides', path: '/guides/' },
+  { label: 'Florida snowbird storage', path },
+];
+const faqs = [
+  {
+    q: 'Where can a snowbird store an RV in Florida?',
+    a: 'This directory lists Florida city pages for storage lots. A snowbird term is shown only when that facility’s own page states month-to-month or short-term storage.',
+  },
+  {
+    q: 'Do Florida storage pages publish a monthly price?',
+    a: 'Some do. The city cost guides on this site use only those printed monthly amounts. A page that does not say the rate is monthly is left out.',
+  },
+  {
+    q: 'Is a month-to-month term the same as a snowbird rate?',
+    a: 'No. Month-to-month means the facility said the rental is month to month. It is not a seasonal discount and not a promise that a space is open.',
+  },
+];
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: '2026-11-20' }),
+  breadcrumbNode(crumbs),
+  faqNode(faqs),
+]);
+const stated = termRows('FL');
+const guides = getCityCostGuides().filter((guide) => guide.city.state_code === 'FL');
+const florida = getState('florida');
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <article class="wrap prose">
+    <Breadcrumbs items={crumbs} />
+    <h1>Snowbird RV storage in Florida</h1>
+    <p>
+      A snowbird stay is often a few months. This page does not invent a snowbird price or a vacancy.
+      It lists Florida facilities whose own pages state a month-to-month or short-term term, and it
+      links the city pages where other published monthly prices live.
+    </p>
+    <h2>Facilities that state a short term</h2>
+    <TermList rows={stated} />
+    <h2>Published monthly ranges by city</h2>
+    <p>
+      These ranges are the low and high monthly amounts already used on the city cost guides.
+      {florida.cities.length} Florida city pages exist. A city without three facilities that printed a
+      monthly price does not have a cost guide.
+    </p>
+    <ul>
+      {
+        guides.map((guide) => (
+          <li>
+            <a href={href(guide.path)}>
+              {guide.city.city}, {guide.city.state_code}
+            </a>
+            {`: ${formatBand(guide.overall.min)} to ${formatBand(guide.overall.max)} across ${guide.sampled.length} facilities. `}
+            <a href={href(`/cities/${guide.city.id}/`)}>City page</a>
+          </li>
+        ))
+      }
+    </ul>
+    <p>
+      <a href={href('/guides/short-term-rv-storage/')}>All short-term terms in the directory</a>
+      {' · '}
+      <a href={href('/guides/can-hoa-ban-rv-parking-florida/')}>Can a Florida HOA ban an RV?</a>
+    </p>
+    <StateLots stateSlug="florida" inputId="snow-fl" />
+    <section class="faq">
+      <h2>Questions</h2>
+      {faqs.map((faq) => (
+        <>
+          <h3>{faq.q}</h3>
+          <p>{faq.a}</p>
+        </>
+      ))}
+    </section>
+  </article>
+</Base>

@@ -484,6 +484,8 @@ listings:
     last_verified: "2026-11-18"
 
   - slug: rodeo-self-storage
+    fees:
+      lock_or_insurance: "Title or registration and proof of insurance are required."
     name: Rodeo Self Storage
     street: 3090 West San Antonio Street
     city: New Braunfels

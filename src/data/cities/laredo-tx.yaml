@@ -48,6 +48,8 @@ listings:
     title: Industrial unit page
   last_verified: '2026-11-18'
 - slug: stor-more-muller-laredo
+  fees:
+    lock_or_insurance: "Title or registration plus insurance is required."
   name: "Stor-More: Muller"
   street: 1315 Muller Road
   city: Laredo

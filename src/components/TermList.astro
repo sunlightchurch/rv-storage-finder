@@ -1,0 +1,29 @@
+---
+import { href } from '../lib/data';
+import type { TermRow } from '../lib/topic';
+
+interface Props {
+  rows: TermRow[];
+}
+
+const { rows } = Astro.props;
+---
+
+{
+  rows.length ? (
+    <ul>
+      {rows.map((row) => (
+        <li>
+          <a href={href(`/cities/${row.city.id}/#${row.listing.slug}`)}>{row.listing.name}</a>
+          {` · ${row.listing.city}, ${row.listing.state_code} · ${row.term} · ${row.price}. `}
+          <a href={row.listing.sources[0].url} rel="noopener noreferrer">
+            {row.listing.sources[0].title}
+            <span class="sr-only"> (opens in a new tab)</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  ) : (
+    <p>No facility in this set published a month-to-month or short-term term.</p>
+  )
+}

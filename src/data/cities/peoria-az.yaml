@@ -13,6 +13,7 @@ sparefoot_note: null
 photo: peoria
 listings:
   - slug: honey-bee-peoria-mountain-view
+    billing_term: month-to-month
     name: Honey Bee RV Storage
     street: 7751 W Mountain View Rd
     city: Peoria
