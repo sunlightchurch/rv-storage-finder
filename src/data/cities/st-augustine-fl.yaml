@@ -1,0 +1,168 @@
+# Verified against public facility pages on 2026-11-20. See PUBLISHING.md.
+id: st-augustine-fl
+city: St. Augustine
+state: Florida
+state_code: FL
+metro: St. Augustine
+summary: >-
+  These facilities publish an RV or boat storage page in St. Augustine. Each
+  card uses only what that page states. This is not a complete inventory of
+  St. Johns County.
+sparefoot_slug: St-Augustine-FL
+neighbor_path: florida/st-augustine
+sparefoot_note: null
+photo: st-augustine
+listings:
+  - slug: four-man-storage-st-augustine
+    name: 4MAN Storage - Boat and RV
+    street: 1070 State Road 206
+    city: St. Augustine
+    state_code: FL
+    postal_code: "32086"
+    lat: null
+    lng: null
+    phone: "(904) 315-0083"
+    website: https://www.4manstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Uncovered outdoor parking for RVs, boats, and other vehicles. The page
+      states 24-hour access, a fenced and gated lot, video surveillance, a wash
+      station, water, an air compressor, and electric hookups.
+    sources:
+      - url: https://www.4manstorage.com/
+        title: 4MAN Storage boat and RV page
+    last_verified: "2026-11-20"
+
+  - slug: outback-boat-rv-st-augustine
+    name: Outback Boat & RV Storage
+    street: 3970 Joe Ashton Road
+    city: St. Augustine
+    state_code: FL
+    postal_code: "32092"
+    lat: null
+    lng: null
+    phone: "(904) 315-1362"
+    website: https://outbackboatandrv.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Outdoor storage for boats and RVs. The page states a fenced property,
+      gate-code access 24/7, HD cameras, LED lighting, and a freshwater wash
+      station. A second phone, (904) 392-1781, is also printed.
+    sources:
+      - url: https://outbackboatandrv.com/
+        title: Outback Boat and RV Storage
+    last_verified: "2026-11-20"
+
+  - slug: chappell-rv-boat-storage
+    name: Chappell RV & Boat Storage
+    street: 6895 County Road 16A
+    city: St. Augustine
+    state_code: FL
+    postal_code: "32092"
+    lat: null
+    lng: null
+    phone: "(904) 664-3553"
+    website: https://chappellrvboatstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Uncovered spaces for RVs and boats. The page states keypad entry, security
+      cameras, and 24/7 access. Space sizes are not printed.
+    sources:
+      - url: https://chappellrvboatstorage.com/
+        title: Chappell RV and Boat Storage
+    last_verified: "2026-11-20"
+
+  - slug: first-coast-rv-boat-storage
+    name: First Coast RV & Boat Storage
+    street: 2131 State Road 16
+    city: St. Augustine
+    state_code: FL
+    postal_code: "32084"
+    lat: null
+    lng: null
+    phone: "(904) 536-5109"
+    website: https://www.firstcoastrvboatstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Outdoor parking on crushed concrete for RVs, boats, cargo and boat
+      trailers, commercial vehicles, and automobiles. The page states 24-hour
+      video surveillance, 24-hour keypad access, angled spaces, and two wash
+      areas.
+    sources:
+      - url: https://www.firstcoastrvboatstorage.com/
+        title: First Coast RV and Boat Storage
+    last_verified: "2026-11-20"
+
+  - slug: affordable-boat-rv-st-augustine
+    name: Affordable Boat & RV Storage
+    street: 3220 US Highway 1 S
+    city: St. Augustine
+    state_code: FL
+    postal_code: "32086"
+    lat: null
+    lng: null
+    phone: "(904) 797-7192"
+    website: https://www.storewithaffordable.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The page offers boat and RV storage at this address and lists access as
+      24 hours, seven days. It does not print a cover type, a length, or a price.
+    sources:
+      - url: https://www.storewithaffordable.com/
+        title: Affordable Boat and RV Storage
+    last_verified: "2026-11-20"
