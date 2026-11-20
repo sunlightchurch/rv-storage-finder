@@ -1,0 +1,157 @@
+id: cherokee
+name: Cherokee County
+state: Georgia
+state_code: GA
+summary: >-
+  RV and boat storage in Cherokee County with a street address from each
+  facility page. Towns on this page: Canton, Holly Springs, Woodstock.
+listings:
+  - slug: uhaul-032513
+    name: Hickory Road Storage
+    street: 101 Arthur Dr
+    city: Canton
+    state_code: GA
+    postal_code: 30115
+    lat: null
+    lng: null
+    phone: (770) 345-9364
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Canton-GA-30115/032513"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 6 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $94.00 per month (1st Floor, Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 6 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Canton-GA-30115/032513"
+        title: Hickory Road Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-047274
+    name: Premier Plus Storage
+    street: 2615 Holly Springs Pkwy
+    city: Holly Springs
+    state_code: GA
+    postal_code: 30115
+    lat: null
+    lng: null
+    phone: (470) 863-2352
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Holly-Springs-GA-30115/047274"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 8 am - 5 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $85.00 per month (1st Floor, Drivethrough, No Climate); $90.00 per month (1st Floor, Drivethrough, No Climate); $115.00 per month (1st Floor, Drivethrough, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 8 am - 5 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Holly-Springs-GA-30115/047274"
+        title: Premier Plus Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-863029
+    name: "U-Haul Moving & Storage of Holly Springs"
+    street: 6380 Hickory Flat Hwy
+    city: Holly Springs
+    state_code: GA
+    postal_code: 30115
+    lat: null
+    lng: null
+    phone: (770) 479-2313
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Holly-Springs-GA-30115/863029"
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $194.95 per month (Covered Level, No Climate, Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Holly-Springs-GA-30115/863029"
+        title: "U-Haul Moving & Storage of Holly Springs location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-014636
+    name: Mini Max Storage
+    street: 455 Victoria Rd
+    city: Woodstock
+    state_code: GA
+    postal_code: 30189
+    lat: null
+    lng: null
+    phone: (770) 926-9848
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Woodstock-GA-30189/014636"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 11 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $102.00 per month (Outside Level, No Climate, Swing); $122.00 per month (Outside Level, No Climate, Swing)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 11 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Woodstock-GA-30189/014636"
+        title: Mini Max Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-863031
+    name: "U-Haul Moving & Storage of Woodstock"
+    street: 11300 Hwy 92
+    city: Woodstock
+    state_code: GA
+    postal_code: 30188
+    lat: null
+    lng: null
+    phone: (678) 494-1551
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Woodstock-GA-30188/863031"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $109.95 per month (Outside Level, No Climate); $114.95 per month (Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Woodstock-GA-30188/863031"
+        title: "U-Haul Moving & Storage of Woodstock location page"
+    last_verified: "2026-11-20"

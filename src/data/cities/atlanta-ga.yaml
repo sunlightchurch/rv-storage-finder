@@ -532,3 +532,63 @@ listings:
   - url: https://www.uhaul.com/Locations/Self-Storage-near-Kennesaw-GA-30152/777033/
     title: Self Storage Units Near Kennesaw, GA 30152 | U-Haul
   last_verified: '2026-11-18'
+
+- slug: uhaul-777026
+  name: "U-Haul Moving & Storage of Kennesaw"
+  street: 2085 Cobb Pkwy
+  city: Kennesaw
+  state_code: GA
+  postal_code: 30152
+  lat: null
+  lng: null
+  phone: (770) 792-8555
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Kennesaw-GA-30152/777026"
+  vehicles: [rv, boat]
+  storage_types: [covered, open]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  access_hours: "Mon-Sun: 5 am - 10 pm"
+  price_notes: "Spaces tagged RV, boat, and vehicle parking: $94.95 per month (Outside Level); $164.95 per month (Outside Level, No Climate, Electricity); $239.95 per month (Covered Level, No Climate, Electricity)."
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Kennesaw-GA-30152/777026"
+      title: "U-Haul Moving & Storage of Kennesaw location page"
+  last_verified: "2026-11-20"
+
+- slug: uhaul-763073
+  name: "U-Haul Moving & Storage of McDonough"
+  street: 2055 Avalon Pkwy
+  city: McDonough
+  state_code: GA
+  postal_code: 30253
+  lat: null
+  lng: null
+  phone: (678) 466-6513
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Mcdonough-GA-30253/763073"
+  vehicles: [rv, boat]
+  storage_types: [covered]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  access_hours: "Mon-Sun: 5 am - 10 pm"
+  price_notes: "Spaces tagged RV, boat, and vehicle parking: $94.95 per month (Covered Level, No Climate, Electricity); $204.95 per month (Covered Level, No Climate, Electricity); $229.95 per month (Covered Level, No Climate, Electricity); $234.95 per month (Covered Level, No Climate, Electricity)."
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Mcdonough-GA-30253/763073"
+      title: "U-Haul Moving & Storage of McDonough location page"
+  last_verified: "2026-11-20"

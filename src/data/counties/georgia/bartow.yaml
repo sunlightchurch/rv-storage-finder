@@ -1,0 +1,67 @@
+id: bartow
+name: Bartow County
+state: Georgia
+state_code: GA
+summary: >-
+  RV and boat storage in Bartow County with a street address from each
+  facility page. Towns on this page: Cartersville.
+listings:
+  - slug: uhaul-021749
+    name: A Better Storage
+    street: 1834 Joe Frank Harris Pkwy
+    city: Cartersville
+    state_code: GA
+    postal_code: 30121
+    lat: null
+    lng: null
+    phone: (770) 607-8652
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Cartersville-GA-30121/021749"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $65.00 per month."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Cartersville-GA-30121/021749"
+        title: A Better Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-028266
+    name: Cartersville Mini Storage
+    street: 1225 N Tennessee St
+    city: Cartersville
+    state_code: GA
+    postal_code: 30120
+    lat: null
+    lng: null
+    phone: (770) 382-1154
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Cartersville-GA-30120/028266"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 6 am - 9 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $40.00 per month (No Climate); $45.00 per month (Drivethrough, No Climate, No Electricity); $150.00 per month (Outside Level, Drivethrough, No Climate); $175.00 per month (Lower Level, Outside Level, Drivethrough)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 6 am - 9 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Cartersville-GA-30120/028266"
+        title: Cartersville Mini Storage location page
+    last_verified: "2026-11-20"

@@ -180,3 +180,93 @@ listings:
       - url: https://www.morningstarmarinas.com/location/706/ga/st-simons-island/morningstar-marinas-golden-isles/
         title: Morningstar Golden Isles page
     last_verified: "2026-11-19"
+
+  - slug: uhaul-019234
+    name: Scarlett Storage
+    street: 2901 Scarlett St
+    city: Brunswick
+    state_code: GA
+    postal_code: 31520
+    lat: null
+    lng: null
+    phone: (912) 264-8189
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Brunswick-GA-31520/019234"
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 8 am - 5 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $65.00 per month (Outside Level, No Electricity); $200.00 per month (Covered Level, No Electricity); $250.00 per month (Covered Level, Drivethrough, No Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 8 am - 5 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Brunswick-GA-31520/019234"
+        title: Scarlett Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1039213
+    name: American Mini Storage
+    street: 117 Center Drive
+    city: Brunswick
+    state_code: GA
+    postal_code: 31520
+    lat: null
+    lng: null
+    phone: (912) 264-3605
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Brunswick-GA-31520/1039213"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 6 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $60.00 per month (1st Floor, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 6 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Brunswick-GA-31520/1039213"
+        title: American Mini Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-023605
+    name: Storage By The Sea II
+    street: 3410 Cypress Mill Rd
+    city: Brunswick
+    state_code: GA
+    postal_code: 31520
+    lat: null
+    lng: null
+    phone: (912) 280-0107
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Brunswick-GA-31520/023605"
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Fri: 8 am - 5:30 pm Sat: 9 am - 5 pm Sun: Closed"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $95.00 per month (1st Floor, Covered Level, Drivethrough); $95.00 per month (1st Floor, Enclosed Level, Drivethrough); $95.00 per month (1st Floor, Outside Level, Drivethrough); $145.00 per month (1st Floor, Outside Level, Drivethrough)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Fri: 8 am - 5:30 pm Sat: 9 am - 5 pm Sun: Closed."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Brunswick-GA-31520/023605"
+        title: Storage By The Sea II location page
+    last_verified: "2026-11-20"

@@ -1,0 +1,127 @@
+id: hall
+name: Hall County
+state: Georgia
+state_code: GA
+summary: >-
+  RV and boat storage in Hall County with a street address from each facility
+  page. Towns on this page: Flowery Branch, Gainesville, Oakwood.
+listings:
+  - slug: uhaul-1039178
+    name: FLOWERY BRANCH MINI STORAGE
+    street: 5110 Chattahoochee St
+    city: Flowery Branch
+    state_code: GA
+    postal_code: 30542
+    lat: null
+    lng: null
+    phone: (770) 967-6711
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Flowery-Branch-GA-30542/1039178"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $55.00 per month (1st Floor, Outside Level, ADA)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Flowery-Branch-GA-30542/1039178"
+        title: FLOWERY BRANCH MINI STORAGE location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1037335
+    name: 369Storage.com
+    street: 5201 Browns Bridge Road
+    city: Gainesville
+    state_code: GA
+    postal_code: 30504
+    lat: null
+    lng: null
+    phone: (678) 622-3112
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Gainesville-GA-30504/1037335"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $75.00 per month (1st Floor, Drivethrough, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Gainesville-GA-30504/1037335"
+        title: 369Storage.com location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-031203
+    name: Hometown Storage
+    street: 3625 McEver Rd
+    city: Oakwood
+    state_code: GA
+    postal_code: 30566
+    lat: null
+    lng: null
+    phone: (678) 707-8386
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Oakwood-GA-30566/031203"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 12 am"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $45.00 per month; $50.00 per month; $55.00 per month; $65.00 per month."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 12 am."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Oakwood-GA-30566/031203"
+        title: Hometown Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: lakeside-marine-gainesville
+    name: Lakeside Marine boat storage
+    street: 9605 Jot Em Down Road
+    city: Gainesville
+    state_code: GA
+    postal_code: 30506
+    lat: null
+    lng: null
+    phone: (678) 322-7877
+    website: "https://lakesidemarine.com/boat-storage/"
+    vehicles: [boat]
+    storage_types: [open, covered, enclosed]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    access_hours: null
+    price_notes: Uncovered boat storage is $75 per month for boats under 26 ft. A covered 40 by 10 ft bay is $110 per month.
+    billing_term: null
+    waitlist: null
+    notes: "The Lake Lanier page offers uncovered, covered, and indoor warehouse boat storage. The lot is gated and video recorded. Office hours are Monday through Friday, 9 am to 5 pm."
+    sources:
+      - url: "https://lakesidemarine.com/boat-storage/"
+        title: Lakeside Marine boat storage
+    last_verified: "2026-11-20"

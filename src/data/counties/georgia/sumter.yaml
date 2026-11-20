@@ -1,0 +1,37 @@
+id: sumter
+name: Sumter County
+state: Georgia
+state_code: GA
+summary: >-
+  RV and boat storage in Sumter County with a street address from each
+  facility page. Towns on this page: Americus.
+listings:
+  - slug: uhaul-002375
+    name: Browns Self Storage
+    street: 101 Ga Hwy 27 East
+    city: Americus
+    state_code: GA
+    postal_code: 31709
+    lat: null
+    lng: null
+    phone: (478) 472-1172
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Oglethorpe-GA-31068/002375"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $45.00 per month."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Oglethorpe-GA-31068/002375"
+        title: Browns Self Storage location page
+    last_verified: "2026-11-20"

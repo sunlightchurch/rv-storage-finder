@@ -1,0 +1,67 @@
+id: fulton
+name: Fulton County
+state: Georgia
+state_code: GA
+summary: >-
+  RV and boat storage in Fulton County with a street address from each
+  facility page. Towns on this page: Alpharetta, College Park.
+listings:
+  - slug: uhaul-863043
+    name: "U-Haul Moving & Storage of Nesbit Ferry"
+    street: 2840 Holcomb Bridge Rd
+    city: Alpharetta
+    state_code: GA
+    postal_code: 30022
+    lat: null
+    lng: null
+    phone: (678) 795-1443
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Alpharetta-GA-30022/863043"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Alpharetta-GA-30022/863043"
+        title: "U-Haul Moving & Storage of Nesbit Ferry location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-763041
+    name: "U-Haul Moving & Storage of College Park at Godby Rd"
+    street: 2041 Southampton Rd
+    city: College Park
+    state_code: GA
+    postal_code: 30349
+    lat: null
+    lng: null
+    phone: (770) 994-0453
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-College-Park-GA-30349/763041"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-College-Park-GA-30349/763041"
+        title: "U-Haul Moving & Storage of College Park at Godby Rd location page"
+    last_verified: "2026-11-20"

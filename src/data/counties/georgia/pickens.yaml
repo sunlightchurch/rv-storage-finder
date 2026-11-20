@@ -1,0 +1,37 @@
+id: pickens
+name: Pickens County
+state: Georgia
+state_code: GA
+summary: >-
+  RV and boat storage in Pickens County with a street address from each
+  facility page. Towns on this page: Talking Rock.
+listings:
+  - slug: uhaul-1015187
+    name: Affordable Storage
+    street: 60 Talking Rock Creek Lane
+    city: Talking Rock
+    state_code: GA
+    postal_code: 30175
+    lat: null
+    lng: null
+    phone: (706) 253-9290
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Talking-Rock-GA-30175/1015187"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $60.00 per month (1st Floor, Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Talking-Rock-GA-30175/1015187"
+        title: Affordable Storage location page
+    last_verified: "2026-11-20"

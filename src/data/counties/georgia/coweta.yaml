@@ -1,0 +1,97 @@
+id: coweta
+name: Coweta County
+state: Georgia
+state_code: GA
+summary: >-
+  RV and boat storage in Coweta County with a street address from each
+  facility page. Towns on this page: Newnan.
+listings:
+  - slug: uhaul-008453
+    name: Newnan Self Storage
+    street: 24 Franklin Rd
+    city: Newnan
+    state_code: GA
+    postal_code: 30263
+    lat: null
+    lng: null
+    phone: (678) 552-2732
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Newnan-GA-30263/008453"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $50.00 per month (1st Floor, Drivethrough, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Newnan-GA-30263/008453"
+        title: Newnan Self Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-763076
+    name: "U-Haul Moving & Storage of Newnan at Franklin Rd"
+    street: 220 Franklin Rd
+    city: Newnan
+    state_code: GA
+    postal_code: 30263
+    lat: null
+    lng: null
+    phone: (770) 253-2083
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Newnan-GA-30263/763076"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $119.95 per month (Outside Level, No Climate); $164.95 per month (1st Floor, Outside Level, No Climate); $204.95 per month (Outside Level, No Climate, No Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Newnan-GA-30263/763076"
+        title: "U-Haul Moving & Storage of Newnan at Franklin Rd location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-763033
+    name: "U-Haul Moving & Storage of Newnan/Sharpsburg"
+    street: 3003 Highway 34 E
+    city: Newnan
+    state_code: GA
+    postal_code: 30265
+    lat: null
+    lng: null
+    phone: (770) 252-3032
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Newnan-GA-30265/763033"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $84.95 per month (Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Newnan-GA-30265/763033"
+        title: "U-Haul Moving & Storage of Newnan/Sharpsburg location page"
+    last_verified: "2026-11-20"

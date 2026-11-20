@@ -1,0 +1,37 @@
+id: gwinnett
+name: Gwinnett County
+state: Georgia
+state_code: GA
+summary: >-
+  RV and boat storage in Gwinnett County with a street address from each
+  facility page. Towns on this page: Snellville.
+listings:
+  - slug: uhaul-863073
+    name: "U-Haul Moving & Storage of Snellville"
+    street: 2161 Hewatt Rd
+    city: Snellville
+    state_code: GA
+    postal_code: 30039
+    lat: null
+    lng: null
+    phone: (770) 979-5237
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Snellville-GA-30039/863073"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $114.95 per month (1st Floor, Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Snellville-GA-30039/863073"
+        title: "U-Haul Moving & Storage of Snellville location page"
+    last_verified: "2026-11-20"

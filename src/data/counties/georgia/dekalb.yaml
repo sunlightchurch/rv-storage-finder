@@ -1,0 +1,97 @@
+id: dekalb
+name: DeKalb County
+state: Georgia
+state_code: GA
+summary: >-
+  RV and boat storage in DeKalb County with a street address from each
+  facility page. Towns on this page: Chamblee, Decatur, Doraville.
+listings:
+  - slug: uhaul-776058
+    name: "U-Haul Moving & Storage at Northeast Expwy"
+    street: 2951 NE Expwy
+    city: Chamblee
+    state_code: GA
+    postal_code: 30341
+    lat: null
+    lng: null
+    phone: (770) 458-8353
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Chamblee-GA-30341/776058"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Chamblee-GA-30341/776058"
+        title: "U-Haul Moving & Storage at Northeast Expwy location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-776065
+    name: U-Haul at Candler Rd
+    street: 2505 Candler Rd
+    city: Decatur
+    state_code: GA
+    postal_code: 30032
+    lat: null
+    lng: null
+    phone: (404) 241-6021
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Decatur-GA-30032/776065"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Decatur-GA-30032/776065"
+        title: U-Haul at Candler Rd location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-042786
+    name: Doraville Self Storage
+    street: 4268 Winters Chapel Rd
+    city: Doraville
+    state_code: GA
+    postal_code: 30360
+    lat: null
+    lng: null
+    phone: (770) 458-0824
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Doraville-GA-30360/042786"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $50.00 per month (1st Floor, No Climate, Rollup)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Doraville-GA-30360/042786"
+        title: Doraville Self Storage location page
+    last_verified: "2026-11-20"

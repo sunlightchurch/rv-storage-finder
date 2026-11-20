@@ -1,0 +1,37 @@
+id: camden
+name: Camden County
+state: Georgia
+state_code: GA
+summary: >-
+  RV and boat storage in Camden County with a street address from each
+  facility page. Towns on this page: Saint Marys.
+listings:
+  - slug: uhaul-1027226
+    name: Old Harbor Self Storage
+    street: 206 W Gallop St
+    city: Saint Marys
+    state_code: GA
+    postal_code: 31558
+    lat: null
+    lng: null
+    phone: (912) 674-1958
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Saint-Marys-GA-31558/1027226"
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 9 am - 5 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $45.00 per month (Lower Level, Covered Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 9 am - 5 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Saint-Marys-GA-31558/1027226"
+        title: Old Harbor Self Storage location page
+    last_verified: "2026-11-20"

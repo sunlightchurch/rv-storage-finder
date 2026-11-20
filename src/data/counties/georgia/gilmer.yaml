@@ -1,0 +1,37 @@
+id: gilmer
+name: Gilmer County
+state: Georgia
+state_code: GA
+summary: >-
+  RV and boat storage in Gilmer County with a street address from each
+  facility page. Towns on this page: Ellijay.
+listings:
+  - slug: uhaul-023020
+    name: 4 A Mini Warehouse LLC
+    street: 40 Soccer Field Rd
+    city: Ellijay
+    state_code: GA
+    postal_code: 30540
+    lat: null
+    lng: null
+    phone: (706) 276-4306
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Ellijay-GA-30540/023020"
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 7 am - 7 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $70.00 per month (Lower Level, Outside Level, No Climate); $80.00 per month (Lower Level, Covered Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 7 am - 7 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Ellijay-GA-30540/023020"
+        title: 4 A Mini Warehouse LLC location page
+    last_verified: "2026-11-20"

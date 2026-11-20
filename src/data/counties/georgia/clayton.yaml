@@ -1,0 +1,37 @@
+id: clayton
+name: Clayton County
+state: Georgia
+state_code: GA
+summary: >-
+  RV and boat storage in Clayton County with a street address from each
+  facility page. Towns on this page: Jonesboro.
+listings:
+  - slug: uhaul-763032
+    name: "U-Haul Moving & Storage of Jonesboro at Flint River Rd"
+    street: 8640 Kendrick Rd
+    city: Jonesboro
+    state_code: GA
+    postal_code: 30238
+    lat: null
+    lng: null
+    phone: (770) 477-8037
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Jonesboro-GA-30238/763032"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Jonesboro-GA-30238/763032"
+        title: "U-Haul Moving & Storage of Jonesboro at Flint River Rd location page"
+    last_verified: "2026-11-20"

@@ -1,0 +1,37 @@
+id: greene
+name: Greene County
+state: Georgia
+state_code: GA
+summary: >-
+  RV and boat storage in Greene County with a street address from each
+  facility page. Towns on this page: Greensboro.
+listings:
+  - slug: harbor-club-boathouse-greensboro
+    name: The Boathouse at Harbor Club
+    street: 3991 Walker Church Road
+    city: Greensboro
+    state_code: GA
+    postal_code: null
+    lat: null
+    lng: null
+    phone: (706) 817-7330
+    website: "https://www.harborclub.com/lake-oconee-marina/"
+    vehicles: [boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "9:00 AM-5:00 PM daily"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The Lake Oconee marina page says the on-site facility has 72 covered dry-storage spaces and operates 9 am to 5 pm, seven days a week. A second building is described as opening later."
+    sources:
+      - url: "https://www.harborclub.com/lake-oconee-marina/"
+        title: Harbor Club Lake Oconee marina
+    last_verified: "2026-11-20"
