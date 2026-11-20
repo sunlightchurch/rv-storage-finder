@@ -6,9 +6,9 @@ import { breadcrumbNode, pageGraph, webPageNode } from '../lib/schema';
 
 const title = 'Contact | RV Storage Prices';
 const description =
-  'Email contact@rvstorageprices.com for a listing correction, a facility owner question, or anything else. Mail: 477 SW Cashmere Blvd, Port Saint Lucie, FL 34986.';
+  'Email contact@rvstorageprices.com to correct a listing, add or claim a facility, or ask about featured placement.';
 const path = '/contact/';
-const checked = '2026-11-19';
+const checked = '2026-11-20';
 const crumbs = [
   { label: 'Home', path: '/' },
   { label: 'Contact', path },
@@ -17,6 +17,7 @@ const schema = pageGraph([
   webPageNode({ title, description, path, dateModified: checked }),
   breadcrumbNode(crumbs),
 ]);
+const mail = 'contact@rvstorageprices.com';
 ---
 
 <Base title={title} description={description} path={path} schema={schema}>
@@ -24,21 +25,28 @@ const schema = pageGraph([
     <Breadcrumbs items={crumbs} />
     <h1>Contact</h1>
     <p>
-      Write to
-      <a href="mailto:contact@rvstorageprices.com">contact@rvstorageprices.com</a>
-      for a listing correction, a question from a facility owner, or a general question about this
-      directory.
+      Write to <a href={`mailto:${mail}`}>{mail}</a>. This directory has no phone line for the site
+      itself. A phone number on a facility card belongs to that business.
     </p>
-    <h2>Mailing address</h2>
-    <address>
-      RV Storage Prices<br />
-      477 SW Cashmere Blvd<br />
-      Port Saint Lucie, FL 34986
-    </address>
+    <h2>Corrections</h2>
     <p>
-      A correction should name the facility, the city, and what changed. Prices and amenities on the
-      cards are copied from a public page on the date shown. Calling the facility is the way to confirm
-      a rate.
+      If a price, address, or amenity is wrong, email the facility name, the city, and what changed.
+      <a href={`mailto:${mail}?subject=Listing%20correction`}>Start a correction</a>.
+      Prices on the cards are copied from a public page on the date shown. Calling the facility is the
+      way to confirm a rate.
+    </p>
+    <h2>Add or claim a listing</h2>
+    <p>
+      A facility owner can ask to add a lot or to claim the card for a lot already listed. Include the
+      street address and the page that shows RV or boat storage.
+      <a href={`mailto:${mail}?subject=Add%20or%20claim%20a%20listing`}>Add or claim a listing</a>.
+    </p>
+    <h2>Featured placement</h2>
+    <p>
+      Featured placement is a labeled advertisement. It is not a review and it does not change a price
+      the facility did not publish.
+      <a href={`mailto:${mail}?subject=Featured%20placement`}>Ask about featured placement</a>
+      or read <a href={href('/advertise/')}>how featuring works</a>.
     </p>
     <p>
       <a href={href('/about/')}>How listings are checked</a>

@@ -464,17 +464,17 @@
   credit_required: true
 - id: hero
   role: hero
-  alt: "Older travel trailers parked under a metal canopy"
+  alt: "Boats in a harbor at golden hour, still from the home page video"
   width: 1280
-  height: 853
+  height: 720
   files:
     "640": photos/hero-640.webp
     "960": photos/hero-960.webp
     "1280": photos/hero-1280.webp
-  author: "Shixart1985"
-  source_url: "https://commons.wikimedia.org/wiki/File:Old_travel_trailers_parked_beside_a_blue_warehouse_in_rural_countryside.jpg"
-  license: "CC BY 2.0"
-  license_url: "https://creativecommons.org/licenses/by/2.0"
+  author: "Alexander Spies"
+  source_url: "https://www.pexels.com/video/drone-view-of-ships-in-harbor-during-golden-hour-5784526/"
+  license: "Pexels License"
+  license_url: "https://www.pexels.com/license/"
   credit_required: true
 - id: generic-boat
   role: generic

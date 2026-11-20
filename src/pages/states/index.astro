@@ -1,13 +1,42 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
-import { directoryStats, getStates, href } from '../../lib/data';
+import { cityStats, countiesInState, directoryStats, getStates, href } from '../../lib/data';
+import { medianOf } from '../../lib/guides';
+import { statePhoto } from '../../lib/photos';
+import { formatMoney, formatMonthlyRange, monthlySpan, parsePriceNote } from '../../lib/prices';
 import { breadcrumbNode, pageGraph, webPageNode } from '../../lib/schema';
 
-const states = getStates();
+function lowestMonthly(listings: { price_notes: string | null }[]): number[] {
+  const amounts: number[] = [];
+  for (const listing of listings) {
+    const values = parsePriceNote(listing.price_notes).monthly;
+    if (values.length) amounts.push(Math.min(...values));
+  }
+  return amounts;
+}
+
+const rows = getStates().map((state) => {
+  const hubs = countiesInState(state.code);
+  const facilityCount =
+    state.cities.reduce((sum, city) => sum + city.listings.length, 0) +
+    hubs.reduce((sum, county) => sum + county.listings.length, 0);
+  const amounts = [
+    ...state.cities.flatMap((city) => lowestMonthly(city.listings)),
+    ...hubs.flatMap((county) => lowestMonthly(county.listings)),
+  ];
+  return {
+    state,
+    hubs,
+    facilityCount,
+    span: monthlySpan(amounts.map((amount) => [amount])),
+    median: amounts.length ? medianOf(amounts) : null,
+    photo: statePhoto(state.slug),
+  };
+});
 const title = 'Browse RV storage by state | RV Storage Prices';
 const description =
-  'Pick a state, then a city. Each city page lists sourced RV and boat storage, with a price only when the facility published one.';
+  'Pick a state, then a city. Each card shows a facility count and a price range only when facilities published a monthly amount.';
 const path = '/states/';
 const crumbs = [
   { label: 'Home', path: '/' },
@@ -24,30 +53,72 @@ const schema = pageGraph([
     <Breadcrumbs items={crumbs} />
     <h1>Browse by state</h1>
     <p class="summary">
-      Choose a state, then a city. A city page is the list of facilities. A state page is the list of
-      those cities. Length guides use only a published maximum:
-      <a href={href('/guides/40-foot-rv-storage/')}>40-foot RV storage</a>
-      and
-      <a href={href('/guides/boat-storage-by-length/')}>boat storage by length</a>.
+      Each state card uses a place photo and the monthly amounts facilities actually printed. A state
+      with no monthly amount does not get a made-up range. Open a city for the facilities.
+      <a href={href('/costs/')}>Sort cities by median price</a>.
     </p>
     {
-      states.map((state) => (
-        <section>
-          <h2>
-            <a href={href(`/states/${state.slug}/`)}>{state.name}</a>
-          </h2>
-          <ul class="jump">
-            {state.cities.map((city) => (
-              <li>
-                <a href={href(`/cities/${city.id}/`)}>
-                  {city.city}, {city.state_code}
-                  <span class="count">{city.listings.length}</span>
-                </a>
-              </li>
-            ))}
+      rows.map(({ state, hubs, facilityCount, span, median, photo }) => (
+        <article class="state-directory">
+          <a class="state-card" href={href(`/states/${state.slug}/`)}>
+            <img
+              src={href(`/${photo.files['640']}`)}
+              srcset={`${href(`/${photo.files['640']}`)} 640w, ${href(`/${photo.files['960']}`)} 960w`}
+              sizes="(min-width: 800px) 280px, 100vw"
+              width={photo.width}
+              height={photo.height}
+              alt=""
+              loading="lazy"
+              decoding="async"
+            />
+            <span class="state-card-copy">
+              <span class="eyebrow">{state.code}</span>
+              <span class="state-card-name">{state.name}</span>
+              <span class="city-meta">{facilityCount} facilities</span>
+              <span class="city-meta">
+                {span.low != null && span.high != null
+                  ? `Published monthly ${formatMonthlyRange(span.low, span.high)}`
+                  : 'No published monthly price'}
+              </span>
+              {median != null && <span class="city-meta">Median lowest monthly {formatMoney(median)}</span>}
+            </span>
+          </a>
+          <ul class="place-grid">
+            {state.cities.map((city) => {
+              const amounts = lowestMonthly(city.listings);
+              const cityMedian = amounts.length ? medianOf(amounts) : null;
+              return (
+                <li>
+                  <a class="place-link" href={href(`/cities/${city.id}/`)}>
+                    <span class="city-name">{city.city}, {city.state_code}</span>
+                    <span class="count">{cityStats(city).total}</span>
+                    <span class="city-meta">
+                      {cityMedian != null ? `Median ${formatMoney(cityMedian)}/mo` : 'No monthly price'}
+                    </span>
+                  </a>
+                </li>
+              );
+            })}
           </ul>
-        </section>
+          {
+            hubs.length > 0 && (
+              <ul class="jump">
+                {hubs.map((county) => (
+                  <li>
+                    <a href={href(`/states/${state.slug}/${county.id}/`)}>
+                      {county.name}
+                      <span class="count">{county.listings.length}</span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            )
+          }
+        </article>
       ))
     }
+    <p class="legend">
+      State photos show the place, not a storage lot. <a href={href('/credits/')}>Photo credits</a>.
+    </p>
   </div>
 </Base>

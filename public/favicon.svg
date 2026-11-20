@@ -1,7 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="">
-  <rect width="32" height="32" rx="6" fill="#0c5c56"/>
-  <path fill="#f4e7cb" d="M5 21h22v2.2H5z"/>
-  <path fill="none" stroke="#fbf7ef" stroke-width="2" stroke-linejoin="round" d="M7 21V13h9l3 4h6v4"/>
-  <circle cx="11" cy="23.5" r="2.1" fill="#fbf7ef"/>
-  <circle cx="22" cy="23.5" r="2.1" fill="#fbf7ef"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="RV Storage Prices">
+  <rect width="32" height="32" rx="8" fill="#1c1712"/>
+  <path d="M7 17.2c4.4-5.6 13.6-5.6 18 0" fill="none" stroke="#e4c48a" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M8.2 17.2h15.6" fill="none" stroke="#f6f1e7" stroke-width="1.35" stroke-linecap="round"/>
+  <path d="M11.2 17.2c1.5 2.8 2.1 4 4.8 4s3.3-1.2 4.8-4" fill="none" stroke="#e4c48a" stroke-width="1.35" stroke-linecap="round"/>
 </svg>

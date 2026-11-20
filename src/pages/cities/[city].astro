@@ -114,27 +114,31 @@ const snowbirdGuide =
     <p class="eyebrow">{city.metro}</p>
     <h1>RV and boat storage in {city.city}, {city.state_code}</h1>
     <p class="summary">{city.summary}</p>
-    <p class="legend">
-      Yes means the source says so. No means the source says it does not. Not listed means the page we
-      checked is silent.
-    </p>
     <FilterChips city={city} />
-    <p class="legend" data-filter-empty hidden>No facilities on this page match that filter.</p>
-    <form class="budget" data-distance-form>
-      <h2>Sort by distance</h2>
-      <label>
-        ZIP code
-        <input type="text" inputmode="numeric" maxlength="5" pattern="[0-9]{5}" placeholder="33610" data-distance-zip />
-      </label>
-      <button type="submit">Sort from this ZIP</button>
-      <button type="button" data-near-me>Use my location</button>
-      <button type="button" data-distance-reset>Original order</button>
-      <p class="fine" data-distance-summary aria-live="polite">
-        A listed latitude is the facility point. Otherwise the distance is to the Census center of the
-        facility ZIP, not the street address.
-      </p>
+    <form class="distance-panel" data-distance-form data-distance-panel hidden>
+      <button type="button" class="loc-primary" data-near-me>Use my location</button>
+      <div class="loc-zip">
+        <label>
+          Or a ZIP
+          <input type="text" inputmode="numeric" maxlength="5" pattern="[0-9]{5}" placeholder="33610" data-distance-zip aria-label={`ZIP code near ${city.city}`} />
+        </label>
+        <button type="submit">From this ZIP</button>
+      </div>
+      <button type="button" class="text-btn" data-distance-reset>Clear distance</button>
+      <p class="fine" data-distance-summary aria-live="polite">Miles from you, or from a ZIP.</p>
       <script id="zip-centroids" type="application/json" set:html={JSON.stringify(pageCentroids)} />
     </form>
+    <details class="check-note">
+      <summary>How we check listings</summary>
+      <p>
+        Yes means the source says so. No means the source says it does not. Not listed means the page we
+        checked is silent. A price sort uses the lowest monthly amount printed. A lot with no monthly
+        price stays last. Distance uses a map point when the page printed one, and otherwise the center
+        of the facility ZIP.
+      </p>
+      <p class="fine" data-sort-status></p>
+    </details>
+    <p class="legend" data-filter-empty hidden>No facilities on this page match that filter.</p>
     <form class="budget" data-fit-form>
       <h2>Will my rig fit?</h2>
       <label>
@@ -288,7 +292,8 @@ const snowbirdGuide =
         });
         let known = 0;
         for (const item of ranked) {
-          list?.append(item.card);
+          if (item.distance == null) delete item.card.dataset.miles;
+          else item.card.dataset.miles = String(item.distance);
           const note = item.card.querySelector<HTMLElement>('[data-distance-note]');
           if (!note) continue;
           note.hidden = false;
@@ -300,10 +305,19 @@ const snowbirdGuide =
           const amount = `${formatMiles(item.distance)} miles`;
           note.textContent = item.point.precise
             ? `${amount} ${originLabel}.`
-            : `About ${amount} ${originLabel}, to the center of ZIP ${item.point.zip}.`;
+            : `About ${amount} ${originLabel}.`;
+        }
+        const sortSelect = root.querySelector<HTMLSelectElement>('[data-sort]');
+        if (sortSelect) sortSelect.value = 'distance';
+        const refresh = (window as Window & { refreshListingFilters?: () => void }).refreshListingFilters;
+        if (refresh) refresh();
+        else {
+          for (const item of ranked) list?.append(item.card);
         }
         if (summary) {
-          summary.textContent = `${known} facilities have a point to measure. The rest stay at the end because no ZIP center or latitude was available.`;
+          summary.textContent = known
+            ? `${known} facilities sorted by distance. The rest stay last.`
+            : 'No distance was available for these facilities.';
         }
       }
 
@@ -312,10 +326,10 @@ const snowbirdGuide =
         const zip = (zipInput?.value ?? '').replace(/\D/g, '').slice(0, 5);
         const origin = centroids[zip];
         if (!origin) {
-          if (summary) summary.textContent = 'That ZIP is not in the Census table used on this page. Try another ZIP from a listed facility.';
+          if (summary) summary.textContent = 'That ZIP is not in the lookup. Try a ZIP from a listed facility.';
           return;
         }
-        apply(origin, `from the center of ZIP ${zip}`);
+        apply(origin, `from ZIP ${zip}`);
       });
 
       form.querySelector('[data-near-me]')?.addEventListener('click', () => {
@@ -335,17 +349,24 @@ const snowbirdGuide =
       });
 
       form.querySelector('[data-distance-reset]')?.addEventListener('click', () => {
-        const ordered = cards().sort((a, b) => Number(a.dataset.order) - Number(b.dataset.order));
-        for (const card of ordered) {
-          list?.append(card);
+        for (const card of cards()) {
+          delete card.dataset.miles;
           const note = card.querySelector<HTMLElement>('[data-distance-note]');
           if (note) {
             note.hidden = true;
             note.textContent = '';
           }
         }
+        const sortSelect = root.querySelector<HTMLSelectElement>('[data-sort]');
+        if (sortSelect) sortSelect.value = 'default';
+        const refresh = (window as Window & { refreshListingFilters?: () => void }).refreshListingFilters;
+        if (refresh) refresh();
+        else {
+          const ordered = cards().sort((a, b) => Number(a.dataset.order) - Number(b.dataset.order));
+          for (const card of ordered) list?.append(card);
+        }
         if (summary) {
-          summary.textContent = 'Back to the original order. A listed latitude is the facility point. Otherwise the distance is to the Census center of the facility ZIP.';
+          summary.textContent = 'Distance cleared.';
         }
       });
     });

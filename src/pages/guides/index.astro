@@ -1,6 +1,8 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import Photo from '../../components/Photo.astro';
+import { guidePhoto } from '../../lib/photos';
 import { directoryStats, href } from '../../lib/data';
 import { formatBand, getCityCostGuides, getCompareCostGuide } from '../../lib/guides';
 import { breadcrumbNode, pageGraph, webPageNode } from '../../lib/schema';
@@ -24,6 +26,7 @@ const schema = pageGraph([
 <Base title={title} description={description} path={path} schema={schema}>
   <div class="wrap">
     <Breadcrumbs items={crumbs} />
+    <Photo photo={guidePhoto()} sizes="(min-width: 900px) 1100px, 100vw" />
     <h1>RV storage cost guides</h1>
     <p class="summary">
       These pages use only monthly dollar amounts already printed on a facility page in this directory.

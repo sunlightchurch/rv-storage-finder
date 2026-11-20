@@ -1,0 +1,71 @@
+---
+import ListingCard from './ListingCard.astro';
+import type { Listing } from '../lib/data';
+
+interface Props {
+  listings: Listing[];
+}
+
+const { listings } = Astro.props;
+const chips = [
+  { key: 'covered', label: 'Covered' },
+  { key: 'enclosed', label: 'Enclosed' },
+  { key: 'open', label: 'Open' },
+  { key: 'boat', label: 'Boat' },
+  { key: 'rv', label: 'RV' },
+];
+---
+
+<div class="filter-tools">
+  <div class="sortbar" data-filter-bar>
+    <label class="sort-label">
+      <span class="sr-only">Sort facilities</span>
+      <select data-sort aria-label="Sort facilities">
+        <option value="default">Listed order</option>
+        <option value="price-asc">Price: low to high</option>
+        <option value="price-desc">Price: high to low</option>
+        <option value="distance">Distance</option>
+      </select>
+    </label>
+    <button type="button" class="filter-open" data-sheet-open aria-expanded="false">Filters</button>
+    <p class="filter-count" data-filter-count aria-live="polite">{listings.length} facilities</p>
+    <div class="sheet" data-sheet hidden>
+      <div class="sheet-panel" role="dialog" aria-modal="true" aria-label="Filters">
+        <div class="sheet-head">
+          <h2>Filters</h2>
+          <button type="button" class="text-btn" data-sheet-close>Close</button>
+        </div>
+        <div class="sheet-options">
+          <button type="button" data-filter="all" aria-pressed="true">All types</button>
+          {chips.map((chip) => (
+            <button type="button" data-filter={chip.key} aria-pressed="false">{chip.label}</button>
+          ))}
+        </div>
+        <button type="button" class="sheet-done" data-sheet-close>Show results</button>
+      </div>
+    </div>
+  </div>
+</div>
+<form class="distance-panel" data-distance-panel hidden>
+  <button type="button" class="loc-primary" data-near-me-lite>Use my location</button>
+  <div class="loc-zip">
+    <label>
+      Or a ZIP
+      <input type="text" inputmode="numeric" maxlength="5" placeholder="33610" data-distance-zip aria-label="ZIP code for distance" />
+    </label>
+    <button type="button" data-zip-go>From this ZIP</button>
+  </div>
+</form>
+<details class="check-note">
+  <summary>How we check listings</summary>
+  <p>
+    Yes means the source says so. No means the source says it does not. Not listed means the page we
+    checked is silent. A price sort uses the lowest monthly amount printed. A lot with no monthly price
+    stays last. Distance is from you, or from a ZIP, to a map point when the page printed one.
+  </p>
+</details>
+<p class="sr-only" data-sort-status></p>
+<p class="legend" data-filter-empty hidden>No facilities match that filter.</p>
+<div data-listing-list>
+  {listings.map((listing) => <ListingCard listing={listing} />)}
+</div>

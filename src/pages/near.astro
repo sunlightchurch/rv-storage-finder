@@ -2,6 +2,24 @@
 import Base from '../layouts/Base.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import { buildSearchData } from '../lib/places.mjs';
+import { priceLines } from '../lib/prices';
+
+const searchData = buildSearchData();
+for (const facility of searchData.facilities) {
+  const lines = priceLines({
+    storage_types: facility.storage_types || [],
+    price_notes: facility.price_notes || null,
+  });
+  const monthly = lines.filter((line) => line.unit === 'mo').map((line) => line.amount);
+  facility.monthly = monthly.length ? Math.min(...monthly) : null;
+  facility.covered = (facility.storage_types || []).includes('covered');
+  facility.enclosed = (facility.storage_types || []).includes('enclosed');
+  facility.open = (facility.storage_types || []).includes('open');
+  facility.boat = (facility.vehicles || []).includes('boat');
+  delete facility.price_notes;
+  delete facility.storage_types;
+  delete facility.vehicles;
+}
 
 const title = 'Nearest RV and boat storage | RV Storage Prices';
 const description =
@@ -11,7 +29,7 @@ const crumbs = [
   { label: 'Home', path: '/' },
   { label: 'Nearest', path },
 ];
-const dataJson = JSON.stringify(buildSearchData()).replaceAll('<', '\\u003c');
+const dataJson = JSON.stringify(searchData).replaceAll('<', '\\u003c');
 ---
 
 <Base title={title} description={description} path={path} noindex={true}>
@@ -58,23 +76,137 @@ const dataJson = JSON.stringify(buildSearchData()).replaceAll('<', '\\u003c');
     }
 
     function facilityLink(row: {
-      item: { slug: string; name: string; place: string; cityId: string; path?: string; approx: string | null };
+      item: {
+        slug: string;
+        name: string;
+        place: string;
+        cityId: string;
+        path?: string;
+        approx: string | null;
+        monthly?: number | null;
+        covered?: boolean;
+        enclosed?: boolean;
+        open?: boolean;
+        boat?: boolean;
+      };
       miles: number;
     }) {
       const li = document.createElement('li');
+      li.dataset.miles = String(row.miles);
+      if (row.item.monthly != null) li.dataset.monthly = String(row.item.monthly);
+      li.dataset.covered = String(Boolean(row.item.covered));
+      li.dataset.enclosed = String(Boolean(row.item.enclosed));
+      li.dataset.open = String(Boolean(row.item.open));
+      li.dataset.boat = String(Boolean(row.item.boat));
       const link = document.createElement('a');
       const home = row.item.path || `cities/${row.item.cityId}/`;
       link.href = pageHref(`${home}#${row.item.slug}`);
       link.textContent = row.item.name;
       li.append(link);
       const note = document.createElement('span');
-      const center = row.item.approx === 'zip' ? ' · ZIP center' : row.item.approx === 'city' ? ' · city center' : '';
-      note.textContent = ` · ${row.item.place} · ${formatMiles(row.miles)}${center}`;
+      const price = row.item.monthly != null ? ` · from $${row.item.monthly}/mo` : '';
+      note.textContent = ` · ${row.item.place} · ${formatMiles(row.miles)}${price}`;
       li.append(note);
       return li;
     }
 
-    function section(heading: string, items: HTMLElement[]) {
+    function wireNearSort(list: HTMLOListElement) {
+      const bar = document.createElement('div');
+      bar.className = 'sortbar';
+      bar.innerHTML = [
+        '<label class="sort-label"><span class="sr-only">Sort</span><select data-near-sort>',
+        '<option value="distance">Distance</option>',
+        '<option value="price-asc">Price: low to high</option>',
+        '<option value="price-desc">Price: high to low</option>',
+        '</select></label>',
+        '<button type="button" class="filter-open" data-near-sheet-open aria-expanded="false">Filters</button>',
+      ].join('');
+      const sheet = document.createElement('div');
+      sheet.className = 'sheet';
+      sheet.hidden = true;
+      sheet.innerHTML = [
+        '<div class="sheet-panel" role="dialog" aria-modal="true" aria-label="Filters">',
+        '<div class="sheet-head"><h2>Filters</h2><button type="button" class="text-btn" data-near-sheet-close>Close</button></div>',
+        '<div class="sheet-options">',
+        '<button type="button" data-near-filter="all" aria-pressed="true">All types</button>',
+        '<button type="button" data-near-filter="covered" aria-pressed="false">Covered</button>',
+        '<button type="button" data-near-filter="enclosed" aria-pressed="false">Enclosed</button>',
+        '<button type="button" data-near-filter="open" aria-pressed="false">Open</button>',
+        '<button type="button" data-near-filter="boat" aria-pressed="false">Boat</button>',
+        '</div>',
+        '<button type="button" class="sheet-done" data-near-sheet-close>Show results</button>',
+        '</div>',
+      ].join('');
+      const status = document.createElement('p');
+      status.className = 'fine';
+      const items = () => [...list.querySelectorAll('li')];
+      items().forEach((item, index) => {
+        item.dataset.order = String(index);
+      });
+      function paint() {
+        const select = bar.querySelector('select');
+        const mode = select instanceof HTMLSelectElement ? select.value : 'distance';
+        const keys = [...sheet.querySelectorAll('[data-near-filter]')]
+          .filter((button) => button.getAttribute('data-near-filter') !== 'all' && button.getAttribute('aria-pressed') === 'true')
+          .map((button) => button.getAttribute('data-near-filter'));
+        const ranked = items().sort((a, b) => {
+          const orderA = Number(a.dataset.order);
+          const orderB = Number(b.dataset.order);
+          if (mode === 'price-asc' || mode === 'price-desc') {
+            const left = a.dataset.monthly ? Number(a.dataset.monthly) : null;
+            const right = b.dataset.monthly ? Number(b.dataset.monthly) : null;
+            if (left == null && right == null) return orderA - orderB;
+            if (left == null) return 1;
+            if (right == null) return -1;
+            return mode === 'price-asc' ? left - right : right - left;
+          }
+          return Number(a.dataset.miles) - Number(b.dataset.miles);
+        });
+        ranked.forEach((item) => {
+          const ok = keys.every((key) => item.getAttribute(`data-${key}`) === 'true');
+          item.hidden = !ok;
+          list.append(item);
+        });
+        status.textContent = mode.startsWith('price')
+          ? 'Lowest published monthly price first. Lots without a monthly price stay last.'
+          : 'Nearest first.';
+      }
+      const open = bar.querySelector('[data-near-sheet-open]');
+      const closeSheet = () => {
+        sheet.hidden = true;
+        open?.setAttribute('aria-expanded', 'false');
+      };
+      open?.addEventListener('click', () => {
+        sheet.hidden = false;
+        open.setAttribute('aria-expanded', 'true');
+      });
+      sheet.querySelectorAll('[data-near-sheet-close]').forEach((button) => {
+        button.addEventListener('click', closeSheet);
+      });
+      sheet.addEventListener('click', (event) => {
+        const button = event.target instanceof Element ? event.target.closest('[data-near-filter]') : null;
+        if (!button) return;
+        const filter = button.getAttribute('data-near-filter');
+        if (filter === 'all') {
+          sheet.querySelectorAll('[data-near-filter]').forEach((item) => {
+            item.setAttribute('aria-pressed', item === button ? 'true' : 'false');
+          });
+        } else {
+          const next = button.getAttribute('aria-pressed') !== 'true';
+          button.setAttribute('aria-pressed', next ? 'true' : 'false');
+          const any = [...sheet.querySelectorAll('[data-near-filter]')].some(
+            (item) => item.getAttribute('data-near-filter') !== 'all' && item.getAttribute('aria-pressed') === 'true',
+          );
+          const all = sheet.querySelector('[data-near-filter="all"]');
+          if (all) all.setAttribute('aria-pressed', any ? 'false' : 'true');
+        }
+        paint();
+      });
+      bar.querySelector('select')?.addEventListener('change', paint);
+      list.before(bar, sheet, status);
+    }
+
+    function section(heading: string, items: HTMLElement[], sortable = false) {
       if (!items.length || !results) return;
       const h2 = document.createElement('h2');
       h2.textContent = heading;
@@ -82,6 +214,7 @@ const dataJson = JSON.stringify(buildSearchData()).replaceAll('<', '\\u003c');
       list.className = 'near-list';
       items.forEach((item) => list.append(item));
       results.append(h2, list);
+      if (sortable) wireNearSort(list);
     }
 
     async function show() {
@@ -110,14 +243,15 @@ const dataJson = JSON.stringify(buildSearchData()).replaceAll('<', '\\u003c');
       if (found.kind === 'zip') {
         title.textContent = found.outside ? 'Nearest facilities we list' : `Facilities near ${found.zip}`;
         lead.textContent = found.outside
-          ? `ZIP ${found.zip} is outside the cities in this directory. These are the closest facilities we list, with miles from the ZIP center.`
-          : `Sorted by miles from the center of ZIP ${found.zip}. A facility with its own ZIP uses that center when the listing has no map point.`;
+          ? `ZIP ${found.zip} is outside the cities in this directory. These are the closest facilities we list, in miles.`
+          : `Nearest facilities to ZIP ${found.zip}, in miles.`;
         if (found.how === 'prefix') {
-          lead.textContent += ` ${found.zip} has no Census area of its own, so the start point is the center of the nearest ${found.zip.slice(0, 3)} ZIP areas that do.`;
+          lead.textContent += ` ${found.zip} has no area of its own, so the start point is a nearby ZIP.`;
         }
         section(
           'Facilities',
           found.facilities.map((row) => facilityLink(row)),
+          true,
         );
         section(
           'Cities',

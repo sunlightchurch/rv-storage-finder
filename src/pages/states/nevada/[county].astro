@@ -1,7 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
-import ListingCard from '../../../components/ListingCard.astro';
+import CountyBoard from '../../../components/CountyBoard.astro';
 import { countyPath, getCounties, getCounty, href, stateSlug } from '../../../lib/data';
 import { breadcrumbNode, faqNode, itemListNode, pageGraph, webPageNode } from '../../../lib/schema';
 
@@ -52,7 +52,7 @@ const groups = towns.map((town) => ({
 ---
 
 <Base title={title} description={description} path={path} schema={schema}>
-  <div class="wrap">
+  <div class="wrap" data-filter-root>
     <Breadcrumbs items={crumbs} />
     <h1>RV and boat storage in {county.name}, Nevada</h1>
     <p class="summary">{county.summary}</p>
@@ -60,18 +60,7 @@ const groups = towns.map((town) => ({
       {county.listings.length} {county.listings.length === 1 ? 'facility' : 'facilities'} in {townList}.
       Cover, length, power, and price stay blank when the facility page does not say them.
     </p>
-    {
-      groups.map((group) => (
-        <section>
-          <h2>
-            {group.town}, NV
-          </h2>
-          {group.listings.map((listing) => (
-            <ListingCard listing={listing} />
-          ))}
-        </section>
-      ))
-    }
+    <CountyBoard listings={county.listings} />
     <p>
       <a href={href(statePath)}>All Nevada pages</a>
     </p>
