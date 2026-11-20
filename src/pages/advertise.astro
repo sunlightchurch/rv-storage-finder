@@ -1,0 +1,51 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { correctionMailto, href, site } from '../lib/data';
+import { breadcrumbNode, pageGraph, webPageNode } from '../lib/schema';
+
+const title = 'Feature a storage listing | RV Storage Prices';
+const description =
+  'A featured card is $29 a month, shown first on its city page with a Featured label and a paid-placement note. Cancel anytime. Stripe handles payment.';
+const path = '/advertise/';
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'Get featured', path },
+];
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: '2026-11-19' }),
+  breadcrumbNode(crumbs),
+]);
+const stripeUrl = 'https://buy.stripe.com/cNi28s7X60TU5FgegBfw40c';
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <article class="wrap prose">
+    <Breadcrumbs items={crumbs} />
+    <h1>Get a featured listing</h1>
+    <p class="lede">
+      Featured placement is $29 a month. It is a paid label on a card that is already in this directory.
+      It is not a review, a ranking, or a claim about how full the lot is.
+    </p>
+    <h2>What $29 a month includes</h2>
+    <ul>
+      <li>The card is pinned to the top of its city page.</li>
+      <li>The card shows a Featured label.</li>
+      <li>The same card says “Paid placement,” so a reader can tell it is an ad.</li>
+      <li>Cancel anytime. Email <a href={`mailto:${site.corrections_email}?subject=Cancel%20featured%20listing`}>{site.corrections_email}</a> and the label comes off.</li>
+    </ul>
+    <p>
+      No facility is featured yet. After Stripe confirms the payment, the listing is marked
+      <code>featured: true</code> in the city file. Until that edit is published, the card stays in its
+      ordinary place with no Featured label.
+    </p>
+    <p>
+      <a class="action-primary" href={stripeUrl} rel="noopener noreferrer">Subscribe</a>
+    </p>
+    <p class="fine">
+      Payment is handled by Stripe. This page does not store a card number.
+      <a href={href('/disclosure/')}>Affiliate disclosure</a> covers other commercial links.
+      A correction to the facility facts still goes through <a href={correctionMailto()}>the usual correction email</a>.
+    </p>
+  </article>
+</Base>

@@ -76,6 +76,7 @@ const listingSchema = z
     access_hours: nullString.optional().transform((value) => value ?? null),
     price_notes: nullString,
     waitlist: nullString,
+    featured: z.boolean().optional().default(false),
     notes: nullString,
     sources: z
       .array(
@@ -521,6 +522,8 @@ export function allPublicPaths(): { path: string; lastmod: string }[] {
     { path: '/checklists/seasonal/', lastmod: latest },
     { path: '/checklists/security/', lastmod: latest },
     { path: '/insurance/', lastmod: '2026-11-19' },
+    { path: '/advertise/', lastmod: '2026-11-19' },
+    { path: '/advertise/thanks/', lastmod: '2026-11-19' },
     { path: '/costs/', lastmod: latest },
     { path: '/about/', lastmod: latest },
     { path: '/contact/', lastmod: '2026-11-19' },
