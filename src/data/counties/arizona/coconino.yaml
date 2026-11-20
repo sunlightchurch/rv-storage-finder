@@ -1,0 +1,37 @@
+id: coconino
+name: Coconino County
+state: Arizona
+state_code: AZ
+summary: >-
+  RV and boat storage in Coconino County with a street address from each
+  facility page. Towns on this page: Page.
+listings:
+  - slug: antelope-recreation-page
+    name: Antelope Recreation Storage
+    street: 910 W. Coppermine Rd
+    city: Page
+    state_code: AZ
+    postal_code: "86040"
+    lat: null
+    lng: null
+    phone: "(928) 645-3835"
+    website: https://anteloperecreationstorage.com/contact-us/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Thu 4:00 AM-10:00 PM; Fri 4:00 AM-11:00 PM; Sat 6:00 AM-11:00 PM; Sun 6:00 AM-9:00 PM"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The Page contact page is titled boat and RV storage and describes a boat storage facility serving Page and Lake Powell. Posted hours are not 24 hours. Cover type is not stated."
+    sources:
+      - url: https://anteloperecreationstorage.com/contact-us/
+        title: Antelope Recreation Storage contact
+    last_verified: "2026-11-20"

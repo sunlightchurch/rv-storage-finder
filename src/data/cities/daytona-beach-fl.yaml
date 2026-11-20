@@ -6,8 +6,8 @@ state_code: FL
 metro: Daytona Beach
 summary: >-
   These facilities publish an RV or boat storage page in Ormond Beach, South
-  Daytona, Port Orange, New Smyrna Beach, DeLand, or Bunnell. Each card uses
-  only what that page states.
+  Daytona, Port Orange, New Smyrna Beach, DeLand, Bunnell, Palm Coast, or
+  Flagler Beach. Each card uses only what that page states.
 sparefoot_slug: Daytona-Beach-FL
 neighbor_path: florida/daytona-beach
 sparefoot_note: null
@@ -407,4 +407,64 @@ listings:
     sources:
       - url: "https://www.uhaul.com/Locations/Self-Storage-near-Port-Orange-FL-32128/037425"
         title: Acorn Mini Storage Of Port Orange location page
+    last_verified: "2026-11-20"
+
+  - slug: all-aboard-palm-coast
+    name: All Aboard Storage - Palm Coast Depot
+    street: 6372 State Route 100 East
+    city: Palm Coast
+    state_code: FL
+    postal_code: "32137"
+    lat: null
+    lng: null
+    phone: "(386) 388-7739"
+    website: https://www.allaboardstorage.com/storage-locations/florida/palm-coast/6372-sr-100-east
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: 70
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    access_hours: "5:00 AM - 10:00 PM daily"
+    price_notes: null
+    billing_term: month-to-month
+    waitlist: null
+    notes: "The Palm Coast page offers RV and boat storage, including covered parking up to 14 by 40 ft, uncovered parking up to 14 by 70 ft, and enclosed drive-up units. It states a keypad gate, recorded cameras, and perimeter fencing. Access is 5:00 am to 10:00 pm every day. Leases are month to month."
+    sources:
+      - url: https://www.allaboardstorage.com/storage-locations/florida/palm-coast/6372-sr-100-east
+        title: All Aboard Storage Palm Coast Depot
+    last_verified: "2026-11-20"
+
+  - slug: ocean-breeze-flagler-beach
+    name: Ocean Breeze Boat and RV Storage
+    street: 4600 Old Kings Rd South
+    city: Flagler Beach
+    state_code: FL
+    postal_code: "32136"
+    lat: null
+    lng: null
+    phone: "(386) 232-8385"
+    website: https://www.oceanbreezestorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 45
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    access_hours: null
+    price_notes: "Boat and RV storage starts at $150 per month. Electric spaces are available."
+    billing_term: month-to-month
+    waitlist: null
+    notes: "The Flagler Beach page offers outdoor storage for boats, RVs, campers, and trailers. It states a paved lot, 24/7 gated access, digital video surveillance, and 20-amp electric spaces. Spaces run up to 45 by 14 ft. Leases are month to month."
+    sources:
+      - url: https://www.oceanbreezestorage.com/
+        title: Ocean Breeze Boat and RV Storage
     last_verified: "2026-11-20"

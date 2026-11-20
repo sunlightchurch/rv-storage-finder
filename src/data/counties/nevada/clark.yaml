@@ -1,0 +1,70 @@
+id: clark
+name: Clark County
+state: Nevada
+state_code: NV
+summary: >-
+  RV and boat storage in Clark County outside the Las Vegas city page, with a
+  street address from each facility page. Towns on this page: Laughlin,
+  Mesquite.
+listings:
+  - slug: mesquite-rv-boat-storage
+    name: Mesquite RV & Boat Storage
+    street: 730 E. Hafen Lane
+    city: Mesquite
+    state_code: NV
+    postal_code: "89027"
+    lat: null
+    lng: null
+    phone: "(702) 331-8427"
+    website: https://mesquitervstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 60
+    clearance_ft: null
+    power_hookups: null
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    access_hours: "Open 24/7"
+    price_notes: "A 14 by 43 ft space is $66 per month. A 14 by 60 ft space is $89 per month. Covered parking, 14 by 43 ft, is labeled coming soon at $165 per month."
+    billing_term: month-to-month
+    waitlist: null
+    notes: "The home page prices open spaces for RVs, campers, motorhomes, trailers, and boats, and says the lot has 24-hour video surveillance, fencing, controlled gates, and an RV dump station. The contact page prints this address and says the facility is open 24/7. The home page also says to stay tuned for a grand opening, and it labels the covered spaces as coming soon."
+    sources:
+      - url: https://mesquitervstorage.com/
+        title: Mesquite RV and Boat Storage
+      - url: https://mesquitervstorage.com/contact/
+        title: Mesquite RV and Boat Storage contact
+    last_verified: "2026-11-20"
+
+  - slug: laughlin-self-storage
+    name: Laughlin Self Storage
+    street: 2455 Needles Highway
+    city: Laughlin
+    state_code: NV
+    postal_code: "89029"
+    lat: null
+    lng: null
+    phone: "(702) 299-0700"
+    website: https://www.uhaul.com/Locations/Self-Storage-near-Laughlin-NV-89029/1026264/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The U-Haul location page lists RV and boat storage at this Laughlin address, with an electronic gate, a fenced perimeter, video surveillance, and powered units. Storage access is printed as 6:00 am to 10:00 pm on most days and 24 hours on Wednesday, so 24-hour access is not set. Cover type is not stated."
+    sources:
+      - url: https://www.uhaul.com/Locations/Self-Storage-near-Laughlin-NV-89029/1026264/
+        title: Laughlin Self Storage location page
+    last_verified: "2026-11-20"

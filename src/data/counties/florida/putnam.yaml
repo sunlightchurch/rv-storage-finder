@@ -1,0 +1,37 @@
+id: putnam
+name: Putnam County
+state: Florida
+state_code: FL
+summary: >-
+  RV and boat storage in Putnam County with a street address from each
+  facility page. Towns on this page: Palatka.
+listings:
+  - slug: palatka-storage
+    name: Palatka Storage
+    street: 100 N Hwy 17
+    city: Palatka
+    state_code: FL
+    postal_code: "32177"
+    lat: null
+    lng: null
+    phone: "(386) 297-3077"
+    website: https://palatkastorage.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The Palatka page says this address has parking for boats, vehicles, and RVs. It lists other street addresses and does not say which of those also park boats or RVs, so only this address is listed. Cover type is not stated."
+    sources:
+      - url: https://palatkastorage.com/
+        title: Palatka Storage
+    last_verified: "2026-11-20"

@@ -1,0 +1,37 @@
+id: kerr
+name: Kerr County
+state: Texas
+state_code: TX
+summary: >-
+  RV and boat storage in Kerr County with a street address from each facility
+  page. Towns on this page: Kerrville.
+listings:
+  - slug: mount-storage-kerrville
+    name: Mount Storage Kerrville
+    street: 3630 Medina Hwy
+    city: Kerrville
+    state_code: TX
+    postal_code: "78028"
+    lat: null
+    lng: null
+    phone: "(830) 428-3032"
+    website: https://mountstorage.com/mount-storage-kerrville/rv-boat-storage/
+    vehicles: [rv, boat]
+    storage_types: [enclosed, open]
+    max_length_ft: 35
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: false
+    access_hours: "5:00 AM-11:00 PM daily"
+    price_notes: "Parking starts at $29 per month for the first 3 months, with a regular rate of $54 per month. A 10 by 30 ft enclosed vehicle unit is $159 per month for the first 3 months, regular $204 per month."
+    billing_term: month-to-month
+    waitlist: "10 by 25 ft spaces are on a waitlist."
+    notes: "The Kerrville page offers RV, boat, trailer, and vehicle parking in spaces up to 12 by 35 ft, plus enclosed vehicle units. The gate is open 5:00 am to 11:00 pm daily."
+    sources:
+      - url: https://mountstorage.com/mount-storage-kerrville/rv-boat-storage/
+        title: Mount Storage Kerrville RV and boat storage
+    last_verified: "2026-11-20"

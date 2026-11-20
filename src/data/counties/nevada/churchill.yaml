@@ -1,0 +1,37 @@
+id: churchill
+name: Churchill County
+state: Nevada
+state_code: NV
+summary: >-
+  RV and boat storage in Churchill County with a street address from each
+  facility page. Towns on this page: Fallon.
+listings:
+  - slug: autarky-fallon-rv
+    name: Autarky RV Storage
+    street: 890 South Maine St
+    city: Fallon
+    state_code: NV
+    postal_code: null
+    lat: null
+    lng: null
+    phone: "(775) 200-3591"
+    website: https://www.autarkyev.com/fallon-rv-storage.html
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    access_hours: null
+    price_notes: "Monthly rates are $50 for an RV, trailer, or boat under 20 ft, $60 for an RV of 20 to 30 ft, and $70 for an RV of 30 to 40 ft."
+    billing_term: month-to-month
+    waitlist: null
+    notes: "The Fallon page offers storage for boats, motorhomes, and travel trailers, with a power connection at each site, security cameras, and a keypad gate with a 16 ft entry. The page does not print a ZIP code. Cover type is not stated."
+    sources:
+      - url: https://www.autarkyev.com/fallon-rv-storage.html
+        title: Autarky Fallon RV storage
+    last_verified: "2026-11-20"

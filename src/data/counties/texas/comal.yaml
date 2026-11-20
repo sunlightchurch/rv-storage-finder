@@ -1,0 +1,37 @@
+id: comal
+name: Comal County
+state: Texas
+state_code: TX
+summary: >-
+  RV and boat storage in Comal County with a street address from each facility
+  page. Towns on this page: Canyon Lake.
+listings:
+  - slug: canyon-lake-boat-rv
+    name: Canyon Lake Boat & RV Storage
+    street: 23297 FM306
+    city: Canyon Lake
+    state_code: TX
+    postal_code: "78133"
+    lat: null
+    lng: null
+    phone: "(830) 302-0596"
+    website: https://www.storagecanyonlake.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: true
+    access_hours: "Sun-Sat, 24 hours"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The Canyon Lake page offers enclosed and covered boat and RV storage, with a gated entry and 24-hour access. It says the lot is about five miles from the North Cranes Mill and Potters Creek Park ramps."
+    sources:
+      - url: https://www.storagecanyonlake.com/
+        title: Canyon Lake Boat and RV Storage
+    last_verified: "2026-11-20"
