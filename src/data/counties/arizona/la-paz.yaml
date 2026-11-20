@@ -1,0 +1,99 @@
+id: la-paz
+name: La Paz County
+state: Arizona
+state_code: AZ
+summary: >-
+  RV and boat storage in La Paz County with a street address from each
+  facility page. Towns on this page: Parker.
+listings:
+  - slug: river-ramp-parker
+    name: Lakeside & River Ramp Boat & RV Storage
+    street: 31623 Storage Place
+    city: Parker
+    state_code: AZ
+    postal_code: "85344"
+    lat: null
+    lng: null
+    phone: "(928) 667-2811"
+    website: https://www.riverrampboatstorage.com/contact-us/3701953
+    vehicles: [rv, boat]
+    storage_types: [enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The Parker contact page offers indoor and outdoor storage for boats and RVs and says storage access is 24 hours. Office hours are Monday through Friday, 9:00 am to 6:00 pm, with weekends by appointment."
+    sources:
+      - url: https://www.riverrampboatstorage.com/contact-us/3701953
+        title: Lakeside and River Ramp contact
+    last_verified: "2026-11-20"
+
+  - slug: rio-vista-parker
+    name: Rio Vista Boat and RV Storage
+    street: 31647 Storage Place
+    city: Parker
+    state_code: AZ
+    postal_code: "85344"
+    lat: null
+    lng: null
+    phone: "(877) 998-1037"
+    website: https://www.riovistastorage.com/location.html
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page prints this Parker address for boat and RV storage. The home page says the lot has 24-hour surveillance, a keypad gate, and concrete driveways. Cover type is not stated."
+    sources:
+      - url: https://www.riovistastorage.com/location.html
+        title: Rio Vista location
+      - url: https://www.riovistastorage.com/
+        title: Rio Vista Boat and RV Storage
+    last_verified: "2026-11-20"
+
+  - slug: fiesta-storage-parker
+    name: Fiesta Storage
+    street: 1217 S Fiesta Ave
+    city: Parker
+    state_code: AZ
+    postal_code: "85344"
+    lat: null
+    lng: null
+    phone: "(424) 234-3782"
+    website: https://www.myfiestastorage.com/
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "9:00 AM-5:00 PM daily"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The Parker page offers indoor storage for boats, RVs, vehicles, and UTVs in a 20,000 sq ft building. Hours are 9:00 am to 5:00 pm, seven days."
+    sources:
+      - url: https://www.myfiestastorage.com/
+        title: Fiesta Storage
+    last_verified: "2026-11-20"

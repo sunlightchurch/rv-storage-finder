@@ -35,3 +35,35 @@ listings:
       - url: "https://www.uhaul.com/Locations/Self-Storage-near-Greensboro-GA-30642/1016005"
         title: Siloam Mini Storage location page
     last_verified: "2026-11-20"
+
+  - slug: sinclair-marina-milledgeville
+    name: Sinclair Marina
+    street: 170 Sinclair Marina Road
+    city: Milledgeville
+    state_code: GA
+    postal_code: "31061"
+    lat: null
+    lng: null
+    phone: "(478) 451-0167"
+    website: https://sinclairmarina.com/boat-storage
+    vehicles: [boat]
+    storage_types: [enclosed]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: true
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The boat-storage page says boats are kept in a dry-stack building and launched from an app. The facility has 24-hour video surveillance and also offers trailer storage. New storage drop-offs are by appointment. The contact page prints this Milledgeville address."
+    sources:
+      - url: https://sinclairmarina.com/boat-storage
+        title: Sinclair Marina boat storage
+      - url: https://sinclairmarina.com/contact-us
+        title: Sinclair Marina contact
+    last_verified: "2026-11-20"

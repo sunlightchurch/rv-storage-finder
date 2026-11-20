@@ -1,0 +1,67 @@
+id: polk
+name: Polk County
+state: Texas
+state_code: TX
+summary: >-
+  RV and boat storage in Polk County with a street address from each facility
+  page. Towns on this page: Livingston.
+listings:
+  - slug: lake-livingston-boat-rv
+    name: Lake Livingston Boat & RV Storage
+    street: 4320 FM Rd 1988
+    city: Livingston
+    state_code: TX
+    postal_code: "77351"
+    lat: null
+    lng: null
+    phone: "(936) 365-2628"
+    website: https://lakelivingstonboatandrvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The Livingston page offers covered boat storage, RV parking, and enclosed bays near Lake Livingston State Park. It states gated access and video surveillance."
+    sources:
+      - url: https://lakelivingstonboatandrvstorage.com/
+        title: Lake Livingston Boat and RV Storage
+    last_verified: "2026-11-20"
+
+  - slug: pjs-boat-rv-livingston
+    name: PJ's Boat & RV Storage
+    street: 3879 FM350 South
+    city: Livingston
+    state_code: TX
+    postal_code: "77351"
+    lat: null
+    lng: null
+    phone: "(936) 510-2345"
+    website: https://pjselfstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed]
+    max_length_ft: 42
+    clearance_ft: 13.5
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    access_hours: null
+    price_notes: "Enclosed boat and RV storage, about 42 ft long and 13 ft 6 in high by 13 ft wide, is $169 per month plus sales tax. Covered storage of the same size is $115 per month plus sales tax."
+    billing_term: month-to-month
+    waitlist: null
+    notes: "The Lake Livingston page offers enclosed and covered boat and RV storage on FM 350. It states security cameras, a gated entry with individual keypad codes, and 24/7 access."
+    sources:
+      - url: https://pjselfstorage.com/
+        title: PJ's Boat and RV Storage
+    last_verified: "2026-11-20"

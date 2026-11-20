@@ -35,3 +35,33 @@ listings:
       - url: "https://www.uhaul.com/Locations/Self-Storage-near-La-Grange-GA-30240/037667"
         title: AAA Storage location page
     last_verified: "2026-11-20"
+
+  - slug: highland-marina-lagrange
+    name: Highland Marina
+    street: 1000 Seminole Rd
+    city: LaGrange
+    state_code: GA
+    postal_code: "30240"
+    lat: null
+    lng: null
+    phone: "(706) 882-3437"
+    website: https://highlandmarina.com/outdoor-dry-storage/
+    vehicles: [boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "9:00 AM-5:00 PM daily"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The West Point Lake page offers covered and uncovered storage for boat trailers and boats on trailers, with access to the onsite ramp. Hours are 9:00 am to 5:00 pm every day. RV sites on the site are lodging, not storage."
+    sources:
+      - url: https://highlandmarina.com/outdoor-dry-storage/
+        title: Highland Marina outdoor dry storage
+    last_verified: "2026-11-20"
