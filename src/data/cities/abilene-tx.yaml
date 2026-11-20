@@ -1,0 +1,144 @@
+# Verified against public facility pages on 2026-11-20. See PUBLISHING.md.
+id: abilene-tx
+city: Abilene
+state: Texas
+state_code: TX
+metro: Abilene
+summary: >-
+  These facilities publish an RV or boat storage page in Abilene or Tye. Each
+  card uses only what that page states. This is not a complete inventory.
+sparefoot_slug: Abilene-TX
+neighbor_path: texas/abilene
+sparefoot_note: null
+photo: abilene
+listings:
+  - slug: abilene-rv-and-boat-storage
+    name: Abilene RV and Boat Storage
+    street: 102 Market Street
+    city: Tye
+    state_code: TX
+    postal_code: "79563"
+    lat: null
+    lng: null
+    phone: "(325) 272-0911"
+    website: https://abilenervboatstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 75
+    clearance_ft: 14
+    power_hookups: null
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The page says spaces can be up to 14 feet wide, 75 feet long, and 14 feet
+      high, and that boat storage includes covered and uncovered spaces. It lists
+      a washing bay, dumping stations, 24/7 surveillance cameras, and gated
+      access. It does not say tenant gate access is 24 hours. Electricity is
+      described for selected units, so power is not marked yes for the facility.
+    sources:
+      - url: https://abilenervboatstorage.com/
+        title: Abilene RV and Boat Storage
+      - url: https://abilenervboatstorage.com/storage/boat-storage/
+        title: Boat storage page
+    last_verified: "2026-11-20"
+
+  - slug: b3-rv-boat-trailer-storage
+    name: B3 RV, Boat and Trailer Storage
+    street: 27 Windmill Circle
+    city: Abilene
+    state_code: TX
+    postal_code: "79606"
+    lat: null
+    lng: null
+    phone: "(214) 926-6168"
+    website: https://www.b3rvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    billing_term: month-to-month
+    notes: >-
+      The page offers parking for an RV, boat, or trailer in south Abilene and
+      says leases are month to month. It does not print a cover type, a length,
+      a price, or a gate schedule.
+    sources:
+      - url: https://www.b3rvstorage.com/
+        title: B3 RV, Boat and Trailer Storage
+    last_verified: "2026-11-20"
+
+  - slug: two-seven-seven-storage-abilene
+    name: 277 Storage
+    street: 7234 US Highway 277 S
+    city: Abilene
+    state_code: TX
+    postal_code: "79606"
+    lat: null
+    lng: null
+    phone: "(325) 480-8882"
+    website: https://www.277storage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: 45
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered RV, boat, and trailer spaces are 15 feet wide by 45 feet deep,
+      with electrical available. The page says the facility has gated entry,
+      24-hour access by security code, and a security camera system. Water is
+      available on site. The page does not call that water a dump station.
+    sources:
+      - url: https://www.277storage.com/
+        title: 277 Storage
+    last_verified: "2026-11-20"
+
+  - slug: youngs-rv-storage-abilene
+    name: Young's RV Storage
+    street: 612 Old Coleman Highway
+    city: Abilene
+    state_code: TX
+    postal_code: "79602"
+    lat: null
+    lng: null
+    phone: "(325) 721-4581"
+    website: https://www.youngsrvstorage.com/pages/rv-storage-abilene-tx
+    vehicles: [rv]
+    storage_types: [covered]
+    max_length_ft: 50
+    clearance_ft: 15
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: >-
+      Covered RV storage, 50 by 15 by 15, is $175 a month. A 6-month prepay is
+      $997.50 ($166.25 a month) and a 12-month prepay is $1,890 ($157.50 a month).
+    waitlist: null
+    notes: >-
+      The page is an RV storage offer for a covered space 50 feet by 15 feet by
+      15 feet. It does not mention boats, a gate, or cameras.
+    sources:
+      - url: https://www.youngsrvstorage.com/pages/rv-storage-abilene-tx
+        title: Young's RV Storage in Abilene
+    last_verified: "2026-11-20"

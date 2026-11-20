@@ -1,0 +1,59 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import ListingCard from '../../../components/ListingCard.astro';
+import { href, stateSlug } from '../../../lib/data';
+import { getFitPages, type FitPage } from '../../../lib/fit';
+import { breadcrumbNode, itemListNode, pageGraph, webPageNode } from '../../../lib/schema';
+
+export function getStaticPaths() {
+  return getFitPages().map((page) => ({
+    params: { city: page.city.id, fit: page.slug },
+    props: { page },
+  }));
+}
+
+interface Props {
+  page: FitPage;
+}
+
+const { page } = Astro.props;
+const noun = page.kind === 'rv' ? 'RV' : 'boat';
+const vehiclePhrase = page.kind === 'rv' ? 'an RV' : 'a boat';
+const title = `${page.feet}-foot ${noun} storage in ${page.city.city}, ${page.city.state_code} | RV Storage Prices`;
+const description = `${page.matches.length} facilities in ${page.city.city}, ${page.city.state_code} publish a maximum length of at least ${page.feet} feet for ${vehiclePhrase}. A shorter published limit is not on this page.`;
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'States', path: '/states/' },
+  { label: page.city.state, path: `/states/${stateSlug(page.city.state)}/` },
+  { label: `${page.city.city}, ${page.city.state_code}`, path: `/cities/${page.city.id}/` },
+  { label: `${page.feet}-foot ${noun}`, path: page.path },
+];
+const latest = page.matches.map((listing) => listing.last_verified).sort().at(-1);
+const schema = pageGraph([
+  webPageNode({ title, description, path: page.path, dateModified: latest }),
+  breadcrumbNode(crumbs),
+  itemListNode(title, page.matches),
+]);
+---
+
+<Base title={title} description={description} path={page.path} schema={schema}>
+  <div class="wrap">
+    <Breadcrumbs items={crumbs} />
+    <h1>{page.feet}-foot {noun} storage in {page.city.city}, {page.city.state_code}</h1>
+    <p class="summary">
+      These {page.matches.length} facilities publish a maximum length of at least {page.feet} feet and
+      say they store {page.kind === 'rv' ? 'an RV' : 'a boat'}. A facility with no published length is
+      not here, even if the rig might fit. Measure the overall length, including the hitch, ladder, and
+      spare, and compare the tallest point with any published clearance before you reserve a covered or
+      enclosed space. Turning radius is not in these cards. Call the facility.
+    </p>
+    {page.matches.map((listing) => <ListingCard listing={listing} />)}
+    <p class="cross">
+      <a href={href(`/cities/${page.city.id}/`)}>All {page.city.city}, {page.city.state_code} listings</a>
+      <a href={href(`/guides/${page.feet}-foot-${page.kind}-storage/`)}>
+        {page.feet}-foot {noun} storage in other cities
+      </a>
+    </p>
+  </div>
+</Base>

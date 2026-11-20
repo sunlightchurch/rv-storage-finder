@@ -116,3 +116,33 @@ listings:
   - url: "https://www.storagesense.com/location/USA/GA/Columbus/sense-columbus/"
     title: Storage Sense Columbus location page
   last_verified: '2026-11-18'
+- slug: twenty-four-seven-self-parking-columbus
+  name: 24/7 Self Parking and Storage
+  street: 201 Brennan Rd Suite B
+  city: Columbus
+  state_code: GA
+  postal_code: '31903'
+  lat: null
+  lng: null
+  phone: "(706) 221-3209"
+  website: https://247parkstore.com/
+  vehicles: [rv, boat]
+  storage_types: [open]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The page offers parking and storage for trucks, RVs, boats, and trailers,
+    and it says tenants have 24/7 access. It does not print a length, a price,
+    or a camera.
+  sources:
+  - url: https://247parkstore.com/
+    title: 24/7 Self Parking and Storage
+  last_verified: '2026-11-20'

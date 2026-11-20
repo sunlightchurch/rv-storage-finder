@@ -1274,6 +1274,34 @@
   license: "CC BY-SA 3.0"
   license_url: "https://creativecommons.org/licenses/by-sa/3.0"
   credit_required: true
+- id: greenville-nc
+  role: city
+  alt: "Greenville, North Carolina, seen from the air"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/greenville-nc-640.webp
+    "960": photos/greenville-nc-960.webp
+    "1280": photos/greenville-nc-1280.webp
+  author: "DiscoA340"
+  source_url: "https://commons.wikimedia.org/wiki/File:Greenville,_North_Carolina_from_the_Air.jpg"
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  credit_required: true
+- id: abilene
+  role: city
+  alt: "Skyline of Abilene, Texas"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/abilene-640.webp
+    "960": photos/abilene-960.webp
+    "1280": photos/abilene-1280.webp
+  author: "Michael Barera"
+  source_url: "https://commons.wikimedia.org/wiki/File:Abilene_June_2019_70_(skyline).jpg"
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  credit_required: true
 - id: brunswick
   role: city
   alt: "City Hall in Brunswick, Georgia"
