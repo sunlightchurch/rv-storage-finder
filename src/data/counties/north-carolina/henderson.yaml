@@ -1,0 +1,37 @@
+id: henderson
+name: Henderson County
+state: North Carolina
+state_code: NC
+summary: >-
+  RV and boat storage in Henderson County with a street address from each
+  facility page. Towns on this page: Hendersonville.
+listings:
+  - slug: uhaul-1030044
+    name: Hendersonville Self-Storage
+    street: 1055 Keith Street
+    city: Hendersonville
+    state_code: NC
+    postal_code: 28792
+    lat: null
+    lng: null
+    phone: (828) 693-8881
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Hendersonville-NC-28792/1030044"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Hendersonville-NC-28792/1030044"
+        title: Hendersonville Self-Storage location page
+    last_verified: "2026-11-20"

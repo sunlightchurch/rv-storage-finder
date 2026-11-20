@@ -515,3 +515,183 @@ listings:
       - url: https://universityboatandrvstorage.com/contact-us/
         title: Contact page
     last_verified: "2026-11-18"
+
+  - slug: uhaul-780065
+    name: "U-Haul Moving & Storage of Wilkinson Blvd"
+    street: 9136 Wilkinson Blvd
+    city: Charlotte
+    state_code: NC
+    postal_code: 28214
+    lat: null
+    lng: null
+    phone: (704) 392-0056
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Charlotte-NC-28214/780065"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Charlotte-NC-28214/780065"
+        title: "U-Haul Moving & Storage of Wilkinson Blvd location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1036309
+    name: Mr. Storage - Wilshire
+    street: 2054 Wilshire Court Sw
+    city: Concord
+    state_code: NC
+    postal_code: 28025
+    lat: null
+    lng: null
+    phone: (704) 786-1019
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Concord-NC-28025/1036309"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $90.00 per month (Outside Level, No Electricity); $135.00 per month (Outside Level, No Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Concord-NC-28025/1036309"
+        title: Mr. Storage - Wilshire location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-954026
+    name: "U-Haul Moving & Storage At Sharon Rd"
+    street: 1400 Sharon Rd W
+    city: Charlotte
+    state_code: NC
+    postal_code: 28210
+    lat: null
+    lng: null
+    phone: (704) 358-0010
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Charlotte-NC-28210/954026"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $99.95 per month (Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Charlotte-NC-28210/954026"
+        title: "U-Haul Moving & Storage At Sharon Rd location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-008236
+    name: Mr Storage Concord
+    street: 1027 Central Drive Nw
+    city: Concord
+    state_code: NC
+    postal_code: 28027
+    lat: null
+    lng: null
+    phone: (704) 886-5077
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Concord-NC-28027/008236"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $75.00 per month (Outside Level); $75.00 per month (Outside Level, No Electricity); $110.00 per month (Outside Level)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Concord-NC-28027/008236"
+        title: Mr Storage Concord location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-780022
+    name: "U-Haul Moving & Storage of Gastonia"
+    street: 3919 E Franklin Blvd
+    city: Gastonia
+    state_code: NC
+    postal_code: 28056
+    lat: null
+    lng: null
+    phone: (704) 824-5298
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Gastonia-NC-28056/780022"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Gastonia-NC-28056/780022"
+        title: "U-Haul Moving & Storage of Gastonia location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1031382
+    name: Huntersville Mini Storage
+    street: 14231 Hunters Rd
+    city: Huntersville
+    state_code: NC
+    postal_code: 28078
+    lat: null
+    lng: null
+    phone: (704) 875-1218
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Huntersville-NC-28078/1031382"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $60.00 per month (1st Floor, Outside Level, No Climate); $80.00 per month."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Huntersville-NC-28078/1031382"
+        title: Huntersville Mini Storage location page
+    last_verified: "2026-11-20"

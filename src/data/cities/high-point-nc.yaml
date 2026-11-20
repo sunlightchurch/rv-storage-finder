@@ -173,3 +173,33 @@ listings:
       - url: https://www.publicstorage.com/self-storage-nc-high-point/2085.html
         title: West English Road location page
     last_verified: "2026-11-18"
+
+  - slug: uhaul-1018700
+    name: Clinard Quality Storage
+    street: 7850 Clinard Farms Rd
+    city: High Point
+    state_code: NC
+    postal_code: 27265
+    lat: null
+    lng: null
+    phone: (336) 454-3976
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-High-Point-NC-27265/1018700"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $50.00 per month (Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-High-Point-NC-27265/1018700"
+        title: Clinard Quality Storage location page
+    last_verified: "2026-11-20"

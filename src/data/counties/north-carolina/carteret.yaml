@@ -1,0 +1,67 @@
+id: carteret
+name: Carteret County
+state: North Carolina
+state_code: NC
+summary: >-
+  RV and boat storage in Carteret County with a street address from each
+  facility page. Towns on this page: Newport.
+listings:
+  - slug: uhaul-1027442
+    name: "Newport Mini Storage, Inc."
+    street: 457 Tom Mann Road
+    city: Newport
+    state_code: NC
+    postal_code: 28570
+    lat: null
+    lng: null
+    phone: (252) 777-1493
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Newport-NC-28570/1027442"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 6 am - 9 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $50.00 per month."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 6 am - 9 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Newport-NC-28570/1027442"
+        title: "Newport Mini Storage, Inc. location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-961080
+    name: "U-Haul Moving & Storage of Newport"
+    street: 202 Joyce Ave
+    city: Newport
+    state_code: NC
+    postal_code: 28570
+    lat: null
+    lng: null
+    phone: (252) 777-6039
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Newport-NC-28570/961080"
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $139.95 per month (Covered Level, Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Newport-NC-28570/961080"
+        title: "U-Haul Moving & Storage of Newport location page"
+    last_verified: "2026-11-20"

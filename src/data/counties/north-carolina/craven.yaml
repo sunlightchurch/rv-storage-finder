@@ -1,0 +1,37 @@
+id: craven
+name: Craven County
+state: North Carolina
+state_code: NC
+summary: >-
+  RV and boat storage in Craven County with a street address from each
+  facility page. Towns on this page: New Bern.
+listings:
+  - slug: uhaul-034747
+    name: Metts Climate Controlled Storage
+    street: 4122 Dr Martin Luther King Jr Blvd
+    city: New Bern
+    state_code: NC
+    postal_code: 28562
+    lat: null
+    lng: null
+    phone: (252) 638-1835
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-New-Bern-NC-28560/034747"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 6 am - 9:30 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $40.00 per month (Outside Level); $60.00 per month (Outside Level)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 6 am - 9:30 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-New-Bern-NC-28560/034747"
+        title: Metts Climate Controlled Storage location page
+    last_verified: "2026-11-20"

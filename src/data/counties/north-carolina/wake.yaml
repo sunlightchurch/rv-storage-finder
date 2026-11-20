@@ -1,0 +1,127 @@
+id: wake
+name: Wake County
+state: North Carolina
+state_code: NC
+summary: >-
+  RV and boat storage in Wake County with a street address from each facility
+  page. Towns on this page: Garner, New Hill.
+listings:
+  - slug: uhaul-1028065
+    name: Buffaloe Mini Storage LLC
+    street: 2107 Hwy 70 East
+    city: Garner
+    state_code: NC
+    postal_code: 27529
+    lat: null
+    lng: null
+    phone: (919) 772-2802
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Garner-NC-27529/1028065"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Garner-NC-27529/1028065"
+        title: Buffaloe Mini Storage LLC location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-008473
+    name: "Integrity Storage @ Turner Farms"
+    street: 3620 Benson Rd
+    city: Garner
+    state_code: NC
+    postal_code: 27529
+    lat: null
+    lng: null
+    phone: (919) 779-9196
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Garner-NC-27529/008473"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 6 am - 10 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 6 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Garner-NC-27529/008473"
+        title: "Integrity Storage @ Turner Farms location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-961067
+    name: "U-Haul Moving & Storage of Garner"
+    street: 1702 Mechanical Blvd
+    city: Garner
+    state_code: NC
+    postal_code: 27529
+    lat: null
+    lng: null
+    phone: (919) 779-3196
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Garner-NC-27529/961067"
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $154.95 per month (Covered Level, No Climate, Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Garner-NC-27529/961067"
+        title: "U-Haul Moving & Storage of Garner location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1030677
+    name: Harris Lake Self Storage
+    street: 5333 New Hill Holleman Road
+    city: New Hill
+    state_code: NC
+    postal_code: 27562
+    lat: null
+    lng: null
+    phone: (919) 362-0088
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-New-Hill-NC-27562/1030677"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $90.00 per month; $104.00 per month (Outside Level)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-New-Hill-NC-27562/1030677"
+        title: Harris Lake Self Storage location page
+    last_verified: "2026-11-20"

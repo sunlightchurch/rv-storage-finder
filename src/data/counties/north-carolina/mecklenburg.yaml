@@ -1,0 +1,67 @@
+id: mecklenburg
+name: Mecklenburg County
+state: North Carolina
+state_code: NC
+summary: >-
+  RV and boat storage in Mecklenburg County with a street address from each
+  facility page. Towns on this page: Cornelius, Pineville.
+listings:
+  - slug: uhaul-780049
+    name: "U-Haul Moving & Storage of Safe Harbor"
+    street: 9208 Westmoreland Rd
+    city: Cornelius
+    state_code: NC
+    postal_code: 28031
+    lat: null
+    lng: null
+    phone: (704) 655-8312
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Cornelius-NC-28031/780049"
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $104.95 per month (Outside Level, No Climate); $119.95 per month (Outside Level, No Climate); $134.95 per month (Covered Level, No Climate); $159.95 per month (Covered Level, No Climate, Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Cornelius-NC-28031/780049"
+        title: "U-Haul Moving & Storage of Safe Harbor location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-954038
+    name: "U-Haul Moving & Storage Of Ballantyne"
+    street: 13401 Lancaster Hwy
+    city: Pineville
+    state_code: NC
+    postal_code: 28134
+    lat: null
+    lng: null
+    phone: (704) 541-7999
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Pineville-NC-28134/954038"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Pineville-NC-28134/954038"
+        title: "U-Haul Moving & Storage Of Ballantyne location page"
+    last_verified: "2026-11-20"

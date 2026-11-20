@@ -1,0 +1,37 @@
+id: catawba
+name: Catawba County
+state: North Carolina
+state_code: NC
+summary: >-
+  RV and boat storage in Catawba County with a street address from each
+  facility page. Towns on this page: Hickory.
+listings:
+  - slug: uhaul-867075
+    name: "U-Haul Moving & Storage of West Hickory"
+    street: 331 US Hwy 70 SW Suite 101
+    city: Hickory
+    state_code: NC
+    postal_code: 28602
+    lat: null
+    lng: null
+    phone: (828) 358-3669
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Hickory-NC-28602/867075"
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $44.95 per month (Enclosed Level, Climate, Electricity); $94.95 per month (Outside Level, No Climate); $149.95 per month (1st Floor, Covered Level, No Climate); $159.95 per month (Covered Level, No Climate, Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Hickory-NC-28602/867075"
+        title: "U-Haul Moving & Storage of West Hickory location page"
+    last_verified: "2026-11-20"
