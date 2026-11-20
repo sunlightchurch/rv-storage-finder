@@ -1477,8 +1477,23 @@ td {
   line-height: 1.05;
 }
 
+#near-title {
+  max-width: 11ch;
+  font-size: clamp(2.7rem, 10vw, 3.5rem);
+  line-height: 1.02;
+}
+
+#near-lead {
+  min-height: 3.2rem;
+}
+
 #near-results {
-  min-height: 70vh;
+  min-height: 62vh;
+}
+
+.near-list li {
+  font-size: 0.95rem;
+  line-height: 1.35;
 }
 
 .place-link:hover {
