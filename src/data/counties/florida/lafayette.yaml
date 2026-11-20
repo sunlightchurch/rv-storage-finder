@@ -1,0 +1,67 @@
+id: lafayette
+name: Lafayette County
+state: Florida
+state_code: FL
+summary: >-
+  RV and boat storage in Lafayette County with a street address from each
+  facility page. Towns on this page: Mayo.
+listings:
+  - slug: storage-place-mayo-us-27
+    name: The Storage Place - Mayo US-27
+    street: 2337 US-27
+    city: Mayo
+    state_code: FL
+    postal_code: "32066"
+    lat: null
+    lng: null
+    phone: "(386) 703-0911"
+    website: null
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The Storage Place locations page is titled outdoor boat, RV, and vehicle parking and lists this Mayo address on US-27. It says prices start at $69 and does not tie that figure to a month or to an RV space."
+    sources:
+      - url: https://www.thestorageplacefla.com/self-storage
+        title: The Storage Place locations
+    last_verified: "2026-11-20"
+
+  - slug: storage-place-mayo-fletcher
+    name: The Storage Place - Mayo Fletcher
+    street: 276 S Fletcher Ave
+    city: Mayo
+    state_code: FL
+    postal_code: "32066"
+    lat: null
+    lng: null
+    phone: "(386) 703-0911"
+    website: null
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The same locations page lists outdoor boat, RV, and vehicle parking at 276 S Fletcher Ave in Mayo. It says prices start at $53 and does not tie that figure to a month or to an RV space."
+    sources:
+      - url: https://www.thestorageplacefla.com/self-storage
+        title: The Storage Place locations
+    last_verified: "2026-11-20"
