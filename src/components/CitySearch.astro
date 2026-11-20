@@ -1,17 +1,46 @@
 ---
 import { href } from '../lib/data';
 
+interface CityChip {
+  id: string;
+  city: string;
+  state_code: string;
+}
+
 interface Props {
   inputId?: string;
   label?: string;
+  showPicker?: boolean;
+  cities?: CityChip[];
 }
 
-const { inputId = 'home-q', label = 'Search by city or ZIP code' } = Astro.props;
+const { inputId = 'home-q', label = 'Search by city or ZIP code', showPicker = false, cities = [] } = Astro.props;
 const resultsId = `${inputId}-results`;
+const types = [
+  { value: 'rv', label: 'RV' },
+  { value: 'boat', label: 'Boat' },
+  { value: 'trailer', label: 'Trailer' },
+  { value: 'car', label: 'Car' },
+];
 ---
 
 <form class="home-search" role="search" action={href('/near/')} method="get">
   <label for={inputId}>{label}</label>
+  {
+    showPicker && (
+      <fieldset class="type-pills">
+        <legend>Vehicle</legend>
+        {
+          types.map((type) => (
+            <label class="pill">
+              <input type="radio" name="type" value={type.value} />
+              <span>{type.label}</span>
+            </label>
+          ))
+        }
+      </fieldset>
+    )
+  }
   <div class="search-row">
     <input
       id={inputId}
@@ -31,5 +60,27 @@ const resultsId = `${inputId}-results`;
     <button type="submit">Search</button>
   </div>
   <ul id={resultsId} class="search-results" role="listbox" hidden></ul>
+  {
+    showPicker && cities.length > 0 && (
+      <ul class="popular-chips">
+        {
+          cities.map((city) => (
+            <li>
+              <a data-popular-city href={href(`/cities/${city.id}/`)}>
+                {city.city}, {city.state_code}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    )
+  }
+  {
+    showPicker && (
+      <p class="boat-jump">
+        <a href={href('/boat-storage/')}>Boat storage by state</a>
+      </p>
+    )
+  }
   <p class="fine">A ZIP lists the nearest lots. A city name opens that page.</p>
 </form>

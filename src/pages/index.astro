@@ -120,7 +120,22 @@ const schema = pageGraph([
         Compare covered, enclosed, and outdoor lots. If a facility did not publish a price or an
         amenity, the card says not listed.
       </p>
-      <CitySearch />
+      <CitySearch
+        showPicker
+        cities={[
+          'houston-tx',
+          'dallas-fort-worth-tx',
+          'tampa-fl',
+          'orlando-fl',
+          'phoenix-az',
+          'atlanta-ga',
+          'las-vegas-nv',
+          'charlotte-nc',
+        ].flatMap((id) => {
+          const city = cities.find((item) => item.id === id);
+          return city ? [{ id: city.id, city: city.city, state_code: city.state_code }] : [];
+        })}
+      />
       <p class="hero-credit">
         Video: <a href={hero.source_url}>{hero.author}</a>, <a href={hero.license_url}>{hero.license}</a>.
         A still image plays instead when motion is reduced or the connection is slow.

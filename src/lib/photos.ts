@@ -5,7 +5,7 @@ import { z } from 'zod';
 
 const photoSchema = z.object({
   id: z.string().regex(/^[a-z0-9-]+$/),
-  role: z.enum(['hero', 'city', 'state', 'guide', 'generic']),
+  role: z.enum(['hero', 'city', 'state', 'guide', 'generic', 'facility']),
   alt: z.string().min(8),
   width: z.number().int().positive(),
   height: z.number().int().positive(),

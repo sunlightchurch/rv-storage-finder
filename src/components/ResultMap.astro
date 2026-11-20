@@ -1,0 +1,156 @@
+---
+---
+
+<div class="result-layout" data-result-layout>
+  <div class="view-toggle" role="group" aria-label="List or map">
+    <button type="button" data-view="list" aria-pressed="true">List</button>
+    <button type="button" data-view="map" aria-pressed="false">Map</button>
+  </div>
+  <div class="result-columns">
+    <div class="result-list">
+      <slot />
+    </div>
+    <aside class="map-panel" data-map-panel>
+      <div class="map-frame" data-map hidden></div>
+      <p class="map-empty" data-map-empty hidden>None of the facilities in this view have a published coordinate or a ZIP.</p>
+      <p class="fine">
+        A pin uses a coordinate the source published. Without one, the pin is the Census center of
+        that facility’s ZIP, and the popup says so. Map data ©
+        <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.
+      </p>
+      <slot name="points" />
+    </aside>
+  </div>
+</div>
+<script>
+  type MapPoint = {
+    id: string;
+    name: string;
+    lat: number;
+    lng: number;
+    price: number | null;
+    approx: 'exact' | 'zip';
+  };
+
+  function pointsFromJson(layout: HTMLElement): MapPoint[] | null {
+    const node = layout.querySelector('#map-points');
+    if (!node?.textContent) return null;
+    const all = JSON.parse(node.textContent) as MapPoint[];
+    return all.filter((point) => {
+      const card = document.getElementById(point.id);
+      return Boolean(card && !card.hidden);
+    });
+  }
+
+  function pointsFromCards(layout: HTMLElement): MapPoint[] {
+    return [...layout.querySelectorAll<HTMLElement>('[data-map-point]')]
+      .filter((card) => !card.hidden && card.dataset.approx !== 'city')
+      .flatMap((card) => {
+        const lat = Number(card.dataset.lat);
+        const lng = Number(card.dataset.lng);
+        if (!Number.isFinite(lat) || !Number.isFinite(lng) || !card.id) return [];
+        const name = card.dataset.name || card.querySelector('a')?.textContent || 'Facility';
+        return [{
+          id: card.id,
+          name,
+          lat,
+          lng,
+          price: card.dataset.monthly ? Number(card.dataset.monthly) : null,
+          approx: card.dataset.approx === 'zip' ? 'zip' : 'exact',
+        }];
+      });
+  }
+
+  function pointsFor(layout: HTMLElement): MapPoint[] {
+    return pointsFromJson(layout) ?? pointsFromCards(layout);
+  }
+
+  function showList(layout: HTMLElement) {
+    layout.classList.remove('is-map');
+    layout.querySelector('[data-view="list"]')?.setAttribute('aria-pressed', 'true');
+    layout.querySelector('[data-view="map"]')?.setAttribute('aria-pressed', 'false');
+  }
+
+  function focusCard(layout: HTMLElement, id: string) {
+    document.querySelectorAll('.is-pinned').forEach((card) => card.classList.remove('is-pinned'));
+    const card = document.getElementById(id);
+    if (!card) return;
+    card.classList.add('is-pinned');
+    if (window.matchMedia('(max-width: 799px)').matches) showList(layout);
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    card.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'center' });
+  }
+
+  async function openMap(layout: HTMLElement) {
+    const frame = layout.querySelector<HTMLElement>('[data-map]');
+    const empty = layout.querySelector<HTMLElement>('[data-map-empty]');
+    if (!frame) return;
+    const points = pointsFor(layout);
+    frame.hidden = false;
+    const current = (frame as HTMLElement & { _resultMap?: { remove: () => void; invalidateSize: () => void } })._resultMap;
+    if (current) {
+      current.remove();
+      delete (frame as HTMLElement & { _resultMap?: unknown })._resultMap;
+    }
+    if (!points.length) {
+      if (empty) empty.hidden = false;
+      frame.replaceChildren();
+      return;
+    }
+    if (empty) empty.hidden = true;
+    const { mountResultMap } = await import('../lib/result-map.mjs');
+    const map = mountResultMap(frame, points, (id: string) => focusCard(layout, id));
+    (frame as HTMLElement & { _resultMap?: { remove: () => void; invalidateSize: () => void } })._resultMap = map;
+    window.requestAnimationFrame(() => map.invalidateSize());
+  }
+
+  function mapIsOpen(layout: HTMLElement) {
+    const wide = window.matchMedia('(min-width: 800px)').matches;
+    return wide || layout.classList.contains('is-map');
+  }
+
+  document.querySelectorAll<HTMLElement>('[data-result-layout]').forEach((layout) => {
+    layout.querySelectorAll<HTMLButtonElement>('[data-view]').forEach((button) => {
+      button.addEventListener('click', () => {
+        const mapMode = button.dataset.view === 'map';
+        layout.classList.toggle('is-map', mapMode);
+        layout.querySelectorAll('[data-view]').forEach((item) => {
+          item.setAttribute('aria-pressed', String(item === button));
+        });
+        if (mapMode) {
+          openMap(layout);
+          const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+          layout.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
+        }
+      });
+    });
+    if (window.matchMedia('(min-width: 800px)').matches && 'IntersectionObserver' in window) {
+      const panel = layout.querySelector('[data-map-panel]');
+      if (panel) {
+        const seen = new IntersectionObserver((entries) => {
+          if (!entries.some((entry) => entry.isIntersecting)) return;
+          seen.disconnect();
+          openMap(layout);
+        });
+        seen.observe(panel);
+      }
+    }
+  });
+
+  document.addEventListener('click', (event) => {
+    const button = event.target instanceof Element ? event.target.closest<HTMLElement>('[data-pin-jump]') : null;
+    if (!button) return;
+    const id = button.getAttribute('data-pin-jump');
+    const layout = button.closest<HTMLElement>('[data-result-layout]') || document.querySelector<HTMLElement>('[data-result-layout]');
+    if (!id || !layout) return;
+    focusCard(layout, id);
+  });
+
+  window.refreshResultMap = () => {
+    document.querySelectorAll<HTMLElement>('[data-result-layout]').forEach((layout) => {
+      const frame = layout.querySelector<HTMLElement>('[data-map]');
+      if (!frame || frame.hidden || !mapIsOpen(layout)) return;
+      openMap(layout);
+    });
+  };
+</script>

@@ -6,7 +6,7 @@ import { formatDate } from './format';
 import { BOAT_LENGTHS, getFitPages, RV_LENGTHS } from './fit';
 import { getCostGuides } from './guides';
 import { pageIsThin } from './prices';
-import { assertKnownPhoto, assertCityPhoto } from './photos';
+import { assertKnownPhoto, assertCityPhoto, getPhoto } from './photos';
 
 const dataDir = path.join(process.cwd(), 'src/data');
 
@@ -332,6 +332,15 @@ function assertUniqueListings(groups: { label: string; listings: Listing[] }[]):
         const prior = websites.get(key);
         if (prior) throw new Error(`Duplicate website ${key} on ${prior} and ${listing.slug}.`);
         websites.set(key, listing.slug);
+      }
+      if (listing.photo) {
+        const photo = getPhoto(listing.photo);
+        if (photo.role !== 'facility') {
+          throw new Error(`${listing.slug} photo "${listing.photo}" is a ${photo.role} image. A facility photo has to be its own picture.`);
+        }
+        const priorPhoto = websites.get(`photo:${listing.photo}`);
+        if (priorPhoto) throw new Error(`Photo "${listing.photo}" is used by ${priorPhoto} and ${listing.slug}.`);
+        websites.set(`photo:${listing.photo}`, listing.slug);
       }
     }
   }
@@ -665,6 +674,7 @@ export function allPublicPaths(): { path: string; lastmod: string }[] {
     { path: '/costs/', lastmod: latest },
     { path: '/about/', lastmod: latest },
     { path: '/contact/', lastmod: '2026-11-19' },
+    { path: '/claim/', lastmod: '2026-11-20' },
     { path: '/privacy/', lastmod: '2026-11-19' },
     { path: '/terms/', lastmod: '2026-11-19' },
     { path: '/rules/', lastmod: '2026-11-19' },

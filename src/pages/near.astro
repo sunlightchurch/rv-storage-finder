@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
+import ResultMap from '../components/ResultMap.astro';
 import { href } from '../lib/data';
 import { buildSearchData } from '../lib/places.mjs';
 import { priceLines } from '../lib/prices';
@@ -39,7 +40,13 @@ const dataJson = JSON.stringify(searchData).replaceAll('<', '\\u003c');
     <Breadcrumbs items={crumbs} />
     <h1 id="near-title">Nearest RV and boat storage</h1>
     <p id="near-lead">Enter a ZIP code or a city name.</p>
-    <div id="near-results"></div>
+    <p class="type-note" data-type-note hidden>
+      <span data-type-copy></span>
+      <a href={href('/boat-storage/')} data-boat-hub hidden>Boat storage by state</a>
+    </p>
+    <ResultMap>
+      <div id="near-results"></div>
+    </ResultMap>
     <p class="fine">
       ZIP centers are 2024 Census ZIP Code Tabulation Area internal points. A distance is to that
       center, or to a facility coordinate when the listing has one. It is not a driving distance.
@@ -54,6 +61,7 @@ const dataJson = JSON.stringify(searchData).replaceAll('<', '\\u003c');
 
     const params = new URLSearchParams(window.location.search);
     const query = (params.get('q') ?? '').trim();
+    const vehicle = ['rv', 'boat', 'trailer', 'car'].includes(params.get('type') || '') ? params.get('type') || '' : '';
     const title = document.getElementById('near-title');
     const lead = document.getElementById('near-lead');
     const results = document.getElementById('near-results');
@@ -80,38 +88,67 @@ const dataJson = JSON.stringify(searchData).replaceAll('<', '\\u003c');
       return li;
     }
 
-    function facilityLink(row: {
-      item: {
-        slug: string;
-        name: string;
-        place: string;
-        cityId: string;
-        path?: string;
-        approx: string | null;
-        monthly?: number | null;
-        covered?: boolean;
-        enclosed?: boolean;
-        open?: boolean;
-        boat?: boolean;
-      };
-      miles: number;
-    }) {
+    function money(amount: number) {
+      const rounded = Math.round(amount * 100) / 100;
+      return Number.isInteger(rounded) ? `$${rounded}` : `$${rounded.toFixed(2)}`;
+    }
+
+    function facilityCard(item: {
+      slug: string;
+      name: string;
+      place: string;
+      cityId: string;
+      path?: string;
+      lat?: number;
+      lng?: number;
+      approx?: string | null;
+      monthly?: number | null;
+      covered?: boolean;
+      enclosed?: boolean;
+      open?: boolean;
+      boat?: boolean;
+      rv?: boolean;
+      trailer?: boolean;
+      car?: boolean;
+    }, miles: number | null) {
       const li = document.createElement('li');
-      li.dataset.miles = String(row.miles);
-      if (row.item.monthly != null) li.dataset.monthly = String(row.item.monthly);
-      li.dataset.covered = String(Boolean(row.item.covered));
-      li.dataset.enclosed = String(Boolean(row.item.enclosed));
-      li.dataset.open = String(Boolean(row.item.open));
-      li.dataset.boat = String(Boolean(row.item.boat));
+      li.className = 'near-card';
+      li.id = item.slug;
+      li.dataset.mapPoint = '';
+      li.dataset.name = item.name;
+      if (miles != null) li.dataset.miles = String(miles);
+      if (item.lat != null) li.dataset.lat = String(item.lat);
+      if (item.lng != null) li.dataset.lng = String(item.lng);
+      if (item.approx) li.dataset.approx = item.approx;
+      if (item.monthly != null) li.dataset.monthly = String(item.monthly);
+      li.dataset.covered = String(Boolean(item.covered));
+      li.dataset.enclosed = String(Boolean(item.enclosed));
+      li.dataset.open = String(Boolean(item.open));
+      li.dataset.boat = String(Boolean(item.boat));
+      li.dataset.rv = String(Boolean(item.rv));
+      li.dataset.trailer = String(Boolean(item.trailer));
+      li.dataset.car = String(Boolean(item.car));
+      const media = document.createElement('div');
+      media.className = 'no-photo';
+      media.setAttribute('aria-hidden', 'true');
+      media.innerHTML = '<span>No photo</span>';
+      const body = document.createElement('div');
       const link = document.createElement('a');
-      const home = row.item.path || `cities/${row.item.cityId}/`;
-      link.href = pageHref(`${home}#${row.item.slug}`);
-      link.textContent = row.item.name;
-      li.append(link);
-      const note = document.createElement('span');
-      const price = row.item.monthly != null ? ` · from $${row.item.monthly}/mo` : '';
-      note.textContent = ` · ${row.item.place} · ${formatMiles(row.miles)}${price}`;
-      li.append(note);
+      const home = item.path || `cities/${item.cityId}/`;
+      link.className = 'near-name';
+      link.href = pageHref(`${home}#${item.slug}`);
+      link.textContent = item.name;
+      const price = document.createElement('p');
+      price.className = 'card-price';
+      price.textContent = item.monthly != null ? `From ${money(item.monthly)}/mo` : 'Price not posted';
+      const note = document.createElement('p');
+      note.className = 'fine';
+      note.textContent = miles != null ? `${item.place} · ${formatMiles(miles)}` : item.place;
+      const claim = document.createElement('a');
+      claim.href = `${pageHref('claim/')}?facility=${encodeURIComponent(item.name)}`;
+      claim.textContent = 'Claim this listing';
+      body.append(link, price, note, claim);
+      li.append(media, body);
       return li;
     }
 
@@ -138,6 +175,9 @@ const dataJson = JSON.stringify(searchData).replaceAll('<', '\\u003c');
         '<button type="button" data-near-filter="enclosed" aria-pressed="false">Enclosed</button>',
         '<button type="button" data-near-filter="open" aria-pressed="false">Open</button>',
         '<button type="button" data-near-filter="boat" aria-pressed="false">Boat</button>',
+        '<button type="button" data-near-filter="rv" aria-pressed="false">RV</button>',
+        '<button type="button" data-near-filter="trailer" aria-pressed="false">Trailer</button>',
+        '<button type="button" data-near-filter="car" aria-pressed="false">Car</button>',
         '</div>',
         '<button type="button" class="sheet-done" data-near-sheet-close>Show results</button>',
         '</div>',
@@ -175,6 +215,8 @@ const dataJson = JSON.stringify(searchData).replaceAll('<', '\\u003c');
         status.textContent = mode.startsWith('price')
           ? 'Lowest published monthly price first. Lots without a monthly price stay last.'
           : 'Nearest first.';
+        const refresh = (window as Window & { refreshResultMap?: () => void }).refreshResultMap;
+        if (refresh) refresh();
       }
       const open = bar.querySelector('[data-near-sheet-open]');
       const closeSheet = () => {
@@ -237,7 +279,9 @@ const dataJson = JSON.stringify(searchData).replaceAll('<', '\\u003c');
       }
       const found = runSearch(query, data, parseZcta(csv));
       if (found.kind === 'city' && found.redirect) {
-        window.location.replace(pageHref(found.redirect.path || `cities/${found.redirect.id}/`));
+        const next = new URL(pageHref(found.redirect.path || `cities/${found.redirect.id}/`), window.location.origin);
+        if (vehicle) next.searchParams.set('type', vehicle);
+        window.location.replace(`${next.pathname}${next.search}`);
         return;
       }
       if (found.kind === 'zip' && !found.known) {
@@ -252,9 +296,13 @@ const dataJson = JSON.stringify(searchData).replaceAll('<', '\\u003c');
         if (found.how === 'prefix') {
           lead.textContent += ` ${found.zip} has no area of its own, so the start point is a nearby ZIP.`;
         }
+        const matched = found.facilities.filter((row) => !vehicle || row.item[vehicle]);
+        if (vehicle && !matched.length) {
+          lead.textContent += ' None of these facilities match that vehicle.';
+        }
         section(
           'Facilities',
-          found.facilities.map((row) => facilityLink(row)),
+          matched.map((row) => facilityCard(row.item, row.miles)),
           true,
         );
         section(
@@ -273,17 +321,9 @@ const dataJson = JSON.stringify(searchData).replaceAll('<', '\\u003c');
       );
       section(
         'Facilities',
-        found.facilities.map((facility) => {
-          const li = document.createElement('li');
-          const link = document.createElement('a');
-          link.href = pageHref(`${facility.path || `cities/${facility.cityId}/`}#${facility.slug}`);
-          link.textContent = facility.name;
-          li.append(link);
-          const note = document.createElement('span');
-          note.textContent = ` · ${facility.place}`;
-          li.append(note);
-          return li;
-        }),
+        found.facilities
+          .filter((facility) => !vehicle || facility[vehicle])
+          .map((facility) => facilityCard(facility, null)),
       );
     }
 
