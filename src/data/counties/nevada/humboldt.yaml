@@ -1,0 +1,37 @@
+id: humboldt
+name: Humboldt County
+state: Nevada
+state_code: NV
+summary: >-
+  RV and boat storage in Humboldt County with a street address from each
+  facility page. Towns on this page: Winnemucca.
+listings:
+  - slug: uhaul-1035713
+    name: Sonoma Storage LLC
+    street: 7925 Grass Valley Rd
+    city: Winnemucca
+    state_code: NV
+    postal_code: 89445
+    lat: null
+    lng: null
+    phone: (775) 283-8444
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Winnemucca-NV-89445/1035713"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 8 am - 6 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $30.00 per month (Outside Level, No Climate, No Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 8 am - 6 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Winnemucca-NV-89445/1035713"
+        title: Sonoma Storage LLC location page
+    last_verified: "2026-11-20"

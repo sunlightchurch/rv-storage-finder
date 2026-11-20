@@ -1,0 +1,37 @@
+id: nye
+name: Nye County
+state: Nevada
+state_code: NV
+summary: >-
+  RV and boat storage in Nye County with a street address from each facility
+  page. Towns on this page: Pahrump.
+listings:
+  - slug: uhaul-029680
+    name: A Payless Mini Storage
+    street: 2530 E Commerce St
+    city: Pahrump
+    state_code: NV
+    postal_code: 89048
+    lat: null
+    lng: null
+    phone: (775) 751-5165
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Pahrump-NV-89060/029680"
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 6 am - 8 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $150.00 per month (1st Floor, Covered Level, No Climate); $250.00 per month (1st Floor, Covered Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 6 am - 8 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Pahrump-NV-89060/029680"
+        title: A Payless Mini Storage location page
+    last_verified: "2026-11-20"

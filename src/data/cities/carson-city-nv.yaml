@@ -173,3 +173,33 @@ listings:
       - url: https://www.wildhorservboatstorage.com/
         title: Wildhorse RV and Boat Storage
     last_verified: "2026-11-20"
+
+  - slug: uhaul-1031462
+    name: Carson City Storage
+    street: 3649 Arrowhead Dr
+    city: Carson City
+    state_code: NV
+    postal_code: 89706
+    lat: null
+    lng: null
+    phone: (775) 350-4399
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Carson-City-NV-89706/1031462"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 6 am - 9 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 6 am - 9 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Carson-City-NV-89706/1031462"
+        title: Carson City Storage location page
+    last_verified: "2026-11-20"

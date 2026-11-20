@@ -759,3 +759,273 @@ listings:
   - url: https://lasvegasrvboatstorage.com/
     title: Official website
   last_verified: '2026-11-18'
+
+- slug: uhaul-1039763
+  name: Lake Mead Boat Storage
+  street: 2300 E. Lake Mead Parkway
+  city: Henderson
+  state_code: NV
+  postal_code: 89015
+  lat: null
+  lng: null
+  phone: (702) 565-0700
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Henderson-NV-89015/1039763"
+  vehicles: [rv, boat]
+  storage_types: [open]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  access_hours: "Mon-Sun: 6 am - 8:30 pm"
+  price_notes: "Spaces tagged RV, boat, and vehicle parking: $88.00 per month (1st Floor, Outside Level, No Climate); $105.50 per month (1st Floor, Outside Level, Drivethrough); $114.00 per month (1st Floor, Outside Level, No Climate); $137.00 per month (1st Floor, Outside Level, Drivethrough)."
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 6 am - 8:30 pm."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Henderson-NV-89015/1039763"
+      title: Lake Mead Boat Storage location page
+  last_verified: "2026-11-20"
+
+- slug: uhaul-807056
+  name: "U-Haul Moving & Storage of Black Mountain"
+  street: 989 S Boulder Hwy
+  city: Henderson
+  state_code: NV
+  postal_code: 89015
+  lat: null
+  lng: null
+  phone: (702) 568-6797
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Henderson-NV-89015/807056"
+  vehicles: [rv, boat]
+  storage_types: [open]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  access_hours: "Mon-Sun: 5 am - 10 pm"
+  price_notes: "Spaces tagged RV, boat, and vehicle parking: $119.95 per month (Outside Level, No Climate)."
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Henderson-NV-89015/807056"
+      title: "U-Haul Moving & Storage of Black Mountain location page"
+  last_verified: "2026-11-20"
+
+- slug: uhaul-807027
+  name: "U-Haul Moving & Storage at Nellis air Force Base"
+  street: 5250 E Craig Rd
+  city: Las Vegas
+  state_code: NV
+  postal_code: 89115
+  lat: null
+  lng: null
+  phone: (702) 644-4700
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Las-Vegas-NV-89115/807027"
+  vehicles: [rv, boat]
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  access_hours: "Mon-Sun: 5 am - 10 pm"
+  price_notes: null
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Las-Vegas-NV-89115/807027"
+      title: "U-Haul Moving & Storage at Nellis air Force Base location page"
+  last_verified: "2026-11-20"
+
+- slug: uhaul-838068
+  name: "U-Haul Moving & Storage at Rainbow Blvd"
+  street: 2450 N Rainbow Blvd
+  city: Las Vegas
+  state_code: NV
+  postal_code: 89108
+  lat: null
+  lng: null
+  phone: (702) 645-7544
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Las-Vegas-NV-89108/838068"
+  vehicles: [rv, boat]
+  storage_types: [covered]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  access_hours: "Mon-Sun: 5 am - 10 pm"
+  price_notes: "Spaces tagged RV, boat, and vehicle parking: $184.95 per month (Covered Level, No Climate); $204.95 per month (Covered Level, No Climate); $214.95 per month (Covered Level, No Climate)."
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Las-Vegas-NV-89108/838068"
+      title: "U-Haul Moving & Storage at Rainbow Blvd location page"
+  last_verified: "2026-11-20"
+
+- slug: uhaul-027192
+  name: Storage at Summerlin
+  street: 7441 W Lake Mead Blvd
+  city: Las Vegas
+  state_code: NV
+  postal_code: 89128
+  lat: null
+  lng: null
+  phone: (702) 255-0097
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Las-Vegas-NV-89128/027192"
+  vehicles: [rv, boat]
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  access_hours: "Mon-Sun: 7 am - 9 pm"
+  price_notes: null
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 7 am - 9 pm."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Las-Vegas-NV-89128/027192"
+      title: Storage at Summerlin location page
+  last_verified: "2026-11-20"
+
+- slug: uhaul-838088
+  name: "U-Haul Moving & Storage of Spring Valley"
+  street: 5220 S Jones Blvd
+  city: Las Vegas
+  state_code: NV
+  postal_code: 89118
+  lat: null
+  lng: null
+  phone: (702) 220-7777
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Las-Vegas-NV-89118/838088"
+  vehicles: [rv, boat]
+  storage_types: [covered]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  access_hours: "Mon-Sun: 5 am - 10 pm"
+  price_notes: "Spaces tagged RV, boat, and vehicle parking: $219.95 per month (Covered Level, No Climate)."
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Las-Vegas-NV-89118/838088"
+      title: "U-Haul Moving & Storage of Spring Valley location page"
+  last_verified: "2026-11-20"
+
+- slug: uhaul-055622
+  name: AAA Discount Storage
+  street: 2647 Las Vegas Blvd
+  city: North Las Vegas
+  state_code: NV
+  postal_code: 89030
+  lat: null
+  lng: null
+  phone: (702) 643-3947
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-North-Las-Vegas-NV-89030/055622"
+  vehicles: [rv, boat]
+  storage_types: [open]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: true
+  access_hours: "Mon-Sun: 24 hours"
+  price_notes: "Spaces tagged RV, boat, and vehicle parking: $55.00 per month (1st Floor, Outside Level, Drivethrough)."
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-North-Las-Vegas-NV-89030/055622"
+      title: AAA Discount Storage location page
+  last_verified: "2026-11-20"
+
+- slug: uhaul-838078
+  name: "U-Haul Moving & Storage of Skye Canyon"
+  street: 8525 Oso Blanca Rd
+  city: Las Vegas
+  state_code: NV
+  postal_code: 89166
+  lat: null
+  lng: null
+  phone: (702) 366-0580
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Las-Vegas-NV-89166/838078"
+  vehicles: [rv, boat]
+  storage_types: [covered]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  access_hours: "Mon-Sun: 5 am - 10 pm"
+  price_notes: "Spaces tagged RV, boat, and vehicle parking: $224.95 per month (Covered Level, No Climate, Electricity)."
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Las-Vegas-NV-89166/838078"
+      title: "U-Haul Moving & Storage of Skye Canyon location page"
+  last_verified: "2026-11-20"
+
+- slug: uhaul-838071
+  name: "U-Haul Moving & Storage of Tule Springs"
+  street: 6751 N 5th St
+  city: North Las Vegas
+  state_code: NV
+  postal_code: 89084
+  lat: null
+  lng: null
+  phone: (702) 289-4908
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-North-Las-Vegas-NV-89084/838071"
+  vehicles: [rv, boat]
+  storage_types: [covered]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  access_hours: "Mon-Sun: 5 am - 10 pm"
+  price_notes: "Spaces tagged RV, boat, and vehicle parking: $224.95 per month (1st Floor, Covered Level, No Climate); $254.95 per month (1st Floor, Covered Level, No Climate); $274.95 per month (1st Floor, Covered Level, No Climate)."
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-North-Las-Vegas-NV-89084/838071"
+      title: "U-Haul Moving & Storage of Tule Springs location page"
+  last_verified: "2026-11-20"

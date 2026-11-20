@@ -118,3 +118,33 @@ listings:
       - url: https://www.spanishspringsboatandrvstorage.com/self-storage/nv/sparks/map-directions
         title: Directions page
     last_verified: "2026-11-18"
+
+  - slug: uhaul-864072
+    name: "U-Haul Moving & Storage of Spanish Springs"
+    street: 11425 Digital Ct
+    city: Sparks
+    state_code: NV
+    postal_code: 89441
+    lat: null
+    lng: null
+    phone: (775) 425-3876
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Sparks-NV-89441/864072"
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $109.95 per month (Outside Level, No Climate, No Electricity); $209.95 per month (Outside Level, No Climate, Electricity); $289.95 per month (Covered Level, No Climate, Electricity); $579.95 per month (Covered Level, No Climate, Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Sparks-NV-89441/864072"
+        title: "U-Haul Moving & Storage of Spanish Springs location page"
+    last_verified: "2026-11-20"
