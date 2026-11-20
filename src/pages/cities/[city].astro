@@ -24,7 +24,7 @@ const crumbs = [
   { label: 'Home', path: '/' },
   { label: 'States', path: '/states/' },
   { label: city.state, path: `/states/${stateSlug(city.state)}/` },
-  { label: city.city, path },
+  { label: `${city.city}, ${city.state_code}`, path },
 ];
 const priced = city.listings.filter((listing) => listing.price_notes).length;
 const faqs = [
@@ -87,7 +87,7 @@ const orderedListings = [...city.listings].sort((a, b) => Number(b.featured) - N
     <Breadcrumbs items={crumbs} />
     <Photo photo={getPhoto(city.photo)} sizes="(min-width: 900px) 1100px, 100vw" eager />
     <p class="eyebrow">{city.metro}</p>
-    <h1>RV and boat storage in {city.city}</h1>
+    <h1>RV and boat storage in {city.city}, {city.state_code}</h1>
     <p class="summary">{city.summary}</p>
     <p class="legend">
       Yes means the source says so. No means the source says it does not. Not listed means the page we
@@ -175,7 +175,7 @@ const orderedListings = [...city.listings].sort((a, b) => Number(b.featured) - N
       )
     }
     <section class="faq">
-      <h2>Questions about {city.city}</h2>
+      <h2>Questions about {city.city}, {city.state_code}</h2>
       {
         faqs.map((faq) => (
           <>
@@ -189,9 +189,9 @@ const orderedListings = [...city.listings].sort((a, b) => Number(b.featured) - N
     <h2>Keep browsing</h2>
     <p class="cross">
       <a href={href(`/states/${stateSlug(city.state)}/`)}>All {city.state} cities</a>
-      <a href={href(`/costs/${city.id}/`)}>Monthly prices in {city.city}</a>
+      <a href={href(`/costs/${city.id}/`)}>Monthly prices in {city.city}, {city.state_code}</a>
       <a href={href('/guide/')}>What RV storage costs</a>
-      {siblings.map((sibling) => <a href={href(`/cities/${sibling.id}/`)}>{sibling.city}</a>)}
+      {siblings.map((sibling) => <a href={href(`/cities/${sibling.id}/`)}>{sibling.city}, {sibling.state_code}</a>)}
     </p>
   </div>
   <script>

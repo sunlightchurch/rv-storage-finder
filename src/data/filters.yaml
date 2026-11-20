@@ -16,7 +16,7 @@
   require_price: false
   title: "Covered RV storage in {city}, {state_code}"
   description: "Covered RV storage in and near {city}, {state}: {count} sourced facilities. Length, clearance, power, and monthly prices only when published."
-  h1: "Covered RV storage in {city}"
+  h1: "Covered RV storage in {city}, {state_code}"
   intro: "These facilities in and near {city}, {state} publicly list covered RV storage, such as a roof, canopy, or carport. Lots that do not describe a cover stay on the full city page."
 
 - id: enclosed-rv
@@ -30,7 +30,7 @@
   require_price: false
   title: "Enclosed RV storage in {city}, {state_code}"
   description: "Enclosed and indoor RV storage in and near {city}, {state}: {count} sourced facilities. Door height, length, and monthly prices only when published."
-  h1: "Enclosed RV storage in {city}"
+  h1: "Enclosed RV storage in {city}, {state_code}"
   intro: "These facilities in and near {city}, {state} publicly list enclosed or indoor RV storage, such as a garage bay or a warehouse. Covered canopies without walls are on the covered page."
 
 - id: outdoor-rv
@@ -44,7 +44,7 @@
   require_price: false
   title: "Outdoor RV storage in {city}, {state_code}"
   description: "Outdoor and uncovered RV storage in and near {city}, {state}: {count} sourced facilities. Length and monthly prices only when the facility publishes them."
-  h1: "Outdoor RV storage in {city}"
+  h1: "Outdoor RV storage in {city}, {state_code}"
   intro: "These facilities in and near {city}, {state} publicly list open or uncovered RV storage. A roofed space is on the covered page instead."
 
 - id: rv-power
@@ -58,7 +58,7 @@
   require_price: false
   title: "RV storage with power in {city}, {state_code}"
   description: "RV storage with power hookups in and near {city}, {state}: {count} sourced facilities. Amperage, length, and monthly prices only when published."
-  h1: "RV storage with power in {city}"
+  h1: "RV storage with power in {city}, {state_code}"
   intro: "These facilities in and near {city}, {state} state that electrical hookups or outlets are available for RVs. A trickle charger and a 50-amp pedestal are both recorded as power. The note quotes amperage when the facility prints it."
 
 - id: rv-dump
@@ -72,7 +72,7 @@
   require_price: false
   title: "RV storage with a dump station in {city}, {state_code}"
   description: "RV storage with a dump station in and near {city}, {state}: {count} sourced facilities. On-site dump stations only, with prices when published."
-  h1: "RV storage with a dump station in {city}"
+  h1: "RV storage with a dump station in {city}, {state_code}"
   intro: "These facilities in and near {city}, {state} state that an RV dump station is available. A dumpster for household trash is not counted. A station at a different address is not counted."
 
 - id: boat
@@ -86,7 +86,7 @@
   require_price: false
   title: "Boat storage in {city}, {state_code}"
   description: "Boat storage in and near {city}, {state}: {count} sourced facilities. Covered, enclosed, and outdoor options, plus prices when the facility publishes them."
-  h1: "Boat storage in {city}"
+  h1: "Boat storage in {city}, {state_code}"
   intro: "These facilities in and near {city}, {state} publicly list boat storage. Many also store RVs. Dry-stack buildings and trailer lots are both included when the page says boats are stored."
 
 - id: covered-boat
@@ -100,7 +100,7 @@
   require_price: false
   title: "Covered boat storage in {city}, {state_code}"
   description: "Covered boat storage in and near {city}, {state}: {count} sourced facilities. Length, clearance, and monthly prices only when published."
-  h1: "Covered boat storage in {city}"
+  h1: "Covered boat storage in {city}, {state_code}"
   intro: "These facilities in and near {city}, {state} publicly list covered boat storage. Enclosed dry-stack buildings are on the boat storage page and are tagged enclosed rather than covered."
 
 - id: boat-power
@@ -114,7 +114,7 @@
   require_price: false
   title: "Boat storage with power in {city}, {state_code}"
   description: "Boat storage with power in and near {city}, {state}: {count} sourced facilities. Hookups, length, and monthly prices only when the facility publishes them."
-  h1: "Boat storage with power in {city}"
+  h1: "Boat storage with power in {city}, {state_code}"
   intro: "These facilities in and near {city}, {state} store boats and state that power is available. The listing note quotes amperage when the page prints it."
 
 - id: prices
@@ -128,7 +128,7 @@
   require_price: true
   title: "RV storage prices in {city}, {state_code}"
   description: "Published RV and boat storage prices in and near {city}, {state}. {count} facilities print a rate. Figures are copied from the source and are not averaged."
-  h1: "RV storage prices in {city}"
+  h1: "RV storage prices in {city}, {state_code}"
   intro: "These facilities in and near {city}, {state} print a price on the page we checked. The figure may be a length tier, a starting rate, or a promotional online rate beside a higher in-store rate. This page does not average them. Facilities that do not print a price are on the city page, with price marked not listed."
 
 - id: access-24h
@@ -144,7 +144,7 @@
   min_matches: 3
   title: "24-hour RV storage in {city}, {state_code}"
   description: "24-hour RV storage in and near {city}, {state}: {count} facilities state it. A daytime gate window is not counted."
-  h1: "24-hour RV storage in {city}"
+  h1: "24-hour RV storage in {city}, {state_code}"
   intro: "These facilities in and near {city}, {state} say tenants can enter at all hours. A lot that prints a daytime window, or that sells 24-hour access as an extra, stays on the city page unless the listing is marked yes."
 
 - id: gated
@@ -160,7 +160,7 @@
   min_matches: 3
   title: "Gated RV storage in {city}, {state_code}"
   description: "Gated RV storage in and near {city}, {state}: {count} facilities say the lot has a gate. A fence without a stated gate does not count."
-  h1: "Gated RV storage in {city}"
+  h1: "Gated RV storage in {city}, {state_code}"
   intro: "These facilities in and near {city}, {state} state a gate. The city page still lists lots that do not mention one."
 
 - id: cameras
@@ -176,7 +176,7 @@
   min_matches: 3
   title: "RV storage with cameras in {city}, {state_code}"
   description: "RV storage with cameras in and near {city}, {state}: {count} facilities state video surveillance. A camera claim that covers a whole company is not counted."
-  h1: "RV storage with cameras in {city}"
+  h1: "RV storage with cameras in {city}, {state_code}"
   intro: "These facilities in and near {city}, {state} state cameras or video surveillance on the lot. The listing note has the wording the page used."
 
 - id: wash
@@ -191,5 +191,5 @@
   min_matches: 3
   title: "RV wash station storage in {city}, {state_code}"
   description: "RV storage with a wash station in and near {city}, {state}: {count} facilities say one is on site. A hose at another address does not count."
-  h1: "RV storage with a wash station in {city}"
+  h1: "RV storage with a wash station in {city}, {state_code}"
   intro: "These facilities in and near {city}, {state} state a wash station or wash bay on the property. A dump station is a different page."

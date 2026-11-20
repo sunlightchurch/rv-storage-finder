@@ -7,7 +7,7 @@ interface Props {
 
 const { city } = Astro.props;
 const headingId = city ? `more-${city.id}` : 'more-storage';
-const place = city ? ` near ${city.city}` : '';
+const place = city ? ` near ${city.city}, ${city.state_code}` : '';
 ---
 
 <aside class="cta" aria-labelledby={headingId}>

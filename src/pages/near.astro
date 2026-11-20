@@ -1,0 +1,153 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { buildSearchData } from '../lib/places.mjs';
+
+const title = 'Nearest RV and boat storage | RV Storage Prices';
+const description =
+  'Facilities and cities nearest a ZIP code or a city name, with distance in miles. These query results are not a separate directory entry.';
+const path = '/near/';
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'Nearest', path },
+];
+const dataJson = JSON.stringify(buildSearchData()).replaceAll('<', '\\u003c');
+---
+
+<Base title={title} description={description} path={path} noindex={true}>
+  <article class="wrap prose">
+    <Breadcrumbs items={crumbs} />
+    <h1 id="near-title">Nearest RV storage</h1>
+    <p id="near-lead">Enter a ZIP code or a city name.</p>
+    <div id="near-results"></div>
+    <p class="fine">
+      ZIP centers are 2024 Census ZIP Code Tabulation Area internal points. A distance is to that
+      center, or to a facility coordinate when the listing has one. It is not a driving distance.
+    </p>
+  </article>
+  <script id="near-data" type="application/json" set:html={dataJson} />
+  <script>
+    import { formatMiles, runSearch, parseZcta } from '../lib/geo.mjs';
+
+    const params = new URLSearchParams(window.location.search);
+    const query = (params.get('q') ?? '').trim();
+    const title = document.getElementById('near-title');
+    const lead = document.getElementById('near-lead');
+    const results = document.getElementById('near-results');
+    const base = import.meta.env.BASE_URL || '/';
+    const raw = document.getElementById('near-data')?.textContent || '{"cities":[],"facilities":[]}';
+    const data = JSON.parse(raw);
+
+    function pageHref(urlPath: string) {
+      const trimmed = urlPath.replace(/^\//, '');
+      return `${base}${trimmed}`;
+    }
+
+    function cityLink(city: { id: string; label: string }, miles: number | null) {
+      const li = document.createElement('li');
+      const link = document.createElement('a');
+      link.href = pageHref(`cities/${city.id}/`);
+      link.textContent = city.label;
+      li.append(link);
+      if (miles != null) {
+        const note = document.createElement('span');
+        note.textContent = ` · ${formatMiles(miles)}`;
+        li.append(note);
+      }
+      return li;
+    }
+
+    function facilityLink(row: {
+      item: { slug: string; name: string; place: string; cityId: string; approx: string | null };
+      miles: number;
+    }) {
+      const li = document.createElement('li');
+      const link = document.createElement('a');
+      link.href = pageHref(`cities/${row.item.cityId}/#${row.item.slug}`);
+      link.textContent = row.item.name;
+      li.append(link);
+      const note = document.createElement('span');
+      const center = row.item.approx === 'zip' ? ' · ZIP center' : row.item.approx === 'city' ? ' · city center' : '';
+      note.textContent = ` · ${row.item.place} · ${formatMiles(row.miles)}${center}`;
+      li.append(note);
+      return li;
+    }
+
+    function section(heading: string, items: HTMLElement[]) {
+      if (!items.length || !results) return;
+      const h2 = document.createElement('h2');
+      h2.textContent = heading;
+      const list = document.createElement('ol');
+      list.className = 'near-list';
+      items.forEach((item) => list.append(item));
+      results.append(h2, list);
+    }
+
+    async function show() {
+      if (!title || !lead || !results) return;
+      if (!query) {
+        title.textContent = 'Search by ZIP or city';
+        lead.textContent = 'Type a ZIP code or a city name, then press Search or the keyboard Go key.';
+        return;
+      }
+      const response = await fetch(pageHref('zcta.csv'));
+      if (!response.ok) {
+        title.textContent = 'Search is unavailable';
+        lead.textContent = 'The ZIP center list did not load. Open a state page and pick a city.';
+        return;
+      }
+      const found = runSearch(query, data, parseZcta(await response.text()));
+      if (found.kind === 'city' && found.redirect) {
+        window.location.replace(pageHref(`cities/${found.redirect.id}/`));
+        return;
+      }
+      if (found.kind === 'zip' && !found.known) {
+        title.textContent = 'ZIP not in the Census list';
+        lead.textContent = `There is no center point for ${found.zip}. Try a nearby ZIP or a city name.`;
+        return;
+      }
+      if (found.kind === 'zip') {
+        title.textContent = found.outside ? 'Nearest facilities we list' : `Facilities near ${found.zip}`;
+        lead.textContent = found.outside
+          ? `ZIP ${found.zip} is outside the cities in this directory. These are the closest facilities we list, with miles from the ZIP center.`
+          : `Sorted by miles from the center of ZIP ${found.zip}. A facility with its own ZIP uses that center when the listing has no map point.`;
+        if (found.how === 'prefix') {
+          lead.textContent += ` ${found.zip} has no Census area of its own, so the start point is the center of the nearest ${found.zip.slice(0, 3)} ZIP areas that do.`;
+        }
+        section(
+          'Facilities',
+          found.facilities.map((row) => facilityLink(row)),
+        );
+        section(
+          'Cities',
+          found.cities.map((row) => cityLink(row.item, row.miles)),
+        );
+        return;
+      }
+      title.textContent = found.matches.length ? `Cities matching “${query}”` : 'No matching city';
+      lead.textContent = found.matches.length
+        ? 'More than one place fits. Open a city for its facilities.'
+        : 'That city is not in this directory. Try the full name, or a ZIP code for the nearest facilities we list.';
+      section(
+        'Cities',
+        found.matches.map((city) => cityLink(city, null)),
+      );
+      section(
+        'Facilities',
+        found.facilities.map((facility) => {
+          const li = document.createElement('li');
+          const link = document.createElement('a');
+          link.href = pageHref(`cities/${facility.cityId}/#${facility.slug}`);
+          link.textContent = facility.name;
+          li.append(link);
+          const note = document.createElement('span');
+          note.textContent = ` · ${facility.place}`;
+          li.append(note);
+          return li;
+        }),
+      );
+    }
+
+    show();
+  </script>
+</Base>

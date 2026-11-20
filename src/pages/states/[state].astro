@@ -107,8 +107,7 @@ const schema = pageGraph([
                   loading="lazy"
                   decoding="async"
                 />
-                <span class="eyebrow">{city.state_code}</span>
-                <span class="city-name">{city.city}</span>
+                <span class="city-name">{city.city}, {city.state_code}</span>
                 <span class="city-meta">
                   {counts.total} facilities · {counts.covered} list covered space
                 </span>
@@ -121,10 +120,10 @@ const schema = pageGraph([
     {
       state.cities.map((city) => (
         <section>
-          <h2>{city.city}</h2>
+          <h2>{city.city}, {city.state_code}</h2>
           <p>{city.summary}</p>
           <p>
-            <a href={href(`/cities/${city.id}/`)}>All {city.city} listings</a>
+            <a href={href(`/cities/${city.id}/`)}>All {city.city}, {city.state_code} listings</a>
             {' · '}
             <a href={href(`/costs/${city.id}/`)}>Monthly prices</a>
           </p>

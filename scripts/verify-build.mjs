@@ -87,8 +87,9 @@ for (const file of htmlFiles) {
     fail(`${pageUrl} is missing Open Graph tags.`);
   }
 
-  if (is404) {
-    if (!/noindex/i.test(robots)) fail('404 page should be noindex.');
+  const noindex = /noindex/i.test(robots);
+  if (is404 || noindex) {
+    if (!noindex) fail(`${pageUrl} should be noindex.`);
   } else {
     if (!/index,\s*follow/i.test(robots)) fail(`${pageUrl} should be index,follow.`);
     const expected = `${origin}${pageUrl}`;
@@ -173,9 +174,21 @@ if (fs.existsSync(sitemapPath) && fs.existsSync(robotsPath)) {
   const sitemap = fs.readFileSync(sitemapPath, 'utf8');
   const robots = fs.readFileSync(robotsPath, 'utf8');
   const locs = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
-  const indexable = htmlFiles.filter((file) => !file.endsWith(`${path.sep}404.html`));
+  const indexable = htmlFiles.filter((file) => {
+    const html = fs.readFileSync(file, 'utf8');
+    const robots = html.match(/<meta name="robots" content="([^"]*)"/)?.[1] ?? '';
+    return !/noindex/i.test(robots);
+  });
   if (locs.length !== indexable.length) {
     fail(`Sitemap has ${locs.length} URLs and the build has ${indexable.length} indexable HTML pages.`);
+  }
+  const noindexUrls = new Set(
+    htmlFiles
+      .filter((file) => /noindex/i.test(fs.readFileSync(file, 'utf8')))
+      .map((file) => `${origin}${fileToUrl(file)}`),
+  );
+  for (const loc of locs) {
+    if (noindexUrls.has(loc)) fail(`Sitemap includes a noindex page: ${loc}`);
   }
   for (const loc of locs) {
     if (!loc.startsWith(`${origin}${base}/`)) fail(`Sitemap URL is outside the project: ${loc}`);
