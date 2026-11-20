@@ -1,0 +1,37 @@
+id: victoria
+name: Victoria County
+state: Texas
+state_code: TX
+summary: >-
+  RV and boat storage in Victoria County with a street address from each
+  facility page. Towns on this page: Victoria.
+listings:
+  - slug: northside-boat-rv-victoria
+    name: Northside Boat and RV Storage
+    street: 426 Schell Road
+    city: Victoria
+    state_code: TX
+    postal_code: "77904"
+    lat: null
+    lng: null
+    phone: "(361) 676-8850"
+    website: http://northsideboatandrv.com/contact/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: "8:00 AM-8:00 PM daily"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The Victoria contact page lists this address for boat and RV storage and says to contact the facility from 8:00 am to 8:00 pm daily. Cover type and a rate are not printed."
+    sources:
+      - url: http://northsideboatandrv.com/contact/
+        title: Northside Boat and RV Storage contact
+    last_verified: "2026-11-20"

@@ -1,0 +1,67 @@
+id: bowie
+name: Bowie County
+state: Texas
+state_code: TX
+summary: >-
+  RV and boat storage in Bowie County with a street address from each facility
+  page. Towns on this page: Texarkana.
+listings:
+  - slug: texarkana-storage-rv-kings
+    name: Texarkana Storage & RV
+    street: 1500 S Kings Hwy
+    city: Texarkana
+    state_code: TX
+    postal_code: "75501"
+    lat: null
+    lng: null
+    phone: "(903) 792-7867"
+    website: https://www.texarkanastorageandrv.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 45
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun 8:00 AM - 8:00 PM"
+    price_notes: null
+    billing_term: short-term
+    waitlist: null
+    notes: "The page offers covered RV and boat spaces up to 45 ft deep at this address, plus a few uncovered spaces. Some spaces have an electric hook-up. Business hours are 8:00 am to 8:00 pm every day. Short-term and multi-year storage are both offered."
+    sources:
+      - url: https://www.texarkanastorageandrv.com/
+        title: Texarkana Storage and RV
+    last_verified: "2026-11-20"
+
+  - slug: lakeside-mini-storage-texarkana
+    name: Lakeside Mini Storage & RV
+    street: 8522 S Lake Dr
+    city: Texarkana
+    state_code: TX
+    postal_code: "75501"
+    lat: null
+    lng: null
+    phone: "(903) 792-7867"
+    website: null
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: 41
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun 8:00 AM - 8:00 PM"
+    price_notes: null
+    billing_term: short-term
+    waitlist: null
+    notes: "The same Texarkana page lists covered RV and boat spaces 35 to 41 ft deep at 8522 S Lake Dr, at Highway 59 and FM 3244. Some spaces have an electric hook-up. Business hours are 8:00 am to 8:00 pm every day."
+    sources:
+      - url: https://www.texarkanastorageandrv.com/
+        title: Texarkana Storage and RV locations
+    last_verified: "2026-11-20"
