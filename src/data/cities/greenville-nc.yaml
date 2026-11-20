@@ -1,0 +1,150 @@
+# Verified against public facility pages on 2026-11-20. See PUBLISHING.md.
+id: greenville-nc
+city: Greenville
+state: North Carolina
+state_code: NC
+metro: Greenville
+summary: >-
+  These facilities publish an RV or boat storage page in Greenville, North Carolina.
+  Each card uses only what that page states. This is not a complete inventory.
+sparefoot_slug: Greenville-NC
+neighbor_path: north-carolina/greenville
+sparefoot_note: null
+photo: greenville-nc
+listings:
+  - slug: carolina-mini-moseley-greenville
+    name: Carolina Mini Storage
+    street: 3201 Moseley Drive
+    city: Greenville
+    state_code: NC
+    postal_code: "27858"
+    lat: null
+    lng: null
+    phone: "(252) 752-6900"
+    website: https://www.carolinaministorage.com/locations/greenville-nc-27858
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    billing_term: month-to-month
+    notes: >-
+      Outdoor vehicle storage for boats, RVs, travel trailers, and campers on a
+      paved lot. The location page states fencing, video surveillance, a gated
+      entrance, and a free on-site dump station for boat and RV customers. Access
+      is every day from 5 am to 11 pm. The phone and ZIP are printed on the
+      operator’s Greenville storage page.
+    sources:
+      - url: https://www.carolinaministorage.com/locations/greenville-nc-27858
+        title: Carolina Mini Storage at Moseley Drive
+      - url: https://www.perryrealestatenc.com/mini-storage
+        title: Perry Real Estate Greenville storage addresses
+    last_verified: "2026-11-20"
+
+  - slug: carolina-mini-landmark-greenville
+    name: Carolina Mini Storage
+    street: 3275 Landmark Street
+    city: Greenville
+    state_code: NC
+    postal_code: "27834"
+    lat: null
+    lng: null
+    phone: "(252) 355-3000"
+    website: https://www.carolinaministorage.com/locations/greenville-nc-27834
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    billing_term: month-to-month
+    notes: >-
+      Outdoor boat and RV storage, including campers and trailers. The location
+      page states fencing, gated entrances, video surveillance, and a free dump
+      station for an RV or camper. Access is every day from 5 am to 11 pm. The
+      phone and ZIP are printed on the operator’s Greenville storage page.
+    sources:
+      - url: https://www.carolinaministorage.com/locations/greenville-nc-27834
+        title: Carolina Mini Storage at Landmark Street
+      - url: https://www.perryrealestatenc.com/mini-storage
+        title: Perry Real Estate Greenville storage addresses
+    last_verified: "2026-11-20"
+
+  - slug: ilock-storage-allen-greenville
+    name: iLock Storage
+    street: 1640 Allen Rd
+    city: Greenville
+    state_code: NC
+    postal_code: "27834"
+    lat: null
+    lng: null
+    phone: "(252) 347-0826"
+    website: https://www.ilockstorage.net/vehicle-storage-greenville-nc/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    price_notes: null
+    waitlist: null
+    billing_term: month-to-month
+    fees:
+      lock_or_insurance: "A protection plan or proof of your own coverage is required."
+    notes: >-
+      Covered parking is 12 by 40 feet, lighted, with electrical outlets. Outdoor
+      parking is open air. The page says both are large enough for RVs and boats
+      and sit behind a gated entrance with recording cameras. Outdoor sizes are
+      not printed. Gate access is 6 a.m. to 10 p.m. every day.
+    sources:
+      - url: https://www.ilockstorage.net/vehicle-storage-greenville-nc/
+        title: iLock Storage vehicle storage in Greenville
+    last_verified: "2026-11-20"
+
+  - slug: tri-star-storage-greenville
+    name: Tri Star Storage
+    street: 3413 Tupper Dr
+    city: Greenville
+    state_code: NC
+    postal_code: "27834"
+    lat: null
+    lng: null
+    phone: "(252) 864-4106"
+    website: https://www.tristarstor.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The company homepage names this Greenville address and says each facility
+      offers outdoor parking for RVs, boats, and vehicles. Company-wide feature
+      bullets are not copied onto the amenity fields.
+    sources:
+      - url: https://www.tristarstor.com/
+        title: Tri Star Storage locations
+    last_verified: "2026-11-20"

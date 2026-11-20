@@ -8,6 +8,7 @@ import Photo from '../../components/Photo.astro';
 import { correctionMailto, getCities, getCity, getFilterPages, href, siblingCities, stateSlug } from '../../lib/data';
 import { formatBool, formatDate, formatFeet, formatTypes, formatVehicles } from '../../lib/format';
 import { formatPriceBlock } from '../../lib/prices';
+import { fitPagesForCity } from '../../lib/fit';
 import { termLabel } from '../../lib/terms';
 import { normalizeZip, zipCentroids } from '../../lib/zips';
 import { getPhoto } from '../../lib/photos';
@@ -89,6 +90,7 @@ const compareListings = city.listings.map((listing) => ({
 const compareJson = JSON.stringify(compareListings).replaceAll('<', '\\u003c');
 const orderedListings = [...city.listings].sort((a, b) => Number(b.featured) - Number(a.featured));
 const shortTermPage = getFilterPages().find((page) => page.city.id === city.id && page.filter.id === 'short-term');
+const fitPages = fitPagesForCity(city.id);
 const hoaGuide: Record<string, string> = {
   FL: '/guides/can-hoa-ban-rv-parking-florida/',
   AZ: '/guides/can-hoa-ban-rv-parking-arizona/',
@@ -216,6 +218,11 @@ const snowbirdGuide =
       {shortTermPage && <a href={href(shortTermPage.path)}>Short-term filter for this city</a>}
       <a href={href('/guides/rv-storage-fees-move-in-costs/')}>Move-in fees</a>
       {hoaGuide[city.state_code] && <a href={href(hoaGuide[city.state_code])}>Can an HOA ban an RV?</a>}
+      {fitPages.map((page) => (
+        <a href={href(page.path)}>
+          {page.feet}-foot {page.kind === 'rv' ? 'RV' : 'boat'}
+        </a>
+      ))}
     </p>
     <h2>Keep browsing</h2>
     <p class="cross">

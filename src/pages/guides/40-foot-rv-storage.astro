@@ -1,0 +1,54 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import LengthGuide from '../../components/LengthGuide.astro';
+import { href } from '../../lib/data';
+import { breadcrumbNode, faqNode, pageGraph, webPageNode } from '../../lib/schema';
+
+const feet = 40;
+const title = '40-foot RV storage | RV Storage Prices';
+const description =
+  'Cities where at least three facilities publish a maximum RV length of 40 feet or more. Class A acceptance is a separate page and is not inferred from length.';
+const path = '/guides/40-foot-rv-storage/';
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'Guides', path: '/guides/' },
+  { label: '40-foot RV storage', path },
+];
+const faqs = [
+  {
+    q: 'Does a 40-foot published maximum mean the lot takes a Class A?',
+    a: 'No. This page uses the printed maximum length only. A facility is called Class A storage only when its own page says Class A. That list is on the Class A guide.',
+  },
+  {
+    q: 'What should I measure besides length?',
+    a: 'Height at the tallest point, for covered or enclosed clearance, and whether the gate and aisle can turn the rig. Turning radius is not printed on these cards.',
+  },
+];
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: '2026-11-20' }),
+  breadcrumbNode(crumbs),
+  faqNode(faqs),
+]);
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <article class="wrap prose">
+    <Breadcrumbs items={crumbs} />
+    <h1>40-foot RV storage</h1>
+    <p>
+      A published maximum of 40 feet is not a Class A claim.
+      <a href={href('/guides/class-a-rv-storage/')}>Class A storage</a> lists only pages that say Class A.
+    </p>
+    <LengthGuide kind="rv" feet={feet} />
+    <section class="faq">
+      <h2>Questions</h2>
+      {faqs.map((faq) => (
+        <>
+          <h3>{faq.q}</h3>
+          <p>{faq.a}</p>
+        </>
+      ))}
+    </section>
+  </article>
+</Base>

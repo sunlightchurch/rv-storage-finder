@@ -1,0 +1,55 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import LengthGuide from '../../components/LengthGuide.astro';
+import { href } from '../../lib/data';
+import { breadcrumbNode, faqNode, pageGraph, webPageNode } from '../../lib/schema';
+
+const feet = 35;
+const title = '35-foot RV storage | RV Storage Prices';
+const description =
+  'Cities where at least three facilities publish a maximum RV length of 35 feet or more. A shorter printed limit stays off the list.';
+const path = '/guides/35-foot-rv-storage/';
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'Guides', path: '/guides/' },
+  { label: '35-foot RV storage', path },
+];
+const faqs = [
+  {
+    q: 'How do I know a 35-foot rig will fit?',
+    a: 'Compare your overall length, hitch included, with the maximum the facility printed. Also compare height with any printed clearance if the space is covered or enclosed.',
+  },
+  {
+    q: 'Why is my city missing?',
+    a: 'The city needs three facilities that published a maximum of at least 35 feet. Fewer than three, or no printed length, means no page.',
+  },
+];
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: '2026-11-20' }),
+  breadcrumbNode(crumbs),
+  faqNode(faqs),
+]);
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <article class="wrap prose">
+    <Breadcrumbs items={crumbs} />
+    <h1>35-foot RV storage</h1>
+    <p>
+      Also see <a href={href('/guides/30-foot-rv-storage/')}>30-foot</a>,
+      <a href={href('/guides/40-foot-rv-storage/')}>40-foot</a>, and
+      <a href={href('/guides/45-foot-rv-storage/')}>45-foot</a> RV storage.
+    </p>
+    <LengthGuide kind="rv" feet={feet} />
+    <section class="faq">
+      <h2>Questions</h2>
+      {faqs.map((faq) => (
+        <>
+          <h3>{faq.q}</h3>
+          <p>{faq.a}</p>
+        </>
+      ))}
+    </section>
+  </article>
+</Base>

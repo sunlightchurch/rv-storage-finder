@@ -1,0 +1,52 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import LengthGuide from '../../components/LengthGuide.astro';
+import { href } from '../../lib/data';
+import { breadcrumbNode, faqNode, pageGraph, webPageNode } from '../../lib/schema';
+
+const title = '30-foot boat storage | RV Storage Prices';
+const description =
+  'Cities where at least three facilities publish a maximum length of 30 feet or more and say they store a boat. Trailer length is included only when the page states it.';
+const path = '/guides/30-foot-boat-storage/';
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'Guides', path: '/guides/' },
+  { label: '30-foot boat storage', path },
+];
+const faqs = [
+  {
+    q: 'Does boat length include the trailer?',
+    a: 'Use the overall length the facility will measure, which is often the boat on the trailer, tongue included. This page uses the maximum the facility printed. It does not add trailer length the page did not state.',
+  },
+  {
+    q: 'Where are longer boats listed?',
+    a: 'The 40-foot boat page uses the same rule with a 40-foot published maximum.',
+  },
+];
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: '2026-11-20' }),
+  breadcrumbNode(crumbs),
+  faqNode(faqs),
+]);
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <article class="wrap prose">
+    <Breadcrumbs items={crumbs} />
+    <h1>30-foot boat storage</h1>
+    <p>
+      <a href={href('/guides/40-foot-boat-storage/')}>40-foot boat storage</a> uses a higher published cutoff.
+    </p>
+    <LengthGuide kind="boat" feet={30} />
+    <section class="faq">
+      <h2>Questions</h2>
+      {faqs.map((faq) => (
+        <>
+          <h3>{faq.q}</h3>
+          <p>{faq.a}</p>
+        </>
+      ))}
+    </section>
+  </article>
+</Base>

@@ -81,3 +81,95 @@ listings:
       - url: https://www.carsoncityrvstorage.com/contact-us/
         title: Contact page
     last_verified: "2026-11-18"
+
+  - slug: arrowhead-rv-boat-storage-carson-city
+    name: Arrowhead RV & Boat Storage
+    street: 2900 Arrowhead Dr
+    city: Carson City
+    state_code: NV
+    postal_code: "89706"
+    lat: null
+    lng: null
+    phone: "(775) 525-1410"
+    website: https://arrowheadrvandboat.com/
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: 50
+    clearance_ft: null
+    power_hookups: null
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Climate-controlled units for RVs and boats inside a gated building. The
+      page lists a 50 by 16 space and a smaller size, a hose hookup with a
+      concrete pad and drain, and a place to dump. Clearance is not printed.
+    sources:
+      - url: https://arrowheadrvandboat.com/
+        title: Arrowhead RV and Boat Storage Carson City
+    last_verified: "2026-11-20"
+
+  - slug: hb-rv-storage-carson-city
+    name: H&B RV Storage
+    street: 863 Industrial Park Drive
+    city: Carson City
+    state_code: NV
+    postal_code: "89701"
+    lat: null
+    lng: null
+    phone: "(775) 309-3691"
+    website: https://www.carsonrvstorage.net/
+    vehicles: [rv]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The page calls this a new RV storage facility and says tenants have
+      24-hour access. It lists high-definition security cameras. It does not
+      print a cover type, a length, or a boat.
+    sources:
+      - url: https://www.carsonrvstorage.net/
+        title: H&B RV Storage
+    last_verified: "2026-11-20"
+
+  - slug: wildhorse-rv-boat-storage
+    name: Wildhorse RV & Boat Storage
+    street: 6441 East HWY 50
+    city: Carson City
+    state_code: NV
+    postal_code: "89703"
+    lat: null
+    lng: null
+    phone: "(775) 580-5790"
+    website: https://www.wildhorservboatstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The page offers outdoor boat and RV storage at this Carson City address.
+      It does not print a length, a price, a gate, or cameras.
+    sources:
+      - url: https://www.wildhorservboatstorage.com/
+        title: Wildhorse RV and Boat Storage
+    last_verified: "2026-11-20"

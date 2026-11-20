@@ -3,6 +3,7 @@ import path from 'node:path';
 import yaml from 'js-yaml';
 import { z } from 'zod';
 import { formatDate } from './format';
+import { BOAT_LENGTHS, getFitPages, RV_LENGTHS } from './fit';
 import { getCostGuides } from './guides';
 import { assertKnownPhoto, assertCityPhoto } from './photos';
 
@@ -567,6 +568,10 @@ export function allPublicPaths(): { path: string; lastmod: string }[] {
     { path: '/guides/can-hoa-ban-rv-parking-georgia/', lastmod: '2026-11-20' },
     { path: '/guides/can-hoa-ban-rv-parking-nevada/', lastmod: '2026-11-20' },
     { path: '/guides/can-hoa-ban-rv-parking-north-carolina/', lastmod: '2026-11-20' },
+    { path: '/guides/class-a-rv-storage/', lastmod: '2026-11-20' },
+    { path: '/guides/boat-storage-by-length/', lastmod: '2026-11-20' },
+    ...RV_LENGTHS.map((feet) => ({ path: `/guides/${feet}-foot-rv-storage/`, lastmod: '2026-11-20' })),
+    ...BOAT_LENGTHS.map((feet) => ({ path: `/guides/${feet}-foot-boat-storage/`, lastmod: '2026-11-20' })),
     { path: '/checklists/seasonal/', lastmod: latest },
     { path: '/checklists/security/', lastmod: latest },
     { path: '/insurance/', lastmod: '2026-11-19' },
@@ -611,6 +616,12 @@ export function allPublicPaths(): { path: string; lastmod: string }[] {
   }
   for (const guide of getCostGuides()) {
     paths.push({ path: guide.path, lastmod: guide.lastmod });
+  }
+  for (const page of getFitPages()) {
+    paths.push({
+      path: page.path,
+      lastmod: maxDate(page.matches.map((listing) => listing.last_verified)),
+    });
   }
   for (const page of getFilterPages()) {
     paths.push({

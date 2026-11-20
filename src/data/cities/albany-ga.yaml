@@ -80,3 +80,94 @@ listings:
   - url: "https://www.tristarstor.com/index.aspx"
     title: Tri Star Storage locations
   last_verified: '2026-11-18'
+- slug: palmyra-self-storage-albany
+  name: Palmyra Self Storage
+  street: 1900 Ledo Road
+  city: Albany
+  state_code: GA
+  postal_code: '31707'
+  lat: null
+  lng: null
+  phone: "(229) 376-1817"
+  website: https://www.palmyrastoragesolutions.com/
+  vehicles: [rv, boat]
+  storage_types: [open]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: null
+  price_notes: null
+  waitlist: null
+  notes: >-
+    Drive-up vehicle storage for a car, truck, RV, or boat. The page says the
+    facility is gated and camera-monitored and that wide drive aisles accommodate
+    large trailers and boats. The printed unit prices are not tied to an RV space
+    or a billing period, so no RV price is recorded.
+  sources:
+  - url: https://www.palmyrastoragesolutions.com/
+    title: Palmyra Self Storage
+  last_verified: '2026-11-20'
+- slug: royal-storage-albany
+  name: Royal Storage
+  street: 2801 Palmyra Road
+  city: Albany
+  state_code: GA
+  postal_code: '31707'
+  lat: null
+  lng: null
+  phone: "(229) 446-2038"
+  website: https://www.royalstoragealbanyga.com/
+  vehicles: [rv, boat]
+  storage_types: [open]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: null
+  access_24h: false
+  price_notes: null
+  waitlist: null
+  notes: >-
+    Exterior lots for RV, boat, auto, and trailer storage. The page says the
+    facility is securely gated and that the computerized gate and lock system
+    allows access 7 days a week. It does not say the gate is open 24 hours.
+  sources:
+  - url: https://www.royalstoragealbanyga.com/
+    title: Royal Storage Albany
+  last_verified: '2026-11-20'
+- slug: family-heirloom-storage-albany
+  name: Family Heirloom Storage
+  street: 431 S Mock Rd
+  city: Albany
+  state_code: GA
+  postal_code: '31705'
+  lat: null
+  lng: null
+  phone: "(229) 814-0102"
+  website: https://familyheirloomstorage.com/view-locations/georgia/albany-ga-31705
+  vehicles: [rv, boat]
+  storage_types: [open]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: true
+  cameras: true
+  access_24h: true
+  price_notes: null
+  waitlist: null
+  notes: >-
+    The location page lists RV parking and boat and RV storage, with a gated
+    entrance, security cameras, and 24/7 access. It does not print a length or a
+    price for the parking.
+  sources:
+  - url: https://familyheirloomstorage.com/view-locations/georgia/albany-ga-31705
+    title: Family Heirloom Storage of Albany
+  last_verified: '2026-11-20'

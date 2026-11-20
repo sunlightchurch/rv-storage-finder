@@ -1,0 +1,39 @@
+---
+import { href } from '../lib/data';
+import { getFitPages, type FitKind } from '../lib/fit';
+
+interface Props {
+  kind: FitKind;
+  feet: number;
+}
+
+const { kind, feet } = Astro.props;
+const pages = getFitPages()
+  .filter((page) => page.kind === kind && page.feet === feet)
+  .sort((a, b) => a.city.state.localeCompare(b.city.state) || a.city.city.localeCompare(b.city.city));
+const noun = kind === 'rv' ? 'RV' : 'boat';
+---
+
+<p>
+  Measure the overall length on the ground, from the foremost point to the rearmost point. Include the
+  hitch, a rear ladder, a spare tire, and anything that sticks past the bumper. For a covered or
+  enclosed space, also measure the tallest point, including air conditioners and antennas, and compare
+  it with the clearance the facility printed. A published maximum length is not a turning radius. Ask
+  whether the aisle and the gate can take the rig.
+</p>
+<p>
+  A city is listed here only when at least three facilities publish a maximum length of at least {feet}
+  feet and say they store {kind === 'rv' ? 'an RV' : 'a boat'}. A blank length is not treated as a fit.
+</p>
+<ul>
+  {
+    pages.map((page) => (
+      <li>
+        <a href={href(page.path)}>
+          {page.feet}-foot {noun} storage in {page.city.city}, {page.city.state_code}
+        </a>
+        {` · ${page.matches.length} facilities`}
+      </li>
+    ))
+  }
+</ul>
