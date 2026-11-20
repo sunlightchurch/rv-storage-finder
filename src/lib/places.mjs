@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import yaml from 'js-yaml';
 import { meanPoint, parseZcta } from './geo.mjs';
+import { vehicleFlags } from './vehicles.mjs';
 
 function normalizeZip(value) {
   if (value == null) return null;
@@ -59,6 +60,7 @@ function addPlace(cities, facilities, place, zcta) {
       storage_types: listing.storage_types || [],
       vehicles: listing.vehicles || [],
       price_notes: listing.price_notes || null,
+      ...vehicleFlags(listing),
     });
   }
 }

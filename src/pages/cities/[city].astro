@@ -1,12 +1,14 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import CityStats from '../../components/CityStats.astro';
 import FilterChips from '../../components/FilterChips.astro';
 import FindMore from '../../components/FindMore.astro';
 import ListingCard from '../../components/ListingCard.astro';
 import Photo from '../../components/Photo.astro';
+import ResultMap from '../../components/ResultMap.astro';
 import { correctionMailto, getCities, getCity, getFilterPages, href, siblingCities, stateSlug } from '../../lib/data';
-import { pageIsThin } from '../../lib/prices';
+import { pageIsThin, parsePriceNote } from '../../lib/prices';
 import { cityTitle, placeDescription } from '../../lib/seo';
 import { formatBool, formatDate, formatFeet, formatTypes, formatVehicles } from '../../lib/format';
 import { formatPriceBlock } from '../../lib/prices';
@@ -62,6 +64,29 @@ for (const listing of city.listings) {
   const zip = normalizeZip(listing.postal_code);
   if (zip && centroids[zip]) pageCentroids[zip] = centroids[zip];
 }
+const mapPoints = city.listings.flatMap((listing) => {
+  let lat = listing.lat;
+  let lng = listing.lng;
+  let approx: 'exact' | 'zip' = 'exact';
+  if (lat == null || lng == null) {
+    const zip = normalizeZip(listing.postal_code);
+    const centroid = zip ? centroids[zip] : undefined;
+    if (!centroid) return [];
+    lat = centroid.lat;
+    lng = centroid.lng;
+    approx = 'zip';
+  }
+  const monthly = parsePriceNote(listing.price_notes).monthly;
+  return [{
+    id: listing.slug,
+    name: listing.name,
+    lat,
+    lng,
+    price: monthly.length ? Math.min(...monthly) : null,
+    approx,
+  }];
+});
+const mapJson = JSON.stringify(mapPoints).replaceAll('<', '\\u003c');
 const compareListings = city.listings.map((listing) => ({
   slug: listing.slug,
   name: listing.name,
@@ -116,6 +141,11 @@ const snowbirdGuide =
     <Photo photo={getPhoto(city.photo)} sizes="(min-width: 900px) 1100px, 100vw" eager />
     <p class="eyebrow">{city.metro}</p>
     <h1>RV and boat storage in {city.city}, {city.state_code}</h1>
+    <CityStats listings={city.listings} />
+    <p class="type-note" data-type-note hidden>
+      <span data-type-copy></span>
+      <a href={href('/boat-storage/')} data-boat-hub hidden>Boat storage by state</a>
+    </p>
     <p class="summary">{city.summary}</p>
     <FilterChips city={city} />
     <form class="distance-panel" data-distance-form data-distance-panel hidden>
@@ -172,9 +202,12 @@ const snowbirdGuide =
     <p class="fine">
       <a href={href('/advertise/')}>Own a storage facility? Get featured</a>
     </p>
-    <div data-listing-list>
-      {orderedListings.map((listing) => <ListingCard listing={listing} />)}
-    </div>
+    <ResultMap>
+      <div data-listing-list>
+        {orderedListings.map((listing) => <ListingCard listing={listing} />)}
+      </div>
+      <script slot="points" id="map-points" type="application/json" set:html={mapJson} />
+    </ResultMap>
     {
       reportedFull.length > 0 && (
         <section class="try-these">

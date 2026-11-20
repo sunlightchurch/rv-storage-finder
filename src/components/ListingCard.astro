@@ -10,8 +10,10 @@ import {
   mapUrl,
   telHref,
 } from '../lib/format';
-import { coverLabel, priceHeadline, priceLines, priceLineText, type CoverKind } from '../lib/prices';
+import { getPhoto } from '../lib/photos';
+import { coverLabel, formatMoney, priceLines, priceLineText, type CoverKind } from '../lib/prices';
 import { feeFields, termLabel } from '../lib/terms';
+import { vehicleFlags } from '../lib/vehicles.mjs';
 
 interface Props {
   listing: Listing;
@@ -48,7 +50,10 @@ const facts = [
 const lines = priceLines(listing);
 const monthlyAmounts = lines.filter((line) => line.unit === 'mo').map((line) => line.amount);
 const monthlyMin = monthlyAmounts.length ? Math.min(...monthlyAmounts) : null;
-const from = priceHeadline(lines);
+const monthlyLabel = monthlyMin != null ? `From ${formatMoney(monthlyMin)}/mo` : 'Price not posted';
+const flags = vehicleFlags(listing);
+const image = listing.photo ? getPhoto(listing.photo) : null;
+const claimHref = `${href('/claim/')}?facility=${encodeURIComponent(listing.name)}`;
 const groups = (['open', 'covered', 'enclosed', null] as const)
   .map((cover) => ({
     cover,
@@ -77,16 +82,46 @@ const icons = [
   data-open={String(listing.storage_types.includes('open'))}
   data-power={String(listing.power_hookups === true)}
   data-dump={String(listing.dump_station === true)}
-  data-boat={String(listing.vehicles.includes('boat'))}
-  data-rv={String(listing.vehicles.includes('rv'))}
+  data-boat={String(flags.boat)}
+  data-rv={String(flags.rv)}
+  data-trailer={String(flags.trailer)}
+  data-car={String(flags.car)}
   data-priced={String(Boolean(listing.price_notes))}
   data-monthly={monthlyMin ?? undefined}
   data-zip={listing.postal_code ? String(listing.postal_code).replace(/\D/g, '').slice(0, 5) : undefined}
   data-lat={listing.lat ?? undefined}
   data-lng={listing.lng ?? undefined}
 >
-  <div class="listing-body">
-    <header class="listing-head">
+  <div class="listing-top">
+    {
+      image ? (
+        <figure class="listing-photo">
+          <img
+            src={href(`/${image.files['640']}`)}
+            srcset={`${href(`/${image.files['640']}`)} 640w, ${href(`/${image.files['960']}`)} 960w`}
+            sizes="96px"
+            width={image.width}
+            height={image.height}
+            alt={image.alt}
+            loading="lazy"
+            decoding="async"
+          />
+          {
+            image.credit_required && (
+              <figcaption>
+                <a href={image.source_url}>{image.author}</a>
+              </figcaption>
+            )
+          }
+        </figure>
+      ) : (
+        <div class="no-photo" aria-hidden="true">
+          <span>No photo</span>
+        </div>
+      )
+    }
+    <div>
+      <header class="listing-head">
       <h3>
         {listing.name}
         {listing.featured && <span class="badge">Featured</span>}
@@ -102,10 +137,14 @@ const icons = [
         <span class="sr-only">{listing.name}</span>
       </label>
       {listing.featured && <p class="paid-note">Paid placement</p>}
-    </header>
+      </header>
+      <p class="card-price">{monthlyLabel}</p>
+      <p class="distance-note" data-distance-note hidden></p>
+    </div>
+  </div>
+  <div class="listing-body">
     <div class="price">
       <span class="label">Published price</span>
-      {from && <strong class="price-from">{from}</strong>}
       {
         groups.length ? (
           <div class="price-groups">
@@ -155,7 +194,6 @@ const icons = [
         }
       </dl>
     </details>
-    <p class="distance-note" data-distance-note hidden></p>
     <p class="fit-note" data-fit-note hidden></p>
     <ul class="icon-row" aria-label="Published features">
       {icons.length ? icons.map((icon) => <li>{icon}</li>) : <li class="unknown">Features not listed</li>}
@@ -193,7 +231,9 @@ const icons = [
       )}
     </div>
     <p class="fine">
-      <a href={href('/advertise/')}>Own this facility? Get featured</a>
+      <a href={claimHref}>Claim this listing</a>
+      {' · '}
+      <a href={href('/advertise/')}>Featured spot, $29</a>
     </p>
     <details class="details">
       <summary>View details</summary>

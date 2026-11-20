@@ -1,0 +1,88 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { href, site } from '../lib/data';
+import { breadcrumbNode, pageGraph, webPageNode } from '../lib/schema';
+
+const title = 'Claim a storage listing | RV Storage Prices';
+const description =
+  'A facility owner can claim a listing, send rates, and ask for a correction. The note opens in your email app to contact@rvstorageprices.com.';
+const path = '/claim/';
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'Claim a listing', path },
+];
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: '2026-11-20' }),
+  breadcrumbNode(crumbs),
+]);
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <article class="wrap prose">
+    <Breadcrumbs items={crumbs} />
+    <h1>Claim this listing</h1>
+    <p class="lede">
+      Send the facility name, a way to reach you, and the rates you want on the card. This page does
+      not store the form. Submit opens an email to {site.corrections_email}.
+    </p>
+    <form class="claim-form" data-claim-form>
+      <label>
+        Facility name
+        <input name="facility" data-claim-facility required autocomplete="organization" />
+      </label>
+      <label>
+        Your name
+        <input name="person" required autocomplete="name" />
+      </label>
+      <label>
+        Email
+        <input name="email" type="email" required autocomplete="email" />
+      </label>
+      <label>
+        Phone
+        <input name="phone" type="tel" autocomplete="tel" />
+      </label>
+      <label>
+        Rates
+        <textarea name="rates" rows="4" placeholder="Monthly rates you publish, and what each rate covers"></textarea>
+      </label>
+      <label>
+        Note
+        <textarea name="note" rows="4"></textarea>
+      </label>
+      <button type="submit">Email this claim</button>
+      <p class="fine" data-claim-status>
+        Your email app opens with the note filled in. If it does not, write to
+        <a href={`mailto:${site.corrections_email}`}>{site.corrections_email}</a>.
+      </p>
+    </form>
+    <p>
+      A featured spot is $29 a month. It pins the card on its city page and labels it as paid.
+      <a href={href('/advertise/')}>Get a featured spot</a>.
+    </p>
+  </article>
+  <script define:vars={{ email: site.corrections_email }}>
+    const params = new URLSearchParams(window.location.search);
+    const facility = document.querySelector('[data-claim-facility]');
+    const named = (params.get('facility') || '').trim();
+    if (facility instanceof HTMLInputElement && named) facility.value = named;
+    const form = document.querySelector('[data-claim-form]');
+    form?.addEventListener('submit', (event) => {
+      event.preventDefault();
+      if (!(form instanceof HTMLFormElement)) return;
+      const data = new FormData(form);
+      const value = (key) => String(data.get(key) || '').trim();
+      const body = [
+        `Facility: ${value('facility')}`,
+        `Name: ${value('person')}`,
+        `Email: ${value('email')}`,
+        `Phone: ${value('phone') || 'Not provided'}`,
+        `Rates: ${value('rates') || 'Not provided'}`,
+        `Note: ${value('note') || 'Not provided'}`,
+      ].join('\n');
+      const subject = `Claim listing: ${value('facility')}`;
+      window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    });
+  </script>
+</Base>

@@ -21,6 +21,26 @@
     return `${base}${String(target).replace(/^\//, '')}`;
   }
 
+  function isVehicle(value) {
+    return ['rv', 'boat', 'trailer', 'car'].includes(value);
+  }
+
+  function currentType(form) {
+    const checked = form && form.querySelector('input[name="type"]:checked');
+    if (checked && checked.value) return checked.value;
+    const hidden = form && form.querySelector('input[type="hidden"][name="type"]');
+    if (hidden && hidden.value && isVehicle(hidden.value)) return hidden.value;
+    const fromUrl = new URLSearchParams(window.location.search).get('type') || '';
+    return isVehicle(fromUrl) ? fromUrl : '';
+  }
+
+  function withType(url, type) {
+    if (!type) return url;
+    const next = new URL(url, window.location.origin);
+    next.searchParams.set('type', type);
+    return `${next.pathname}${next.search}${next.hash}`;
+  }
+
   function pageHref(urlPath) {
     return `${base}${String(urlPath).replace(/^\//, '')}`;
   }
@@ -80,7 +100,7 @@
       found.forEach((city, index) => {
         const item = document.createElement('li');
         const link = document.createElement('a');
-        link.href = href(city);
+        link.href = withType(href(city), currentType(input.form));
         link.id = `${input.id}-opt-${index}`;
         link.setAttribute('role', 'option');
         link.textContent = `${city.city}, ${city.code}`;
@@ -112,20 +132,66 @@
     const form = input.form;
     if (form) {
       form.addEventListener('submit', (event) => {
+        const hidden = form.querySelector('input[type="hidden"][name="type"]');
+        if (hidden && !hidden.value) hidden.disabled = true;
         const active = list.querySelector('a.is-active');
+        const type = currentType(form);
         if (active) {
           event.preventDefault();
-          window.location.href = active.href;
+          window.location.href = withType(active.href, type);
           return;
         }
         const city = bestCity(input.value);
         if (city) {
           event.preventDefault();
-          window.location.href = href(city);
+          window.location.href = withType(href(city), type);
         }
+      });
+      form.querySelectorAll('.type-pills input').forEach((choice) => {
+        choice.addEventListener('click', () => {
+          if (choice.dataset.was === '1') {
+            choice.checked = false;
+            choice.dataset.was = '0';
+          } else {
+            form.querySelectorAll('.type-pills input').forEach((item) => {
+              item.dataset.was = '0';
+            });
+            choice.dataset.was = '1';
+          }
+          render();
+        });
       });
     }
   });
+
+  document.addEventListener('click', (event) => {
+    const link = event.target instanceof Element ? event.target.closest('[data-popular-city]') : null;
+    if (!link) return;
+    const type = currentType(link.closest('form'));
+    if (!type) return;
+    event.preventDefault();
+    window.location.href = withType(link.href, type);
+  });
+
+  const urlType = new URLSearchParams(window.location.search).get('type') || '';
+  if (isVehicle(urlType)) {
+    document.querySelectorAll('input[type="hidden"][name="type"]').forEach((input) => {
+      if (!input.value) input.value = urlType;
+    });
+    const copy = {
+      rv: 'Showing facilities that list RV storage.',
+      boat: 'Showing facilities that list boat storage.',
+      trailer: 'Showing facilities whose pages mention a trailer.',
+      car: 'Showing facilities whose pages mention a car or vehicle storage.',
+    };
+    document.querySelectorAll('[data-type-note]').forEach((note) => {
+      note.hidden = false;
+      const text = note.querySelector('[data-type-copy]');
+      if (text) text.textContent = copy[urlType];
+      const hub = note.querySelector('[data-boat-hub]');
+      if (hub) hub.hidden = urlType !== 'boat';
+    });
+  }
 
   const header = document.querySelector('.site-header');
   if (header) {
@@ -214,6 +280,16 @@
     const filterOpen = bar.querySelector('[data-sheet-open]');
     const list = root.querySelector('[data-listing-list]');
     const total = cards.length;
+    const params = new URLSearchParams(window.location.search);
+    let urlType = isVehicle(params.get('type') || '') ? params.get('type') : '';
+    if (urlType) {
+      const button = bar.querySelector(`[data-filter="${urlType}"]`);
+      if (button) {
+        bar.querySelectorAll('[data-filter]').forEach((item) => {
+          item.setAttribute('aria-pressed', item === button ? 'true' : 'false');
+        });
+      }
+    }
 
     function sortValue() {
       return sortSelect ? sortSelect.value : 'default';
@@ -223,6 +299,7 @@
       const keys = [...bar.querySelectorAll('[data-filter]')]
         .filter((button) => button.getAttribute('data-filter') !== 'all' && button.getAttribute('aria-pressed') === 'true')
         .map((button) => button.getAttribute('data-filter'));
+      if (urlType && !keys.includes(urlType)) keys.push(urlType);
       const minLength = Number(lengthInput && lengthInput.value);
       const useLength = Number.isFinite(minLength) && minLength > 0;
       const mode = sortValue();
@@ -287,6 +364,7 @@
           status.textContent = '';
         }
       }
+      if (window.refreshResultMap) window.refreshResultMap();
     }
 
     async function measureZip() {
@@ -322,12 +400,14 @@
       event.preventDefault();
       const filter = button.getAttribute('data-filter');
       if (filter === 'all') {
+        urlType = '';
         bar.querySelectorAll('[data-filter]').forEach((item) => {
           item.setAttribute('aria-pressed', item === button ? 'true' : 'false');
         });
       } else {
         const next = button.getAttribute('aria-pressed') !== 'true';
         button.setAttribute('aria-pressed', next ? 'true' : 'false');
+        if (filter === urlType && !next) urlType = '';
         const any = [...bar.querySelectorAll('[data-filter]')].some(
           (item) => item.getAttribute('data-filter') !== 'all' && item.getAttribute('aria-pressed') === 'true',
         );

@@ -1,0 +1,50 @@
+---
+import type { Listing } from '../lib/data';
+import { locationCount } from '../lib/format';
+import { formatMoney, parsePriceNote } from '../lib/prices';
+
+interface Props {
+  listings: Listing[];
+}
+
+const { listings } = Astro.props;
+const monthly = listings.flatMap((listing) => parsePriceNote(listing.price_notes).monthly);
+const low = monthly.length ? Math.min(...monthly) : null;
+const high = monthly.length ? Math.max(...monthly) : null;
+const posted = listings.filter((listing) => parsePriceNote(listing.price_notes).monthly.length).length;
+const count = (matches: (listing: Listing) => boolean) => listings.filter(matches).length;
+const facts = [
+  ['covered', count((listing) => listing.storage_types.includes('covered'))],
+  ['indoor', count((listing) => listing.storage_types.includes('enclosed'))],
+  ['open', count((listing) => listing.storage_types.includes('open'))],
+  ['with 24/7 access', count((listing) => listing.access_24h === true)],
+  ['store a boat', count((listing) => listing.vehicles.includes('boat'))],
+  ['gated', count((listing) => listing.gated === true)],
+  ['with power hookups', count((listing) => listing.power_hookups === true)],
+].filter((entry): entry is [string, number] => typeof entry[1] === 'number' && entry[1] > 0);
+const range =
+  low == null || high == null
+    ? null
+    : low === high
+      ? `${formatMoney(low)}/mo`
+      : `${formatMoney(low)} to ${formatMoney(high)}/mo`;
+---
+
+<ul class="stat-strip" aria-label="Published totals">
+  <li><strong>{locationCount(listings.length)}</strong></li>
+  {range && <li><strong>{range}</strong></li>}
+  {
+    posted > 0 && (
+      <li>
+        <strong>{posted}</strong> {posted === 1 ? 'with a posted price' : 'with posted prices'}
+      </li>
+    )
+  }
+  {
+    facts.map(([label, total]) => (
+      <li>
+        <strong>{total}</strong> {label}
+      </li>
+    ))
+  }
+</ul>
