@@ -238,3 +238,33 @@ listings:
       - url: https://www.stormarkstorage.com/boat---rv-storage-in-jacksonville--nc
         title: Piney Green boat and RV page
     last_verified: "2026-11-18"
+
+  - slug: uhaul-878025
+    name: "U-Haul Moving & Storage of New River"
+    street: 425 S Marine Blvd
+    city: Jacksonville
+    state_code: NC
+    postal_code: 28540
+    lat: null
+    lng: null
+    phone: (910) 455-2717
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Jacksonville-NC-28540/878025"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Jacksonville-NC-28540/878025"
+        title: "U-Haul Moving & Storage of New River location page"
+    last_verified: "2026-11-20"

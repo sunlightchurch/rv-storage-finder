@@ -245,3 +245,33 @@ listings:
       - url: https://myplaceselfstorage.com/storage-locations/nc/asheville/990-sand-hill-rd/
         title: Sand Hill Road location page
     last_verified: "2026-11-18"
+
+  - slug: uhaul-1018433
+    name: Arden-Asheville Self Storage
+    street: 3161 Sweeten Creek Rd
+    city: Asheville
+    state_code: NC
+    postal_code: 28803
+    lat: null
+    lng: null
+    phone: (828) 684-8070
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Arden-NC-28704/1018433"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 6 am - 10 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 6 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Arden-NC-28704/1018433"
+        title: Arden-Asheville Self Storage location page
+    last_verified: "2026-11-20"

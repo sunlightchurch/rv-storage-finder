@@ -145,3 +145,33 @@ listings:
   - url: "https://www.storageopportunity.com/3821-opportunity-ln-raleigh-nc--27603"
     title: Storage Opp location page
   last_verified: '2026-11-18'
+
+- slug: uhaul-782068
+  name: "U-Haul Moving & Storage at Capital Blvd"
+  street: 3001 Capital Blvd
+  city: Raleigh
+  state_code: NC
+  postal_code: 27604
+  lat: null
+  lng: null
+  phone: (919) 876-3001
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Raleigh-NC-27604/782068"
+  vehicles: [rv, boat]
+  storage_types: [open]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: false
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  access_hours: "Mon-Sun: 5 am - 10 pm"
+  price_notes: "Spaces tagged RV, boat, and vehicle parking: $104.95 per month (Outside Level, No Climate, No Electricity)."
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Raleigh-NC-27604/782068"
+      title: "U-Haul Moving & Storage at Capital Blvd location page"
+  last_verified: "2026-11-20"

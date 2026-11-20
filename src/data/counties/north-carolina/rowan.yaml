@@ -1,0 +1,67 @@
+id: rowan
+name: Rowan County
+state: North Carolina
+state_code: NC
+summary: >-
+  RV and boat storage in Rowan County with a street address from each facility
+  page. Towns on this page: Salisbury.
+listings:
+  - slug: uhaul-1037220
+    name: Salisbury Self Storage
+    street: 1812 Mooresville Rd
+    city: Salisbury
+    state_code: NC
+    postal_code: 28147
+    lat: null
+    lng: null
+    phone: (704) 380-0322
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Salisbury-NC-28147/1037220"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $85.00 per month."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Salisbury-NC-28147/1037220"
+        title: Salisbury Self Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-049604
+    name: Mr Storage Salisbury
+    street: 1115 Old Concord Rd
+    city: Salisbury
+    state_code: NC
+    postal_code: 28146
+    lat: null
+    lng: null
+    phone: (704) 754-5580
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Salisbury-NC-28146/049604"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 6 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $65.00 per month (1st Floor, Outside Level, No Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 6 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Salisbury-NC-28146/049604"
+        title: Mr Storage Salisbury location page
+    last_verified: "2026-11-20"

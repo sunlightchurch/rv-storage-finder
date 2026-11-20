@@ -1,0 +1,67 @@
+id: chatham
+name: Chatham County
+state: North Carolina
+state_code: NC
+summary: >-
+  RV and boat storage in Chatham County with a street address from each
+  facility page. Towns on this page: Moncure.
+listings:
+  - slug: uhaul-1035548
+    name: Harris Lake Boat Storage South
+    street: 208 Dickens Rd
+    city: Moncure
+    state_code: NC
+    postal_code: 27559
+    lat: null
+    lng: null
+    phone: (919) 362-0088
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Moncure-NC-27559/1035548"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $104.00 per month; $139.00 per month; $208.00 per month."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Moncure-NC-27559/1035548"
+        title: Harris Lake Boat Storage South location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1036647
+    name: "US1 Boat & RV Storage at Jordan Lake"
+    street: 7835 Moncure Pittsboro Road
+    city: Moncure
+    state_code: NC
+    postal_code: 27559
+    lat: null
+    lng: null
+    phone: (919) 362-0088
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Moncure-NC-27559/1036647"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $75.00 per month; $85.00 per month; $104.00 per month; $105.00 per month."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Moncure-NC-27559/1036647"
+        title: "US1 Boat & RV Storage at Jordan Lake location page"
+    last_verified: "2026-11-20"

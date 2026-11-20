@@ -1,0 +1,37 @@
+id: pasquotank
+name: Pasquotank County
+state: North Carolina
+state_code: NC
+summary: >-
+  RV and boat storage in Pasquotank County with a street address from each
+  facility page. Towns on this page: Elizabeth City.
+listings:
+  - slug: uhaul-1038710
+    name: Affordable Storage Guys - Elizabeth City
+    street: 103 Enterprise Drive
+    city: Elizabeth City
+    state_code: NC
+    postal_code: 27909
+    lat: null
+    lng: null
+    phone: (252) 333-1953
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Elizabeth-City-NC-27909/1038710"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $50.00 per month (No Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Elizabeth-City-NC-27909/1038710"
+        title: Affordable Storage Guys - Elizabeth City location page
+    last_verified: "2026-11-20"

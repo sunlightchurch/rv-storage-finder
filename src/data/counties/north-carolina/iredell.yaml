@@ -1,0 +1,99 @@
+id: iredell
+name: Iredell County
+state: North Carolina
+state_code: NC
+summary: >-
+  RV and boat storage in Iredell County with a street address from each
+  facility page. Towns on this page: Mooresville.
+listings:
+  - slug: uhaul-026430
+    name: Mooresville Mini Storage
+    street: 598 Oak Ridge Farm Hwy
+    city: Mooresville
+    state_code: NC
+    postal_code: 28115
+    lat: null
+    lng: null
+    phone: (704) 660-6806
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Mooresville-NC-28115/026430"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 6 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $90.00 per month (1st Floor, Drivethrough, No Climate); $150.00 per month (1st Floor, Drivethrough, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 6 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Mooresville-NC-28115/026430"
+        title: Mooresville Mini Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-780030
+    name: "U-Haul Moving & Storage of Mooresville"
+    street: 304 W Plaza Dr
+    city: Mooresville
+    state_code: NC
+    postal_code: 28117
+    lat: null
+    lng: null
+    phone: (704) 663-6267
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Mooresville-NC-28117/780030"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $109.95 per month (Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Mooresville-NC-28117/780030"
+        title: "U-Haul Moving & Storage of Mooresville location page"
+    last_verified: "2026-11-20"
+
+  - slug: bluegate-mooresville
+    name: "BlueGate Boat & RV \u2013 Mooresville"
+    street: 356 Oates Road
+    city: Mooresville
+    state_code: NC
+    postal_code: 28117
+    lat: null
+    lng: null
+    phone: (704) 709-5109
+    website: "https://bluegateboatrv.com/locations/north-carolina/mooresville/bluegate-mooresville-oates-road/"
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: 50
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    access_hours: "6:00 AM-10:00 PM daily"
+    price_notes: null
+    billing_term: month-to-month
+    waitlist: null
+    notes: "The Mooresville page offers covered parking bays for boats, RVs, and trailers, up to 12 by 50 ft, near Lake Norman. Access is 6:00 am to 10:00 pm. The lot has keypad gates and 24/7 video monitoring. Leases are month to month with no deposit."
+    sources:
+      - url: "https://bluegateboatrv.com/locations/north-carolina/mooresville/bluegate-mooresville-oates-road/"
+        title: BlueGate Mooresville
+    fees:
+      deposit: The page says month-to-month leases with no deposits.
+    last_verified: "2026-11-20"

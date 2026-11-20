@@ -309,3 +309,33 @@ listings:
       - url: https://www.wbstorage.com/contact-us/
         title: Contact page
     last_verified: "2026-11-18"
+
+  - slug: uhaul-1030251
+    name: "Masonboro Landing Boat & Rv Maxi Storage"
+    street: 6136 Carolina Beach Rd
+    city: Wilmington
+    state_code: NC
+    postal_code: 28412
+    lat: null
+    lng: null
+    phone: (910) 253-6000
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Wilmington-NC-28412/1030251"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Wilmington-NC-28412/1030251"
+        title: "Masonboro Landing Boat & Rv Maxi Storage location page"
+    last_verified: "2026-11-20"

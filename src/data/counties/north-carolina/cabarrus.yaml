@@ -1,0 +1,37 @@
+id: cabarrus
+name: Cabarrus County
+state: North Carolina
+state_code: NC
+summary: >-
+  RV and boat storage in Cabarrus County with a street address from each
+  facility page. Towns on this page: Harrisburg.
+listings:
+  - slug: uhaul-1036307
+    name: Mr. Storage - Harrisburg
+    street: 5650 Nc-49
+    city: Harrisburg
+    state_code: NC
+    postal_code: 28075
+    lat: null
+    lng: null
+    phone: (704) 786-1019
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Harrisburg-NC-28075/1036307"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $140.00 per month (1st Floor, Outside Level, No Electricity); $160.00 per month (1st Floor, Outside Level, No Electricity); $160.00 per month (Outside Level)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Harrisburg-NC-28075/1036307"
+        title: Mr. Storage - Harrisburg location page
+    last_verified: "2026-11-20"

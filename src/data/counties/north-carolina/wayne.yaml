@@ -1,0 +1,67 @@
+id: wayne
+name: Wayne County
+state: North Carolina
+state_code: NC
+summary: >-
+  RV and boat storage in Wayne County with a street address from each facility
+  page. Towns on this page: Goldsboro.
+listings:
+  - slug: uhaul-1022371
+    name: Highway Mini Storage
+    street: 2403 N. William Street
+    city: Goldsboro
+    state_code: NC
+    postal_code: 27530
+    lat: null
+    lng: null
+    phone: (919) 778-7979
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Goldsboro-NC-27534/1022371"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $50.00 per month (Outside Level, Drivethrough, No Climate); $50.00 per month (Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Goldsboro-NC-27534/1022371"
+        title: Highway Mini Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1031682
+    name: Tri Star Storage Goldsboro
+    street: 832 West Grantham St
+    city: Goldsboro
+    state_code: NC
+    postal_code: 27530
+    lat: null
+    lng: null
+    phone: (919) 736-4860
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Goldsboro-NC-27530/1031682"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 6 am - 8 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $77.00 per month (Lower Level, Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 6 am - 8 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Goldsboro-NC-27530/1031682"
+        title: Tri Star Storage Goldsboro location page
+    last_verified: "2026-11-20"
