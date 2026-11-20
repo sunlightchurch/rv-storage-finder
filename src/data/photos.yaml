@@ -1442,3 +1442,2017 @@
   license: "CC BY-SA 4.0"
   license_url: "https://creativecommons.org/licenses/by-sa/4.0"
   credit_required: true
+- id: county-arizona-cochise
+  role: city
+  alt: Moon over Sierra Vista
+  width: 1280
+  height: 719
+  files:
+    '640': photos/county-arizona-cochise-640.webp
+    '960': photos/county-arizona-cochise-960.webp
+    '1280': photos/county-arizona-cochise-1280.webp
+  author: maarit u
+  source_url: https://commons.wikimedia.org/wiki/File%3AMoon_over_Sierra_Vista_-_panoramio.jpg
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0/
+  credit_required: true
+- id: county-arizona-coconino
+  role: city
+  alt: Lake Powell Boulevard in Page, Arizona .
+  width: 1280
+  height: 783
+  files:
+    '640': photos/county-arizona-coconino-640.webp
+    '960': photos/county-arizona-coconino-960.webp
+    '1280': photos/county-arizona-coconino-1280.webp
+  author: No machine-readable author provided. RJHall assumed (based on copyright
+    claims).
+  source_url: https://commons.wikimedia.org/wiki/File%3APage_AZ.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-arizona-gila
+  role: city
+  alt: 'Payson, Arizona. Note: Afternoon sun, looking west/northwestwards into northern
+    regions of Mazatzal Mountains.'
+  width: 1280
+  height: 957
+  files:
+    '640': photos/county-arizona-gila-640.webp
+    '960': photos/county-arizona-gila-960.webp
+    '1280': photos/county-arizona-gila-1280.webp
+  author: Daiwanlang
+  source_url: https://commons.wikimedia.org/wiki/File%3APayson_Arizona_2011.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-arizona-la-paz
+  role: city
+  alt: Sacred Heart Catholic Church is a parish church in the Diocese of Tucson.
+  width: 1280
+  height: 647
+  files:
+    '640': photos/county-arizona-la-paz-640.webp
+    '960': photos/county-arizona-la-paz-960.webp
+    '1280': photos/county-arizona-la-paz-1280.webp
+  author: rking
+  source_url: https://commons.wikimedia.org/wiki/File%3ASacred_Heart_Catholic_Church_(Parker%2C_Arizona)_(01).jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  credit_required: true
+- id: county-arizona-maricopa
+  role: city
+  alt: Wickenburg-Boetto House built 1900 and located at 225 S. Washington in Wickenbrg,
+    Arizona. The property was listed in the National Register of Historic Places on
+    July 10, 1986. Ref
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-arizona-maricopa-640.webp
+    '960': photos/county-arizona-maricopa-960.webp
+    '1280': photos/county-arizona-maricopa-1280.webp
+  author: Tony the Marine ( talk )
+  source_url: https://commons.wikimedia.org/wiki/File%3AWickenburg-Wickenburg-Boetto_House.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-arizona-mohave
+  role: city
+  alt: Sign for Bullhead City, Arizona
+  width: 1280
+  height: 853
+  files:
+    '640': photos/county-arizona-mohave-640.webp
+    '960': photos/county-arizona-mohave-960.webp
+    '1280': photos/county-arizona-mohave-1280.webp
+  author: Stan Shebs
+  source_url: https://commons.wikimedia.org/wiki/File%3ABullhead_City_Arizona_1.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-arizona-navajo
+  role: city
+  alt: Lakeside, Az Owner Andrew Chorley
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-arizona-navajo-640.webp
+    '960': photos/county-arizona-navajo-960.webp
+    '1280': photos/county-arizona-navajo-1280.webp
+  author: John from tucson az
+  source_url: https://commons.wikimedia.org/wiki/File%3ALakeside%2C_AZ.jpg
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  credit_required: true
+- id: county-arizona-pinal
+  role: city
+  alt: The Casa Grande Union High School was built in 1920 and is located at 510 E.
+    Florence Boulevard. The building now serves as the Casa Grande City Hall. The
+    structure was listed in t
+  width: 1280
+  height: 812
+  files:
+    '640': photos/county-arizona-pinal-640.webp
+    '960': photos/county-arizona-pinal-960.webp
+    '1280': photos/county-arizona-pinal-1280.webp
+  author: Tony the Marine ( talk )
+  source_url: https://commons.wikimedia.org/wiki/File%3ACasa_Grande-Casa_Grande_Union_High_School-1920-2.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-arizona-yavapai
+  role: city
+  alt: Commercial Historic District in Cottonwood, Arizona|Cottonwood — in Yavapai
+    County, Arizona.
+  width: 1280
+  height: 770
+  files:
+    '640': photos/county-arizona-yavapai-640.webp
+    '960': photos/county-arizona-yavapai-960.webp
+    '1280': photos/county-arizona-yavapai-1280.webp
+  author: Finetooth
+  source_url: https://commons.wikimedia.org/wiki/File%3ACommercial_Historic_District_(Cottonwood%2C_Arizona).jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-florida-citrus
+  role: city
+  alt: Dunnellon Army Airfield, Florida, 1949
+  width: 1280
+  height: 1034
+  files:
+    '640': photos/county-florida-citrus-640.webp
+    '960': photos/county-florida-citrus-960.webp
+    '1280': photos/county-florida-citrus-1280.webp
+  author: USGS
+  source_url: https://commons.wikimedia.org/wiki/File%3ADunnellon_AAF_aux_-_Dunnellon_FL_1949.jpg
+  license: Public domain
+  license_url: https://creativecommons.org/publicdomain/mark/1.0/
+  credit_required: false
+- id: county-florida-clay
+  role: city
+  alt: A collection of photos I took around Green Cove Springs, Florida.
+  width: 1280
+  height: 2016
+  files:
+    '640': photos/county-florida-clay-640.webp
+    '960': photos/county-florida-clay-960.webp
+    '1280': photos/county-florida-clay-1280.webp
+  author: Excel23
+  source_url: https://commons.wikimedia.org/wiki/File%3AGreenCoveCollection.png
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  credit_required: false
+- id: county-florida-columbia
+  role: city
+  alt: A yawning American alligator ( Alligator mississippiensis ), Collier county,
+    Florida.
+  width: 1280
+  height: 1781
+  files:
+    '640': photos/county-florida-columbia-640.webp
+    '960': photos/county-florida-columbia-960.webp
+    '1280': photos/county-florida-columbia-1280.webp
+  author: Ianaré Sévi
+  source_url: https://commons.wikimedia.org/wiki/File%3AAlligator_mississippiensis_yawn.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-florida-hardee
+  role: city
+  alt: 'Bowling Green, Florida : City hall.'
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-florida-hardee-640.webp
+    '960': photos/county-florida-hardee-960.webp
+    '1280': photos/county-florida-hardee-1280.webp
+  author: Ebyabe
+  source_url: https://commons.wikimedia.org/wiki/File%3ABowling_Green_FL_city_hall02.jpg
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5/
+  credit_required: true
+- id: county-florida-hendry
+  role: city
+  alt: 'Local call number: JJS0496 Title: Everglades Lounge at the Clewiston Inn:
+    Clewiston, Florida Date: January 1948 General Note: The Clewiston Inn, located
+    on U.S. 27 in Clewiston, Fl'
+  width: 1280
+  height: 992
+  files:
+    '640': photos/county-florida-hendry-640.webp
+    '960': photos/county-florida-hendry-960.webp
+    '1280': photos/county-florida-hendry-1280.webp
+  author: Florida Memory
+  source_url: https://commons.wikimedia.org/wiki/File%3AEverglades_Lounge_at_the_Clewiston_Inn-_Clewiston%2C_Florida_(8512105855).jpg
+  license: Public domain
+  license_url: https://creativecommons.org/publicdomain/mark/1.0/
+  credit_required: false
+- id: county-florida-hernando
+  role: city
+  alt: 'Persistent URL: floridamemory.com/items/show/138210 Local call number: N028531
+    Title: First car in Brooksville, Florida Date: 1909 Physical descrip: 1 photonegative
+    - bandw - 4 x'
+  width: 1280
+  height: 911
+  files:
+    '640': photos/county-florida-hernando-640.webp
+    '960': photos/county-florida-hernando-960.webp
+    '1280': photos/county-florida-hernando-1280.webp
+  author: Florida Memory
+  source_url: https://commons.wikimedia.org/wiki/File%3AFirst_car_in_Brooksville%2C_Florida_(10169019056).jpg
+  license: Public domain
+  license_url: https://creativecommons.org/publicdomain/mark/1.0/
+  credit_required: false
+- id: county-florida-highlands
+  role: city
+  alt: Welcome to Sebring, Florida .
+  width: 1280
+  height: 962
+  files:
+    '640': photos/county-florida-highlands-640.webp
+    '960': photos/county-florida-highlands-960.webp
+    '1280': photos/county-florida-highlands-1280.webp
+  author: Chuck Schultz from Anniston, AL, USA, upload by Herrick
+  source_url: https://commons.wikimedia.org/wiki/File%3AWelcome_to_Sebring_448742717.jpg
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  credit_required: true
+- id: county-florida-indian-river
+  role: city
+  alt: 'Sebastian, Florida : City hall'
+  width: 1280
+  height: 916
+  files:
+    '640': photos/county-florida-indian-river-640.webp
+    '960': photos/county-florida-indian-river-960.webp
+    '1280': photos/county-florida-indian-river-1280.webp
+  author: Ebyabe
+  source_url: https://commons.wikimedia.org/wiki/File%3ASebastian_FL_city_hall01.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-florida-lafayette
+  role: city
+  alt: 'Mayo, Florida : Current Lafayette County Courthouse .'
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-florida-lafayette-640.webp
+    '960': photos/county-florida-lafayette-960.webp
+    '1280': photos/county-florida-lafayette-1280.webp
+  author: Ebyabe
+  source_url: https://commons.wikimedia.org/wiki/File%3AMayo_FL_new_crths01.jpg
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5/
+  credit_required: true
+- id: county-florida-lake
+  role: city
+  alt: 'Leesburg, Florida : City hall.'
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-florida-lake-640.webp
+    '960': photos/county-florida-lake-960.webp
+    '1280': photos/county-florida-lake-1280.webp
+  author: Ebyabe
+  source_url: https://commons.wikimedia.org/wiki/File%3ALeesburg_FL_city_hall01.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-florida-madison
+  role: city
+  alt: Bishop-Andrews Hotel, in Greenville, Florida
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-florida-madison-640.webp
+    '960': photos/county-florida-madison-960.webp
+    '1280': photos/county-florida-madison-1280.webp
+  author: Ebyabe
+  source_url: https://commons.wikimedia.org/wiki/File%3ABishop-Andrews_Hotel01.jpg
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5/
+  credit_required: true
+- id: county-florida-miami-dade
+  role: city
+  alt: 'Photomechanical print (postcard) : halftone, colored Divided back'
+  width: 1280
+  height: 811
+  files:
+    '640': photos/county-florida-miami-dade-640.webp
+    '960': photos/county-florida-miami-dade-960.webp
+    '1280': photos/county-florida-miami-dade-1280.webp
+  author: Curt Teich and Co., Chicago (publisher)
+  source_url: https://commons.wikimedia.org/wiki/File%3AMiami_Beach_-_north_of_23rd_Street.jpg
+  license: Public domain
+  license_url: https://creativecommons.org/publicdomain/mark/1.0/
+  credit_required: false
+- id: county-florida-monroe
+  role: city
+  alt: canal to the pier of Key largo harbor in Florida
+  width: 1280
+  height: 826
+  files:
+    '640': photos/county-florida-monroe-640.webp
+    '960': photos/county-florida-monroe-960.webp
+    '1280': photos/county-florida-monroe-1280.webp
+  author: Elmschrat
+  source_url: https://commons.wikimedia.org/wiki/File%3AKey-largo-harbor-3.JPG
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-florida-nassau
+  role: city
+  alt: 'Fernandina Beach, Florida : A1A / SR 200 intersection, looking east'
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-florida-nassau-640.webp
+    '960': photos/county-florida-nassau-960.webp
+    '1280': photos/county-florida-nassau-1280.webp
+  author: Ebyabe
+  source_url: https://commons.wikimedia.org/wiki/File%3AFernandina_Beach_FL_A1A_SR_200_east02.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-florida-okeechobee
+  role: city
+  alt: Okeechobee County Judicial Center, Okeechobee , Florida
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-florida-okeechobee-640.webp
+    '960': photos/county-florida-okeechobee-960.webp
+    '1280': photos/county-florida-okeechobee-1280.webp
+  author: No machine-readable author provided. Bastique assumed (based on copyright
+    claims).
+  source_url: https://commons.wikimedia.org/wiki/File%3AOkeechobee_County_Judicial_Center.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-florida-pasco
+  role: city
+  alt: Aerial view of Hudson and Hudson Beach , Pasco County, Florida at the intersection
+    of U.S. Route 19 and Hudson Avenue.
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-florida-pasco-640.webp
+    '960': photos/county-florida-pasco-960.webp
+    '1280': photos/county-florida-pasco-1280.webp
+  author: Wknight94 talk
+  source_url: https://commons.wikimedia.org/wiki/File%3AAerial_view_of_Hudson%2C_Florida.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-florida-putnam
+  role: city
+  alt: Collection of area photos
+  width: 1280
+  height: 1956
+  files:
+    '640': photos/county-florida-putnam-640.webp
+    '960': photos/county-florida-putnam-960.webp
+    '1280': photos/county-florida-putnam-1280.webp
+  author: Mathew Stilwell
+  source_url: https://commons.wikimedia.org/wiki/File%3APalatkaFLCollection1.png
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-florida-suwannee
+  role: city
+  alt: 'Branford, Florida : Historical plaque near the Frank R. Norris Bridge.'
+  width: 1280
+  height: 1707
+  files:
+    '640': photos/county-florida-suwannee-640.webp
+    '960': photos/county-florida-suwannee-960.webp
+    '1280': photos/county-florida-suwannee-1280.webp
+  author: Ebyabe
+  source_url: https://commons.wikimedia.org/wiki/File%3ABranford_FL_plaque01.jpg
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5/
+  credit_required: true
+- id: county-florida-taylor
+  role: city
+  alt: Perry City Hall, Perry, Taylor County, Florida
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-florida-taylor-640.webp
+    '960': photos/county-florida-taylor-960.webp
+    '1280': photos/county-florida-taylor-1280.webp
+  author: Michael Rivera
+  source_url: https://commons.wikimedia.org/wiki/File%3APerry_City_Hall.JPG
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  credit_required: true
+- id: county-florida-walton
+  role: city
+  alt: The beach and Gulf of Mexico at Navarre Beach, Florida
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-florida-walton-640.webp
+    '960': photos/county-florida-walton-960.webp
+    '1280': photos/county-florida-walton-1280.webp
+  author: The222 ( talk )
+  source_url: https://commons.wikimedia.org/wiki/File%3ANavarre_Beach_Florida_sand.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-georgia-baldwin
+  role: city
+  alt: Milledgeville, Ga and Lake Sinclair
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-georgia-baldwin-640.webp
+    '960': photos/county-georgia-baldwin-960.webp
+    '1280': photos/county-georgia-baldwin-1280.webp
+  author: Civilengtiger ( talk )
+  source_url: https://commons.wikimedia.org/wiki/File%3A20100119_0596MilledgevilleGa.JPG
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-georgia-barrow
+  role: city
+  alt: Barrow County Court House. Winder, GA USA
+  width: 1280
+  height: 851
+  files:
+    '640': photos/county-georgia-barrow-640.webp
+    '960': photos/county-georgia-barrow-960.webp
+    '1280': photos/county-georgia-barrow-1280.webp
+  author: The original uploader was Ashley.farrow at English Wikipedia .
+  source_url: https://commons.wikimedia.org/wiki/File%3ABarrow_County_Courthouse.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-georgia-bartow
+  role: city
+  alt: Old Cartersville GA railway station. It now serves as the Cartersville-Bartow
+    County visitor center.
+  width: 1280
+  height: 856
+  files:
+    '640': photos/county-georgia-bartow-640.webp
+    '960': photos/county-georgia-bartow-960.webp
+    '1280': photos/county-georgia-bartow-1280.webp
+  author: Nsconductor
+  source_url: https://commons.wikimedia.org/wiki/File%3ACartersville_visitor_center.jpg
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0/
+  credit_required: true
+- id: county-georgia-camden
+  role: city
+  alt: Here is an hdr photograph taken from the nave inside St Marys Cathedral. Located
+    in Edinburgh, Scotland, UK.
+  width: 1280
+  height: 853
+  files:
+    '640': photos/county-georgia-camden-640.webp
+    '960': photos/county-georgia-camden-960.webp
+    '1280': photos/county-georgia-camden-1280.webp
+  author: Michael D Beckwith
+  source_url: https://commons.wikimedia.org/wiki/File%3ASt_Marys_Cathedral_Nave_Edinburgh.jpg
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  credit_required: false
+- id: county-georgia-cherokee
+  role: city
+  alt: Town square, downtown Canton, GA, USA
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-georgia-cherokee-640.webp
+    '960': photos/county-georgia-cherokee-960.webp
+    '1280': photos/county-georgia-cherokee-1280.webp
+  author: Akhenaton06
+  source_url: https://commons.wikimedia.org/wiki/File%3ACanton_town_square.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-georgia-clarke
+  role: city
+  alt: Winterville Historic District
+  width: 1280
+  height: 771
+  files:
+    '640': photos/county-georgia-clarke-640.webp
+    '960': photos/county-georgia-clarke-960.webp
+    '1280': photos/county-georgia-clarke-1280.webp
+  author: Hhoschton
+  source_url: https://commons.wikimedia.org/wiki/File%3AWinterville_Train_depot.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-georgia-clayton
+  role: city
+  alt: Jonesboro Historic District, GA 54 and 3 Jonesboro
+  width: 1280
+  height: 857
+  files:
+    '640': photos/county-georgia-clayton-640.webp
+    '960': photos/county-georgia-clayton-960.webp
+    '1280': photos/county-georgia-clayton-1280.webp
+  author: Www78
+  source_url: https://commons.wikimedia.org/wiki/File%3AJonesboro_Buildings.JPG
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-georgia-cobb
+  role: city
+  alt: Photograph of Historic Downtown Acworth, Georgia. Taken September, 2006. View
+    is along Main Street.
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-georgia-cobb-640.webp
+    '960': photos/county-georgia-cobb-960.webp
+    '1280': photos/county-georgia-cobb-1280.webp
+  author: HowardSF at English Wikipedia
+  source_url: https://commons.wikimedia.org/wiki/File%3AAcworthGeorgia.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-georgia-coweta
+  role: city
+  alt: An apartment building destroyed by the EF3 tornado in Newnan, Georgia .
+  width: 1280
+  height: 1707
+  files:
+    '640': photos/county-georgia-coweta-640.webp
+    '960': photos/county-georgia-coweta-960.webp
+    '1280': photos/county-georgia-coweta-1280.webp
+  author: NWS Peachtree City, GA
+  source_url: https://commons.wikimedia.org/wiki/File%3ANewnan_tornado_damage_2021.jpg
+  license: Public domain
+  license_url: https://creativecommons.org/publicdomain/mark/1.0/
+  credit_required: false
+- id: county-georgia-decatur
+  role: city
+  alt: Bainbridge City Hall, Bainbridge, Decatur County, Georgia. The building that
+    houses City Hall is a historic district contributing property of the Bainbridge
+    Commercial Historic Dis
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-georgia-decatur-640.webp
+    '960': photos/county-georgia-decatur-960.webp
+    '1280': photos/county-georgia-decatur-1280.webp
+  author: Michael Rivera
+  source_url: https://commons.wikimedia.org/wiki/File%3ABainbridge_City_Hall.JPG
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-georgia-dekalb
+  role: city
+  alt: MARTA's Chamblee station, Chamblee, Georgia.
+  width: 1280
+  height: 651
+  files:
+    '640': photos/county-georgia-dekalb-640.webp
+    '960': photos/county-georgia-dekalb-960.webp
+    '1280': photos/county-georgia-dekalb-1280.webp
+  author: Biomedeng at English Wikipedia
+  source_url: https://commons.wikimedia.org/wiki/File%3AMarta_chamblee.jpg
+  license: Public domain
+  license_url: https://creativecommons.org/publicdomain/mark/1.0/
+  credit_required: false
+- id: county-georgia-dodge
+  role: city
+  alt: Eastman Municipal Building, City Hall, Council Chamber, 333 College St., Eastman,
+    Dodge County, Georgia
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-georgia-dodge-640.webp
+    '960': photos/county-georgia-dodge-960.webp
+    '1280': photos/county-georgia-dodge-1280.webp
+  author: Michael Rivera
+  source_url: https://commons.wikimedia.org/wiki/File%3AEastman_Municipal_Building%2C_City_Hall%2C_Council_Chamber.JPG
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  credit_required: true
+- id: county-georgia-floyd
+  role: city
+  alt: A view of Rome, Georgia from the historic Myrtle Hill cemetery
+  width: 1280
+  height: 853
+  files:
+    '640': photos/county-georgia-floyd-640.webp
+    '960': photos/county-georgia-floyd-960.webp
+    '1280': photos/county-georgia-floyd-1280.webp
+  author: Matt Weaver
+  source_url: https://commons.wikimedia.org/wiki/File%3ARome_Georgia_from_Myrtle_Hill_Cemetery.jpg
+  license: Public domain
+  license_url: https://creativecommons.org/publicdomain/mark/1.0/
+  credit_required: false
+- id: county-georgia-forsyth
+  role: city
+  alt: Cumming Bandstand
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-georgia-forsyth-640.webp
+    '960': photos/county-georgia-forsyth-960.webp
+    '1280': photos/county-georgia-forsyth-1280.webp
+  author: Warmbrod
+  source_url: https://commons.wikimedia.org/wiki/File%3ABandstand_in_front_of_Cumming_GA_Couthouse.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-georgia-franklin
+  role: city
+  alt: Lavonia Roller Mill Roller Mill, or Flour Mill, in Lavonia, Georgia
+  width: 1280
+  height: 853
+  files:
+    '640': photos/county-georgia-franklin-640.webp
+    '960': photos/county-georgia-franklin-960.webp
+    '1280': photos/county-georgia-franklin-1280.webp
+  author: Cecouchman
+  source_url: https://commons.wikimedia.org/wiki/File%3ALavonia_RollerMill_9895.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-georgia-fulton
+  role: city
+  alt: Alpharetta, Georgia city hall
+  width: 1280
+  height: 860
+  files:
+    '640': photos/county-georgia-fulton-640.webp
+    '960': photos/county-georgia-fulton-960.webp
+    '1280': photos/county-georgia-fulton-1280.webp
+  author: Thomson200
+  source_url: https://commons.wikimedia.org/wiki/File%3AAlpharetta%2C_Georgia_City_Hall.jpg
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  credit_required: false
+- id: county-georgia-gilmer
+  role: city
+  alt: Town square in Ellijay, Georgia
+  width: 1280
+  height: 853
+  files:
+    '640': photos/county-georgia-gilmer-640.webp
+    '960': photos/county-georgia-gilmer-960.webp
+    '1280': photos/county-georgia-gilmer-1280.webp
+  author: Thomsonmg2000
+  source_url: https://commons.wikimedia.org/wiki/File%3AEllijay_roudabout_01.JPG
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  credit_required: false
+- id: county-georgia-greene
+  role: city
+  alt: Greene County courthouse in Greensboro, Georgia, United States
+  width: 1280
+  height: 861
+  files:
+    '640': photos/county-georgia-greene-640.webp
+    '960': photos/county-georgia-greene-960.webp
+    '1280': photos/county-georgia-greene-1280.webp
+  author: Calvin Beale
+  source_url: https://commons.wikimedia.org/wiki/File%3AGreene_County_Georgia_Courthouse.jpg
+  license: Public domain
+  license_url: https://creativecommons.org/publicdomain/mark/1.0/
+  credit_required: false
+- id: county-georgia-gwinnett
+  role: city
+  alt: Taken by myself on 8/12/07 - Jober14 21:14, 12 August 2007 (UTC)
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-georgia-gwinnett-640.webp
+    '960': photos/county-georgia-gwinnett-960.webp
+    '1280': photos/county-georgia-gwinnett-1280.webp
+  author: Jober14 at en.wikipedia
+  source_url: https://commons.wikimedia.org/wiki/File%3AGA_124_Snellville_south.JPG
+  license: Public domain
+  license_url: https://creativecommons.org/publicdomain/mark/1.0/
+  credit_required: false
+- id: county-georgia-hall
+  role: city
+  alt: Main Street, Flowery Branch Georgia
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-georgia-hall-640.webp
+    '960': photos/county-georgia-hall-960.webp
+    '1280': photos/county-georgia-hall-1280.webp
+  author: John Phelan
+  source_url: https://commons.wikimedia.org/wiki/File%3AMain_Street%2C_Flowery_Branch_GA.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-georgia-hart
+  role: city
+  alt: Chandler-Linder House
+  width: 1280
+  height: 720
+  files:
+    '640': photos/county-georgia-hart-640.webp
+    '960': photos/county-georgia-hart-960.webp
+    '1280': photos/county-georgia-hart-1280.webp
+  author: Upstateherd
+  source_url: https://commons.wikimedia.org/wiki/File%3AMeyer_Saul_House_-_Hartwell%2C_GA.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  credit_required: true
+- id: county-georgia-jackson
+  role: city
+  alt: The John O. Braselton House in Braselton, Georgia , part of the Braselton Historic
+    District
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-georgia-jackson-640.webp
+    '960': photos/county-georgia-jackson-960.webp
+    '1280': photos/county-georgia-jackson-1280.webp
+  author: Chris Pruitt
+  source_url: https://commons.wikimedia.org/wiki/File%3AJohn_O._Braselton_House_Oct_2012.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-georgia-lumpkin
+  role: city
+  alt: Dahlonega Gold Museum Historic Site in Dahlonega, Georgia .
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-georgia-lumpkin-640.webp
+    '960': photos/county-georgia-lumpkin-960.webp
+    '1280': photos/county-georgia-lumpkin-1280.webp
+  author: HowardSF at English Wikipedia
+  source_url: https://commons.wikimedia.org/wiki/File%3ADahlonega_Gold_Museum_Historic_Site.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-georgia-murray
+  role: city
+  alt: Wright Hotel, Chatsworth (Murray County, Georgia)
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-georgia-murray-640.webp
+    '960': photos/county-georgia-murray-960.webp
+    '1280': photos/county-georgia-murray-1280.webp
+  author: KudzuVine
+  source_url: https://commons.wikimedia.org/wiki/File%3AWright_Hotel%2C_Chatsworth_(Murray_County%2C_Georgia).JPG
+  license: Public domain
+  license_url: https://creativecommons.org/publicdomain/mark/1.0/
+  credit_required: false
+- id: county-georgia-paulding
+  role: city
+  alt: Civil War Trailhead Park on Main Street - Dallas GA
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-georgia-paulding-640.webp
+    '960': photos/county-georgia-paulding-960.webp
+    '1280': photos/county-georgia-paulding-1280.webp
+  author: TheMillCreek
+  source_url: https://commons.wikimedia.org/wiki/File%3ACivil_War_Trailhead_Park_on_Main_Street_-_Dallas_GA.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-georgia-pickens
+  role: city
+  alt: Shops in Talking Rock, Georgia
+  width: 1280
+  height: 853
+  files:
+    '640': photos/county-georgia-pickens-640.webp
+    '960': photos/county-georgia-pickens-960.webp
+    '1280': photos/county-georgia-pickens-1280.webp
+  author: Thomson200
+  source_url: https://commons.wikimedia.org/wiki/File%3ATalking_Rock%2C_Georgia_shops.JPG
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  credit_required: false
+- id: county-georgia-sumter
+  role: city
+  alt: Windsor Hotel in Americus, Georgia . 32°4′20″N 84°14′1″W / 32.0722°N 84.23361°W
+    / 32.0722; -84.23361
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-georgia-sumter-640.webp
+    '960': photos/county-georgia-sumter-960.webp
+    '1280': photos/county-georgia-sumter-1280.webp
+  author: Eoghanacht
+  source_url: https://commons.wikimedia.org/wiki/File%3AWindsor-Hotel-Americus-GA-1.jpg
+  license: Public domain
+  license_url: https://creativecommons.org/publicdomain/mark/1.0/
+  credit_required: false
+- id: county-georgia-thomas
+  role: city
+  alt: Don't Give up Sign in Thomasville, Thomas County, Georgia.
+  width: 1280
+  height: 853
+  files:
+    '640': photos/county-georgia-thomas-640.webp
+    '960': photos/county-georgia-thomas-960.webp
+    '1280': photos/county-georgia-thomas-1280.webp
+  author: Michael Rivera
+  source_url: https://commons.wikimedia.org/wiki/File%3ADon't_Give_Up_sign%2C_Thomasville.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  credit_required: true
+- id: county-georgia-troup
+  role: city
+  alt: Downtown La Grange, Illinois. Corner of S. La Grange Blvd. and W. Burlington
+    Ave., looking south.
+  width: 1280
+  height: 851
+  files:
+    '640': photos/county-georgia-troup-640.webp
+    '960': photos/county-georgia-troup-960.webp
+    '1280': photos/county-georgia-troup-1280.webp
+  author: Lpangelrob at English Wikipedia
+  source_url: https://commons.wikimedia.org/wiki/File%3ALa_Grange%2C_Illinois_downtown.jpg
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5/
+  credit_required: true
+- id: county-georgia-ware
+  role: city
+  alt: Photos I took around Waycross, Georgia
+  width: 1280
+  height: 1434
+  files:
+    '640': photos/county-georgia-ware-640.webp
+    '960': photos/county-georgia-ware-960.webp
+    '1280': photos/county-georgia-ware-1280.webp
+  author: Excel23
+  source_url: https://commons.wikimedia.org/wiki/File%3AWaycrossGAM13.png
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  credit_required: true
+- id: county-georgia-white
+  role: city
+  alt: Storefronts in Cleveland, Georgia
+  width: 1280
+  height: 853
+  files:
+    '640': photos/county-georgia-white-640.webp
+    '960': photos/county-georgia-white-960.webp
+    '1280': photos/county-georgia-white-1280.webp
+  author: Thomson200
+  source_url: https://commons.wikimedia.org/wiki/File%3AStorefronts_in_Cleveland%2C_Georgia%2C_April_2017_1.jpg
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  credit_required: false
+- id: county-georgia-whitfield
+  role: city
+  alt: Picture of downtown Dalton,GA
+  width: 1280
+  height: 363
+  files:
+    '640': photos/county-georgia-whitfield-640.webp
+    '960': photos/county-georgia-whitfield-960.webp
+    '1280': photos/county-georgia-whitfield-1280.webp
+  author: Wesb225 ( talk )
+  source_url: https://commons.wikimedia.org/wiki/File%3ACommunity-3.jpg
+  license: Public domain
+  license_url: https://creativecommons.org/publicdomain/mark/1.0/
+  credit_required: false
+- id: county-nevada-churchill
+  role: city
+  alt: Federal Building and Post Office
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-nevada-churchill-640.webp
+    '960': photos/county-nevada-churchill-960.webp
+    '1280': photos/county-nevada-churchill-1280.webp
+  author: William Hoffknecht
+  source_url: https://commons.wikimedia.org/wiki/File%3AFederal_Building_and_Post_Office_(Fallon%2C_Nevada).jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-nevada-clark
+  role: city
+  alt: Street view near city hall, Mesquite, Nevada
+  width: 1280
+  height: 853
+  files:
+    '640': photos/county-nevada-clark-640.webp
+    '960': photos/county-nevada-clark-960.webp
+    '1280': photos/county-nevada-clark-1280.webp
+  author: Stan Shebs
+  source_url: https://commons.wikimedia.org/wiki/File%3AMesquite_Nevada_2.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-nevada-elko
+  role: city
+  alt: View of downtown Elko, Nevada from a bluff to the south.
+  width: 1280
+  height: 943
+  files:
+    '640': photos/county-nevada-elko-640.webp
+    '960': photos/county-nevada-elko-960.webp
+    '1280': photos/county-nevada-elko-1280.webp
+  author: Famartin
+  source_url: https://commons.wikimedia.org/wiki/File%3A2012-09-30_14_28_33_View_of_downtown_Elko_in_Nevada_from_a_bluff_to_the_south.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-nevada-humboldt
+  role: city
+  alt: Downtown Winnemucca, Nevada viewed from Winnemucca Mountain
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-nevada-humboldt-640.webp
+    '960': photos/county-nevada-humboldt-960.webp
+    '1280': photos/county-nevada-humboldt-1280.webp
+  author: Famartin
+  source_url: https://commons.wikimedia.org/wiki/File%3A2012-10-14_41_Downtown_Winnemucca_in_Nevada_viewed_from_Winnemucca_Mountain.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-nevada-nye
+  role: city
+  alt: Night aerial view of Pahrump, Nevada, from the southwest, with the downtown
+    intersection of Nevada routes 160 and 372 at the bright center.
+  width: 1280
+  height: 720
+  files:
+    '640': photos/county-nevada-nye-640.webp
+    '960': photos/county-nevada-nye-960.webp
+    '1280': photos/county-nevada-nye-1280.webp
+  author: Dicklyon
+  source_url: https://commons.wikimedia.org/wiki/File%3APahrump_NV_night_aerial.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  credit_required: true
+- id: county-nevada-washoe
+  role: city
+  alt: A panoramic view of Incline Village . The Southern view (right) is obscured
+    heavily by smoke from wildfires in California
+  width: 1280
+  height: 475
+  files:
+    '640': photos/county-nevada-washoe-640.webp
+    '960': photos/county-nevada-washoe-960.webp
+    '1280': photos/county-nevada-washoe-1280.webp
+  author: ShakataGaNai
+  source_url: https://commons.wikimedia.org/wiki/File%3AIncline_Village_Panoramic.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-north-carolina-cabarrus
+  role: city
+  alt: Cabarrus County Library - Harrisburg NC Location
+  width: 1280
+  height: 731
+  files:
+    '640': photos/county-north-carolina-cabarrus-640.webp
+    '960': photos/county-north-carolina-cabarrus-960.webp
+    '1280': photos/county-north-carolina-cabarrus-1280.webp
+  author: Cabarruscountylibrary
+  source_url: https://commons.wikimedia.org/wiki/File%3ALibrary_Harrisburg_NC.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-north-carolina-caldwell
+  role: city
+  alt: Looking south down Main Street from the town square in downtown Lenoir . Photo
+    taken with a Panasonic Lumix DMC-FZ50 in Caldwell County, NC, USA . This is an
+    image of a place or bu
+  width: 1280
+  height: 800
+  files:
+    '640': photos/county-north-carolina-caldwell-640.webp
+    '960': photos/county-north-carolina-caldwell-960.webp
+    '1280': photos/county-north-carolina-caldwell-1280.webp
+  author: Ken Thomas
+  source_url: https://commons.wikimedia.org/wiki/File%3ALenoir_Main_Street-27527.jpg
+  license: Public domain
+  license_url: https://creativecommons.org/publicdomain/mark/1.0/
+  credit_required: false
+- id: county-north-carolina-carteret
+  role: city
+  alt: Tennessee Historical Commission marker at the north end of McSween Memorial
+    Bridge (US-321) in Newport, Tennessee. The sign recalls the location of War Ford,
+    0.2 miles to the east
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-north-carolina-carteret-640.webp
+    '960': photos/county-north-carolina-carteret-960.webp
+    '1280': photos/county-north-carolina-carteret-1280.webp
+  author: Brian Stansberry (photographer)
+  source_url: https://commons.wikimedia.org/wiki/File%3ANewport-tennessee-war-ford.jpg
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0/
+  credit_required: true
+- id: county-north-carolina-catawba
+  role: city
+  alt: Hickory, North Carolina. Union Square is the center of Hickory. This photo
+    from the spring of 2002 looks NW to Smith Drugs, Hickory Wine Shoppe, and the
+    Miracle of Hickory monument
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-north-carolina-catawba-640.webp
+    '960': photos/county-north-carolina-catawba-960.webp
+    '1280': photos/county-north-carolina-catawba-1280.webp
+  author: Netmogul
+  source_url: https://commons.wikimedia.org/wiki/File%3AUS-NC-Hickory_Union_Square.JPG
+  license: Public domain
+  license_url: https://creativecommons.org/publicdomain/mark/1.0/
+  credit_required: false
+- id: county-north-carolina-chatham
+  role: city
+  alt: Cluster of old buildings in Moncure, post office on the right
+  width: 1280
+  height: 826
+  files:
+    '640': photos/county-north-carolina-chatham-640.webp
+    '960': photos/county-north-carolina-chatham-960.webp
+    '1280': photos/county-north-carolina-chatham-1280.webp
+  author: Indy beetle
+  source_url: https://commons.wikimedia.org/wiki/File%3AMoncure%2C_North_Carolina.jpg
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  credit_required: false
+- id: county-north-carolina-craven
+  role: city
+  alt: New Bern Municipal Building
+  width: 1280
+  height: 853
+  files:
+    '640': photos/county-north-carolina-craven-640.webp
+    '960': photos/county-north-carolina-craven-960.webp
+    '1280': photos/county-north-carolina-craven-1280.webp
+  author: Tradewinds
+  source_url: https://commons.wikimedia.org/wiki/File%3ANew_Bern_Municipal_Building_(City_Hall).jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-north-carolina-currituck
+  role: city
+  alt: Pillar Point Harbor, California, USA.
+  width: 1280
+  height: 411
+  files:
+    '640': photos/county-north-carolina-currituck-640.webp
+    '960': photos/county-north-carolina-currituck-960.webp
+    '1280': photos/county-north-carolina-currituck-1280.webp
+  author: Brocken Inaglory
+  source_url: https://commons.wikimedia.org/wiki/File%3APillar_Point_Harbor.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-north-carolina-halifax
+  role: city
+  alt: Northeastern angle of St. Alban's Episcopal Church , located at 300 Mosby Avenue
+    ( North Carolina Highway 4 ) in Littleton , North Carolina , United States . Built
+    in 1891, it is l
+  width: 1280
+  height: 851
+  files:
+    '640': photos/county-north-carolina-halifax-640.webp
+    '960': photos/county-north-carolina-halifax-960.webp
+    '1280': photos/county-north-carolina-halifax-1280.webp
+  author: Nyttend
+  source_url: https://commons.wikimedia.org/wiki/File%3ASt._Alban's_Episcopal_Church%2C_Littleton.jpg
+  license: Public domain
+  license_url: https://creativecommons.org/publicdomain/mark/1.0/
+  credit_required: false
+- id: county-north-carolina-henderson
+  role: city
+  alt: 'File name: 06_10_016042 Title: Playing shuffleboard -- A popular sport at
+    Boyd Park, Hendersonville, N.C. Created/Published: Pub. by The Asheville Post
+    Card Co., Asheville, N. C. D'
+  width: 1280
+  height: 811
+  files:
+    '640': photos/county-north-carolina-henderson-640.webp
+    '960': photos/county-north-carolina-henderson-960.webp
+    '1280': photos/county-north-carolina-henderson-1280.webp
+  author: Boston Public Library
+  source_url: https://commons.wikimedia.org/wiki/File%3APlaying_shuffleboard_--_A_popular_sport_at_Boyd_Park%2C_Hendersonville%2C_N.C._(5811464543).jpg
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  credit_required: true
+- id: county-north-carolina-iredell
+  role: city
+  alt: A view down Main Street in Mooresville, North Carolina's central Historic District
+    (NRHP-listed); to the left is the town's historic rail depot.
+  width: 1280
+  height: 853
+  files:
+    '640': photos/county-north-carolina-iredell-640.webp
+    '960': photos/county-north-carolina-iredell-960.webp
+    '1280': photos/county-north-carolina-iredell-1280.webp
+  author: Cdtew at English Wikipedia
+  source_url: https://commons.wikimedia.org/wiki/File%3AMooresville_Historic_District_(Main_Street).jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-north-carolina-johnston
+  role: city
+  alt: Main Street in Benson, North Carolina
+  width: 1280
+  height: 640
+  files:
+    '640': photos/county-north-carolina-johnston-640.webp
+    '960': photos/county-north-carolina-johnston-960.webp
+    '1280': photos/county-north-carolina-johnston-1280.webp
+  author: Gerry D
+  source_url: https://commons.wikimedia.org/wiki/File%3AMain_Street_in_Benson.JPG
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  credit_required: true
+- id: county-north-carolina-mecklenburg
+  role: city
+  alt: The Cornelius Branch Library
+  width: 1280
+  height: 1001
+  files:
+    '640': photos/county-north-carolina-mecklenburg-640.webp
+    '960': photos/county-north-carolina-mecklenburg-960.webp
+    '1280': photos/county-north-carolina-mecklenburg-1280.webp
+  author: Property of PLCMC
+  source_url: https://commons.wikimedia.org/wiki/File%3ACorneliusbranchlibrary.jpg
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  credit_required: true
+- id: county-north-carolina-nash
+  role: city
+  alt: Buildings along western Main Street in downtown Spring Hope, North Carolina.
+    Photo taken from eastern Main Street.
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-north-carolina-nash-640.webp
+    '960': photos/county-north-carolina-nash-960.webp
+    '1280': photos/county-north-carolina-nash-1280.webp
+  author: Indy beetle
+  source_url: https://commons.wikimedia.org/wiki/File%3ASpring_Hope%2C_North_Carolina.jpg
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  credit_required: false
+- id: county-north-carolina-orange
+  role: city
+  alt: Intersection of Franklin Street and Columbia Street in Chapel Hill, NC . University
+    United Methodist Church is visible on the left.
+  width: 1280
+  height: 853
+  files:
+    '640': photos/county-north-carolina-orange-640.webp
+    '960': photos/county-north-carolina-orange-960.webp
+    '1280': photos/county-north-carolina-orange-1280.webp
+  author: '(User: Wgreaves )'
+  source_url: https://commons.wikimedia.org/wiki/File%3AFranklin_Street_Chapel_Hill_NC.jpg
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0/
+  credit_required: true
+- id: county-north-carolina-pasquotank
+  role: city
+  alt: 'File name: 06_10_015916 Title: Ranch Motel on Routes 17 and 158 -- 5 miles
+    north of Elizabeth City, N. C. Created/Published: Tichnor Bros. Inc., Boston,
+    Mass. Date issued: 1930 - 1'
+  width: 1280
+  height: 814
+  files:
+    '640': photos/county-north-carolina-pasquotank-640.webp
+    '960': photos/county-north-carolina-pasquotank-960.webp
+    '1280': photos/county-north-carolina-pasquotank-1280.webp
+  author: Boston Public Library
+  source_url: https://commons.wikimedia.org/wiki/File%3ARanch_Motel_on_Routes_17_and_158_--_5_miles_north_of_Elizabeth_City%2C_N._C._(5756061142).jpg
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  credit_required: true
+- id: county-north-carolina-pender
+  role: city
+  alt: Burgaw, NC 28425, USA
+  width: 1280
+  height: 956
+  files:
+    '640': photos/county-north-carolina-pender-640.webp
+    '960': photos/county-north-carolina-pender-960.webp
+    '1280': photos/county-north-carolina-pender-1280.webp
+  author: Mikeiamunion21
+  source_url: https://commons.wikimedia.org/wiki/File%3ABurgaw%2C_NC_28425%2C_USA_-_panoramio.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-north-carolina-pitt
+  role: city
+  alt: Picture of South Central High School in Winterville, NC
+  width: 1280
+  height: 853
+  files:
+    '640': photos/county-north-carolina-pitt-640.webp
+    '960': photos/county-north-carolina-pitt-960.webp
+    '1280': photos/county-north-carolina-pitt-1280.webp
+  author: Tabbboooo
+  source_url: https://commons.wikimedia.org/wiki/File%3ASouth_Central_High_School_Winterville_NC.JPG
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-north-carolina-rowan
+  role: city
+  alt: Street in downtown Salisbury, North Carolina, USA. The Confederate monument
+    Gloria Victis is visible.
+  width: 1280
+  height: 786
+  files:
+    '640': photos/county-north-carolina-rowan-640.webp
+    '960': photos/county-north-carolina-rowan-960.webp
+    '1280': photos/county-north-carolina-rowan-1280.webp
+  author: AlexiusHoratius
+  source_url: https://commons.wikimedia.org/wiki/File%3ADowntown_Salisbury_11.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-north-carolina-wake
+  role: city
+  alt: Garner, NC
+  width: 1280
+  height: 1707
+  files:
+    '640': photos/county-north-carolina-wake-640.webp
+    '960': photos/county-north-carolina-wake-960.webp
+    '1280': photos/county-north-carolina-wake-1280.webp
+  author: Melizabethi123
+  source_url: https://commons.wikimedia.org/wiki/File%3AGarner%2C_NC.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-north-carolina-watauga
+  role: city
+  alt: The cliffs , rocks , gift shop , and observation deck at Blowing Rock . Photo
+    taken with a Panasonic Lumix DMC-FZ50 in Watauga County, NC, USA .
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-north-carolina-watauga-640.webp
+    '960': photos/county-north-carolina-watauga-960.webp
+    '1280': photos/county-north-carolina-watauga-1280.webp
+  author: Ken Thomas
+  source_url: https://commons.wikimedia.org/wiki/File%3ABlowing_Rock-27527-1.jpg
+  license: Public domain
+  license_url: https://creativecommons.org/publicdomain/mark/1.0/
+  credit_required: false
+- id: county-north-carolina-wayne
+  role: city
+  alt: Goldsboro, North Carolina was a town very similiar to Greensboro.
+  width: 1280
+  height: 930
+  files:
+    '640': photos/county-north-carolina-wayne-640.webp
+    '960': photos/county-north-carolina-wayne-960.webp
+    '1280': photos/county-north-carolina-wayne-1280.webp
+  author: John Vachon
+  source_url: https://commons.wikimedia.org/wiki/File%3AA_view_from_downtown_Goldsboro%2C_North_Carolina.jpg
+  license: Public domain
+  license_url: https://creativecommons.org/publicdomain/mark/1.0/
+  credit_required: false
+- id: county-texas-angelina
+  role: city
+  alt: City Hall in Lufkin, TX
+  width: 1280
+  height: 853
+  files:
+    '640': photos/county-texas-angelina-640.webp
+    '960': photos/county-texas-angelina-960.webp
+    '1280': photos/county-texas-angelina-1280.webp
+  author: Billy Hathorn
+  source_url: https://commons.wikimedia.org/wiki/File%3ALufkin%2C_TX%2C_City_Hall_IMG_3947.JPG
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-texas-aransas
+  role: city
+  alt: Rockport, Texas
+  width: 1280
+  height: 978
+  files:
+    '640': photos/county-texas-aransas-640.webp
+    '960': photos/county-texas-aransas-960.webp
+    '1280': photos/county-texas-aransas-1280.webp
+  author: NOAA
+  source_url: https://commons.wikimedia.org/wiki/File%3ARockport.jpg
+  license: Public domain
+  license_url: https://creativecommons.org/publicdomain/mark/1.0/
+  credit_required: false
+- id: county-texas-austin
+  role: city
+  alt: Photo shows Wallis, Texas sign, part of the business district along Highway
+    36 and the Wallis water tower. View is to the southeast.
+  width: 1280
+  height: 961
+  files:
+    '640': photos/county-texas-austin-640.webp
+    '960': photos/county-texas-austin-960.webp
+    '1280': photos/county-texas-austin-1280.webp
+  author: Djmaschek
+  source_url: https://commons.wikimedia.org/wiki/File%3AWallis_TX_City_Sign_Hwy_36.JPG
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-texas-bell
+  role: city
+  alt: Downtown scene of Temple, TX, at Main Street near the Municipal Building
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-texas-bell-640.webp
+    '960': photos/county-texas-bell-960.webp
+    '1280': photos/county-texas-bell-1280.webp
+  author: Billy Hathorn
+  source_url: https://commons.wikimedia.org/wiki/File%3ADowntown_Temple%2C_TX_at_Main_Street_IMG_2384.JPG
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-texas-bowie
+  role: city
+  alt: I took photo of municipal building in Texarkana, TX, with Canon camera on June
+    9, 2012. Billy Hathorn ( talk ) 23:22, 28 June 2012 (UTC)
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-texas-bowie-640.webp
+    '960': photos/county-texas-bowie-960.webp
+    '1280': photos/county-texas-bowie-1280.webp
+  author: No machine-readable author provided. Billy Hathorn assumed (based on copyright
+    claims).
+  source_url: https://commons.wikimedia.org/wiki/File%3AMunicipal_building%2C_Texarkana%2C_TX_IMG_6411.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-texas-brazoria
+  role: city
+  alt: Photo shows Alvin Junior High School at 2300 W South St, Alvin, TX 77511. It
+    is in the Alvin Independent School District. View is toward the east.
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-texas-brazoria-640.webp
+    '960': photos/county-texas-brazoria-960.webp
+    '1280': photos/county-texas-brazoria-1280.webp
+  author: Djmaschek
+  source_url: https://commons.wikimedia.org/wiki/File%3AAlvin_ISD_Alvin_JHS.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  credit_required: true
+- id: county-texas-brown
+  role: city
+  alt: The Brownwood Coliseum in Brownwood, Texas, United States is the home of the
+    Howard Payne University Yellow Jackets basketball and volleyball teams.
+  width: 1280
+  height: 720
+  files:
+    '640': photos/county-texas-brown-640.webp
+    '960': photos/county-texas-brown-960.webp
+    '1280': photos/county-texas-brown-1280.webp
+  author: Larry D. Moore
+  source_url: https://commons.wikimedia.org/wiki/File%3ABrownwood_Texas_Coliseum_2015.jpg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit_required: true
+- id: county-texas-burnet
+  role: city
+  alt: The Burnet County Courthouse in Burnet, Texas, United States was built in 1936.
+    The building was listed on the National Register of Historic Places on November
+    15, 2000.
+  width: 1280
+  height: 914
+  files:
+    '640': photos/county-texas-burnet-640.webp
+    '960': photos/county-texas-burnet-960.webp
+    '1280': photos/county-texas-burnet-1280.webp
+  author: Larry D. Moore
+  source_url: https://commons.wikimedia.org/wiki/File%3ABurnet_courthouse_2010.jpg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit_required: true
+- id: county-texas-collin
+  role: city
+  alt: Self-portrait by Anna Bilińska-Bohdanowiczowa, 1887.jpg
+  width: 1280
+  height: 1645
+  files:
+    '640': photos/county-texas-collin-640.webp
+    '960': photos/county-texas-collin-960.webp
+    '1280': photos/county-texas-collin-1280.webp
+  author: Anna Bilińska-Bohdanowicz
+  source_url: https://commons.wikimedia.org/wiki/File%3ASelf-portrait_by_Anna_Bili%C5%84ska-Bohdanowiczowa%2C_1887.jpg
+  license: Public domain
+  license_url: https://creativecommons.org/publicdomain/mark/1.0/
+  credit_required: false
+- id: county-texas-comal
+  role: city
+  alt: Canyon Lake TX wide.JPG
+  width: 1280
+  height: 570
+  files:
+    '640': photos/county-texas-comal-640.webp
+    '960': photos/county-texas-comal-960.webp
+    '1280': photos/county-texas-comal-1280.webp
+  author: Wikimedia Commons
+  source_url: https://commons.wikimedia.org/wiki/File%3ACanyon_Lake_TX_wide.JPG
+  license: Public domain
+  license_url: https://creativecommons.org/publicdomain/mark/1.0/
+  credit_required: false
+- id: county-texas-cooke
+  role: city
+  alt: Historic Santa Fe Depot in Gainesville.
+  width: 1280
+  height: 914
+  files:
+    '640': photos/county-texas-cooke-640.webp
+    '960': photos/county-texas-cooke-960.webp
+    '1280': photos/county-texas-cooke-1280.webp
+  author: Madison B
+  source_url: https://commons.wikimedia.org/wiki/File%3AGainesville%2C_Texas_depot.jpg
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  credit_required: true
+- id: county-texas-dallas
+  role: city
+  alt: Old Red Museum, formerly Dallas County Courthouse ("Old Red Courthouse"), Dallas,
+    Texas.
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-texas-dallas-640.webp
+    '960': photos/county-texas-dallas-960.webp
+    '1280': photos/county-texas-dallas-1280.webp
+  author: Joe Mabel
+  source_url: https://commons.wikimedia.org/wiki/File%3ADallas_-_Old_Red_Museum_01.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-texas-denton
+  role: city
+  alt: The town of Aubrey, Texas
+  width: 1280
+  height: 853
+  files:
+    '640': photos/county-texas-denton-640.webp
+    '960': photos/county-texas-denton-960.webp
+    '1280': photos/county-texas-denton-1280.webp
+  author: Renelibrary
+  source_url: https://commons.wikimedia.org/wiki/File%3AAubreyTex2.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-texas-el-paso
+  role: city
+  alt: Canutillo Independent School District school bus in Dell City
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-texas-el-paso-640.webp
+    '960': photos/county-texas-el-paso-960.webp
+    '1280': photos/county-texas-el-paso-1280.webp
+  author: WhisperToMe
+  source_url: https://commons.wikimedia.org/wiki/File%3ACanutillo_ISD_bus_in_Dell_City.jpg
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  credit_required: false
+- id: county-texas-ellis
+  role: city
+  alt: Lake Clark viewed from Lake Clark Park in Ennis, Texas, United States.
+  width: 1280
+  height: 720
+  files:
+    '640': photos/county-texas-ellis-640.webp
+    '960': photos/county-texas-ellis-960.webp
+    '1280': photos/county-texas-ellis-1280.webp
+  author: Larry D. Moore
+  source_url: https://commons.wikimedia.org/wiki/File%3ALake_Clark_Ennis_Texas_2018.jpg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit_required: true
+- id: county-texas-fannin
+  role: city
+  alt: The San Marcos Telephone Company located in San Marcos, Texas, United States.
+    The building was listed on the National Register of Historic Places on August
+    26, 1983.
+  width: 1280
+  height: 925
+  files:
+    '640': photos/county-texas-fannin-640.webp
+    '960': photos/county-texas-fannin-960.webp
+    '1280': photos/county-texas-fannin-1280.webp
+  author: Larry D. Moore
+  source_url: https://commons.wikimedia.org/wiki/File%3ASan_marcos_telephone_company_2008.jpg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit_required: true
+- id: county-texas-fort-bend
+  role: city
+  alt: Pillar in Stafford, Texas
+  width: 1280
+  height: 1707
+  files:
+    '640': photos/county-texas-fort-bend-640.webp
+    '960': photos/county-texas-fort-bend-960.webp
+    '1280': photos/county-texas-fort-bend-1280.webp
+  author: WhisperToMe
+  source_url: https://commons.wikimedia.org/wiki/File%3AStaffPillar.JPG
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  credit_required: false
+- id: county-texas-galveston
+  role: city
+  alt: City Hall. Dickinson, Texas, USA. 77539
+  width: 1280
+  height: 853
+  files:
+    '640': photos/county-texas-galveston-640.webp
+    '960': photos/county-texas-galveston-960.webp
+    '1280': photos/county-texas-galveston-1280.webp
+  author: Nsaum75
+  source_url: https://commons.wikimedia.org/wiki/File%3ADickinson_Texas_City_Hall.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-texas-gillespie
+  role: city
+  alt: Haussegen Platz Log Haus bed and breakfast at Fredericksburg, Texas.
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-texas-gillespie-640.webp
+    '960': photos/county-texas-gillespie-960.webp
+    '1280': photos/county-texas-gillespie-1280.webp
+  author: Liveon001 ©Travis Witt
+  source_url: https://commons.wikimedia.org/wiki/File%3AHaussegen_Platz_Log_Haus_bed_and_breakfast_Fredericksburg%2C_Texas.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-texas-grayson
+  role: city
+  alt: Reba's Ranch House that is located in Denison, Texas
+  width: 1280
+  height: 864
+  files:
+    '640': photos/county-texas-grayson-640.webp
+    '960': photos/county-texas-grayson-960.webp
+    '1280': photos/county-texas-grayson-1280.webp
+  author: AC.RebaFan
+  source_url: https://commons.wikimedia.org/wiki/File%3AReba's_Ranch_House_in_Denison%2C_Texas.jpg
+  license: Public domain
+  license_url: https://creativecommons.org/publicdomain/mark/1.0/
+  credit_required: false
+- id: county-texas-gregg
+  role: city
+  alt: The Longview Transportation Center Station in Longview , Texas ( United States
+    ).
+  width: 1280
+  height: 853
+  files:
+    '640': photos/county-texas-gregg-640.webp
+    '960': photos/county-texas-gregg-960.webp
+    '1280': photos/county-texas-gregg-1280.webp
+  author: Michael Barera
+  source_url: https://commons.wikimedia.org/wiki/File%3ALongview_May_2016_58_(Longview_Transportation_Center_Station).jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  credit_required: true
+- id: county-texas-harris
+  role: city
+  alt: Road to the Yellow House Ranch, Hockley County, Texas .
+  width: 1280
+  height: 853
+  files:
+    '640': photos/county-texas-harris-640.webp
+    '960': photos/county-texas-harris-960.webp
+    '1280': photos/county-texas-harris-1280.webp
+  author: Leaflet
+  source_url: https://commons.wikimedia.org/wiki/File%3AYellow_House_Ranch%2C_Hockley_County%2C_Texas%2C_2011.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-texas-hidalgo
+  role: city
+  alt: The administration building for Hidalgo ISD, located at the southwest corner
+    of E. Flora Ave. and N. 4th St. Also called the Old Hidalgo School (not to be
+    confused with the adjacen
+  width: 1280
+  height: 853
+  files:
+    '640': photos/county-texas-hidalgo-640.webp
+    '960': photos/county-texas-hidalgo-960.webp
+    '1280': photos/county-texas-hidalgo-1280.webp
+  author: 25or6to4
+  source_url: https://commons.wikimedia.org/wiki/File%3AHidalgo_ISD_Administration_Building%2C_Hidalgo%2C_Texas.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-texas-hood
+  role: city
+  alt: Granbury Elementary School was built in 1935
+  width: 1280
+  height: 718
+  files:
+    '640': photos/county-texas-hood-640.webp
+    '960': photos/county-texas-hood-960.webp
+    '1280': photos/county-texas-hood-1280.webp
+  author: Renelibrary
+  source_url: https://commons.wikimedia.org/wiki/File%3AGranbury_Elementary_School_Wiki_(1_of_1).jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  credit_required: true
+- id: county-texas-hunt
+  role: city
+  alt: Main Street in Campbell , Texas ( United States ).
+  width: 1280
+  height: 853
+  files:
+    '640': photos/county-texas-hunt-640.webp
+    '960': photos/county-texas-hunt-960.webp
+    '1280': photos/county-texas-hunt-1280.webp
+  author: Michael Barera
+  source_url: https://commons.wikimedia.org/wiki/File%3ACampbell_November_2015_1_(Main_Street).jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  credit_required: true
+- id: county-texas-hutchinson
+  role: city
+  alt: I took photo on July 15, 2008. Billy Hathorn ( talk ) 21:09, 22 July 2008 (UTC)
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-texas-hutchinson-640.webp
+    '960': photos/county-texas-hutchinson-960.webp
+    '1280': photos/county-texas-hutchinson-1280.webp
+  author: Billy Hathorn at en.wikipedia
+  source_url: https://commons.wikimedia.org/wiki/File%3ADowntown_Borger_IMG_0602.JPG
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-texas-jefferson
+  role: city
+  alt: Tex Ritter's grave marker located at Oak Bluff Memorial Park in Port Neches,
+    Texas.
+  width: 1280
+  height: 655
+  files:
+    '640': photos/county-texas-jefferson-640.webp
+    '960': photos/county-texas-jefferson-960.webp
+    '1280': photos/county-texas-jefferson-1280.webp
+  author: Junglecat
+  source_url: https://commons.wikimedia.org/wiki/File%3ATex_Ritter_grave_marker_Port_Neches_Texas.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-texas-johnson
+  role: city
+  alt: Burleson County Courthouse.JPG
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-texas-johnson-640.webp
+    '960': photos/county-texas-johnson-960.webp
+    '1280': photos/county-texas-johnson-1280.webp
+  author: Wikimedia Commons
+  source_url: https://commons.wikimedia.org/wiki/File%3ABurleson_County_Courthouse.JPG
+  license: Public domain
+  license_url: https://creativecommons.org/publicdomain/mark/1.0/
+  credit_required: false
+- id: county-texas-kaufman
+  role: city
+  alt: I took photo of U.S. Highway 80 in Terrell, TX, with Canon camera.
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-texas-kaufman-640.webp
+    '960': photos/county-texas-kaufman-960.webp
+    '1280': photos/county-texas-kaufman-1280.webp
+  author: Billy Hathorn
+  source_url: https://commons.wikimedia.org/wiki/File%3AU.S._Highway_80%2C_Terrell%2C_TX_IMG_5314.JPG
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0/
+  credit_required: true
+- id: county-texas-kerr
+  role: city
+  alt: City Hall of Kerrville, Texas , United States.
+  width: 1280
+  height: 853
+  files:
+    '640': photos/county-texas-kerr-640.webp
+    '960': photos/county-texas-kerr-960.webp
+    '1280': photos/county-texas-kerr-1280.webp
+  author: Larry D. Moore
+  source_url: https://commons.wikimedia.org/wiki/File%3AKerrville%2C_tx_city_hall_2015.jpg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit_required: true
+- id: county-texas-kleberg
+  role: city
+  alt: 'Production Date: Circa 1945 Source Type: Postcard Publisher, Printer, Photographer:
+    Don Bartels, Koppell of New Jersey (#DB-219, #12457) Postmark: None Collection:
+    Steven R. Shook'
+  width: 1280
+  height: 815
+  files:
+    '640': photos/county-texas-kleberg-640.webp
+    '960': photos/county-texas-kleberg-960.webp
+    '1280': photos/county-texas-kleberg-1280.webp
+  author: Steve Shook from Moscow, Idaho, USA
+  source_url: https://commons.wikimedia.org/wiki/File%3ATexas_College_of_Arts_and_Industries%2C_Kingsville%2C_Texas_-_Large_Letter_Postcard_(50082590812).jpg
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  credit_required: true
+- id: county-texas-matagorda
+  role: city
+  alt: Welcome sign of Bay City, Texas , USA
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-texas-matagorda-640.webp
+    '960': photos/county-texas-matagorda-960.webp
+    '1280': photos/county-texas-matagorda-1280.webp
+  author: Billy Hathorn ( talk ). Original uploader was Billy Hathorn at en.wikipedia
+  source_url: https://commons.wikimedia.org/wiki/File%3ABay_City%2C_TX%2C_sign_IMG_1047.JPG
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-texas-mclennan
+  role: city
+  alt: I took photo of Lorena, TX, City Hall, with Canon camera.
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-texas-mclennan-640.webp
+    '960': photos/county-texas-mclennan-960.webp
+    '1280': photos/county-texas-mclennan-1280.webp
+  author: Billy Hathorn
+  source_url: https://commons.wikimedia.org/wiki/File%3ALorena%2C_TX_City_Hall_IMG_5323.JPG
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-texas-montgomery
+  role: city
+  alt: City Hall of Willis, Texas, South View 200 North Bell St. Willis, TX 77319
+  width: 1280
+  height: 727
+  files:
+    '640': photos/county-texas-montgomery-640.webp
+    '960': photos/county-texas-montgomery-960.webp
+    '1280': photos/county-texas-montgomery-1280.webp
+  author: HIM Nguyen
+  source_url: https://commons.wikimedia.org/wiki/File%3ACity_Hall_of_Willis%2C_Texas%2C_South_View.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-texas-parker
+  role: city
+  alt: Kemp's Wagon Yard in Weatherford, Texas; boy and man standing near fence.
+  width: 1280
+  height: 2050
+  files:
+    '640': photos/county-texas-parker-640.webp
+    '960': photos/county-texas-parker-960.webp
+    '1280': photos/county-texas-parker-1280.webp
+  author: University of Texas at Arlington Photograph Collection
+  source_url: https://commons.wikimedia.org/wiki/File%3AKemp's_Wagon_yard_in_Weatherford%2C_Texas_(10002397).jpg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit_required: true
+- id: county-texas-polk
+  role: city
+  alt: Allan B. Polunsky Unit
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-texas-polk-640.webp
+    '960': photos/county-texas-polk-960.webp
+    '1280': photos/county-texas-polk-1280.webp
+  author: Texas Department of Criminal Justice Public information released under the
+    Texas Public Information Act Released by Atto
+  source_url: https://commons.wikimedia.org/wiki/File%3APolunskyUnitWestLivingstonTX.jpg
+  license: Public domain
+  license_url: https://creativecommons.org/publicdomain/mark/1.0/
+  credit_required: false
+- id: county-texas-rockwall
+  role: city
+  alt: The Rockwall County, Texas Courthouse in Rockwall, Texas, United States.
+  width: 1280
+  height: 853
+  files:
+    '640': photos/county-texas-rockwall-640.webp
+    '960': photos/county-texas-rockwall-960.webp
+    '1280': photos/county-texas-rockwall-1280.webp
+  author: Larry D. Moore
+  source_url: https://commons.wikimedia.org/wiki/File%3ARockwall_county_tx_courthouse_2014.jpg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit_required: true
+- id: county-texas-san-patricio
+  role: city
+  alt: Old Rialto cinema, Sinton, Texas
+  width: 1280
+  height: 848
+  files:
+    '640': photos/county-texas-san-patricio-640.webp
+    '960': photos/county-texas-san-patricio-960.webp
+    '1280': photos/county-texas-san-patricio-1280.webp
+  author: Jay Phagan
+  source_url: https://commons.wikimedia.org/wiki/File%3ASinton_Rialto_1.jpg
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  credit_required: true
+- id: county-texas-tarrant
+  role: city
+  alt: Aerial view of Benbrook Lake and Dam on the Clear Fork of the Trinity River
+    in Tarrant County, Texas, USA. The lake is located on the fringes of Fort Worth,
+    approximately 10 miles
+  width: 1280
+  height: 854
+  files:
+    '640': photos/county-texas-tarrant-640.webp
+    '960': photos/county-texas-tarrant-960.webp
+    '1280': photos/county-texas-tarrant-1280.webp
+  author: U.S. Army Corps of Engineers, photographer not specified or unknown
+  source_url: https://commons.wikimedia.org/wiki/File%3AUSACE_Benbrook_Lake_and_Dam.jpg
+  license: Public domain
+  license_url: https://creativecommons.org/publicdomain/mark/1.0/
+  credit_required: false
+- id: county-texas-terry
+  role: city
+  alt: Brownfield High School in Brownfield, Texas, United States.
+  width: 1280
+  height: 720
+  files:
+    '640': photos/county-texas-terry-640.webp
+    '960': photos/county-texas-terry-960.webp
+    '1280': photos/county-texas-terry-1280.webp
+  author: Larry D. Moore
+  source_url: https://commons.wikimedia.org/wiki/File%3ABrownfield_Texas_High_School_2019.jpg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit_required: true
+- id: county-texas-tom-green
+  role: city
+  alt: Greater St. Paul AME Church in San Angelo, Texas, United States. The church
+    was built in 1927 and added to the National Register of Historic Places on November
+    25, 1988.
+  width: 1280
+  height: 853
+  files:
+    '640': photos/county-texas-tom-green-640.webp
+    '960': photos/county-texas-tom-green-960.webp
+    '1280': photos/county-texas-tom-green-1280.webp
+  author: Larry D. Moore
+  source_url: https://commons.wikimedia.org/wiki/File%3AGreater_St_Paul_AME_Church_San_Angelo_Texas_2019.jpg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit_required: true
+- id: county-texas-travis
+  role: city
+  alt: The former City Hall of Manor, Texas , United States.
+  width: 1280
+  height: 853
+  files:
+    '640': photos/county-texas-travis-640.webp
+    '960': photos/county-texas-travis-960.webp
+    '1280': photos/county-texas-travis-1280.webp
+  author: Larry D. Moore
+  source_url: https://commons.wikimedia.org/wiki/File%3AManor_tx_city_hall.jpg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit_required: true
+- id: county-texas-trinity
+  role: city
+  alt: Old Red Schoolhouse. Trinity's first schoolhouse was a one-room log structure
+    built in 1872 near Cedar Grove Cemetery. A two-story frame schoolhouse that stood
+    on this site from 18
+  width: 1280
+  height: 781
+  files:
+    '640': photos/county-texas-trinity-640.webp
+    '960': photos/county-texas-trinity-960.webp
+    '1280': photos/county-texas-trinity-1280.webp
+  author: Steven L. Driskell ( SDriskell )
+  source_url: https://commons.wikimedia.org/wiki/File%3ATrinity-Old-Red-Schoolhouse.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-texas-val-verde
+  role: city
+  alt: Welcome sign, Del Rio , Texas
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-texas-val-verde-640.webp
+    '960': photos/county-texas-val-verde-960.webp
+    '1280': photos/county-texas-val-verde-1280.webp
+  author: Billy Hathorn at English Wikipedia
+  source_url: https://commons.wikimedia.org/wiki/File%3ADel_Rio%2C_Texas_welcome_sign.JPG
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-texas-victoria
+  role: city
+  alt: This three-story building with full basement was formally occupied on January
+    1, 1913. It served as Victoria’s post office and U. S. dis­trict courthouse until
+    a new Federal Buildi
+  width: 1280
+  height: 938
+  files:
+    '640': photos/county-texas-victoria-640.webp
+    '960': photos/county-texas-victoria-960.webp
+    '1280': photos/county-texas-victoria-1280.webp
+  author: Jim Evans
+  source_url: https://commons.wikimedia.org/wiki/File%3AOld_Federal_Building_in_Victoria%2C_Texas.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  credit_required: true
+- id: county-texas-walker
+  role: city
+  alt: Huntsville, Texas sign - "Welcome to Huntsville, Home of Sam Houston"
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-texas-walker-640.webp
+    '960': photos/county-texas-walker-960.webp
+    '1280': photos/county-texas-walker-1280.webp
+  author: WhisperToMe
+  source_url: https://commons.wikimedia.org/wiki/File%3AHuntsvilleTXSign.JPG
+  license: Public domain
+  license_url: https://creativecommons.org/publicdomain/mark/1.0/
+  credit_required: false
+- id: county-texas-waller
+  role: city
+  alt: Brookshire Brothers in Carthage , Texas ( United States ).
+  width: 1280
+  height: 853
+  files:
+    '640': photos/county-texas-waller-640.webp
+    '960': photos/county-texas-waller-960.webp
+    '1280': photos/county-texas-waller-1280.webp
+  author: Michael Barera
+  source_url: https://commons.wikimedia.org/wiki/File%3ACarthage_July_2017_12_(Brookshire_Brothers).jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  credit_required: true
+- id: county-texas-wharton
+  role: city
+  alt: The "Welcome to Boling" sign is at the intersection of FM 442 and FM 1301.
+    The view is along FM 1301 toward the southeast.
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-texas-wharton-640.webp
+    '960': photos/county-texas-wharton-960.webp
+    '1280': photos/county-texas-wharton-1280.webp
+  author: Djmaschek
+  source_url: https://commons.wikimedia.org/wiki/File%3ABoling_Texas_Welcome_Sign.JPG
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-texas-wichita
+  role: city
+  alt: Jolly Harbour on the western coast of the Antigua island, Caribbean.
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-texas-wichita-640.webp
+    '960': photos/county-texas-wichita-960.webp
+    '1280': photos/county-texas-wichita-1280.webp
+  author: David Stanley
+  source_url: https://commons.wikimedia.org/wiki/File%3AJolly_Harbour.jpg
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  credit_required: true
+- id: county-texas-williamson
+  role: city
+  alt: Fotografie ulice Cortez Drive v cs:Cedar Parku pořízená za deště v srpnu cs:2005
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-texas-williamson-640.webp
+    '960': photos/county-texas-williamson-960.webp
+    '1280': photos/county-texas-williamson-1280.webp
+  author: Aida at Czech Wikipedia
+  source_url: https://commons.wikimedia.org/wiki/File%3AUsa_texas_cedar_park_pohled_na_cortez_drive_za_deste_srpen_2005.jpg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true
+- id: county-texas-wilson
+  role: city
+  alt: Floresville, TX, water tower
+  width: 1280
+  height: 960
+  files:
+    '640': photos/county-texas-wilson-640.webp
+    '960': photos/county-texas-wilson-960.webp
+    '1280': photos/county-texas-wilson-1280.webp
+  author: Billy Hathorn
+  source_url: https://commons.wikimedia.org/wiki/File%3AFloresville%2C_TX%2C_water_tower_IMG_2657.JPG
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  credit_required: true

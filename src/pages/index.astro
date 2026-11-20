@@ -3,6 +3,7 @@ import Base from '../layouts/Base.astro';
 import CitySearch from '../components/CitySearch.astro';
 import FindMore from '../components/FindMore.astro';
 import { absolute, cityStats, directoryStats, getStates, href, site } from '../lib/data';
+import { locationCount } from '../lib/format';
 import { medianOf } from '../lib/guides';
 import { heroPhoto, getPhoto } from '../lib/photos';
 import { formatMoney, formatMonthlyRange, monthlyByCover, monthlySpan, parsePriceNote } from '../lib/prices';
@@ -87,6 +88,15 @@ const schema = pageGraph([
 ---
 
 <Base title={title} description={description} path={path} schema={schema}>
+  <link
+    slot="head"
+    rel="preload"
+    as="image"
+    href={href(`/${hero.files['1280']}`)}
+    imagesrcset={`${href(`/${hero.files['640']}`)} 640w, ${href(`/${hero.files['960']}`)} 960w, ${href(`/${hero.files['1280']}`)} 1280w`}
+    imagesizes="100vw"
+    fetchpriority="high"
+  />
   <section class="hero-bleed">
     <div class="hero-media">
       <img
@@ -123,10 +133,15 @@ const schema = pageGraph([
     const narrow = window.matchMedia('(max-width: 899px)').matches;
     const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
     const slow = Boolean(connection && (connection.saveData || /2g/.test(connection.effectiveType || '')));
-    if (video && !reduce && !narrow && !slow) {
+    const startVideo = () => {
+      if (!video || reduce || narrow || slow || video.getAttribute('src')) return;
       video.addEventListener('playing', () => video.classList.add('is-playing'), { once: true });
       video.src = videoSrc;
       video.play().catch(() => {});
+    };
+    if (!reduce && !narrow && !slow) {
+      window.addEventListener('pointerdown', startVideo, { once: true });
+      window.addEventListener('keydown', startVideo, { once: true });
     }
   </script>
   <div class="wrap">
@@ -156,10 +171,10 @@ const schema = pageGraph([
               <li>
                 <a class="place-link" href={href(`/cities/${city.id}/`)}>
                   <span class="city-name">{city.city}, {city.state_code}</span>
-                  <span class="count">{cityStats(city).total}</span>
+                  <span class="city-meta">{locationCount(cityStats(city).total)}</span>
                   <span class="city-meta">
                     {span.low != null && span.high != null
-                      ? `${formatMonthlyRange(span.low, span.high)} · median ${formatMoney(medianOf(amounts))}`
+                      ? `From ${formatMoney(medianOf(amounts))}/mo median`
                       : 'No monthly price'}
                   </span>
                 </a>
@@ -213,7 +228,7 @@ const schema = pageGraph([
                     <span class="city-card-body">
                       <span class="city-name">{city.city}, {city.state_code}</span>
                       <span class="city-meta">
-                        {counts.total} facilities · {counts.priced} with a published price
+                        {locationCount(counts.total)} · {counts.priced === 1 ? '1 with a monthly price' : `${counts.priced} with a monthly price`}
                       </span>
                     </span>
                   </a>
@@ -225,8 +240,7 @@ const schema = pageGraph([
       ))
     }
     <p class="legend">
-      City photos show the place, not a storage lot. Listing photos are typical vehicles or lots and are
-      labeled when they are not that facility. <a href={href('/credits/')}>Photo credits</a>.
+      Photos show the city or state, not a storage lot. <a href={href('/credits/')}>Photo credits</a>.
     </p>
     <p><a href={href('/guide/')}>How to choose storage and what it costs</a></p>
     <section class="faq prose">

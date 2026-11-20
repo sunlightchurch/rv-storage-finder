@@ -164,6 +164,7 @@ const countySchema = z.object({
   name: z.string().trim().min(2),
   state: z.string().trim().min(2),
   state_code: z.string().regex(/^[A-Z]{2}$/),
+  photo: z.string().regex(/^[a-z0-9-]+$/).nullable(),
   summary: z.string().trim().min(40),
   listings: z.array(listingSchema).min(1),
 });

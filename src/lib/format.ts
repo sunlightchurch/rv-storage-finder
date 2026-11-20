@@ -1,3 +1,7 @@
+export function locationCount(count: number): string {
+  return count === 1 ? '1 location' : `${count} locations`;
+}
+
 export function formatDate(iso: string): string {
   const [year, month, day] = iso.split('-').map(Number);
   return new Intl.DateTimeFormat('en-US', {

@@ -2,6 +2,8 @@
 import Base from '../../layouts/Base.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { cityStats, countiesInState, directoryStats, getStates, href } from '../../lib/data';
+import { locationCount } from '../../lib/format';
+import { getPhoto } from '../../lib/photos';
 import { medianOf } from '../../lib/guides';
 import { statePhoto } from '../../lib/photos';
 import { formatMoney, formatMonthlyRange, monthlySpan, parsePriceNote } from '../../lib/prices';
@@ -74,13 +76,13 @@ const schema = pageGraph([
             <span class="state-card-copy">
               <span class="eyebrow">{state.code}</span>
               <span class="state-card-name">{state.name}</span>
-              <span class="city-meta">{facilityCount} facilities</span>
+              <span class="city-meta">{locationCount(facilityCount)}</span>
               <span class="city-meta">
                 {span.low != null && span.high != null
                   ? `Published monthly ${formatMonthlyRange(span.low, span.high)}`
-                  : 'No published monthly price'}
+                  : 'No monthly price'}
               </span>
-              {median != null && <span class="city-meta">Median lowest monthly {formatMoney(median)}</span>}
+              {median != null && <span class="city-meta">From {formatMoney(median)}/mo median</span>}
             </span>
           </a>
           <ul class="place-grid">
@@ -90,10 +92,20 @@ const schema = pageGraph([
               return (
                 <li>
                   <a class="place-link" href={href(`/cities/${city.id}/`)}>
+                    <img
+                      src={href(`/${getPhoto(city.photo).files['640']}`)}
+                      srcset={`${href(`/${getPhoto(city.photo).files['640']}`)} 640w, ${href(`/${getPhoto(city.photo).files['960']}`)} 960w`}
+                      sizes="(min-width: 800px) 240px, 100vw"
+                      width={getPhoto(city.photo).width}
+                      height={getPhoto(city.photo).height}
+                      alt=""
+                      loading="lazy"
+                      decoding="async"
+                    />
                     <span class="city-name">{city.city}, {city.state_code}</span>
-                    <span class="count">{cityStats(city).total}</span>
+                    <span class="city-meta">{locationCount(cityStats(city).total)}</span>
                     <span class="city-meta">
-                      {cityMedian != null ? `Median ${formatMoney(cityMedian)}/mo` : 'No monthly price'}
+                      {cityMedian != null ? `From ${formatMoney(cityMedian)}/mo median` : 'No monthly price'}
                     </span>
                   </a>
                 </li>
@@ -107,7 +119,7 @@ const schema = pageGraph([
                   <li>
                     <a href={href(`/states/${state.slug}/${county.id}/`)}>
                       {county.name}
-                      <span class="count">{county.listings.length}</span>
+                      <span class="count">{locationCount(county.listings.length)}</span>
                     </a>
                   </li>
                 ))}

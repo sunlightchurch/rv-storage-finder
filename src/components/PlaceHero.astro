@@ -1,0 +1,23 @@
+---
+import Photo from './Photo.astro';
+import { getPhoto } from '../lib/photos';
+
+interface Props {
+  photo: string | null;
+  name: string;
+  eager?: boolean;
+}
+
+const { photo, name, eager = true } = Astro.props;
+const image = photo ? getPhoto(photo) : null;
+---
+
+{
+  image ? (
+    <Photo photo={image} sizes="(min-width: 900px) 1100px, 100vw" eager={eager} alt="" />
+  ) : (
+    <div class="place-mark">
+      <span>{name}</span>
+    </div>
+  )
+}

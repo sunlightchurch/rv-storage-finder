@@ -264,7 +264,7 @@
       });
       if (empty) empty.hidden = shown !== 0;
       if (count) {
-        const noun = shown === 1 ? 'facility' : 'facilities';
+        const noun = shown === 1 ? 'location' : 'locations';
         let text = `${shown} of ${total} ${noun}`;
         if (useLength && unknownLength) {
           text += `. ${unknownLength} ${unknownLength === 1 ? 'has' : 'have'} no published length, so ${unknownLength === 1 ? 'it is' : 'they are'} not ruled out`;
