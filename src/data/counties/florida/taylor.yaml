@@ -1,0 +1,67 @@
+id: taylor
+name: Taylor County
+state: Florida
+state_code: FL
+summary: >-
+  RV and boat storage in Taylor County with a street address from each
+  facility page. Towns on this page: Perry.
+listings:
+  - slug: storage-place-perry
+    name: The Storage Place - Perry
+    street: 2309 W U.S. 98
+    city: Perry
+    state_code: FL
+    postal_code: "32347"
+    lat: null
+    lng: null
+    phone: "(386) 703-0911"
+    website: https://www.thestorageplacefla.com/self-storage
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The company locations page is titled outdoor boat, RV, and vehicle parking and lists this Perry address. It says prices start at $48 and does not tie that figure to a month or to an RV space."
+    sources:
+      - url: https://www.thestorageplacefla.com/self-storage
+        title: The Storage Place locations
+    last_verified: "2026-11-20"
+
+  - slug: old-hwy-19-rv-park-perry
+    name: Old Hwy 19 RV Park
+    street: 6810 US Hwy 19 S
+    city: Perry
+    state_code: FL
+    postal_code: "32348"
+    lat: null
+    lng: null
+    phone: "(850) 843-6040"
+    website: https://perryfloridarvpark.com/facilities/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The Perry campground page says open boat and RV storage is available, with some restrictions. The other facilities on the page are for guests of the park."
+    sources:
+      - url: https://perryfloridarvpark.com/facilities/
+        title: Old Hwy 19 RV Park facilities
+    last_verified: "2026-11-20"
