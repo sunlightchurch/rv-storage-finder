@@ -1,0 +1,174 @@
+# Verified against public facility pages on 2026-11-20. See PUBLISHING.md.
+# null means the source did not say. Do not guess.
+id: myrtle-beach-sc
+city: Myrtle Beach
+state: South Carolina
+state_code: SC
+metro: Grand Strand
+summary: >-
+  These facilities publish an RV or boat storage page and are in Myrtle Beach or
+  nearby, including Murrells Inlet, Conway, and Little River near North Myrtle
+  Beach. Each card uses only what that page states.
+sparefoot_slug: Myrtle-Beach-SC
+neighbor_path: south-carolina/myrtle-beach
+sparefoot_note: null
+photo: myrtle-beach
+listings:
+  - slug: driftwoods-rv-boat-storage-conway
+    name: Driftwoods RV & Boat Storage
+    street: 6473 Highway 905
+    city: Conway
+    state_code: SC
+    postal_code: "29526"
+    lat: null
+    lng: null
+    phone: 843-231-6810
+    website: https://www.driftwoodsrvrentals.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Outdoor storage for RVs, campers, boats, and trailers. The page says the
+      lot has 24-hour gated access, an 8-foot fence, and cameras, including
+      infrared cameras.
+    sources:
+      - url: https://www.driftwoodsrvrentals.com/
+        title: Official website
+    last_verified: "2026-11-20"
+
+  - slug: harbor-haven-rv-boat-storage
+    name: Harbor Haven RV Boat Storage
+    street: 10615 SC-707
+    city: Myrtle Beach
+    state_code: SC
+    postal_code: null
+    lat: null
+    lng: null
+    phone: "(843) 668-2211"
+    website: https://www.harborhavenrvboatstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Outdoor parking for boats and RVs. The page says the lot is fenced, gated,
+      and camera-monitored, with 24/7 access and an on-site resident manager. It
+      does not print a ZIP code.
+    sources:
+      - url: https://www.harborhavenrvboatstorage.com/
+        title: Official website
+    last_verified: "2026-11-20"
+
+  - slug: inlet-boat-storage-murrells-inlet
+    name: Inlet Boat Storage
+    street: 3463 Highway 17 Business
+    city: Murrells Inlet
+    state_code: SC
+    postal_code: "29576"
+    lat: null
+    lng: null
+    phone: 843-222-3003
+    website: https://inletboatstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: true
+    gated: true
+    cameras: null
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Outdoor spaces are listed as 12 by 40 feet for boats, RVs, campers, and
+      jet skis. The page says the lot is fenced and gated, with 24-hour access
+      and a wash station. A second phone, 843-446-5826, is also printed. Weekly
+      and monthly rates are mentioned without figures.
+    sources:
+      - url: https://inletboatstorage.com/
+        title: Official website
+    last_verified: "2026-11-20"
+
+  - slug: quest-rv-boat-storage-myrtle-beach
+    name: Quest RV & Boat Storage
+    street: 8550 Hwy 544
+    city: Myrtle Beach
+    state_code: SC
+    postal_code: "29588"
+    lat: null
+    lng: null
+    phone: "(843) 424-5947"
+    website: https://www.questrvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    access_hours: "24 hours a day, 7 days a week"
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Uncovered parking for boats, RVs, and trailers, with a gated entry and
+      video surveillance. Staff phone hours are 8:00 am to 5:00 pm, Monday
+      through Friday.
+    sources:
+      - url: https://www.questrvstorage.com/
+        title: Official website
+    last_verified: "2026-11-20"
+
+  - slug: sea-mountain-storage-little-river
+    name: Sea Mountain Storage
+    street: 4362 Sea Mountain Hwy
+    city: Little River
+    state_code: SC
+    postal_code: "29566"
+    lat: null
+    lng: null
+    phone: 843-455-6215
+    website: https://seamountainstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Outdoor lot in the North Myrtle Beach area. Spaces are described as up to
+      40 feet, and the page also says some spots can take larger vehicles. It
+      lists a washdown area and power and water for RVs. Office hours are 8 am
+      to 5 pm every day, with 24/7 lot access. Weekly, monthly, and yearly
+      payment are offered, and rates are call for pricing.
+    sources:
+      - url: https://seamountainstorage.com/
+        title: Official website
+    last_verified: "2026-11-20"
