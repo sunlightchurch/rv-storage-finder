@@ -6,6 +6,8 @@ import FindMore from '../../components/FindMore.astro';
 import ListingCard from '../../components/ListingCard.astro';
 import Photo from '../../components/Photo.astro';
 import { correctionMailto, getCities, getCity, getFilterPages, href, siblingCities, stateSlug } from '../../lib/data';
+import { pageIsThin } from '../../lib/prices';
+import { cityTitle, placeDescription } from '../../lib/seo';
 import { formatBool, formatDate, formatFeet, formatTypes, formatVehicles } from '../../lib/format';
 import { formatPriceBlock } from '../../lib/prices';
 import { fitPagesForCity } from '../../lib/fit';
@@ -20,8 +22,9 @@ export function getStaticPaths() {
 
 const city = getCity(Astro.params.city!);
 const path = `/cities/${city.id}/`;
-const title = `RV and boat storage in ${city.city}, ${city.state_code} | RV Storage Prices`;
-const description = `${city.listings.length} sourced RV and boat storage facilities in and near ${city.city}, ${city.state}. Cover type, length, power, and monthly prices appear only when published.`;
+const title = cityTitle(city);
+const description = placeDescription(`${city.city}, ${city.state_code}`, city.listings);
+const thin = pageIsThin(city.listings);
 const crumbs = [
   { label: 'Home', path: '/' },
   { label: 'States', path: '/states/' },
@@ -107,7 +110,7 @@ const snowbirdGuide =
       : null;
 ---
 
-<Base title={title} description={description} path={path} schema={schema}>
+<Base title={title} description={description} path={path} schema={schema} noindex={thin}>
   <div class="wrap" data-filter-root>
     <Breadcrumbs items={crumbs} />
     <Photo photo={getPhoto(city.photo)} sizes="(min-width: 900px) 1100px, 100vw" eager />

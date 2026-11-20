@@ -1,0 +1,118 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { countiesInState, getStates, href } from '../../lib/data';
+import { medianOf } from '../../lib/guides';
+import { formatMoney, lowestMonthlyAmounts } from '../../lib/prices';
+import { breadcrumbNode, faqNode, pageGraph, webPageNode } from '../../lib/schema';
+
+const focus = ['Florida', 'Arizona', 'Texas', 'Georgia', 'Nevada', 'North Carolina'];
+const rows = getStates()
+  .filter((state) => focus.includes(state.name))
+  .map((state) => {
+    const boats = [
+      ...state.cities.flatMap((city) => city.listings),
+      ...countiesInState(state.code).flatMap((county) => county.listings),
+    ].filter((listing) => listing.vehicles.includes('boat'));
+    const monthly = lowestMonthlyAmounts(boats.map((listing) => listing.price_notes));
+    return {
+      state,
+      boats: boats.length,
+      priced: monthly.length,
+      median: monthly.length ? medianOf(monthly) : null,
+    };
+  });
+const title = 'Boat Storage Costs and Types';
+const description =
+  'Dry stack, a covered or open lot, indoor storage, and a wet slip, with definitions from BoatUS and monthly prices only from facilities in this directory that printed one.';
+const path = '/guides/boat-storage-costs/';
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'Guides', path: '/guides/' },
+  { label: 'Boat storage costs', path },
+];
+const faqs = [
+  {
+    q: 'Is a dry stack the same as a wet slip?',
+    a: 'No. BoatUS describes a dry rack as storage ashore, and a wet slip as leaving the boat in the water. This directory records a rack as enclosed or covered only when the facility page says so.',
+  },
+  {
+    q: 'Are the monthly figures national averages?',
+    a: 'No. Each figure is the median of the lowest monthly amount printed by boat facilities in that state in this directory. A facility that did not print a month is not in the median.',
+  },
+];
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: '2026-11-20' }),
+  breadcrumbNode(crumbs),
+  faqNode(faqs),
+]);
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <article class="wrap prose">
+    <Breadcrumbs items={crumbs} />
+    <h1>Boat storage costs and types</h1>
+    <p>
+      The type names below follow
+      <a href="https://www.boatus.com/expert-advice/expert-advice-archive/2026/october/winter-boat-storage-options">BoatUS on winter storage options</a>
+      and
+      <a href="https://www.boatus.com/expert-advice/expert-advice-archive/2014/april/the-how-tos-of-dry-rack-storage">BoatUS on dry-rack storage</a>.
+      The dollar amounts are not from BoatUS. They are the medians of monthly prices printed by boat facilities in this directory.
+    </p>
+    <h2>Ways a boat is stored</h2>
+    <ul>
+      <li>
+        <strong>Wet slip.</strong> The boat stays in the water. BoatUS notes that this avoids a haul-out, and that ice, lines, and waves are the extra concerns.
+      </li>
+      <li>
+        <strong>Outdoor lot.</strong> The boat is ashore, often on a trailer, in a paved or unpaved yard. BoatUS says this is usually less expensive than indoor storage and needs a cover.
+      </li>
+      <li>
+        <strong>Covered lot.</strong> A roof or canopy over the trailer space. This directory marks a space covered only when the facility page says so.
+      </li>
+      <li>
+        <strong>Indoor.</strong> A shed or an enclosed building. BoatUS describes this as the most protection, with more limited access.
+      </li>
+      <li>
+        <strong>Dry stack.</strong> Racks ashore, with the marina launching the boat. BoatUS notes that racks are built for typical hulls and may not fit an unusual bottom.
+      </li>
+    </ul>
+    <h2>Published monthly prices</h2>
+    <p>
+      Each row counts facilities whose page says they store a boat. The median uses each facility’s lowest printed monthly amount.
+      <a href={href('/boat-storage/')}>Open the six-state list</a>.
+    </p>
+    <div class="table-wrap">
+      <table>
+        <caption>Boat facilities with a published monthly price</caption>
+        <thead>
+          <tr>
+            <th>State</th>
+            <th>Boat locations</th>
+            <th>With a monthly price</th>
+            <th>Median</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map((row) => (
+            <tr>
+              <td><a href={href(`/states/${row.state.slug}/`)}>{row.state.name}</a></td>
+              <td>{row.boats}</td>
+              <td>{row.priced}</td>
+              <td>{row.median == null ? 'No monthly price' : `${formatMoney(row.median)}/mo`}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <section class="faq">
+      <h2>Questions</h2>
+      {faqs.map((faq) => (
+        <>
+          <h3>{faq.q}</h3>
+          <p>{faq.a}</p>
+        </>
+      ))}
+    </section>
+  </article>
+</Base>

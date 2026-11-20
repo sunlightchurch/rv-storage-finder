@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import yaml from 'js-yaml';
+import { lowestMonthlyAmounts } from '../src/lib/prices.ts';
 
 const root = process.cwd();
 const dist = path.join(root, 'dist');
@@ -263,7 +264,43 @@ function checkPlacePhotos() {
   }
 }
 
+function checkMissingPricesCsv() {
+  const dataRoot = path.join(root, 'src/data');
+  const expected = [];
+  const add = (state, stateCode, listings) => {
+    for (const listing of listings) {
+      if (lowestMonthlyAmounts([listing.price_notes]).length) continue;
+      expected.push([state, stateCode, listing.city, listing.name].join('|'));
+    }
+  };
+  for (const file of fs.readdirSync(path.join(dataRoot, 'cities')).filter((name) => name.endsWith('.yaml'))) {
+    const city = yaml.load(fs.readFileSync(path.join(dataRoot, 'cities', file), 'utf8'));
+    add(city.state, city.state_code, city.listings);
+  }
+  const walk = (dir) => {
+    for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+      const full = path.join(dir, entry.name);
+      if (entry.isDirectory()) walk(full);
+      else if (entry.name.endsWith('.yaml')) {
+        const county = yaml.load(fs.readFileSync(full, 'utf8'));
+        add(county.state, county.state_code, county.listings);
+      }
+    }
+  };
+  walk(path.join(dataRoot, 'counties'));
+  const csvPath = path.join(root, 'data/missing-prices.csv');
+  if (!fs.existsSync(csvPath)) {
+    fail('data/missing-prices.csv is missing.');
+    return;
+  }
+  const lines = fs.readFileSync(csvPath, 'utf8').trim().split('\n').slice(1);
+  if (lines.length !== expected.length) {
+    fail(`data/missing-prices.csv has ${lines.length} facilities and the directory has ${expected.length} without a monthly price.`);
+  }
+}
+
 checkPlacePhotos();
+checkMissingPricesCsv();
 
 if (failures.length) {
   console.error(`Verification failed (${failures.length}):`);
