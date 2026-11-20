@@ -537,3 +537,483 @@ listings:
       - url: https://www.southwest-rv.com/rv-storage/
         title: RV storage page
     last_verified: "2026-11-18"
+
+  - slug: uhaul-020086
+    name: Storage Spot
+    street: 507 E Van Buren St
+    city: Avondale
+    state_code: AZ
+    postal_code: 85323
+    lat: null
+    lng: null
+    phone: (623) 738-1125
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Avondale-AZ-85323/020086"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 7 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $110.00 per month (Outside Level, No Climate, No Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 7 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Avondale-AZ-85323/020086"
+        title: Storage Spot location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-858045
+    name: "U-Haul Moving & Storage of Anthem Way"
+    street: 42301 N 41st Dr
+    city: Anthem
+    state_code: AZ
+    postal_code: 85086
+    lat: null
+    lng: null
+    phone: (623) 465-4862
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Anthem-AZ-85086/858045"
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $94.95 per month (Outside Level, No Climate); $149.95 per month (Covered Level, No Climate, Electricity); $194.95 per month (Outside Level, No Climate); $249.95 per month (Covered Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Anthem-AZ-85086/858045"
+        title: "U-Haul Moving & Storage of Anthem Way location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-936057
+    name: "U-Haul Moving & Storage of Laveen"
+    street: 4330 W Southern Ave
+    city: Laveen
+    state_code: AZ
+    postal_code: 85339
+    lat: null
+    lng: null
+    phone: (602) 237-1803
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Laveen-AZ-85339/936057"
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $139.95 per month (Outside Level, No Climate); $139.95 per month (Covered Level, No Electricity); $154.95 per month (Covered Level, No Climate); $159.95 per month (Covered Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Laveen-AZ-85339/936057"
+        title: "U-Haul Moving & Storage of Laveen location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-721037
+    name: "U-Haul Moving & Storage of Litchfield Park"
+    street: 16835 W Northern Ave
+    city: Litchfield Park
+    state_code: AZ
+    postal_code: 85340
+    lat: null
+    lng: null
+    phone: (623) 535-3898
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Litchfield-Park-AZ-85340/721037"
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $209.95 per month (Covered Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Litchfield-Park-AZ-85340/721037"
+        title: "U-Haul Moving & Storage of Litchfield Park location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-822026
+    name: U-Haul of Arcadia
+    street: 4007 E Camelback Rd
+    city: Phoenix
+    state_code: AZ
+    postal_code: 85018
+    lat: null
+    lng: null
+    phone: (602) 840-5378
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Phoenix-AZ-85018/822026"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Phoenix-AZ-85018/822026"
+        title: U-Haul of Arcadia location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-822042
+    name: "U-Haul Moving & Storage at Phoenix Airport"
+    street: 2345 E McDowell Rd
+    city: Phoenix
+    state_code: AZ
+    postal_code: 85006
+    lat: null
+    lng: null
+    phone: (602) 273-4631
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Phoenix-AZ-85006/822042"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Phoenix-AZ-85006/822042"
+        title: "U-Haul Moving & Storage at Phoenix Airport location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-822035
+    name: "U-Haul Moving & Storage of Biltmore"
+    street: 2626 E Indian School Rd
+    city: Phoenix
+    state_code: AZ
+    postal_code: 85016
+    lat: null
+    lng: null
+    phone: (602) 977-0902
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Phoenix-AZ-85016/822035"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Phoenix-AZ-85016/822035"
+        title: "U-Haul Moving & Storage of Biltmore location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1028715
+    name: Arizona Mini Self Storage
+    street: 12650 N Cave Creek
+    city: Phoenix
+    state_code: AZ
+    postal_code: 85022
+    lat: null
+    lng: null
+    phone: (602) 971-6645
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Phoenix-AZ-85022/1028715"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 7 am - 7 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $131.00 per month (1st Floor, Outside Level, Drivethrough)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 7 am - 7 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Phoenix-AZ-85022/1028715"
+        title: Arizona Mini Self Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-822088
+    name: "U-Haul Moving & Storage at Papago Park"
+    street: 4950 E McDowell Rd
+    city: Phoenix
+    state_code: AZ
+    postal_code: 85008
+    lat: null
+    lng: null
+    phone: (602) 267-8355
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Phoenix-AZ-85008/822088"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Phoenix-AZ-85008/822088"
+        title: "U-Haul Moving & Storage at Papago Park location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-858021
+    name: "U-Haul Moving & Storage at 19th & Bell"
+    street: 1935 W Bell Rd
+    city: Phoenix
+    state_code: AZ
+    postal_code: 85023
+    lat: null
+    lng: null
+    phone: (602) 467-1152
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Phoenix-AZ-85023/858021"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Phoenix-AZ-85023/858021"
+        title: "U-Haul Moving & Storage at 19th & Bell location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1028924
+    name: Deer Valley Il Self Storage
+    street: 20550 N 19th Ave
+    city: Phoenix
+    state_code: AZ
+    postal_code: 85027
+    lat: null
+    lng: null
+    phone: (623) 582-0252
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Phoenix-AZ-85027/1028924"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 7 am - 7 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $101.00 per month (1st Floor, Outside Level, Drivethrough); $116.00 per month (1st Floor, Outside Level, Drivethrough)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 7 am - 7 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Phoenix-AZ-85027/1028924"
+        title: Deer Valley Il Self Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-822081
+    name: "U-Haul Moving & Storage of Paradise Valley"
+    street: 4110 E Bell Rd
+    city: Phoenix
+    state_code: AZ
+    postal_code: 85032
+    lat: null
+    lng: null
+    phone: (602) 714-7387
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Phoenix-AZ-85032/822081"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Phoenix-AZ-85032/822081"
+        title: "U-Haul Moving & Storage of Paradise Valley location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-922027
+    name: "U-Haul Moving & Storage of Sun Lakes"
+    street: 24908 S Arizona Ave
+    city: Sun Lakes
+    state_code: AZ
+    postal_code: 85248
+    lat: null
+    lng: null
+    phone: (480) 883-3065
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Sun-Lakes-AZ-85248/922027"
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $154.95 per month (Covered Level, No Climate); $164.95 per month (Covered Level, No Climate); $174.95 per month (Covered Level, No Climate); $219.95 per month (Enclosed Level, No Climate, No Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Sun-Lakes-AZ-85248/922027"
+        title: "U-Haul Moving & Storage of Sun Lakes location page"
+    last_verified: "2026-11-20"
+
+  - slug: cubesmart-phoenix-metro-pkwy
+    name: CubeSmart Self Storage of Phoenix
+    street: 9809 N Metro Pkwy W
+    city: Phoenix
+    state_code: AZ
+    postal_code: 85051
+    lat: null
+    lng: null
+    phone: (480) 602-3775
+    website: "https://www.cubesmart.com/arizona-self-storage/phoenix-self-storage/5082.html"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: month-to-month
+    waitlist: null
+    notes: "The facility page lists RV storage, boat parking, and indoor car parking at this address. Leases are month to month. The phone is the current-customer number on the page."
+    sources:
+      - url: "https://www.cubesmart.com/arizona-self-storage/phoenix-self-storage/5082.html"
+        title: CubeSmart Phoenix Metro Parkway
+    last_verified: "2026-11-20"
+
+  - slug: cubesmart-tempe-baseline
+    name: CubeSmart Self Storage of Tempe
+    street: 1403 W Baseline Rd
+    city: Tempe
+    state_code: AZ
+    postal_code: 85283
+    lat: null
+    lng: null
+    phone: null
+    website: "https://www.cubesmart.com/arizona-self-storage/tempe-self-storage/4503.html"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    access_hours: "Daily 6:00 AM-10:00 PM"
+    price_notes: null
+    billing_term: month-to-month
+    waitlist: null
+    notes: "The Tempe page lists RV storage, boat storage, and outside parking. Access is 6:00 am to 10:00 pm daily. The page also says the facility has 24-hour video recording and electronic gate access. Leases are month to month."
+    sources:
+      - url: "https://www.cubesmart.com/arizona-self-storage/tempe-self-storage/4503.html"
+        title: CubeSmart Tempe Baseline
+    last_verified: "2026-11-20"
+
+  - slug: extra-space-phoenix-broadway
+    name: Extra Space Storage – Broadway Road
+    street: 3650 W Broadway Rd
+    city: Phoenix
+    state_code: AZ
+    postal_code: 85041
+    lat: null
+    lng: null
+    phone: null
+    website: "https://www.extraspace.com/storage/facilities/us/arizona/phoenix/1000000920/id/vehicle-storage/"
+    vehicles: [rv, boat]
+    storage_types: [open, enclosed]
+    max_length_ft: 35
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The Phoenix page lists outdoor parking tagged for RVs, from 8 by 15 ft to 10 by 35 ft, and enclosed units it says can store cars, motorcycles, RVs, and boats. A phone number on the page is a placeholder, so no phone is listed."
+    sources:
+      - url: "https://www.extraspace.com/storage/facilities/us/arizona/phoenix/1000000920/id/vehicle-storage/"
+        title: Extra Space Phoenix Broadway Road vehicle storage
+    last_verified: "2026-11-20"

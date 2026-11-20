@@ -178,3 +178,93 @@ listings:
       - url: https://www.wearervstorage.com/
         title: Official website
     last_verified: "2026-11-18"
+
+  - slug: uhaul-1028483
+    name: San Tan Self Storage
+    street: 2875 West Chandler Blvd
+    city: Chandler
+    state_code: AZ
+    postal_code: 85224
+    lat: null
+    lng: null
+    phone: (480) 963-3484
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Chandler-AZ-85224/1028483"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 7 am - 7 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 7 am - 7 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Chandler-AZ-85224/1028483"
+        title: San Tan Self Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-922046
+    name: "U-Haul Moving & Storage of Downtown Chandler"
+    street: 1375 N Arizona Ave
+    city: Chandler
+    state_code: AZ
+    postal_code: 85225
+    lat: null
+    lng: null
+    phone: (480) 821-2291
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Chandler-AZ-85225/922046"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Chandler-AZ-85225/922046"
+        title: "U-Haul Moving & Storage of Downtown Chandler location page"
+    last_verified: "2026-11-20"
+
+  - slug: extra-space-chandler-elliot
+    name: Extra Space Storage – Elliot Road
+    street: 2880 W Elliot Rd
+    city: Chandler
+    state_code: AZ
+    postal_code: 85224
+    lat: null
+    lng: null
+    phone: (480) 387-1230
+    website: "https://www.extraspace.com/storage/facilities/us/arizona/chandler/1000000272/id/vehicle-storage/"
+    vehicles: [rv, boat]
+    storage_types: [open, enclosed]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "6:00 AM - 10:00 PM"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The Chandler page says it has 10 by 20 ft outdoor parking for large vehicles and RVs, and enclosed drive-up units for motorcycles, boats, and cars. Access is 6:00 am to 10:00 pm. The phone is the current-customer number."
+    sources:
+      - url: "https://www.extraspace.com/storage/facilities/us/arizona/chandler/1000000272/id/vehicle-storage/"
+        title: Extra Space Chandler Elliot Road vehicle storage
+    last_verified: "2026-11-20"

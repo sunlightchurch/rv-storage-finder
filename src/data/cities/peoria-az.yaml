@@ -83,3 +83,35 @@ listings:
       - url: https://hv-rvstorage.com/peoria-az/
         title: Official Peoria page
     last_verified: "2026-11-18"
+
+  - slug: pleasant-harbor-lake-pleasant
+    name: Pleasant Harbor Marina land storage
+    street: 40202 N 87th Ave
+    city: Peoria
+    state_code: AZ
+    postal_code: 85383
+    lat: null
+    lng: null
+    phone: (623) 235-6130
+    website: "https://pleasantharbor.com/marina-at-lake-pleasant/overnight-land-storage/"
+    vehicles: [boat]
+    storage_types: [open, enclosed]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: "Economy uncovered land storage is $5.75 per foot per month with a 22 ft minimum. Dry storage is $14.25 per foot per month, also uncovered, with a 22 ft minimum. Trailer storage is $60 per month. Indoor stack storage is $440, $470, or $500 per month depending on the boat."
+    billing_term: month-to-month
+    waitlist: null
+    notes: "The marina page offers month-to-month land storage for watercraft at Lake Pleasant, including uncovered outdoor spaces and indoor stack storage. A written 30-day notice ends the agreement. Launch and retrieve for dry and stack storage is by the marina."
+    sources:
+      - url: "https://pleasantharbor.com/marina-at-lake-pleasant/overnight-land-storage/"
+        title: Pleasant Harbor land storage
+    fees:
+      deposit: "One month of storage, including water and electric, for the security deposit."
+    last_verified: "2026-11-20"

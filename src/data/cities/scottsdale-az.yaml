@@ -152,3 +152,63 @@ listings:
       - url: https://scottsdaleautogroup.com/vehiclestorage
         title: Vehicle storage page
     last_verified: "2026-11-18"
+
+  - slug: uhaul-1038432
+    name: Adobe RV Storage
+    street: 10000 Technology Dr
+    city: Fountain Hills
+    state_code: AZ
+    postal_code: 85268
+    lat: null
+    lng: null
+    phone: (480) 346-0249
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Fountain-Hills-AZ-85268/1038432"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $207.00 per month (1st Floor, Outside Level, Drivethrough)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Fountain-Hills-AZ-85268/1038432"
+        title: Adobe RV Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: cubesmart-scottsdale-doubletree
+    name: CubeSmart Self Storage of Scottsdale
+    street: 9405 E Doubletree Ranch Rd
+    city: Scottsdale
+    state_code: AZ
+    postal_code: 85258
+    lat: null
+    lng: null
+    phone: null
+    website: "https://www.cubesmart.com/arizona-self-storage/scottsdale-self-storage/4501.html"
+    vehicles: [rv]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: true
+    access_24h: false
+    access_hours: "Daily 6:00 AM-10:00 PM"
+    price_notes: null
+    billing_term: month-to-month
+    waitlist: null
+    notes: "The Scottsdale page lists RV storage at this address and 24-hour video recording. It does not list boat parking in the services for this facility. Access is 6:00 am to 10:00 pm daily. Leases are month to month."
+    sources:
+      - url: "https://www.cubesmart.com/arizona-self-storage/scottsdale-self-storage/4501.html"
+        title: CubeSmart Scottsdale Doubletree Ranch
+    last_verified: "2026-11-20"

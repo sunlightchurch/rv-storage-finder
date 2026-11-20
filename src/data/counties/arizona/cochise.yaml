@@ -1,0 +1,69 @@
+id: cochise
+name: Cochise County
+state: Arizona
+state_code: AZ
+summary: >-
+  RV and boat storage in Cochise County with a street address from each
+  facility page. Towns on this page: Sierra Vista.
+listings:
+  - slug: uhaul-943076
+    name: "U-Haul Moving & Storage of Sierra Vista Southeast"
+    street: 3637 S Hwy 92
+    city: Sierra Vista
+    state_code: AZ
+    postal_code: 85650
+    lat: null
+    lng: null
+    phone: (520) 895-6032
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Sierra-Vista-AZ-85650/943076"
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $74.95 per month (Outside Level, No Climate); $94.95 per month (Outside Level, No Climate); $119.95 per month (Covered Level, No Climate, Electricity); $144.95 per month (Covered Level, No Climate, Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Sierra-Vista-AZ-85650/943076"
+        title: "U-Haul Moving & Storage of Sierra Vista Southeast location page"
+    last_verified: "2026-11-20"
+
+  - slug: pink-door-sierra-vista
+    name: "Pink Door Storage & RV \u2013 Sierra Vista"
+    street: 1400 AZ-92
+    city: Sierra Vista
+    state_code: AZ
+    postal_code: 85635
+    lat: null
+    lng: null
+    phone: (520) 458-1973
+    website: "https://www.pinkdoorstorage.com/self-storage-units-sierra-vista-az"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The Sierra Vista page says its spaces are for RVs, boats, vehicles, and other belongings. The street address is printed on Pink Door's own locations page."
+    sources:
+      - url: "https://www.pinkdoorstorage.com/self-storage-units-sierra-vista-az"
+        title: Pink Door Sierra Vista
+      - url: "https://www.pinkdoorstorage.com/pink-door-storage-all-locations"
+        title: Pink Door locations
+    last_verified: "2026-11-20"

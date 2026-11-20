@@ -1,0 +1,37 @@
+id: yavapai
+name: Yavapai County
+state: Arizona
+state_code: AZ
+summary: >-
+  RV and boat storage in Yavapai County with a street address from each
+  facility page. Towns on this page: Cottonwood.
+listings:
+  - slug: uhaul-1039169
+    name: "Cottonwood Springs RV Park & Storage"
+    street: 420 Happy Jack Way
+    city: Cottonwood
+    state_code: AZ
+    postal_code: 86326
+    lat: null
+    lng: null
+    phone: (928) 386-0852
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Cottonwood-AZ-86326/1039169"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 6 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $70.00 per month; $75.00 per month; $80.00 per month; $85.00 per month."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 6 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Cottonwood-AZ-86326/1039169"
+        title: "Cottonwood Springs RV Park & Storage location page"
+    last_verified: "2026-11-20"

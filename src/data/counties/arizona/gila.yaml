@@ -1,0 +1,37 @@
+id: gila
+name: Gila County
+state: Arizona
+state_code: AZ
+summary: >-
+  RV and boat storage in Gila County with a street address from each facility
+  page. Towns on this page: Payson.
+listings:
+  - slug: uhaul-034376
+    name: Star Valley Storage
+    street: 4167 E Hwy 260
+    city: Payson
+    state_code: AZ
+    postal_code: 85541
+    lat: null
+    lng: null
+    phone: (928) 474-3306
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Payson-AZ-85541/034376"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: "Mon-Fri: 6 am - 8 pm Sat: 24 hours Sun: 6 am - 8 pm F"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $74.00 per month (Outside Level, Drivethrough, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Fri: 6 am - 8 pm Sat: 24 hours Sun: 6 am - 8 pm F."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Payson-AZ-85541/034376"
+        title: Star Valley Storage location page
+    last_verified: "2026-11-20"
