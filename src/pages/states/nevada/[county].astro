@@ -1,0 +1,90 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import ListingCard from '../../../components/ListingCard.astro';
+import { countyPath, getCounties, getCounty, href, stateSlug } from '../../../lib/data';
+import { breadcrumbNode, faqNode, itemListNode, pageGraph, webPageNode } from '../../../lib/schema';
+
+export function getStaticPaths() {
+  return getCounties()
+    .filter((county) => county.state_code === 'NV')
+    .map((county) => ({ params: { county: county.id } }));
+}
+
+const county = getCounty(Astro.params.county!);
+const path = countyPath(county);
+const statePath = `/states/${stateSlug(county.state)}/`;
+const towns = [...new Set(county.listings.map((listing) => listing.city))].sort((a, b) => a.localeCompare(b));
+const townList = towns.length <= 4 ? towns.join(', ') : `${towns.slice(0, 3).join(', ')} and ${towns.length - 3} more`;
+const title = `RV and boat storage in ${county.name}, NV | RV Storage Prices`;
+const description = `${county.listings.length} sourced ${county.listings.length === 1 ? 'facility' : 'facilities'} in ${county.name}, Nevada. Each street address is copied from the facility's own page.`;
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'States', path: '/states/' },
+  { label: 'Nevada', path: statePath },
+  { label: county.name, path },
+];
+const priced = county.listings.filter((listing) => listing.price_notes).length;
+const faqs = [
+  {
+    q: `Which towns are listed in ${county.name}?`,
+    a: `${towns.join(', ')}. A single facility is enough for this county page.`,
+  },
+  {
+    q: `Do the ${county.name} listings publish monthly prices?`,
+    a:
+      priced > 0
+        ? `${priced} of ${county.listings.length} facilities print a price on the source we checked. The rest say not listed.`
+        : `None of the ${county.listings.length} sources we checked printed a price, so every price says not listed.`,
+  },
+];
+const latest = county.listings.map((listing) => listing.last_verified).sort().at(-1);
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: latest }),
+  breadcrumbNode(crumbs),
+  itemListNode(`RV and boat storage in ${county.name}, Nevada`, county.listings),
+  faqNode(faqs),
+]);
+const groups = towns.map((town) => ({
+  town,
+  listings: county.listings.filter((listing) => listing.city === town),
+}));
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <div class="wrap">
+    <Breadcrumbs items={crumbs} />
+    <h1>RV and boat storage in {county.name}, Nevada</h1>
+    <p class="summary">{county.summary}</p>
+    <p class="legend">
+      {county.listings.length} {county.listings.length === 1 ? 'facility' : 'facilities'} in {townList}.
+      Cover, length, power, and price stay blank when the facility page does not say them.
+    </p>
+    {
+      groups.map((group) => (
+        <section>
+          <h2>
+            {group.town}, NV
+          </h2>
+          {group.listings.map((listing) => (
+            <ListingCard listing={listing} />
+          ))}
+        </section>
+      ))
+    }
+    <p>
+      <a href={href(statePath)}>All Nevada pages</a>
+    </p>
+    <section class="faq">
+      <h2>Questions</h2>
+      {
+        faqs.map((faq) => (
+          <>
+            <h3>{faq.q}</h3>
+            <p>{faq.a}</p>
+          </>
+        ))
+      }
+    </section>
+  </div>
+</Base>
