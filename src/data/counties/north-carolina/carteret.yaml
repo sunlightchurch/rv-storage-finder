@@ -4,7 +4,7 @@ state: North Carolina
 state_code: NC
 summary: >-
   RV and boat storage in Carteret County with a street address from each
-  facility page. Towns on this page: Newport.
+  facility page. Towns on this page: Morehead City, Newport.
 listings:
   - slug: uhaul-1027442
     name: "Newport Mini Storage, Inc."
@@ -64,4 +64,64 @@ listings:
     sources:
       - url: "https://www.uhaul.com/Locations/Self-Storage-near-Newport-NC-28570/961080"
         title: "U-Haul Moving & Storage of Newport location page"
+    last_verified: "2026-11-20"
+
+  - slug: seventy-west-marina-morehead
+    name: 70 West Marina
+    street: 4401 Arendell Street
+    city: Morehead City
+    state_code: NC
+    postal_code: "28557"
+    lat: null
+    lng: null
+    phone: "(252) 726-5171"
+    website: https://www.70westmarina.com/
+    vehicles: [boat]
+    storage_types: [enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The Morehead City marina page says dry storage is available and that the marina offers indoor and outdoor storage."
+    sources:
+      - url: https://www.70westmarina.com/
+        title: 70 West Marina
+    last_verified: "2026-11-20"
+
+  - slug: country-living-morehead
+    name: Country Living Boat & RV Storage
+    street: 1809 N 20th St
+    city: Morehead City
+    state_code: NC
+    postal_code: "28557"
+    lat: null
+    lng: null
+    phone: "(252) 271-0280"
+    website: https://countrylivingboatstorage.com/contact/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: "Phone hours Monday-Friday 9:00 AM-5:00 PM"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The contact page gives this Morehead City address for boat and RV storage. Phone hours are printed as Monday through Friday, 9:00 am to 5:00 pm, and the page labels that clock PST."
+    sources:
+      - url: https://countrylivingboatstorage.com/contact/
+        title: Country Living Boat and RV Storage contact
     last_verified: "2026-11-20"

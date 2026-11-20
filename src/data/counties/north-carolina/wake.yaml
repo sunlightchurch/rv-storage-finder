@@ -4,7 +4,7 @@ state: North Carolina
 state_code: NC
 summary: >-
   RV and boat storage in Wake County with a street address from each facility
-  page. Towns on this page: Garner, New Hill.
+  page. Towns on this page: Apex, Garner, New Hill.
 listings:
   - slug: uhaul-1028065
     name: Buffaloe Mini Storage LLC
@@ -124,4 +124,34 @@ listings:
     sources:
       - url: "https://www.uhaul.com/Locations/Self-Storage-near-New-Hill-NC-27562/1030677"
         title: Harris Lake Self Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: crosswinds-jordan-lake
+    name: Crosswinds Marina
+    street: 565 Farrington Road
+    city: Apex
+    state_code: NC
+    postal_code: "27523"
+    lat: null
+    lng: null
+    phone: "(206) 939-7972"
+    website: https://jordanlakeranch.com/crosswinds_marina/
+    vehicles: [boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The Jordan Lake page says Crosswinds has four floating docks for boat storage and three boat storage lots plus one fenced trailer lot, with limited covered storage. Slips have 110V power. Gate hours are posted by season and are not 24 hours."
+    sources:
+      - url: https://jordanlakeranch.com/crosswinds_marina/
+        title: Crosswinds Marina at Jordan Lake
     last_verified: "2026-11-20"

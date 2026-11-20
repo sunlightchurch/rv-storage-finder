@@ -1,0 +1,39 @@
+id: caldwell
+name: Caldwell County
+state: North Carolina
+state_code: NC
+summary: >-
+  RV and boat storage in Caldwell County with a street address from each
+  facility page. Towns on this page: Lenoir.
+listings:
+  - slug: cardinal-lenoir-321
+    name: Cardinal State Storage Lenoir 321
+    street: 2116 Hickory Blvd
+    city: Lenoir
+    state_code: NC
+    postal_code: "28645"
+    lat: null
+    lng: null
+    phone: null
+    website: https://www.lenoirstorage.com/pages/blowing-rock-off-mountain-storage
+    vehicles: [rv, boat]
+    storage_types: [enclosed, open]
+    max_length_ft: 50
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    access_hours: "6:00 AM to 10:00 PM daily"
+    price_notes: null
+    billing_term: month-to-month
+    fees:
+      deposit: "The page says there is no security deposit."
+    waitlist: null
+    notes: "The Lenoir page offers indoor RV storage in 14 by 50 ft units and outdoor parking for RVs, boats, and trailers. It is fenced, with cameras and individual gate codes. Gate access is 6:00 am to 10:00 pm. Leases are month to month. The page describes the lot as off-mountain storage for Blowing Rock and Boone."
+    sources:
+      - url: https://www.lenoirstorage.com/pages/blowing-rock-off-mountain-storage
+        title: Cardinal State Storage Lenoir
+    last_verified: "2026-11-20"
