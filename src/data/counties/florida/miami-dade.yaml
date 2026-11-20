@@ -1,0 +1,97 @@
+id: miami-dade
+name: Miami-Dade County
+state: Florida
+state_code: FL
+summary: >-
+  RV and boat storage in Miami-Dade County with a street address from each
+  facility page. Towns on this page: Medley, North Miami Beach.
+listings:
+  - slug: uhaul-788079
+    name: U-Haul of North Miami Beach
+    street: 2269 NE 163rd St
+    city: North Miami Beach
+    state_code: FL
+    postal_code: 33160
+    lat: null
+    lng: null
+    phone: (305) 947-9833
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-North-Miami-Beach-FL-33160/788079"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-North-Miami-Beach-FL-33160/788079"
+        title: U-Haul of North Miami Beach location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-787015
+    name: "U-Haul Moving & Storage of Doral"
+    street: 8700 NW 77th Crt
+    city: Medley
+    state_code: FL
+    postal_code: 33166
+    lat: null
+    lng: null
+    phone: (305) 805-7109
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Medley-FL-33166/787015"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Medley-FL-33166/787015"
+        title: "U-Haul Moving & Storage of Doral location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-788057
+    name: U-Haul Storage of North Miami Beach
+    street: 2100 NE 162nd St
+    city: North Miami Beach
+    state_code: FL
+    postal_code: 33162
+    lat: null
+    lng: null
+    phone: (305) 947-6461
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-North-Miami-Beach-FL-33162/788057"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 24 hours Move-In Online or Visit Customer Service Location fo."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-North-Miami-Beach-FL-33162/788057"
+        title: U-Haul Storage of North Miami Beach location page
+    last_verified: "2026-11-20"

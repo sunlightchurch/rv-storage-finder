@@ -327,3 +327,153 @@ listings:
       - url: https://www.speedysrvandboatstorage.com/contact-rv-and-boat-storage-in-ocala/
         title: Official contact page
     last_verified: "2026-11-18"
+
+  - slug: uhaul-1036550
+    name: Pinpoint Storage
+    street: 4420 Se 53rd Ave
+    city: Ocala
+    state_code: FL
+    postal_code: 34480
+    lat: null
+    lng: null
+    phone: (352) 200-2421
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Ocala-FL-34480/1036550"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $60.00 per month; $75.00 per month (1st Floor, Outside Level, No Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Ocala-FL-34480/1036550"
+        title: Pinpoint Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1024170
+    name: Affordable Secure Storage - Ocala
+    street: "11055 FL-40"
+    city: Ocala
+    state_code: FL
+    postal_code: 34482
+    lat: null
+    lng: null
+    phone: (352) 873-0995
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Ocala-FL-34482/1024170"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $40.00 per month; $42.00 per month; $50.00 per month."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Ocala-FL-34482/1024170"
+        title: Affordable Secure Storage - Ocala location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-833031
+    name: "U-Haul Moving & Storage of South Ocala"
+    street: 5555 S Pine Ave
+    city: Ocala
+    state_code: FL
+    postal_code: 34480
+    lat: null
+    lng: null
+    phone: (352) 368-7003
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Ocala-FL-34480/833031"
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $79.95 per month (Covered Level, No Climate, Electricity); $149.95 per month (Covered Level, No Climate, Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Ocala-FL-34480/833031"
+        title: "U-Haul Moving & Storage of South Ocala location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-833026
+    name: "U-Haul Moving & Storage of Ocala"
+    street: 505 SW 17th St
+    city: Ocala
+    state_code: FL
+    postal_code: 34471
+    lat: null
+    lng: null
+    phone: (352) 867-8442
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Ocala-FL-34471/833026"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $74.95 per month (Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm Move-In Online or Visit Customer Service Locatio."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Ocala-FL-34471/833026"
+        title: "U-Haul Moving & Storage of Ocala location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1037195
+    name: Affordable Storage Guys Salt Springs
+    street: 25285 Co Road 314
+    city: Salt Springs
+    state_code: FL
+    postal_code: 32134
+    lat: null
+    lng: null
+    phone: (352) 685-4001
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Salt-Springs-FL-32134/1037195"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $50.00 per month (Outside Level)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Salt-Springs-FL-32134/1037195"
+        title: Affordable Storage Guys Salt Springs location page
+    last_verified: "2026-11-20"

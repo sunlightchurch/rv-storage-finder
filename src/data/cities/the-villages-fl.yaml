@@ -221,3 +221,33 @@ listings:
       - url: https://www.recnationstorage.com/storage-facility/fl/fruitland-park/2363-us-441/
         title: Official facility page
     last_verified: "2026-11-19"
+
+  - slug: uhaul-046575
+    name: All A/C Storage
+    street: "1200 Lee St"
+    city: Wildwood
+    state_code: FL
+    postal_code: 34785
+    lat: null
+    lng: null
+    phone: (352) 330-0798
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Wildwood-FL-34785/046575"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $39.95 per month (No Climate); $69.95 per month (No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Fri: 8 am - 6 pm Sat: 9 am - 5 pm Sun: 9 am - 1 pm Features Availa."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Wildwood-FL-34785/046575"
+        title: All A/C Storage location page
+    last_verified: "2026-11-20"

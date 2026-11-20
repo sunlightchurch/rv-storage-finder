@@ -515,3 +515,183 @@ listings:
       - url: https://www.boathouseh2o.com/cape-coral-fl-indoor-dry-stack-storage/
         title: Indoor dry-stack page
     last_verified: "2026-11-18"
+
+  - slug: uhaul-1036564
+    name: "Affordable Secure Storage - Fort Denaud, LLC"
+    street: 4457 Kernel Cir
+    city: Fort Myers
+    state_code: FL
+    postal_code: 33916
+    lat: null
+    lng: null
+    phone: (863) 517-7117
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Labelle-FL-33935/1036564"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $60.00 per month; $75.00 per month; $80.00 per month."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 6 am - 10 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Labelle-FL-33935/1036564"
+        title: "Affordable Secure Storage - Fort Denaud, LLC location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-830025
+    name: "U-Haul Moving & Storage of Cape Coral and North Fort Myers"
+    street: 16901 N Cleveland Ave
+    city: North Fort Myers
+    state_code: FL
+    postal_code: 33903
+    lat: null
+    lng: null
+    phone: (239) 567-9179
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-North-Fort-Myers-FL-33903/830025"
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $219.95 per month (Covered Level, No Climate, Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-North-Fort-Myers-FL-33903/830025"
+        title: "U-Haul Moving & Storage of Cape Coral and North Fort Myers location page"
+    last_verified: "2026-11-20"
+
+  - slug: store-space-10720-metro-parkway-fort-myers
+    name: Store Space Self Storage – Fort Myers
+    street: 10720 Metro Parkway
+    city: Fort Myers
+    state_code: FL
+    postal_code: 33966
+    lat: null
+    lng: null
+    phone: null
+    website: "https://www.storespace.com/storage-locations/florida/storage-units-in-fort-myers/store-space-10720-metro-parkway-fort-myers-33966"
+    vehicles: [boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: month-to-month
+    waitlist: null
+    notes: The location page lists RV or boat storage in the facility features.
+    sources:
+      - url: "https://www.storespace.com/storage-locations/florida/storage-units-in-fort-myers/store-space-10720-metro-parkway-fort-myers-33966"
+        title: Store Space Fort Myers location page
+    last_verified: "2026-11-20"
+
+  - slug: store-space-824-sw-42nd-terrace-cape-coral
+    name: Store Space Self Storage – Cape Coral
+    street: 824 SW 42nd Terrace
+    city: Cape Coral
+    state_code: FL
+    postal_code: 33914
+    lat: null
+    lng: null
+    phone: null
+    website: "https://www.storespace.com/storage-locations/florida/storage-units-in-cape-coral/store-space-824-sw-42nd-terrace-cape-coral-33914"
+    vehicles: [boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: month-to-month
+    waitlist: null
+    notes: The location page lists RV or boat storage in the facility features.
+    sources:
+      - url: "https://www.storespace.com/storage-locations/florida/storage-units-in-cape-coral/store-space-824-sw-42nd-terrace-cape-coral-33914"
+        title: Store Space Cape Coral location page
+    last_verified: "2026-11-20"
+
+  - slug: store-space-26300-old-41-rd-bonita-springs
+    name: Store Space Self Storage – Bonita Springs
+    street: 26300 Old 41 Rd
+    city: Bonita Springs
+    state_code: FL
+    postal_code: 34135
+    lat: null
+    lng: null
+    phone: null
+    website: "https://www.storespace.com/storage-locations/florida/storage-units-in-bonita-springs/store-space-26300-old-41-rd-bonita-springs-34135"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: month-to-month
+    waitlist: null
+    notes: The location page lists RV or boat storage in the facility features.
+    sources:
+      - url: "https://www.storespace.com/storage-locations/florida/storage-units-in-bonita-springs/store-space-26300-old-41-rd-bonita-springs-34135"
+        title: Store Space Bonita Springs location page
+    last_verified: "2026-11-20"
+
+  - slug: store-space-2320-e-mall-dr-fort-myers
+    name: Store Space Self Storage – Fort Myers
+    street: 2320 E Mall Dr
+    city: Fort Myers
+    state_code: FL
+    postal_code: 33901
+    lat: null
+    lng: null
+    phone: null
+    website: "https://www.storespace.com/storage-locations/florida/storage-units-in-fort-myers/store-space-2320-e-mall-dr-fort-myers-33901"
+    vehicles: [boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: month-to-month
+    waitlist: null
+    notes: The location page lists RV or boat storage in the facility features.
+    sources:
+      - url: "https://www.storespace.com/storage-locations/florida/storage-units-in-fort-myers/store-space-2320-e-mall-dr-fort-myers-33901"
+        title: Store Space Fort Myers location page
+    last_verified: "2026-11-20"

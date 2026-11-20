@@ -275,3 +275,63 @@ listings:
       - url: https://www.perdidoboatandrv.com/13131-gulf-beach-hwy-pensacola-fl-32507
         title: Official Gulf Beach Highway page
     last_verified: "2026-11-18"
+
+  - slug: uhaul-1039464
+    name: MILTON SELF STORAGE
+    street: 7464 Alicia Dr.
+    city: Milton
+    state_code: FL
+    postal_code: 32570
+    lat: null
+    lng: null
+    phone: (448) 777-5116
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Milton-FL-32570/1039464"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $45.00 per month."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 7 am - 7 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Milton-FL-32570/1039464"
+        title: MILTON SELF STORAGE location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-778026
+    name: "U-Haul Moving & Storage of North Pensacola"
+    street: 7835 N Davis Hwy
+    city: Pensacola
+    state_code: FL
+    postal_code: 32514
+    lat: null
+    lng: null
+    phone: (850) 479-7450
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Pensacola-FL-32514/778026"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $74.95 per month (Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Pensacola-FL-32514/778026"
+        title: "U-Haul Moving & Storage of North Pensacola location page"
+    last_verified: "2026-11-20"

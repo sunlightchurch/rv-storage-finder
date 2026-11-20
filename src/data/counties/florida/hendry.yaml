@@ -1,0 +1,37 @@
+id: hendry
+name: Hendry County
+state: Florida
+state_code: FL
+summary: >-
+  RV and boat storage in Hendry County with a street address from each
+  facility page. Towns on this page: Clewiston.
+listings:
+  - slug: happy-hawk-clewiston
+    name: Happy Hawk Storage
+    street: 1307 S Olympia St
+    city: Clewiston
+    state_code: FL
+    postal_code: 33440
+    lat: null
+    lng: null
+    phone: (786) 630-4845
+    website: "https://www.happyhawkstorage.com/"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The page says RV, boat, and vehicle storage is available now in open spaces. Gate access is 6:00 am to 10:00 pm. New enclosed drive-up units are described as not open yet."
+    sources:
+      - url: "https://www.happyhawkstorage.com/"
+        title: Happy Hawk Storage
+    last_verified: "2026-11-20"

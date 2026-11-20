@@ -1,0 +1,157 @@
+id: indian-river
+name: Indian River County
+state: Florida
+state_code: FL
+summary: >-
+  RV and boat storage in Indian River County with a street address from each
+  facility page. Towns on this page: Sebastian, Vero Beach.
+listings:
+  - slug: about-storage-sebastian
+    name: About Storage
+    street: 25 Airport Dr W
+    city: Sebastian
+    state_code: FL
+    postal_code: 32958
+    lat: null
+    lng: null
+    phone: (772) 589-0900
+    website: "https://www.aboutstorage.net/"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: true
+    access_24h: null
+    access_hours: "6:00 AM - 9:00 PM"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The Sebastian page says the outdoor lot parks cars, boats, RVs, buses, trailers, and commercial vehicles. Gate hours are 6:00 am to 9:00 pm, and 24-hour access is available when requested. The page says the lot has continuous video surveillance."
+    sources:
+      - url: "https://www.aboutstorage.net/"
+        title: About Storage Sebastian
+    last_verified: "2026-11-20"
+
+  - slug: storeright-sebastian
+    name: StoreRight Self Storage
+    street: 9220 Sebastian Blvd
+    city: Sebastian
+    state_code: FL
+    postal_code: 32958
+    lat: null
+    lng: null
+    phone: (772) 783-1110
+    website: "https://www.storeright.com/location/USA/FL/Sebastian/storeright-sebastian-163824/"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    access_hours: "6:00 AM to 11:00 PM"
+    price_notes: null
+    billing_term: month-to-month
+    waitlist: null
+    notes: "The Sebastian page lists RV, boat, and vehicle storage. The property is fenced and gated, with video recording. Gate hours are 6:00 am to 11:00 pm, and 24-hour access is available upon request. Leases are month to month."
+    sources:
+      - url: "https://www.storeright.com/location/USA/FL/Sebastian/storeright-sebastian-163824/"
+        title: StoreRight Sebastian
+    last_verified: "2026-11-20"
+
+  - slug: old-dixie-warehouse-vero
+    name: Old Dixie Warehouse
+    street: 1330 Old Dixie Hwy SW
+    city: Vero Beach
+    state_code: FL
+    postal_code: 32962
+    lat: null
+    lng: null
+    phone: (772) 569-4837
+    website: "https://www.olddixiewarehouse.com/boat-and-vehicle-storage"
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: month-to-month
+    waitlist: null
+    notes: "The page says the facility stores boats, RVs, motor homes, and trailers, including covered spots for large boats and RVs. It is gated, with a camera system and keypad access. Leases are month to month. Office hours are Monday through Saturday, 8 am to 5 pm."
+    sources:
+      - url: "https://www.olddixiewarehouse.com/boat-and-vehicle-storage"
+        title: Old Dixie Warehouse boat and vehicle storage
+    last_verified: "2026-11-20"
+
+  - slug: champion-storage-vero
+    name: Champion Storage
+    street: 1060 Old Dixie Hwy
+    city: Vero Beach
+    state_code: FL
+    postal_code: 32960
+    lat: null
+    lng: null
+    phone: (772) 562-2246
+    website: "https://www.champion-storage.com/1060-old-dixie-hwy-vero-beach-fl-32960"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    access_hours: "Monday-Saturday 9:00 AM - 5:00 PM; Sunday 9:00 AM - 1:00 PM"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The page says the facility stores cars, RVs, boats, and campers in outdoor bays. It cites surveillance cameras, gated access, and onsite staff. Posted access hours match the office hours, 9:00 am to 5:00 pm Monday through Saturday and 9:00 am to 1:00 pm Sunday."
+    sources:
+      - url: "https://www.champion-storage.com/1060-old-dixie-hwy-vero-beach-fl-32960"
+        title: Champion Storage Vero Beach
+    last_verified: "2026-11-20"
+
+  - slug: cubesmart-vero-beach-20th
+    name: CubeSmart Self Storage of Vero Beach
+    street: 901 20th St
+    city: Vero Beach
+    state_code: FL
+    postal_code: 32960
+    lat: null
+    lng: null
+    phone: (772) 205-6091
+    website: "https://www.cubesmart.com/florida-self-storage/vero-beach-self-storage/4762.html"
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Daily 6:00 AM-10:00 PM"
+    price_notes: "Covered parking is listed at $251.40 per month online for 10 by 25 ft, $259.80 per month online for 10 by 30 ft, and $369.00 per month online for 10 by 35 ft. The page also prints higher in-store prices for those sizes."
+    billing_term: month-to-month
+    waitlist: null
+    notes: "The facility page says this store has RV storage, boat parking, and outdoor vehicle parking. Access hours are 6:00 am to 10:00 pm daily. Leases are month to month. The phone is the current-customer number printed on the page."
+    sources:
+      - url: "https://www.cubesmart.com/florida-self-storage/vero-beach-self-storage/4762.html"
+        title: CubeSmart Vero Beach
+    last_verified: "2026-11-20"

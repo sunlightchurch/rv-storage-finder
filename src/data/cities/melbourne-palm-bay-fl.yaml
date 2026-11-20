@@ -382,3 +382,123 @@ listings:
       - url: https://vierastorageco.com/
         title: Official website
     last_verified: "2026-11-18"
+
+  - slug: uhaul-1037636
+    name: Quatraro Enterprises
+    street: 920 Malabar Rd
+    city: Palm Bay
+    state_code: FL
+    postal_code: 32907
+    lat: null
+    lng: null
+    phone: (321) 759-5245
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Grant-FL-32949/1037636"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $80.00 per month (1st Floor, Outside Level, Drivethrough, No Climate); $80.00 per month (1st Floor, Drivethrough, No Climate, No Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Grant-FL-32949/1037636"
+        title: Quatraro Enterprises location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-781029
+    name: U-Haul Storage of Melbourne
+    street: 376 N Harbor City Blvd
+    city: Melbourne
+    state_code: FL
+    postal_code: 32935
+    lat: null
+    lng: null
+    phone: (321) 757-9580
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Melbourne-FL-32935/781029"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $79.95 per month (Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours Move-In Online or Visit Customer Service Location fo."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Melbourne-FL-32935/781029"
+        title: U-Haul Storage of Melbourne location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-032625
+    name: "BP Storage & Moving"
+    street: 4510 Babcock St NE
+    city: Palm Bay
+    state_code: FL
+    postal_code: 32905
+    lat: null
+    lng: null
+    phone: (321) 837-1660
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Palm-Bay-FL-32905/032625"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $90.00 per month; $200.00 per month (Outside Level)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 6 am - 10 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Palm-Bay-FL-32905/032625"
+        title: "BP Storage & Moving location page"
+    last_verified: "2026-11-20"
+
+  - slug: store-space-526-peachtree-st-cocoa
+    name: Store Space Self Storage – Cocoa
+    street: 526 Peachtree St
+    city: Cocoa
+    state_code: FL
+    postal_code: 32922
+    lat: null
+    lng: null
+    phone: null
+    website: "https://www.storespace.com/storage-locations/florida/storage-units-in-cocoa/store-space-526-peachtree-st-cocoa-32922"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: month-to-month
+    waitlist: null
+    notes: The location page lists RV or boat storage in the facility features.
+    sources:
+      - url: "https://www.storespace.com/storage-locations/florida/storage-units-in-cocoa/store-space-526-peachtree-st-cocoa-32922"
+        title: Store Space Cocoa location page
+    last_verified: "2026-11-20"

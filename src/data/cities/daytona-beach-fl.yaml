@@ -318,3 +318,93 @@ listings:
       - url: https://rvboatstoragepalmcoast.com/
         title: Steel Rail RV and Boat Outdoor Storage
     last_verified: "2026-11-20"
+
+  - slug: uhaul-829033
+    name: "U-Haul Moving & Storage of Debary"
+    street: 2861 Enterprise Rd
+    city: Debary
+    state_code: FL
+    postal_code: 32713
+    lat: null
+    lng: null
+    phone: (386) 668-9409
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Debary-FL-32713/829033"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm Move-In Online or Visit Customer Service Locatio."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Debary-FL-32713/829033"
+        title: "U-Haul Moving & Storage of Debary location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-829053
+    name: "U-Haul Moving & Storage of Orange City"
+    street: 2395 S Volusia Ave
+    city: Orange City
+    state_code: FL
+    postal_code: 32763
+    lat: null
+    lng: null
+    phone: (386) 228-3113
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Orange-City-FL-32763/829053"
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $149.95 per month (Covered Level, No Climate); $204.95 per month (Covered Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Orange-City-FL-32763/829053"
+        title: "U-Haul Moving & Storage of Orange City location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-037425
+    name: Acorn Mini Storage Of Port Orange
+    street: 500 Turnbull Bay Rd
+    city: New Smyrna Beach
+    state_code: FL
+    postal_code: 32168
+    lat: null
+    lng: null
+    phone: (386) 254-3178
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Port-Orange-FL-32128/037425"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $175.00 per month."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 7 am - 10 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Port-Orange-FL-32128/037425"
+        title: Acorn Mini Storage Of Port Orange location page
+    last_verified: "2026-11-20"

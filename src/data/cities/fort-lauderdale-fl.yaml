@@ -319,3 +319,33 @@ listings:
       - url: https://www.vaultmarinefl.com/
         title: Official website
     last_verified: "2026-11-18"
+
+  - slug: uhaul-788029
+    name: "U-Haul Moving & Storage at Sample and Powerline"
+    street: 2150 W Sample Rd
+    city: Pompano Beach
+    state_code: FL
+    postal_code: 33073
+    lat: null
+    lng: null
+    phone: (954) 946-3711
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Pompano-Beach-FL-33073/788029"
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $304.95 per month (Covered Level, No Climate, No Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Pompano-Beach-FL-33073/788029"
+        title: "U-Haul Moving & Storage at Sample and Powerline location page"
+    last_verified: "2026-11-20"

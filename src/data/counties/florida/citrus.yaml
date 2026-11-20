@@ -1,0 +1,248 @@
+id: citrus
+name: Citrus County
+state: Florida
+state_code: FL
+summary: >-
+  RV and boat storage in Citrus County with a street address from each
+  facility page. Towns on this page: Beverly Hills, Crystal River, Dunnellon,
+  Floral City, Hernando.
+listings:
+  - slug: uhaul-1036709
+    name: "Affordable Secure Storage - Dunnellon, LLC"
+    street: 2723 W. Dunnellon Rd.
+    city: Dunnellon
+    state_code: FL
+    postal_code: 34433
+    lat: null
+    lng: null
+    phone: (352) 465-7500
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Dunnellon-FL-34433/1036709"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 24 hours"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Dunnellon-FL-34433/1036709"
+        title: "Affordable Secure Storage - Dunnellon, LLC location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1033621
+    name: Affordable Secure Storage - Floral City
+    street: 8425 E. Rosko Ct
+    city: Floral City
+    state_code: FL
+    postal_code: 34436
+    lat: null
+    lng: null
+    phone: (352) 419-7116
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Floral-City-FL-34436/1033621"
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $40.00 per month; $45.00 per month; $170.00 per month (Covered Level, Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Floral-City-FL-34436/1033621"
+        title: Affordable Secure Storage - Floral City location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1038818
+    name: "Affordable Secure Storage - Beverly Hills, LLC"
+    street: "3330 N Lecanto Hwy"
+    city: Beverly Hills
+    state_code: FL
+    postal_code: 34465
+    lat: null
+    lng: null
+    phone: (352) 513-2022
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Beverly-Hills-FL-34465/1038818"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $65.00 per month."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Beverly-Hills-FL-34465/1038818"
+        title: "Affordable Secure Storage - Beverly Hills, LLC location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1008085
+    name: A Plus Self-Storage
+    street: 8410 E. Gobbler Dr.
+    city: Floral City
+    state_code: FL
+    postal_code: 34436
+    lat: null
+    lng: null
+    phone: (352) 568-0511
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Bushnell-FL-33513/1008085"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $160.00 per month."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Bushnell-FL-33513/1008085"
+        title: A Plus Self-Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1032789
+    name: Affordable Secure Storage - Backyard
+    street: 2405 E. Norvell Bryant Hwy
+    city: Hernando
+    state_code: FL
+    postal_code: 34442
+    lat: null
+    lng: null
+    phone: (352) 765-3673
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Hernando-FL-34442/1032789"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $50.00 per month; $55.00 per month (Outside Level)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Hernando-FL-34442/1032789"
+        title: Affordable Secure Storage - Backyard location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1037557
+    name: Affordable Secure Storage - West Hernando
+    street: 3640 North Carl G. Rose Hwy
+    city: Hernando
+    state_code: FL
+    postal_code: 34442
+    lat: null
+    lng: null
+    phone: (352) 419-4131
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Hernando-FL-34442/1037557"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $45.00 per month."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Hernando-FL-34442/1037557"
+        title: Affordable Secure Storage - West Hernando location page
+    last_verified: "2026-11-20"
+
+  - slug: century-4055-n-citrus-avenue-crystal-river
+    name: Century Storage – Crystal River
+    street: 4055 N Citrus Avenue
+    city: Crystal River
+    state_code: FL
+    postal_code: 34428
+    lat: null
+    lng: null
+    phone: (352) 563-5050
+    website: "https://www.century-storage.com/storage-locations/fl/crystal-river/4055-n-citrus-avenue"
+    vehicles: [rv, boat]
+    storage_types: [enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: month-to-month
+    waitlist: null
+    notes: The location page lists RV or boat storage at this address. It also says month-to-month rentals.
+    sources:
+      - url: "https://www.century-storage.com/storage-locations/fl/crystal-river/4055-n-citrus-avenue"
+        title: Century Storage – Crystal River location page
+    last_verified: "2026-11-20"
+
+  - slug: crystal-river-boat-rv-storage
+    name: Crystal River Boat and RV Storage
+    street: 230 S Suncoast Blvd
+    city: Crystal River
+    state_code: FL
+    postal_code: 34429
+    lat: null
+    lng: null
+    phone: (352) 423-1504
+    website: "https://crystalriverboatrvstorage.com/"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: null
+    price_notes: The page says storage starts at $50 per month.
+    billing_term: null
+    waitlist: null
+    notes: The facility page offers boat and RV storage on S. Suncoast Blvd and says access is 24/7.
+    sources:
+      - url: "https://crystalriverboatrvstorage.com/"
+        title: Crystal River Boat and RV Storage
+    last_verified: "2026-11-20"

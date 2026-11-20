@@ -183,3 +183,63 @@ listings:
       - url: http://store-itpcb.com/store-it-mini-warehouses-storage-policies/
         title: Official RV and boat sizes page
     last_verified: "2026-11-18"
+
+  - slug: uhaul-1028770
+    name: Shalimar Storage Of By The Sea Resorts
+    street: 17615 Panama City Beach Pkwy
+    city: Panama City Beach
+    state_code: FL
+    postal_code: 32413
+    lat: null
+    lng: null
+    phone: (850) 235-2543
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Panama-City-Beach-FL-32413/1028770"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $79.95 per month (1st Floor, Outside Level, Drivethrough, No Climate); $79.00 per month (1st Floor, Outside Level, Drivethrough, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Panama-City-Beach-FL-32413/1028770"
+        title: Shalimar Storage Of By The Sea Resorts location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-778061
+    name: "U-Haul Moving & Storage of Panama City"
+    street: 1000 W 15th St
+    city: Panama City
+    state_code: FL
+    postal_code: 32401
+    lat: null
+    lng: null
+    phone: (850) 769-3268
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Panama-City-FL-32401/778061"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Panama-City-FL-32401/778061"
+        title: "U-Haul Moving & Storage of Panama City location page"
+    last_verified: "2026-11-20"

@@ -417,3 +417,93 @@ listings:
       - url: https://veniceoutdoorstorage.com/
         title: Official website
     last_verified: "2026-11-18"
+
+  - slug: uhaul-830083
+    name: "U-Haul Moving & Storage of Lakewood Ranch"
+    street: 14703 FL-64
+    city: Bradenton
+    state_code: FL
+    postal_code: 34212
+    lat: null
+    lng: null
+    phone: (941) 357-4097
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Bradenton-FL-34212/830083"
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $524.95 per month (1st Floor, Covered Level, No Climate, Electricity); $549.95 per month (1st Floor, Covered Level, No Climate, Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Bradenton-FL-34212/830083"
+        title: "U-Haul Moving & Storage of Lakewood Ranch location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-830027
+    name: "U-Haul Moving & Storage of North Port"
+    street: 5055 Pan American Blvd
+    city: North Port
+    state_code: FL
+    postal_code: 34287
+    lat: null
+    lng: null
+    phone: (941) 426-6464
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-North-Port-FL-34287/830027"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-North-Port-FL-34287/830027"
+        title: "U-Haul Moving & Storage of North Port location page"
+    last_verified: "2026-11-20"
+
+  - slug: store-space-2704-victory-rd-ellenton
+    name: Store Space Self Storage – Ellenton
+    street: 2704 Victory Rd
+    city: Ellenton
+    state_code: FL
+    postal_code: 34222
+    lat: null
+    lng: null
+    phone: null
+    website: "https://www.storespace.com/storage-locations/florida/storage-units-in-ellenton/store-space-2704-victory-rd-ellenton-34222"
+    vehicles: [boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: month-to-month
+    waitlist: null
+    notes: The location page lists RV or boat storage in the facility features.
+    sources:
+      - url: "https://www.storespace.com/storage-locations/florida/storage-units-in-ellenton/store-space-2704-victory-rd-ellenton-34222"
+        title: Store Space Ellenton location page
+    last_verified: "2026-11-20"

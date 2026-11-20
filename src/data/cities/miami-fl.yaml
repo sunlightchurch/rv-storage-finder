@@ -293,3 +293,63 @@ listings:
       - url: https://www.publicstorage.com/self-storage-fl-hialeah/1573.html
         title: Public Storage location page
     last_verified: "2026-11-18"
+
+  - slug: uhaul-049387
+    name: Central Mini Storage
+    street: 3645 NW 7th St
+    city: Miami
+    state_code: FL
+    postal_code: 33125
+    lat: null
+    lng: null
+    phone: (305) 643-5885
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Miami-FL-33125/049387"
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $150.00 per month (Lower Level, Covered Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sat: 8 am - 6 pm Sun: 9 am - 5 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Miami-FL-33125/049387"
+        title: Central Mini Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-787072
+    name: "U-Haul Moving & Storage of Dolphin"
+    street: 10895 NW 21st St
+    city: Miami
+    state_code: FL
+    postal_code: 33172
+    lat: null
+    lng: null
+    phone: (305) 406-1006
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Miami-FL-33172/787072"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Miami-FL-33172/787072"
+        title: "U-Haul Moving & Storage of Dolphin location page"
+    last_verified: "2026-11-20"

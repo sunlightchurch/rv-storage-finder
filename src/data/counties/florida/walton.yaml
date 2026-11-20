@@ -1,0 +1,37 @@
+id: walton
+name: Walton County
+state: Florida
+state_code: FL
+summary: >-
+  RV and boat storage in Walton County with a street address from each
+  facility page. Towns on this page: Santa Rosa Beach.
+listings:
+  - slug: outback-mini-santa-rosa-beach
+    name: Outback Mini Storage
+    street: 671 S Church St
+    city: Santa Rosa Beach
+    state_code: FL
+    postal_code: 32459
+    lat: null
+    lng: null
+    phone: (850) 267-2194
+    website: "https://outbackministorage.com/"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: true
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: The facility page says it offers boat and RV storage and that the lot has 24/7 cameras and access codes.
+    sources:
+      - url: "https://outbackministorage.com/"
+        title: Outback Mini Storage
+    last_verified: "2026-11-20"

@@ -481,3 +481,243 @@ listings:
       - url: https://westtampastorage.com/rates/
         title: Rates page
     last_verified: "2026-11-18"
+
+  - slug: uhaul-786031
+    name: "U-Haul Moving & Storage at Eastlake"
+    street: 3182 Curlew Rd
+    city: Oldsmar
+    state_code: FL
+    postal_code: 34677
+    lat: null
+    lng: null
+    phone: (813) 854-5002
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Oldsmar-FL-34677/786031"
+    vehicles: [rv, boat]
+    storage_types: [enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $119.95 per month (Outside Level, No Climate); $424.95 per month (Enclosed Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Oldsmar-FL-34677/786031"
+        title: "U-Haul Moving & Storage at Eastlake location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-955058
+    name: "U-Haul Moving & Storage Of East Tampa"
+    street: 5806 N 56th St
+    city: Tampa
+    state_code: FL
+    postal_code: 33610
+    lat: null
+    lng: null
+    phone: (813) 621-9764
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Tampa-FL-33610/955058"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Tampa-FL-33610/955058"
+        title: "U-Haul Moving & Storage Of East Tampa location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-955040
+    name: U-Haul Big Toy Storage
+    street: 11915 US-301
+    city: Thonotosassa
+    state_code: FL
+    postal_code: 33592
+    lat: null
+    lng: null
+    phone: (813) 986-8697
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Thonotosassa-FL-33592/955040"
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $194.95 per month (Outside Level, No Climate); $339.95 per month (Covered Level, No Climate, Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Thonotosassa-FL-33592/955040"
+        title: U-Haul Big Toy Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-786033
+    name: "U-Haul Moving & Storage at Florida Ave"
+    street: 9505 N Florida Ave
+    city: Tampa
+    state_code: FL
+    postal_code: 33612
+    lat: null
+    lng: null
+    phone: (813) 933-0499
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Tampa-FL-33612/786033"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Tampa-FL-33612/786033"
+        title: "U-Haul Moving & Storage at Florida Ave location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-786023
+    name: "U-Haul Moving & Storage at West Waters Ave"
+    street: 5404 W Waters Ave
+    city: Tampa
+    state_code: FL
+    postal_code: 33634
+    lat: null
+    lng: null
+    phone: (813) 249-9677
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Tampa-FL-33634/786023"
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $249.95 per month (Covered Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Tampa-FL-33634/786023"
+        title: "U-Haul Moving & Storage at West Waters Ave location page"
+    last_verified: "2026-11-20"
+
+  - slug: store-space-905-n-kingsway-rd-seffner
+    name: Store Space Self Storage – Seffner
+    street: 905 N Kingsway Rd
+    city: Seffner
+    state_code: FL
+    postal_code: 33584
+    lat: null
+    lng: null
+    phone: null
+    website: "https://www.storespace.com/storage-locations/florida/storage-units-in-seffner/store-space-905-n-kingsway-rd-seffner-33584"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: month-to-month
+    waitlist: null
+    notes: The location page lists RV or boat storage in the facility features.
+    sources:
+      - url: "https://www.storespace.com/storage-locations/florida/storage-units-in-seffner/store-space-905-n-kingsway-rd-seffner-33584"
+        title: Store Space Seffner location page
+    last_verified: "2026-11-20"
+
+  - slug: store-space-1517-e-fowler-ave-tampa
+    name: Store Space Self Storage – Tampa
+    street: 1517 E Fowler Ave
+    city: Tampa
+    state_code: FL
+    postal_code: 33612
+    lat: null
+    lng: null
+    phone: null
+    website: "https://www.storespace.com/storage-locations/florida/storage-units-in-tampa/store-space-1517-e-fowler-ave-tampa-33612"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: month-to-month
+    waitlist: null
+    notes: The location page lists RV or boat storage in the facility features.
+    sources:
+      - url: "https://www.storespace.com/storage-locations/florida/storage-units-in-tampa/store-space-1517-e-fowler-ave-tampa-33612"
+        title: Store Space Tampa location page
+    last_verified: "2026-11-20"
+
+  - slug: century-riverview-rhodine
+    name: "Century Storage – Riverview"
+    street: "11070 Rhodine Road"
+    city: Riverview
+    state_code: FL
+    postal_code: "33579"
+    lat: null
+    lng: null
+    phone: "(813) 671-7225"
+    website: https://www.century-storage.com/storage-locations/fl/riverview/11070-rhodine-road
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: month-to-month
+    waitlist: null
+    notes: "The Riverview page lists covered, enclosed, and outdoor RV, auto, and boat storage, controlled gate access, and electricity in the space. Rentals are month to month."
+    sources:
+      - url: https://www.century-storage.com/storage-locations/fl/riverview/11070-rhodine-road
+        title: Century Storage Riverview
+    last_verified: "2026-11-20"

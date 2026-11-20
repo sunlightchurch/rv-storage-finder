@@ -458,3 +458,213 @@ listings:
       - url: https://www.topnotchrvstorage.com/
         title: Official website
     last_verified: "2026-11-18"
+
+  - slug: uhaul-829055
+    name: "U-Haul Moving & Storage of Apopka"
+    street: 1221 E Semoran Blvd
+    city: Apopka
+    state_code: FL
+    postal_code: 32703
+    lat: null
+    lng: null
+    phone: (407) 889-5550
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Apopka-FL-32703/829055"
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $134.95 per month (Covered Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Apopka-FL-32703/829055"
+        title: "U-Haul Moving & Storage of Apopka location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-956050
+    name: "U-Haul Moving & Storage Of Baldwin Park"
+    street: 4001 E Colonial Dr
+    city: Orlando
+    state_code: FL
+    postal_code: 32803
+    lat: null
+    lng: null
+    phone: (407) 894-6011
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Orlando-FL-32803/956050"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Orlando-FL-32803/956050"
+        title: "U-Haul Moving & Storage Of Baldwin Park location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-956082
+    name: "U-Haul Moving & Storage At Gatorland"
+    street: 14651 Gatorland Dr
+    city: Orlando
+    state_code: FL
+    postal_code: 32837
+    lat: null
+    lng: null
+    phone: (407) 857-7867
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Orlando-FL-32837/956082"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Orlando-FL-32837/956082"
+        title: "U-Haul Moving & Storage At Gatorland location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-785027
+    name: "U-Haul Moving & Storage at Kirkman Rd"
+    street: 600 S Kirkman Rd
+    city: Orlando
+    state_code: FL
+    postal_code: 32811
+    lat: null
+    lng: null
+    phone: (407) 295-3100
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Orlando-FL-32811/785027"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Orlando-FL-32811/785027"
+        title: "U-Haul Moving & Storage at Kirkman Rd location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-001446
+    name: I 4 Mini Storage
+    street: 222 Hickman Dr No 100
+    city: Sanford
+    state_code: FL
+    postal_code: 32771
+    lat: null
+    lng: null
+    phone: (407) 302-7635
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Sanford-FL-32771/001446"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $75.00 per month (Lower Level, Outside Level, Drivethrough, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Sanford-FL-32771/001446"
+        title: I 4 Mini Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-829054
+    name: "U-Haul Moving & Storage at Lake Mary Blvd"
+    street: 3851 S Orlando Dr
+    city: Sanford
+    state_code: FL
+    postal_code: 32773
+    lat: null
+    lng: null
+    phone: (407) 322-3167
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Sanford-FL-32773/829054"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $104.95 per month (Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Sanford-FL-32773/829054"
+        title: "U-Haul Moving & Storage at Lake Mary Blvd location page"
+    last_verified: "2026-11-20"
+
+  - slug: store-space-3980-e-lake-mary-blvd-sanford
+    name: Store Space Self Storage – Sanford
+    street: 3980 E Lake Mary Blvd
+    city: Sanford
+    state_code: FL
+    postal_code: 32773
+    lat: null
+    lng: null
+    phone: null
+    website: "https://www.storespace.com/storage-locations/florida/storage-units-in-sanford/store-space-3980-e-lake-mary-blvd-sanford-32773"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: month-to-month
+    waitlist: null
+    notes: The location page lists RV or boat storage in the facility features.
+    sources:
+      - url: "https://www.storespace.com/storage-locations/florida/storage-units-in-sanford/store-space-3980-e-lake-mary-blvd-sanford-32773"
+        title: Store Space Sanford location page
+    last_verified: "2026-11-20"

@@ -2,7 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import FindMore from '../../components/FindMore.astro';
-import { absolute, cityStats, getState, getStates, href } from '../../lib/data';
+import { absolute, cityStats, countiesInState, countyPath, getState, getStates, href } from '../../lib/data';
 import { getPhoto, statePhoto } from '../../lib/photos';
 import Photo from '../../components/Photo.astro';
 import { breadcrumbNode, faqNode, pageGraph, webPageNode } from '../../lib/schema';
@@ -45,7 +45,9 @@ const ruleNote = {
   },
 }[state.code];
 const path = `/states/${state.slug}/`;
+const hubs = countiesInState(state.code);
 const total = state.cities.reduce((sum, city) => sum + city.listings.length, 0);
+const hubTotal = hubs.reduce((sum, county) => sum + county.listings.length, 0);
 const names = state.cities.map((city) => city.city);
 const shortList = names.length <= 3 ? names.join(' and ') : `${names.slice(0, 2).join(', ')} and ${names.length - 2} more`;
 const title = `RV and boat storage in ${state.name} | RV Storage Prices`;
@@ -58,7 +60,7 @@ const crumbs = [
 const faqs = [
   {
     q: `Which ${state.name} cities have RV and boat storage listings?`,
-    a: `${state.cities.map((city) => `${city.city} (${city.listings.length} facilities)`).join('; ')}. A facility keeps the city printed on its own page, which may be a suburb of that metro.`,
+    a: `${state.cities.map((city) => `${city.city} (${city.listings.length} facilities)`).join('; ')}.${hubs.length ? ` Smaller towns are on ${hubs.map((county) => `${county.name} (${county.listings.length})`).join('; ')}.` : ''} A facility keeps the city printed on its own page.`,
   },
 ];
 const latest = state.cities
@@ -71,13 +73,21 @@ const schema = pageGraph([
   {
     '@type': 'ItemList',
     name: `RV and boat storage in ${state.name}`,
-    numberOfItems: state.cities.length,
-    itemListElement: state.cities.map((city, index) => ({
-      '@type': 'ListItem',
-      position: index + 1,
-      name: `${city.city}, ${city.state_code}`,
-      url: absolute(`/cities/${city.id}/`),
-    })),
+      numberOfItems: state.cities.length + hubs.length,
+    itemListElement: [
+      ...state.cities.map((city, index) => ({
+        '@type': 'ListItem',
+        position: index + 1,
+        name: `${city.city}, ${city.state_code}`,
+        url: absolute(`/cities/${city.id}/`),
+      })),
+      ...hubs.map((county, index) => ({
+        '@type': 'ListItem',
+        position: state.cities.length + index + 1,
+        name: `${county.name}, ${county.state_code}`,
+        url: absolute(countyPath(county)),
+      })),
+    ],
   },
   faqNode(faqs),
 ]);
@@ -90,7 +100,8 @@ const schema = pageGraph([
     <h1>RV and boat storage in {state.name}</h1>
     <p class="summary">
       {total} facilities across {state.cities.length === 1 ? 'one metro' : `${state.cities.length} metros`}.
-      Open a city for cover type, length, power, and prices that the facility actually published.
+      {hubTotal > 0 ? ` ${hubTotal} more are on county pages for towns that are not part of those metros.` : ''}
+      Open a page for cover type, length, power, and prices that the facility actually published.
     </p>
     <ul class="city-grid">
       {
@@ -117,6 +128,26 @@ const schema = pageGraph([
         })
       }
     </ul>
+    {
+      hubs.length > 0 && (
+        <section>
+          <h2>County pages</h2>
+          <p>
+            A town with fewer facilities has its own county page, including a page that lists a single
+            lot. The town on the card is the one printed by the facility.
+          </p>
+          <ul>
+            {hubs.map((county) => (
+              <li>
+                <a href={href(countyPath(county))}>{county.name}</a>
+                {' · '}
+                {county.listings.length} {county.listings.length === 1 ? 'facility' : 'facilities'}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
     {
       state.cities.map((city) => (
         <section>

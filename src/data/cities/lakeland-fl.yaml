@@ -353,3 +353,243 @@ listings:
       - url: https://www.winterhavenrvboatstorage.com/
         title: Official website
     last_verified: "2026-11-18"
+
+  - slug: uhaul-785030
+    name: "U-Haul Moving & Storage of Haines City"
+    street: 3307 US Hwy 17-92 W
+    city: Haines City
+    state_code: FL
+    postal_code: 33844
+    lat: null
+    lng: null
+    phone: (863) 588-0707
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Haines-City-FL-33844/785030"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $79.95 per month (Outside Level, No Climate); $129.95 per month (Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Haines-City-FL-33844/785030"
+        title: "U-Haul Moving & Storage of Haines City location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1029722
+    name: Affordable Secure Storage - Lakeland
+    street: 1925 George Jenkins Boulevard
+    city: Lakeland
+    state_code: FL
+    postal_code: 33815
+    lat: null
+    lng: null
+    phone: (863) 682-2988
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Lakeland-FL-33815/1029722"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $75.00 per month."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Lakeland-FL-33815/1029722"
+        title: Affordable Secure Storage - Lakeland location page
+    last_verified: "2026-11-20"
+
+  - slug: century-1990-davenport-blvd-davenport
+    name: Century Storage – Davenport
+    street: 1990 Davenport Blvd
+    city: Davenport
+    state_code: FL
+    postal_code: 33837
+    lat: null
+    lng: null
+    phone: (863) 419-9612
+    website: "https://www.century-storage.com/storage-locations/fl/davenport/1990-davenport-blvd"
+    vehicles: [rv, boat]
+    storage_types: [enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: month-to-month
+    waitlist: null
+    notes: The location page lists RV or boat storage at this address. It also says month-to-month rentals.
+    sources:
+      - url: "https://www.century-storage.com/storage-locations/fl/davenport/1990-davenport-blvd"
+        title: Century Storage – Davenport location page
+    last_verified: "2026-11-20"
+
+  - slug: century-2350-sleepy-hill-road-lakeland
+    name: Century Storage – Lakeland
+    street: 2350 Sleepy Hill Road
+    city: Lakeland
+    state_code: FL
+    postal_code: 33810
+    lat: null
+    lng: null
+    phone: (863) 815-9229
+    website: "https://www.century-storage.com/storage-locations/fl/lakeland/2350-sleepy-hill-road"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: month-to-month
+    waitlist: null
+    notes: The location page lists RV or boat storage at this address. It also says month-to-month rentals.
+    sources:
+      - url: "https://www.century-storage.com/storage-locations/fl/lakeland/2350-sleepy-hill-road"
+        title: Century Storage – Lakeland location page
+    last_verified: "2026-11-20"
+
+  - slug: century-6350-us-hwy-98-north-lakeland
+    name: Century Storage – Lakeland
+    street: 6350 US HWY 98 North
+    city: Lakeland
+    state_code: FL
+    postal_code: 33809
+    lat: null
+    lng: null
+    phone: (863) 859-9020
+    website: "https://www.century-storage.com/storage-locations/fl/lakeland/6350-us-hwy-98-north"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: month-to-month
+    waitlist: null
+    notes: The location page lists RV or boat storage at this address. It also says month-to-month rentals.
+    sources:
+      - url: "https://www.century-storage.com/storage-locations/fl/lakeland/6350-us-hwy-98-north"
+        title: Century Storage – Lakeland location page
+    last_verified: "2026-11-20"
+
+  - slug: century-7730-lucerne-park-rd-winter-haven
+    name: Century Storage – Winter Haven
+    street: 7730 Lucerne Park Rd
+    city: Winter Haven
+    state_code: FL
+    postal_code: 33881
+    lat: null
+    lng: null
+    phone: (863) 875-8691
+    website: "https://www.century-storage.com/storage-locations/fl/winter-haven/7730-lucerne-park-rd"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: month-to-month
+    waitlist: null
+    notes: The location page lists RV or boat storage at this address. It also says month-to-month rentals.
+    sources:
+      - url: "https://www.century-storage.com/storage-locations/fl/winter-haven/7730-lucerne-park-rd"
+        title: Century Storage – Winter Haven location page
+    last_verified: "2026-11-20"
+
+  - slug: century-3220-cypress-gardens-road-winter-haven
+    name: Century Storage – Winter Haven
+    street: 3220 Cypress Gardens Road
+    city: Winter Haven
+    state_code: FL
+    postal_code: 33884
+    lat: null
+    lng: null
+    phone: (863) 324-5990
+    website: "https://www.century-storage.com/storage-locations/fl/winter-haven/3220-cypress-gardens-road"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: month-to-month
+    waitlist: null
+    notes: The location page lists RV or boat storage at this address. It also says month-to-month rentals.
+    sources:
+      - url: "https://www.century-storage.com/storage-locations/fl/winter-haven/3220-cypress-gardens-road"
+        title: Century Storage – Winter Haven location page
+    last_verified: "2026-11-20"
+
+  - slug: century-davenport-highway-27
+    name: "Century Boat & RV Storage – Davenport"
+    street: "45731 Highway 27"
+    city: Davenport
+    state_code: FL
+    postal_code: "33897"
+    lat: null
+    lng: null
+    phone: "(863) 420-1811"
+    website: https://www.century-storage.com/storage-locations/fl/davenport/45731-highway-27
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: month-to-month
+    waitlist: null
+    notes: "The Davenport page is titled boat and RV storage and lists covered and enclosed RV, auto, and boat storage, controlled gate access, and electricity in the space. Rentals are month to month."
+    sources:
+      - url: https://www.century-storage.com/storage-locations/fl/davenport/45731-highway-27
+        title: Century Boat and RV Storage Davenport
+    last_verified: "2026-11-20"

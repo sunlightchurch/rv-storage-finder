@@ -43,10 +43,10 @@ const dataJson = JSON.stringify(buildSearchData()).replaceAll('<', '\\u003c');
       return `${base}${trimmed}`;
     }
 
-    function cityLink(city: { id: string; label: string }, miles: number | null) {
+    function cityLink(city: { id: string; label: string; path?: string }, miles: number | null) {
       const li = document.createElement('li');
       const link = document.createElement('a');
-      link.href = pageHref(`cities/${city.id}/`);
+      link.href = pageHref(city.path || `cities/${city.id}/`);
       link.textContent = city.label;
       li.append(link);
       if (miles != null) {
@@ -58,12 +58,13 @@ const dataJson = JSON.stringify(buildSearchData()).replaceAll('<', '\\u003c');
     }
 
     function facilityLink(row: {
-      item: { slug: string; name: string; place: string; cityId: string; approx: string | null };
+      item: { slug: string; name: string; place: string; cityId: string; path?: string; approx: string | null };
       miles: number;
     }) {
       const li = document.createElement('li');
       const link = document.createElement('a');
-      link.href = pageHref(`cities/${row.item.cityId}/#${row.item.slug}`);
+      const home = row.item.path || `cities/${row.item.cityId}/`;
+      link.href = pageHref(`${home}#${row.item.slug}`);
       link.textContent = row.item.name;
       li.append(link);
       const note = document.createElement('span');
@@ -98,7 +99,7 @@ const dataJson = JSON.stringify(buildSearchData()).replaceAll('<', '\\u003c');
       }
       const found = runSearch(query, data, parseZcta(await response.text()));
       if (found.kind === 'city' && found.redirect) {
-        window.location.replace(pageHref(`cities/${found.redirect.id}/`));
+        window.location.replace(pageHref(found.redirect.path || `cities/${found.redirect.id}/`));
         return;
       }
       if (found.kind === 'zip' && !found.known) {
@@ -137,7 +138,7 @@ const dataJson = JSON.stringify(buildSearchData()).replaceAll('<', '\\u003c');
         found.facilities.map((facility) => {
           const li = document.createElement('li');
           const link = document.createElement('a');
-          link.href = pageHref(`cities/${facility.cityId}/#${facility.slug}`);
+          link.href = pageHref(`${facility.path || `cities/${facility.cityId}/`}#${facility.slug}`);
           link.textContent = facility.name;
           li.append(link);
           const note = document.createElement('span');
