@@ -8,6 +8,17 @@ const states = getStates();
     <div>
       <p class="brand-name">{site.name}</p>
       <p>{checkedLabel()} Unknown facts stay marked “Not listed”.</p>
+      <nav aria-label="Sitemap">
+        <p class="footer-label">Find a page</p>
+        <ul>
+          <li><a href={href('/')}>Home</a></li>
+          <li><a href={href('/states/')}>States and cities</a></li>
+          <li><a href={href('/storage/')}>Storage types</a></li>
+          <li><a href={href('/costs/')}>Prices</a></li>
+          <li><a href={href('/guides/')}>Guides</a></li>
+          <li><a href={href('/guide/')}>Cost guide</a></li>
+        </ul>
+      </nav>
     </div>
     <nav aria-label="States">
       <p class="footer-label">States</p>

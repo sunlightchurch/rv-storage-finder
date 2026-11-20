@@ -931,6 +931,7 @@ td {
 
 .trust {
   display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.65rem;
   margin: 1.15rem 0 0;
   padding: 0;
@@ -952,9 +953,18 @@ td {
   font-size: var(--text-md);
 }
 
-@media (min-width: 720px) {
+@media (max-width: 700px) {
   .trust {
-    grid-template-columns: repeat(3, 1fr);
+    gap: 0.35rem;
+  }
+
+  .trust li {
+    padding: 0.4rem 0.4rem;
+    font-size: 0.72rem;
+  }
+
+  .trust strong {
+    font-size: 0.82rem;
   }
 }
 

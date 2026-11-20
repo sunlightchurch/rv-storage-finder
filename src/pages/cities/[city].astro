@@ -22,6 +22,7 @@ const title = `RV and boat storage in ${city.city}, ${city.state_code} | RV Stor
 const description = `${city.listings.length} sourced RV and boat storage facilities in and near ${city.city}, ${city.state}. Cover type, length, power, and monthly prices appear only when published.`;
 const crumbs = [
   { label: 'Home', path: '/' },
+  { label: 'States', path: '/states/' },
   { label: city.state, path: `/states/${stateSlug(city.state)}/` },
   { label: city.city, path },
 ];

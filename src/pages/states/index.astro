@@ -1,0 +1,50 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { directoryStats, getStates, href } from '../../lib/data';
+import { breadcrumbNode, pageGraph, webPageNode } from '../../lib/schema';
+
+const states = getStates();
+const title = 'Browse RV storage by state | RV Storage Prices';
+const description =
+  'Pick a state, then a city. Each city page lists sourced RV and boat storage, with a price only when the facility published one.';
+const path = '/states/';
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'States', path },
+];
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: directoryStats().latest }),
+  breadcrumbNode(crumbs),
+]);
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <div class="wrap">
+    <Breadcrumbs items={crumbs} />
+    <h1>Browse by state</h1>
+    <p class="summary">
+      Choose a state, then a city. A city page is the list of facilities. A state page is the list of
+      those cities.
+    </p>
+    {
+      states.map((state) => (
+        <section>
+          <h2>
+            <a href={href(`/states/${state.slug}/`)}>{state.name}</a>
+          </h2>
+          <ul class="jump">
+            {state.cities.map((city) => (
+              <li>
+                <a href={href(`/cities/${city.id}/`)}>
+                  {city.city}
+                  <span class="count">{city.listings.length}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))
+    }
+  </div>
+</Base>
