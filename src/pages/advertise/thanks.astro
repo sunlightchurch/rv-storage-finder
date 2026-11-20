@@ -6,7 +6,7 @@ import { breadcrumbNode, pageGraph, webPageNode } from '../../lib/schema';
 
 const title = 'Featured listing payment | RV Storage Prices';
 const description =
-  'Stripe handles the $29 monthly featured placement. The Featured label is added only after the payment is confirmed. Cancel anytime by email.';
+  'Stripe handles the $29 monthly featured placement. The Featured label usually goes live within one business day. Cancel anytime by email.';
 const path = '/advertise/thanks/';
 const crumbs = [
   { label: 'Home', path: '/' },
@@ -14,9 +14,10 @@ const crumbs = [
   { label: 'Payment', path },
 ];
 const schema = pageGraph([
-  webPageNode({ title, description, path, dateModified: '2026-11-19' }),
+  webPageNode({ title, description, path, dateModified: '2026-11-20' }),
   breadcrumbNode(crumbs),
 ]);
+const cancelHref = `mailto:${site.corrections_email}?subject=${encodeURIComponent('Cancel featured listing')}`;
 ---
 
 <Base title={title} description={description} path={path} schema={schema}>
@@ -24,13 +25,13 @@ const schema = pageGraph([
     <Breadcrumbs items={crumbs} />
     <h1>Payment received by Stripe</h1>
     <p>
-      If checkout finished, Stripe has the $29 monthly subscription. The city card is not labeled
-      Featured until that payment is confirmed and the listing is published with
-      <code>featured: true</code>.
+      If checkout finished, Stripe has the $29 monthly subscription. After you subscribe, your Featured
+      label usually goes live within one business day. Reply to your Stripe receipt or email
+      <a href={`mailto:${site.corrections_email}`}>{site.corrections_email}</a> with your facility name.
     </p>
     <p>
       Cancel anytime by emailing
-      <a href={`mailto:${site.corrections_email}?subject=Cancel%20featured%20listing`}>{site.corrections_email}</a>.
+      <a href={cancelHref}>{site.corrections_email}</a>.
       The Featured label and the paid-placement note come off, and the card returns to its ordinary place.
     </p>
     <p>

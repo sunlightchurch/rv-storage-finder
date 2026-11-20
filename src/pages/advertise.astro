@@ -13,10 +13,11 @@ const crumbs = [
   { label: 'Get featured', path },
 ];
 const schema = pageGraph([
-  webPageNode({ title, description, path, dateModified: '2026-11-19' }),
+  webPageNode({ title, description, path, dateModified: '2026-11-20' }),
   breadcrumbNode(crumbs),
 ]);
 const stripeUrl = 'https://buy.stripe.com/cNi28s7X60TU5FgegBfw40c';
+const cancelHref = `mailto:${site.corrections_email}?subject=${encodeURIComponent('Cancel featured listing')}`;
 ---
 
 <Base title={title} description={description} path={path} schema={schema}>
@@ -27,17 +28,22 @@ const stripeUrl = 'https://buy.stripe.com/cNi28s7X60TU5FgegBfw40c';
       Featured placement is $29 a month. It is a paid label on a card that is already in this directory.
       It is not a review, a ranking, or a claim about how full the lot is.
     </p>
-    <h2>What $29 a month includes</h2>
+    <h2>Why feature your facility</h2>
     <ul>
       <li>The card is pinned to the top of its city page.</li>
-      <li>The card shows a Featured label.</li>
-      <li>The same card says “Paid placement,” so a reader can tell it is an ad.</li>
-      <li>Cancel anytime. Email <a href={`mailto:${site.corrections_email}?subject=Cancel%20featured%20listing`}>{site.corrections_email}</a> and the label comes off.</li>
+      <li>
+        When the card lists a phone number or a website, Call and Website open that number or that
+        site directly. Those links are not sent through another company.
+      </li>
+      <li>The card shows a Featured label and the words “Paid placement,” so a reader can tell it is an ad.</li>
+      <li>
+        Cancel anytime. Email <a href={cancelHref}>{site.corrections_email}</a> and the label comes off.
+      </li>
     </ul>
     <p>
-      No facility is featured yet. After Stripe confirms the payment, the listing is marked
-      <code>featured: true</code> in the city file. Until that edit is published, the card stays in its
-      ordinary place with no Featured label.
+      After you subscribe, your Featured label usually goes live within one business day. Reply to your
+      Stripe receipt or email <a href={`mailto:${site.corrections_email}`}>{site.corrections_email}</a> with
+      your facility name.
     </p>
     <p>
       <a class="action-primary" href={stripeUrl} rel="noopener noreferrer">Subscribe</a>
