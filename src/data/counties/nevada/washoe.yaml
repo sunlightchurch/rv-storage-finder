@@ -1,0 +1,37 @@
+id: washoe
+name: Washoe County
+state: Nevada
+state_code: NV
+summary: >-
+  RV and boat storage in Washoe County with a street address from each
+  facility page. Towns on this page: Incline Village.
+listings:
+  - slug: incline-boat-storage
+    name: Incline Boat Storage & Marine
+    street: 875 Oriole Way
+    city: Incline Village
+    state_code: NV
+    postal_code: null
+    lat: null
+    lng: null
+    phone: "(775) 831-5625"
+    website: https://inclineboatstorage.com/
+    vehicles: [boat]
+    storage_types: [enclosed]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The Incline Village page says this is a fully enclosed boat storage facility on the Nevada side of Lake Tahoe, with a partially enclosed building as well, about half a mile from Ski Beach. Trailers can be stored on site. The page does not print a ZIP code."
+    sources:
+      - url: https://inclineboatstorage.com/
+        title: Incline Boat Storage and Marine
+    last_verified: "2026-11-20"

@@ -1,0 +1,37 @@
+id: elko
+name: Elko County
+state: Nevada
+state_code: NV
+summary: >-
+  RV and boat storage in Elko County with a street address from each facility
+  page. Towns on this page: Elko.
+listings:
+  - slug: elko-east-mini-storage
+    name: Elko East Mini Storage
+    street: 3760 E Idaho St Unit 7
+    city: Elko
+    state_code: NV
+    postal_code: "89801"
+    lat: null
+    lng: null
+    phone: "(775) 738-7836"
+    website: https://www.elkoeast.com/3760-e-idaho-st-unit-7-elko-nv-89801
+    vehicles: [rv, boat]
+    storage_types: [enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Access 24 hours"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The Elko page lists RV, car, and boat parking and says indoor or outdoor spaces can store a boat, RV, or vehicle. Access is 24 hours. Office hours are 8:00 am to 6:00 pm Monday through Saturday and 8:00 am to 2:00 pm Sunday."
+    sources:
+      - url: https://www.elkoeast.com/3760-e-idaho-st-unit-7-elko-nv-89801
+        title: Elko East Mini Storage
+    last_verified: "2026-11-20"
