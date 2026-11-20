@@ -1,0 +1,67 @@
+id: hart
+name: Hart County
+state: Georgia
+state_code: GA
+summary: >-
+  RV and boat storage in Hart County with a street address from each facility
+  page. Towns on this page: Hartwell.
+listings:
+  - slug: gordons-marine-hartwell
+    name: Gordon's Marine Hartwell
+    street: 1057 Lightwood Rd
+    city: Hartwell
+    state_code: GA
+    postal_code: "30643"
+    lat: null
+    lng: null
+    phone: "(706) 376-3355"
+    website: https://gordonsmarine.com/storage/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    access_hours: null
+    price_notes: null
+    billing_term: short-term
+    waitlist: null
+    notes: "The storage page offers outdoor and covered storage for boats, RVs, campers, and trailers at the Hartwell campus, with 24-hour access, cameras, and a gated lot. Short-term and long-term leases are both offered."
+    sources:
+      - url: https://gordonsmarine.com/storage/
+        title: Gordon's Marine storage
+    last_verified: "2026-11-20"
+
+  - slug: sun-life-hartwell-dry-stack
+    name: Sun Life Lake Hartwell Marina
+    street: 149 Hartwell Marina Rd
+    city: Hartwell
+    state_code: GA
+    postal_code: "30643"
+    lat: null
+    lng: null
+    phone: "(706) 376-5441"
+    website: https://sunlifehartwell.com/dock-with-us/
+    vehicles: [boat]
+    storage_types: [enclosed]
+    max_length_ft: 27
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: true
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Marina office 8:00 AM-5:00 PM daily"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The marina page offers fully enclosed indoor dry-stack storage for boats up to 27 ft, with complimentary wash racks. The trailer lot is for empty trailers, not boats on trailers. The office is open 8:00 am to 5:00 pm every day."
+    sources:
+      - url: https://sunlifehartwell.com/dock-with-us/
+        title: Sun Life Lake Hartwell dock and storage
+    last_verified: "2026-11-20"

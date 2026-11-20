@@ -1,0 +1,67 @@
+id: decatur
+name: Decatur County
+state: Georgia
+state_code: GA
+summary: >-
+  RV and boat storage in Decatur County with a street address from each
+  facility page. Towns on this page: Bainbridge.
+listings:
+  - slug: flint-river-rv-park-storage
+    name: Flint River RV Park
+    street: 801 W Shotwell St
+    city: Bainbridge
+    state_code: GA
+    postal_code: "39819"
+    lat: null
+    lng: null
+    phone: "(229) 246-5802"
+    website: https://www.flintriverrvpark.com/rv-storage
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: "Outdoor storage is $50 per month for an RV, camper, boat, or trailer of 25 ft or less, and $70 per month over 25 ft."
+    billing_term: month-to-month
+    waitlist: null
+    notes: "The Bainbridge page offers outdoor RV, boat, and trailer storage next to the Earle May Boat Basin ramps."
+    sources:
+      - url: https://www.flintriverrvpark.com/rv-storage
+        title: Flint River RV Park storage
+    last_verified: "2026-11-20"
+
+  - slug: dodson-rv-boat-bainbridge
+    name: Dodson RV, Boat & Mini Storage
+    street: 109 Blackjack Church Road
+    city: Bainbridge
+    state_code: GA
+    postal_code: "39817"
+    lat: null
+    lng: null
+    phone: "(229) 580-4977"
+    website: https://www.dodsonrvboatandministorage.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The Bainbridge page offers RV, boat, and mini storage at this address. The printed unit prices are for smaller storage rooms and are not labeled as RV or boat spaces."
+    sources:
+      - url: https://www.dodsonrvboatandministorage.com/
+        title: Dodson RV, Boat and Mini Storage
+    last_verified: "2026-11-20"

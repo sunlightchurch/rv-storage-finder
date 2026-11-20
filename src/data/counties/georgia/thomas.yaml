@@ -1,0 +1,97 @@
+id: thomas
+name: Thomas County
+state: Georgia
+state_code: GA
+summary: >-
+  RV and boat storage in Thomas County with a street address from each facility
+  page. Towns on this page: Thomasville.
+listings:
+  - slug: plantation-boat-rv-thomasville
+    name: Plantation Boat & RV
+    street: 1501 US Route 319
+    city: Thomasville
+    state_code: GA
+    postal_code: "31792"
+    lat: null
+    lng: null
+    phone: "(850) 528-7250"
+    website: https://plantationboatrv.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, enclosed]
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: true
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The Thomasville page offers covered and enclosed spaces, including new 40 ft bays with 110V outlets. It has a coded security gate, 24/7 keypad access, 24/7 video monitoring, a wash bay, and a sewage dump station."
+    sources:
+      - url: https://plantationboatrv.com/
+        title: Plantation Boat and RV
+    last_verified: "2026-11-20"
+
+  - slug: thomasville-travel-center-storage
+    name: Thomasville Travel Center
+    street: 2685 US-84
+    city: Thomasville
+    state_code: GA
+    postal_code: "31792"
+    lat: null
+    lng: null
+    phone: "(229) 551-0220"
+    website: https://www.thomasvilletravelcenter.com/boat-rv-storage-thomasville
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The page offers monthly boat and RV storage on fenced premises next to the travel center. Daily RV parking is described separately and includes water and septic hookups."
+    sources:
+      - url: https://www.thomasvilletravelcenter.com/boat-rv-storage-thomasville
+        title: Thomasville Travel Center boat and RV storage
+    last_verified: "2026-11-20"
+
+  - slug: stor-it-thomasville
+    name: STOR-IT Thomasville
+    street: 16209 US Hwy 19 North
+    city: Thomasville
+    state_code: GA
+    postal_code: "31792"
+    lat: null
+    lng: null
+    phone: "(229) 225-9550"
+    website: https://www.storitthomasville.com/pages/RV-Boat-Storage-Thomasville
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    access_hours: "7:00 AM - 9:00 PM daily"
+    price_notes: "An uncovered 10 by 30 ft space, up to 30 ft, is $65 per month. An uncovered 10 by 35 ft space, up to 40 ft, is listed at $75 per month and at $37.50 per month on a discount that lasts until November 30, 2026."
+    billing_term: month-to-month
+    waitlist: null
+    notes: "The page offers uncovered outside parking for operational RVs, boats, and trailers. It is gated and monitored 24/7. There is no water or power hookup. Facility hours are 7:00 am to 9:00 pm every day."
+    sources:
+      - url: https://www.storitthomasville.com/pages/RV-Boat-Storage-Thomasville
+        title: STOR-IT Thomasville RV and boat storage
+    last_verified: "2026-11-20"
