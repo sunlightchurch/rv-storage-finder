@@ -140,8 +140,11 @@ const schema = pageGraph([
       video.play().catch(() => {});
     };
     if (!reduce && !narrow && !slow) {
-      window.addEventListener('pointerdown', startVideo, { once: true });
-      window.addEventListener('keydown', startVideo, { once: true });
+      window.addEventListener('load', () => {
+        const begin = () => window.setTimeout(startVideo, 250);
+        if ('requestIdleCallback' in window) window.requestIdleCallback(begin, { timeout: 1200 });
+        else begin();
+      });
     }
   </script>
   <div class="wrap">

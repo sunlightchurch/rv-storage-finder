@@ -37,7 +37,7 @@ const dataJson = JSON.stringify(searchData).replaceAll('<', '\\u003c');
   <link slot="head" rel="preload" as="fetch" href={href('/zcta.csv')} crossorigin="anonymous" />
   <article class="wrap prose">
     <Breadcrumbs items={crumbs} />
-    <h1 id="near-title">Nearest RV storage</h1>
+    <h1 id="near-title">Nearest RV and boat storage</h1>
     <p id="near-lead">Enter a ZIP code or a city name.</p>
     <div id="near-results"></div>
     <p class="fine">
@@ -246,10 +246,9 @@ const dataJson = JSON.stringify(searchData).replaceAll('<', '\\u003c');
         return;
       }
       if (found.kind === 'zip') {
-        title.textContent = found.outside ? 'Nearest facilities we list' : `Facilities near ${found.zip}`;
         lead.textContent = found.outside
           ? `ZIP ${found.zip} is outside the cities in this directory. These are the closest facilities we list, in miles.`
-          : `Nearest facilities to ZIP ${found.zip}, in miles.`;
+          : `Facilities near ${found.zip}, in miles.`;
         if (found.how === 'prefix') {
           lead.textContent += ` ${found.zip} has no area of its own, so the start point is a nearby ZIP.`;
         }
