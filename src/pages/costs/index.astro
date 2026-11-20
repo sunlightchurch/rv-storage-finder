@@ -2,13 +2,39 @@
 import Base from '../../layouts/Base.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { getStates, href } from '../../lib/data';
-import { formatMonthlyRange, monthlySpan, parsePriceNote } from '../../lib/prices';
+import { medianOf } from '../../lib/guides';
+import { formatMoney, formatMonthlyRange, monthlySpan, parsePriceNote } from '../../lib/prices';
 import { breadcrumbNode, pageGraph, webPageNode } from '../../lib/schema';
+
+function lowestMonthly(listings: { price_notes: string | null }[]): number[] {
+  const amounts: number[] = [];
+  for (const listing of listings) {
+    const values = parsePriceNote(listing.price_notes).monthly;
+    if (values.length) amounts.push(Math.min(...values));
+  }
+  return amounts;
+}
 
 const states = getStates().map((state) => {
   const notes = state.cities.flatMap((city) => city.listings.map((listing) => parsePriceNote(listing.price_notes).monthly));
-  return { state, span: monthlySpan(notes), total: state.cities.reduce((sum, city) => sum + city.listings.length, 0) };
+  const amounts = state.cities.flatMap((city) => lowestMonthly(city.listings));
+  return {
+    state,
+    span: monthlySpan(notes),
+    total: state.cities.reduce((sum, city) => sum + city.listings.length, 0),
+    median: amounts.length ? medianOf(amounts) : null,
+  };
 });
+const cityRows = states.flatMap(({ state }) =>
+  state.cities.map((city) => {
+    const amounts = lowestMonthly(city.listings);
+    return {
+      city,
+      median: amounts.length ? medianOf(amounts) : null,
+      priced: amounts.length,
+    };
+  }),
+);
 const title = 'Monthly RV storage prices by city | RV Storage Prices';
 const description =
   'Monthly dollar amounts copied from facility pages, grouped by state and city. Per-foot rates stay separate. Nothing on this page is an average.';
@@ -30,17 +56,77 @@ const schema = pageGraph([
     <p class="summary">
       A figure appears here only when the facility page ties a dollar amount to a month. A per-foot rate
       stays on the city price page and is not converted into a month. These pages do not average the
-      numbers.
+      numbers. The median is the middle of each facility’s lowest published monthly amount. Cities with
+      no monthly amount sort last.
     </p>
+    <div class="chips">
+      <label class="sort-label">
+        Sort cities
+        <select id="price-sort">
+          <option value="state">By state</option>
+          <option value="median-asc">Median: low to high</option>
+          <option value="median-desc">Median: high to low</option>
+        </select>
+      </label>
+    </div>
+    <div class="table-wrap">
+      <table class="price-sort-table">
+        <caption>Cities by published monthly price</caption>
+        <thead>
+          <tr>
+            <th>City</th>
+            <th>Facilities with a monthly price</th>
+            <th>Median lowest monthly</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            cityRows.map((row) => (
+              <tr data-median={row.median ?? ''} data-state={row.city.state} data-city={row.city.city}>
+                <td><a href={href(`/costs/${row.city.id}/`)}>{row.city.city}, {row.city.state_code}</a></td>
+                <td>{row.priced} of {row.city.listings.length}</td>
+                <td>{row.median != null ? `${formatMoney(row.median)}/mo` : 'Not listed'}</td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+    </div>
+    <script>
+      const select = document.getElementById('price-sort');
+      const body = document.querySelector('.price-sort-table tbody');
+      select?.addEventListener('change', () => {
+        if (!body || !(select instanceof HTMLSelectElement)) return;
+        const rows = [...body.querySelectorAll('tr')];
+        const mode = select.value;
+        rows.sort((a, b) => {
+          const medianA = a.getAttribute('data-median');
+          const medianB = b.getAttribute('data-median');
+          const left = medianA ? Number(medianA) : null;
+          const right = medianB ? Number(medianB) : null;
+          if (mode === 'median-asc' || mode === 'median-desc') {
+            if (left == null && right == null) return 0;
+            if (left == null) return 1;
+            if (right == null) return -1;
+            return mode === 'median-asc' ? left - right : right - left;
+          }
+          const stateOrder = (a.getAttribute('data-state') || '').localeCompare(b.getAttribute('data-state') || '');
+          if (stateOrder) return stateOrder;
+          return (a.getAttribute('data-city') || '').localeCompare(b.getAttribute('data-city') || '');
+        });
+        rows.forEach((row) => body.append(row));
+      });
+    </script>
     {
-      states.map(({ state, span, total }) => (
+      states.map(({ state, span, total, median }) => (
         <section>
           <h2>
             <a href={href(`/costs/${state.slug}/`)}>{state.name}</a>
           </h2>
           <p>
             {span.count} of {total} facilities print a monthly amount
-            {span.low != null && span.high != null ? `, ${formatMonthlyRange(span.low, span.high)}.` : '.'}
+            {span.low != null && span.high != null ? `, ${formatMonthlyRange(span.low, span.high)}` : ''}
+            {median != null ? `. Median of the lowest monthly amount: ${formatMoney(median)}/mo.` : '.'}
           </p>
           <ul class="jump">
             {state.cities.map((city) => (

@@ -20,7 +20,7 @@ const resultsId = `${inputId}-results`;
       type="search"
       role="combobox"
       inputmode="search"
-      placeholder="Try Tampa, 33610, or 34986"
+      placeholder="Tampa or 33610"
       autocomplete="off"
       aria-autocomplete="list"
       aria-controls={resultsId}
@@ -31,5 +31,5 @@ const resultsId = `${inputId}-results`;
     <button type="submit">Search</button>
   </div>
   <ul id={resultsId} class="search-results" role="listbox" hidden></ul>
-  <p class="fine">Press Search or the keyboard Go key. A ZIP lists the nearest facilities, with miles. A city name opens the best match.</p>
+  <p class="fine">A ZIP lists the nearest lots. A city name opens that page.</p>
 </form>

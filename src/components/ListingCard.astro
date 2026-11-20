@@ -52,6 +52,8 @@ const facts = [
     : []),
 ];
 const lines = priceLines(listing);
+const monthlyAmounts = lines.filter((line) => line.unit === 'mo').map((line) => line.amount);
+const monthlyMin = monthlyAmounts.length ? Math.min(...monthlyAmounts) : null;
 const from = priceHeadline(lines);
 const groups = (['open', 'covered', 'enclosed', null] as const)
   .map((cover) => ({
@@ -84,6 +86,7 @@ const icons = [
   data-boat={String(listing.vehicles.includes('boat'))}
   data-rv={String(listing.vehicles.includes('rv'))}
   data-priced={String(Boolean(listing.price_notes))}
+  data-monthly={monthlyMin ?? undefined}
   data-zip={listing.postal_code ? String(listing.postal_code).replace(/\D/g, '').slice(0, 5) : undefined}
   data-lat={listing.lat ?? undefined}
   data-lng={listing.lng ?? undefined}

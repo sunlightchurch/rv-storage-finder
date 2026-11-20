@@ -2,14 +2,45 @@
 import Base from '../layouts/Base.astro';
 import CitySearch from '../components/CitySearch.astro';
 import FindMore from '../components/FindMore.astro';
-import Photo from '../components/Photo.astro';
-import { absolute, checkedLabel, cityStats, directoryStats, getStates, href, site } from '../lib/data';
+import { absolute, cityStats, directoryStats, getStates, href, site } from '../lib/data';
+import { medianOf } from '../lib/guides';
 import { heroPhoto, getPhoto } from '../lib/photos';
+import { formatMoney, formatMonthlyRange, monthlyByCover, monthlySpan, parsePriceNote } from '../lib/prices';
 import { breadcrumbNode, faqNode, pageGraph, webPageNode } from '../lib/schema';
 
 const states = getStates();
 const cities = states.flatMap((state) => state.cities);
 const stats = directoryStats();
+const hero = heroPhoto();
+
+function lowestMonthly(listings: { price_notes: string | null; storage_types: readonly string[] }[]) {
+  const amounts: number[] = [];
+  for (const listing of listings) {
+    const values = parsePriceNote(listing.price_notes).monthly;
+    if (values.length) amounts.push(Math.min(...values));
+  }
+  return amounts;
+}
+
+const popular = cities
+  .map((city) => {
+    const amounts = lowestMonthly(city.listings);
+    return { city, amounts, span: monthlySpan(amounts.map((amount) => [amount])) };
+  })
+  .filter((row) => row.amounts.length > 0)
+  .sort((a, b) => b.amounts.length - a.amounts.length || a.city.city.localeCompare(b.city.city))
+  .slice(0, 4);
+
+const coverBuckets = { open: [] as number[][], covered: [] as number[][] };
+for (const city of cities) {
+  for (const listing of city.listings) {
+    const byType = monthlyByCover(listing);
+    if (byType.open.length) coverBuckets.open.push(byType.open);
+    if (byType.covered.length) coverBuckets.covered.push(byType.covered);
+  }
+}
+const openSpan = monthlySpan(coverBuckets.open);
+const coveredSpan = monthlySpan(coverBuckets.covered);
 const title = 'RV and boat storage by city | RV Storage Prices';
 const description =
   'Search sourced RV and boat storage by city or ZIP. Cover type, power, and monthly prices appear only when a facility publishes them.';
@@ -57,7 +88,20 @@ const schema = pageGraph([
 
 <Base title={title} description={description} path={path} schema={schema}>
   <section class="hero-bleed">
-    <Photo class="hero-photo" photo={heroPhoto()} sizes="100vw" eager />
+    <div class="hero-media">
+      <img
+        class="hero-still"
+        src={href(`/${hero.files['1280']}`)}
+        srcset={`${href(`/${hero.files['640']}`)} 640w, ${href(`/${hero.files['960']}`)} 960w, ${href(`/${hero.files['1280']}`)} 1280w`}
+        sizes="100vw"
+        width={hero.width}
+        height={hero.height}
+        alt={hero.alt}
+        decoding="async"
+        fetchpriority="high"
+      />
+      <video class="hero-video" muted autoplay playsinline loop preload="none" poster={href(`/${hero.files['1280']}`)}></video>
+    </div>
     <div class="hero-shade" aria-hidden="true"></div>
     <div class="wrap hero-copy">
       <p class="eyebrow">RV and boat storage</p>
@@ -67,23 +111,81 @@ const schema = pageGraph([
         amenity, the card says not listed.
       </p>
       <CitySearch />
-      <ul class="trust">
-        <li>
-          <strong>{stats.facilities}</strong> facilities
-          <span>Each card names the public page it came from.</span>
-        </li>
-        <li>
-          <strong>Not listed</strong>
-          <span>Means that page was silent. It is not a guess, and it is not a no.</span>
-        </li>
-        <li>
-          <strong>{stats.priced}</strong> publish a price
-          <span>{checkedLabel()}</span>
-        </li>
-      </ul>
+      <p class="hero-credit">
+        Video: <a href={hero.source_url}>{hero.author}</a>, <a href={hero.license_url}>{hero.license}</a>.
+        A still image plays instead when motion is reduced or the connection is slow.
+      </p>
     </div>
   </section>
+  <script define:vars={{ videoSrc: href('/video/hero-marina.mp4') }}>
+    const video = document.querySelector('.hero-video');
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const narrow = window.matchMedia('(max-width: 899px)').matches;
+    const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+    const slow = Boolean(connection && (connection.saveData || /2g/.test(connection.effectiveType || '')));
+    if (video && !reduce && !narrow && !slow) {
+      video.addEventListener('playing', () => video.classList.add('is-playing'), { once: true });
+      video.src = videoSrc;
+      video.play().catch(() => {});
+    }
+  </script>
   <div class="wrap">
+    <section class="how">
+      <h2>How to use this directory</h2>
+      <ol class="how-steps">
+        <li>
+          <strong>Search a city or ZIP</strong>
+          <span>A city opens its facilities. A ZIP lists the nearest lots, with miles.</span>
+        </li>
+        <li>
+          <strong>Sort by the price they printed</strong>
+          <span>Low to high or high to low. A lot with no monthly price stays at the end.</span>
+        </li>
+        <li>
+          <strong>Call the facility</strong>
+          <span>The card is a copy of a public page. The lot confirms whether a space is open.</span>
+        </li>
+      </ol>
+    </section>
+    {
+      popular.length > 0 && (
+        <section>
+          <h2>Cities with the most published prices</h2>
+          <ul class="place-grid">
+            {popular.map(({ city, span, amounts }) => (
+              <li>
+                <a class="place-link" href={href(`/cities/${city.id}/`)}>
+                  <span class="city-name">{city.city}, {city.state_code}</span>
+                  <span class="count">{cityStats(city).total}</span>
+                  <span class="city-meta">
+                    {span.low != null && span.high != null
+                      ? `${formatMonthlyRange(span.low, span.high)} · median ${formatMoney(medianOf(amounts))}`
+                      : 'No monthly price'}
+                  </span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+    <section class="choice-strip">
+      <h2>Covered or open</h2>
+      <p>
+        Covered means a roof. Open means an outdoor lot. Use the type filter on a city page. The
+        published ranges on lots that named the cover and a month
+        {coveredSpan.low != null && coveredSpan.high != null
+          ? ` run ${formatMonthlyRange(coveredSpan.low, coveredSpan.high)} for covered`
+          : ' do not include a covered range yet'}
+        {openSpan.low != null && openSpan.high != null
+          ? ` and ${formatMonthlyRange(openSpan.low, openSpan.high)} for open`
+          : ''}
+        .
+      </p>
+      <p>
+        <a href={href('/guides/covered-vs-uncovered-vs-indoor/')}>Covered, uncovered, and indoor compared</a>
+      </p>
+    </section>
     <h2><a href={href('/states/')}>Browse by state</a></h2>
     {
       states.map((state) => (

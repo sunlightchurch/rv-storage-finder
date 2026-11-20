@@ -8,49 +8,72 @@ interface Props {
 const { city } = Astro.props;
 const pages = filtersForCity(city.id);
 const chips = [
-  { key: 'all', label: 'All' },
   { key: 'covered', label: 'Covered' },
   { key: 'enclosed', label: 'Enclosed' },
-  { key: 'open', label: 'Outdoor' },
-  { key: 'power', label: 'Power' },
-  { key: 'dump', label: 'Dump' },
+  { key: 'open', label: 'Open' },
   { key: 'boat', label: 'Boat' },
   { key: 'rv', label: 'RV' },
-  { key: 'priced', label: 'Has price' },
+  { key: 'power', label: 'Power' },
+  { key: 'dump', label: 'Dump' },
+  { key: 'priced', label: 'Has a price' },
 ];
 ---
 
 <div class="filter-tools">
-  <div class="chips" data-filter-bar role="group" aria-label={`Filter ${city.city}, ${city.state_code} listings`}>
-    {
-      chips.map((chip) => (
-        <button type="button" data-filter={chip.key} aria-pressed={chip.key === 'all' ? 'true' : 'false'}>
-          {chip.label}
-        </button>
-      ))
-    }
-    <label class="length-filter">
-      At least
-      <input type="number" inputmode="decimal" min="1" max="80" step="1" placeholder="ft" data-min-length aria-label={`Minimum published length in feet for ${city.city}, ${city.state_code}`} />
-      ft
+  <div class="sortbar" data-filter-bar>
+    <label class="sort-label">
+      <span class="sr-only">Sort {city.city}, {city.state_code}</span>
+      <select data-sort aria-label={`Sort ${city.city}, ${city.state_code} facilities`}>
+        <option value="default">Listed order</option>
+        <option value="price-asc">Price: low to high</option>
+        <option value="price-desc">Price: high to low</option>
+        <option value="distance">Distance</option>
+      </select>
     </label>
+    <button type="button" class="filter-open" data-sheet-open aria-expanded="false" aria-controls={`${city.id}-filters`}>
+      Filters
+    </button>
+    <p class="filter-count" data-filter-count aria-live="polite">{city.listings.length} facilities</p>
+    <div class="sheet" id={`${city.id}-filters`} data-sheet hidden>
+      <div class="sheet-panel" role="dialog" aria-modal="true" aria-labelledby={`${city.id}-filters-title`}>
+        <div class="sheet-head">
+          <h2 id={`${city.id}-filters-title`}>Filters</h2>
+          <button type="button" class="text-btn" data-sheet-close>Close</button>
+        </div>
+        <div class="sheet-options">
+          <button type="button" data-filter="all" aria-pressed="true">All types</button>
+          {
+            chips.map((chip) => (
+              <button type="button" data-filter={chip.key} aria-pressed="false">
+                {chip.label}
+              </button>
+            ))
+          }
+        </div>
+        <label class="length-filter">
+          At least
+          <input type="number" inputmode="decimal" min="1" max="80" step="1" placeholder="ft" data-min-length aria-label={`Minimum published length in feet for ${city.city}, ${city.state_code}`} />
+          ft published
+        </label>
+        <button type="button" class="sheet-done" data-sheet-close>Show results</button>
+      </div>
+    </div>
   </div>
-  <p class="filter-count" data-filter-count aria-live="polite">{city.listings.length} facilities</p>
 </div>
 {
   pages.length > 0 && (
-    <nav class="seo-links" aria-label={`Shareable ${city.city}, ${city.state_code} pages`}>
-      <p>
-        Shareable pages:{' '}
-        {pages.map((page, index) => (
-          <>
-            {index > 0 ? ', ' : ''}
+    <details class="feature-browse">
+      <summary>Browse by feature</summary>
+      <ul class="feature-scroll">
+        {pages.map((page) => (
+          <li>
             <a href={href(page.path)}>
-              {page.filter.label} <span class="count">{page.matches.length}</span>
+              {page.filter.label}
+              <span class="count">{page.matches.length}</span>
             </a>
-          </>
+          </li>
         ))}
-      </p>
-    </nav>
+      </ul>
+    </details>
   )
 }

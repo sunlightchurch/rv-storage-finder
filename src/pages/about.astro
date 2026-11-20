@@ -1,7 +1,9 @@
 ---
 import Base from '../layouts/Base.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
+import Photo from '../components/Photo.astro';
 import { directoryStats, href, site } from '../lib/data';
+import { getPhoto, guidePhoto } from '../lib/photos';
 import { breadcrumbNode, pageGraph, webPageNode } from '../lib/schema';
 
 const title = 'About this RV and boat storage directory';
@@ -22,6 +24,10 @@ const schema = pageGraph([
   <article class="wrap prose">
     <Breadcrumbs items={crumbs} />
     <h1>About this directory</h1>
+    <div class="about-photos">
+      <Photo photo={guidePhoto()} sizes="(min-width: 800px) 480px, 100vw" alt="" />
+      <Photo photo={getPhoto('generic-boat')} sizes="(min-width: 800px) 480px, 100vw" alt="" />
+    </div>
     <p>
       RV Storage Prices is a static directory of RV and boat storage. It is built for people comparing
       covered RV storage near Tampa, boat storage with power near Phoenix, or a published monthly price

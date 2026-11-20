@@ -56,6 +56,9 @@ function addPlace(cities, facilities, place, zcta) {
       lat: point.lat,
       lng: point.lng,
       approx: own ? null : zipPoint ? 'zip' : 'city',
+      storage_types: listing.storage_types || [],
+      vehicles: listing.vehicles || [],
+      price_notes: listing.price_notes || null,
     });
   }
 }

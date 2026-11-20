@@ -21,6 +21,10 @@
     return `${base}${String(target).replace(/^\//, '')}`;
   }
 
+  function pageHref(urlPath) {
+    return `${base}${String(urlPath).replace(/^\//, '')}`;
+  }
+
   function normPlace(value) {
     return String(value)
       .toLowerCase()
@@ -130,15 +134,90 @@
     };
     pin();
     window.addEventListener('resize', pin);
+    const searchToggle = header.querySelector('[data-search-toggle]');
+    const navToggle = header.querySelector('[data-nav-toggle]');
+    searchToggle?.addEventListener('click', () => {
+      const open = !header.classList.contains('is-search-open');
+      header.classList.toggle('is-search-open', open);
+      searchToggle.setAttribute('aria-expanded', String(open));
+      if (open) header.querySelector('#header-q')?.focus();
+    });
+    navToggle?.addEventListener('click', () => {
+      const open = !header.classList.contains('is-nav-open');
+      header.classList.toggle('is-nav-open', open);
+      navToggle.setAttribute('aria-expanded', String(open));
+    });
+  }
+
+  document.querySelectorAll('[data-sheet-open]').forEach((button) => {
+    const root = button.closest('[data-filter-root]') || document;
+    const sheet = root.querySelector('[data-sheet]');
+    if (!sheet) return;
+    const openSheet = () => {
+      sheet.hidden = false;
+      button.setAttribute('aria-expanded', 'true');
+      document.body.classList.add('sheet-open');
+    };
+    const closeSheet = () => {
+      sheet.hidden = true;
+      button.setAttribute('aria-expanded', 'false');
+      document.body.classList.remove('sheet-open');
+    };
+    button.addEventListener('click', openSheet);
+    sheet.querySelectorAll('[data-sheet-close]').forEach((control) => {
+      control.addEventListener('click', closeSheet);
+    });
+    sheet.addEventListener('click', (event) => {
+      if (event.target === sheet) closeSheet();
+    });
+  });
+
+  const refreshers = [];
+  let zipTable = null;
+
+  function milesBetween(a, b) {
+    const toRad = (value) => (value * Math.PI) / 180;
+    const dLat = toRad(b.lat - a.lat);
+    const dLng = toRad(b.lng - a.lng);
+    const lat1 = toRad(a.lat);
+    const lat2 = toRad(b.lat);
+    const h = Math.sin(dLat / 2) ** 2 + Math.cos(lat1) * Math.cos(lat2) * Math.sin(dLng / 2) ** 2;
+    return 3958.8 * 2 * Math.asin(Math.min(1, Math.sqrt(h)));
+  }
+
+  async function censusZips() {
+    if (zipTable) return zipTable;
+    const response = await fetch(pageHref('zcta.csv'));
+    if (!response.ok) return null;
+    zipTable = new Map();
+    for (const line of (await response.text()).split('\n')) {
+      const [zip, lat, lng] = line.split(',');
+      if (!zip || zip === 'zip') continue;
+      zipTable.set(zip, { lat: Number(lat), lng: Number(lng) });
+    }
+    return zipTable;
   }
 
   document.querySelectorAll('[data-filter-bar]').forEach((bar) => {
     const root = bar.closest('[data-filter-root]') || document;
     const cards = [...root.querySelectorAll('[data-listing]')];
+    cards.forEach((card, index) => {
+      if (!card.dataset.order) card.dataset.order = String(index);
+    });
     const empty = root.querySelector('[data-filter-empty]');
     const count = root.querySelector('[data-filter-count]');
+    const status = root.querySelector('[data-sort-status]');
     const lengthInput = bar.querySelector('[data-min-length]');
+    const sortSelect = bar.querySelector('[data-sort]');
+    const zipInput = root.querySelector('[data-distance-zip]');
+    const distancePanel = root.querySelector('[data-distance-panel]');
+    const filterOpen = bar.querySelector('[data-sheet-open]');
+    const list = root.querySelector('[data-listing-list]');
     const total = cards.length;
+
+    function sortValue() {
+      return sortSelect ? sortSelect.value : 'default';
+    }
 
     function apply() {
       const keys = [...bar.querySelectorAll('[data-filter]')]
@@ -146,9 +225,34 @@
         .map((button) => button.getAttribute('data-filter'));
       const minLength = Number(lengthInput && lengthInput.value);
       const useLength = Number.isFinite(minLength) && minLength > 0;
+      const mode = sortValue();
+      const ranked = [...cards].sort((a, b) => {
+        const orderA = Number(a.dataset.order);
+        const orderB = Number(b.dataset.order);
+        if (mode === 'price-asc' || mode === 'price-desc') {
+          const priceA = a.getAttribute('data-monthly');
+          const priceB = b.getAttribute('data-monthly');
+          const left = priceA ? Number(priceA) : null;
+          const right = priceB ? Number(priceB) : null;
+          if (left == null && right == null) return orderA - orderB;
+          if (left == null) return 1;
+          if (right == null) return -1;
+          return mode === 'price-asc' ? left - right || orderA - orderB : right - left || orderA - orderB;
+        }
+        if (mode === 'distance') {
+          const left = a.dataset.miles ? Number(a.dataset.miles) : null;
+          const right = b.dataset.miles ? Number(b.dataset.miles) : null;
+          if (left == null && right == null) return orderA - orderB;
+          if (left == null) return 1;
+          if (right == null) return -1;
+          return left - right || orderA - orderB;
+        }
+        return orderA - orderB;
+      });
+      if (list) ranked.forEach((card) => list.append(card));
       let shown = 0;
       let unknownLength = 0;
-      cards.forEach((card) => {
+      ranked.forEach((card) => {
         const attrs = keys.every((key) => card.getAttribute(`data-${key}`) === 'true');
         const published = card.getAttribute('data-max-length');
         const tooShort = useLength && published && Number(published) < minLength;
@@ -167,6 +271,49 @@
         }
         count.textContent = text;
       }
+      if (distancePanel) distancePanel.hidden = mode !== 'distance';
+      if (filterOpen) {
+        const active = keys.length + (useLength ? 1 : 0);
+        filterOpen.textContent = active ? `Filters · ${active}` : 'Filters';
+      }
+      if (status) {
+        if (mode === 'price-asc' || mode === 'price-desc') {
+          status.textContent = 'Lowest published monthly price first. Lots without a monthly price stay last.';
+        } else if (mode === 'distance' && !cards.some((card) => card.dataset.miles)) {
+          status.textContent = 'Use your location, or enter a ZIP. Lots without a point stay last.';
+        } else if (mode === 'distance') {
+          status.textContent = 'Nearest first. Lots without a point stay last.';
+        } else {
+          status.textContent = '';
+        }
+      }
+    }
+
+    async function measureZip() {
+      const zip = (zipInput?.value || '').replace(/\D/g, '').slice(0, 5);
+      if (zip.length !== 5) return;
+      const table = await censusZips();
+      const origin = table && table.get(zip);
+      if (!origin || !Number.isFinite(origin.lat)) {
+        if (status) status.textContent = 'That ZIP is not in the Census table. Try a ZIP from a listed facility.';
+        return;
+      }
+      cards.forEach((card) => {
+        const lat = Number(card.getAttribute('data-lat'));
+        const lng = Number(card.getAttribute('data-lng'));
+        let point = null;
+        if (card.hasAttribute('data-lat') && Number.isFinite(lat) && Number.isFinite(lng)) {
+          point = { lat, lng };
+        } else {
+          const cardZip = card.getAttribute('data-zip');
+          const centroid = cardZip && table.get(cardZip);
+          if (centroid && Number.isFinite(centroid.lat)) point = centroid;
+        }
+        if (!point) delete card.dataset.miles;
+        else card.dataset.miles = String(milesBetween(origin, point));
+      });
+      if (sortSelect) sortSelect.value = 'distance';
+      apply();
     }
 
     bar.addEventListener('click', (event) => {
@@ -191,6 +338,70 @@
     });
 
     if (lengthInput) lengthInput.addEventListener('input', apply);
+    if (sortSelect) {
+      sortSelect.addEventListener('change', () => {
+        if (sortSelect.value === 'distance' && zipInput && zipInput.value.replace(/\D/g, '').length === 5) {
+          measureZip();
+          return;
+        }
+        apply();
+      });
+    }
+    if (zipInput && !zipInput.closest('[data-distance-form]')) {
+      zipInput.addEventListener('change', measureZip);
+    }
+    root.querySelector('[data-zip-go]')?.addEventListener('click', measureZip);
+    root.querySelector('[data-near-me-lite]')?.addEventListener('click', () => {
+      if (!navigator.geolocation) {
+        if (status) status.textContent = 'This browser cannot share a location. Enter a ZIP instead.';
+        return;
+      }
+      navigator.geolocation.getCurrentPosition(
+        async (position) => {
+          const origin = { lat: position.coords.latitude, lng: position.coords.longitude };
+          const table = await censusZips();
+          cards.forEach((card) => {
+            const lat = Number(card.getAttribute('data-lat'));
+            const lng = Number(card.getAttribute('data-lng'));
+            let point = null;
+            if (card.hasAttribute('data-lat') && Number.isFinite(lat) && Number.isFinite(lng)) {
+              point = { lat, lng };
+            } else if (table) {
+              const cardZip = card.getAttribute('data-zip');
+              const centroid = cardZip && table.get(cardZip);
+              if (centroid && Number.isFinite(centroid.lat)) point = centroid;
+            }
+            if (!point) delete card.dataset.miles;
+            else card.dataset.miles = String(milesBetween(origin, point));
+          });
+          if (sortSelect) sortSelect.value = 'distance';
+          apply();
+        },
+        () => {
+          if (status) status.textContent = 'Location was blocked. Enter a ZIP instead.';
+        },
+        { enableHighAccuracy: false, timeout: 8000 },
+      );
+    });
+    refreshers.push(apply);
     apply();
   });
+
+  window.refreshListingFilters = () => {
+    refreshers.forEach((apply) => apply());
+  };
+
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window) {
+    const seen = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('is-in');
+        seen.unobserve(entry.target);
+      });
+    }, { rootMargin: '0px 0px -6% 0px', threshold: 0.08 });
+    document.querySelectorAll('.listing, .state-card, .place-link').forEach((card) => {
+      card.classList.add('will-enter');
+      seen.observe(card);
+    });
+  }
 })();
