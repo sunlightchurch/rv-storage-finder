@@ -14,11 +14,11 @@ const index = searchIndex();
   <div class="wrap bar">
     <a class="brand" href={href('/')}>
       <svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true">
-        <rect width="32" height="32" rx="6" fill="#f4e7cb"></rect>
-        <path fill="#0c5c56" d="M5 21h22v2.2H5z"></path>
-        <path fill="none" stroke="#0c5c56" stroke-width="2" stroke-linejoin="round" d="M7 21V13h9l3 4h6v4"></path>
-        <circle cx="11" cy="23.5" r="2.1" fill="#0c5c56"></circle>
-        <circle cx="22" cy="23.5" r="2.1" fill="#0c5c56"></circle>
+        <rect width="32" height="32" rx="6" fill="#f3e6d4"></rect>
+        <path fill="#221c16" d="M5 21h22v2.2H5z"></path>
+        <path fill="none" stroke="#221c16" stroke-width="2" stroke-linejoin="round" d="M7 21V13h9l3 4h6v4"></path>
+        <circle cx="11" cy="23.5" r="2.1" fill="#8d3d2b"></circle>
+        <circle cx="22" cy="23.5" r="2.1" fill="#8d3d2b"></circle>
       </svg>
       <span class="brand-name">{site.name}</span>
     </a>
@@ -31,9 +31,11 @@ const index = searchIndex();
           name="q"
           data-city-search
           type="search"
+          role="combobox"
           inputmode="search"
           placeholder="City or ZIP"
           autocomplete="off"
+          aria-autocomplete="list"
           aria-controls="header-results"
           aria-expanded="false"
           enterkeyhint="search"

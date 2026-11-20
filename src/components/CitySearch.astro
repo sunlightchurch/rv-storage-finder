@@ -18,9 +18,11 @@ const resultsId = `${inputId}-results`;
       name="q"
       data-city-search
       type="search"
+      role="combobox"
       inputmode="search"
       placeholder="Try Tampa, 33610, or 34986"
       autocomplete="off"
+      aria-autocomplete="list"
       aria-controls={resultsId}
       aria-expanded="false"
       enterkeyhint="search"

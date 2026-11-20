@@ -8,13 +8,14 @@ interface Props {
   sizes: string;
   eager?: boolean;
   caption?: string;
+  class?: string;
 }
 
-const { photo, alt = photo.alt, sizes, eager = false, caption } = Astro.props;
+const { photo, alt = photo.alt, sizes, eager = false, caption, class: className } = Astro.props;
 const src = (width: '640' | '960' | '1280') => href(`/${photo.files[width]}`);
 ---
 
-<figure class="photo">
+<figure class:list={['photo', className]}>
   <img
     src={src('960')}
     srcset={`${src('640')} 640w, ${src('960')} 960w, ${src('1280')} 1280w`}
