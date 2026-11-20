@@ -1,0 +1,37 @@
+id: franklin
+name: Franklin County
+state: Georgia
+state_code: GA
+summary: >-
+  RV and boat storage in Franklin County with a street address from each
+  facility page. Towns on this page: Lavonia.
+listings:
+  - slug: gordons-marine-lavonia
+    name: Gordon's Marine Lavonia
+    street: 4450 Gum Log Rd
+    city: Lavonia
+    state_code: GA
+    postal_code: "30553"
+    lat: null
+    lng: null
+    phone: "(706) 567-4122"
+    website: null
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    access_hours: null
+    price_notes: null
+    billing_term: short-term
+    waitlist: null
+    notes: "The same Gordon's Marine storage page lists outdoor and covered boat, RV, and trailer storage at the Lavonia campus, with 24-hour access, cameras, and a gated lot."
+    sources:
+      - url: https://gordonsmarine.com/storage/
+        title: Gordon's Marine storage locations
+    last_verified: "2026-11-20"
