@@ -865,6 +865,18 @@ td {
   position: relative;
 }
 
+.search-row {
+  display: flex;
+  gap: 0.45rem;
+  align-items: stretch;
+}
+
+.search-row input {
+  flex: 1 1 auto;
+  min-width: 0;
+  width: auto;
+}
+
 .header-search input,
 .home-search input {
   width: 100%;
@@ -875,6 +887,42 @@ td {
   border-radius: var(--radius-sm);
   background: var(--bg);
   color: var(--ink);
+}
+
+.search-row button {
+  min-height: 44px;
+  padding: 0 0.9rem;
+  font: inherit;
+  font-weight: 650;
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  background: var(--lagoon);
+  color: #fff;
+  cursor: pointer;
+}
+
+.search-row button:hover,
+.search-row button:focus-visible {
+  background: var(--header-bg);
+}
+
+.header-search .search-row button {
+  background: var(--paper);
+  color: var(--lagoon);
+}
+
+.header-search .search-row button:hover,
+.header-search .search-row button:focus-visible {
+  background: var(--stamp);
+}
+
+.near-list {
+  margin: 0.4rem 0 1.2rem;
+  padding-left: 1.2rem;
+}
+
+.near-list li {
+  margin: 0.35rem 0;
 }
 
 .home-search input {

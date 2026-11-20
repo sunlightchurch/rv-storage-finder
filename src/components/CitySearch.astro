@@ -1,4 +1,6 @@
 ---
+import { href } from '../lib/data';
+
 interface Props {
   inputId?: string;
   label?: string;
@@ -8,18 +10,24 @@ const { inputId = 'home-q', label = 'Search by city or ZIP code' } = Astro.props
 const resultsId = `${inputId}-results`;
 ---
 
-<form class="home-search" role="search">
+<form class="home-search" role="search" action={href('/near/')} method="get">
   <label for={inputId}>{label}</label>
-  <input
-    id={inputId}
-    data-city-search
-    type="search"
-    placeholder="Try Tampa, 33610, or Austin"
-    autocomplete="off"
-    aria-controls={resultsId}
-    aria-expanded="false"
-    enterkeyhint="search"
-  />
+  <div class="search-row">
+    <input
+      id={inputId}
+      name="q"
+      data-city-search
+      type="search"
+      inputmode="search"
+      placeholder="Try Tampa, 33610, or 34986"
+      autocomplete="off"
+      aria-controls={resultsId}
+      aria-expanded="false"
+      enterkeyhint="search"
+      required
+    />
+    <button type="submit">Search</button>
+  </div>
   <ul id={resultsId} class="search-results" role="listbox" hidden></ul>
-  <p class="fine">Type a city or a ZIP from a listed facility. Results open that city’s page.</p>
+  <p class="fine">Press Search or the keyboard Go key. A ZIP lists the nearest facilities, with miles. A city name opens the best match.</p>
 </form>

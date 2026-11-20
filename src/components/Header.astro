@@ -23,18 +23,24 @@ const index = searchIndex();
       <span class="brand-name">{site.name}</span>
     </a>
     {!home && (
-    <form class="header-search" role="search">
+    <form class="header-search" role="search" action={href('/near/')} method="get">
       <label class="sr-only" for="header-q">Search cities or ZIP codes</label>
-      <input
-        id="header-q"
-        data-city-search
-        type="search"
-        placeholder="City or ZIP"
-        autocomplete="off"
-        aria-controls="header-results"
-        aria-expanded="false"
-        enterkeyhint="search"
-      />
+      <div class="search-row">
+        <input
+          id="header-q"
+          name="q"
+          data-city-search
+          type="search"
+          inputmode="search"
+          placeholder="City or ZIP"
+          autocomplete="off"
+          aria-controls="header-results"
+          aria-expanded="false"
+          enterkeyhint="search"
+          required
+        />
+        <button type="submit">Search</button>
+      </div>
       <ul id="header-results" class="search-results" role="listbox" hidden></ul>
     </form>
     )}

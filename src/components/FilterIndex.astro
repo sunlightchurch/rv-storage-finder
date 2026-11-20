@@ -13,7 +13,7 @@ const groups = filterGroups();
           {group.pages.map((page) => (
             <li>
               <a href={href(page.path)}>
-                {page.city.city} <span class="count">{page.matches.length}</span>
+                {page.city.city}, {page.city.state_code} <span class="count">{page.matches.length}</span>
               </a>
             </li>
           ))}

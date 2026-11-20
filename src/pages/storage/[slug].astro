@@ -15,7 +15,7 @@ const page = getFilterPage(Astro.params.slug!);
 const crumbs = [
   { label: 'Home', path: '/' },
   { label: page.city.state, path: `/states/${stateSlug(page.city.state)}/` },
-  { label: page.city.city, path: `/cities/${page.city.id}/` },
+  { label: `${page.city.city}, ${page.city.state_code}`, path: `/cities/${page.city.id}/` },
   { label: page.filter.label, path: page.path },
 ];
 const priced = page.matches.filter((listing) => listing.price_notes).length;
@@ -76,7 +76,7 @@ const schema = pageGraph([
     </section>
     <FindMore city={page.city} />
     <p class="cross">
-      <a href={href(`/cities/${page.city.id}/`)}>All {page.city.city} listings</a>
+      <a href={href(`/cities/${page.city.id}/`)}>All {page.city.city}, {page.city.state_code} listings</a>
       <a href={href('/guide/')}>What RV storage costs</a>
       <a href={href('/storage/')}>All filters</a>
     </p>

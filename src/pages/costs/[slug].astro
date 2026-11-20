@@ -55,7 +55,7 @@ const crumbs = city
       { label: 'Home', path: '/' },
       { label: 'Prices', path: '/costs/' },
       { label: city.state, path: `/costs/${stateSlug(city.state)}/` },
-      { label: city.city, path },
+      { label: `${city.city}, ${city.state_code}`, path },
     ]
   : [
       { label: 'Home', path: '/' },
@@ -122,7 +122,7 @@ const schema = pageGraph([
 <Base title={title} description={description} path={path} schema={schema}>
   <div class="wrap">
     <Breadcrumbs items={crumbs} />
-    <h1>{city ? `Monthly prices in ${city.city}` : `Monthly prices in ${state!.name}`}</h1>
+    <h1>{city ? `Monthly prices in ${city.city}, ${city.state_code}` : `Monthly prices in ${state!.name}`}</h1>
     <p class="summary">{description}</p>
     <p class="legend">
       Checked through <time datetime={latest}>{latest ? formatDate(latest) : ''}</time>. Amounts stay in
@@ -148,7 +148,7 @@ const schema = pageGraph([
                 return (
                   <tr>
                     <th scope="row">
-                      <a href={href(`/costs/${item.id}/`)}>{item.city}</a>
+                      <a href={href(`/costs/${item.id}/`)}>{item.city}, {item.state_code}</a>
                     </th>
                     <td>{item.listings.length}</td>
                     <td>{itemSpan.count}</td>
@@ -168,7 +168,7 @@ const schema = pageGraph([
     <PriceTable
       rows={rows}
       rootId={`prices-${slug}`}
-      caption={city ? `Published figures in ${city.city}` : `Published figures in ${state!.name}`}
+      caption={city ? `Published figures in ${city.city}, ${city.state_code}` : `Published figures in ${state!.name}`}
     />
     <section class="faq">
       <h2>Questions</h2>
@@ -182,7 +182,7 @@ const schema = pageGraph([
       }
     </section>
     <p class="cross">
-      {city && <a href={href(`/cities/${city.id}/`)}>All {city.city} listings</a>}
+      {city && <a href={href(`/cities/${city.id}/`)}>All {city.city}, {city.state_code} listings</a>}
       {city && <a href={href(`/costs/${stateSlug(city.state)}/`)}>{city.state} prices</a>}
       {state && <a href={href(`/states/${state.slug}/`)}>All {state.name} listings</a>}
       <a href={href('/costs/')}>All published prices</a>

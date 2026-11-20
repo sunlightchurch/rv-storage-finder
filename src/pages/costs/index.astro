@@ -45,7 +45,7 @@ const schema = pageGraph([
           <ul class="jump">
             {state.cities.map((city) => (
               <li>
-                <a href={href(`/costs/${city.id}/`)}>{city.city}</a>
+                <a href={href(`/costs/${city.id}/`)}>{city.city}, {city.state_code}</a>
               </li>
             ))}
           </ul>

@@ -21,7 +21,7 @@ const chips = [
 ---
 
 <div class="filter-tools">
-  <div class="chips" data-filter-bar role="group" aria-label={`Filter ${city.city} listings`}>
+  <div class="chips" data-filter-bar role="group" aria-label={`Filter ${city.city}, ${city.state_code} listings`}>
     {
       chips.map((chip) => (
         <button type="button" data-filter={chip.key} aria-pressed={chip.key === 'all' ? 'true' : 'false'}>
@@ -31,7 +31,7 @@ const chips = [
     }
     <label class="length-filter">
       At least
-      <input type="number" inputmode="decimal" min="1" max="80" step="1" placeholder="ft" data-min-length aria-label={`Minimum published length in feet for ${city.city}`} />
+      <input type="number" inputmode="decimal" min="1" max="80" step="1" placeholder="ft" data-min-length aria-label={`Minimum published length in feet for ${city.city}, ${city.state_code}`} />
       ft
     </label>
   </div>
@@ -39,7 +39,7 @@ const chips = [
 </div>
 {
   pages.length > 0 && (
-    <nav class="seo-links" aria-label={`Shareable ${city.city} pages`}>
+    <nav class="seo-links" aria-label={`Shareable ${city.city}, ${city.state_code} pages`}>
       <p>
         Shareable pages:{' '}
         {pages.map((page, index) => (

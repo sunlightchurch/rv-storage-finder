@@ -37,7 +37,7 @@ const schema = pageGraph([
             {state.cities.map((city) => (
               <li>
                 <a href={href(`/cities/${city.id}/`)}>
-                  {city.city}
+                  {city.city}, {city.state_code}
                   <span class="count">{city.listings.length}</span>
                 </a>
               </li>

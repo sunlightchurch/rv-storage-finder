@@ -20,6 +20,35 @@
     return `${base}cities/${id}/`;
   }
 
+  function normPlace(value) {
+    return String(value)
+      .toLowerCase()
+      .replace(/\./g, '')
+      .replace(/\bsaint\b/g, 'st')
+      .replace(/[^a-z0-9]+/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+
+  function queryZip(value) {
+    const match = String(value).trim().match(/^(\d{5})(?:-\d{4})?$/);
+    return match ? match[1] : null;
+  }
+
+  function bestCity(query) {
+    const q = normPlace(query);
+    if (!q || queryZip(query)) return null;
+    const exact = cities.filter((city) => {
+      const name = normPlace(city.city);
+      return name === q || `${name} ${city.code.toLowerCase()}` === q || normPlace(`${city.city}, ${city.code}`) === q;
+    });
+    if (exact.length === 1) return exact[0];
+    if (exact.length > 1) return null;
+    if (q.length < 4) return null;
+    const prefix = cities.filter((city) => normPlace(city.city).startsWith(q));
+    return prefix.length === 1 ? prefix[0] : null;
+  }
+
   document.querySelectorAll('[data-city-search]').forEach((input) => {
     const list = document.getElementById(input.getAttribute('aria-controls') || '');
     if (!list) return;
@@ -39,7 +68,7 @@
       if (!found.length) {
         const empty = document.createElement('li');
         empty.className = 'search-empty';
-        empty.textContent = 'No city or ZIP matches yet.';
+        empty.textContent = 'No listed city has that name. Press Search for nearest facilities.';
         list.append(empty);
         return;
       }
@@ -74,6 +103,23 @@
         input.setAttribute('aria-expanded', 'false');
       }
     });
+
+    const form = input.form;
+    if (form) {
+      form.addEventListener('submit', (event) => {
+        const active = list.querySelector('a.is-active');
+        if (active) {
+          event.preventDefault();
+          window.location.href = active.href;
+          return;
+        }
+        const city = bestCity(input.value);
+        if (city) {
+          event.preventDefault();
+          window.location.href = href(city.id);
+        }
+      });
+    }
   });
 
   const header = document.querySelector('.site-header');

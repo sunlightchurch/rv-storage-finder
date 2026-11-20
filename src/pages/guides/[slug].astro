@@ -33,7 +33,7 @@ const path = guide.path;
 const crumbs = [
   { label: 'Home', path: '/' },
   { label: 'Guides', path: '/guides/' },
-  { label: isCity ? guide.city.city : 'Covered vs uncovered vs indoor', path },
+  { label: isCity ? `${guide.city.city}, ${guide.city.state_code}` : 'Covered vs uncovered vs indoor', path },
 ];
 const faqs = isCity
   ? [
@@ -77,14 +77,14 @@ function evenMedian(band: PriceBand): boolean {
     <h1>
       {
         isCity
-          ? `How much does RV storage cost in ${guide.city.city}?`
+          ? `How much does RV storage cost in ${guide.city.city}, ${guide.city.state_code}?`
           : 'Covered vs uncovered vs indoor RV storage'
       }
     </h1>
     {
       isCity ? (
         <p>
-          {guide.sampled.length} of {guide.city.listings.length} facilities on the {guide.city.city} page
+          {guide.sampled.length} of {guide.city.listings.length} facilities on the {guide.city.city}, {guide.city.state_code} page
           printed a monthly dollar amount. Among those amounts, the low is {formatBand(guide.overall.min)},
           the median is {formatBand(guide.overall.median)}, and the high is {formatBand(guide.overall.max)}.
           {guide.overall.amounts} monthly amounts were counted. A price note that does not say it is monthly
@@ -104,7 +104,7 @@ function evenMedian(band: PriceBand): boolean {
           <table>
             <caption>
               {isCity
-                ? `Published monthly amounts in ${guide.city.city} by cover type`
+                ? `Published monthly amounts in ${guide.city.city}, ${guide.city.state_code} by cover type`
                 : 'Published monthly amounts by cover type'}
             </caption>
             <thead>
@@ -154,7 +154,7 @@ function evenMedian(band: PriceBand): boolean {
             ))}
           </ul>
           <p>
-            <a href={href(`/cities/${guide.city.id}/`)}>All {guide.city.city} listings</a>
+            <a href={href(`/cities/${guide.city.id}/`)}>All {guide.city.city}, {guide.city.state_code} listings</a>
             {' · '}
             <a href={href(`/costs/${guide.city.id}/`)}>Price table</a>
           </p>
