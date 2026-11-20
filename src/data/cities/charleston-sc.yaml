@@ -1,0 +1,339 @@
+# Verified against public facility pages on 2026-11-20. See PUBLISHING.md.
+# null means the source did not say. Do not guess.
+id: charleston-sc
+city: Charleston
+state: South Carolina
+state_code: SC
+metro: Charleston
+summary: >-
+  These facilities publish an RV or boat storage page and are in Charleston or
+  nearby, including Mount Pleasant, Summerville, North Charleston, Johns Island,
+  and Goose Creek. Each card uses only what that page states.
+sparefoot_slug: Charleston-SC
+neighbor_path: south-carolina/charleston
+sparefoot_note: null
+photo: charleston
+listings:
+  - slug: seven-storage-summerville
+    name: 7 Storage
+    street: 231 Old Trolley Road
+    city: Summerville
+    state_code: SC
+    postal_code: "29485"
+    lat: null
+    lng: null
+    phone: 843-343-2006
+    website: https://7storage.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Summerville address on a page that says 7 Storage is dedicated to boat and
+      RV storage. The same page lists fencing, a personal access code, and video
+      surveillance, and a second lot at 3494 Park Avenue in Mount Pleasant.
+    sources:
+      - url: https://7storage.com/
+        title: Official website
+    last_verified: "2026-11-20"
+
+  - slug: seven-storage-mount-pleasant
+    name: 7 Storage
+    street: 3494 Park Avenue
+    city: Mt Pleasant
+    state_code: SC
+    postal_code: "29466"
+    lat: null
+    lng: null
+    phone: 843-343-2006
+    website: null
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Mount Pleasant address on the same boat and RV page as the Summerville lot.
+      The page lists fencing, a personal access code, and video surveillance for
+      7 Storage. The website is shared with another listing, so the website button
+      is omitted here.
+    sources:
+      - url: https://7storage.com/
+        title: Official website
+    last_verified: "2026-11-20"
+
+  - slug: cubesmart-north-charleston-rivers
+    name: CubeSmart Self Storage of North Charleston
+    street: 5850a Rivers Ave
+    city: North Charleston
+    state_code: SC
+    postal_code: "29406"
+    lat: null
+    lng: null
+    phone: "(843) 744-2150"
+    website: https://www.cubesmart.com/south-carolina-self-storage/north-charleston-self-storage/2642.html
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: false
+    access_hours: "Daily, 6:00 AM to 10:00 PM"
+    price_notes: null
+    billing_term: month-to-month
+    waitlist: null
+    notes: >-
+      The location text says this facility offers vehicle storage for RVs and
+      boats, and the amenity list includes outside parking and gate access from
+      the app. The phone is the current-customer number. No outdoor price was
+      printed when the page was opened.
+    sources:
+      - url: https://www.cubesmart.com/south-carolina-self-storage/north-charleston-self-storage/2642.html
+        title: Official location page
+    last_verified: "2026-11-20"
+
+  - slug: johns-island-self-storage
+    name: Johns Island Self Storage
+    street: 1000 Main Rd
+    city: Johns Island
+    state_code: SC
+    postal_code: "29455"
+    lat: null
+    lng: null
+    phone: "(843) 305-3990"
+    website: https://www.selfstoragejohnsisland.com/1000-main-rd-johns-island-sc-29455
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    access_hours: "Monday through Sunday, 24/7"
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The location page lists outdoor boat, RV, and vehicle parking, gated
+      security, and surveillance. Office hours are Monday through Friday 9:00 AM
+      to 5:00 PM, Saturday 9:00 AM to 4:00 PM, and Sunday closed.
+    sources:
+      - url: https://www.selfstoragejohnsisland.com/1000-main-rd-johns-island-sc-29455
+        title: Official location page
+    last_verified: "2026-11-20"
+
+  - slug: long-leaf-storage-summerville
+    name: Long Leaf Storage
+    street: 2527 West 5th North Street
+    city: Summerville
+    state_code: SC
+    postal_code: "29483"
+    lat: null
+    lng: null
+    phone: "(843) 829-5500"
+    website: https://longleafstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    access_hours: "Sunday through Saturday, 6:00 AM to 9:00 PM"
+    price_notes: >-
+      A 10 by 30 foot space is listed at $125 per month. An 11 by 40 foot space
+      is described for larger campers, and that row does not print a price.
+    waitlist: null
+    notes: >-
+      Outdoor boat, RV, and trailer storage with a coded gate, perimeter fencing,
+      and security cameras. The page also lists a 10 by 20 foot space without a
+      price.
+    sources:
+      - url: https://longleafstorage.com/
+        title: Official website
+    last_verified: "2026-11-20"
+
+  - slug: main-road-storage-johns-island
+    name: Main Road Self Storage
+    street: 940 Main Rd
+    city: Johns Island
+    state_code: SC
+    postal_code: "29455"
+    lat: null
+    lng: null
+    phone: "(843) 559-0061"
+    website: https://www.mainroadstorage.com/car-boat-rv-storage.php
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: false
+    access_hours: "Daily, 6:00 am to 9:00 pm"
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Johns Island outdoor lot. The page says both this address and the
+      Summerville lot are paved for boats, RVs, trailers, and cars. Office hours
+      are Monday through Saturday 9:00 am to 5:30 pm, and Sunday is closed.
+    sources:
+      - url: https://www.mainroadstorage.com/car-boat-rv-storage.php
+        title: Boat and RV storage page
+    last_verified: "2026-11-20"
+
+  - slug: main-road-storage-summerville
+    name: Main Road Self Storage
+    street: 10814 Dorchester Rd
+    city: Summerville
+    state_code: SC
+    postal_code: "29485"
+    lat: null
+    lng: null
+    phone: "(843) 821-6555"
+    website: null
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: false
+    access_hours: "Daily, 6:00 am to 9:00 pm"
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Summerville outdoor lot on the same paved boat and RV page as Johns Island.
+      Gate hours are printed once for the facilities. The website is shared with
+      another listing, so the website button is omitted here.
+    sources:
+      - url: https://www.mainroadstorage.com/car-boat-rv-storage.php
+        title: Boat and RV storage page
+    last_verified: "2026-11-20"
+
+  - slug: mount-pleasant-boat-rv-storage
+    name: Mt Pleasant Boat and RV Storage
+    street: 3901 Bessemer Rd
+    city: Mt Pleasant
+    state_code: SC
+    postal_code: null
+    lat: null
+    lng: null
+    phone: null
+    website: https://mtpleasantboatandrvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: true
+    price_notes: null
+    billing_term: month-to-month
+    waitlist: null
+    notes: >-
+      The about page prints 3901 Bessemer Rd, Mt Pleasant, and does not print a
+      ZIP or a phone number. The homepage says the gate is accessible 24/7 and
+      that leases are month to month. Cover type is not stated.
+    sources:
+      - url: https://mtpleasantboatandrvstorage.com/
+        title: Official website
+      - url: https://mtpleasantboatandrvstorage.com/about-us/
+        title: About page
+    last_verified: "2026-11-20"
+
+  - slug: no-mud-rv-storage-summerville
+    name: No Mud RV Storage
+    street: 515 Hodge Road
+    city: Summerville
+    state_code: SC
+    postal_code: "29483"
+    lat: null
+    lng: null
+    phone: "(843) 572-4440"
+    website: https://nomudrvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Outdoor storage for boats, RVs, and trailers off Jedburg Road. Listed
+      business hours are Monday through Friday 9:00 am to 5:00 pm, and Saturday
+      and Sunday are closed. The page does not say whether those are gate hours.
+    sources:
+      - url: https://nomudrvstorage.com/
+        title: Official website
+    last_verified: "2026-11-20"
+
+  - slug: stars-and-stripes-north-rhett
+    name: Stars and Stripes Storage
+    street: 103 Luken Road
+    city: Goose Creek
+    state_code: SC
+    postal_code: "29445"
+    lat: null
+    lng: null
+    phone: "(866) 572-2768"
+    website: https://starsandstripesstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The page says boat and RV parking is at North Rhett, this address. A second
+      address, 1206 Red Bank Road, is not described as boat or RV parking. Property
+      features include computer-controlled access, 24/7 gate access, and security
+      surveillance. The printed unit-size prices are not labeled as parking rates.
+    sources:
+      - url: https://starsandstripesstorage.com/
+        title: Official website
+    last_verified: "2026-11-20"

@@ -210,6 +210,76 @@
   license: "CC BY-SA 3.0"
   license_url: "https://creativecommons.org/licenses/by-sa/3.0"
   credit_required: true
+- id: charleston
+  role: city
+  alt: "Rainbow Row houses in Charleston, South Carolina"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/charleston-640.webp
+    "960": photos/charleston-960.webp
+    "1280": photos/charleston-1280.webp
+  author: "Thomson200"
+  source_url: "https://commons.wikimedia.org/wiki/File:Rainbow_Row_Charleston_July_2024_1.jpg"
+  license: "CC0"
+  license_url: "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  credit_required: false
+- id: myrtle-beach
+  role: city
+  alt: "The pier at Myrtle Beach State Park, South Carolina"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/myrtle-beach-640.webp
+    "960": photos/myrtle-beach-960.webp
+    "1280": photos/myrtle-beach-1280.webp
+  author: "formulanone"
+  source_url: "https://commons.wikimedia.org/wiki/File:Myrtle_Beach_State_Park_Pier_Aerial_(50572624567).jpg"
+  license: "CC BY-SA 2.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  credit_required: true
+- id: nashville
+  role: city
+  alt: "Downtown Nashville, Tennessee skyline"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/nashville-640.webp
+    "960": photos/nashville-960.webp
+    "1280": photos/nashville-1280.webp
+  author: "Quintin Soloviev"
+  source_url: "https://commons.wikimedia.org/wiki/File:Nashville,_TN_skyline.jpg"
+  license: "CC BY 4.0"
+  license_url: "https://creativecommons.org/licenses/by/4.0"
+  credit_required: true
+- id: chattanooga
+  role: city
+  alt: "Downtown Chattanooga, Tennessee and the Tennessee River"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/chattanooga-640.webp
+    "960": photos/chattanooga-960.webp
+    "1280": photos/chattanooga-1280.webp
+  author: "Breethol"
+  source_url: "https://commons.wikimedia.org/wiki/File:Chattanooga_Skyline_2018.jpg"
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  credit_required: true
+- id: san-diego
+  role: city
+  alt: "Downtown San Diego, California skyline at night"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/san-diego-640.webp
+    "960": photos/san-diego-960.webp
+    "1280": photos/san-diego-1280.webp
+  author: "Rufustelestrat"
+  source_url: "https://commons.wikimedia.org/wiki/File:San_Diego_Reflecting_Pond.jpg"
+  license: "CC BY 2.5"
+  license_url: "https://creativecommons.org/licenses/by/2.5"
+  credit_required: true
 - id: florida
   role: state
   alt: "Aerial view of Caspersen Beach on the Florida coast"
@@ -293,6 +363,48 @@
   source_url: "https://commons.wikimedia.org/wiki/File:Blue_Ridge_Parkway_-_North_Carolina_(14584525620).jpg"
   license: "CC BY-SA 2.0"
   license_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  credit_required: true
+- id: south-carolina
+  role: state
+  alt: "South Carolina State House in Columbia"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/south-carolina-640.webp
+    "960": photos/south-carolina-960.webp
+    "1280": photos/south-carolina-1280.webp
+  author: "Farragutful"
+  source_url: "https://commons.wikimedia.org/wiki/File:2018_South_Carolina_State_House_(cropped).jpg"
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  credit_required: true
+- id: tennessee
+  role: state
+  alt: "Cades Cove in Great Smoky Mountains National Park, Tennessee"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/tennessee-640.webp
+    "960": photos/tennessee-960.webp
+    "1280": photos/tennessee-1280.webp
+  author: "Lee Ann Ratledge"
+  source_url: "https://commons.wikimedia.org/wiki/File:Cades_Cove_-_Great_Smoky_Mountains_National_Park,_Tennessee_-_June_21,_2015.jpg"
+  license: "CC BY 4.0"
+  license_url: "https://creativecommons.org/licenses/by/4.0"
+  credit_required: true
+- id: california
+  role: state
+  alt: "California State Capitol in Sacramento"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/california-640.webp
+    "960": photos/california-960.webp
+    "1280": photos/california-1280.webp
+  author: "Dllu"
+  source_url: "https://commons.wikimedia.org/wiki/File:Blue_hour_front_view_of_California_State_Capitol_dllu_2018.jpg"
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0"
   credit_required: true
 - id: guide
   role: guide

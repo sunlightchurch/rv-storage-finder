@@ -1,0 +1,283 @@
+# Verified against public facility pages on 2026-11-20. See PUBLISHING.md.
+# null means the source did not say. Do not guess.
+id: san-diego-ca
+city: San Diego
+state: California
+state_code: CA
+metro: San Diego
+summary: >-
+  These facilities publish an RV or boat storage page and are in San Diego or
+  nearby, including Santee, El Cajon, and Chula Vista. Each card uses only what
+  that page states.
+sparefoot_slug: San-Diego-CA
+neighbor_path: california/san-diego
+sparefoot_note: null
+photo: san-diego
+listings:
+  - slug: a-storage-place-chula-vista-main
+    name: A Storage Place - Main St.
+    street: 3755 Main St
+    city: Chula Vista
+    state_code: CA
+    postal_code: "91911"
+    lat: null
+    lng: null
+    phone: "(619) 422-2578"
+    website: https://www.aspselfstorage.com/storage-units/ca/chula-vista/3755-main-st
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    access_hours: "6:00 am to 9:00 pm"
+    price_notes: null
+    billing_term: month-to-month
+    fees:
+      admin: One-time $25 administration fee, in addition to the monthly rate.
+      lock_or_insurance: >-
+        Proof of self-insurance, or an insurance program starting at $12 per
+        month. Locks are required and may be purchased on site.
+    waitlist: null
+    notes: >-
+      The location page lists boat storage, RV storage, trailer storage, and
+      uncovered parking, plus a coded security gate, cameras, and video
+      surveillance. It says reserved RV spaces can take RVs of practically any
+      size and does not print a maximum length. Access hours are labeled as
+      today's access hours.
+    sources:
+      - url: https://www.aspselfstorage.com/storage-units/ca/chula-vista/3755-main-st
+        title: Official location page
+    last_verified: "2026-11-20"
+
+  - slug: dock-aid-el-cajon
+    name: Dock Aid
+    street: "14367 #2, Olde Hwy 80"
+    city: El Cajon
+    state_code: CA
+    postal_code: "92021"
+    lat: null
+    lng: null
+    phone: "(858) 525-3132"
+    website: https://www.dockaid.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: null
+    price_notes: null
+    billing_term: month-to-month
+    waitlist: null
+    notes: >-
+      Outdoor boat, trailer, and RV storage. The page says the lot is gated and
+      that boat storage is month to month. It also offers boat transport and
+      repair, which are separate from the storage spaces.
+    sources:
+      - url: https://www.dockaid.com/
+        title: Official website
+    last_verified: "2026-11-20"
+
+  - slug: palms-rv-boat-storage-chula-vista
+    name: Palms rv and boat storage
+    street: 275 Orange Ave
+    city: Chula Vista
+    state_code: CA
+    postal_code: "91911"
+    lat: null
+    lng: null
+    phone: null
+    website: https://chulavistaboatandrvstorage.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The page heading is the facility name and the page prints this address. It
+      does not print a phone number, hours, prices, cover type, or amenities.
+    sources:
+      - url: https://chulavistaboatandrvstorage.com/
+        title: Official website
+    last_verified: "2026-11-20"
+
+  - slug: ranch-rv-equipment-storage-el-cajon
+    name: Ranch RV & Equipment Storage
+    street: 13549 Highway 8 Business
+    city: El Cajon
+    state_code: CA
+    postal_code: "92021"
+    lat: null
+    lng: null
+    phone: "(619) 504-0199"
+    website: https://ranchstorageinc.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: >-
+      Listed monthly rates are $151 up to 25 feet, $177 up to 31 feet, $197 up
+      to 37 feet, and $312 up to 42 feet. Items over 42 feet, or over 26,000
+      GVW, are call or text. Length includes hitches, spare tires, or other
+      attachments.
+    waitlist: null
+    notes: >-
+      The page offers RV, boat, trailer, and vehicle storage in East County San
+      Diego and does not say whether the spaces are covered, enclosed, or open.
+    sources:
+      - url: https://ranchstorageinc.com/
+        title: Official website
+    last_verified: "2026-11-20"
+
+  - slug: rockvill-rv-self-storage-santee
+    name: Rockvill RV & Self Storage
+    street: 10775 Rockvill Street
+    city: Santee
+    state_code: CA
+    postal_code: "92071"
+    lat: null
+    lng: null
+    phone: 619-631-7707
+    website: https://www.rockvillselfstorage.com/
+    vehicles: [rv]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The page says this Santee address offers vehicle parking and names an RV
+      as something a customer can park there. It does not say boats are stored.
+      The same page lists a separate Temecula address, 27200 Madison Avenue.
+    sources:
+      - url: https://www.rockvillselfstorage.com/
+        title: Official website
+    last_verified: "2026-11-20"
+
+  - slug: sentry-storage-chula-vista
+    name: Sentry Storage
+    street: 3885 Main St
+    city: Chula Vista
+    state_code: CA
+    postal_code: "91911"
+    lat: null
+    lng: null
+    phone: "(619) 422-7963"
+    website: https://sentrystorage.net/rv-storage-parking-spaces-in-chula-vista-ca/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: false
+    access_hours: "Daily, 6:00 AM to 9:00 PM"
+    price_notes: null
+    billing_term: month-to-month
+    fees:
+      lock_or_insurance: Insurance and registration must be current.
+    waitlist: null
+    notes: >-
+      Dedicated parking for vehicles, vessels, and trailers on a paved lot. The
+      page says the site is fenced, with controlled access, and that dump station
+      access has no additional cost. Pricing is call to inquire. Office hours are
+      9:30 AM to 6:00 PM daily. Stored items must be operable and registered to
+      the tenant.
+    sources:
+      - url: https://sentrystorage.net/rv-storage-parking-spaces-in-chula-vista-ca/
+        title: RV and boat storage page
+    last_verified: "2026-11-20"
+
+  - slug: storage-oasis-santee
+    name: Storage Oasis
+    street: 11493 Woodside Ave
+    city: Santee
+    state_code: CA
+    postal_code: "92071"
+    lat: null
+    lng: null
+    phone: 971-204-6638
+    website: https://www.storageoasisusa.com/self-storage/ca/santee/boat-rv-storage
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: false
+    access_hours: "Daily, 7:30 am to 6:30 pm"
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The Santee page is a boat and RV parking page and says the facility has
+      gated access seven days a week. Office hours match the access hours,
+      Monday through Sunday 7:30 am to 6:30 pm.
+    sources:
+      - url: https://www.storageoasisusa.com/self-storage/ca/santee/boat-rv-storage
+        title: Boat and RV storage page
+    last_verified: "2026-11-20"
+
+  - slug: toy-storage-chula-vista
+    name: Toy Storage
+    street: 1180 Industrial Blvd.
+    city: Chula Vista
+    state_code: CA
+    postal_code: "91911"
+    lat: null
+    lng: null
+    phone: "(619) 575-9565"
+    website: https://www.rvboatautostorage.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 42
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Outdoor storage for RVs, boats and other watercraft, trailers, autos, and
+      fifth wheels under 42 feet. Office hours are Monday through Friday 9 a.m.
+      to 5 p.m. and Saturday 9 a.m. to 1 p.m. A toll-free number, 1-800-986-9786,
+      is also printed. The page does not state gate hours.
+    sources:
+      - url: https://www.rvboatautostorage.com/
+        title: Official website
+    last_verified: "2026-11-20"

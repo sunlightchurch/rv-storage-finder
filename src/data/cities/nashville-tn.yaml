@@ -1,0 +1,231 @@
+# Verified against public facility pages on 2026-11-20. See PUBLISHING.md.
+# null means the source did not say. Do not guess.
+id: nashville-tn
+city: Nashville
+state: Tennessee
+state_code: TN
+metro: Nashville
+summary: >-
+  These facilities publish an RV or boat storage page and are in Nashville or
+  nearby, including Antioch, Hendersonville near Old Hickory Lake, and Mount
+  Juliet. Each card uses only what that page states.
+sparefoot_slug: Nashville-TN
+neighbor_path: tennessee/nashville
+sparefoot_note: null
+photo: nashville
+listings:
+  - slug: boathouse-benders-ferry
+    name: The Boathouse at Benders Ferry
+    street: 3621 Benders Ferry Road
+    city: Mount Juliet
+    state_code: TN
+    postal_code: "37122"
+    lat: null
+    lng: null
+    phone: "(615) 758-2999"
+    website: https://boathouseatbendersferry.com/
+    vehicles: [boat]
+    storage_types: [enclosed]
+    max_length_ft: 32
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Enclosed dry storage on Old Hickory Lake for 236 boats up to 32 feet, plus
+      50 personal watercraft spaces. The page describes a 20,000-pound lift and
+      staff launch through SpeedyDock. It does not list RV parking. Corporate
+      office hours are Monday through Friday, 9:00 am to 5:00 pm.
+    sources:
+      - url: https://boathouseatbendersferry.com/
+        title: Official website
+    last_verified: "2026-11-20"
+
+  - slug: cubesmart-nashville-antioch-pike
+    name: CubeSmart Self Storage of Nashville
+    street: 1202 Antioch Pike
+    city: Nashville
+    state_code: TN
+    postal_code: "37211"
+    lat: null
+    lng: null
+    phone: "(615) 833-3532"
+    website: https://www.cubesmart.com/tennessee-self-storage/nashville-self-storage/239.html
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 30
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    access_hours: "Daily, 6:00 AM to 10:00 PM"
+    price_notes: >-
+      Outdoor parking is listed at $78.60 per month online for 20 ft ($131.00 in
+      store) and $82.20 per month online for 30 ft ($137.00 in store), with a
+      second-month-free and 40% off offer.
+    billing_term: month-to-month
+    waitlist: null
+    notes: >-
+      The Antioch Pike page lists RV storage, parking spaces for boats, outdoor
+      parking, gate access, and around-the-clock video recording. The phone is
+      the current-customer number. Office hours are Monday through Friday 9:30 AM
+      to 6:00 PM, Saturday 8:30 AM to 5:00 PM, and Sunday closed.
+    sources:
+      - url: https://www.cubesmart.com/tennessee-self-storage/nashville-self-storage/239.html
+        title: Official location page
+    last_verified: "2026-11-20"
+
+  - slug: go-store-it-hendersonville-avondale
+    name: Go Store It
+    street: 1249 Avondale Road
+    city: Hendersonville
+    state_code: TN
+    postal_code: "37075"
+    lat: null
+    lng: null
+    phone: "(615) 812-1137"
+    website: https://www.gostoreit.com/locations/tennessee/hendersonville/1249-avondale-road/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    access_hours: "Monday through Sunday, 6:00 am to 10:00 pm"
+    price_notes: >-
+      Outdoor parking labeled for vehicles, boats, and RVs is listed at $133.00
+      (starting at $190.00) for 30 feet, $142.00 (starting at $203.00) and
+      $259.00 (starting at $370.00) for 35 feet, and $170.00 (starting at
+      $243.00) for 40 feet. Each of those rows says the first month's rent is $0.
+    billing_term: month-to-month
+    fees:
+      deposit: No deposit required.
+    waitlist: null
+    notes: >-
+      The Hendersonville page lists boat storage, RV storage, a gated parking
+      lot, and 24/7 video surveillance, and says the lot is near Old Hickory
+      Lake. A 20-foot outdoor row is labeled for vehicles and trailers, at
+      $78.00 (starting at $111.00), and is not labeled for boats or RVs.
+    sources:
+      - url: https://www.gostoreit.com/locations/tennessee/hendersonville/1249-avondale-road/
+        title: Official location page
+    last_verified: "2026-11-20"
+
+  - slug: mini-storage-depot-antioch
+    name: Mini Storage Depot – Antioch
+    street: 1321 Antioch Pike Rd.
+    city: Nashville
+    state_code: TN
+    postal_code: "37211"
+    lat: null
+    lng: null
+    phone: "(629) 215-8638"
+    website: https://www.ministoragedepot.com/storage-locations/tn/nashville/boat-storage/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Seven days a week, 6:00 a.m. to 10:00 p.m."
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The boat page says outdoor boat parking is at the Antioch Pike Road
+      location and that the facility is fenced. The Nashville locations page says
+      auto, boat, and RV storage is at that same Antioch address. A second phone
+      on the boat FAQ is (629) 276-3269.
+    sources:
+      - url: https://www.ministoragedepot.com/storage-locations/tn/nashville/boat-storage/
+        title: Nashville boat storage page
+      - url: https://www.ministoragedepot.com/storage-locations/tn/nashville/
+        title: Nashville locations page
+    last_verified: "2026-11-20"
+
+  - slug: old-timer-storage-mount-juliet
+    name: Old Timer Storage
+    street: 1901 Logue Road
+    city: Mt. Juliet
+    state_code: TN
+    postal_code: "37122"
+    lat: null
+    lng: null
+    phone: 615-754-2019
+    website: https://www.oldtimerstorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      Covered storage is $130 monthly for 35 feet and under and $160 monthly for
+      36 feet and over. Uncovered storage is $80 monthly for 30 feet and under,
+      $100 monthly for 30 to 50 feet, and $125 monthly for over 50 feet. An
+      additional vehicle in the same spot is $30. Prices are based on the length
+      of the space.
+    waitlist: null
+    notes: >-
+      Covered and uncovered storage for boats, RVs, trailers, and campers, with
+      closed-circuit cameras and 24-hour access. The minimum lease is six months.
+      Business hours are Monday through Friday 9:00 am to 5:00 pm, and Saturday
+      and Sunday are closed.
+    sources:
+      - url: https://www.oldtimerstorage.com/
+        title: Official website
+    last_verified: "2026-11-20"
+
+  - slug: storplace-mount-juliet
+    name: StorPlace Self Storage Mt Juliet
+    street: 155 Old Pleasant Grove Rd
+    city: Mt Juliet
+    state_code: TN
+    postal_code: "37122"
+    lat: null
+    lng: null
+    phone: "(615) 953-9922"
+    website: https://www.storplaceselfstorage.com/storage-units/tennessee/mt-juliet/storplace-of-mt-juliet-347047/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: 30
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    access_hours: "Daily, 6:00 a.m. to 10:00 p.m."
+    price_notes: null
+    waitlist: null
+    notes: >-
+      The location page lists RV, car, and boat parking, including 12 by 30 foot
+      parking spaces, and long-term outdoor boat storage. It also lists a gated
+      entry and 24-hour cameras. The phone is the current-tenant number. Office
+      hours are 9:00 a.m. to 5:30 p.m. Monday through Friday, 9:00 a.m. to 3:00
+      p.m. Saturday, and the office is closed Sunday. Unit prices on the page are
+      not labeled as the parking rate.
+    sources:
+      - url: https://www.storplaceselfstorage.com/storage-units/tennessee/mt-juliet/storplace-of-mt-juliet-347047/
+        title: Official location page
+    last_verified: "2026-11-20"

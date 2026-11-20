@@ -1,0 +1,193 @@
+# Verified against public facility pages on 2026-11-20. See PUBLISHING.md.
+# null means the source did not say. Do not guess.
+id: chattanooga-tn
+city: Chattanooga
+state: Tennessee
+state_code: TN
+metro: Chattanooga
+summary: >-
+  These facilities publish an RV or boat storage page and are in Chattanooga or
+  nearby, including Hixson, Ooltewah, and Harrison near Chickamauga Lake. Each
+  card uses only what that page states.
+sparefoot_slug: Chattanooga-TN
+neighbor_path: tennessee/chattanooga
+sparefoot_note: null
+photo: chattanooga
+listings:
+  - slug: chattanooga-fish-n-fun-hixson
+    name: Chattanooga Fish-N-Fun
+    street: 1730 Goldpoint Cir N
+    city: Hixson
+    state_code: TN
+    postal_code: "37343"
+    lat: null
+    lng: null
+    phone: "(423) 892-6272"
+    website: https://www.chattanoogafishnfun.com/covered-storage/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Covered and uncovered boat and RV spaces, with or without power. Spaces are
+      12 feet wide by 40 feet deep. The page says access is 24/7 through a gate
+      phone app and that there are security cameras. It says there are two Hixson
+      locations and prints this street. Listed hours are Monday through Friday
+      8:00 AM to 5:00 PM, Saturday 9:00 AM to 1:00 PM, and Sunday closed.
+    sources:
+      - url: https://www.chattanoogafishnfun.com/covered-storage/
+        title: Covered storage page
+    last_verified: "2026-11-20"
+
+  - slug: go-harrison-bay-boat-rv-storage
+    name: Harrison Bay Boat & RV Storage
+    street: 7055 Harvest Run Drive
+    city: Harrison
+    state_code: TN
+    postal_code: null
+    lat: null
+    lng: null
+    phone: "(423) 580-4925"
+    website: https://harrisonbaystorage.com/
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    billing_term: month-to-month
+    waitlist: null
+    notes: >-
+      Covered and uncovered boat and RV parking near Harrison Bay, with
+      electricity in select units, 24-hour access, and a mag card reader. The
+      homepage also says the facility has 24/7 surveillance. The contact page
+      prints "373411" after Harrison, TN, so no ZIP is stored. Month-to-month
+      and long-term leasing are both listed.
+    sources:
+      - url: https://harrisonbaystorage.com/
+        title: Official website
+      - url: https://harrisonbaystorage.com/contact/
+        title: Contact page
+      - url: https://harrisonbaystorage.com/rv-storage/
+        title: RV storage page
+    last_verified: "2026-11-20"
+
+  - slug: mini-mall-storage-ooltewah
+    name: Mini Mall Storage
+    street: 8117 Ooltewah Georgetown Road
+    city: Ooltewah
+    state_code: TN
+    postal_code: null
+    lat: null
+    lng: null
+    phone: 1-833-621-0762
+    website: https://minimallstorage.com/storage-units-ooltewah
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    access_hours: "Generally 6:00 am to 10:00 pm, 365 days a year"
+    price_notes: null
+    billing_term: month-to-month
+    waitlist: null
+    notes: >-
+      The Ooltewah page lists dedicated car, boat, and RV parking bays, electronic
+      keypad gates, and 24/7 video surveillance. It does not say whether the bays
+      are covered or open, and it does not print a ZIP. The same page also lists
+      9322 Lumber Lane, Collegedale, TN.
+    sources:
+      - url: https://minimallstorage.com/storage-units-ooltewah
+        title: Ooltewah storage page
+    last_verified: "2026-11-20"
+
+  - slug: northgate-parts-hixson
+    name: Northgate Parts
+    street: 687 Boy Scout Road
+    city: Hixson
+    state_code: TN
+    postal_code: "37343"
+    lat: null
+    lng: null
+    phone: "(423) 870-1515"
+    website: https://www.northgateparts.com/rv-storage
+    vehicles: [rv]
+    storage_types: [covered, open]
+    max_length_ft: 48
+    clearance_ft: null
+    power_hookups: true
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: >-
+      Outside open storage is $85 per month, and outside open storage with
+      electric is $110 per month. Covered storage with power is $160 per month
+      for building A (12 by 28 feet), $205 per month for building B (12 by 38
+      feet), and $220 per month for buildings C and D (12 by 48 feet).
+    waitlist: null
+    notes: >-
+      The Chattanooga location block prints this street in Hixson. The same page
+      also prints the street as Chattanooga and lists a Knoxville shop. RV
+      storage is described as 24/7 gated, camera-monitored, with covered power
+      spaces, open-air spaces, and a waste dump and water station. Boat work is
+      listed as a repair service, not as stored vehicles.
+    sources:
+      - url: https://www.northgateparts.com/rv-storage
+        title: RV storage page
+    last_verified: "2026-11-20"
+
+  - slug: usa-storage-centers-ooltewah
+    name: USA Storage Centers - Ooltewah
+    street: 6115 Mountain View Road
+    city: Ooltewah
+    state_code: TN
+    postal_code: null
+    lat: null
+    lng: null
+    phone: "(423) 682-7333"
+    website: https://www.usastoragecenters.com/locations/ooltewah-tn-37363
+    vehicles: [rv, boat]
+    storage_types: [enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: false
+    access_hours: "Every day, 6:00 AM to 10:00 PM"
+    price_notes: null
+    billing_term: month-to-month
+    waitlist: null
+    notes: >-
+      The Ooltewah page says the facility has indoor and outdoor vehicle storage
+      and tells customers to park an RV, trailer, boat, or vehicle there. It says
+      the facility has gated entry, video cameras, an on-site manager, and a
+      fence. The street line does not print a ZIP. Customer service hours are
+      Monday through Friday 9:00 AM to 5:30 PM, Saturday 9:00 AM to 4:00 PM, and
+      Sunday closed.
+    sources:
+      - url: https://www.usastoragecenters.com/locations/ooltewah-tn-37363
+        title: Official location page
+    last_verified: "2026-11-20"
