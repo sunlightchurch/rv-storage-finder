@@ -1,0 +1,127 @@
+id: hernando
+name: Hernando County
+state: Florida
+state_code: FL
+summary: >-
+  RV and boat storage in Hernando County with a street address from each
+  facility page. Towns on this page: Brooksville, Spring Hill.
+listings:
+  - slug: uhaul-032783
+    name: "J&M Storage"
+    street: "28363 Cortez Blvd"
+    city: Brooksville
+    state_code: FL
+    postal_code: 34602
+    lat: null
+    lng: null
+    phone: (352) 678-6898
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Brooksville-FL-34602/032783"
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $50.00 per month (Lower Level, Outside Level, No Climate); $60.00 per month (Outside Level, No Climate, No Electricity); $60.00 per month (Outside Level, No Electricity); $70.00 per month (Outside Level, No Climate, No Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 7 am - 7 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Brooksville-FL-34602/032783"
+        title: "J&M Storage location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-833030
+    name: "U-Haul Moving & Storage of Brooksville"
+    street: 15334 Cortez Blvd
+    city: Brooksville
+    state_code: FL
+    postal_code: 34613
+    lat: null
+    lng: null
+    phone: (352) 799-0591
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Brooksville-FL-34613/833030"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $64.95 per month (Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Brooksville-FL-34613/833030"
+        title: "U-Haul Moving & Storage of Brooksville location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1038945
+    name: Seven sisters storage
+    street: 13416 Cortez Blvd
+    city: Brooksville
+    state_code: FL
+    postal_code: 34613
+    lat: null
+    lng: null
+    phone: (954) 604-9822
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Homosassa-FL-34446/1038945"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $50.00 per month; $60.00 per month; $70.00 per month."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 8 am - 5 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Homosassa-FL-34446/1038945"
+        title: Seven sisters storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1029753
+    name: "Tools & More Rv, Boat & Trailer Storage"
+    street: 13594 Linden Dr
+    city: Spring Hill
+    state_code: FL
+    postal_code: 34609
+    lat: null
+    lng: null
+    phone: (352) 754-9335
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Spring-Hill-FL-34609/1029753"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $57.00 per month (Lower Level, Outside Level, No Climate); $75.00 per month (Outside Level, Drivethrough, No Climate, No Electricity); $80.00 per month (Outside Level, No Climate, No Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Wed: 9 am - 5 pm Thur: 9 am - 3:30 pm Fri: 9 am - 5 pm Sat: 9 am -."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Spring-Hill-FL-34609/1029753"
+        title: "Tools & More Rv, Boat & Trailer Storage location page"
+    last_verified: "2026-11-20"

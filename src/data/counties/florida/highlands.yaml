@@ -1,0 +1,67 @@
+id: highlands
+name: Highlands County
+state: Florida
+state_code: FL
+summary: >-
+  RV and boat storage in Highlands County with a street address from each
+  facility page. Towns on this page: Sebring.
+listings:
+  - slug: century-2760-us-highway-27-n-sebring
+    name: Century Storage – Sebring
+    street: 2760 US Highway 27 N
+    city: Sebring
+    state_code: FL
+    postal_code: 33870
+    lat: null
+    lng: null
+    phone: (863) 386-0880
+    website: "https://www.century-storage.com/storage-locations/fl/sebring/2609-bayview-st"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: month-to-month
+    waitlist: null
+    notes: The location page lists RV or boat storage at this address. It also says month-to-month rentals.
+    sources:
+      - url: "https://www.century-storage.com/storage-locations/fl/sebring/2609-bayview-st"
+        title: Century Storage – Sebring location page
+    last_verified: "2026-11-20"
+
+  - slug: century-sebring-south
+    name: "Century Storage – South Sebring"
+    street: "9200 US Hwy 27 South"
+    city: Sebring
+    state_code: FL
+    postal_code: "33876"
+    lat: null
+    lng: null
+    phone: "(863) 655-6500"
+    website: https://www.century-storage.com/storage-locations/fl/sebring/9200-u-s-hwy-27-south
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: month-to-month
+    waitlist: null
+    notes: "The south Sebring page lists covered and outdoor RV, auto, and boat storage, controlled gate access, and electricity in the space. Rentals are month to month."
+    sources:
+      - url: https://www.century-storage.com/storage-locations/fl/sebring/9200-u-s-hwy-27-south
+        title: Century Storage South Sebring
+    last_verified: "2026-11-20"

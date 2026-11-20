@@ -1,0 +1,37 @@
+id: nassau
+name: Nassau County
+state: Florida
+state_code: FL
+summary: >-
+  RV and boat storage in Nassau County with a street address from each
+  facility page. Towns on this page: Fernandina Beach.
+listings:
+  - slug: uhaul-784028
+    name: "U-Haul Moving & Storage of Amelia Island"
+    street: 1830 S 8th St
+    city: Fernandina Beach
+    state_code: FL
+    postal_code: 32034
+    lat: null
+    lng: null
+    phone: (904) 491-6966
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Fernandina-Beach-FL-32034/784028"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Fernandina-Beach-FL-32034/784028"
+        title: "U-Haul Moving & Storage of Amelia Island location page"
+    last_verified: "2026-11-20"

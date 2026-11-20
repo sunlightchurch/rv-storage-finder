@@ -16,8 +16,9 @@
     return false;
   }
 
-  function href(id) {
-    return `${base}cities/${id}/`;
+  function href(city) {
+    const target = city.path || `cities/${city.id}/`;
+    return `${base}${String(target).replace(/^\//, '')}`;
   }
 
   function normPlace(value) {
@@ -75,7 +76,7 @@
       found.forEach((city, index) => {
         const item = document.createElement('li');
         const link = document.createElement('a');
-        link.href = href(city.id);
+        link.href = href(city);
         link.id = `${input.id}-opt-${index}`;
         link.setAttribute('role', 'option');
         link.textContent = `${city.city}, ${city.code}`;
@@ -116,7 +117,7 @@
         const city = bestCity(input.value);
         if (city) {
           event.preventDefault();
-          window.location.href = href(city.id);
+          window.location.href = href(city);
         }
       });
     }

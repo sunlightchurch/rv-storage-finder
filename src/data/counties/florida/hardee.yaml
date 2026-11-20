@@ -1,0 +1,37 @@
+id: hardee
+name: Hardee County
+state: Florida
+state_code: FL
+summary: >-
+  RV and boat storage in Hardee County with a street address from each
+  facility page. Towns on this page: Bowling Green.
+listings:
+  - slug: uhaul-1039488
+    name: Value Vault Storage Arcadia
+    street: 5106 Us-17
+    city: Bowling Green
+    state_code: FL
+    postal_code: 33834
+    lat: null
+    lng: null
+    phone: (863) 486-3707
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Zolfo-Springs-FL-33890/1039488"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $75.00 per month (1st Floor, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 9 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Zolfo-Springs-FL-33890/1039488"
+        title: Value Vault Storage Arcadia location page
+    last_verified: "2026-11-20"

@@ -1,0 +1,37 @@
+id: columbia
+name: Columbia County
+state: Florida
+state_code: FL
+summary: >-
+  RV and boat storage in Columbia County with a street address from each
+  facility page. Towns on this page: Lake City.
+listings:
+  - slug: tellus-lake-city
+    name: Tellus Self Storage
+    street: 814 SW State Road 247
+    city: Lake City
+    state_code: FL
+    postal_code: 32025
+    lat: null
+    lng: null
+    phone: (386) 961-9926
+    website: "https://www.tellusselfstorage.com/self-storage/fl/lake%20city/sw-state-road-"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: true
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The Lake City page says the facility has uncovered boat and RV parking, gated entry, and 24/7 access."
+    sources:
+      - url: "https://www.tellusselfstorage.com/self-storage/fl/lake%20city/sw-state-road-"
+        title: Tellus Self Storage Lake City
+    last_verified: "2026-11-20"

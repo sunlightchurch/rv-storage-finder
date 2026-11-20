@@ -296,3 +296,93 @@ listings:
       - url: https://watersportswest.com/rv-boat-car-and-trailer-parking/
         title: RV and boat parking page
     last_verified: "2026-11-18"
+
+  - slug: uhaul-753032
+    name: "U-Haul Moving & Storage of Palm Harbor"
+    street: 30750 US Hwy 19 N
+    city: Palm Harbor
+    state_code: FL
+    postal_code: 34684
+    lat: null
+    lng: null
+    phone: (727) 771-8058
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Palm-Harbor-FL-34684/753032"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $84.95 per month (1st Floor, Outside Level)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Palm-Harbor-FL-34684/753032"
+        title: "U-Haul Moving & Storage of Palm Harbor location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-032565
+    name: City Wide Self Storage
+    street: 4015 Park Blvd
+    city: Pinellas Park
+    state_code: FL
+    postal_code: 33781
+    lat: null
+    lng: null
+    phone: null
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Saint-Petersburg-FL-33711/032565"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $85.00 per month (Outside Level); $95.00 per month (Outside Level)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Fri: 8 am - 6 pm Sat-Sun: 9 am - 4 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Saint-Petersburg-FL-33711/032565"
+        title: City Wide Self Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-753037
+    name: "U-Haul Moving & Storage at Park St"
+    street: 5200 Park St
+    city: Saint Petersburg
+    state_code: FL
+    postal_code: 33709
+    lat: null
+    lng: null
+    phone: (727) 546-1572
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Saint-Petersburg-FL-33709/753037"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm Move-In Online or Visit Customer Service Locatio."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Saint-Petersburg-FL-33709/753037"
+        title: "U-Haul Moving & Storage at Park St location page"
+    last_verified: "2026-11-20"

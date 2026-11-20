@@ -252,3 +252,33 @@ listings:
       - url: https://www.yourplaceforspacefl.com/contact/
         title: Contact page with gate hours
     last_verified: "2026-11-18"
+
+  - slug: uhaul-037523
+    name: A Plus Storage
+    street: 2732 SW Buckhart St
+    city: Port Saint Lucie
+    state_code: FL
+    postal_code: 34953
+    lat: null
+    lng: null
+    phone: (772) 873-5481
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Port-Saint-Lucie-FL-34952/037523"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $110.00 per month (Outside Level); $125.00 per month (Outside Level)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 8 am - 8 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Port-Saint-Lucie-FL-34952/037523"
+        title: A Plus Storage location page
+    last_verified: "2026-11-20"

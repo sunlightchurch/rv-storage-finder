@@ -1,0 +1,157 @@
+id: monroe
+name: Monroe County
+state: Florida
+state_code: FL
+summary: >-
+  RV and boat storage in Monroe County with a street address from each
+  facility page. Towns on this page: Key Largo, Key West, Marathon.
+listings:
+  - slug: uhaul-787069
+    name: "U-Haul Moving & Storage of Key Largo"
+    street: 103530 Overseas Hwy
+    city: Key Largo
+    state_code: FL
+    postal_code: 33037
+    lat: null
+    lng: null
+    phone: (305) 451-0677
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Key-Largo-FL-33037/787069"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Key-Largo-FL-33037/787069"
+        title: "U-Haul Moving & Storage of Key Largo location page"
+    last_verified: "2026-11-20"
+
+  - slug: sos-storage-marathon
+    name: SOS Storage of Marathon
+    street: 59001 Overseas Hwy
+    city: Marathon
+    state_code: FL
+    postal_code: 33050
+    lat: null
+    lng: null
+    phone: (305) 743-2169
+    website: "https://sosstorageofmarathon.com/"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: true
+    gated: true
+    cameras: true
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The page says the lot stores boats, RVs, campers, and trailers. It is gated, has 24/7 camera monitoring, and has a wash-down station."
+    sources:
+      - url: "https://sosstorageofmarathon.com/"
+        title: SOS Storage of Marathon
+    last_verified: "2026-11-20"
+
+  - slug: ocean-view-marina-marathon
+    name: Ocean View Marina dry storage
+    street: 4681 Overseas Highway
+    city: Marathon
+    state_code: FL
+    postal_code: 33050
+    lat: null
+    lng: null
+    phone: (305) 517-1232
+    website: "https://oceanviewmarinafl.com/storage/"
+    vehicles: [boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The marina page says dry storage is in two barns completed in 2021, each covered on three sides. Hours are 8:00 am to 4:00 pm every day. Rates are not printed."
+    sources:
+      - url: "https://oceanviewmarinafl.com/storage/"
+        title: Ocean View Marina dry storage
+    last_verified: "2026-11-20"
+
+  - slug: safe-harbor-marathon
+    name: Safe Harbor Marathon
+    street: 1021 11th St Ocean
+    city: Marathon
+    state_code: FL
+    postal_code: 33050
+    lat: null
+    lng: null
+    phone: (305) 743-6575
+    website: "https://safeharbor.com/locations/safe-harbor-marathon/"
+    vehicles: [boat]
+    storage_types: [open]
+    max_length_ft: 65
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The marina page lists dry storage from 18 to 65 feet, including outdoor open storage, an in-and-out rack, and dry stack. Office hours are Monday through Saturday, 8:00 am to 5:00 pm. The page also lists RV sites, which are campsites rather than a storage lot."
+    sources:
+      - url: "https://safeharbor.com/locations/safe-harbor-marathon/"
+        title: Safe Harbor Marathon
+    last_verified: "2026-11-20"
+
+  - slug: gator-state-storage-key-west
+    name: Gator State Storage
+    street: 2010 Staples Avenue
+    city: Key West
+    state_code: FL
+    postal_code: 33040
+    lat: null
+    lng: null
+    phone: (305) 293-8868
+    website: "https://www.statestoragekeywest.com/pages/rv-boat-storage"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: true
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: month-to-month
+    waitlist: null
+    notes: "The Key West page says it stores boats, RVs, trailers, and vehicles in outdoor spaces and parking. Cameras monitor the property 24/7 and site access is controlled. Leases are month to month."
+    sources:
+      - url: "https://www.statestoragekeywest.com/pages/rv-boat-storage"
+        title: Gator State Storage RV and boat storage
+    last_verified: "2026-11-20"

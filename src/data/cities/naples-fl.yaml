@@ -326,3 +326,63 @@ listings:
       - url: https://www.swoutdoorstorage.com/outdoor-storage-naples-fl/
         title: Naples outdoor storage page
     last_verified: "2026-11-18"
+
+  - slug: uhaul-1030250
+    name: "Naples Mini Storage / Nmss, Llc"
+    street: 3706 Domestic Avenue
+    city: Naples
+    state_code: FL
+    postal_code: 34104
+    lat: null
+    lng: null
+    phone: (239) 261-3001
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Naples-FL-34104/1030250"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $70.00 per month."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Naples-FL-34104/1030250"
+        title: "Naples Mini Storage / Nmss, Llc location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1029262
+    name: "Ace Super Storage, Llc"
+    street: 16300 Old U.S. 41n
+    city: Naples
+    state_code: FL
+    postal_code: 34110
+    lat: null
+    lng: null
+    phone: (239) 592-6666
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Naples-FL-34110/1029262"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $65.00 per month; $70.00 per month."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Naples-FL-34110/1029262"
+        title: "Ace Super Storage, Llc location page"
+    last_verified: "2026-11-20"

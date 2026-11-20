@@ -519,3 +519,213 @@ listings:
       - url: https://www.wilsonsrvandboatstorage.com/about-us/
         title: About page
     last_verified: "2026-11-18"
+
+  - slug: uhaul-784072
+    name: "U-Haul Moving & Storage of Mayport"
+    street: 1650 Mayport Rd
+    city: Atlantic Beach
+    state_code: FL
+    postal_code: 32233
+    lat: null
+    lng: null
+    phone: (904) 249-9934
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Atlantic-Beach-FL-32233/784072"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $124.95 per month (Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm Move-In Online or Visit Customer Service Locatio."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Atlantic-Beach-FL-32233/784072"
+        title: "U-Haul Moving & Storage of Mayport location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1027679
+    name: "East Coast Auto Care & Storage"
+    street: 1712 Ogilvie Park Ln.
+    city: Jacksonville
+    state_code: FL
+    postal_code: 32246
+    lat: null
+    lng: null
+    phone: (904) 641-7500
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Jacksonville-FL-32246/1027679"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 24 hours"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Jacksonville-FL-32246/1027679"
+        title: "East Coast Auto Care & Storage location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-871073
+    name: "U-Haul Moving & Storage of Jacksonville Heights"
+    street: 9422 103rd St
+    city: Jacksonville
+    state_code: FL
+    postal_code: 32210
+    lat: null
+    lng: null
+    phone: (904) 772-8592
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Jacksonville-FL-32210/871073"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Jacksonville-FL-32210/871073"
+        title: "U-Haul Moving & Storage of Jacksonville Heights location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-784030
+    name: "U-Haul Moving & Storage at Phillips & Emerson"
+    street: 3435 Phillips Hwy
+    city: Jacksonville
+    state_code: FL
+    postal_code: 32207
+    lat: null
+    lng: null
+    phone: (904) 398-3016
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Jacksonville-FL-32207/784030"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Jacksonville-FL-32207/784030"
+        title: "U-Haul Moving & Storage at Phillips & Emerson location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-871068
+    name: "U-Haul Moving & Storage of Wesconnett"
+    street: 6805 103rd St
+    city: Jacksonville
+    state_code: FL
+    postal_code: 32210
+    lat: null
+    lng: null
+    phone: (904) 772-8207
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Jacksonville-FL-32210/871068"
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $99.95 per month (Covered Level, No Climate); $119.95 per month (Covered Level, No Climate); $129.95 per month (Covered Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours Move-In Online or Visit Customer Service Location fo."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Jacksonville-FL-32210/871068"
+        title: "U-Haul Moving & Storage of Wesconnett location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-871035
+    name: "U-Haul Moving & Storage of Argyle"
+    street: 8115 Blanding Blvd
+    city: Jacksonville
+    state_code: FL
+    postal_code: 32244
+    lat: null
+    lng: null
+    phone: (904) 573-7940
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Jacksonville-FL-32244/871035"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Jacksonville-FL-32244/871035"
+        title: "U-Haul Moving & Storage of Argyle location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-871027
+    name: "U-Haul Moving & Storage of Oak Hill"
+    street: 7052 103rd St
+    city: Jacksonville
+    state_code: FL
+    postal_code: 32210
+    lat: null
+    lng: null
+    phone: (904) 573-8912
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Jacksonville-FL-32210/871027"
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $89.95 per month (Outside Level, No Climate); $99.95 per month (Covered Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm Move-In Online or Visit Customer Service Locatio."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Jacksonville-FL-32210/871027"
+        title: "U-Haul Moving & Storage of Oak Hill location page"
+    last_verified: "2026-11-20"

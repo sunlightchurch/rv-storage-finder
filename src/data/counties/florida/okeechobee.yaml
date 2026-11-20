@@ -1,0 +1,67 @@
+id: okeechobee
+name: Okeechobee County
+state: Florida
+state_code: FL
+summary: >-
+  RV and boat storage in Okeechobee County with a street address from each
+  facility page. Towns on this page: Okeechobee.
+listings:
+  - slug: uhaul-018246
+    name: Okeechobee Store-N-Lock
+    street: 716 Nw 2nd Avenue
+    city: Okeechobee
+    state_code: FL
+    postal_code: 34972
+    lat: null
+    lng: null
+    phone: (863) 357-2508
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Okeechobee-FL-34974/018246"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 24 hours"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Okeechobee-FL-34974/018246"
+        title: Okeechobee Store-N-Lock location page
+    last_verified: "2026-11-20"
+
+  - slug: lake-and-trail-okeechobee
+    name: "Lake & Trail Storage"
+    street: 1200 FL-78 W
+    city: Okeechobee
+    state_code: FL
+    postal_code: 34974
+    lat: null
+    lng: null
+    phone: (863) 357-1890
+    website: "https://www.lakeandtrailusastorage.com/"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: 11.5
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: null
+    price_notes: "A 15 by 30 ft RV space with 11.5 ft clearance is listed at $337.37 per month or $372.37 per month, depending on the plan, or $3,846.02 for 12 months."
+    billing_term: null
+    waitlist: null
+    notes: "The page says the facility stores boats, RVs, and ATVs and that drive-up units are accessible 24 hours. The 11.5 ft figure is the clearance of the 15 by 30 ft space, not a maximum vehicle length."
+    sources:
+      - url: "https://www.lakeandtrailusastorage.com/"
+        title: "Lake & Trail Storage"
+    last_verified: "2026-11-20"

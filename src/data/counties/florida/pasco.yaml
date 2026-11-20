@@ -1,0 +1,127 @@
+id: pasco
+name: Pasco County
+state: Florida
+state_code: FL
+summary: >-
+  RV and boat storage in Pasco County with a street address from each facility
+  page. Towns on this page: Hudson, New Port Richey, Port Richey.
+listings:
+  - slug: uhaul-055741
+    name: Affordable Secure Storage Hudson LLC
+    street: "8619 New York Ave"
+    city: Hudson
+    state_code: FL
+    postal_code: 34667
+    lat: null
+    lng: null
+    phone: (727) 863-1836
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Hudson-FL-34667/055741"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $45.00 per month (1st Floor)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Hudson-FL-34667/055741"
+        title: Affordable Secure Storage Hudson LLC location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-833029
+    name: "U-Haul Moving & Storage of Hudson"
+    street: 14906 US 19
+    city: Hudson
+    state_code: FL
+    postal_code: 34667
+    lat: null
+    lng: null
+    phone: (727) 862-2572
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Hudson-FL-34667/833029"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $89.95 per month (Outside Level, No Electricity); $94.95 per month (Outside Level, No Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm Move-In Online or Visit Customer Service Locatio."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Hudson-FL-34667/833029"
+        title: "U-Haul Moving & Storage of Hudson location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-753038
+    name: U-Haul Storage of New Port Richey
+    street: 6118 US-19
+    city: New Port Richey
+    state_code: FL
+    postal_code: 34652
+    lat: null
+    lng: null
+    phone: (727) 848-2598
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-New-Port-Richey-FL-34652/753038"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-New-Port-Richey-FL-34652/753038"
+        title: U-Haul Storage of New Port Richey location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1038702
+    name: 1st Call Storage - Leo Kidd
+    street: 8038 Leo Kidd Ave
+    city: Port Richey
+    state_code: FL
+    postal_code: 34668
+    lat: null
+    lng: null
+    phone: (727) 482-7211
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Port-Richey-FL-34668/1038702"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $99.00 per month; $109.00 per month (1st Floor, Outside Level, No Climate, No Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours"
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Port-Richey-FL-34668/1038702"
+        title: 1st Call Storage - Leo Kidd location page
+    last_verified: "2026-11-20"

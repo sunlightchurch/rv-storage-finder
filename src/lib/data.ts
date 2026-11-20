@@ -159,6 +159,15 @@ const citySchema = z.object({
   listings: z.array(listingSchema).min(1),
 });
 
+const countySchema = z.object({
+  id: z.string().regex(/^[a-z0-9-]+$/),
+  name: z.string().trim().min(2),
+  state: z.string().trim().min(2),
+  state_code: z.string().regex(/^[A-Z]{2}$/),
+  summary: z.string().trim().min(40),
+  listings: z.array(listingSchema).min(1),
+});
+
 const filterSchema = z.object({
   id: z.string().regex(/^[a-z0-9-]+$/),
   slug_prefix: z.string().regex(/^[a-z0-9-]+$/),
@@ -221,6 +230,7 @@ const siteSchema = z.object({
 
 export type Listing = z.infer<typeof listingSchema>;
 export type City = z.infer<typeof citySchema>;
+export type County = z.infer<typeof countySchema>;
 export type FilterDef = z.infer<typeof filterSchema>;
 export type SiteConfig = z.infer<typeof siteSchema>;
 
@@ -278,10 +288,41 @@ function loadCities(): City[] {
     };
   });
 
+  return cities.sort((a, b) => a.state.localeCompare(b.state) || a.city.localeCompare(b.city));
+}
+
+function loadCounties(): County[] {
+  const dir = path.join(dataDir, 'counties');
+  if (!fs.existsSync(dir)) return [];
+  const files = fs
+    .readdirSync(dir, { recursive: true })
+    .map((name) => String(name))
+    .filter((name) => name.endsWith('.yaml'))
+    .sort();
+  return files.map((name) => {
+    const file = path.join(dir, name);
+    const county = parseFile(file, countySchema);
+    const expected = path.basename(name, '.yaml');
+    if (county.id !== expected) {
+      throw new Error(`${name}: id "${county.id}" must match the filename.`);
+    }
+    for (const listing of county.listings) {
+      if (listing.photo) assertKnownPhoto(listing.photo);
+    }
+    return {
+      ...county,
+      listings: county.listings
+        .slice()
+        .sort((a, b) => a.name.localeCompare(b.name, 'en', { numeric: true, sensitivity: 'base' })),
+    };
+  });
+}
+
+function assertUniqueListings(groups: { label: string; listings: Listing[] }[]): void {
   const slugs = new Set<string>();
   const websites = new Map<string, string>();
-  for (const city of cities) {
-    for (const listing of city.listings) {
+  for (const group of groups) {
+    for (const listing of group.listings) {
       if (slugs.has(listing.slug)) throw new Error(`Duplicate listing slug "${listing.slug}".`);
       slugs.add(listing.slug);
       if (listing.website) {
@@ -292,8 +333,6 @@ function loadCities(): City[] {
       }
     }
   }
-
-  return cities.sort((a, b) => a.state.localeCompare(b.state) || a.city.localeCompare(b.city));
 }
 
 function loadFilters(): FilterDef[] {
@@ -310,7 +349,16 @@ function loadFilters(): FilterDef[] {
 
 export const site = loadSite();
 const cities = loadCities();
+const counties = loadCounties();
+assertUniqueListings([
+  ...cities.map((city) => ({ label: city.id, listings: city.listings })),
+  ...counties.map((county) => ({ label: county.id, listings: county.listings })),
+]);
 const filters = loadFilters();
+
+export function countyPath(county: County): string {
+  return `/states/${stateSlug(county.state)}/${county.id}/`;
+}
 
 export interface StateGroup {
   slug: string;
@@ -340,6 +388,20 @@ export function stateSlug(state: string): string {
 
 export function getCities(): City[] {
   return cities;
+}
+
+export function getCounties(): County[] {
+  return counties;
+}
+
+export function getCounty(id: string): County {
+  const county = counties.find((item) => item.id === id);
+  if (!county) throw new Error(`Unknown county ${id}`);
+  return county;
+}
+
+export function countiesInState(stateCode: string): County[] {
+  return counties.filter((county) => county.state_code === stateCode);
 }
 
 export function getCity(id: string): City {
@@ -382,15 +444,30 @@ export function searchIndex(): {
   code: string;
   metro: string;
   zips: string[];
+  path: string;
 }[] {
-  return cities.map((city) => ({
-    id: city.id,
-    city: city.city,
-    state: city.state,
-    code: city.state_code,
-    metro: city.metro,
-    zips: [...new Set(city.listings.map((listing) => listing.postal_code).filter((zip): zip is string => Boolean(zip)))],
-  }));
+  const zipsOf = (listings: Listing[]) =>
+    [...new Set(listings.map((listing) => listing.postal_code).filter((zip): zip is string => Boolean(zip)))];
+  return [
+    ...cities.map((city) => ({
+      id: city.id,
+      city: city.city,
+      state: city.state,
+      code: city.state_code,
+      metro: city.metro,
+      zips: zipsOf(city.listings),
+      path: `/cities/${city.id}/`,
+    })),
+    ...counties.map((county) => ({
+      id: county.id,
+      city: county.name,
+      state: county.state,
+      code: county.state_code,
+      metro: [...new Set(county.listings.map((listing) => listing.city))].join(', '),
+      zips: zipsOf(county.listings),
+      path: countyPath(county),
+    })),
+  ];
 }
 
 export function listingMatches(listing: Listing, filter: FilterDef): boolean {
@@ -495,7 +572,10 @@ export function directoryStats(): {
   earliest: string;
   latest: string;
 } {
-  const listings = cities.flatMap((city) => city.listings);
+  const listings = [
+    ...cities.flatMap((city) => city.listings),
+    ...counties.flatMap((county) => county.listings),
+  ];
   const dates = listings.map((listing) => listing.last_verified).sort();
   return {
     facilities: listings.length,
@@ -601,6 +681,13 @@ export function allPublicPaths(): { path: string; lastmod: string }[] {
     });
     paths.push({
       path: `/costs/${state.slug}/`,
+      lastmod: maxDate(dates),
+    });
+  }
+  for (const county of counties) {
+    const dates = county.listings.map((listing) => listing.last_verified);
+    paths.push({
+      path: countyPath(county),
       lastmod: maxDate(dates),
     });
   }
