@@ -489,3 +489,183 @@ listings:
       - url: https://www.vistaboatandrvstorage.com/21639-e-ocotillo-rd-queen-creek-az-85142
         title: Queen Creek location page
     last_verified: "2026-11-18"
+
+  - slug: uhaul-723076
+    name: "U-Haul Moving & Storage of Apache Junction"
+    street: 3395 S Idaho Rd
+    city: Apache Junction
+    state_code: AZ
+    postal_code: 85119
+    lat: null
+    lng: null
+    phone: (480) 351-4144
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Apache-Junction-AZ-85119/723076"
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $244.95 per month (1st Floor, Covered Level, No Climate); $274.95 per month (1st Floor, Covered Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Apache-Junction-AZ-85119/723076"
+        title: "U-Haul Moving & Storage of Apache Junction location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-723066
+    name: "U-Haul Moving & Storage of Lehi"
+    street: 219 E McKellips Rd
+    city: Mesa
+    state_code: AZ
+    postal_code: 85201
+    lat: null
+    lng: null
+    phone: (480) 834-4198
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Mesa-AZ-85201/723066"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Mesa-AZ-85201/723066"
+        title: "U-Haul Moving & Storage of Lehi location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-922071
+    name: "U-Haul Moving & Storage of Power Ranch"
+    street: 7125 S Power Rd
+    city: Queen Creek
+    state_code: AZ
+    postal_code: 85142
+    lat: null
+    lng: null
+    phone: (480) 988-5825
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Queen-Creek-AZ-85142/922071"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $89.95 per month (Outside Level, No Climate); $109.95 per month (Outside Level, No Climate, No Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Queen-Creek-AZ-85142/922071"
+        title: "U-Haul Moving & Storage of Power Ranch location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-922072
+    name: "U-Haul Moving & Storage at San Tan Mountains"
+    street: 6028 W Hunt Hwy
+    city: Queen Creek
+    state_code: AZ
+    postal_code: 85142
+    lat: null
+    lng: null
+    phone: (480) 987-0927
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Queen-Creek-AZ-85142/922072"
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $239.95 per month (Covered Level, No Climate); $239.95 per month (Covered Level, No Climate, Electricity); $259.95 per month (Covered Level, No Climate, Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Queen-Creek-AZ-85142/922072"
+        title: "U-Haul Moving & Storage at San Tan Mountains location page"
+    last_verified: "2026-11-20"
+
+  - slug: cubesmart-mesa-power
+    name: CubeSmart Self Storage of Mesa
+    street: 536 N Power Rd
+    city: Mesa
+    state_code: AZ
+    postal_code: 85205
+    lat: null
+    lng: null
+    phone: null
+    website: "https://www.cubesmart.com/arizona-self-storage/mesa-self-storage/69.html"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: true
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: month-to-month
+    waitlist: null
+    notes: "The Mesa page lists RV storage, boat parking, and outside parking, and says the facility has 24-hour video recording. Leases are month to month."
+    sources:
+      - url: "https://www.cubesmart.com/arizona-self-storage/mesa-self-storage/69.html"
+        title: CubeSmart Mesa Power Road
+    last_verified: "2026-11-20"
+
+  - slug: cubesmart-apache-junction
+    name: CubeSmart Self Storage of Apache Junction
+    street: 2155 E Old W Hwy
+    city: Apache Junction
+    state_code: AZ
+    postal_code: 85119
+    lat: null
+    lng: null
+    phone: null
+    website: "https://www.cubesmart.com/arizona-self-storage/apache-junction-self-storage/4809.html"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Daily 6:00 AM-10:00 PM"
+    price_notes: null
+    billing_term: month-to-month
+    waitlist: null
+    notes: "The Apache Junction page lists RV storage, boat parking, and outside parking. Access is 6:00 am to 10:00 pm daily. Leases are month to month."
+    sources:
+      - url: "https://www.cubesmart.com/arizona-self-storage/apache-junction-self-storage/4809.html"
+        title: CubeSmart Apache Junction
+    last_verified: "2026-11-20"

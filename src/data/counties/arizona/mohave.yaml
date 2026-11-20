@@ -1,0 +1,217 @@
+id: mohave
+name: Mohave County
+state: Arizona
+state_code: AZ
+summary: >-
+  RV and boat storage in Mohave County with a street address from each
+  facility page. Towns on this page: Bullhead City, Fort Mohave, Kingman.
+listings:
+  - slug: uhaul-1038812
+    name: Ace Boat RV Storage
+    street: 2860 Highway 68
+    city: Bullhead City
+    state_code: AZ
+    postal_code: 86440
+    lat: null
+    lng: null
+    phone: (928) 754-1142
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Bullhead-City-AZ-86440/1038812"
+    vehicles: [rv, boat]
+    storage_types: [enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $75.00 per month (Outside Level, No Climate, No Electricity); $232.00 per month (Lower Level, Enclosed Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Bullhead-City-AZ-86440/1038812"
+        title: Ace Boat RV Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1029895
+    name: Canyon Self Storage
+    street: 1212 Gordon Dr
+    city: Kingman
+    state_code: AZ
+    postal_code: 86409
+    lat: null
+    lng: null
+    phone: (928) 296-8706
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Kingman-AZ-86409/1029895"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $89.00 per month (Lower Level, Outside Level, Drivethrough); $129.00 per month (Lower Level, Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Kingman-AZ-86409/1029895"
+        title: Canyon Self Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: mohave-storage-pinal-kingman
+    name: Mohave Storage Kingman
+    street: 3528 N Pinal St
+    city: Kingman
+    state_code: AZ
+    postal_code: null
+    lat: null
+    lng: null
+    phone: (928) 219-6598
+    website: "https://www.mohavestorage.com/pages/3528pinal"
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: 50
+    clearance_ft: 14
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The Kingman page lists RV and boat units up to 50 ft, with doors 12 ft wide by 14 ft high, lights, and 110 outlets. It says there is no booking office on site and to call the Bullhead City office."
+    sources:
+      - url: "https://www.mohavestorage.com/pages/3528pinal"
+        title: Mohave Storage Kingman N Pinal
+    last_verified: "2026-11-20"
+
+  - slug: access-boat-rv-bullhead
+    name: "Access Boat, RV & Self Storage"
+    street: 2200 Rancho Colorado Blvd
+    city: Bullhead City
+    state_code: AZ
+    postal_code: 86442
+    lat: null
+    lng: null
+    phone: null
+    website: "https://accessstoragebullhead.com/"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: true
+    access_24h: true
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The Bullhead City page offers RV and boat storage. It lists cameras, a fence, lighting, and 24-hour access as available."
+    sources:
+      - url: "https://accessstoragebullhead.com/"
+        title: "Access Boat, RV and Self Storage"
+    last_verified: "2026-11-20"
+
+  - slug: tri-state-boat-rv-bullhead
+    name: "Tri-State Boat & RV Storage"
+    street: 2889 Easy Street
+    city: Bullhead City
+    state_code: AZ
+    postal_code: 86442
+    lat: null
+    lng: null
+    phone: (928) 216-3066
+    website: "https://tristateboatstorage.com/"
+    vehicles: [rv, boat]
+    storage_types: [open, covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: The page says the facility stores boats and RVs and currently offers outdoor storage and covered storage. Indoor storage is described as coming soon.
+    sources:
+      - url: "https://tristateboatstorage.com/"
+        title: Tri-State Boat and RV Storage
+    last_verified: "2026-11-20"
+
+  - slug: bluegate-fort-mohave
+    name: "BlueGate Boat & RV Storage \u2013 Fort Mohave"
+    street: 1600 Camino Colorado
+    city: Fort Mohave
+    state_code: AZ
+    postal_code: 86426
+    lat: null
+    lng: null
+    phone: (928) 758-6000
+    website: "https://bluegateboatrv.com/locations/arizona/fort-mohave/bluegate-boat-rv-storage-fort-mohave/"
+    vehicles: [rv, boat]
+    storage_types: [enclosed, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The Fort Mohave page offers boat, RV, and vehicle storage in garages or outdoor spaces. Posted support hours are 6:00 am to 10:00 pm Monday through Saturday, and Sunday is closed."
+    sources:
+      - url: "https://bluegateboatrv.com/locations/arizona/fort-mohave/bluegate-boat-rv-storage-fort-mohave/"
+        title: BlueGate Fort Mohave
+    last_verified: "2026-11-20"
+
+  - slug: park-place-fort-mohave
+    name: "Park Place Boat & RV Storage"
+    street: 1533 E Aztec Dr
+    city: Fort Mohave
+    state_code: AZ
+    postal_code: 86426
+    lat: null
+    lng: null
+    phone: (928) 704-1230
+    website: "https://parkplaceboatrvstorage.com/home/"
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The Fort Mohave page offers indoor boat and RV storage with 24/7 electronic gate access, 24/7 video surveillance, and an onsite resident manager."
+    sources:
+      - url: "https://parkplaceboatrvstorage.com/home/"
+        title: Park Place Boat and RV Storage
+    last_verified: "2026-11-20"

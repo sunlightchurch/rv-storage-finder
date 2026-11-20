@@ -1,0 +1,127 @@
+id: pinal
+name: Pinal County
+state: Arizona
+state_code: AZ
+summary: >-
+  RV and boat storage in Pinal County with a street address from each facility
+  page. Towns on this page: Casa Grande.
+listings:
+  - slug: uhaul-013265
+    name: CG RV Storage
+    street: 2046 N Pinal Ave
+    city: Casa Grande
+    state_code: AZ
+    postal_code: 85122
+    lat: null
+    lng: null
+    phone: (520) 208-6544
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Casa-Grande-AZ-85122/013265"
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sat: 8 am - 5 pm Sun: 1 pm - 5 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $67.45 per month; $87.00 per month (1st Floor, Outside Level, Drivethrough); $96.77 per month (1st Floor, Outside Level, Drivethrough); $155.43 per month (1st Floor, Covered Level, Drivethrough)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sat: 8 am - 5 pm Sun: 1 pm - 5 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Casa-Grande-AZ-85122/013265"
+        title: CG RV Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-936079
+    name: "U-Haul Moving & Storage of Casa Grande"
+    street: 242 N Camino Mercado
+    city: Casa Grande
+    state_code: AZ
+    postal_code: 85122
+    lat: null
+    lng: null
+    phone: (520) 836-9323
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Casa-Grande-AZ-85122/936079"
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $119.95 per month (Outside Level, No Climate); $144.95 per month (Covered Level, No Climate, Electricity); $174.95 per month (Covered Level, No Climate); $179.95 per month (Covered Level, No Climate, Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Casa-Grande-AZ-85122/936079"
+        title: "U-Haul Moving & Storage of Casa Grande location page"
+    last_verified: "2026-11-20"
+
+  - slug: pink-door-casa-grande
+    name: "Pink Door Storage & RV \u2013 Casa Grande"
+    street: 274 N Camino Mercado
+    city: Casa Grande
+    state_code: AZ
+    postal_code: 85122
+    lat: null
+    lng: null
+    phone: (520) 666-9266
+    website: "https://www.pinkdoorstorage.com/covered-rv-storage-casa-grande"
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: true
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: false
+    access_hours: "Sunday-Saturday 6:00 AM-10:00 PM"
+    price_notes: null
+    billing_term: month-to-month
+    waitlist: null
+    notes: "The Casa Grande page offers covered parking for RVs, boats, trailers, and vehicles, with an on-site RV dump station and keypad gate access. Leases are month to month. Access hours are 6:00 am to 10:00 pm every day."
+    sources:
+      - url: "https://www.pinkdoorstorage.com/covered-rv-storage-casa-grande"
+        title: Pink Door Casa Grande covered RV storage
+    last_verified: "2026-11-20"
+
+  - slug: allard-casa-grande
+    name: "Arizona Allard RV Boat & Trailer Storage"
+    street: 3151 N Cessna Ave
+    city: Casa Grande
+    state_code: AZ
+    postal_code: 85122
+    lat: null
+    lng: null
+    phone: (480) 219-2127
+    website: "https://www.azallardstorage.com/"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: null
+    price_notes: "The page says boat, RV, and trailer storage starts at $59."
+    billing_term: null
+    waitlist: null
+    notes: "The Casa Grande page offers open storage for boats, RVs, and trailers and says access is 24 hours. Office hours are 9:00 am to 5:00 pm every day."
+    sources:
+      - url: "https://www.azallardstorage.com/"
+        title: Arizona Allard RV Boat and Trailer Storage
+    last_verified: "2026-11-20"

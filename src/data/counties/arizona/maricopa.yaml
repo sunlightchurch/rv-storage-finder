@@ -1,0 +1,37 @@
+id: maricopa
+name: Maricopa County
+state: Arizona
+state_code: AZ
+summary: >-
+  RV and boat storage in Maricopa County with a street address from each
+  facility page. Towns on this page: Wickenburg.
+listings:
+  - slug: uhaul-858077
+    name: "U-Haul Moving & Storage of Wickenburg"
+    street: 2820 Scenic Loop Rd
+    city: Wickenburg
+    state_code: AZ
+    postal_code: 85390
+    lat: null
+    lng: null
+    phone: (928) 415-4746
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Wickenburg-AZ-85390/858077"
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $79.95 per month (Covered Level, No Climate); $129.95 per month (Covered Level, No Climate, Electricity); $189.95 per month (Covered Level, No Climate, Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Wickenburg-AZ-85390/858077"
+        title: "U-Haul Moving & Storage of Wickenburg location page"
+    last_verified: "2026-11-20"

@@ -81,3 +81,63 @@ listings:
       - url: https://www.pinkdoorstorage.com/self-storage-units-gilbert-arizona
         title: Official Gilbert page
     last_verified: "2026-11-18"
+
+  - slug: uhaul-1029215
+    name: Gilbert Self Storage
+    street: 1690 E Williams Field Rd
+    city: Gilbert
+    state_code: AZ
+    postal_code: 85296
+    lat: null
+    lng: null
+    phone: (480) 899-3224
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Gilbert-AZ-85296/1029215"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 7 am - 7 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 7 am - 7 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Gilbert-AZ-85296/1029215"
+        title: Gilbert Self Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: extra-space-gilbert-lindsay
+    name: Extra Space Storage – Lindsay Road
+    street: 18612 S Lindsay Rd
+    city: Gilbert
+    state_code: AZ
+    postal_code: 85297
+    lat: null
+    lng: null
+    phone: (480) 582-1499
+    website: "https://www.extraspace.com/storage/facilities/us/arizona/gilbert/7711/id/rv-storage/"
+    vehicles: [rv, boat]
+    storage_types: [open, covered]
+    max_length_ft: 65
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: null
+    access_hours: "6:00 AM - 10:00 PM"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The Gilbert facility page says it has outdoor and covered RV spaces from 11 by 24 ft to 12 by 65 ft, and that those spaces also fit trailers, campers, and boats. It mentions video surveillance and entrance gates. Access is 6:00 am to 10:00 pm, and the page says to ask whether 24-hour access is available. The phone is the current-customer number."
+    sources:
+      - url: "https://www.extraspace.com/storage/facilities/us/arizona/gilbert/7711/id/rv-storage/"
+        title: Extra Space Gilbert Lindsay Road RV storage
+    last_verified: "2026-11-20"

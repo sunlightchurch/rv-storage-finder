@@ -241,3 +241,33 @@ listings:
       - url: https://www.yumamesastorage.com/
         title: Official website
     last_verified: "2026-11-18"
+
+  - slug: uhaul-1016126
+    name: Desert Diamond Self Storage
+    street: 1175 E 32nd St
+    city: Yuma
+    state_code: AZ
+    postal_code: 85365
+    lat: null
+    lng: null
+    phone: (928) 314-1471
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Yuma-AZ-85365/1016126"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sat: 7 am - 7 pm Sun: Closed"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $85.00 per month (Lower Level, Outside Level, Drivethrough)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sat: 7 am - 7 pm Sun: Closed."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Yuma-AZ-85365/1016126"
+        title: Desert Diamond Self Storage location page
+    last_verified: "2026-11-20"

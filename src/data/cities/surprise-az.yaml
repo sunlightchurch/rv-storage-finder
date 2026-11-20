@@ -291,3 +291,63 @@ listings:
       - url: https://www.uhaul.com/Locations/Self-Storage-near-Surprise-AZ-85378/858027/
         title: Official location page
     last_verified: "2026-11-18"
+
+  - slug: uhaul-858082
+    name: "U-Haul Moving & Storage at Luke AFB"
+    street: 11550 N Litchfield Rd
+    city: Surprise
+    state_code: AZ
+    postal_code: 85379
+    lat: null
+    lng: null
+    phone: (623) 583-6238
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Surprise-AZ-85379/858082"
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $109.95 per month (Covered Level); $229.95 per month (Covered Level); $249.95 per month (Covered Level); $269.95 per month (Covered Level)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Surprise-AZ-85379/858082"
+        title: "U-Haul Moving & Storage at Luke AFB location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-858044
+    name: "U-Haul Moving & Storage of Sun City West"
+    street: 13420 W Bell Rd Ste 100
+    city: Surprise
+    state_code: AZ
+    postal_code: 85378
+    lat: null
+    lng: null
+    phone: (623) 975-1173
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Surprise-AZ-85378/858044"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Surprise-AZ-85378/858044"
+        title: "U-Haul Moving & Storage of Sun City West location page"
+    last_verified: "2026-11-20"

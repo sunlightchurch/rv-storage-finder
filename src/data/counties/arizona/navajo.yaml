@@ -1,0 +1,131 @@
+id: navajo
+name: Navajo County
+state: Arizona
+state_code: AZ
+summary: >-
+  RV and boat storage in Navajo County with a street address from each
+  facility page. Towns on this page: Lakeside, Show Low.
+listings:
+  - slug: uhaul-937032
+    name: "U-Haul Moving & Storage of the White Mountains"
+    street: 3761 W White Mountain Blvd
+    city: Lakeside
+    state_code: AZ
+    postal_code: 85929
+    lat: null
+    lng: null
+    phone: (928) 368-6464
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Lakeside-AZ-85929/937032"
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $154.95 per month (Covered Level, No Climate, Electricity); $169.95 per month (Covered Level, No Climate, Electricity); $179.95 per month (Covered Level, No Climate, Electricity); $184.95 per month (Covered Level, No Climate, Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Lakeside-AZ-85929/937032"
+        title: "U-Haul Moving & Storage of the White Mountains location page"
+    last_verified: "2026-11-20"
+
+  - slug: spartan-rv-show-low
+    name: Spartan RV Storage
+    street: 1520 E Lumbermens Loop
+    city: Show Low
+    state_code: AZ
+    postal_code: 85901
+    lat: null
+    lng: null
+    phone: (928) 968-7368
+    website: "https://www.spartanrvstorage.com/"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: The page says this is outdoor gated RV and boat storage in Show Low.
+    sources:
+      - url: "https://www.spartanrvstorage.com/"
+        title: Spartan RV Storage
+    last_verified: "2026-11-20"
+
+  - slug: burton-rv-show-low
+    name: Burton RV Storage
+    street: 1015 Burton Rd
+    city: Show Low
+    state_code: AZ
+    postal_code: 85901
+    lat: null
+    lng: null
+    phone: (928) 362-1787
+    website: "https://burtonrvstorage.com/"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    access_hours: null
+    price_notes: null
+    billing_term: month-to-month
+    waitlist: null
+    notes: "The Show Low page offers outdoor uncovered parking for RVs, boats, and other vehicles. It says access is 24 hours, the lot is gated, and video surveillance is used. It states the facility does not offer covered or indoor vehicle storage. Billing is monthly."
+    sources:
+      - url: "https://burtonrvstorage.com/"
+        title: Burton RV Storage
+      - url: "https://burtonrvstorage.com/contact-us/"
+        title: Burton RV Storage contact
+    last_verified: "2026-11-20"
+
+  - slug: show-low-rv-mini-storage
+    name: "Show Low RV & Mini Storage"
+    street: 3301 E Deuce of Clubs
+    city: Show Low
+    state_code: AZ
+    postal_code: 85901
+    lat: null
+    lng: null
+    phone: (928) 537-2911
+    website: "https://slrvstorage.com/"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The page stores motor homes, RVs, boats, and other vehicles across from the Show Low Airport. Gate hours are 7:00 am to 7:00 pm from May 16 through September 15, and 8:00 am to 5:00 pm the rest of the year. Office hours are Monday through Friday, 8:00 am to 5:00 pm."
+    sources:
+      - url: "https://slrvstorage.com/"
+        title: Show Low RV and Mini Storage
+      - url: "https://slrvstorage.com/location/"
+        title: Show Low RV and Mini Storage location
+    last_verified: "2026-11-20"

@@ -256,3 +256,123 @@ listings:
       - url: https://smartstopselfstorage.com/find-storage/az/glendale/13551-w-glendale-ave
         title: Official location page
     last_verified: "2026-11-18"
+
+  - slug: uhaul-004117
+    name: Star Mini Storage
+    street: 5721 W Bethany Home Rd
+    city: Glendale
+    state_code: AZ
+    postal_code: 85301
+    lat: null
+    lng: null
+    phone: (623) 374-5023
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Glendale-AZ-85301/004117"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 8 am - 9 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $70.00 per month (Outside Level); $95.00 per month (Outside Level)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 8 am - 9 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Glendale-AZ-85301/004117"
+        title: Star Mini Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1028873
+    name: Cactus Self Storage
+    street: 12160 N. 59th Ave
+    city: Glendale
+    state_code: AZ
+    postal_code: 85304
+    lat: null
+    lng: null
+    phone: (623) 487-1667
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Glendale-AZ-85304/1028873"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 7 am - 7 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 7 am - 7 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Glendale-AZ-85304/1028873"
+        title: Cactus Self Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-721056
+    name: "U-Haul Moving & Storage at ASU West"
+    street: 12280 N 51st Ave
+    city: Glendale
+    state_code: AZ
+    postal_code: 85304
+    lat: null
+    lng: null
+    phone: (602) 938-4472
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Glendale-AZ-85304/721056"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Glendale-AZ-85304/721056"
+        title: "U-Haul Moving & Storage at ASU West location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-858061
+    name: "U-Haul Moving & Storage at 67th & Bell"
+    street: 6544 W Bell Rd
+    city: Glendale
+    state_code: AZ
+    postal_code: 85308
+    lat: null
+    lng: null
+    phone: (623) 486-7359
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Glendale-AZ-85308/858061"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $144.95 per month (Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Glendale-AZ-85308/858061"
+        title: "U-Haul Moving & Storage at 67th & Bell location page"
+    last_verified: "2026-11-20"

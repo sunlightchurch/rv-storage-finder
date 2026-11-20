@@ -511,3 +511,93 @@ listings:
       - url: https://www.rvstoragetucson.com/
         title: Official website
     last_verified: "2026-11-18"
+
+  - slug: uhaul-828028
+    name: "U-Haul Moving & Storage of Tucson North"
+    street: 7701 N Interstate 10 Eastbound Frontage Rd
+    city: Marana
+    state_code: AZ
+    postal_code: 85743
+    lat: null
+    lng: null
+    phone: (520) 293-1627
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Marana-AZ-85743/828028"
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $104.95 per month (Outside Level, No Climate); $124.95 per month (Outside Level, No Climate); $159.95 per month (Outside Level, No Climate); $219.95 per month (Covered Level, No Climate, Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Marana-AZ-85743/828028"
+        title: "U-Haul Moving & Storage of Tucson North location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-943073
+    name: "U-Haul Moving & Storage of Bravo Park"
+    street: 1265 E Benson Hwy
+    city: Tucson
+    state_code: AZ
+    postal_code: 85713
+    lat: null
+    lng: null
+    phone: (520) 300-9457
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Tucson-AZ-85713/943073"
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $154.95 per month (Covered Level, No Climate, Electricity); $159.95 per month (Covered Level, No Climate, Electricity); $169.95 per month (Covered Level, No Climate, Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Tucson-AZ-85713/943073"
+        title: "U-Haul Moving & Storage of Bravo Park location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-943054
+    name: "U-Haul Moving & Storage at Davis Monthan AFB"
+    street: 6301 E Golf Links Rd
+    city: Tucson
+    state_code: AZ
+    postal_code: 85730
+    lat: null
+    lng: null
+    phone: (520) 575-5370
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Tucson-AZ-85730/943054"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $64.95 per month (Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Tucson-AZ-85730/943054"
+        title: "U-Haul Moving & Storage at Davis Monthan AFB location page"
+    last_verified: "2026-11-20"
