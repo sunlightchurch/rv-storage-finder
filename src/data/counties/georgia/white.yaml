@@ -1,0 +1,37 @@
+id: white
+name: White County
+state: Georgia
+state_code: GA
+summary: >-
+  RV and boat storage in White County with a street address from each facility
+  page. Towns on this page: Cleveland.
+listings:
+  - slug: uhaul-1018420
+    name: Crossroads Mini Storage
+    street: 7900 Duncan Bridge Rd
+    city: Cleveland
+    state_code: GA
+    postal_code: 30528
+    lat: null
+    lng: null
+    phone: (706) 754-9035
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Clarkesville-GA-30523/1018420"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Clarkesville-GA-30523/1018420"
+        title: Crossroads Mini Storage location page
+    last_verified: "2026-11-20"

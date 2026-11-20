@@ -408,3 +408,33 @@ listings:
   - url: "https://www.williamfewstorage.com/"
     title: William Few Storage homepage
   last_verified: '2026-11-18'
+
+- slug: uhaul-783081
+  name: "U-Haul Moving & Storage at 520"
+  street: 3455 Wrightsboro Rd
+  city: Augusta
+  state_code: GA
+  postal_code: 30909
+  lat: null
+  lng: null
+  phone: (706) 733-3252
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Augusta-GA-30909/783081"
+  vehicles: [rv, boat]
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: true
+  access_hours: "Mon-Sun: 24 hours"
+  price_notes: null
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 24 hours."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Augusta-GA-30909/783081"
+      title: "U-Haul Moving & Storage at 520 location page"
+  last_verified: "2026-11-20"

@@ -1,0 +1,37 @@
+id: lumpkin
+name: Lumpkin County
+state: Georgia
+state_code: GA
+summary: >-
+  RV and boat storage in Lumpkin County with a street address from each
+  facility page. Towns on this page: Dahlonega.
+listings:
+  - slug: uhaul-031713
+    name: Armored Mini Storage
+    street: 5361 Longbranch Rd
+    city: Dahlonega
+    state_code: GA
+    postal_code: 30533
+    lat: null
+    lng: null
+    phone: (706) 867-0270
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Dahlonega-GA-30533/031713"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $25.00 per month (1st Floor, Outside Level, No Climate); $45.00 per month (1st Floor, Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Dahlonega-GA-30533/031713"
+        title: Armored Mini Storage location page
+    last_verified: "2026-11-20"

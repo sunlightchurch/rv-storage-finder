@@ -146,3 +146,93 @@ listings:
   - url: https://247parkstore.com/
     title: 24/7 Self Parking and Storage
   last_verified: '2026-11-20'
+
+- slug: uhaul-012485
+  name: "The Storage Place #2"
+  street: 4525 Victory Dr
+  city: Columbus
+  state_code: GA
+  postal_code: 31903
+  lat: null
+  lng: null
+  phone: (762) 583-2516
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Columbus-GA-31903/012485"
+  vehicles: [rv, boat]
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: true
+  access_hours: "Mon-Sun: 24 hours"
+  price_notes: "Spaces tagged RV, boat, and vehicle parking: $45.00 per month."
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Columbus-GA-31903/012485"
+      title: "The Storage Place #2 location page"
+  last_verified: "2026-11-20"
+
+- slug: uhaul-040379
+  name: AAA Self Storage
+  street: 5039 Milgen Ct
+  city: Columbus
+  state_code: GA
+  postal_code: 31907
+  lat: null
+  lng: null
+  phone: (706) 321-4594
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Columbus-GA-31907/040379"
+  vehicles: [rv, boat]
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  access_hours: "Mon-Sun: 8 am - 8 pm"
+  price_notes: null
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 8 am - 8 pm."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Columbus-GA-31907/040379"
+      title: AAA Self Storage location page
+  last_verified: "2026-11-20"
+
+- slug: uhaul-027345
+  name: The Storage Place
+  street: 4445 Warm Springs Rd
+  city: Columbus
+  state_code: GA
+  postal_code: 31909
+  lat: null
+  lng: null
+  phone: (706) 568-1746
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Columbus-GA-31909/027345"
+  vehicles: [rv, boat]
+  storage_types: [open]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  access_hours: "Mon-Sun: 7 am - 9 pm"
+  price_notes: "Spaces tagged RV, boat, and vehicle parking: $50.00 per month (Lower Level, Outside Level, Drivethrough)."
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 7 am - 9 pm."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Columbus-GA-31909/027345"
+      title: The Storage Place location page
+  last_verified: "2026-11-20"

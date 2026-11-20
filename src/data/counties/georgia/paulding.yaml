@@ -1,0 +1,67 @@
+id: paulding
+name: Paulding County
+state: Georgia
+state_code: GA
+summary: >-
+  RV and boat storage in Paulding County with a street address from each
+  facility page. Towns on this page: Dallas, Hiram.
+listings:
+  - slug: uhaul-041477
+    name: A Hwy 92 Storage Solutions
+    street: 3874 Hiram Acworth Hwy
+    city: Dallas
+    state_code: GA
+    postal_code: 30157
+    lat: null
+    lng: null
+    phone: (678) 363-7371
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Dallas-GA-30157/041477"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 6 am - 10 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 6 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Dallas-GA-30157/041477"
+        title: A Hwy 92 Storage Solutions location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-007527
+    name: The Lock Box Self Storage In Hiram LLC
+    street: 4838 Macland Rd
+    city: Hiram
+    state_code: GA
+    postal_code: 30141
+    lat: null
+    lng: null
+    phone: (770) 943-6370
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Hiram-GA-30141/007527"
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 6 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $80.00 per month (Lower Level, Covered Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 6 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Hiram-GA-30141/007527"
+        title: The Lock Box Self Storage In Hiram LLC location page
+    last_verified: "2026-11-20"

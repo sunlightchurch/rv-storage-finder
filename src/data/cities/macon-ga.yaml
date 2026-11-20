@@ -155,3 +155,123 @@ listings:
   - url: "https://www.tristarstor.com/index.aspx"
     title: Tri Star Storage locations
   last_verified: '2026-11-18'
+
+- slug: uhaul-1032310
+  name: Macon Storage West
+  street: 4332 Log Cabin Drive
+  city: Macon
+  state_code: GA
+  postal_code: 31204
+  lat: null
+  lng: null
+  phone: (478) 474-8273
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Macon-GA-31204/1032310"
+  vehicles: [rv, boat]
+  storage_types: [covered]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  access_hours: "Mon-Sun: 6 am - 10 pm"
+  price_notes: "Spaces tagged RV, boat, and vehicle parking: $60.00 per month (Lower Level, Covered Level, Drivethrough)."
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 6 am - 10 pm."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Macon-GA-31204/1032310"
+      title: Macon Storage West location page
+  last_verified: "2026-11-20"
+
+- slug: uhaul-040783
+  name: Treasure Chest Self Storage
+  street: 111 Lower Elm St
+  city: Macon
+  state_code: GA
+  postal_code: 31206
+  lat: null
+  lng: null
+  phone: (478) 292-7117
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Macon-GA-31206/040783"
+  vehicles: [rv, boat]
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  access_hours: "Mon-Sat: 8 am - 6 pm Sun: Closed"
+  price_notes: "Spaces tagged RV, boat, and vehicle parking: $70.00 per month."
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sat: 8 am - 6 pm Sun: Closed."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Macon-GA-31206/040783"
+      title: Treasure Chest Self Storage location page
+  last_verified: "2026-11-20"
+
+- slug: uhaul-018708
+  name: AA Storage
+  street: 68 Green St
+  city: Warner Robins
+  state_code: GA
+  postal_code: 31093
+  lat: null
+  lng: null
+  phone: (478) 225-0681
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Warner-Robins-GA-31093/018708"
+  vehicles: [rv, boat]
+  storage_types: [open]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: false
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: true
+  access_hours: "Mon-Sun: 24 hours"
+  price_notes: "Spaces tagged RV, boat, and vehicle parking: $50.00 per month (Outside Level, No Climate, No Electricity); $70.00 per month (Outside Level, No Climate, No Electricity)."
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Warner-Robins-GA-31093/018708"
+      title: AA Storage location page
+  last_verified: "2026-11-20"
+
+- slug: uhaul-1037833
+  name: North Davis Storage
+  street: 1007 N Davis Drive
+  city: Warner Robins
+  state_code: GA
+  postal_code: 31093
+  lat: null
+  lng: null
+  phone: (478) 922-0424
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Warner-Robins-GA-31093/1037833"
+  vehicles: [rv, boat]
+  storage_types: [open]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: true
+  access_hours: "Mon-Sun: 24 hours"
+  price_notes: "Spaces tagged RV, boat, and vehicle parking: $40.00 per month (1st Floor, Outside Level, Drivethrough)."
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Warner-Robins-GA-31093/1037833"
+      title: North Davis Storage location page
+  last_verified: "2026-11-20"

@@ -1,0 +1,37 @@
+id: murray
+name: Murray County
+state: Georgia
+state_code: GA
+summary: >-
+  RV and boat storage in Murray County with a street address from each
+  facility page. Towns on this page: Chatsworth.
+listings:
+  - slug: uhaul-1039374
+    name: Local Storage-Jackson Lake
+    street: 165 Jackson Lake Rd
+    city: Chatsworth
+    state_code: GA
+    postal_code: 30705
+    lat: null
+    lng: null
+    phone: (706) 581-6165
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Chatsworth-GA-30705/1039374"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $80.00 per month (1st Floor, Outside Level, Drivethrough)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Chatsworth-GA-30705/1039374"
+        title: Local Storage-Jackson Lake location page
+    last_verified: "2026-11-20"
