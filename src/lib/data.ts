@@ -569,6 +569,7 @@ export function allPublicPaths(): { path: string; lastmod: string }[] {
     { path: '/guides/can-hoa-ban-rv-parking-nevada/', lastmod: '2026-11-20' },
     { path: '/guides/can-hoa-ban-rv-parking-north-carolina/', lastmod: '2026-11-20' },
     { path: '/guides/class-a-rv-storage/', lastmod: '2026-11-20' },
+    { path: '/guides/hurricane-season-rv-boat-storage-florida/', lastmod: '2026-11-20' },
     { path: '/guides/boat-storage-by-length/', lastmod: '2026-11-20' },
     ...RV_LENGTHS.map((feet) => ({ path: `/guides/${feet}-foot-rv-storage/`, lastmod: '2026-11-20' })),
     ...BOAT_LENGTHS.map((feet) => ({ path: `/guides/${feet}-foot-boat-storage/`, lastmod: '2026-11-20' })),

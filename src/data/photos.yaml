@@ -1302,6 +1302,20 @@
   license: "CC BY-SA 4.0"
   license_url: "https://creativecommons.org/licenses/by-sa/4.0"
   credit_required: true
+- id: st-augustine
+  role: city
+  alt: "Castillo de San Marcos in St. Augustine, Florida"
+  width: 1280
+  height: 853
+  files:
+    "640": photos/st-augustine-640.webp
+    "960": photos/st-augustine-960.webp
+    "1280": photos/st-augustine-1280.webp
+  author: "Jon Zander"
+  source_url: "https://commons.wikimedia.org/wiki/File:Castillo_de_San_Marcos_Fort_Panorama_5.jpg"
+  license: "CC BY-SA 3.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/3.0/"
+  credit_required: true
 - id: brunswick
   role: city
   alt: "City Hall in Brunswick, Georgia"

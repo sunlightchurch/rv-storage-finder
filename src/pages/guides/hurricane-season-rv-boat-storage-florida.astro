@@ -1,0 +1,88 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import StateLots from '../../components/StateLots.astro';
+import { href } from '../../lib/data';
+import { breadcrumbNode, faqNode, pageGraph, webPageNode } from '../../lib/schema';
+
+const title = 'Hurricane-season RV and boat storage in Florida | RV Storage Prices';
+const description =
+  'Florida facilities that publish a hurricane rating or hurricane-resistant construction, with links to the source page. Most lots do not print a storm policy.';
+const path = '/guides/hurricane-season-rv-boat-storage-florida/';
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'Guides', path: '/guides/' },
+  { label: 'Florida hurricane-season storage', path },
+];
+const faqs = [
+  {
+    q: 'Which Florida storage pages mention hurricanes?',
+    a: 'Three facility pages in this directory use hurricane language. Vault Marine in Pompano Beach says the building is category-5 hurricane resistant. Stor-It in Ormond Beach says its covered canopies are hurricane-rated. Winter Haven RV & Boat Storage says its covered canopies are 140 mph hurricane resistant. Other cards are silent.',
+  },
+  {
+    q: 'Does a hurricane rating mean the facility will accept a rig during a storm?',
+    a: 'No. These pages describe construction. They do not print an evacuation rule, a tie-down requirement, or whether you may leave the vehicle on the lot when a storm is named. Ask the facility.',
+  },
+  {
+    q: 'Where are Florida storage lots listed?',
+    a: 'The city list at the bottom of this page links every Florida city page in the directory. A listing is not a storm plan.',
+  },
+];
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: '2026-11-20' }),
+  breadcrumbNode(crumbs),
+  faqNode(faqs),
+]);
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <article class="wrap prose">
+    <Breadcrumbs items={crumbs} />
+    <h1>Hurricane-season RV and boat storage in Florida</h1>
+    <p>
+      A published hurricane phrase is not a vacancy and not a promise that a rig can stay through a
+      storm. This page only repeats wording that is already on a facility page in this directory.
+    </p>
+    <h2>Pages that use hurricane language</h2>
+    <ul>
+      <li>
+        <a href={href('/cities/fort-lauderdale-fl/#vault-marine-pompano')}>Vault Marine</a>, Pompano
+        Beach, FL, describes a 50,000-square-foot indoor building for boats and RVs as category-5
+        hurricane resistant.
+        <a href="https://www.vaultmarinefl.com/" rel="noopener noreferrer">Source page</a>.
+      </li>
+      <li>
+        <a href={href('/cities/daytona-beach-fl/#stor-it-boat-rv-ormond-beach')}>Stor-It Boat and RV Center</a>,
+        Ormond Beach, FL, says it has covered hurricane-rated steel canopies and uncovered parking.
+        <a href="https://www.storitfl.com/99-portland-rd-ormond-beach-fl-32174" rel="noopener noreferrer">Source page</a>.
+      </li>
+      <li>
+        <a href={href('/cities/lakeland-fl/#winter-haven-rv-and-boat-storage')}>Winter Haven RV &amp; Boat Storage</a>,
+        Winter Haven, FL, says its covered canopies are 140 mph hurricane resistant.
+        <a href="https://www.winterhavenrvboatstorage.com/" rel="noopener noreferrer">Source page</a>.
+      </li>
+    </ul>
+    <p>
+      No other Florida listing in this directory printed tie-downs, a wind rating, or a hurricane
+      policy on the page we checked. A silent card is not a claim that the lot is unprotected, and it
+      is not a claim that it is rated.
+    </p>
+    <h2>What to ask before a storm</h2>
+    <ul>
+      <li>Will the facility stay open, and can the rig remain on the lot?</li>
+      <li>Are tie-downs required, and does the page or the contract say who installs them?</li>
+      <li>What wind or hurricane rating, if any, applies to the roof or the building?</li>
+      <li>Does the rental agreement exclude storm damage?</li>
+    </ul>
+    <StateLots stateSlug="florida" inputId="hurricane-fl" />
+    <section class="faq">
+      <h2>Questions</h2>
+      {faqs.map((faq) => (
+        <>
+          <h3>{faq.q}</h3>
+          <p>{faq.a}</p>
+        </>
+      ))}
+    </section>
+  </article>
+</Base>

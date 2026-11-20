@@ -6,8 +6,8 @@ state_code: FL
 metro: Daytona Beach
 summary: >-
   These facilities publish an RV or boat storage page in Ormond Beach, South
-  Daytona, Port Orange, New Smyrna Beach, or DeLand. Each card uses only what
-  that page states.
+  Daytona, Port Orange, New Smyrna Beach, DeLand, or Bunnell. Each card uses
+  only what that page states.
 sparefoot_slug: Daytona-Beach-FL
 neighbor_path: florida/daytona-beach
 sparefoot_note: null
@@ -251,5 +251,70 @@ listings:
       load a length or a rate.
     sources:
       - url: https://www.storitfl.com/99-portland-rd-ormond-beach-fl-32174
-        title: Official Ormond Beach boat and RV page
+        title: Stor-It Ormond Beach page
     last_verified: "2026-11-18"
+
+  - slug: palm-coast-rv-boat-storage-bunnell
+    name: Palm Coast RV and Boat Storage
+    street: 2551 N. State Street
+    city: Bunnell
+    state_code: FL
+    postal_code: "32110"
+    lat: null
+    lng: null
+    phone: "(386) 437-3135"
+    website: https://www.palmcoaststorage.com/
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: 40
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: null
+    price_notes: >-
+      Monthly rates are $115 up to 20 ft, $125 up to 30 ft, and $135 up to 40 ft.
+    waitlist: null
+    notes: >-
+      The storage page prints those length tiers and a Bunnell address. It does
+      not say whether the spaces are covered. The same address is the Palm Coast
+      RV Park, which also offers monthly RV and boat storage.
+    sources:
+      - url: https://www.palmcoaststorage.com/
+        title: Palm Coast RV and Boat Storage rates
+      - url: https://palmcoastrvpark.com/about/storage/
+        title: Palm Coast RV Park storage page
+    last_verified: "2026-11-20"
+
+  - slug: steel-rail-rv-boat-storage
+    name: Steel Rail RV and Boat Outdoor Storage
+    street: 3480 Steel Rail Dr
+    city: Bunnell
+    state_code: FL
+    postal_code: "32110"
+    lat: null
+    lng: null
+    phone: "(386) 666-9209"
+    website: https://rvboatstoragepalmcoast.com/
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: true
+    access_24h: true
+    price_notes: null
+    waitlist: null
+    notes: >-
+      Outdoor storage for RVs, campers, boats, jet skis, and trailers. The page
+      states keyless gate entry, video surveillance, and 24-hour access. No
+      length or price is printed.
+    sources:
+      - url: https://rvboatstoragepalmcoast.com/
+        title: Steel Rail RV and Boat Outdoor Storage
+    last_verified: "2026-11-20"

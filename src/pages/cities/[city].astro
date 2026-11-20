@@ -214,6 +214,9 @@ const snowbirdGuide =
     <h2>Guides for this city</h2>
     <p class="cross">
       {snowbirdGuide && <a href={href(snowbirdGuide)}>Snowbird storage</a>}
+      {city.state_code === 'FL' && (
+        <a href={href('/guides/hurricane-season-rv-boat-storage-florida/')}>Hurricane-season storage</a>
+      )}
       <a href={href('/guides/short-term-rv-storage/')}>Short-term terms</a>
       {shortTermPage && <a href={href(shortTermPage.path)}>Short-term filter for this city</a>}
       <a href={href('/guides/rv-storage-fees-move-in-costs/')}>Move-in fees</a>
