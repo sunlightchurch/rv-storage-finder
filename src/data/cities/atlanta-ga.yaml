@@ -14,6 +14,8 @@ sparefoot_note: This link opens Atlanta results. Several verified lots are in Ma
 photo: atlanta
 listings:
 - slug: brookhaven-storage
+  fees:
+    admin: "$30 one-time administrative fee at move-in"
   name: Brookhaven Storage
   street: 2740 Apple Valley Rd NE
   city: Atlanta
@@ -461,6 +463,8 @@ listings:
     title: The RV Loft
   last_verified: '2026-11-18'
 - slug: u-haul-moving-storage-clairmont
+  fees:
+    admin: "$0.00 admin fee"
   name: U-Haul Moving & Storage at Clairmont Rd
   street: 2885 Clairmont Rd NE
   city: Atlanta

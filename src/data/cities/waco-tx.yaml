@@ -81,6 +81,7 @@ listings:
     title: Best RV and Boat Storage location page
   last_verified: '2026-11-18'
 - slug: bosqueville-storage
+  billing_term: month-to-month
   name: Bosqueville Storage
   street: 6925 Steinbeck Bend Dr.
   city: Waco
@@ -114,6 +115,8 @@ listings:
     title: Bosqueville Storage homepage
   last_verified: '2026-11-18'
 - slug: diamond-self-storage-waco
+  fees:
+    admin: "$17.76 admin fee"
   name: Diamond Self Storage of Texas - Waco
   street: 9409 China Spring Road
   city: Waco
@@ -148,6 +151,8 @@ listings:
     title: Diamond Self Storage Waco page
   last_verified: '2026-11-18'
 - slug: red-roof-storage-waco
+  fees:
+    deposit: "No deposit"
   name: Red Roof Storage
   street: 286 Lady Bird Rd
   city: Waco

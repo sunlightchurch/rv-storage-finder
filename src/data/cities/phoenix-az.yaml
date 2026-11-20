@@ -500,6 +500,9 @@ listings:
     last_verified: "2026-11-18"
 
   - slug: southwest-rv-storage
+    fees:
+      admin: "$25 new-customer setup fee"
+      gate_card: "$25 refundable gate card"
     name: Southwest RV Storage
     street: 17030 N 63rd Ave
     city: Glendale

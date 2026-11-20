@@ -1,0 +1,88 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import StateLots from '../../components/StateLots.astro';
+import TermList from '../../components/TermList.astro';
+import { getState, href } from '../../lib/data';
+import { formatBand, getCityCostGuides } from '../../lib/guides';
+import { termRows } from '../../lib/topic';
+import { breadcrumbNode, faqNode, pageGraph, webPageNode } from '../../lib/schema';
+
+const title = 'Snowbird RV storage in Arizona | RV Storage Prices';
+const description =
+  'Arizona facilities that publish a month-to-month term, plus monthly price ranges already printed on Arizona city guides. Not a snowbird discount.';
+const path = '/guides/snowbird-rv-storage-arizona/';
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'Guides', path: '/guides/' },
+  { label: 'Arizona snowbird storage', path },
+];
+const faqs = [
+  {
+    q: 'Where can a snowbird store an RV in Arizona?',
+    a: 'Use the Arizona city pages in this directory. A month-to-month line appears only when that facility’s page says the rental is month to month.',
+  },
+  {
+    q: 'Does month-to-month mean I can leave after one month?',
+    a: 'Only if the page says so. Katlon RV & Boat Storage in Flagstaff says month to month with a three-month minimum. Call before you treat any other lot as a one-month stay.',
+  },
+  {
+    q: 'Are the Arizona price ranges snowbird specials?',
+    a: 'No. They are the low and high monthly amounts printed by facilities on that city page. A facility with no monthly price is not in the range.',
+  },
+];
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: '2026-11-20' }),
+  breadcrumbNode(crumbs),
+  faqNode(faqs),
+]);
+const stated = termRows('AZ');
+const guides = getCityCostGuides().filter((guide) => guide.city.state_code === 'AZ');
+const arizona = getState('arizona');
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <article class="wrap prose">
+    <Breadcrumbs items={crumbs} />
+    <h1>Snowbird RV storage in Arizona</h1>
+    <p>
+      This page does not guess a winter rate or how full a lot is. It shows Arizona facilities that
+      publish a month-to-month term, and the monthly ranges already calculated from printed prices.
+    </p>
+    <h2>Facilities that state a short term</h2>
+    <TermList rows={stated} />
+    <h2>Published monthly ranges by city</h2>
+    <p>
+      {arizona.cities.length} Arizona city pages are in the directory. A cost guide exists only when at
+      least three facilities printed a monthly amount.
+    </p>
+    <ul>
+      {
+        guides.map((guide) => (
+          <li>
+            <a href={href(guide.path)}>
+              {guide.city.city}, {guide.city.state_code}
+            </a>
+            {`: ${formatBand(guide.overall.min)} to ${formatBand(guide.overall.max)} across ${guide.sampled.length} facilities. `}
+            <a href={href(`/cities/${guide.city.id}/`)}>City page</a>
+          </li>
+        ))
+      }
+    </ul>
+    <p>
+      <a href={href('/guides/short-term-rv-storage/')}>All short-term terms in the directory</a>
+      {' · '}
+      <a href={href('/guides/can-hoa-ban-rv-parking-arizona/')}>Can an Arizona HOA ban an RV?</a>
+    </p>
+    <StateLots stateSlug="arizona" inputId="snow-az" />
+    <section class="faq">
+      <h2>Questions</h2>
+      {faqs.map((faq) => (
+        <>
+          <h3>{faq.q}</h3>
+          <p>{faq.a}</p>
+        </>
+      ))}
+    </section>
+  </article>
+</Base>

@@ -13,6 +13,7 @@ import {
   telHref,
 } from '../lib/format';
 import { coverLabel, priceHeadline, priceLines, priceLineText, type CoverKind } from '../lib/prices';
+import { feeFields, termLabel } from '../lib/terms';
 
 interface Props {
   listing: Listing;
@@ -143,6 +144,26 @@ const icons = [
         )
       }
     </div>
+    <p>
+      <span class="label">Terms</span><br />
+      <span class={listing.billing_term ? undefined : 'unknown'}>
+        {termLabel(listing.billing_term)}
+        {listing.billing_detail ? ` ${listing.billing_detail}` : ''}
+      </span>
+    </p>
+    <details class="details">
+      <summary>Published fees</summary>
+      <dl class="facts">
+        {
+          feeFields.map(([key, label]) => (
+            <div>
+              <dt>{label}</dt>
+              <dd class={listing.fees[key] ? undefined : 'unknown'}>{listing.fees[key] ?? 'Not listed'}</dd>
+            </div>
+          ))
+        }
+      </dl>
+    </details>
     <p class="distance-note" data-distance-note hidden></p>
     <p class="fit-note" data-fit-note hidden></p>
     <ul class="icon-row" aria-label="Published features">

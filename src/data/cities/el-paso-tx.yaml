@@ -81,6 +81,7 @@ listings:
     title: Desert Cielo about page
   last_verified: '2026-11-18'
 - slug: las-tierras-self-storage
+  billing_term: month-to-month
   name: Las Tierras Self Storage
   street: 3009 N Zaragoza Rd
   city: El Paso
@@ -221,6 +222,8 @@ listings:
     title: Regency contact page
   last_verified: '2026-11-18'
 - slug: storquest-montwood
+  fees:
+    admin: "$29 one-time admin fee"
   name: StorQuest Self Storage
   street: 10966 Montwood Dr
   city: El Paso

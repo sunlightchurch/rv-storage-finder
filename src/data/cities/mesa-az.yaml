@@ -276,6 +276,8 @@ listings:
     last_verified: "2026-11-18"
 
   - slug: out-of-sight-storage
+    fees:
+      deposit: "$25 refundable deposit"
     name: Out of Sight Storage
     street: 17639 South 144th Street
     city: Gilbert
@@ -347,6 +349,8 @@ listings:
     last_verified: "2026-11-18"
 
   - slug: quality-secure-rv-boat-storage
+    fees:
+      admin: "$25 one-time account setup fee"
     name: "Quality Secure RV, Boat, Truck & Trailer Storage"
     street: 335 W. Cullumber Ave
     city: Gilbert

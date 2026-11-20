@@ -1,0 +1,73 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import TermList from '../../components/TermList.astro';
+import { href } from '../../lib/data';
+import { termRows } from '../../lib/topic';
+import { breadcrumbNode, faqNode, pageGraph, webPageNode } from '../../lib/schema';
+
+const title = 'Short-term and month-to-month RV storage | RV Storage Prices';
+const description =
+  'Facilities that publish a month-to-month or short-term term, with the price on that page. A city filter appears only when three facilities in one city say so.';
+const path = '/guides/short-term-rv-storage/';
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'Guides', path: '/guides/' },
+  { label: 'Short-term storage', path },
+];
+const faqs = [
+  {
+    q: 'Which RV storage lots offer month-to-month rental?',
+    a: 'Only the facilities on this page. Each one has a source page that states month-to-month or a short-term rate. Silence on another card is not a no and not a yes.',
+  },
+  {
+    q: 'Why is there no short-term filter on a city page?',
+    a: 'A city filter is built when at least three facilities in that city publish the term. None of the cities here have three yet.',
+  },
+  {
+    q: 'Does month-to-month include a minimum stay?',
+    a: 'Read the note on the card. Katlon RV & Boat Storage says month to month with a three-month minimum. Other pages may not say.',
+  },
+];
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: '2026-11-20' }),
+  breadcrumbNode(crumbs),
+  faqNode(faqs),
+]);
+const rows = termRows();
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <article class="wrap prose">
+    <Breadcrumbs items={crumbs} />
+    <h1>Short-term and month-to-month RV storage</h1>
+    <p>
+      The term below is copied from the facility page named in the link. “Month-to-month” is used when
+      the page says that. “Seasonal or short-term terms” is used when the page says short-term, as
+      Lona’s Boat & RV Storage does at $25 per day. A page that never mentions the term is not on this
+      list.
+    </p>
+    <p>
+      A shareable city page for this fact is created when three or more facilities in that city publish
+      it. No city in the directory has three yet, so there is no city filter page to open.
+    </p>
+    <h2>What the facility pages state</h2>
+    <TermList rows={rows} />
+    <p>
+      <a href={href('/guides/snowbird-rv-storage-florida/')}>Florida snowbird storage</a>
+      {' · '}
+      <a href={href('/guides/snowbird-rv-storage-arizona/')}>Arizona snowbird storage</a>
+      {' · '}
+      <a href={href('/guides/rv-storage-fees-move-in-costs/')}>Move-in fees</a>
+    </p>
+    <section class="faq">
+      <h2>Questions</h2>
+      {faqs.map((faq) => (
+        <>
+          <h3>{faq.q}</h3>
+          <p>{faq.a}</p>
+        </>
+      ))}
+    </section>
+  </article>
+</Base>

@@ -1,0 +1,73 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import StateLots from '../../components/StateLots.astro';
+import { href } from '../../lib/data';
+import { breadcrumbNode, faqNode, pageGraph, webPageNode } from '../../lib/schema';
+
+const title = 'Can a North Carolina HOA ban RV parking? | RV Storage Prices';
+const description =
+  'Chapter 47F of the North Carolina General Statutes has no RV or boat parking section. The declaration power is quoted. Not legal advice.';
+const path = '/guides/can-hoa-ban-rv-parking-north-carolina/';
+const crumbs = [
+  { label: 'Home', path: '/' },
+  { label: 'Guides', path: '/guides/' },
+  { label: 'North Carolina HOA parking', path },
+];
+const faqs = [
+  {
+    q: 'Can a North Carolina HOA ban RV parking?',
+    a: 'Chapter 47F, the Planned Community Act, does not contain the words “recreational vehicle,” “motor home,” or “boat,” and it has no section that sets an RV or boat parking rule. A parking rule, if one exists, is in the declaration or in rules the declaration allows.',
+  },
+  {
+    q: 'What does G.S. 47F-2-103 say?',
+    a: 'It says that, to the extent not inconsistent with the chapter, the declaration, bylaws, and articles of incorporation are enforceable by their terms. It does not name an RV or a boat.',
+  },
+  {
+    q: 'Where is RV storage in North Carolina?',
+    a: 'The city list on this page links the North Carolina storage lots in this directory. A listing is not your declaration.',
+  },
+];
+const schema = pageGraph([
+  webPageNode({ title, description, path, dateModified: '2026-11-20' }),
+  breadcrumbNode(crumbs),
+  faqNode(faqs),
+]);
+---
+
+<Base title={title} description={description} path={path} schema={schema}>
+  <article class="wrap prose">
+    <Breadcrumbs items={crumbs} />
+    <h1>Can a North Carolina HOA ban RV parking?</h1>
+    <p>
+      This is not legal advice and not a reading of your declaration. The longer note is the
+      <a href={href('/rules/north-carolina/')}>North Carolina HOA rules page</a>. Checked November 19,
+      2026, on the
+      <a href="https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByChapter/Chapter_47F.html" rel="noopener noreferrer">General Assembly’s copy of Chapter 47F</a>.
+      That chapter file does not contain “recreational vehicle,” “motor home,” or “boat.”
+    </p>
+    <p>G.S. 47F-2-103(a) says:</p>
+    <blockquote>
+      <p>
+        To the extent not inconsistent with the provisions of this Chapter, the declaration, bylaws,
+        and articles of incorporation form the basis for the legal authority for the planned community
+        to act as provided in the declaration, bylaws, and articles of incorporation, and the
+        declaration, bylaws, and articles of incorporation are enforceable by their terms.
+      </p>
+    </blockquote>
+    <p>
+      G.S. 47F-3-102 lets an association adopt rules and regulate common elements unless the articles or
+      the declaration say otherwise. Neither item names an RV or a boat.
+    </p>
+    <StateLots stateSlug="north-carolina" inputId="hoa-nc" />
+    <section class="faq">
+      <h2>Questions</h2>
+      {faqs.map((faq) => (
+        <>
+          <h3>{faq.q}</h3>
+          <p>{faq.a}</p>
+        </>
+      ))}
+    </section>
+  </article>
+</Base>

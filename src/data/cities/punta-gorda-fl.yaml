@@ -79,6 +79,7 @@ listings:
     last_verified: "2026-11-19"
 
   - slug: honey-bee-punta-gorda
+    billing_term: month-to-month
     name: Honey Bee RV Punta Gorda
     street: 6800 Taylor Road
     city: Punta Gorda

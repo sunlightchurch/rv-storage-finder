@@ -257,6 +257,8 @@ listings:
     last_verified: "2026-11-18"
 
   - slug: rockers-lockers-st-cloud
+    fees:
+      lock_or_insurance: "Valid registration, proof of insurance, and proof of ownership are required."
     name: Rocker's Lockers
     street: 5145 E Irlo Bronson Hwy
     city: St. Cloud

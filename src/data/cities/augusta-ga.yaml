@@ -48,6 +48,7 @@ listings:
     title: Storage Sense Evans location page
   last_verified: '2026-11-18'
 - slug: go-store-it-augusta
+  billing_term: month-to-month
   name: Go Store It - Augusta
   street: 1735 Barton Chapel Road
   city: Augusta
@@ -187,6 +188,8 @@ listings:
     title: AAA Self Storage Milledgeville Road
   last_verified: '2026-11-18'
 - slug: legacy-washington-rd-4492
+  fees:
+    admin: "A one-time administrative fee applies. The amount is not printed."
   name: Washington Rd Self Storage
   street: 4492 Washington Road
   city: Evans

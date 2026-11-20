@@ -1,0 +1,30 @@
+---
+import CitySearch from './CitySearch.astro';
+import { getState, href } from '../lib/data';
+
+interface Props {
+  stateSlug: string;
+  inputId: string;
+}
+
+const { stateSlug, inputId } = Astro.props;
+const state = getState(stateSlug);
+---
+
+<h2>RV storage near you</h2>
+<p>
+  These are the {state.name} city pages in this directory. The search box takes a city name or a ZIP
+  code from a listed facility.
+</p>
+<CitySearch inputId={inputId} label={`Search a ${state.name} city or ZIP`} />
+<ul>
+  {
+    state.cities.map((city) => (
+      <li>
+        <a href={href(`/cities/${city.id}/`)}>
+          {city.city}, {city.state_code}
+        </a>
+      </li>
+    ))
+  }
+</ul>

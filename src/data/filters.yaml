@@ -193,3 +193,19 @@
   description: "RV storage with a wash station in and near {city}, {state}: {count} facilities say one is on site. A hose at another address does not count."
   h1: "RV storage with a wash station in {city}, {state_code}"
   intro: "These facilities in and near {city}, {state} state a wash station or wash bay on the property. A dump station is a different page."
+
+- id: short-term
+  slug_prefix: short-term-rv-storage
+  label: Short-term RV storage
+  vehicles: [rv, boat]
+  storage_types: []
+  require_power: false
+  require_dump: false
+  require_wash: false
+  require_price: false
+  require_short_term: true
+  min_matches: 3
+  title: "Short-term RV storage in {city}, {state_code}"
+  description: "Facilities in and near {city}, {state} that publish a month-to-month or short-term term: {count} sourced listings. A page that is silent is not counted."
+  h1: "Short-term RV storage in {city}"
+  intro: "These facilities in and near {city}, {state} state a month-to-month or short-term term on the page we checked. A facility that does not say so stays on the city page only."

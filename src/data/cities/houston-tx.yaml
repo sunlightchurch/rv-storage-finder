@@ -152,6 +152,8 @@ listings:
     last_verified: "2026-11-18"
 
   - slug: houston-boat-car-rv-storage
+    fees:
+      deposit: "A deposit equal to half the monthly rate"
     name: "Houston Boat, Car, RV Storage"
     street: 1611 Oak Tree
     city: Houston
@@ -331,6 +333,7 @@ listings:
     last_verified: "2026-11-18"
 
   - slug: storage-solutions-plus-tower-oaks
+    billing_term: month-to-month
     name: Storage Solutions Plus
     street: 10860 Tower Oaks Blvd
     city: Houston
@@ -365,6 +368,9 @@ listings:
     last_verified: "2026-11-18"
 
   - slug: sugar-land-boat-rv-storage
+    billing_term: month-to-month
+    fees:
+      deposit: "No deposit"
     name: "Sugar Land Boat & RV Storage"
     street: 7415 FM 2759
     city: Richmond

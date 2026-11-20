@@ -5,9 +5,10 @@ import FilterChips from '../../components/FilterChips.astro';
 import FindMore from '../../components/FindMore.astro';
 import ListingCard from '../../components/ListingCard.astro';
 import Photo from '../../components/Photo.astro';
-import { correctionMailto, getCities, getCity, href, siblingCities, stateSlug } from '../../lib/data';
+import { correctionMailto, getCities, getCity, getFilterPages, href, siblingCities, stateSlug } from '../../lib/data';
 import { formatBool, formatDate, formatFeet, formatTypes, formatVehicles } from '../../lib/format';
 import { formatPriceBlock } from '../../lib/prices';
+import { termLabel } from '../../lib/terms';
 import { normalizeZip, zipCentroids } from '../../lib/zips';
 import { getPhoto } from '../../lib/photos';
 import { breadcrumbNode, faqNode, itemListNode, pageGraph, webPageNode } from '../../lib/schema';
@@ -74,12 +75,34 @@ const compareListings = city.listings.map((listing) => ({
   hours: listing.access_hours ?? 'Not listed',
   waitlist: listing.waitlist ?? 'Not listed',
   price: formatPriceBlock(listing),
+  terms: listing.billing_detail ? `${termLabel(listing.billing_term)} ${listing.billing_detail}` : termLabel(listing.billing_term),
+  feeAdmin: listing.fees.admin ?? 'Not listed',
+  feeGate: listing.fees.gate_card ?? 'Not listed',
+  feeDeposit: listing.fees.deposit ?? 'Not listed',
+  feeAccess: listing.fees.access_24h ?? 'Not listed',
+  feeLate: listing.fees.late ?? 'Not listed',
+  feeLock: listing.fees.lock_or_insurance ?? 'Not listed',
   phone: listing.phone,
   website: listing.website,
   checked: formatDate(listing.last_verified),
 }));
 const compareJson = JSON.stringify(compareListings).replaceAll('<', '\\u003c');
 const orderedListings = [...city.listings].sort((a, b) => Number(b.featured) - Number(a.featured));
+const shortTermPage = getFilterPages().find((page) => page.city.id === city.id && page.filter.id === 'short-term');
+const hoaGuide: Record<string, string> = {
+  FL: '/guides/can-hoa-ban-rv-parking-florida/',
+  AZ: '/guides/can-hoa-ban-rv-parking-arizona/',
+  TX: '/guides/can-hoa-ban-rv-parking-texas/',
+  GA: '/guides/can-hoa-ban-rv-parking-georgia/',
+  NV: '/guides/can-hoa-ban-rv-parking-nevada/',
+  NC: '/guides/can-hoa-ban-rv-parking-north-carolina/',
+};
+const snowbirdGuide =
+  city.state_code === 'FL'
+    ? '/guides/snowbird-rv-storage-florida/'
+    : city.state_code === 'AZ'
+      ? '/guides/snowbird-rv-storage-arizona/'
+      : null;
 ---
 
 <Base title={title} description={description} path={path} schema={schema}>
@@ -186,6 +209,14 @@ const orderedListings = [...city.listings].sort((a, b) => Number(b.featured) - N
       }
     </section>
     <FindMore city={city} />
+    <h2>Guides for this city</h2>
+    <p class="cross">
+      {snowbirdGuide && <a href={href(snowbirdGuide)}>Snowbird storage</a>}
+      <a href={href('/guides/short-term-rv-storage/')}>Short-term terms</a>
+      {shortTermPage && <a href={href(shortTermPage.path)}>Short-term filter for this city</a>}
+      <a href={href('/guides/rv-storage-fees-move-in-costs/')}>Move-in fees</a>
+      {hoaGuide[city.state_code] && <a href={href(hoaGuide[city.state_code])}>Can an HOA ban an RV?</a>}
+    </p>
     <h2>Keep browsing</h2>
     <p class="cross">
       <a href={href(`/states/${stateSlug(city.state)}/`)}>All {city.state} cities</a>
@@ -402,6 +433,13 @@ const orderedListings = [...city.listings].sort((a, b) => Number(b.featured) - N
       hours: string;
       waitlist: string;
       price: string;
+      terms: string;
+      feeAdmin: string;
+      feeGate: string;
+      feeDeposit: string;
+      feeAccess: string;
+      feeLate: string;
+      feeLock: string;
       phone: string | null;
       website: string | null;
       checked: string;
@@ -422,6 +460,13 @@ const orderedListings = [...city.listings].sort((a, b) => Number(b.featured) - N
       { label: 'Gate hours', key: 'hours' },
       { label: 'Waitlist', key: 'waitlist' },
       { label: 'Published price', key: 'price' },
+      { label: 'Terms', key: 'terms' },
+      { label: 'Admin or setup', key: 'feeAdmin' },
+      { label: 'Gate card', key: 'feeGate' },
+      { label: 'Deposit', key: 'feeDeposit' },
+      { label: '24-hour access fee', key: 'feeAccess' },
+      { label: 'Late fee', key: 'feeLate' },
+      { label: 'Required lock or insurance', key: 'feeLock' },
       { label: 'Phone', key: 'phone' },
       { label: 'Website', key: 'website' },
       { label: 'Checked', key: 'checked' },
