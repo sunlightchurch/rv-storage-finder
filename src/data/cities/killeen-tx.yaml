@@ -256,3 +256,153 @@ listings:
   - url: "https://www.rollinstorage.com/"
     title: Roll In Storage homepage
   last_verified: '2026-11-18'
+
+- slug: uhaul-756048
+  name: U-Haul Storage of Copperas Cove
+  street: 2711 E Business Hwy 190
+  city: Copperas Cove
+  state_code: TX
+  postal_code: 76522
+  lat: null
+  lng: null
+  phone: (254) 542-8058
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Copperas-Cove-TX-76522/756048"
+  vehicles: [rv, boat]
+  storage_types: [open]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  access_hours: "Mon-Sun: 5 am - 10 pm"
+  price_notes: "Spaces tagged RV, boat, and vehicle parking: $59.95 per month (Outside Level, No Climate); $64.95 per month (Outside Level, No Climate)."
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Copperas-Cove-TX-76522/756048"
+      title: U-Haul Storage of Copperas Cove location page
+  last_verified: "2026-11-20"
+
+- slug: uhaul-1029869
+  name: Valu Storage Of Killeen
+  street: 604 E. Central Texas Expressway
+  city: Killeen
+  state_code: TX
+  postal_code: 76541
+  lat: null
+  lng: null
+  phone: (254) 526-0444
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Killeen-TX-76541/1029869"
+  vehicles: [rv, boat]
+  storage_types: [open]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  access_hours: "Mon-Sun: 6 am - 10 pm"
+  price_notes: "Spaces tagged RV, boat, and vehicle parking: $65.00 per month (Lower Level, Outside Level, No Climate)."
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 6 am - 10 pm."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Killeen-TX-76541/1029869"
+      title: Valu Storage Of Killeen location page
+  last_verified: "2026-11-20"
+
+- slug: uhaul-1028972
+  name: Fm 439 Self Storage
+  street: 16969 Fm 439
+  city: Killeen
+  state_code: TX
+  postal_code: 76543
+  lat: null
+  lng: null
+  phone: (254) 501-4944
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Killeen-TX-76543/1028972"
+  vehicles: [rv, boat]
+  storage_types: [open]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: false
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: true
+  access_hours: "Mon-Sun: 24 hours"
+  price_notes: "Spaces tagged RV, boat, and vehicle parking: $59.99 per month (Outside Level, Drivethrough, No Climate); $59.99 per month (Outside Level, No Climate, No Electricity); $69.99 per month (Outside Level, Drivethrough, No Climate); $69.99 per month (Outside Level, No Climate, No Electricity)."
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Killeen-TX-76543/1028972"
+      title: Fm 439 Self Storage location page
+  last_verified: "2026-11-20"
+
+- slug: uhaul-756088
+  name: "U-Haul Moving & Storage of Twin Creek"
+  street: 1507 Martin Luther King Jr Blvd
+  city: Killeen
+  state_code: TX
+  postal_code: 76543
+  lat: null
+  lng: null
+  phone: (254) 532-3001
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Killeen-TX-76543/756088"
+  vehicles: [rv, boat]
+  storage_types: [open]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  access_hours: "Mon-Sun: 5 am - 10 pm"
+  price_notes: "Spaces tagged RV, boat, and vehicle parking: $59.95 per month (Outside Level, No Climate)."
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Killeen-TX-76543/756088"
+      title: "U-Haul Moving & Storage of Twin Creek location page"
+  last_verified: "2026-11-20"
+
+- slug: uhaul-756028
+  name: "U-Haul Moving & Storage of Centex"
+  street: 3501 E Central Tx Expwy
+  city: Killeen
+  state_code: TX
+  postal_code: 76543
+  lat: null
+  lng: null
+  phone: (254) 699-8334
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Killeen-TX-76543/756028"
+  vehicles: [rv, boat]
+  storage_types: [covered]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  access_hours: "Mon-Sun: 5 am - 10 pm"
+  price_notes: "Spaces tagged RV, boat, and vehicle parking: $109.95 per month (Covered Level, No Climate)."
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Killeen-TX-76543/756028"
+      title: "U-Haul Moving & Storage of Centex location page"
+  last_verified: "2026-11-20"

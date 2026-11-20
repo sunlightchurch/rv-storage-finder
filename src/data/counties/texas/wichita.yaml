@@ -1,0 +1,67 @@
+id: wichita
+name: Wichita County
+state: Texas
+state_code: TX
+summary: >-
+  RV and boat storage in Wichita County with a street address from each
+  facility page. Towns on this page: Jolly, Wichita Falls.
+listings:
+  - slug: uhaul-1026359
+    name: Jolly Mini Storage
+    street: 3460 Us Hwy 287 N. Access Rd
+    city: Jolly
+    state_code: TX
+    postal_code: 76305
+    lat: null
+    lng: null
+    phone: (940) 723-8473
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Jolly-TX-76305/1026359"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Fri: 7 am - 11 pm Sat: 7 am - 9 pm Sun: 9 am - 7"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Fri: 7 am - 11 pm Sat: 7 am - 9 pm Sun: 9 am - 7."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Jolly-TX-76305/1026359"
+        title: Jolly Mini Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: wichita-falls-boat-rv-storage
+    name: Wichita Falls Boat and RV Storage
+    street: 7342 Seymour Highway
+    city: Wichita Falls
+    state_code: TX
+    postal_code: 76310
+    lat: null
+    lng: null
+    phone: null
+    website: "https://www.wichitafallsboatandrvstorage.com/storage-units/texas/wichita-falls/wichita-falls-boat-and-rv-storage-3502158/"
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: 48
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: true
+    cameras: null
+    access_24h: null
+    access_hours: null
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The Wichita Falls page offers enclosed boat and RV storage, with gated entry. Published space sizes include 14 by 48 ft and 24 by 48 ft. A one-dollar first month is a move-in promotion, not the ongoing rate."
+    sources:
+      - url: "https://www.wichitafallsboatandrvstorage.com/storage-units/texas/wichita-falls/wichita-falls-boat-and-rv-storage-3502158/"
+        title: Wichita Falls Boat and RV Storage
+    last_verified: "2026-11-20"

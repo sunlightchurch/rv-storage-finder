@@ -260,3 +260,63 @@ listings:
   - url: "https://trenfieldrv.com/"
     title: Trenfield RV Storage homepage
   last_verified: '2026-11-18'
+
+- slug: uhaul-1037328
+  name: "Toy Storage of Amarillo, Inc."
+  street: 1901 W Amarillo Blvd
+  city: Amarillo
+  state_code: TX
+  postal_code: 79107
+  lat: null
+  lng: null
+  phone: (806) 391-2334
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Amarillo-TX-79107/1037328"
+  vehicles: [rv, boat]
+  storage_types: [open]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: false
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  access_hours: "Mon-Sun: 6 am - 11:30 pm"
+  price_notes: "Spaces tagged RV, boat, and vehicle parking: $45.00 per month (1st Floor, Outside Level, Drivethrough)."
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 6 am - 11:30 pm."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Amarillo-TX-79107/1037328"
+      title: "Toy Storage of Amarillo, Inc. location page"
+  last_verified: "2026-11-20"
+
+- slug: uhaul-1036649
+  name: Maple Storage
+  street: 14751 Maple Drive
+  city: Amarillo
+  state_code: TX
+  postal_code: 79119
+  lat: null
+  lng: null
+  phone: (806) 499-3629
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Amarillo-TX-79119/1036649"
+  vehicles: [rv, boat]
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  access_hours: "Mon-Sun: 6 am - 10 pm"
+  price_notes: null
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 6 am - 10 pm."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Amarillo-TX-79119/1036649"
+      title: Maple Storage location page
+  last_verified: "2026-11-20"

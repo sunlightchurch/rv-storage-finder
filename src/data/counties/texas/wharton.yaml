@@ -1,0 +1,67 @@
+id: wharton
+name: Wharton County
+state: Texas
+state_code: TX
+summary: >-
+  RV and boat storage in Wharton County with a street address from each
+  facility page. Towns on this page: Boling, East Bernard.
+listings:
+  - slug: uhaul-054032
+    name: Texas Gulf
+    street: 308 Vat Rd
+    city: Boling
+    state_code: TX
+    postal_code: 77420
+    lat: null
+    lng: null
+    phone: (979) 428-8115
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Boling-TX-77420/054032"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: false
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $35.00 per month (Drivethrough, No Climate, No Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Boling-TX-77420/054032"
+        title: Texas Gulf location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1039171
+    name: Essential Storage
+    street: 9031 N Hwy 60
+    city: East Bernard
+    state_code: TX
+    postal_code: 77435
+    lat: null
+    lng: null
+    phone: (979) 464-9036
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-East-Bernard-TX-77435/1039171"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $65.00 per month (Outside Level)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-East-Bernard-TX-77435/1039171"
+        title: Essential Storage location page
+    last_verified: "2026-11-20"

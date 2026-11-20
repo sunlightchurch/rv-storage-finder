@@ -1,0 +1,37 @@
+id: waller
+name: Waller County
+state: Texas
+state_code: TX
+summary: >-
+  RV and boat storage in Waller County with a street address from each
+  facility page. Towns on this page: Brookshire.
+listings:
+  - slug: uhaul-1038867
+    name: "AFFORDABLE STORAGE WILSON ROAD, LLC"
+    street: 34440 Wilson Rd
+    city: Brookshire
+    state_code: TX
+    postal_code: 77423
+    lat: null
+    lng: null
+    phone: (832) 592-3413
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Brookshire-TX-77423/1038867"
+    vehicles: [rv, boat]
+    storage_types: [enclosed]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $70.00 per month; $180.00 per month (1st Floor, Enclosed Level, No Climate); $200.00 per month (1st Floor, Enclosed Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Brookshire-TX-77423/1038867"
+        title: "AFFORDABLE STORAGE WILSON ROAD, LLC location page"
+    last_verified: "2026-11-20"

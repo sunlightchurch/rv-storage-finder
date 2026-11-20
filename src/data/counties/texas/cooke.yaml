@@ -1,0 +1,67 @@
+id: cooke
+name: Cooke County
+state: Texas
+state_code: TX
+summary: >-
+  RV and boat storage in Cooke County with a street address from each facility
+  page. Towns on this page: Gainesville, Valley View.
+listings:
+  - slug: uhaul-013532
+    name: 51 Self Storage
+    street: 2545 FM 51
+    city: Gainesville
+    state_code: TX
+    postal_code: 76240
+    lat: null
+    lng: null
+    phone: (940) 580-2871
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Gainesville-TX-76240/013532"
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 6 am - 11 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $160.00 per month (Lower Level, Covered Level, Drivethrough)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 6 am - 11 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Gainesville-TX-76240/013532"
+        title: 51 Self Storage location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1039239
+    name: Valley View RV Storage
+    street: 13676 I-35 Frontage Road
+    city: Valley View
+    state_code: TX
+    postal_code: 76272
+    lat: null
+    lng: null
+    phone: (844) 786-6435
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Valley-View-TX-76272/1039239"
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 6 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $95.00 per month (Outside Level, Drivethrough, No Electricity); $99.00 per month (Covered Level, Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 6 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Valley-View-TX-76272/1039239"
+        title: Valley View RV Storage location page
+    last_verified: "2026-11-20"

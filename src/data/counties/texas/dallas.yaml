@@ -1,0 +1,128 @@
+id: dallas
+name: Dallas County
+state: Texas
+state_code: TX
+summary: >-
+  RV and boat storage in Dallas County with a street address from each
+  facility page. Towns on this page: Balch Springs, Cedar Hill, De Soto,
+  Duncanville.
+listings:
+  - slug: uhaul-1037419
+    name: Local Truck Parking (Lot 3)
+    street: 3315 Peachtree Road
+    city: Balch Springs
+    state_code: TX
+    postal_code: 75180
+    lat: null
+    lng: null
+    phone: (972) 331-4499
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Balch-Springs-TX-75180/1037419"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $220.00 per month."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Balch-Springs-TX-75180/1037419"
+        title: Local Truck Parking (Lot 3) location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-835025
+    name: "U-Haul Moving & Storage of Cedar Hill"
+    street: 1090 US-67
+    city: Cedar Hill
+    state_code: TX
+    postal_code: 75104
+    lat: null
+    lng: null
+    phone: (972) 293-1155
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Cedar-Hill-TX-75104/835025"
+    vehicles: [rv, boat]
+    storage_types: [covered, open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $94.95 per month (Outside Level, No Climate); $179.95 per month (Covered Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Cedar-Hill-TX-75104/835025"
+        title: "U-Haul Moving & Storage of Cedar Hill location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-835056
+    name: "U-Haul Moving & Storage of De Soto"
+    street: 1245 S I-35
+    city: De Soto
+    state_code: TX
+    postal_code: 75115
+    lat: null
+    lng: null
+    phone: (972) 230-1337
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-De-Soto-TX-75115/835056"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-De-Soto-TX-75115/835056"
+        title: "U-Haul Moving & Storage of De Soto location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-835021
+    name: "U-Haul Moving & Storage of Duncanville"
+    street: 1022 S Cedar Ridge Dr
+    city: Duncanville
+    state_code: TX
+    postal_code: 75137
+    lat: null
+    lng: null
+    phone: (972) 780-8980
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Duncanville-TX-75137/835021"
+    vehicles: [rv, boat]
+    storage_types: [covered]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $134.95 per month (Covered Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Duncanville-TX-75137/835021"
+        title: "U-Haul Moving & Storage of Duncanville location page"
+    last_verified: "2026-11-20"

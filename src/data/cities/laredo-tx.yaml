@@ -188,3 +188,33 @@ listings:
       https://www.storeitallstorage.com/self-storage/tx/laredo/san-francisco-ave/rv-boat-auto
     title: Del Norte RV, boat, and auto page
   last_verified: '2026-11-18'
+
+- slug: uhaul-001357
+  name: River South Self Storage
+  street: 4180 S US Hwy 83
+  city: Laredo
+  state_code: TX
+  postal_code: 78046
+  lat: null
+  lng: null
+  phone: (956) 452-1754
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Laredo-TX-78046/001357"
+  vehicles: [rv, boat]
+  storage_types: []
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: true
+  access_hours: "Mon-Sun: 24 hours"
+  price_notes: "Spaces tagged RV, boat, and vehicle parking: $85.00 per month; $115.00 per month (1st Floor, Drivethrough, No Climate)."
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Laredo-TX-78046/001357"
+      title: River South Self Storage location page
+  last_verified: "2026-11-20"

@@ -1,0 +1,37 @@
+id: hidalgo
+name: Hidalgo County
+state: Texas
+state_code: TX
+summary: >-
+  RV and boat storage in Hidalgo County with a street address from each
+  facility page. Towns on this page: Hidalgo.
+listings:
+  - slug: uhaul-832028
+    name: "U-Haul Moving & Storage of Hidalgo"
+    street: 1124 N International Blvd
+    city: Hidalgo
+    state_code: TX
+    postal_code: 78557
+    lat: null
+    lng: null
+    phone: (956) 630-0940
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Hidalgo-TX-78557/832028"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Hidalgo-TX-78557/832028"
+        title: "U-Haul Moving & Storage of Hidalgo location page"
+    last_verified: "2026-11-20"

@@ -1,0 +1,37 @@
+id: wilson
+name: Wilson County
+state: Texas
+state_code: TX
+summary: >-
+  RV and boat storage in Wilson County with a street address from each
+  facility page. Towns on this page: Floresville.
+listings:
+  - slug: uhaul-1036410
+    name: Eagle Creek Storage
+    street: 701 Eagle Creek Drive
+    city: Floresville
+    state_code: TX
+    postal_code: 78114
+    lat: null
+    lng: null
+    phone: (210) 990-4777
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Floresville-TX-78114/1036410"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 7 am - 9 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $79.00 per month (1st Floor, Outside Level)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 7 am - 9 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Floresville-TX-78114/1036410"
+        title: Eagle Creek Storage location page
+    last_verified: "2026-11-20"

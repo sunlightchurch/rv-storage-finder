@@ -1,0 +1,97 @@
+id: harris
+name: Harris County
+state: Texas
+state_code: TX
+summary: >-
+  RV and boat storage in Harris County with a street address from each
+  facility page. Towns on this page: Hockley, Huffman, Tomball.
+listings:
+  - slug: uhaul-1039368
+    name: Storage 290 LLC
+    street: 25308 Zube Rd
+    city: Hockley
+    state_code: TX
+    postal_code: 77447
+    lat: null
+    lng: null
+    phone: (832) 622-2542
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Hockley-TX-77447/1039368"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "Mon-Sun: 24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $80.00 per month (Outside Level, No Climate, No Electricity); $85.00 per month (Outside Level, No Climate, No Electricity); $100.00 per month (Outside Level, No Climate, Electricity); $115.00 per month (Outside Level, No Climate, No Electricity)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Hockley-TX-77447/1039368"
+        title: Storage 290 LLC location page
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-929074
+    name: "U-Haul Moving & Storage of Crosby Huffman"
+    street: 23000 FM 2100 Rd
+    city: Huffman
+    state_code: TX
+    postal_code: 77336
+    lat: null
+    lng: null
+    phone: (832) 996-2100
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Huffman-TX-77336/929074"
+    vehicles: [rv, boat]
+    storage_types: [open]
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $109.95 per month (Outside Level, No Climate)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Huffman-TX-77336/929074"
+        title: "U-Haul Moving & Storage of Crosby Huffman location page"
+    last_verified: "2026-11-20"
+
+  - slug: uhaul-1037283
+    name: Green Acres Premium Parking
+    street: 9013 Dowdell Rd
+    city: Tomball
+    state_code: TX
+    postal_code: 77375
+    lat: null
+    lng: null
+    phone: (281) 353-4171
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Tomball-TX-77375/1037283"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 10 am - 5 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $85.00 per month (1st Floor, Street Level, Drivethrough); $100.00 per month (1st Floor, Street Level, Drivethrough); $120.00 per month (1st Floor, Street Level, Drivethrough); $125.00 per month (1st Floor, Street Level, Drivethrough)."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 10 am - 5 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Tomball-TX-77375/1037283"
+        title: Green Acres Premium Parking location page
+    last_verified: "2026-11-20"

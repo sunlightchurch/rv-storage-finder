@@ -340,3 +340,183 @@ listings:
   - url: "https://www.brothersboatrvstorage.com/"
     title: Official website
   last_verified: '2026-11-18'
+
+- slug: uhaul-014342
+  name: FM 2854 Mini Storage
+  street: 2000 FM 2854
+  city: Conroe
+  state_code: TX
+  postal_code: 77304
+  lat: null
+  lng: null
+  phone: (936) 242-0326
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Conroe-TX-77304/014342"
+  vehicles: [rv, boat]
+  storage_types: [covered]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: false
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: true
+  access_hours: "Mon-Sun: 24 hours"
+  price_notes: "Spaces tagged RV, boat, and vehicle parking: $95.00 per month (1st Floor, Covered Level, No Climate); $105.00 per month (1st Floor, Covered Level, No Climate)."
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Conroe-TX-77304/014342"
+      title: FM 2854 Mini Storage location page
+  last_verified: "2026-11-20"
+
+- slug: uhaul-1039298
+  name: Honea Egypt Storage
+  street: 906 Honea Egypt Rd
+  city: Magnolia
+  state_code: TX
+  postal_code: 77354
+  lat: null
+  lng: null
+  phone: (281) 789-4188
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Magnolia-TX-77354/1039298"
+  vehicles: [rv, boat]
+  storage_types: [open]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  access_hours: "Mon-Sun: 5 am - 11 pm"
+  price_notes: "Spaces tagged RV, boat, and vehicle parking: $55.00 per month (Outside Level); $60.00 per month (Outside Level)."
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 11 pm."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Magnolia-TX-77354/1039298"
+      title: Honea Egypt Storage location page
+  last_verified: "2026-11-20"
+
+- slug: uhaul-1039350
+  name: "Foxgate Boat & RV Storage"
+  street: 31125 Old Hockley Road
+  city: Magnolia
+  state_code: TX
+  postal_code: 77355
+  lat: null
+  lng: null
+  phone: (281) 885-8485
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Magnolia-TX-77355/1039350"
+  vehicles: [rv, boat]
+  storage_types: [enclosed]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: true
+  access_hours: "Mon-Sun: 24 hours"
+  price_notes: "Spaces tagged RV, boat, and vehicle parking: $279.00 per month (1st Floor, Enclosed Level, Electricity); $329.00 per month (1st Floor, Enclosed Level, Electricity); $339.00 per month (1st Floor, Enclosed Level, Electricity); $359.00 per month (1st Floor, Enclosed Level, Electricity)."
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Magnolia-TX-77355/1039350"
+      title: "Foxgate Boat & RV Storage location page"
+  last_verified: "2026-11-20"
+
+- slug: uhaul-1039296
+  name: McCaleb Rd Storage I
+  street: 700 Mccaleb Rd
+  city: Montgomery
+  state_code: TX
+  postal_code: 77316
+  lat: null
+  lng: null
+  phone: (936) 588-6342
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Montgomery-TX-77316/1039296"
+  vehicles: [rv, boat]
+  storage_types: [enclosed]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  access_hours: "Mon-Sun: 5 am - 11 pm"
+  price_notes: "Spaces tagged RV, boat, and vehicle parking: $269.50 per month (Enclosed Level); $275.00 per month; $346.50 per month (Enclosed Level); $385.00 per month (Enclosed Level)."
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 11 pm."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Montgomery-TX-77316/1039296"
+      title: McCaleb Rd Storage I location page
+  last_verified: "2026-11-20"
+
+- slug: uhaul-1039297
+  name: McCaleb Rd Storage
+  street: 77316 McCaleb Rd Storage 1864 Mccaleb Rd
+  city: Montgomery
+  state_code: TX
+  postal_code: 77316
+  lat: null
+  lng: null
+  phone: (936) 588-6342
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Montgomery-TX-77316/1039297"
+  vehicles: [rv, boat]
+  storage_types: [covered, open]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: null
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  access_hours: "Mon-Sun: 5 am - 11 pm"
+  price_notes: "Spaces tagged RV, boat, and vehicle parking: $125.00 per month (Outside Level); $175.00 per month (Covered Level)."
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 11 pm."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Montgomery-TX-77316/1039297"
+      title: McCaleb Rd Storage location page
+  last_verified: "2026-11-20"
+
+- slug: uhaul-017265
+  name: McCaleb Road Storage II
+  street: 1150 McCaleb Rd Ste 100
+  city: Montgomery
+  state_code: TX
+  postal_code: 77316
+  lat: null
+  lng: null
+  phone: (936) 276-6009
+  website: "https://www.uhaul.com/Locations/Self-Storage-near-Montgomery-TX-77316/017265"
+  vehicles: [rv, boat]
+  storage_types: [enclosed]
+  max_length_ft: null
+  clearance_ft: null
+  power_hookups: true
+  dump_station: null
+  wash_station: null
+  gated: null
+  cameras: null
+  access_24h: false
+  access_hours: "Mon-Sun: 5 am - 11 pm"
+  price_notes: "Spaces tagged RV, boat, and vehicle parking: $245.00 per month (Enclosed Level, Electricity); $250.00 per month (Enclosed Level, Electricity); $285.00 per month (Enclosed Level, Electricity); $286.00 per month (Enclosed Level, Electricity)."
+  billing_term: null
+  waitlist: null
+  notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 5 am - 11 pm."
+  sources:
+    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Montgomery-TX-77316/017265"
+      title: McCaleb Road Storage II location page
+  last_verified: "2026-11-20"

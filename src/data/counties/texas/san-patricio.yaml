@@ -1,0 +1,37 @@
+id: san-patricio
+name: San Patricio County
+state: Texas
+state_code: TX
+summary: >-
+  RV and boat storage in San Patricio County with a street address from each
+  facility page. Towns on this page: Sinton.
+listings:
+  - slug: uhaul-1028590
+    name: Seaside Storage Inc.
+    street: 8109 Highway 77
+    city: Sinton
+    state_code: TX
+    postal_code: 78387
+    lat: null
+    lng: null
+    phone: (361) 364-5183
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Sinton-TX-78387/1028590"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 9 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 9 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Sinton-TX-78387/1028590"
+        title: Seaside Storage Inc. location page
+    last_verified: "2026-11-20"

@@ -1,0 +1,37 @@
+id: fannin
+name: Fannin County
+state: Texas
+state_code: TX
+summary: >-
+  RV and boat storage in Fannin County with a street address from each
+  facility page. Towns on this page: Telephone.
+listings:
+  - slug: uhaul-1039172
+    name: Completely Storage
+    street: 8282 Fm 897
+    city: Telephone
+    state_code: TX
+    postal_code: 75488
+    lat: null
+    lng: null
+    phone: (903) 418-8339
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Telephone-TX-75488/1039172"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: true
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 6 am - 10 pm"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $50.00 per month; $60.00 per month; $89.00 per month (Electricity); $89.00 per month."
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 6 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Telephone-TX-75488/1039172"
+        title: Completely Storage location page
+    last_verified: "2026-11-20"

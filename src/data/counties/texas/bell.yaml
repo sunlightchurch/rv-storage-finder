@@ -1,0 +1,37 @@
+id: bell
+name: Bell County
+state: Texas
+state_code: TX
+summary: >-
+  RV and boat storage in Bell County with a street address from each facility
+  page. Towns on this page: Temple.
+listings:
+  - slug: uhaul-756087
+    name: "U-Haul Moving & Storage of Midway"
+    street: 3914 S General Bruce Dr
+    city: Temple
+    state_code: TX
+    postal_code: 76502
+    lat: null
+    lng: null
+    phone: (254) 727-7216
+    website: "https://www.uhaul.com/Locations/Self-Storage-near-Temple-TX-76502/756087"
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: false
+    access_hours: "Mon-Sun: 5 am - 10 pm"
+    price_notes: null
+    billing_term: null
+    waitlist: null
+    notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 5 am - 10 pm."
+    sources:
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Temple-TX-76502/756087"
+        title: "U-Haul Moving & Storage of Midway location page"
+    last_verified: "2026-11-20"
