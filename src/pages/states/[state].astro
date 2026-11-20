@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import FindMore from '../../components/FindMore.astro';
 import { absolute, cityStats, countiesInState, countyPath, getState, getStates, href } from '../../lib/data';
+import { locationCount } from '../../lib/format';
 import { getPhoto, statePhoto } from '../../lib/photos';
 import Photo from '../../components/Photo.astro';
 import { breadcrumbNode, faqNode, pageGraph, webPageNode } from '../../lib/schema';
@@ -120,7 +121,7 @@ const schema = pageGraph([
                 />
                 <span class="city-name">{city.city}, {city.state_code}</span>
                 <span class="city-meta">
-                  {counts.total} facilities · {counts.covered} list covered space
+                  {locationCount(counts.total)} · {counts.covered} with covered space
                 </span>
               </a>
             </li>

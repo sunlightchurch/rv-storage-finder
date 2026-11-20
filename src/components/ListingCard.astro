@@ -1,7 +1,5 @@
 ---
-import { listingPhoto } from '../lib/photos';
 import { href, type Listing } from '../lib/data';
-import Photo from './Photo.astro';
 import {
   factClass,
   formatBool,
@@ -20,10 +18,6 @@ interface Props {
 }
 
 const { listing } = Astro.props;
-const photo = listingPhoto(listing);
-const photoAlt = listing.photo
-  ? photo.alt
-  : `${photo.alt}. This is a typical photo, not ${listing.name}.`;
 const facts = [
   { label: 'Vehicles', value: formatVehicles(listing.vehicles), kind: 'text' },
   {
@@ -91,12 +85,6 @@ const icons = [
   data-lat={listing.lat ?? undefined}
   data-lng={listing.lng ?? undefined}
 >
-  <Photo
-    photo={photo}
-    alt={photoAlt}
-    sizes="(min-width: 800px) 340px, 100vw"
-    caption={listing.photo ? undefined : 'Typical photo, not this facility.'}
-  />
   <div class="listing-body">
     <header class="listing-head">
       <h3>

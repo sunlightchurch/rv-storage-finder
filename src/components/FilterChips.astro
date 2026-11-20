@@ -69,7 +69,7 @@ const chips = [
           <li>
             <a href={href(page.path)}>
               {page.filter.label}
-              <span class="count">{page.matches.length}</span>
+              <span class="count">{page.matches.length === 1 ? '1 location' : `${page.matches.length} locations`}</span>
             </a>
           </li>
         ))}

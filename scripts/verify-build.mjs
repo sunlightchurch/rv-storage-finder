@@ -200,6 +200,71 @@ if (fs.existsSync(sitemapPath) && fs.existsSync(robotsPath)) {
   if (!locs.some((loc) => loc.endsWith('/guide/'))) fail('Sitemap is missing the guide.');
 }
 
+function checkPlacePhotos() {
+  const dataRoot = path.join(root, 'src/data');
+  const photos = yaml.load(fs.readFileSync(path.join(dataRoot, 'photos.yaml'), 'utf8'));
+  const byId = new Map(photos.map((photo) => [photo.id, photo]));
+  const used = new Map();
+  const fallbacks = [];
+
+  function claim(place, photoId) {
+    if (photoId == null) {
+      fallbacks.push(place);
+      return;
+    }
+    const photo = byId.get(photoId);
+    if (!photo) {
+      fail(`${place} points at missing photo ${photoId}.`);
+      return;
+    }
+    const file = photo.files?.['1280'];
+    if (!file) {
+      fail(`${place} photo ${photoId} has no 1280 image.`);
+      return;
+    }
+    const prior = used.get(file);
+    if (prior) fail(`${place} and ${prior} share ${file}.`);
+    else used.set(file, place);
+  }
+
+  for (const file of fs.readdirSync(path.join(dataRoot, 'cities')).filter((name) => name.endsWith('.yaml'))) {
+    const city = yaml.load(fs.readFileSync(path.join(dataRoot, 'cities', file), 'utf8'));
+    if (!Object.prototype.hasOwnProperty.call(city, 'photo')) fail(`${city.id} has no image record.`);
+    else claim(`${city.city}, ${city.state_code}`, city.photo);
+  }
+  const stateIds = new Set();
+  for (const file of fs.readdirSync(path.join(dataRoot, 'cities')).filter((name) => name.endsWith('.yaml'))) {
+    const city = yaml.load(fs.readFileSync(path.join(dataRoot, 'cities', file), 'utf8'));
+    stateIds.add(city.state);
+  }
+  for (const state of stateIds) {
+    const slug = state.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+    const photo = byId.get(slug);
+    if (!photo || photo.role !== 'state') fail(`${state} has no state image record.`);
+    else claim(state, slug);
+  }
+  const countyRoot = path.join(dataRoot, 'counties');
+  const walkCounties = (dir) => {
+    for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+      const full = path.join(dir, entry.name);
+      if (entry.isDirectory()) walkCounties(full);
+      else if (entry.name.endsWith('.yaml')) {
+        const county = yaml.load(fs.readFileSync(full, 'utf8'));
+        if (!Object.prototype.hasOwnProperty.call(county, 'photo')) fail(`${county.name}, ${county.state_code} has no image record.`);
+        else claim(`${county.name}, ${county.state_code}`, county.photo);
+      }
+    }
+  };
+  if (fs.existsSync(countyRoot)) walkCounties(countyRoot);
+  if (fallbacks.length) {
+    console.log(`Place photos use a name block for ${fallbacks.length} place${fallbacks.length === 1 ? '' : 's'}: ${fallbacks.join('; ')}`);
+  } else {
+    console.log('Every state, city, and county has its own image.');
+  }
+}
+
+checkPlacePhotos();
+
 if (failures.length) {
   console.error(`Verification failed (${failures.length}):`);
   for (const message of failures) console.error(`- ${message}`);

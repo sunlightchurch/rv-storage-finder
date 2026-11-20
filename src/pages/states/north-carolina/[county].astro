@@ -2,6 +2,7 @@
 import Base from '../../../layouts/Base.astro';
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 import CountyBoard from '../../../components/CountyBoard.astro';
+import PlaceHero from '../../../components/PlaceHero.astro';
 import { countyPath, getCounties, getCounty, href, stateSlug } from '../../../lib/data';
 import { breadcrumbNode, faqNode, itemListNode, pageGraph, webPageNode } from '../../../lib/schema';
 
@@ -54,6 +55,7 @@ const groups = towns.map((town) => ({
 <Base title={title} description={description} path={path} schema={schema}>
   <div class="wrap" data-filter-root>
     <Breadcrumbs items={crumbs} />
+    <PlaceHero photo={county.photo} name={county.name} />
     <h1>RV and boat storage in {county.name}, North Carolina</h1>
     <p class="summary">{county.summary}</p>
     <p class="legend">

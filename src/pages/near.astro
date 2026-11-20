@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { href } from '../lib/data';
 import { buildSearchData } from '../lib/places.mjs';
 import { priceLines } from '../lib/prices';
 
@@ -33,6 +34,7 @@ const dataJson = JSON.stringify(searchData).replaceAll('<', '\\u003c');
 ---
 
 <Base title={title} description={description} path={path} noindex={true}>
+  <link slot="head" rel="preload" as="fetch" href={href('/zcta.csv')} crossorigin="anonymous" />
   <article class="wrap prose">
     <Breadcrumbs items={crumbs} />
     <h1 id="near-title">Nearest RV storage</h1>
@@ -44,6 +46,9 @@ const dataJson = JSON.stringify(searchData).replaceAll('<', '\\u003c');
     </p>
   </article>
   <script id="near-data" type="application/json" set:html={dataJson} />
+  <script is:inline define:vars={{ zipUrl: href('/zcta.csv') }}>
+    window.__zctaText = fetch(zipUrl).then((response) => (response.ok ? response.text() : Promise.reject()));
+  </script>
   <script>
     import { formatMiles, runSearch, parseZcta } from '../lib/geo.mjs';
 
@@ -224,13 +229,13 @@ const dataJson = JSON.stringify(searchData).replaceAll('<', '\\u003c');
         lead.textContent = 'Type a ZIP code or a city name, then press Search or the keyboard Go key.';
         return;
       }
-      const response = await fetch(pageHref('zcta.csv'));
-      if (!response.ok) {
+      const csv = await (window.__zctaText || fetch(pageHref('zcta.csv')).then((response) => response.text()));
+      if (!csv) {
         title.textContent = 'Search is unavailable';
         lead.textContent = 'The ZIP center list did not load. Open a state page and pick a city.';
         return;
       }
-      const found = runSearch(query, data, parseZcta(await response.text()));
+      const found = runSearch(query, data, parseZcta(csv));
       if (found.kind === 'city' && found.redirect) {
         window.location.replace(pageHref(found.redirect.path || `cities/${found.redirect.id}/`));
         return;
