@@ -1,18 +1,9 @@
 ---
 import { href, type Listing } from '../lib/data';
-import {
-  factClass,
-  formatBool,
-  formatDate,
-  formatFeet,
-  formatTypes,
-  formatVehicles,
-  mapUrl,
-  telHref,
-} from '../lib/format';
+import Mark from './Mark.astro';
+import { telHref } from '../lib/format';
 import { facilityPhoto } from '../lib/facility-photos';
-import { coverLabel, formatMoney, priceLines, priceLineText, type CoverKind } from '../lib/prices';
-import { feeFields, termLabel } from '../lib/terms';
+import { coverLabel, priceAmount, priceLines, type CoverKind } from '../lib/prices';
 import { vehicleFlags } from '../lib/vehicles.mjs';
 
 interface Props {
@@ -20,46 +11,28 @@ interface Props {
 }
 
 const { listing } = Astro.props;
-const facts = [
-  { label: 'Vehicles', value: formatVehicles(listing.vehicles), kind: 'text' },
-  {
-    label: 'Storage',
-    value: formatTypes(listing.storage_types),
-    kind: listing.storage_types.length ? 'text' : 'unknown',
-  },
-  {
-    label: 'Longest length listed',
-    value: formatFeet(listing.max_length_ft),
-    kind: listing.max_length_ft == null ? 'unknown' : 'text',
-  },
-  {
-    label: 'Tallest clearance listed',
-    value: formatFeet(listing.clearance_ft),
-    kind: listing.clearance_ft == null ? 'unknown' : 'text',
-  },
-  { label: 'Power hookups', value: formatBool(listing.power_hookups), kind: factClass(listing.power_hookups) },
-  { label: 'Dump station', value: formatBool(listing.dump_station), kind: factClass(listing.dump_station) },
-  { label: 'Wash station', value: formatBool(listing.wash_station), kind: factClass(listing.wash_station) },
-  { label: 'Gated', value: formatBool(listing.gated), kind: factClass(listing.gated) },
-  { label: 'Cameras', value: formatBool(listing.cameras), kind: factClass(listing.cameras) },
-  { label: '24-hour access', value: formatBool(listing.access_24h), kind: factClass(listing.access_24h) },
-  ...(listing.access_hours
-    ? [{ label: 'Gate hours', value: listing.access_hours, kind: 'text' }]
-    : []),
-];
 const lines = priceLines(listing);
 const monthlyAmounts = lines.filter((line) => line.unit === 'mo').map((line) => line.amount);
 const monthlyMin = monthlyAmounts.length ? Math.min(...monthlyAmounts) : null;
-const monthlyLabel = monthlyMin != null ? `From ${formatMoney(monthlyMin)}/mo` : 'Price not posted';
 const flags = vehicleFlags(listing);
 const shot = facilityPhoto(listing.slug);
-const claimHref = `${href('/claim/')}?facility=${encodeURIComponent(listing.name)}`;
 const groups = (['open', 'covered', 'enclosed', null] as const)
   .map((cover) => ({
     cover,
     lines: lines.filter((line) => line.cover === cover),
   }))
   .filter((group) => group.lines.length);
+const faceRows = groups
+  .flatMap((group) =>
+    group.lines
+      .filter((line) => line.unit === 'mo')
+      .map((line) => ({
+        label: group.cover ? `${coverLabel[group.cover as CoverKind]} parking` : 'Monthly',
+        amount: priceAmount(line),
+      })),
+  )
+  .slice(0, 2);
+const addressLine = `${listing.street}, ${listing.city}, ${listing.state_code}${listing.postal_code ? ` ${listing.postal_code}` : ''}`;
 const icons = [
   listing.vehicles.includes('rv') ? 'RV' : null,
   listing.vehicles.includes('boat') ? 'Boat' : null,
@@ -92,184 +65,72 @@ const icons = [
   data-lat={listing.lat ?? undefined}
   data-lng={listing.lng ?? undefined}
 >
-  {
-    shot && (
-      <figure class="facility-photo">
+  <div class="card-shot">
+    {
+      shot ? (
         <img
           src={href(`/${shot.files['640']}`)}
           srcset={`${href(`/${shot.files['640']}`)} 640w, ${href(`/${shot.files['1024']}`)} 1024w`}
-          sizes="(min-width: 800px) 640px, 100vw"
+          sizes="(min-width: 1000px) 320px, 100vw"
           width={shot.width}
           height={shot.height}
           alt={`Street-level photo of ${listing.name}`}
           loading="lazy"
           decoding="async"
         />
-        <figcaption>
-          <a href={shot.source_url} rel="noopener noreferrer" target="_blank">
-            Photo: {shot.creator} / Mapillary, CC BY-SA 4.0
-            <span class="sr-only"> (opens in a new tab)</span>
-          </a>
-        </figcaption>
-      </figure>
-    )
-  }
-  <div class:list={['listing-top', shot && 'is-plain']}>
-    {
-      shot ? null : (
-        <div class="no-photo" aria-hidden="true">
+        <a class="shot-credit" href={shot.source_url} rel="noopener noreferrer" target="_blank">
+          Photo: {shot.creator} / Mapillary, CC BY-SA 4.0
+        </a>
+      ) : (
+        <div class="card-empty" aria-hidden="true">
+          <Mark size={40} />
           <span>No photo</span>
         </div>
       )
     }
-    <div>
-      <header class="listing-head">
-      <h3>
-        {listing.name}
-        {listing.featured && <span class="badge">Featured</span>}
-        {listing.waitlist && <span class="badge">Waitlist reported</span>}
-      </h3>
-      <address>
-        {listing.street}<br />
-        {listing.city}, {listing.state_code}{listing.postal_code ? ` ${listing.postal_code}` : ''}
-      </address>
+  </div>
+  <div class="card-face">
+    <p class="distance-note" data-distance-note hidden></p>
+    <h3>
+      {listing.name}
+      {listing.featured && <span class="badge">Featured</span>}
+    </h3>
+    <p class="card-address">{addressLine}</p>
+    {
+      faceRows.length ? (
+        <ul class="price-rows">
+          {faceRows.map((row) => (
+            <li>
+              <span>{row.label}</span>
+              <strong>{row.amount}</strong>
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <p class="price-rows price-missing">Price not posted</p>
+      )
+    }
+    <ul class="icon-row" aria-label="Published features">
+      {icons.length ? icons.map((icon) => <li>{icon}</li>) : <li class="unknown">Features not listed</li>}
+    </ul>
+    <div class="card-actions">
+      <a class="view-details" href={href(`/facilities/${listing.slug}/`)}>View details</a>
+      {listing.phone && <a class="call-link" href={telHref(listing.phone)}>Call {listing.phone}</a>}
       <label class="compare-pick">
         <input type="checkbox" data-compare-pick value={listing.slug} />
         Compare
         <span class="sr-only">{listing.name}</span>
       </label>
-      {listing.featured && <p class="paid-note">Paid placement</p>}
-      </header>
-      <p class="card-price">{monthlyLabel}</p>
-      <p class="distance-note" data-distance-note hidden></p>
+      <p class="fit-note" data-fit-note hidden></p>
     </div>
-  </div>
-  <div class="listing-body">
-    <div class="price">
-      <span class="label">Published price</span>
+    <ul class="sr-only">
       {
-        groups.length ? (
-          <div class="price-groups">
-            {groups.map((group) => (
-              <div class="price-group">
-                <span class="price-cover">
-                  {group.cover ? coverLabel[group.cover as CoverKind] : 'Cover type not stated'}
-                </span>
-                <ul>
-                  {group.lines.map((line) => (
-                    <li>{priceLineText(line, false)}</li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
-        ) : (
-          <p class="price-missing">Price not posted, call for rates</p>
-        )
+        listing.sources.map((source) => (
+          <li>
+            <a href={source.url} rel="noopener noreferrer" target="_blank">{source.title}</a>
+          </li>
+        ))
       }
-      {
-        listing.price_notes && (
-          <details class="price-details">
-            <summary>Price details</summary>
-            <p>{listing.price_notes}</p>
-          </details>
-        )
-      }
-    </div>
-    <p>
-      <span class="label">Terms</span><br />
-      <span class={listing.billing_term ? undefined : 'unknown'}>
-        {termLabel(listing.billing_term)}
-        {listing.billing_detail ? ` ${listing.billing_detail}` : ''}
-      </span>
-    </p>
-    <details class="details">
-      <summary>Published fees</summary>
-      <dl class="facts">
-        {
-          feeFields.map(([key, label]) => (
-            <div>
-              <dt>{label}</dt>
-              <dd class={listing.fees[key] ? undefined : 'unknown'}>{listing.fees[key] ?? 'Not listed'}</dd>
-            </div>
-          ))
-        }
-      </dl>
-    </details>
-    <p class="fit-note" data-fit-note hidden></p>
-    <ul class="icon-row" aria-label="Published features">
-      {icons.length ? icons.map((icon) => <li>{icon}</li>) : <li class="unknown">Features not listed</li>}
     </ul>
-    <div class="actions">
-      {
-        listing.phone ? (
-          <a class="action-primary" href={telHref(listing.phone)}>
-            <svg class="ico" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 4h3l1.5 4-2 1.2a12 12 0 0 0 6.3 6.3L16 13.5 20 15v3a2 2 0 0 1-2 2A16 16 0 0 1 4 6a2 2 0 0 1 2-2z"></path></svg>
-            Call {listing.phone}
-          </a>
-        ) : listing.website ? (
-          <a class="action-primary" href={listing.website} rel="noopener noreferrer" target="_blank">
-            <svg class="ico" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"></circle><path d="M4 12h16M12 4a14 14 0 0 1 0 16M12 4a14 14 0 0 0 0 16"></path></svg>
-            Website<span class="sr-only"> for {listing.name} (opens in a new tab)</span>
-          </a>
-        ) : (
-          <a class="action-primary" href={mapUrl(listing)} rel="noopener noreferrer" target="_blank">
-            <svg class="ico" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11z"></path><circle cx="12" cy="10" r="2"></circle></svg>
-            Directions<span class="sr-only"> for {listing.name} (opens in a new tab)</span>
-          </a>
-        )
-      }
-      {listing.phone && listing.website && (
-        <a class="action-secondary" href={listing.website} rel="noopener noreferrer" target="_blank">
-          <svg class="ico" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"></circle><path d="M4 12h16M12 4a14 14 0 0 1 0 16M12 4a14 14 0 0 0 0 16"></path></svg>
-          Website<span class="sr-only"> for {listing.name} (opens in a new tab)</span>
-        </a>
-      )}
-      {(listing.phone || listing.website) && (
-        <a class="action-secondary" href={mapUrl(listing)} rel="noopener noreferrer" target="_blank">
-          <svg class="ico" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11z"></path><circle cx="12" cy="10" r="2"></circle></svg>
-          Directions<span class="sr-only"> for {listing.name} (opens in a new tab)</span>
-        </a>
-      )}
-    </div>
-    <p class="fine">
-      <a href={claimHref}>Claim this listing</a>
-      {' · '}
-      <a href={href('/advertise/')}>Featured spot, $29</a>
-    </p>
-    <details class="details">
-      <summary>View details</summary>
-      <dl class="facts">
-        {
-          facts.map((fact) => (
-            <div>
-              <dt>{fact.label}</dt>
-              <dd class={fact.kind}>{fact.value}</dd>
-            </div>
-          ))
-        }
-      </dl>
-      <p class="wait">
-        <span class="label">Waitlist</span><br />
-        <span class={listing.waitlist ? undefined : 'unknown'}>{listing.waitlist ?? 'Not listed'}</span>
-      </p>
-      {listing.notes && <p class="note">{listing.notes}</p>}
-      <p class="checked">
-        Checked <time datetime={listing.last_verified}>{formatDate(listing.last_verified)}</time>
-      </p>
-      <p class="source-label">Sources</p>
-      <ul class="sources">
-        {
-          listing.sources.map((source) => (
-            <li>
-              <a href={source.url} rel="noopener noreferrer" target="_blank">
-                {source.title}
-                <span class="sr-only"> (opens in a new tab)</span>
-              </a>
-            </li>
-          ))
-        }
-      </ul>
-    </details>
   </div>
 </article>

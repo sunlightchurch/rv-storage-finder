@@ -1,7 +1,12 @@
 ---
+interface Props {
+  compact?: boolean;
+}
+
+const { compact = false } = Astro.props;
 ---
 
-<div class="result-layout" data-result-layout>
+<div class:list={['result-layout', compact && 'is-compact']} data-result-layout>
   <div class="view-toggle" role="group" aria-label="List or map">
     <button type="button" data-view="list" aria-pressed="true">List</button>
     <button type="button" data-view="map" aria-pressed="false">Map</button>
@@ -13,11 +18,14 @@
     <aside class="map-panel" data-map-panel>
       <div class="map-frame" data-map hidden></div>
       <p class="map-empty" data-map-empty hidden>None of the facilities in this view have a published coordinate or a ZIP.</p>
-      <p class="fine">
-        A pin uses a coordinate the source published. Without one, the pin is the Census center of
-        that facility’s ZIP, and the popup says so. Map data ©
-        <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.
-      </p>
+      <details class="map-note">
+        <summary>About these pins</summary>
+        <p>
+          A pin uses a coordinate the source published. Without one, the pin is the Census center of
+          that facility’s ZIP. Map data ©
+          <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.
+        </p>
+      </details>
       <slot name="points" />
     </aside>
   </div>
@@ -99,7 +107,7 @@
     }
     if (empty) empty.hidden = true;
     const { mountResultMap } = await import('../lib/result-map.mjs');
-    const map = mountResultMap(frame, points, (id: string) => focusCard(layout, id));
+    const map = await mountResultMap(frame, points, (id: string) => focusCard(layout, id));
     (frame as HTMLElement & { _resultMap?: { remove: () => void; invalidateSize: () => void } })._resultMap = map;
     window.requestAnimationFrame(() => map.invalidateSize());
   }
@@ -110,6 +118,18 @@
   }
 
   document.querySelectorAll<HTMLElement>('[data-result-layout]').forEach((layout) => {
+    if (layout.classList.contains('is-compact')) {
+      const panel = layout.querySelector('[data-map-panel]');
+      if (panel && 'IntersectionObserver' in window) {
+        const seen = new IntersectionObserver((entries) => {
+          if (!entries.some((entry) => entry.isIntersecting)) return;
+          seen.disconnect();
+          openMap(layout);
+        });
+        seen.observe(panel);
+      } else openMap(layout);
+      return;
+    }
     layout.querySelectorAll<HTMLButtonElement>('[data-view]').forEach((button) => {
       button.addEventListener('click', () => {
         const mapMode = button.dataset.view === 'map';

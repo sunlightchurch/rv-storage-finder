@@ -423,18 +423,19 @@ export function getCity(id: string): City {
 
 export function getStates(): StateGroup[] {
   const groups = new Map<string, StateGroup>();
-  for (const city of cities) {
-    const slug = stateSlug(city.state);
+  const ensure = (name: string, code: string) => {
+    const slug = stateSlug(name);
     const existing = groups.get(slug);
     if (!existing) {
-      groups.set(slug, { slug, name: city.state, code: city.state_code, cities: [city] });
-      continue;
+      const created: StateGroup = { slug, name, code, cities: [] };
+      groups.set(slug, created);
+      return created;
     }
-    if (existing.code !== city.state_code) {
-      throw new Error(`State code mismatch for ${city.state}.`);
-    }
-    existing.cities.push(city);
-  }
+    if (existing.code !== code) throw new Error(`State code mismatch for ${name}.`);
+    return existing;
+  };
+  for (const city of cities) ensure(city.state, city.state_code).cities.push(city);
+  for (const county of counties) ensure(county.state, county.state_code);
   return [...groups.values()].sort((a, b) => a.name.localeCompare(b.name));
 }
 
@@ -640,6 +641,61 @@ export function partnerUrl(which: 'neighbor' | 'sparefoot', city?: City): string
   return built.toString();
 }
 
+export interface FacilityRecord {
+  listing: Listing;
+  placeName: string;
+  placeCode: string;
+  placePath: string;
+  stateName: string;
+  statePath: string;
+  nearby: Listing[];
+}
+
+let facilityCache: FacilityRecord[] | null = null;
+
+export function facilityPath(slug: string): string {
+  return `/facilities/${slug}/`;
+}
+
+export function getFacilities(): FacilityRecord[] {
+  if (facilityCache) return facilityCache;
+  const records: FacilityRecord[] = [];
+  const add = (
+    listings: Listing[],
+    placeName: string,
+    placeCode: string,
+    placePath: string,
+    stateName: string,
+    statePath: string,
+  ) => {
+    const nearbyFor = (slug: string) =>
+      listings
+        .filter((item) => item.slug !== slug)
+        .slice()
+        .sort((a, b) => Number(b.featured) - Number(a.featured) || a.name.localeCompare(b.name))
+        .slice(0, 4);
+    for (const listing of listings) {
+      records.push({
+        listing,
+        placeName,
+        placeCode,
+        placePath,
+        stateName,
+        statePath,
+        nearby: nearbyFor(listing.slug),
+      });
+    }
+  };
+  for (const city of cities) {
+    add(city.listings, city.city, city.state_code, `/cities/${city.id}/`, city.state, `/states/${stateSlug(city.state)}/`);
+  }
+  for (const county of counties) {
+    add(county.listings, county.name, county.state_code, countyPath(county), county.state, `/states/${stateSlug(county.state)}/`);
+  }
+  facilityCache = records;
+  return records;
+}
+
 export function allPublicPaths(): { path: string; lastmod: string }[] {
   const latest = directoryStats().latest;
   const maxDate = (dates: string[]) => dates.slice().sort().at(-1) ?? latest;
@@ -726,6 +782,12 @@ export function allPublicPaths(): { path: string; lastmod: string }[] {
     paths.push({
       path: page.path,
       lastmod: maxDate(page.matches.map((listing) => listing.last_verified)),
+    });
+  }
+  for (const facility of getFacilities()) {
+    paths.push({
+      path: facilityPath(facility.listing.slug),
+      lastmod: facility.listing.last_verified,
     });
   }
   for (const page of getFilterPages()) {

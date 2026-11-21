@@ -1,12 +1,39 @@
 ---
 import ListingCard from './ListingCard.astro';
+import ResultMap from './ResultMap.astro';
 import type { Listing } from '../lib/data';
+import { parsePriceNote } from '../lib/prices';
+import { normalizeZip, zipCentroids } from '../lib/zips';
 
 interface Props {
   listings: Listing[];
 }
 
 const { listings } = Astro.props;
+const centroids = zipCentroids();
+const mapPoints = listings.flatMap((listing) => {
+  let lat = listing.lat;
+  let lng = listing.lng;
+  let approx: 'exact' | 'zip' = 'exact';
+  if (lat == null || lng == null) {
+    const zip = normalizeZip(listing.postal_code);
+    const centroid = zip ? centroids[zip] : undefined;
+    if (!centroid) return [];
+    lat = centroid.lat;
+    lng = centroid.lng;
+    approx = 'zip';
+  }
+  const monthly = parsePriceNote(listing.price_notes).monthly;
+  return [{
+    id: listing.slug,
+    name: listing.name,
+    lat,
+    lng,
+    price: monthly.length ? Math.min(...monthly) : null,
+    approx,
+  }];
+});
+const mapJson = JSON.stringify(mapPoints).replaceAll('<', '\\u003c');
 const chips = [
   { key: 'covered', label: 'Covered' },
   { key: 'enclosed', label: 'Enclosed' },
@@ -66,6 +93,9 @@ const chips = [
 </details>
 <p class="sr-only" data-sort-status></p>
 <p class="legend" data-filter-empty hidden>No facilities match that filter.</p>
-<div data-listing-list>
-  {listings.map((listing) => <ListingCard listing={listing} />)}
-</div>
+<ResultMap>
+  <div data-listing-list>
+    {listings.map((listing) => <ListingCard listing={listing} />)}
+  </div>
+  <script slot="points" id="map-points" type="application/json" set:html={mapJson} />
+</ResultMap>
