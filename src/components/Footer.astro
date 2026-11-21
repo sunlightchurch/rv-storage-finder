@@ -1,5 +1,6 @@
 ---
 import { checkedLabel, getStates, href, site } from '../lib/data';
+import Mark from './Mark.astro';
 
 const states = getStates();
 const cities = [
@@ -39,7 +40,10 @@ const cities = [
   </div>
   <div class="wrap footer-grid">
     <div>
-      <p class="brand-name">{site.name}</p>
+      <a class="brand" href={href('/')}>
+        <Mark size={32} />
+        <span class="brand-name">{site.name}</span>
+      </a>
       <p>{checkedLabel()} A price appears only when the facility printed it.</p>
     </div>
     <nav aria-label="Storage types">

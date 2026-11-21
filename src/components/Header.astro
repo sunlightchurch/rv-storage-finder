@@ -1,5 +1,6 @@
 ---
 import { getStates, href, searchIndex, site } from '../lib/data';
+import Mark from './Mark.astro';
 
 const pathname = Astro.url.pathname;
 const index = searchIndex();
@@ -34,12 +35,7 @@ const majors = majorIds.flatMap((id) => {
 <header class="site-header">
   <div class="wrap bar">
     <a class="brand" href={href('/')}>
-      <svg class="mark" width="36" height="36" viewBox="0 0 32 32" aria-hidden="true">
-        <rect width="32" height="32" rx="8" fill="#1c1712"></rect>
-        <path d="M7 17.2c4.4-5.6 13.6-5.6 18 0" fill="none" stroke="#e4c48a" stroke-width="1.6" stroke-linecap="round"></path>
-        <path d="M8.2 17.2h15.6" fill="none" stroke="#f6f1e7" stroke-width="1.35" stroke-linecap="round"></path>
-        <path d="M11.2 17.2c1.5 2.8 2.1 4 4.8 4s3.3-1.2 4.8-4" fill="none" stroke="#e4c48a" stroke-width="1.35" stroke-linecap="round"></path>
-      </svg>
+      <Mark size={32} />
       <span class="brand-name">{site.name}</span>
     </a>
     <div class="header-actions">
