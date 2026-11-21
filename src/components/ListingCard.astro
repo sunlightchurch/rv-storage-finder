@@ -10,7 +10,7 @@ import {
   mapUrl,
   telHref,
 } from '../lib/format';
-import { getPhoto } from '../lib/photos';
+import { facilityPhoto } from '../lib/facility-photos';
 import { coverLabel, formatMoney, priceLines, priceLineText, type CoverKind } from '../lib/prices';
 import { feeFields, termLabel } from '../lib/terms';
 import { vehicleFlags } from '../lib/vehicles.mjs';
@@ -52,7 +52,7 @@ const monthlyAmounts = lines.filter((line) => line.unit === 'mo').map((line) => 
 const monthlyMin = monthlyAmounts.length ? Math.min(...monthlyAmounts) : null;
 const monthlyLabel = monthlyMin != null ? `From ${formatMoney(monthlyMin)}/mo` : 'Price not posted';
 const flags = vehicleFlags(listing);
-const image = listing.photo ? getPhoto(listing.photo) : null;
+const shot = facilityPhoto(listing.slug);
 const claimHref = `${href('/claim/')}?facility=${encodeURIComponent(listing.name)}`;
 const groups = (['open', 'covered', 'enclosed', null] as const)
   .map((cover) => ({
@@ -92,29 +92,31 @@ const icons = [
   data-lat={listing.lat ?? undefined}
   data-lng={listing.lng ?? undefined}
 >
-  <div class="listing-top">
+  {
+    shot && (
+      <figure class="facility-photo">
+        <img
+          src={href(`/${shot.files['640']}`)}
+          srcset={`${href(`/${shot.files['640']}`)} 640w, ${href(`/${shot.files['1024']}`)} 1024w`}
+          sizes="(min-width: 800px) 640px, 100vw"
+          width={shot.width}
+          height={shot.height}
+          alt={`Street-level photo of ${listing.name}`}
+          loading="lazy"
+          decoding="async"
+        />
+        <figcaption>
+          <a href={shot.source_url} rel="noopener noreferrer" target="_blank">
+            Photo: {shot.creator} / Mapillary, CC BY-SA 4.0
+            <span class="sr-only"> (opens in a new tab)</span>
+          </a>
+        </figcaption>
+      </figure>
+    )
+  }
+  <div class:list={['listing-top', shot && 'is-plain']}>
     {
-      image ? (
-        <figure class="listing-photo">
-          <img
-            src={href(`/${image.files['640']}`)}
-            srcset={`${href(`/${image.files['640']}`)} 640w, ${href(`/${image.files['960']}`)} 960w`}
-            sizes="96px"
-            width={image.width}
-            height={image.height}
-            alt={image.alt}
-            loading="lazy"
-            decoding="async"
-          />
-          {
-            image.credit_required && (
-              <figcaption>
-                <a href={image.source_url}>{image.author}</a>
-              </figcaption>
-            )
-          }
-        </figure>
-      ) : (
+      shot ? null : (
         <div class="no-photo" aria-hidden="true">
           <span>No photo</span>
         </div>

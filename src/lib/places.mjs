@@ -4,6 +4,14 @@ import yaml from 'js-yaml';
 import { meanPoint, parseZcta } from './geo.mjs';
 import { vehicleFlags } from './vehicles.mjs';
 
+function loadFacilityPhotos() {
+  const file = path.join(process.cwd(), 'src/data/facility-photos.json');
+  if (!fs.existsSync(file)) return {};
+  return JSON.parse(fs.readFileSync(file, 'utf8'));
+}
+
+const facilityPhotos = loadFacilityPhotos();
+
 function normalizeZip(value) {
   if (value == null) return null;
   const digits = String(value).replace(/\D/g, '');
@@ -61,6 +69,7 @@ function addPlace(cities, facilities, place, zcta) {
       vehicles: listing.vehicles || [],
       price_notes: listing.price_notes || null,
       ...vehicleFlags(listing),
+      ...(facilityPhotos[listing.slug] ? { photo: facilityPhotos[listing.slug] } : {}),
     });
   }
 }

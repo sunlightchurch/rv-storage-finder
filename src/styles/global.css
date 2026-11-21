@@ -1954,6 +1954,50 @@ body.sheet-open {
   align-items: start;
 }
 
+.listing-top.is-plain {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.facility-photo {
+  margin: 0 0 0.75rem;
+}
+
+.facility-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 12rem;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 12px;
+  background: var(--stamp);
+}
+
+.facility-photo figcaption,
+.facility-thumb a {
+  margin-top: 0.35rem;
+  font-size: 0.78rem;
+  line-height: 1.35;
+  color: var(--muted);
+}
+
+.facility-thumb {
+  margin: 0;
+}
+
+.facility-thumb img {
+  display: block;
+  width: 4.75rem;
+  height: 4.75rem;
+  object-fit: cover;
+  border-radius: 12px;
+  background: var(--stamp);
+}
+
+.facility-thumb a {
+  display: block;
+}
+
 .listing-photo,
 .no-photo {
   margin: 0;
