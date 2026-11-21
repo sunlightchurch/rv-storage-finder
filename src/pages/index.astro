@@ -60,6 +60,31 @@ const featured = focusSlugs.flatMap((slug) => {
   }];
 });
 const boatTotal = featured.reduce((sum, row) => sum + row.boats, 0);
+const featuredCityIds = [
+  'tampa-fl',
+  'orlando-fl',
+  'miami-fl',
+  'jacksonville-fl',
+  'phoenix-az',
+  'tucson-az',
+  'houston-tx',
+  'dallas-fort-worth-tx',
+  'austin-tx',
+  'san-antonio-tx',
+  'atlanta-ga',
+  'las-vegas-nv',
+  'charlotte-nc',
+  'raleigh-nc',
+];
+const featuredCities = featuredCityIds.flatMap((id) => {
+  const city = cities.find((item) => item.id === id);
+  if (!city) return [];
+  return [{
+    city,
+    rv: city.listings.some((listing) => listing.vehicles.includes('rv')),
+    boat: city.listings.some((listing) => listing.vehicles.includes('boat')),
+  }];
+});
 const title = 'RV and boat storage by city | RV Storage Prices';
 const description =
   'Search sourced RV and boat storage by city or ZIP. Cover type, power, and monthly prices appear only when a facility publishes them.';
@@ -106,123 +131,75 @@ const schema = pageGraph([
 ---
 
 <Base title={title} description={description} path={path} schema={schema}>
-  <link
-    slot="head"
-    rel="preload"
-    as="image"
-    href={href(`/${hero.files['1280']}`)}
-    imagesrcset={`${href(`/${hero.files['640']}`)} 640w, ${href(`/${hero.files['960']}`)} 960w, ${href(`/${hero.files['1280']}`)} 1280w`}
-    imagesizes="100vw"
-    fetchpriority="high"
-  />
-  <section class="hero-bleed">
-    <div class="hero-media">
-      <img
-        class="hero-still"
-        src={href(`/${hero.files['1280']}`)}
-        srcset={`${href(`/${hero.files['640']}`)} 640w, ${href(`/${hero.files['960']}`)} 960w, ${href(`/${hero.files['1280']}`)} 1280w`}
-        sizes="100vw"
-        width={hero.width}
-        height={hero.height}
-        alt={hero.alt}
-        decoding="async"
-        fetchpriority="high"
-      />
-      <video class="hero-video" muted autoplay playsinline loop preload="none" poster={href(`/${hero.files['1280']}`)}></video>
-    </div>
-    <div class="hero-shade" aria-hidden="true"></div>
-    <div class="wrap hero-stage">
-      <div class="hero-copy">
-        <p class="eyebrow">RV and boat storage</p>
-        <h1>RV &amp; boat storage, priced in the open.</h1>
-        <p class="lede">Every price is copied from the facility’s own page.</p>
-        <CitySearch
-          showPicker
-          cities={[
-            'houston-tx',
-            'dallas-fort-worth-tx',
-            'tampa-fl',
-            'orlando-fl',
-            'phoenix-az',
-            'atlanta-ga',
-            'las-vegas-nv',
-            'charlotte-nc',
-          ].flatMap((id) => {
-            const city = cities.find((item) => item.id === id);
-            return city ? [{ id: city.id, city: city.city, state_code: city.state_code }] : [];
-          })}
+  <section class="find-hero">
+    <div class="wrap">
+      <p class="eyebrow">RV and boat storage</p>
+      <h1>RV &amp; boat storage, priced in the open.</h1>
+      <p class="lede">Every price is copied from the facility’s own page.</p>
+      <form class="find-bar home-search" role="search" action={href('/near/')} method="get">
+        <label class="sr-only" for="home-q">City, ZIP or state</label>
+        <input
+          id="home-q"
+          name="q"
+          data-city-search
+          type="search"
+          role="combobox"
+          placeholder="City, ZIP or state"
+          autocomplete="off"
+          aria-autocomplete="list"
+          aria-controls="home-q-results"
+          aria-expanded="false"
+          required
         />
-        <p class="hero-trust">
-          {stats.facilities.toLocaleString('en-US')} facilities · {stats.states} states · prices from facility pages
-        </p>
-        <p class="hero-credit">
-          Video: <a href={hero.source_url}>{hero.author}</a>, <a href={hero.license_url}>{hero.license}</a>.
-          A still image plays instead when motion is reduced or the connection is slow.
-        </p>
-      </div>
-      <aside class="hero-stack" aria-label="Cities with the most published prices">
-        <ul>
-          {
-            spotlight.map(({ city, amounts }) => (
-              <li>
-                <a class="hero-float" href={href(`/cities/${city.id}/`)}>
-                  <CardPhoto photo={getPhoto(city.photo)} sizes="88px" />
-                  <span>
-                    <span class="city-name">{city.city}, {city.state_code}</span>
-                    <span class="city-meta">From {formatMoney(medianOf(amounts))}/mo median</span>
-                  </span>
-                </a>
-              </li>
-            ))
-          }
-        </ul>
-      </aside>
+        <label class="sr-only" for="home-type">What are you storing</label>
+        <select id="home-type" name="type">
+          <option value="">Any storage</option>
+          <option value="rv">RV storage</option>
+          <option value="boat">Boat storage</option>
+          <option value="trailer">Trailer storage</option>
+          <option value="covered">Covered</option>
+          <option value="enclosed">Enclosed</option>
+          <option value="indoor">Indoor</option>
+        </select>
+        <button type="submit">Find storage</button>
+        <ul id="home-q-results" class="search-results" role="listbox" hidden></ul>
+      </form>
+      <p class="find-trust">
+        {stats.facilities.toLocaleString('en-US')} facilities · {stats.states} states · prices from facility pages
+      </p>
     </div>
   </section>
-  <script define:vars={{ videoSrc: href('/video/hero-marina.mp4') }}>
-    const video = document.querySelector('.hero-video');
-    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    const narrow = window.matchMedia('(max-width: 899px)').matches;
-    const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
-    const slow = Boolean(connection && (connection.saveData || /2g/.test(connection.effectiveType || '')));
-    const startVideo = () => {
-      if (!video || reduce || narrow || slow || video.getAttribute('src')) return;
-      video.addEventListener('playing', () => video.classList.add('is-playing'), { once: true });
-      video.src = videoSrc;
-      video.play().catch(() => {});
-    };
-    if (!reduce && !narrow && !slow) {
-      window.addEventListener('load', () => {
-        const begin = () => window.setTimeout(startVideo, 250);
-        if ('requestIdleCallback' in window) window.requestIdleCallback(begin, { timeout: 1200 });
-        else begin();
-      });
-    }
-  </script>
   <div class="wrap">
-    <section class="feature-band">
-      <div class="band-copy">
-        <p class="eyebrow">The directory</p>
-        <h2>Six states, with a source on every card</h2>
-        <p>
-          Open a state, then a city. A median is the middle of the lowest monthly price each facility
-          printed. A lot with no monthly price is left out of that figure.
-        </p>
-      </div>
-      <ul class="card-grid feature-grid">
+    <section class="how">
+      <h2>How it works</h2>
+      <ol class="how-steps">
+        <li>
+          <span class="step-no">1</span>
+          <strong>Search a place</strong>
+          <span>A city, a ZIP, or a state. The list is the facilities we have sourced.</span>
+        </li>
+        <li>
+          <span class="step-no">2</span>
+          <strong>Compare what they printed</strong>
+          <span>Price, cover, and length stay blank when the facility page did not say them.</span>
+        </li>
+        <li>
+          <span class="step-no">3</span>
+          <strong>Call the facility</strong>
+          <span>The card is a copy of a public page. The lot confirms whether a space is open.</span>
+        </li>
+      </ol>
+    </section>
+    <section class="featured-cities">
+      <h2>Featured cities</h2>
+      <p class="lede">RV storage and boat storage, only where a facility lists that vehicle.</p>
+      <ul>
         {
-          featured.map(({ state, listings, median, photo }) => (
+          featuredCities.map(({ city, rv, boat }) => (
             <li>
-              <a class="city-card" href={href(`/states/${state.slug}/`)}>
-                <CardPhoto photo={photo} sizes="(min-width: 1100px) 360px, (min-width: 700px) 46vw, 100vw" />
-                <span class="city-card-body">
-                  <span class="city-name">{state.name}</span>
-                  <span class="city-meta">{locationCount(listings)}</span>
-                  <span class="city-meta">
-                    {median != null ? `From ${formatMoney(median)}/mo median` : 'No monthly price'}
-                  </span>
-                </span>
-              </a>
+              <a class="featured-name" href={href(`/cities/${city.id}/`)}>{city.city}, {city.state_code}</a>
+              {rv && <a href={`${href(`/cities/${city.id}/`)}?type=rv`}>RV storage</a>}
+              {boat && <a href={`${href(`/cities/${city.id}/`)}?type=boat`}>Boat storage</a>}
             </li>
           ))
         }
@@ -260,23 +237,6 @@ const schema = pageGraph([
       </p>
       <p><a href={href('/boat-storage/')}>Boat storage by state</a></p>
     </aside>
-    <section class="how">
-      <h2>How to use this directory</h2>
-      <ol class="how-steps">
-        <li>
-          <strong>Search a city or ZIP</strong>
-          <span>A city opens its facilities. A ZIP lists the nearest lots, with miles.</span>
-        </li>
-        <li>
-          <strong>Sort by the price they printed</strong>
-          <span>Low to high or high to low. A lot with no monthly price stays at the end.</span>
-        </li>
-        <li>
-          <strong>Call the facility</strong>
-          <span>The card is a copy of a public page. The lot confirms whether a space is open.</span>
-        </li>
-      </ol>
-    </section>
     {
       popular.length > 0 && (
         <section>

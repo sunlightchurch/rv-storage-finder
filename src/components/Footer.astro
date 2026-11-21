@@ -1,76 +1,76 @@
 ---
-import { checkedLabel, correctionMailto, getStates, href, partnerUrl, site } from '../lib/data';
+import { checkedLabel, getStates, href, site } from '../lib/data';
+
 const states = getStates();
+const cities = [
+  ['Houston', 'houston-tx'],
+  ['Dallas-Fort Worth', 'dallas-fort-worth-tx'],
+  ['Austin', 'austin-tx'],
+  ['San Antonio', 'san-antonio-tx'],
+  ['Tampa', 'tampa-fl'],
+  ['Orlando', 'orlando-fl'],
+  ['Miami', 'miami-fl'],
+  ['Phoenix', 'phoenix-az'],
+  ['Atlanta', 'atlanta-ga'],
+  ['Las Vegas', 'las-vegas-nv'],
+  ['Charlotte', 'charlotte-nc'],
+  ['Raleigh', 'raleigh-nc'],
+] as const;
 ---
 
 <footer class="site-footer">
-  <div class="wrap footer-grid">
-    <div>
-      <p class="brand-name">{site.name}</p>
-      <p>{checkedLabel()} Unknown facts stay marked “Not listed”.</p>
-      <nav aria-label="Sitemap">
-        <p class="footer-label">Find a page</p>
-        <ul>
-          <li><a href={href('/')}>Home</a></li>
-          <li><a href={href('/states/')}>States and cities</a></li>
-          <li><a href={href('/storage/')}>Storage types</a></li>
-          <li><a href={href('/costs/')}>Prices</a></li>
-          <li><a href={href('/guides/')}>Guides</a></li>
-          <li><a href={href('/boat-storage/')}>Boat storage</a></li>
-          <li><a href={href('/guide/')}>Cost guide</a></li>
-        </ul>
-      </nav>
-    </div>
+  <div class="wrap footer-top">
+    <nav aria-label="Top cities">
+      <p class="footer-label">Top cities</p>
+      <ul class="footer-cities">
+        {cities.map(([label, id]) => (
+          <li><a href={href(`/cities/${id}/`)}>{label}</a></li>
+        ))}
+      </ul>
+    </nav>
     <nav aria-label="States">
       <p class="footer-label">States</p>
-      <ul>
-        {
-          states.map((state) => (
-            <li>
-              <a href={href(`/states/${state.slug}/`)}>
-                {state.name} ({state.cities.length})
-              </a>
-            </li>
-          ))
-        }
-      </ul>
-    </nav>
-    <nav aria-label="About this directory">
-      <p class="footer-label">About</p>
-      <ul>
-        <li><a href={href('/guides/')}>Guides</a></li>
-        <li><a href={href('/guide/')}>What storage costs</a></li>
-        <li><a href={href('/checklists/seasonal/')}>Seasonal storage checklist</a></li>
-        <li><a href={href('/checklists/security/')}>Security checklist</a></li>
-        <li><a href={href('/insurance/')}>Insurance while stored</a></li>
-        <li><a href={href('/rules/')}>HOA rules at home</a></li>
-        <li><a href={href('/about/')}>About</a></li>
-        <li><a href={href('/contact/')}>Contact</a></li>
-        <li><a href={href('/claim/')}>Claim a listing</a></li>
-        <li><a href={href('/privacy/')}>Privacy</a></li>
-        <li><a href={href('/terms/')}>Terms</a></li>
-        <li><a href={href('/disclosure/')}>Disclosure</a></li>
-        <li><a href={href('/advertise/')}>Own a storage facility? Get featured</a></li>
-        <li><a href={href('/credits/')}>Photo credits</a></li>
-        <li><a href={correctionMailto()}>Report a correction</a></li>
-        <li>
-          <a href={site.repo} rel="noopener noreferrer">GitHub repository<span class="sr-only"> (opens in a new tab)</span></a>
-        </li>
-      </ul>
-    </nav>
-    <nav aria-label="Storage marketplaces">
-      <p class="footer-label">Commercial links</p>
-      <ul>
-        <li>
-          <a href={partnerUrl('neighbor')} rel="sponsored nofollow noopener noreferrer">Neighbor<span class="sr-only"> (opens in a new tab)</span></a>
-        </li>
-        <li>
-          <a href={partnerUrl('sparefoot')} rel="sponsored nofollow noopener noreferrer">SpareFoot<span class="sr-only"> (opens in a new tab)</span></a>
-        </li>
+      <ul class="state-pills">
+        {states.map((state) => (
+          <li><a href={href(`/states/${state.slug}/`)}>{state.code}</a></li>
+        ))}
       </ul>
     </nav>
   </div>
-  <p class="legal">
-    Facility links are public sources. Neighbor and SpareFoot links are commercial and are marked sponsored.
-  </p>
+  <div class="wrap footer-grid">
+    <div>
+      <p class="brand-name">{site.name}</p>
+      <p>{checkedLabel()} A price appears only when the facility printed it.</p>
+    </div>
+    <nav aria-label="Storage types">
+      <p class="footer-label">Storage types</p>
+      <ul>
+        <li><a href={href('/storage/')}>All types</a></li>
+        <li><a href={href('/boat-storage/')}>Boat storage</a></li>
+        <li><a href={href('/guides/covered-vs-uncovered-vs-indoor/')}>Covered and indoor</a></li>
+        <li><a href={href('/costs/')}>Published prices</a></li>
+      </ul>
+    </nav>
+    <nav aria-label="Resources">
+      <p class="footer-label">Resources</p>
+      <ul>
+        <li><a href={href('/guides/')}>Guides</a></li>
+        <li><a href={href('/guide/')}>What storage costs</a></li>
+        <li><a href={href('/insurance/')}>Insurance</a></li>
+        <li><a href={href('/rules/')}>HOA rules</a></li>
+        <li><a href={href('/credits/')}>Photo credits</a></li>
+      </ul>
+    </nav>
+    <nav aria-label="Contact">
+      <p class="footer-label">Contact</p>
+      <ul>
+        <li><a href={href('/contact/')}>Contact</a></li>
+        <li><a href={href('/claim/')}>Claim a listing</a></li>
+        <li><a href={href('/advertise/')}>Featured spot</a></li>
+        <li><a href={href('/about/')}>About</a></li>
+        <li><a href={href('/privacy/')}>Privacy</a></li>
+      </ul>
+    </nav>
+  </div>
+  <p class="legal">Prices are copied from facility pages. Neighbor and SpareFoot links, where shown, are commercial.</p>
 </footer>

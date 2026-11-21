@@ -55,6 +55,8 @@ export function mountResultMap(frame, points, onSelect) {
     if (group.length === 1) marker.on('click', () => onSelect(first.id));
     marker.setZIndexOffset(label ? 200 : 0);
     marker.addTo(map);
+    const pin = marker.getElement();
+    if (pin) pin.dataset.pins = group.map((point) => point.id).join(' ');
     bounds.push([first.lat, first.lng]);
   }
 

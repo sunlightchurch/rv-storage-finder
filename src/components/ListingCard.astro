@@ -140,8 +140,13 @@ const icons = [
       </label>
       {listing.featured && <p class="paid-note">Paid placement</p>}
       </header>
-      <p class="card-price">{monthlyLabel}</p>
       <p class="distance-note" data-distance-note hidden></p>
+      <p class="card-price">{monthlyLabel}</p>
+      {
+        listing.max_length_ft != null && (
+          <p class="size-row">Up to {listing.max_length_ft} ft listed</p>
+        )
+      }
     </div>
   </div>
   <div class="listing-body">
@@ -238,7 +243,7 @@ const icons = [
       <a href={href('/advertise/')}>Featured spot, $29</a>
     </p>
     <details class="details">
-      <summary>View details</summary>
+      <summary class="view-details">View details</summary>
       <dl class="facts">
         {
           facts.map((fact) => (

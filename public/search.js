@@ -22,10 +22,34 @@
   }
 
   function isVehicle(value) {
-    return ['rv', 'boat', 'trailer', 'car'].includes(value);
+    return ['rv', 'boat', 'trailer', 'car', 'covered', 'enclosed', 'indoor', 'open'].includes(value);
+  }
+
+  function filterKey(type) {
+    return type === 'indoor' ? 'enclosed' : type;
+  }
+
+  const states = [
+    { name: 'Florida', code: 'FL', slug: 'florida' },
+    { name: 'Arizona', code: 'AZ', slug: 'arizona' },
+    { name: 'Texas', code: 'TX', slug: 'texas' },
+    { name: 'Georgia', code: 'GA', slug: 'georgia' },
+    { name: 'Nevada', code: 'NV', slug: 'nevada' },
+    { name: 'North Carolina', code: 'NC', slug: 'north-carolina' },
+    { name: 'California', code: 'CA', slug: 'california' },
+    { name: 'South Carolina', code: 'SC', slug: 'south-carolina' },
+    { name: 'Tennessee', code: 'TN', slug: 'tennessee' },
+  ];
+
+  function bestState(query) {
+    const q = normPlace(query);
+    if (!q) return null;
+    return states.find((state) => normPlace(state.name) === q || state.code.toLowerCase() === q || state.slug === q) || null;
   }
 
   function currentType(form) {
+    const select = form && form.querySelector('select[name="type"]');
+    if (select && select.value && isVehicle(select.value)) return select.value;
     const checked = form && form.querySelector('input[name="type"]:checked');
     if (checked && checked.value) return checked.value;
     const hidden = form && form.querySelector('input[type="hidden"][name="type"]');
@@ -90,7 +114,18 @@
       }
       list.hidden = false;
       input.setAttribute('aria-expanded', 'true');
-      if (!found.length) {
+      const stateHit = bestState(input.value);
+      if (stateHit) {
+        const item = document.createElement('li');
+        const link = document.createElement('a');
+        link.href = pageHref(`states/${stateHit.slug}/`);
+        link.id = `${input.id}-opt-state`;
+        link.setAttribute('role', 'option');
+        link.textContent = `${stateHit.name} — state`;
+        item.append(link);
+        list.append(item);
+      }
+      if (!found.length && !stateHit) {
         const empty = document.createElement('li');
         empty.className = 'search-empty';
         empty.textContent = 'No listed city has that name. Press Search for nearest facilities.';
@@ -139,6 +174,12 @@
         if (active) {
           event.preventDefault();
           window.location.href = withType(active.href, type);
+          return;
+        }
+        const stateHit = bestState(input.value);
+        if (stateHit) {
+          event.preventDefault();
+          window.location.href = pageHref(`states/${stateHit.slug}/`);
           return;
         }
         const city = bestCity(input.value);
@@ -299,7 +340,8 @@
       const keys = [...bar.querySelectorAll('[data-filter]')]
         .filter((button) => button.getAttribute('data-filter') !== 'all' && button.getAttribute('aria-pressed') === 'true')
         .map((button) => button.getAttribute('data-filter'));
-      if (urlType && !keys.includes(urlType)) keys.push(urlType);
+      const typed = urlType ? filterKey(urlType) : '';
+      if (typed && !keys.includes(typed)) keys.push(typed);
       const minLength = Number(lengthInput && lengthInput.value);
       const useLength = Number.isFinite(minLength) && minLength > 0;
       const mode = sortValue();
@@ -341,8 +383,9 @@
       });
       if (empty) empty.hidden = shown !== 0;
       if (count) {
-        const noun = shown === 1 ? 'location' : 'locations';
-        let text = `${shown} of ${total} ${noun}`;
+        const noun = shown === 1 ? 'facility' : 'facilities';
+        const span = shown ? `1–${shown}` : '0';
+        let text = `${span} of ${total} ${noun}`;
         if (useLength && unknownLength) {
           text += `. ${unknownLength} ${unknownLength === 1 ? 'has' : 'have'} no published length, so ${unknownLength === 1 ? 'it is' : 'they are'} not ruled out`;
         }
@@ -470,6 +513,59 @@
   window.refreshListingFilters = () => {
     refreshers.forEach((apply) => apply());
   };
+
+  function closeMenus(except) {
+    document.querySelectorAll('[data-menu]').forEach((menu) => {
+      if (menu === except) return;
+      const button = menu.querySelector('[aria-expanded]');
+      const panel = menu.querySelector('[data-menu-panel]');
+      if (button) button.setAttribute('aria-expanded', 'false');
+      if (panel) panel.hidden = true;
+    });
+  }
+
+  document.querySelectorAll('[data-menu]').forEach((menu) => {
+    const button = menu.querySelector('[aria-expanded]');
+    const panel = menu.querySelector('[data-menu-panel]');
+    if (!button || !panel) return;
+    button.addEventListener('click', () => {
+      const open = button.getAttribute('aria-expanded') === 'true';
+      closeMenus(menu);
+      button.setAttribute('aria-expanded', open ? 'false' : 'true');
+      panel.hidden = open;
+    });
+    button.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') closeMenus();
+      if (event.key === 'ArrowDown') {
+        event.preventDefault();
+        button.setAttribute('aria-expanded', 'true');
+        panel.hidden = false;
+        panel.querySelector('a')?.focus();
+      }
+    });
+  });
+  document.addEventListener('click', (event) => {
+    if (event.target instanceof Element && event.target.closest('[data-menu]')) return;
+    closeMenus();
+  });
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') closeMenus();
+  });
+
+  function markPins(id) {
+    document.querySelectorAll('[data-pins]').forEach((pin) => {
+      const ids = (pin.getAttribute('data-pins') || '').split(' ');
+      pin.classList.toggle('is-hot', Boolean(id) && ids.includes(id));
+    });
+  }
+  document.addEventListener('mouseover', (event) => {
+    const card = event.target instanceof Element ? event.target.closest('[data-listing]') : null;
+    markPins(card ? card.id : '');
+  });
+  document.addEventListener('focusin', (event) => {
+    const card = event.target instanceof Element ? event.target.closest('[data-listing]') : null;
+    if (card) markPins(card.id);
+  });
 
   if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window) {
     const seen = new IntersectionObserver((entries) => {
