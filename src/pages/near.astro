@@ -110,6 +110,13 @@ const dataJson = JSON.stringify(searchData).replaceAll('<', '\\u003c');
       rv?: boolean;
       trailer?: boolean;
       car?: boolean;
+      photo?: {
+        creator: string;
+        source_url: string;
+        width: number;
+        height: number;
+        files: { '640': string; '1024': string };
+      } | null;
     }, miles: number | null) {
       const li = document.createElement('li');
       li.className = 'near-card';
@@ -128,10 +135,23 @@ const dataJson = JSON.stringify(searchData).replaceAll('<', '\\u003c');
       li.dataset.rv = String(Boolean(item.rv));
       li.dataset.trailer = String(Boolean(item.trailer));
       li.dataset.car = String(Boolean(item.car));
-      const media = document.createElement('div');
-      media.className = 'no-photo';
-      media.setAttribute('aria-hidden', 'true');
-      media.innerHTML = '<span>No photo</span>';
+      const media = document.createElement(item.photo ? 'figure' : 'div');
+      media.className = item.photo ? 'facility-thumb' : 'no-photo';
+      if (!item.photo) {
+        media.setAttribute('aria-hidden', 'true');
+        media.innerHTML = '<span>No photo</span>';
+      } else {
+        const image = document.createElement('img');
+        image.src = pageHref(item.photo.files['640']);
+        image.srcset = `${pageHref(item.photo.files['640'])} 640w, ${pageHref(item.photo.files['1024'])} 1024w`;
+        image.sizes = '76px';
+        image.width = item.photo.width;
+        image.height = item.photo.height;
+        image.alt = `Street-level photo of ${item.name}`;
+        image.loading = 'lazy';
+        image.decoding = 'async';
+        media.append(image);
+      }
       const body = document.createElement('div');
       const link = document.createElement('a');
       const home = item.path || `cities/${item.cityId}/`;
@@ -147,7 +167,17 @@ const dataJson = JSON.stringify(searchData).replaceAll('<', '\\u003c');
       const claim = document.createElement('a');
       claim.href = `${pageHref('claim/')}?facility=${encodeURIComponent(item.name)}`;
       claim.textContent = 'Claim this listing';
-      body.append(link, price, note, claim);
+      body.append(link, price, note);
+      if (item.photo) {
+        const credit = document.createElement('a');
+        credit.className = 'fine';
+        credit.href = item.photo.source_url;
+        credit.target = '_blank';
+        credit.rel = 'noopener noreferrer';
+        credit.textContent = `Photo: ${item.photo.creator} / Mapillary, CC BY-SA 4.0`;
+        body.append(credit);
+      }
+      body.append(claim);
       li.append(media, body);
       return li;
     }

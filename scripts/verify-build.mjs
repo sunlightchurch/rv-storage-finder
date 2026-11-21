@@ -299,6 +299,56 @@ function checkMissingPricesCsv() {
   }
 }
 
+function checkFacilityPhotos() {
+  const catalogPath = path.join(root, 'src/data/facility-photos.json');
+  const catalog = JSON.parse(fs.readFileSync(catalogPath, 'utf8'));
+  const slugs = Object.keys(catalog);
+  const excluded = ['storage-oasis-santee', 'myplace-titusville', 'pcb-boat-rv-storage'];
+  if (slugs.length !== 28) fail(`Expected 28 facility photos, found ${slugs.length}.`);
+  for (const slug of excluded) {
+    if (catalog[slug]) fail(`${slug} was left out because the sign does not match the listing.`);
+  }
+  const ids = new Set();
+  const files = new Set();
+  for (const [slug, photo] of Object.entries(catalog)) {
+    if (ids.has(photo.mapillary_image_id)) fail(`Mapillary image ${photo.mapillary_image_id} is reused.`);
+    ids.add(photo.mapillary_image_id);
+    for (const size of ['640', '1024']) {
+      const file = photo.files?.[size];
+      if (!file || files.has(file)) fail(`${slug} is missing a unique ${size} image.`);
+      files.add(file);
+      if (!fs.existsSync(path.join(root, 'public', file))) fail(`Missing public/${file}.`);
+    }
+    if (!photo.creator || !photo.source_url?.includes('pKey=')) fail(`${slug} is missing a Mapillary credit.`);
+  }
+  const listingSlugs = new Set();
+  const walk = (dir) => {
+    for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+      const full = path.join(dir, entry.name);
+      if (entry.isDirectory()) walk(full);
+      else if (entry.name.endsWith('.yaml')) {
+        const text = fs.readFileSync(full, 'utf8');
+        for (const match of text.matchAll(/slug: ([a-z0-9-]+)/g)) listingSlugs.add(match[1]);
+      }
+    }
+  };
+  walk(path.join(root, 'src/data'));
+  for (const slug of slugs) {
+    if (!listingSlugs.has(slug)) fail(`Facility photo ${slug} does not match a listing.`);
+  }
+  const phoenix = fs.readFileSync(path.join(dist, 'cities/phoenix-az/index.html'), 'utf8');
+  if (!phoenix.includes('facility-photos/advantage-boat-and-rv-surprise-640.webp')) {
+    fail('Phoenix is missing the Advantage Boat and RV photo.');
+  }
+  if (!phoenix.includes('Photo: drkludge / Mapillary, CC BY-SA 4.0')) {
+    fail('Phoenix is missing the Mapillary credit.');
+  }
+  for (const slug of excluded) {
+    if (phoenix.includes(`facility-photos/${slug}`)) fail(`${slug} photo was published.`);
+  }
+}
+
+checkFacilityPhotos();
 checkPlacePhotos();
 checkMissingPricesCsv();
 

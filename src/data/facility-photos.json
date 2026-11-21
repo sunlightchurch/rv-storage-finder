@@ -1,0 +1,366 @@
+{
+  "advantage-boat-and-rv-surprise": {
+    "creator": "drkludge",
+    "captured_at": "2016-09-17",
+    "source_url": "https://www.mapillary.com/app/?pKey=325634522325416",
+    "mapillary_image_id": "325634522325416",
+    "license": "CC BY-SA 4.0",
+    "width": 1024,
+    "height": 768,
+    "files": {
+      "640": "facility-photos/advantage-boat-and-rv-surprise-640.webp",
+      "1024": "facility-photos/advantage-boat-and-rv-surprise-1024.webp"
+    }
+  },
+  "boomoo-storage": {
+    "creator": "allen",
+    "captured_at": "2022-06-11",
+    "source_url": "https://www.mapillary.com/app/?pKey=188779756923051",
+    "mapillary_image_id": "188779756923051",
+    "license": "CC BY-SA 4.0",
+    "width": 1024,
+    "height": 768,
+    "files": {
+      "640": "facility-photos/boomoo-storage-640.webp",
+      "1024": "facility-photos/boomoo-storage-1024.webp"
+    }
+  },
+  "burgarello-boat-rv-storage": {
+    "creator": "marker_geo",
+    "captured_at": "2025-08-03",
+    "source_url": "https://www.mapillary.com/app/?pKey=1874820246778598",
+    "mapillary_image_id": "1874820246778598",
+    "license": "CC BY-SA 4.0",
+    "width": 1024,
+    "height": 576,
+    "files": {
+      "640": "facility-photos/burgarello-boat-rv-storage-640.webp",
+      "1024": "facility-photos/burgarello-boat-rv-storage-1024.webp"
+    }
+  },
+  "cubesmart-davie-13290-state-road-84": {
+    "creator": "fdot_vl",
+    "captured_at": "2015-08-10",
+    "source_url": "https://www.mapillary.com/app/?pKey=1052429772156820",
+    "mapillary_image_id": "1052429772156820",
+    "license": "CC BY-SA 4.0",
+    "width": 1024,
+    "height": 768,
+    "files": {
+      "640": "facility-photos/cubesmart-davie-13290-state-road-84-640.webp",
+      "1024": "facility-photos/cubesmart-davie-13290-state-road-84-1024.webp"
+    }
+  },
+  "cubesmart-nashville-antioch-pike": {
+    "creator": "mab12340",
+    "captured_at": "2019-06-15",
+    "source_url": "https://www.mapillary.com/app/?pKey=968315047247806",
+    "mapillary_image_id": "968315047247806",
+    "license": "CC BY-SA 4.0",
+    "width": 1024,
+    "height": 576,
+    "files": {
+      "640": "facility-photos/cubesmart-nashville-antioch-pike-640.webp",
+      "1024": "facility-photos/cubesmart-nashville-antioch-pike-1024.webp"
+    }
+  },
+  "cubesmart-surprise-bell-14690": {
+    "creator": "wsp_us",
+    "captured_at": "2017-02-04",
+    "source_url": "https://www.mapillary.com/app/?pKey=244770060766303",
+    "mapillary_image_id": "244770060766303",
+    "license": "CC BY-SA 4.0",
+    "width": 1024,
+    "height": 576,
+    "files": {
+      "640": "facility-photos/cubesmart-surprise-bell-14690-640.webp",
+      "1024": "facility-photos/cubesmart-surprise-bell-14690-1024.webp"
+    }
+  },
+  "extra-space-phoenix-broadway": {
+    "creator": "wsp_us",
+    "captured_at": "2017-01-29",
+    "source_url": "https://www.mapillary.com/app/?pKey=205498841182217",
+    "mapillary_image_id": "205498841182217",
+    "license": "CC BY-SA 4.0",
+    "width": 1024,
+    "height": 576,
+    "files": {
+      "640": "facility-photos/extra-space-phoenix-broadway-640.webp",
+      "1024": "facility-photos/extra-space-phoenix-broadway-1024.webp"
+    }
+  },
+  "gator-state-storage-fort-pierce": {
+    "creator": "fdot_vl",
+    "captured_at": "2017-05-12",
+    "source_url": "https://www.mapillary.com/app/?pKey=915669188994449",
+    "mapillary_image_id": "915669188994449",
+    "license": "CC BY-SA 4.0",
+    "width": 1024,
+    "height": 768,
+    "files": {
+      "640": "facility-photos/gator-state-storage-fort-pierce-640.webp",
+      "1024": "facility-photos/gator-state-storage-fort-pierce-1024.webp"
+    }
+  },
+  "one-more-toy-rv-boat-storage": {
+    "creator": "marker_geo",
+    "captured_at": "2022-03-16",
+    "source_url": "https://www.mapillary.com/app/?pKey=391503012338078",
+    "mapillary_image_id": "391503012338078",
+    "license": "CC BY-SA 4.0",
+    "width": 1024,
+    "height": 576,
+    "files": {
+      "640": "facility-photos/one-more-toy-rv-boat-storage-640.webp",
+      "1024": "facility-photos/one-more-toy-rv-boat-storage-1024.webp"
+    }
+  },
+  "park-place-rv-boat-storage": {
+    "creator": "mly_aus06",
+    "captured_at": "2017-11-29",
+    "source_url": "https://www.mapillary.com/app/?pKey=304583777823585",
+    "mapillary_image_id": "304583777823585",
+    "license": "CC BY-SA 4.0",
+    "width": 1024,
+    "height": 576,
+    "files": {
+      "640": "facility-photos/park-place-rv-boat-storage-640.webp",
+      "1024": "facility-photos/park-place-rv-boat-storage-1024.webp"
+    }
+  },
+  "peoples-choice-storage-high-springs-main": {
+    "creator": "fdot_vl",
+    "captured_at": "2016-08-02",
+    "source_url": "https://www.mapillary.com/app/?pKey=1105188016680113",
+    "mapillary_image_id": "1105188016680113",
+    "license": "CC BY-SA 4.0",
+    "width": 1024,
+    "height": 768,
+    "files": {
+      "640": "facility-photos/peoples-choice-storage-high-springs-main-640.webp",
+      "1024": "facility-photos/peoples-choice-storage-high-springs-main-1024.webp"
+    }
+  },
+  "recnation-rv-boat-storage-fort-worth-377": {
+    "creator": "gruzovik",
+    "captured_at": "2023-04-18",
+    "source_url": "https://www.mapillary.com/app/?pKey=491465026441812",
+    "mapillary_image_id": "491465026441812",
+    "license": "CC BY-SA 4.0",
+    "width": 1024,
+    "height": 576,
+    "files": {
+      "640": "facility-photos/recnation-rv-boat-storage-fort-worth-377-640.webp",
+      "1024": "facility-photos/recnation-rv-boat-storage-fort-worth-377-1024.webp"
+    }
+  },
+  "safari-rv-and-storage": {
+    "creator": "stuart_lioce",
+    "captured_at": "2020-06-30",
+    "source_url": "https://www.mapillary.com/app/?pKey=521096135585928",
+    "mapillary_image_id": "521096135585928",
+    "license": "CC BY-SA 4.0",
+    "width": 1024,
+    "height": 576,
+    "files": {
+      "640": "facility-photos/safari-rv-and-storage-640.webp",
+      "1024": "facility-photos/safari-rv-and-storage-1024.webp"
+    }
+  },
+  "storage-zone-capital-circle-sw": {
+    "creator": "fdot_vl",
+    "captured_at": "2015-10-31",
+    "source_url": "https://www.mapillary.com/app/?pKey=201175715184495",
+    "mapillary_image_id": "201175715184495",
+    "license": "CC BY-SA 4.0",
+    "width": 1024,
+    "height": 768,
+    "files": {
+      "640": "facility-photos/storage-zone-capital-circle-sw-640.webp",
+      "1024": "facility-photos/storage-zone-capital-circle-sw-1024.webp"
+    }
+  },
+  "storagemax-boat-rv-storage": {
+    "creator": "mly_aus07",
+    "captured_at": "2017-11-16",
+    "source_url": "https://www.mapillary.com/app/?pKey=294315785506372",
+    "mapillary_image_id": "294315785506372",
+    "license": "CC BY-SA 4.0",
+    "width": 1024,
+    "height": 576,
+    "files": {
+      "640": "facility-photos/storagemax-boat-rv-storage-640.webp",
+      "1024": "facility-photos/storagemax-boat-rv-storage-1024.webp"
+    }
+  },
+  "tallahassee-saver-self-storage": {
+    "creator": "fdot_vl",
+    "captured_at": "2015-10-31",
+    "source_url": "https://www.mapillary.com/app/?pKey=1639048582950884",
+    "mapillary_image_id": "1639048582950884",
+    "license": "CC BY-SA 4.0",
+    "width": 1024,
+    "height": 768,
+    "files": {
+      "640": "facility-photos/tallahassee-saver-self-storage-640.webp",
+      "1024": "facility-photos/tallahassee-saver-self-storage-1024.webp"
+    }
+  },
+  "uhaul-1027226": {
+    "creator": "allen",
+    "captured_at": "2022-07-03",
+    "source_url": "https://www.mapillary.com/app/?pKey=560934722194745",
+    "mapillary_image_id": "560934722194745",
+    "license": "CC BY-SA 4.0",
+    "width": 1024,
+    "height": 768,
+    "files": {
+      "640": "facility-photos/uhaul-1027226-640.webp",
+      "1024": "facility-photos/uhaul-1027226-1024.webp"
+    }
+  },
+  "uhaul-1028715": {
+    "creator": "drkludge",
+    "captured_at": "2020-04-08",
+    "source_url": "https://www.mapillary.com/app/?pKey=7692535170787244",
+    "mapillary_image_id": "7692535170787244",
+    "license": "CC BY-SA 4.0",
+    "width": 1024,
+    "height": 768,
+    "files": {
+      "640": "facility-photos/uhaul-1028715-640.webp",
+      "1024": "facility-photos/uhaul-1028715-1024.webp"
+    }
+  },
+  "uhaul-1029215": {
+    "creator": "drkludge",
+    "captured_at": "2019-05-05",
+    "source_url": "https://www.mapillary.com/app/?pKey=3458402171052300",
+    "mapillary_image_id": "3458402171052300",
+    "license": "CC BY-SA 4.0",
+    "width": 1024,
+    "height": 576,
+    "files": {
+      "640": "facility-photos/uhaul-1029215-640.webp",
+      "1024": "facility-photos/uhaul-1029215-1024.webp"
+    }
+  },
+  "uhaul-1031784": {
+    "creator": "lvl5",
+    "captured_at": "2018-07-20",
+    "source_url": "https://www.mapillary.com/app/?pKey=295327428930770",
+    "mapillary_image_id": "295327428930770",
+    "license": "CC BY-SA 4.0",
+    "width": 1024,
+    "height": 576,
+    "files": {
+      "640": "facility-photos/uhaul-1031784-640.webp",
+      "1024": "facility-photos/uhaul-1031784-1024.webp"
+    }
+  },
+  "uhaul-1039488": {
+    "creator": "fdot_vl",
+    "captured_at": "2016-10-05",
+    "source_url": "https://www.mapillary.com/app/?pKey=842440623364480",
+    "mapillary_image_id": "842440623364480",
+    "license": "CC BY-SA 4.0",
+    "width": 1024,
+    "height": 768,
+    "files": {
+      "640": "facility-photos/uhaul-1039488-640.webp",
+      "1024": "facility-photos/uhaul-1039488-1024.webp"
+    }
+  },
+  "uhaul-756056": {
+    "creator": "mly_aus06",
+    "captured_at": "2017-12-13",
+    "source_url": "https://www.mapillary.com/app/?pKey=793712028197911",
+    "mapillary_image_id": "793712028197911",
+    "license": "CC BY-SA 4.0",
+    "width": 1024,
+    "height": 576,
+    "files": {
+      "640": "facility-photos/uhaul-756056-640.webp",
+      "1024": "facility-photos/uhaul-756056-1024.webp"
+    }
+  },
+  "uhaul-788079": {
+    "creator": "fdot_vl",
+    "captured_at": "2015-09-22",
+    "source_url": "https://www.mapillary.com/app/?pKey=274248467731663",
+    "mapillary_image_id": "274248467731663",
+    "license": "CC BY-SA 4.0",
+    "width": 1024,
+    "height": 768,
+    "files": {
+      "640": "facility-photos/uhaul-788079-640.webp",
+      "1024": "facility-photos/uhaul-788079-1024.webp"
+    }
+  },
+  "uhaul-822035": {
+    "creator": "wsp_us",
+    "captured_at": "2017-01-27",
+    "source_url": "https://www.mapillary.com/app/?pKey=496526608200486",
+    "mapillary_image_id": "496526608200486",
+    "license": "CC BY-SA 4.0",
+    "width": 1024,
+    "height": 576,
+    "files": {
+      "640": "facility-photos/uhaul-822035-640.webp",
+      "1024": "facility-photos/uhaul-822035-1024.webp"
+    }
+  },
+  "uhaul-822042": {
+    "creator": "drkludge",
+    "captured_at": "2018-05-24",
+    "source_url": "https://www.mapillary.com/app/?pKey=296818151901248",
+    "mapillary_image_id": "296818151901248",
+    "license": "CC BY-SA 4.0",
+    "width": 1024,
+    "height": 576,
+    "files": {
+      "640": "facility-photos/uhaul-822042-640.webp",
+      "1024": "facility-photos/uhaul-822042-1024.webp"
+    }
+  },
+  "uhaul-858021": {
+    "creator": "drkludge",
+    "captured_at": "2019-09-22",
+    "source_url": "https://www.mapillary.com/app/?pKey=2909447955975229",
+    "mapillary_image_id": "2909447955975229",
+    "license": "CC BY-SA 4.0",
+    "width": 1024,
+    "height": 576,
+    "files": {
+      "640": "facility-photos/uhaul-858021-640.webp",
+      "1024": "facility-photos/uhaul-858021-1024.webp"
+    }
+  },
+  "uhaul-929074": {
+    "creator": "carto-grapher",
+    "captured_at": "2026-09-30",
+    "source_url": "https://www.mapillary.com/app/?pKey=1097479543079468",
+    "mapillary_image_id": "1097479543079468",
+    "license": "CC BY-SA 4.0",
+    "width": 1024,
+    "height": 768,
+    "files": {
+      "640": "facility-photos/uhaul-929074-640.webp",
+      "1024": "facility-photos/uhaul-929074-1024.webp"
+    }
+  },
+  "uhaul-931075": {
+    "creator": "kartograf",
+    "captured_at": "2023-03-17",
+    "source_url": "https://www.mapillary.com/app/?pKey=125816853689263",
+    "mapillary_image_id": "125816853689263",
+    "license": "CC BY-SA 4.0",
+    "width": 1024,
+    "height": 576,
+    "files": {
+      "640": "facility-photos/uhaul-931075-640.webp",
+      "1024": "facility-photos/uhaul-931075-1024.webp"
+    }
+  }
+}
