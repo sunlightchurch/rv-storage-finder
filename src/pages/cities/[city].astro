@@ -140,14 +140,12 @@ const snowbirdGuide =
     <Breadcrumbs items={crumbs} />
     <Photo photo={getPhoto(city.photo)} sizes="(min-width: 900px) 1100px, 100vw" eager />
     <p class="eyebrow">{city.metro}</p>
-    <h1>RV &amp; boat storage in {city.city}, {city.state_code}</h1>
     <CityStats listings={city.listings} />
     <p class="type-note" data-type-note hidden>
       <span data-type-copy></span>
       <a href={href('/boat-storage/')} data-boat-hub hidden>Boat storage by state</a>
     </p>
     <p class="summary">{city.summary}</p>
-    <FilterChips city={city} />
     <form class="distance-panel" data-distance-form data-distance-panel hidden>
       <button type="button" class="loc-primary" data-near-me>Use my location</button>
       <div class="loc-zip">
@@ -198,10 +196,28 @@ const snowbirdGuide =
       <div class="table-wrap" data-compare-mount></div>
       <script id="compare-listings" type="application/json" set:html={compareJson} />
     </section>
-    <h2>Facilities</h2>
-    <p class="fine">
-      <a href={href('/advertise/')}>Own a storage facility? Get featured</a>
-    </p>
+    <div class="results-head">
+      <div class="results-title-row">
+        <h1>RV &amp; boat storage in {city.city}, {city.state_code}</h1>
+        <form class="results-search home-search" role="search" action={href('/near/')} method="get">
+          <label class="sr-only" for={`${city.id}-q`}>City, ZIP or state</label>
+          <input
+            id={`${city.id}-q`}
+            name="q"
+            data-city-search
+            type="search"
+            role="combobox"
+            placeholder="City, ZIP or state"
+            autocomplete="off"
+            aria-autocomplete="list"
+            aria-controls={`${city.id}-q-results`}
+            aria-expanded="false"
+          />
+          <ul id={`${city.id}-q-results`} class="search-results" role="listbox" hidden></ul>
+        </form>
+      </div>
+      <FilterChips city={city} />
+    </div>
     <ResultMap>
       <div data-listing-list>
         {orderedListings.map((listing) => <ListingCard listing={listing} />)}

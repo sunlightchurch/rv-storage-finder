@@ -132,7 +132,19 @@ const schema = pageGraph([
 
 <Base title={title} description={description} path={path} schema={schema}>
   <section class="find-hero">
-    <div class="wrap">
+    <img
+      class="find-hero-photo"
+      src={href(`/${hero.files['1280']}`)}
+      srcset={`${href(`/${hero.files['640']}`)} 640w, ${href(`/${hero.files['960']}`)} 960w, ${href(`/${hero.files['1280']}`)} 1280w`}
+      sizes="100vw"
+      width={hero.width}
+      height={hero.height}
+      alt=""
+      decoding="async"
+      fetchpriority="high"
+    />
+    <div class="find-hero-scrim" aria-hidden="true"></div>
+    <div class="wrap find-hero-copy">
       <p class="eyebrow">RV and boat storage</p>
       <h1>RV &amp; boat storage, priced in the open.</h1>
       <p class="lede">Every price is copied from the facility’s own page.</p>

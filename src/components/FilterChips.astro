@@ -23,8 +23,10 @@ const chips = [
 
 <div class="filter-tools">
   <div class="sortbar" data-filter-bar>
+    <p class="filter-count" data-filter-count aria-live="polite">1–{city.listings.length} of {city.listings.length} facilities</p>
+    <div class="sort-cluster">
     <label class="sort-label">
-      <span class="sr-only">Sort {city.city}, {city.state_code}</span>
+      <span>Sort by</span>
       <select data-sort aria-label={`Sort ${city.city}, ${city.state_code} facilities`}>
         <option value="default">Listed order</option>
         <option value="price-asc">Price: low to high</option>
@@ -35,7 +37,7 @@ const chips = [
     <button type="button" class="filter-open" data-sheet-open aria-expanded="false" aria-controls={`${city.id}-filters`}>
       Filters
     </button>
-    <p class="filter-count" data-filter-count aria-live="polite">{city.listings.length} facilities</p>
+    </div>
     <div class="sheet" id={`${city.id}-filters`} data-sheet hidden>
       <div class="sheet-panel" role="dialog" aria-modal="true" aria-labelledby={`${city.id}-filters-title`}>
         <div class="sheet-head">

@@ -50,7 +50,7 @@ const majors = majorIds.flatMap((id) => {
     </div>
     <nav id="site-nav" aria-label="Primary">
       <div class="menu" data-menu>
-        <button type="button" aria-expanded="false" aria-controls="menu-find">Find storage</button>
+        <button type="button" aria-expanded="false" aria-controls="menu-find">Find storage <span aria-hidden="true">▾</span></button>
         <div id="menu-find" data-menu-panel hidden>
           <p class="menu-label">States</p>
           <ul>
@@ -67,7 +67,7 @@ const majors = majorIds.flatMap((id) => {
         </div>
       </div>
       <div class="menu" data-menu>
-        <button type="button" aria-expanded="false" aria-controls="menu-types">Storage types</button>
+        <button type="button" aria-expanded="false" aria-controls="menu-types">Storage types <span aria-hidden="true">▾</span></button>
         <div id="menu-types" data-menu-panel hidden>
           <ul>
             <li><a href={href('/storage/')}>All storage types</a></li>
@@ -78,7 +78,7 @@ const majors = majorIds.flatMap((id) => {
         </div>
       </div>
       <div class="menu" data-menu>
-        <button type="button" aria-expanded="false" aria-controls="menu-guides">Guides</button>
+        <button type="button" aria-expanded="false" aria-controls="menu-guides">Guides <span aria-hidden="true">▾</span></button>
         <div id="menu-guides" data-menu-panel hidden>
           <ul>
             <li><a href={href('/guides/')}>All guides</a></li>
@@ -90,7 +90,7 @@ const majors = majorIds.flatMap((id) => {
         </div>
       </div>
       <div class="menu" data-menu>
-        <button type="button" aria-expanded="false" aria-controls="menu-owners">Owners</button>
+        <button type="button" aria-expanded="false" aria-controls="menu-owners">Owners <span aria-hidden="true">▾</span></button>
         <div id="menu-owners" data-menu-panel hidden>
           <ul>
             <li><a href={href('/claim/')}>Claim a listing</a></li>

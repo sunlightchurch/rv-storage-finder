@@ -519,7 +519,10 @@
       if (menu === except) return;
       const button = menu.querySelector('[aria-expanded]');
       const panel = menu.querySelector('[data-menu-panel]');
-      if (button) button.setAttribute('aria-expanded', 'false');
+      if (button) {
+        button.setAttribute('aria-expanded', 'false');
+        button.dataset.pinned = 'false';
+      }
       if (panel) panel.hidden = true;
     });
   }
@@ -528,11 +531,30 @@
     const button = menu.querySelector('[aria-expanded]');
     const panel = menu.querySelector('[data-menu-panel]');
     if (!button || !panel) return;
-    button.addEventListener('click', () => {
-      const open = button.getAttribute('aria-expanded') === 'true';
+    const wide = () => window.matchMedia('(min-width: 861px)').matches;
+    menu.addEventListener('mouseenter', () => {
+      if (!wide()) return;
       closeMenus(menu);
-      button.setAttribute('aria-expanded', open ? 'false' : 'true');
-      panel.hidden = open;
+      button.setAttribute('aria-expanded', 'true');
+      panel.hidden = false;
+    });
+    menu.addEventListener('mouseleave', () => {
+      if (!wide() || button.dataset.pinned === 'true') return;
+      button.setAttribute('aria-expanded', 'false');
+      panel.hidden = true;
+    });
+    button.addEventListener('click', () => {
+      const pinned = button.dataset.pinned === 'true';
+      closeMenus(menu);
+      if (pinned) {
+        button.dataset.pinned = 'false';
+        button.setAttribute('aria-expanded', 'false');
+        panel.hidden = true;
+        return;
+      }
+      button.dataset.pinned = 'true';
+      button.setAttribute('aria-expanded', 'true');
+      panel.hidden = false;
     });
     button.addEventListener('keydown', (event) => {
       if (event.key === 'Escape') closeMenus();

@@ -11,7 +11,7 @@ import {
   telHref,
 } from '../lib/format';
 import { facilityPhoto } from '../lib/facility-photos';
-import { coverLabel, formatMoney, priceLines, priceLineText, type CoverKind } from '../lib/prices';
+import { coverLabel, formatMoney, priceAmount, priceLines, priceLineText, type CoverKind } from '../lib/prices';
 import { feeFields, termLabel } from '../lib/terms';
 import { vehicleFlags } from '../lib/vehicles.mjs';
 
@@ -60,6 +60,17 @@ const groups = (['open', 'covered', 'enclosed', null] as const)
     lines: lines.filter((line) => line.cover === cover),
   }))
   .filter((group) => group.lines.length);
+const faceRows = groups
+  .flatMap((group) =>
+    group.lines
+      .filter((line) => line.unit === 'mo')
+      .map((line) => ({
+        label: group.cover ? `${coverLabel[group.cover as CoverKind]} parking` : 'Monthly',
+        amount: priceAmount(line),
+      })),
+  )
+  .slice(0, 2);
+const addressLine = `${listing.street}, ${listing.city}, ${listing.state_code}${listing.postal_code ? ` ${listing.postal_code}` : ''}`;
 const icons = [
   listing.vehicles.includes('rv') ? 'RV' : null,
   listing.vehicles.includes('boat') ? 'Boat' : null,
@@ -92,65 +103,63 @@ const icons = [
   data-lat={listing.lat ?? undefined}
   data-lng={listing.lng ?? undefined}
 >
-  {
-    shot && (
-      <figure class="facility-photo">
+  <div class="card-shot">
+    {
+      shot ? (
         <img
           src={href(`/${shot.files['640']}`)}
           srcset={`${href(`/${shot.files['640']}`)} 640w, ${href(`/${shot.files['1024']}`)} 1024w`}
-          sizes="(min-width: 800px) 640px, 100vw"
+          sizes="(min-width: 1000px) 320px, 100vw"
           width={shot.width}
           height={shot.height}
           alt={`Street-level photo of ${listing.name}`}
           loading="lazy"
           decoding="async"
         />
-        <figcaption>
-          <a href={shot.source_url} rel="noopener noreferrer" target="_blank">
-            Photo: {shot.creator} / Mapillary, CC BY-SA 4.0
-            <span class="sr-only"> (opens in a new tab)</span>
-          </a>
-        </figcaption>
-      </figure>
-    )
-  }
-  <div class:list={['listing-top', shot && 'is-plain']}>
-    {
-      shot ? null : (
-        <div class="no-photo" aria-hidden="true">
+        <a class="shot-credit" href={shot.source_url} rel="noopener noreferrer" target="_blank">
+          Photo: {shot.creator} / Mapillary, CC BY-SA 4.0
+        </a>
+      ) : (
+        <div class="card-empty" aria-hidden="true">
+          <svg width="42" height="42" viewBox="0 0 32 32">
+            <rect width="32" height="32" rx="8" fill="currentColor"></rect>
+            <path d="M7 17.2c4.4-5.6 13.6-5.6 18 0" fill="none" stroke="#e4c48a" stroke-width="1.6" stroke-linecap="round"></path>
+            <path d="M8.2 17.2h15.6" fill="none" stroke="#f6f1e7" stroke-width="1.35" stroke-linecap="round"></path>
+            <path d="M11.2 17.2c1.5 2.8 2.1 4 4.8 4s3.3-1.2 4.8-4" fill="none" stroke="#e4c48a" stroke-width="1.35" stroke-linecap="round"></path>
+          </svg>
           <span>No photo</span>
         </div>
       )
     }
-    <div>
-      <header class="listing-head">
-      <h3>
-        {listing.name}
-        {listing.featured && <span class="badge">Featured</span>}
-        {listing.waitlist && <span class="badge">Waitlist reported</span>}
-      </h3>
-      <address>
-        {listing.street}<br />
-        {listing.city}, {listing.state_code}{listing.postal_code ? ` ${listing.postal_code}` : ''}
-      </address>
-      <label class="compare-pick">
-        <input type="checkbox" data-compare-pick value={listing.slug} />
-        Compare
-        <span class="sr-only">{listing.name}</span>
-      </label>
-      {listing.featured && <p class="paid-note">Paid placement</p>}
-      </header>
-      <p class="distance-note" data-distance-note hidden></p>
-      <p class="card-price">{monthlyLabel}</p>
-      {
-        listing.max_length_ft != null && (
-          <p class="size-row">Up to {listing.max_length_ft} ft listed</p>
-        )
-      }
-    </div>
   </div>
-  <div class="listing-body">
-    <div class="price">
+  <div class="card-face">
+    <p class="distance-note" data-distance-note hidden></p>
+    <h3>
+      {listing.name}
+      {listing.featured && <span class="badge">Featured</span>}
+    </h3>
+    <p class="card-address">{addressLine}</p>
+    {
+      faceRows.length ? (
+        <ul class="price-rows">
+          {faceRows.map((row) => (
+            <li>
+              <span>{row.label}</span>
+              <strong>{row.amount}</strong>
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <p class="price-rows price-missing">Price not posted</p>
+      )
+    }
+    <ul class="icon-row" aria-label="Published features">
+      {icons.length ? icons.map((icon) => <li>{icon}</li>) : <li class="unknown">Features not listed</li>}
+    </ul>
+    <div class="card-actions">
+      <details class="details">
+        <summary class="view-details">View details</summary>
+        <div class="price">
       <span class="label">Published price</span>
       {
         groups.length ? (
@@ -202,9 +211,11 @@ const icons = [
       </dl>
     </details>
     <p class="fit-note" data-fit-note hidden></p>
-    <ul class="icon-row" aria-label="Published features">
-      {icons.length ? icons.map((icon) => <li>{icon}</li>) : <li class="unknown">Features not listed</li>}
-    </ul>
+    <label class="compare-pick">
+      <input type="checkbox" data-compare-pick value={listing.slug} />
+      Compare
+      <span class="sr-only">{listing.name}</span>
+    </label>
     <div class="actions">
       {
         listing.phone ? (
@@ -242,8 +253,6 @@ const icons = [
       {' · '}
       <a href={href('/advertise/')}>Featured spot, $29</a>
     </p>
-    <details class="details">
-      <summary class="view-details">View details</summary>
       <dl class="facts">
         {
           facts.map((fact) => (
@@ -275,6 +284,8 @@ const icons = [
           ))
         }
       </ul>
-    </details>
+      </details>
+      {listing.phone && <a class="call-link" href={telHref(listing.phone)}>Call {listing.phone}</a>}
+    </div>
   </div>
 </article>

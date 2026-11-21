@@ -13,11 +13,14 @@
     <aside class="map-panel" data-map-panel>
       <div class="map-frame" data-map hidden></div>
       <p class="map-empty" data-map-empty hidden>None of the facilities in this view have a published coordinate or a ZIP.</p>
-      <p class="fine">
-        A pin uses a coordinate the source published. Without one, the pin is the Census center of
-        that facility’s ZIP, and the popup says so. Map data ©
-        <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.
-      </p>
+      <details class="map-note">
+        <summary>About these pins</summary>
+        <p>
+          A pin uses a coordinate the source published. Without one, the pin is the Census center of
+          that facility’s ZIP. Map data ©
+          <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.
+        </p>
+      </details>
       <slot name="points" />
     </aside>
   </div>
