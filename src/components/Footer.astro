@@ -33,7 +33,7 @@ const cities = [
       <p class="footer-label">States</p>
       <ul class="state-pills">
         {states.map((state) => (
-          <li><a href={href(`/states/${state.slug}/`)}>{state.name}</a></li>
+          <li><a href={href(`/states/${state.slug}/`)}>{state.code}<span class="sr-only"> {state.name}</span></a></li>
         ))}
       </ul>
     </nav>

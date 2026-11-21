@@ -1,19 +1,18 @@
 ---
 import Base from '../layouts/Base.astro';
 import CardPhoto from '../components/CardPhoto.astro';
-import CitySearch from '../components/CitySearch.astro';
 import FindMore from '../components/FindMore.astro';
 import { absolute, cityStats, countiesInState, directoryStats, getStates, href, site } from '../lib/data';
 import { locationCount } from '../lib/format';
 import { medianOf } from '../lib/guides';
-import { heroPhoto, getPhoto, statePhoto } from '../lib/photos';
+import { getPhoto, statePhoto } from '../lib/photos';
 import { formatMoney, formatMonthlyRange, monthlyByCover, monthlySpan, parsePriceNote } from '../lib/prices';
 import { breadcrumbNode, faqNode, pageGraph, webPageNode } from '../lib/schema';
 
 const states = getStates();
 const cities = states.flatMap((state) => state.cities);
 const stats = directoryStats();
-const hero = heroPhoto();
+const hero = getPhoto('guide');
 
 function lowestMonthly(listings: { price_notes: string | null; storage_types: readonly string[] }[]) {
   const amounts: number[] = [];
@@ -32,8 +31,6 @@ const popular = cities
   .filter((row) => row.amounts.length > 0)
   .sort((a, b) => b.amounts.length - a.amounts.length || a.city.city.localeCompare(b.city.city))
   .slice(0, 4);
-const spotlight = popular.slice(0, 3);
-
 const coverBuckets = { open: [] as number[][], covered: [] as number[][] };
 for (const city of cities) {
   for (const listing of city.listings) {
@@ -153,79 +150,85 @@ const schema = pageGraph([
       fetchpriority="high"
     />
     <div class="find-hero-scrim" aria-hidden="true"></div>
-    <div class="wrap find-hero-copy">
-      <p class="eyebrow">RV and boat storage</p>
-      <h1>RV &amp; boat storage, priced in the open.</h1>
-      <p class="lede">Every price is copied from the facility’s own page.</p>
-      <form class="find-bar home-search" role="search" action={href('/near/')} method="get">
-        <label class="sr-only" for="home-q">City, ZIP or state</label>
-        <input
-          id="home-q"
-          name="q"
-          data-city-search
-          type="search"
-          role="combobox"
-          placeholder="City, ZIP or state"
-          autocomplete="off"
-          aria-autocomplete="list"
-          aria-controls="home-q-results"
-          aria-expanded="false"
-          required
-        />
-        <label class="sr-only" for="home-type">What are you storing</label>
-        <select id="home-type" name="type">
-          <option value="">Any storage</option>
-          <option value="rv">RV storage</option>
-          <option value="boat">Boat storage</option>
-          <option value="trailer">Trailer storage</option>
-          <option value="covered">Covered</option>
-          <option value="enclosed">Enclosed</option>
-          <option value="indoor">Indoor</option>
-        </select>
-        <button type="submit">Find storage</button>
-        <ul id="home-q-results" class="search-results" role="listbox" hidden></ul>
-      </form>
-      <p class="find-trust">
-        {stats.facilities.toLocaleString('en-US')} facilities · {stats.states} states · prices from facility pages
-      </p>
-      <p class="find-trust">
-        Still: <a href={hero.source_url}>{hero.author}</a>, <a href={hero.license_url}>{hero.license}</a>.
-      </p>
-    </div>
+    <p class="find-hero-credit">
+      Photo: <a href={hero.source_url}>{hero.author}</a>, <a href={hero.license_url}>{hero.license}</a>
+    </p>
   </section>
   <div class="wrap">
+    <form class="search-card home-search" role="search" action={href('/near/')} method="get">
+      <h1>Find RV &amp; boat storage near you</h1>
+      <label class="sr-only" for="home-q">Search by city, state, or ZIP</label>
+      <input
+        id="home-q"
+        name="q"
+        data-city-search
+        type="search"
+        role="combobox"
+        placeholder="Search by city, state, or ZIP"
+        autocomplete="off"
+        aria-autocomplete="list"
+        aria-controls="home-q-results"
+        aria-expanded="false"
+        required
+      />
+      <label class="sr-only" for="home-type">What are you storing</label>
+      <select id="home-type" name="type">
+        <option value="">Any storage</option>
+        <option value="rv">RV storage</option>
+        <option value="boat">Boat storage</option>
+        <option value="trailer">Trailer storage</option>
+        <option value="covered">Covered</option>
+        <option value="enclosed">Enclosed</option>
+        <option value="indoor">Indoor</option>
+      </select>
+      <button type="submit">Find storage</button>
+      <ul id="home-q-results" class="search-results" role="listbox" hidden></ul>
+    </form>
+    <p class="find-trust">
+      {stats.facilities.toLocaleString('en-US')} facilities · {stats.states} states · prices from facility pages
+    </p>
     <section class="how">
       <h2>How it works</h2>
       <ol class="how-steps">
         <li>
-          <span class="step-no">1</span>
+          <svg class="step-icon" width="36" height="36" viewBox="0 0 36 36" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="16" cy="16" r="7"></circle>
+            <path d="M21.5 21.5 27 27"></path>
+          </svg>
+          <span class="step-kicker">Step 1</span>
           <strong>Search a place</strong>
           <span>A city, a ZIP, or a state. The list is the facilities we have sourced.</span>
         </li>
         <li>
-          <span class="step-no">2</span>
+          <svg class="step-icon" width="36" height="36" viewBox="0 0 36 36" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M8 12h20M8 18h20M8 24h12"></path>
+          </svg>
+          <span class="step-kicker">Step 2</span>
           <strong>Compare what they printed</strong>
           <span>Price, cover, and length stay blank when the facility page did not say them.</span>
         </li>
         <li>
-          <span class="step-no">3</span>
+          <svg class="step-icon" width="36" height="36" viewBox="0 0 36 36" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 9h4l2 5-2.4 1.4a12 12 0 0 0 6.6 6.6L24 20l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 8 11a2 2 0 0 1 2-2z"></path>
+          </svg>
+          <span class="step-kicker">Step 3</span>
           <strong>Call the facility</strong>
           <span>The card is a copy of a public page. The lot confirms whether a space is open.</span>
         </li>
       </ol>
     </section>
     <section class="featured-cities">
+      <svg class="section-pin" width="42" height="42" viewBox="0 0 42 42" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 37s11-9.2 11-17a11 11 0 1 0-22 0c0 7.8 11 17 11 17z"></path>
+        <circle cx="21" cy="20" r="3.2"></circle>
+      </svg>
       <h2>Featured cities</h2>
-      <p class="lede">RV storage and boat storage, only where a facility lists that vehicle.</p>
-      <ul class="featured-grid">
+      <p class="lede">RV and boat storage in six states, only where a facility lists that vehicle.</p>
+      <ul class="city-links">
         {
           featuredCities.map(({ city }) => (
             <li>
-              <a class="featured-card" href={href(`/cities/${city.id}/`)}>
-                <CardPhoto photo={getPhoto(city.photo)} />
-                <span class="featured-name">{city.city}, {city.state_code}</span>
-                <span class="city-meta">{city.listings.length === 1 ? '1 facility' : `${city.listings.length} facilities`}</span>
-              </a>
+              <a href={href(`/cities/${city.id}/`)}>{city.city}, {city.state_code}</a>
             </li>
           ))
         }
