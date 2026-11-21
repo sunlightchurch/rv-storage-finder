@@ -66,15 +66,19 @@ const schema = pageGraph([
           <a class="state-card" href={href(`/states/${state.slug}/`)}>
             <CardPhoto photo={photo} sizes="(min-width: 1024px) 420px, 100vw" />
             <span class="state-card-copy">
-              <span class="eyebrow">{state.code}</span>
-              <span class="state-card-name">{state.name}</span>
-              <span class="city-meta">{locationCount(facilityCount)}</span>
-              <span class="city-meta">
-                {span.low != null && span.high != null
-                  ? `Published monthly ${formatMonthlyRange(span.low, span.high)}`
-                  : 'No monthly price'}
+              <span>
+                <span class="eyebrow">{state.code}</span>
+                <span class="state-card-name">{state.name}</span>
               </span>
-              {median != null && <span class="city-meta">From {formatMoney(median)}/mo median</span>}
+              <span class="state-facts">
+                <span class="city-meta">{locationCount(facilityCount)}</span>
+                <span class="city-meta">
+                  {span.low != null && span.high != null
+                    ? `Published monthly ${formatMonthlyRange(span.low, span.high)}`
+                    : 'No monthly price'}
+                </span>
+                {median != null && <span class="city-meta">From {formatMoney(median)}/mo median</span>}
+              </span>
             </span>
           </a>
           <ul class="place-grid card-grid">
