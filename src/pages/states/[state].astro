@@ -6,6 +6,7 @@ import { absolute, cityStats, countiesInState, countyPath, getState, getStates, 
 import { placeDescription } from '../../lib/seo';
 import { locationCount } from '../../lib/format';
 import { getPhoto, statePhoto } from '../../lib/photos';
+import CardPhoto from '../../components/CardPhoto.astro';
 import Photo from '../../components/Photo.astro';
 import { breadcrumbNode, faqNode, pageGraph, webPageNode } from '../../lib/schema';
 
@@ -108,21 +109,14 @@ const schema = pageGraph([
       {hubTotal > 0 ? ` ${hubTotal} more are on county pages for towns that are not part of those metros.` : ''}
       Open a page for cover type, length, power, and prices that the facility actually published.
     </p>
-    <ul class="city-grid">
+    <ul class="city-grid card-grid">
       {
         state.cities.map((city) => {
           const counts = cityStats(city);
           return (
             <li>
               <a class="city-card" href={href(`/cities/${city.id}/`)}>
-                <img
-                  src={href(`/${getPhoto(city.photo).files['640']}`)}
-                  alt=""
-                  width={getPhoto(city.photo).width}
-                  height={getPhoto(city.photo).height}
-                  loading="lazy"
-                  decoding="async"
-                />
+                <CardPhoto photo={getPhoto(city.photo)} />
                 <span class="city-name">{city.city}, {city.state_code}</span>
                 <span class="city-meta">
                   {locationCount(counts.total)} · {counts.covered} with covered space

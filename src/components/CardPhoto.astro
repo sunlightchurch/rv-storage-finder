@@ -1,0 +1,31 @@
+---
+import { href } from '../lib/data';
+import type { Photo } from '../lib/photos';
+
+interface Props {
+  photo: Photo;
+  sizes?: string;
+  eager?: boolean;
+}
+
+const { photo, sizes = '(min-width: 1400px) 280px, (min-width: 700px) 46vw, 100vw', eager = false } = Astro.props;
+const focus: Record<string, string> = {
+  glendale: 'center 32%',
+  naples: 'center 22%',
+};
+const position = focus[photo.id];
+---
+
+<span class="card-media">
+  <img
+    src={href(`/${photo.files['960']}`)}
+    srcset={`${href(`/${photo.files['640']}`)} 640w, ${href(`/${photo.files['960']}`)} 960w, ${href(`/${photo.files['1280']}`)} 1280w`}
+    sizes={sizes}
+    width={photo.width}
+    height={photo.height}
+    alt=""
+    loading={eager ? 'eager' : 'lazy'}
+    decoding="async"
+    style={position ? `object-position: ${position}` : undefined}
+  />
+</span>
