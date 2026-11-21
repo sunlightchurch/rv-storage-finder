@@ -1079,7 +1079,14 @@ td {
   position: absolute;
   inset: 0;
   z-index: 1;
-  background: linear-gradient(180deg, rgb(18 13 9 / 62%) 0%, rgb(18 13 9 / 78%) 42%, rgb(12 9 7 / 94%) 100%);
+  background:
+    linear-gradient(90deg, rgb(28 20 14 / 72%) 0%, rgb(28 20 14 / 42%) 46%, rgb(28 20 14 / 8%) 100%),
+    linear-gradient(180deg, rgb(28 20 14 / 18%) 0%, transparent 28%, rgb(28 20 14 / 28%) 100%);
+}
+
+.hero-still,
+.hero-video {
+  filter: brightness(1.2) saturate(1.06);
 }
 
 .hero-copy {
@@ -1097,7 +1104,8 @@ td {
 }
 
 .hero-bleed h1 {
-  max-width: 14ch;
+  max-width: 16ch;
+  line-height: 1.02;
 }
 
 .hero-bleed .lede {
@@ -1171,24 +1179,112 @@ td {
   }
 }
 
-@media (min-width: 1000px) {
+.hero-trust {
+  margin: 0.85rem 0 0;
+  color: #f6efe4;
+  font-size: 0.95rem;
+  letter-spacing: 0.01em;
+}
+
+.hero-stack {
+  display: none;
+}
+
+.hero-stack ul {
+  display: grid;
+  gap: 0.7rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hero-float {
+  display: grid;
+  grid-template-columns: 5.6rem minmax(0, 1fr);
+  gap: 0.75rem;
+  align-items: center;
+  padding: 0.5rem;
+  background: rgb(251 248 243 / 94%);
+  color: #221c16;
+  border-radius: 16px;
+  text-decoration: none;
+  box-shadow: 0 16px 36px rgb(12 9 7 / 28%);
+}
+
+.hero-float .card-media {
+  border-radius: 10px;
+}
+
+.hero-float .city-name {
+  color: #221c16;
+  font-size: 1.2rem;
+}
+
+.hero-float .city-meta {
+  color: #5a5146;
+}
+
+.hero-bleed .search-row input,
+.hero-bleed .search-row button,
+.hero-bleed .pill span {
+  min-height: 3.25rem;
+}
+
+.hero-bleed .search-row input {
+  border: 0;
+  box-shadow: 0 12px 28px rgb(12 9 7 / 22%);
+}
+
+.hero-bleed .search-row button {
+  box-shadow: 0 12px 28px rgb(12 9 7 / 16%);
+}
+
+.hero-bleed .pill span {
+  background: rgb(251 248 243 / 16%);
+  box-shadow: 0 8px 18px rgb(12 9 7 / 16%);
+}
+
+@media (min-width: 1100px) {
   .hero-bleed {
-    min-height: 44rem;
+    min-height: 40rem;
+    align-items: center;
   }
 
   .hero-bleed h1 {
-    font-size: clamp(3.4rem, 5vw, 4.8rem);
-    max-width: 12ch;
+    font-size: clamp(3.1rem, 4vw, 4.15rem);
+    max-width: 16ch;
+  }
+
+  .hero-stage {
+    display: grid;
+    grid-template-columns: minmax(0, 1.15fr) minmax(280px, 22rem);
+    gap: 2.5rem;
+    align-items: center;
+    padding-top: 5.5rem;
+    padding-bottom: 2.4rem;
   }
 
   .hero-copy {
-    max-width: 46rem;
-    padding-top: 7.5rem;
-    padding-bottom: 3.5rem;
+    max-width: none;
+    padding: 0;
   }
 
-  .hero-bleed .home-search {
-    max-width: 40rem;
+  .hero-stack {
+    display: block;
+  }
+
+  .hero-stack li:nth-child(2) .hero-float {
+    margin-left: 1.1rem;
+  }
+
+  .hero-stack li:nth-child(3) .hero-float {
+    margin-left: 2.2rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-stack li .hero-float {
+    margin-left: 0;
   }
 }
 
@@ -1569,11 +1665,23 @@ td {
 
 @media (min-width: 800px) {
   .state-card {
-    grid-template-columns: minmax(280px, 36rem) minmax(16rem, 1fr);
+    grid-template-columns: minmax(220px, 22rem) minmax(0, 1fr);
+    align-items: center;
+  }
+
+  .state-card-copy {
+    grid-template-columns: minmax(12rem, 1fr) minmax(14rem, 18rem);
+    align-items: end;
+    gap: 1.5rem 2rem;
   }
 }
 
 .state-card-copy {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.state-facts {
   display: grid;
   gap: 0.2rem;
 }

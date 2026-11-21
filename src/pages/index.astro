@@ -32,6 +32,7 @@ const popular = cities
   .filter((row) => row.amounts.length > 0)
   .sort((a, b) => b.amounts.length - a.amounts.length || a.city.city.localeCompare(b.city.city))
   .slice(0, 4);
+const spotlight = popular.slice(0, 3);
 
 const coverBuckets = { open: [] as number[][], covered: [] as number[][] };
 for (const city of cities) {
@@ -130,33 +131,52 @@ const schema = pageGraph([
       <video class="hero-video" muted autoplay playsinline loop preload="none" poster={href(`/${hero.files['1280']}`)}></video>
     </div>
     <div class="hero-shade" aria-hidden="true"></div>
-    <div class="wrap hero-copy">
-      <p class="eyebrow">RV and boat storage</p>
-      <h1>Find storage with a source on every listing</h1>
-      <p class="lede">
-        Compare covered, enclosed, and outdoor lots. If a facility did not publish a price or an
-        amenity, the card says not listed.
-      </p>
-      <CitySearch
-        showPicker
-        cities={[
-          'houston-tx',
-          'dallas-fort-worth-tx',
-          'tampa-fl',
-          'orlando-fl',
-          'phoenix-az',
-          'atlanta-ga',
-          'las-vegas-nv',
-          'charlotte-nc',
-        ].flatMap((id) => {
-          const city = cities.find((item) => item.id === id);
-          return city ? [{ id: city.id, city: city.city, state_code: city.state_code }] : [];
-        })}
-      />
-      <p class="hero-credit">
-        Video: <a href={hero.source_url}>{hero.author}</a>, <a href={hero.license_url}>{hero.license}</a>.
-        A still image plays instead when motion is reduced or the connection is slow.
-      </p>
+    <div class="wrap hero-stage">
+      <div class="hero-copy">
+        <p class="eyebrow">RV and boat storage</p>
+        <h1>RV &amp; boat storage, priced in the open.</h1>
+        <p class="lede">Every price is copied from the facility’s own page.</p>
+        <CitySearch
+          showPicker
+          cities={[
+            'houston-tx',
+            'dallas-fort-worth-tx',
+            'tampa-fl',
+            'orlando-fl',
+            'phoenix-az',
+            'atlanta-ga',
+            'las-vegas-nv',
+            'charlotte-nc',
+          ].flatMap((id) => {
+            const city = cities.find((item) => item.id === id);
+            return city ? [{ id: city.id, city: city.city, state_code: city.state_code }] : [];
+          })}
+        />
+        <p class="hero-trust">
+          {stats.facilities.toLocaleString('en-US')} facilities · {stats.states} states · prices from facility pages
+        </p>
+        <p class="hero-credit">
+          Video: <a href={hero.source_url}>{hero.author}</a>, <a href={hero.license_url}>{hero.license}</a>.
+          A still image plays instead when motion is reduced or the connection is slow.
+        </p>
+      </div>
+      <aside class="hero-stack" aria-label="Cities with the most published prices">
+        <ul>
+          {
+            spotlight.map(({ city, amounts }) => (
+              <li>
+                <a class="hero-float" href={href(`/cities/${city.id}/`)}>
+                  <CardPhoto photo={getPhoto(city.photo)} sizes="88px" />
+                  <span>
+                    <span class="city-name">{city.city}, {city.state_code}</span>
+                    <span class="city-meta">From {formatMoney(medianOf(amounts))}/mo median</span>
+                  </span>
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </aside>
     </div>
   </section>
   <script define:vars={{ videoSrc: href('/video/hero-marina.mp4') }}>
