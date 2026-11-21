@@ -138,6 +138,15 @@ const snowbirdGuide =
 <Base title={title} description={description} path={path} schema={schema} noindex={thin}>
   <div class="wrap" data-filter-root>
     <Breadcrumbs items={crumbs} />
+    <link
+      slot="head"
+      rel="preload"
+      as="image"
+      href={href(`/${getPhoto(city.photo).files['960']}`)}
+      imagesrcset={`${href(`/${getPhoto(city.photo).files['640']}`)} 640w, ${href(`/${getPhoto(city.photo).files['960']}`)} 960w, ${href(`/${getPhoto(city.photo).files['1280']}`)} 1280w`}
+      imagesizes="(min-width: 900px) 1100px, 100vw"
+      fetchpriority="high"
+    />
     <Photo photo={getPhoto(city.photo)} sizes="(min-width: 900px) 1100px, 100vw" eager />
     <p class="eyebrow">{city.metro}</p>
     <CityStats listings={city.listings} />
@@ -495,7 +504,6 @@ const snowbirdGuide =
         event.preventDefault();
         check();
       });
-      check();
     });
   </script>
   <script>

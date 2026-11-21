@@ -1,5 +1,18 @@
+import leafletCss from 'leaflet/dist/leaflet.css?url';
 import L from 'leaflet';
-import 'leaflet/dist/leaflet.css';
+
+function ensureLeafletCss() {
+  if (document.querySelector('link[data-leaflet]')) return Promise.resolve();
+  return new Promise((resolve) => {
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = leafletCss;
+    link.dataset.leaflet = 'true';
+    link.onload = () => resolve();
+    link.onerror = () => resolve();
+    document.head.append(link);
+  });
+}
 
 function escapeHtml(value) {
   return String(value).replace(/[&<>"']/g, (char) => (
@@ -24,7 +37,8 @@ function groupPoints(points) {
   return [...groups.values()];
 }
 
-export function mountResultMap(frame, points, onSelect) {
+export async function mountResultMap(frame, points, onSelect) {
+  await ensureLeafletCss();
   const map = L.map(frame, {
     scrollWheelZoom: false,
     zoomControl: true,

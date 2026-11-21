@@ -205,13 +205,15 @@ const schema = pageGraph([
     <section class="featured-cities">
       <h2>Featured cities</h2>
       <p class="lede">RV storage and boat storage, only where a facility lists that vehicle.</p>
-      <ul>
+      <ul class="featured-grid">
         {
-          featuredCities.map(({ city, rv, boat }) => (
+          featuredCities.map(({ city }) => (
             <li>
-              <a class="featured-name" href={href(`/cities/${city.id}/`)}>{city.city}, {city.state_code}</a>
-              {rv && <a href={`${href(`/cities/${city.id}/`)}?type=rv`}>RV storage</a>}
-              {boat && <a href={`${href(`/cities/${city.id}/`)}?type=boat`}>Boat storage</a>}
+              <a class="featured-card" href={href(`/cities/${city.id}/`)}>
+                <CardPhoto photo={getPhoto(city.photo)} />
+                <span class="featured-name">{city.city}, {city.state_code}</span>
+                <span class="city-meta">{city.listings.length === 1 ? '1 facility' : `${city.listings.length} facilities`}</span>
+              </a>
             </li>
           ))
         }

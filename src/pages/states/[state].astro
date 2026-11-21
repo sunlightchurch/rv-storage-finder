@@ -1,14 +1,16 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
-import FindMore from '../../components/FindMore.astro';
-import { absolute, cityStats, countiesInState, countyPath, getState, getStates, href } from '../../lib/data';
-import { placeDescription } from '../../lib/seo';
-import { locationCount } from '../../lib/format';
-import { getPhoto, statePhoto } from '../../lib/photos';
 import CardPhoto from '../../components/CardPhoto.astro';
+import FindMore from '../../components/FindMore.astro';
 import Photo from '../../components/Photo.astro';
+import ResultMap from '../../components/ResultMap.astro';
+import { absolute, countiesInState, countyPath, getState, getStates, href, type Listing } from '../../lib/data';
+import { placeDescription } from '../../lib/seo';
+import { getPhoto, statePhoto } from '../../lib/photos';
+import { parsePriceNote } from '../../lib/prices';
 import { breadcrumbNode, faqNode, pageGraph, webPageNode } from '../../lib/schema';
+import { normalizeZip, zipCentroids } from '../../lib/zips';
 
 export function getStaticPaths() {
   return getStates().map((state) => ({ params: { state: state.slug } }));
@@ -73,6 +75,65 @@ const latest = state.cities
   .flatMap((city) => city.listings.map((listing) => listing.last_verified))
   .sort()
   .at(-1);
+function facilityCount(count: number): string {
+  return count === 1 ? '1 facility' : `${count} facilities`;
+}
+function lowestMonthly(listings: Listing[]): number | null {
+  const amounts: number[] = [];
+  for (const listing of listings) {
+    const values = parsePriceNote(listing.price_notes).monthly;
+    if (values.length) amounts.push(Math.min(...values));
+  }
+  return amounts.length ? Math.min(...amounts) : null;
+}
+function placePoint(listings: Listing[]): { lat: number; lng: number; approx: 'exact' | 'zip' } | null {
+  const exact = listings.filter((listing) => listing.lat != null && listing.lng != null);
+  if (exact.length) {
+    return {
+      lat: exact.reduce((sum, listing) => sum + (listing.lat as number), 0) / exact.length,
+      lng: exact.reduce((sum, listing) => sum + (listing.lng as number), 0) / exact.length,
+      approx: 'exact',
+    };
+  }
+  const centroids = zipCentroids();
+  const points = listings.flatMap((listing) => {
+    const zip = normalizeZip(listing.postal_code);
+    const point = zip ? centroids[zip] : undefined;
+    return point ? [point] : [];
+  });
+  if (!points.length) return null;
+  return {
+    lat: points.reduce((sum, point) => sum + point.lat, 0) / points.length,
+    lng: points.reduce((sum, point) => sum + point.lng, 0) / points.length,
+    approx: 'zip',
+  };
+}
+const places = (state.cities.length ? state.cities.map((city) => ({
+  id: `city-${city.id}`,
+  name: `${city.city}, ${city.state_code}`,
+  path: `/cities/${city.id}/`,
+  listings: city.listings,
+  photo: city.photo,
+})) : hubs.map((county) => ({
+  id: `county-${county.id}`,
+  name: `${county.name}, ${county.state_code}`,
+  path: countyPath(county),
+  listings: county.listings,
+  photo: county.photo,
+})));
+const stateMapPoints = places.flatMap((place) => {
+  const point = placePoint(place.listings);
+  if (!point) return [];
+  return [{
+    id: place.id,
+    name: place.name,
+    lat: point.lat,
+    lng: point.lng,
+    price: lowestMonthly(place.listings),
+    approx: point.approx,
+  }];
+});
+const stateMapJson = JSON.stringify(stateMapPoints).replaceAll('<', '\\u003c');
 const schema = pageGraph([
   webPageNode({ title, description, path, dateModified: latest }),
   breadcrumbNode(crumbs),
@@ -105,28 +166,45 @@ const schema = pageGraph([
     <Photo photo={statePhoto(state.slug)} sizes="(min-width: 900px) 1100px, 100vw" eager />
     <h1>RV and boat storage in {state.name}</h1>
     <p class="summary">
-      {total} facilities across {state.cities.length === 1 ? 'one metro' : `${state.cities.length} metros`}.
-      {hubTotal > 0 ? ` ${hubTotal} more are on county pages for towns that are not part of those metros.` : ''}
-      Open a page for cover type, length, power, and prices that the facility actually published.
+      {total + hubTotal} facilities
+      {state.cities.length > 0
+        ? ` across ${state.cities.length === 1 ? 'one metro' : `${state.cities.length} metros`}`
+        : ' on county pages'}.
+      {state.cities.length > 0 && hubTotal > 0 ? ` ${hubTotal} more are on county pages for towns outside those metros.` : ''}
+      A pin price is the lowest monthly amount a facility in that place published.
     </p>
-    <ul class="city-grid card-grid">
-      {
-        state.cities.map((city) => {
-          const counts = cityStats(city);
-          return (
+    <form class="state-search home-search" role="search" action={href('/near/')} method="get">
+      <label class="sr-only" for={`${state.slug}-q`}>City, ZIP or state</label>
+      <input
+        id={`${state.slug}-q`}
+        name="q"
+        data-city-search
+        type="search"
+        role="combobox"
+        placeholder="City, ZIP or state"
+        autocomplete="off"
+        aria-autocomplete="list"
+        aria-controls={`${state.slug}-q-results`}
+        aria-expanded="false"
+      />
+      <ul id={`${state.slug}-q-results`} class="search-results" role="listbox" hidden></ul>
+    </form>
+    <ResultMap>
+      <ul class="map-places">
+        {
+          places.map((place) => (
             <li>
-              <a class="city-card" href={href(`/cities/${city.id}/`)}>
-                <CardPhoto photo={getPhoto(city.photo)} />
-                <span class="city-name">{city.city}, {city.state_code}</span>
-                <span class="city-meta">
-                  {locationCount(counts.total)} · {counts.covered} with covered space
-                </span>
+              <a class="city-card" id={place.id} href={href(place.path)}>
+                {place.photo && <CardPhoto photo={getPhoto(place.photo)} />}
+                <span class="city-name">{place.name}</span>
+                <span class="city-meta">{facilityCount(place.listings.length)}</span>
               </a>
             </li>
-          );
-        })
-      }
-    </ul>
+          ))
+        }
+      </ul>
+      <script slot="points" id="map-points" type="application/json" set:html={stateMapJson} />
+    </ResultMap>
     {
       hubs.length > 0 && (
         <section>

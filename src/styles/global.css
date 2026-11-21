@@ -2042,6 +2042,22 @@ body.sheet-open {
     display: block;
   }
 
+  .site-header.is-nav-open #site-nav {
+    position: fixed;
+    inset: var(--header-sticky, 4.5rem) 0 0 0;
+    z-index: 45;
+    overflow: auto;
+    background: var(--paper);
+    color: var(--ink);
+    padding: 0.75rem 1rem 2.5rem;
+  }
+
+  .site-header.is-nav-open .menu > button,
+  .site-header.is-nav-open #site-nav a,
+  .site-header.is-nav-open .menu-label {
+    color: var(--ink);
+  }
+
   #site-nav ul {
     flex-direction: column;
     align-items: stretch;
@@ -2515,7 +2531,7 @@ body.sheet-open {
 @media (min-width: 1000px) {
   .result-columns {
     display: grid;
-    grid-template-columns: minmax(280px, 0.9fr) minmax(0, 1.15fr);
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     gap: 1.25rem;
     align-items: start;
   }
@@ -2554,7 +2570,7 @@ body.sheet-open {
 
 @media (min-width: 1200px) {
   .result-columns {
-    grid-template-columns: minmax(340px, 0.95fr) minmax(0, 1.2fr);
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     gap: 1.5rem;
   }
 
@@ -2850,20 +2866,35 @@ body.sheet-open {
   color: var(--lagoon-deep);
 }
 
-.featured-cities ul {
+.featured-grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
-  gap: 0;
-  margin: 0.5rem 0 2rem;
+  gap: 1.25rem;
+  margin: 1.5rem 0 2.75rem;
   padding: 0;
   list-style: none;
 }
 
-.featured-cities li {
-  display: grid;
-  gap: 0.15rem;
-  padding: 0.95rem 0.4rem;
-  border-bottom: 1px solid var(--rule);
+.featured-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  background: var(--paper);
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.featured-card .featured-name,
+.featured-card .city-meta {
+  padding-inline: 0.95rem;
+}
+
+.featured-card .city-meta {
+  padding-bottom: 1rem;
 }
 
 .featured-name {
@@ -2883,9 +2914,9 @@ body.sheet-open {
 
 .footer-cities,
 .state-pills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.35rem 0.9rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr));
+  gap: 0.55rem;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -2895,12 +2926,12 @@ body.sheet-open {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 44px;
-  min-height: 36px;
-  padding: 0 0.45rem;
-  border-radius: 8px;
+  min-height: 44px;
+  padding: 0.35rem 0.8rem;
+  border-radius: 999px;
   background: rgb(246 241 231 / 12%);
   text-decoration: none;
+  text-align: center;
 }
 
 .card-shot {
@@ -3027,13 +3058,23 @@ body.sheet-open {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
   min-height: 44px;
-  margin-top: 0.75rem;
+  margin-top: 0;
   border-radius: 10px;
   background: var(--header-bg);
   color: var(--header-ink);
   cursor: pointer;
   list-style: none;
+  text-decoration: none;
+  font-weight: 650;
+}
+
+.card-actions .compare-pick {
+  justify-self: center;
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.82rem;
 }
 
 .view-details::-webkit-details-marker {
@@ -3041,8 +3082,9 @@ body.sheet-open {
 }
 
 @media (min-width: 700px) {
-  .featured-cities ul {
+  .featured-grid {
     grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
   }
 
   .footer-cities {
@@ -3052,8 +3094,9 @@ body.sheet-open {
 }
 
 @media (min-width: 1100px) {
-  .featured-cities ul {
+  .featured-grid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1.75rem;
   }
 
   .footer-top {
@@ -3074,8 +3117,146 @@ body.sheet-open {
   }
 
   .menu [data-menu-panel] a,
-  .menu-label {
-    color: var(--header-ink);
+  .menu-label,
+  .menu > button {
+    color: var(--ink);
+  }
+}
+
+@media (max-width: 799px) {
+  .results-head {
+    position: sticky;
+    top: var(--header-sticky, 4.5rem);
+    z-index: 24;
+    background: var(--bg);
+    padding-bottom: 0.4rem;
+  }
+}
+
+.result-layout.is-compact .view-toggle,
+.result-layout.is-compact .result-list {
+  display: none;
+}
+
+.result-layout.is-compact .map-panel {
+  display: block;
+  position: static;
+  height: auto;
+}
+
+.result-layout.is-compact .map-frame {
+  height: 18rem;
+  min-height: 16rem;
+}
+
+.map-places {
+  display: grid;
+  gap: 0.85rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.state-search {
+  max-width: 28rem;
+  margin: 0 auto 1.5rem;
+}
+
+.facility-top {
+  display: grid;
+  gap: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.facility-hero-photo,
+.facility-hero-empty {
+  overflow: hidden;
+  border-radius: var(--radius);
+  background: var(--stamp);
+}
+
+.facility-hero-photo img {
+  display: block;
+  width: 100%;
+  height: 18rem;
+  object-fit: cover;
+}
+
+.facility-hero-photo figcaption {
+  padding: 0.45rem 0.7rem 0.6rem;
+  font-size: 0.78rem;
+}
+
+.facility-hero-empty {
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: 0.4rem;
+  min-height: 14rem;
+  color: var(--muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
+
+.summary-box {
+  display: grid;
+  align-content: start;
+  gap: 0.55rem;
+  padding: 1.15rem 1.2rem 1.25rem;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.summary-box h1 {
+  margin: 0;
+  font-size: clamp(1.7rem, 2.4vw, 2.3rem);
+}
+
+.summary-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.35rem;
+}
+
+.facility-facts {
+  max-width: 46rem;
+  margin-top: 1.75rem;
+}
+
+@media (min-width: 900px) {
+  .facility-top {
+    grid-template-columns: minmax(0, 1.15fr) minmax(18rem, 0.85fr);
+    align-items: start;
+    gap: 1.5rem;
+  }
+
+  .map-places {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 799px) {
+  .map-places {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .listing,
+  .featured-card,
+  .city-card,
+  .place-link {
+    transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+  }
+
+  .listing:hover,
+  .featured-card:hover,
+  .place-link:hover {
+    transform: translateY(-2px);
   }
 }
 
@@ -3084,5 +3265,12 @@ body.sheet-open {
   .view-details,
   .menu [data-menu-panel] {
     transition: none;
+  }
+
+  .listing:hover,
+  .featured-card:hover,
+  .city-card:hover,
+  .place-link:hover {
+    transform: none;
   }
 }
