@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import CardPhoto from '../../components/CardPhoto.astro';
 import { cityStats, countiesInState, directoryStats, getStates, href } from '../../lib/data';
 import { locationCount } from '../../lib/format';
 import { getPhoto } from '../../lib/photos';
@@ -63,16 +64,7 @@ const schema = pageGraph([
       rows.map(({ state, hubs, facilityCount, span, median, photo }) => (
         <article class="state-directory">
           <a class="state-card" href={href(`/states/${state.slug}/`)}>
-            <img
-              src={href(`/${photo.files['640']}`)}
-              srcset={`${href(`/${photo.files['640']}`)} 640w, ${href(`/${photo.files['960']}`)} 960w`}
-              sizes="(min-width: 800px) 280px, 100vw"
-              width={photo.width}
-              height={photo.height}
-              alt=""
-              loading="lazy"
-              decoding="async"
-            />
+            <CardPhoto photo={photo} sizes="(min-width: 1024px) 420px, 100vw" />
             <span class="state-card-copy">
               <span class="eyebrow">{state.code}</span>
               <span class="state-card-name">{state.name}</span>
@@ -85,23 +77,14 @@ const schema = pageGraph([
               {median != null && <span class="city-meta">From {formatMoney(median)}/mo median</span>}
             </span>
           </a>
-          <ul class="place-grid">
+          <ul class="place-grid card-grid">
             {state.cities.map((city) => {
               const amounts = lowestMonthly(city.listings);
               const cityMedian = amounts.length ? medianOf(amounts) : null;
               return (
                 <li>
                   <a class="place-link" href={href(`/cities/${city.id}/`)}>
-                    <img
-                      src={href(`/${getPhoto(city.photo).files['640']}`)}
-                      srcset={`${href(`/${getPhoto(city.photo).files['640']}`)} 640w, ${href(`/${getPhoto(city.photo).files['960']}`)} 960w`}
-                      sizes="(min-width: 800px) 240px, 100vw"
-                      width={getPhoto(city.photo).width}
-                      height={getPhoto(city.photo).height}
-                      alt=""
-                      loading="lazy"
-                      decoding="async"
-                    />
+                    <CardPhoto photo={getPhoto(city.photo)} />
                     <span class="city-name">{city.city}, {city.state_code}</span>
                     <span class="city-meta">{locationCount(cityStats(city).total)}</span>
                     <span class="city-meta">

@@ -1,11 +1,12 @@
 ---
 import Base from '../layouts/Base.astro';
+import CardPhoto from '../components/CardPhoto.astro';
 import CitySearch from '../components/CitySearch.astro';
 import FindMore from '../components/FindMore.astro';
-import { absolute, cityStats, directoryStats, getStates, href, site } from '../lib/data';
+import { absolute, cityStats, countiesInState, directoryStats, getStates, href, site } from '../lib/data';
 import { locationCount } from '../lib/format';
 import { medianOf } from '../lib/guides';
-import { heroPhoto, getPhoto } from '../lib/photos';
+import { heroPhoto, getPhoto, statePhoto } from '../lib/photos';
 import { formatMoney, formatMonthlyRange, monthlyByCover, monthlySpan, parsePriceNote } from '../lib/prices';
 import { breadcrumbNode, faqNode, pageGraph, webPageNode } from '../lib/schema';
 
@@ -42,6 +43,22 @@ for (const city of cities) {
 }
 const openSpan = monthlySpan(coverBuckets.open);
 const coveredSpan = monthlySpan(coverBuckets.covered);
+const focusSlugs = ['florida', 'arizona', 'texas', 'georgia', 'nevada', 'north-carolina'];
+const featured = focusSlugs.flatMap((slug) => {
+  const state = states.find((item) => item.slug === slug);
+  if (!state) return [];
+  const hubs = countiesInState(state.code);
+  const listings = [...state.cities.flatMap((city) => city.listings), ...hubs.flatMap((county) => county.listings)];
+  const amounts = lowestMonthly(listings);
+  return [{
+    state,
+    listings: listings.length,
+    boats: listings.filter((listing) => listing.vehicles.includes('boat')).length,
+    median: amounts.length ? medianOf(amounts) : null,
+    photo: statePhoto(state.slug),
+  }];
+});
+const boatTotal = featured.reduce((sum, row) => sum + row.boats, 0);
 const title = 'RV and boat storage by city | RV Storage Prices';
 const description =
   'Search sourced RV and boat storage by city or ZIP. Cover type, power, and monthly prices appear only when a facility publishes them.';
@@ -163,6 +180,66 @@ const schema = pageGraph([
     }
   </script>
   <div class="wrap">
+    <section class="feature-band">
+      <div class="band-copy">
+        <p class="eyebrow">The directory</p>
+        <h2>Six states, with a source on every card</h2>
+        <p>
+          Open a state, then a city. A median is the middle of the lowest monthly price each facility
+          printed. A lot with no monthly price is left out of that figure.
+        </p>
+      </div>
+      <ul class="card-grid feature-grid">
+        {
+          featured.map(({ state, listings, median, photo }) => (
+            <li>
+              <a class="city-card" href={href(`/states/${state.slug}/`)}>
+                <CardPhoto photo={photo} sizes="(min-width: 1100px) 360px, (min-width: 700px) 46vw, 100vw" />
+                <span class="city-card-body">
+                  <span class="city-name">{state.name}</span>
+                  <span class="city-meta">{locationCount(listings)}</span>
+                  <span class="city-meta">
+                    {median != null ? `From ${formatMoney(median)}/mo median` : 'No monthly price'}
+                  </span>
+                </span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+    <section class="compare-band">
+      <h2>How the published medians compare</h2>
+      <ul class="median-row">
+        {
+          featured.map(({ state, median }) => (
+            <li>
+              <a href={href(`/states/${state.slug}/`)}>{state.name}</a>
+              <strong>{median != null ? `${formatMoney(median)}/mo` : 'No monthly price'}</strong>
+            </li>
+          ))
+        }
+      </ul>
+      <p class="legend">
+        Covered lots that named a roof and a month
+        {coveredSpan.low != null && coveredSpan.high != null
+          ? ` run ${formatMonthlyRange(coveredSpan.low, coveredSpan.high)}`
+          : ' do not have a published range yet'}
+        {openSpan.low != null && openSpan.high != null
+          ? `, and open lots run ${formatMonthlyRange(openSpan.low, openSpan.high)}`
+          : ''}
+        . <a href={href('/guides/covered-vs-uncovered-vs-indoor/')}>Covered, uncovered, and indoor</a>
+      </p>
+    </section>
+    <aside class="boat-callout">
+      <p class="eyebrow">Boat storage</p>
+      <h2>A boat is listed only where the facility says so</h2>
+      <p>
+        {boatTotal} locations in these six states list boat storage. The page for each state links the
+        cities that do.
+      </p>
+      <p><a href={href('/boat-storage/')}>Boat storage by state</a></p>
+    </aside>
     <section class="how">
       <h2>How to use this directory</h2>
       <ol class="how-steps">
@@ -226,23 +303,14 @@ const schema = pageGraph([
           <h3>
             <a href={href(`/states/${state.slug}/`)}>{state.name}</a>
           </h3>
-          <ul class="city-grid">
+          <ul class="city-grid card-grid">
             {state.cities.map((city) => {
               const counts = cityStats(city);
               const photo = getPhoto(city.photo);
               return (
                 <li>
                   <a class="city-card" href={href(`/cities/${city.id}/`)}>
-                    <img
-                      src={href(`/${photo.files['640']}`)}
-                      srcset={`${href(`/${photo.files['640']}`)} 640w, ${href(`/${photo.files['960']}`)} 960w`}
-                      sizes="(min-width: 800px) 280px, 100vw"
-                      width={photo.width}
-                      height={photo.height}
-                      alt=""
-                      loading="lazy"
-                      decoding="async"
-                    />
+                    <CardPhoto photo={photo} />
                     <span class="city-card-body">
                       <span class="city-name">{city.city}, {city.state_code}</span>
                       <span class="city-meta">

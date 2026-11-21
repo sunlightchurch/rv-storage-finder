@@ -1388,18 +1388,18 @@
   credit_required: true
 - id: greenville-nc
   role: city
-  alt: "Greenville, North Carolina, seen from the air"
+  alt: "Greenville, North Carolina, at sunset"
   width: 1280
   height: 853
   files:
     "640": photos/greenville-nc-640.webp
     "960": photos/greenville-nc-960.webp
     "1280": photos/greenville-nc-1280.webp
-  author: "DiscoA340"
-  source_url: "https://commons.wikimedia.org/wiki/File:Greenville,_North_Carolina_from_the_Air.jpg"
-  license: "CC BY-SA 4.0"
-  license_url: "https://creativecommons.org/licenses/by-sa/4.0"
-  credit_required: true
+  author: "Aaron Hines / City of Greenville"
+  source_url: "https://commons.wikimedia.org/wiki/File:Greenville,_North_Carolina_-_2026_5.jpg"
+  license: "Public domain"
+  license_url: "https://commons.wikimedia.org/wiki/File:Greenville,_North_Carolina_-_2026_5.jpg"
+  credit_required: false
 - id: abilene
   role: city
   alt: "Skyline of Abilene, Texas"
