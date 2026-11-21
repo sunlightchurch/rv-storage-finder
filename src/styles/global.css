@@ -2776,7 +2776,8 @@ body.sheet-open {
 .find-hero h1,
 .find-hero .lede,
 .find-hero .eyebrow,
-.find-hero .find-trust {
+.find-hero .find-trust,
+.find-hero .find-trust a {
   color: #f7f1e6;
   text-shadow: 0 1px 8px rgb(12 9 7 / 45%);
 }

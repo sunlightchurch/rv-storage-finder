@@ -131,6 +131,15 @@ const schema = pageGraph([
 ---
 
 <Base title={title} description={description} path={path} schema={schema}>
+  <link
+    slot="head"
+    rel="preload"
+    as="image"
+    href={href(`/${hero.files['1280']}`)}
+    imagesrcset={`${href(`/${hero.files['640']}`)} 640w, ${href(`/${hero.files['960']}`)} 960w, ${href(`/${hero.files['1280']}`)} 1280w`}
+    imagesizes="100vw"
+    fetchpriority="high"
+  />
   <section class="find-hero">
     <img
       class="find-hero-photo"
@@ -139,7 +148,7 @@ const schema = pageGraph([
       sizes="100vw"
       width={hero.width}
       height={hero.height}
-      alt=""
+      alt={hero.alt}
       decoding="async"
       fetchpriority="high"
     />
@@ -178,6 +187,9 @@ const schema = pageGraph([
       </form>
       <p class="find-trust">
         {stats.facilities.toLocaleString('en-US')} facilities · {stats.states} states · prices from facility pages
+      </p>
+      <p class="find-trust">
+        Still: <a href={hero.source_url}>{hero.author}</a>, <a href={hero.license_url}>{hero.license}</a>.
       </p>
     </div>
   </section>
