@@ -2561,7 +2561,7 @@ body.sheet-open {
   .result-columns {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    gap: 1.25rem;
+    gap: 2rem;
     align-items: start;
   }
 
@@ -2740,11 +2740,40 @@ body.sheet-open {
   min-width: 16rem;
   max-height: 70vh;
   overflow: auto;
-  padding: 0.7rem 0.85rem 0.9rem;
+  padding: 1rem 1.15rem 1.15rem;
   background: var(--paper);
   color: var(--ink);
   border-radius: 14px;
-  box-shadow: 0 18px 40px rgb(28 22 16 / 16%);
+  box-shadow: 0 18px 40px rgb(22 56 40 / 16%);
+  line-height: 1.45;
+}
+
+@media (min-width: 861px) {
+  #menu-find:not([hidden]) {
+    position: fixed;
+    top: var(--header-sticky, 4.5rem);
+    left: 50%;
+    right: auto;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(12rem, 1fr));
+    gap: 1.35rem 2rem;
+    width: min(62rem, calc(100vw - 2rem));
+    transform: translateX(-50%);
+    padding: 1.5rem 1.75rem 1.7rem;
+  }
+
+  .mega-state-name {
+    display: inline-block;
+    margin-bottom: 0.35rem;
+    font-family: var(--serif);
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+
+  .mega-state ul {
+    display: grid;
+    gap: 0.15rem;
+  }
 }
 
 .menu [data-menu-panel] a {
@@ -3101,7 +3130,7 @@ body.sheet-open {
 }
 
 .results-head {
-  margin: 1.25rem 0 0.75rem;
+  margin: 1.75rem 0 1.25rem;
   scroll-margin-top: calc(var(--header-sticky, 4.5rem) + 0.75rem);
 }
 
@@ -3330,7 +3359,12 @@ body.sheet-open {
 
 .facility-facts {
   max-width: 46rem;
-  margin-top: 1.75rem;
+  margin-top: 2.5rem;
+}
+
+.prose,
+.wrap > section {
+  margin-block: 2.25rem;
 }
 
 @media (min-width: 900px) {
