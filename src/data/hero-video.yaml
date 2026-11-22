@@ -1,0 +1,16 @@
+id: hero-rv-forest
+title: A motorhome travels a dirt road through a summer forest
+author: Kampus Production
+source_url: https://www.pexels.com/video/trailer-moving-on-unpaved-road-7967010/
+license: Pexels License
+license_url: https://www.pexels.com/license/
+duration_seconds: 12
+poster: video/hero-rv-poster.webp
+desktop:
+  mp4: video/hero-rv-1280.mp4
+  webm: video/hero-rv-1280.webm
+  width: 1280
+mobile:
+  mp4: video/hero-rv-854.mp4
+  webm: video/hero-rv-854.webm
+  width: 854
