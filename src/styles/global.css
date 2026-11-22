@@ -147,6 +147,9 @@ a:hover {
   font-family: var(--serif);
   font-size: 1.25rem;
   line-height: 1.1;
+  letter-spacing: 0;
+  font-synthesis-weight: none;
+  -webkit-font-smoothing: antialiased;
 }
 
 .brand-tag,
@@ -212,6 +215,8 @@ h3 {
   font-family: var(--serif);
   line-height: 1.15;
   font-weight: 600;
+  font-synthesis-weight: none;
+  -webkit-font-smoothing: antialiased;
 }
 
 h1 {
@@ -219,6 +224,12 @@ h1 {
   margin: 0.15rem 0 0.7rem;
   max-width: 18ch;
   letter-spacing: -0.02em;
+}
+
+@media (max-width: 799px) {
+  h1 {
+    letter-spacing: 0;
+  }
 }
 
 h2 {
@@ -2784,13 +2795,17 @@ body.sheet-open {
 .find-hero-credit {
   position: absolute;
   z-index: 2;
-  left: 1rem;
-  right: 1rem;
-  bottom: 5.6rem;
+  right: 0.75rem;
+  bottom: 5.35rem;
+  width: max-content;
+  max-width: calc(100% - 1.5rem);
   margin: 0;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  background: rgb(12 9 7 / 72%);
   color: #f6f3ea;
   font-size: 0.75rem;
-  text-shadow: 0 1px 6px rgb(15 36 28 / 55%);
+  line-height: 1.35;
 }
 
 .find-hero-credit a {
@@ -2812,9 +2827,12 @@ body.sheet-open {
 }
 
 .search-card h1 {
-  margin: 0 0 0.2rem;
+  margin-top: 0;
+  margin-bottom: 0.2rem;
+  margin-inline: auto;
   color: var(--ink);
   font-size: clamp(1.45rem, 3.2vw, 1.95rem);
+  letter-spacing: 0;
 }
 
 .search-card input,
@@ -3148,7 +3166,8 @@ body.sheet-open {
   }
 
   .find-hero-credit {
-    bottom: 6.4rem;
+    right: 0.85rem;
+    bottom: 6.6rem;
   }
 
   .search-card {
@@ -3159,6 +3178,12 @@ body.sheet-open {
   .city-links {
     grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 0.9rem 1.75rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .find-hero-credit {
+    bottom: 0.85rem;
   }
 }
 
