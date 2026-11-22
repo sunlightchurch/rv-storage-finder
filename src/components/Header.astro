@@ -13,23 +13,8 @@ const orderedStates = [...states].sort((a, b) => {
   };
   return rank(a.slug) - rank(b.slug) || a.name.localeCompare(b.name);
 });
-const majorIds = [
-  'houston-tx',
-  'dallas-fort-worth-tx',
-  'austin-tx',
-  'san-antonio-tx',
-  'tampa-fl',
-  'orlando-fl',
-  'miami-fl',
-  'phoenix-az',
-  'atlanta-ga',
-  'las-vegas-nv',
-  'charlotte-nc',
-];
-const majors = majorIds.flatMap((id) => {
-  const city = index.find((item) => item.id === id && item.path.startsWith('/cities/'));
-  return city ? [city] : [];
-});
+const topIn = (state: (typeof orderedStates)[number]) =>
+  [...state.cities].sort((a, b) => b.listings.length - a.listings.length || a.city.localeCompare(b.city)).slice(0, 4);
 ---
 
 <header class="site-header">
@@ -47,19 +32,19 @@ const majors = majorIds.flatMap((id) => {
     <nav id="site-nav" aria-label="Primary">
       <div class="menu" data-menu>
         <button type="button" aria-expanded="false" aria-controls="menu-find">Find storage <span aria-hidden="true">▾</span></button>
-        <div id="menu-find" data-menu-panel hidden>
-          <p class="menu-label">States</p>
-          <ul>
-            {orderedStates.map((state) => (
-              <li><a href={href(`/states/${state.slug}/`)}>{state.name}</a></li>
-            ))}
-          </ul>
-          <p class="menu-label">Cities</p>
-          <ul>
-            {majors.map((city) => (
-              <li><a href={href(city.path)}>{city.city}, {city.code}</a></li>
-            ))}
-          </ul>
+        <div id="menu-find" class="mega" data-menu-panel hidden>
+          {
+            orderedStates.map((state) => (
+              <div class="mega-state">
+                <a class="mega-state-name" href={href(`/states/${state.slug}/`)}>{state.name}</a>
+                <ul>
+                  {topIn(state).map((city) => (
+                    <li><a href={href(`/cities/${city.id}/`)}>{city.city}</a></li>
+                  ))}
+                </ul>
+              </div>
+            ))
+          }
         </div>
       </div>
       <div class="menu" data-menu>

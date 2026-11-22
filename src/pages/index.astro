@@ -2,17 +2,40 @@
 import Base from '../layouts/Base.astro';
 import CardPhoto from '../components/CardPhoto.astro';
 import FindMore from '../components/FindMore.astro';
+import UsStateMap from '../components/UsStateMap.astro';
 import { absolute, cityStats, countiesInState, directoryStats, getStates, href, site } from '../lib/data';
 import { locationCount } from '../lib/format';
 import { medianOf } from '../lib/guides';
+import fs from 'node:fs';
+import nodePath from 'node:path';
+import yaml from 'js-yaml';
 import { getPhoto, statePhoto } from '../lib/photos';
 import { formatMoney, formatMonthlyRange, monthlyByCover, monthlySpan, parsePriceNote } from '../lib/prices';
 import { breadcrumbNode, faqNode, pageGraph, webPageNode } from '../lib/schema';
 
 const states = getStates();
+const stateOrder = ['florida', 'arizona', 'texas', 'georgia', 'nevada', 'north-carolina', 'south-carolina', 'tennessee', 'california'];
+const orderedStates = [...states].sort((a, b) => {
+  const rank = (slug: string) => {
+    const place = stateOrder.indexOf(slug);
+    return place === -1 ? 50 : place;
+  };
+  return rank(a.slug) - rank(b.slug) || a.name.localeCompare(b.name);
+});
 const cities = states.flatMap((state) => state.cities);
 const stats = directoryStats();
-const hero = getPhoto('guide');
+const heroVideo = yaml.load(
+  fs.readFileSync(nodePath.join(process.cwd(), 'src/data/hero-video.yaml'), 'utf8'),
+) as {
+  title: string;
+  author: string;
+  source_url: string;
+  license: string;
+  license_url: string;
+  poster: string;
+  desktop: { mp4: string; webm: string };
+  mobile: { mp4: string; webm: string };
+};
 
 function lowestMonthly(listings: { price_notes: string | null; storage_types: readonly string[] }[]) {
   const amounts: number[] = [];
@@ -132,28 +155,68 @@ const schema = pageGraph([
     slot="head"
     rel="preload"
     as="image"
-    href={href(`/${hero.files['1280']}`)}
-    imagesrcset={`${href(`/${hero.files['640']}`)} 640w, ${href(`/${hero.files['960']}`)} 960w, ${href(`/${hero.files['1280']}`)} 1280w`}
+    href={href(`/${heroVideo.poster}`)}
+    imagesrcset={`${href(`/${heroVideo.poster}`)} 1280w`}
     imagesizes="100vw"
     fetchpriority="high"
   />
   <section class="find-hero">
     <img
       class="find-hero-photo"
-      src={href(`/${hero.files['1280']}`)}
-      srcset={`${href(`/${hero.files['640']}`)} 640w, ${href(`/${hero.files['960']}`)} 960w, ${href(`/${hero.files['1280']}`)} 1280w`}
-      sizes="100vw"
-      width={hero.width}
-      height={hero.height}
-      alt={hero.alt}
+      src={href(`/${heroVideo.poster}`)}
+      width="1280"
+      height="720"
+      alt={heroVideo.title}
       decoding="async"
       fetchpriority="high"
     />
+    <video
+      class="find-hero-video"
+      muted
+      autoplay
+      loop
+      playsinline
+      preload="metadata"
+      poster={href(`/${heroVideo.poster}`)}
+      data-hero-video
+      data-desktop-mp4={href(`/${heroVideo.desktop.mp4}`)}
+      data-desktop-webm={href(`/${heroVideo.desktop.webm}`)}
+      data-mobile-mp4={href(`/${heroVideo.mobile.mp4}`)}
+      data-mobile-webm={href(`/${heroVideo.mobile.webm}`)}
+    ></video>
     <div class="find-hero-scrim" aria-hidden="true"></div>
     <p class="find-hero-credit">
-      Photo: <a href={hero.source_url}>{hero.author}</a>, <a href={hero.license_url}>{hero.license}</a>
+      Video: <a href={heroVideo.source_url}>{heroVideo.author}</a>, <a href={heroVideo.license_url}>{heroVideo.license}</a>
     </p>
   </section>
+  <script>
+    const clip = document.querySelector<HTMLVideoElement>('[data-hero-video]');
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const connection = (navigator as Navigator & { connection?: { saveData?: boolean } }).connection;
+    const saveData = Boolean(connection && connection.saveData);
+    if (clip && !reduce && !saveData) {
+      const start = () => {
+        if (clip.getAttribute('src') || clip.querySelector('source')) return;
+        const narrow = window.matchMedia('(max-width: 799px)').matches;
+        const webm = document.createElement('source');
+        const mp4 = document.createElement('source');
+        webm.src = narrow ? clip.dataset.mobileWebm || '' : clip.dataset.desktopWebm || '';
+        webm.type = 'video/webm';
+        mp4.src = narrow ? clip.dataset.mobileMp4 || '' : clip.dataset.desktopMp4 || '';
+        mp4.type = 'video/mp4';
+        clip.append(webm, mp4);
+        clip.addEventListener('playing', () => clip.classList.add('is-playing'), { once: true });
+        clip.load();
+        clip.play().catch(() => {});
+      };
+      const kick = () => {
+        if ('requestIdleCallback' in window) window.requestIdleCallback(start, { timeout: 1500 });
+        else window.setTimeout(start, 400);
+      };
+      if (document.readyState === 'complete') kick();
+      else window.addEventListener('load', kick, { once: true });
+    }
+  </script>
   <div class="wrap">
     <form class="search-card home-search" role="search" action={href('/near/')} method="get">
       <h1>Find RV &amp; boat storage near you</h1>
@@ -305,10 +368,30 @@ const schema = pageGraph([
         <a href={href('/guides/covered-vs-uncovered-vs-indoor/')}>Covered, uncovered, and indoor compared</a>
       </p>
     </section>
-    <h2><a href={href('/states/')}>Browse by state</a></h2>
+    <h2 id="states"><a href={href('/states/')}>Browse by state</a></h2>
+    <nav class="state-jump" aria-label="Jump to a state">
+      <a href="#states" data-state-jump="all">All</a>
+      {
+        orderedStates.map((state) => (
+          <a href={`#state-${state.slug}`} data-state-jump={state.slug}>{state.name}</a>
+        ))
+      }
+    </nav>
+    <UsStateMap />
+    <script>
+      const markState = () => {
+        const raw = location.hash.replace('#', '');
+        const current = raw.startsWith('state-') ? raw.slice('state-'.length) : 'all';
+        document.querySelectorAll<HTMLAnchorElement>('[data-state-jump]').forEach((link) => {
+          link.setAttribute('aria-current', link.dataset.stateJump === current ? 'true' : 'false');
+        });
+      };
+      markState();
+      window.addEventListener('hashchange', markState);
+    </script>
     {
-      states.map((state) => (
-        <section class="state-block">
+      orderedStates.map((state) => (
+        <section class="state-block" id={`state-${state.slug}`}>
           <h3>
             <a href={href(`/states/${state.slug}/`)}>{state.name}</a>
           </h3>

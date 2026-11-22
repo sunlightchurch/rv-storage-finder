@@ -1,0 +1,50 @@
+---
+import fs from 'node:fs';
+import path from 'node:path';
+
+const raw = fs.readFileSync(path.join(process.cwd(), 'public/maps/us-states.svg'), 'utf8');
+const svg = raw
+  .replace(/<\?xml[^>]*>\s*/, '')
+  .replace('<svg ', '<svg class="us-map-svg" role="group" aria-label="Map of states with listings" ');
+---
+
+<div class="us-map" data-us-map set:html={svg} />
+<script>
+  const covered: Record<string, string> = {
+    fl: 'florida',
+    az: 'arizona',
+    tx: 'texas',
+    ga: 'georgia',
+    nv: 'nevada',
+    nc: 'north-carolina',
+    sc: 'south-carolina',
+    tn: 'tennessee',
+    ca: 'california',
+  };
+  document.querySelectorAll<HTMLElement>('[data-us-map]').forEach((root) => {
+    root.querySelectorAll<SVGPathElement>('path').forEach((shape) => {
+      const code = [...shape.classList].find((name) => name.length === 2);
+      const title = shape.querySelector('title')?.textContent || code || 'State';
+      const slug = code ? covered[code] : undefined;
+      if (!slug) {
+        shape.classList.add('is-muted');
+        shape.setAttribute('aria-hidden', 'true');
+        return;
+      }
+      shape.classList.add('is-live');
+      shape.setAttribute('role', 'link');
+      shape.setAttribute('tabindex', '0');
+      shape.setAttribute('aria-label', `${title}, show cities`);
+      const go = () => {
+        location.hash = `state-${slug}`;
+      };
+      shape.addEventListener('click', go);
+      shape.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();
+          go();
+        }
+      });
+    });
+  });
+</script>
