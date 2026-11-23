@@ -702,12 +702,12 @@ listings:
 
   - slug: uhaul-038039
     name: "S&R Boat & RV Storage"
-    street: 12534 Nacogdoches Rd
+    street: 25890 US 281 N
     city: San Antonio
     state_code: TX
-    postal_code: 78217
-    lat: null
-    lng: null
+    postal_code: "78258"
+    lat: 29.685359
+    lng: -98.45354
     phone: (830) 980-9780
     website: "https://www.uhaul.com/Locations/Self-Storage-near-San-Antonio-TX-78258/038039"
     vehicles: [rv, boat]
@@ -728,7 +728,7 @@ listings:
     sources:
       - url: "https://www.uhaul.com/Locations/Self-Storage-near-San-Antonio-TX-78258/038039"
         title: "S&R Boat & RV Storage location page"
-    last_verified: "2026-11-20"
+    last_verified: "2026-11-23"
 
   - slug: uhaul-874050
     name: "U-Haul Moving & Storage of Wurzbach"
