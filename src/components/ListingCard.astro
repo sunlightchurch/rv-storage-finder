@@ -65,6 +65,11 @@ const icons = [
   data-lat={listing.lat ?? undefined}
   data-lng={listing.lng ?? undefined}
 >
+  {
+    listing.aliases.map((alias) => (
+      <span id={alias} class="sr-only">Same facility as {listing.name}</span>
+    ))
+  }
   <div class="card-shot">
     {
       shot ? (

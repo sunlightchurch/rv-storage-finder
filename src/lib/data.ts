@@ -49,6 +49,10 @@ const publicUrl = z
 const listingSchema = z
   .object({
     slug: z.string().regex(/^[a-z0-9-]+$/),
+    aliases: z
+      .array(z.string().regex(/^[a-z0-9-]+$/))
+      .optional()
+      .default([]),
     name: z.string().trim().min(2),
     street: z.string().trim().min(4),
     city: z.string().trim().min(2),
