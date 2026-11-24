@@ -452,7 +452,11 @@ listings:
     title: Official homepage
   - url: https://storageatsummerlinlv.com/rvs-boats/
     title: RV and boat storage page
-  last_verified: '2026-11-18'
+  - url: https://www.uhaul.com/Locations/Self-Storage-near-Las-Vegas-NV-89128/027192
+    title: U-Haul affiliate page for the same address
+  aliases:
+  - uhaul-027192
+  last_verified: '2026-11-24'
 - slug: sunset-boat-rv-storage
   name: Sunset Boat & RV Storage
   street: 1320 E Lake Mead Pkwy
@@ -769,7 +773,7 @@ listings:
   lat: null
   lng: null
   phone: (702) 565-0700
-  website: "https://www.uhaul.com/Locations/Self-Storage-near-Henderson-NV-89015/1039763"
+  website: https://lakemeadboatstorage.com/
   vehicles: [rv, boat]
   storage_types: [open]
   max_length_ft: null
@@ -786,9 +790,11 @@ listings:
   waitlist: null
   notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 6 am - 8:30 pm."
   sources:
+    - url: https://lakemeadboatstorage.com/
+      title: Official website
     - url: "https://www.uhaul.com/Locations/Self-Storage-near-Henderson-NV-89015/1039763"
       title: Lake Mead Boat Storage location page
-  last_verified: "2026-11-20"
+  last_verified: "2026-11-24"
 
 - slug: uhaul-807056
   name: "U-Haul Moving & Storage of Black Mountain"
@@ -880,36 +886,6 @@ listings:
       title: "U-Haul Moving & Storage at Rainbow Blvd location page"
   last_verified: "2026-11-20"
 
-- slug: uhaul-027192
-  name: Storage at Summerlin
-  street: 7441 W Lake Mead Blvd
-  city: Las Vegas
-  state_code: NV
-  postal_code: 89128
-  lat: null
-  lng: null
-  phone: (702) 255-0097
-  website: "https://www.uhaul.com/Locations/Self-Storage-near-Las-Vegas-NV-89128/027192"
-  vehicles: [rv, boat]
-  storage_types: []
-  max_length_ft: null
-  clearance_ft: null
-  power_hookups: null
-  dump_station: null
-  wash_station: null
-  gated: null
-  cameras: null
-  access_24h: false
-  access_hours: "Mon-Sun: 7 am - 9 pm"
-  price_notes: null
-  billing_term: null
-  waitlist: null
-  notes: "The location page lists RV, boat, and vehicle storage at this address. Published storage access is Mon-Sun: 7 am - 9 pm."
-  sources:
-    - url: "https://www.uhaul.com/Locations/Self-Storage-near-Las-Vegas-NV-89128/027192"
-      title: Storage at Summerlin location page
-  last_verified: "2026-11-20"
-
 - slug: uhaul-838088
   name: "U-Haul Moving & Storage of Spring Valley"
   street: 5220 S Jones Blvd
@@ -948,7 +924,7 @@ listings:
   postal_code: 89030
   lat: null
   lng: null
-  phone: (702) 643-3947
+  phone: 866-628-8199
   website: "https://www.uhaul.com/Locations/Self-Storage-near-North-Las-Vegas-NV-89030/055622"
   vehicles: [rv, boat]
   storage_types: [open]
@@ -968,7 +944,7 @@ listings:
   sources:
     - url: "https://www.uhaul.com/Locations/Self-Storage-near-North-Las-Vegas-NV-89030/055622"
       title: AAA Discount Storage location page
-  last_verified: "2026-11-20"
+  last_verified: "2026-11-24"
 
 - slug: uhaul-838078
   name: "U-Haul Moving & Storage of Skye Canyon"

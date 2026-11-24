@@ -1,0 +1,23 @@
+---
+import Base from '../../layouts/Base.astro';
+import { href } from '../../lib/data';
+
+const path = '/facilities/uhaul-027192/';
+const target = href('/facilities/storage-at-summerlin/');
+const title = 'Storage at Summerlin moved | RV Storage Prices';
+const description =
+  'This U-Haul link is the same Storage at Summerlin facility at 7441 W. Lake Mead Boulevard, Las Vegas.';
+---
+
+<Base title={title} description={description} path={path} noindex>
+  <link slot="head" rel="canonical" href={target} />
+  <meta slot="head" http-equiv="refresh" content={`0;url=${target}`} />
+  <div class="wrap">
+    <h1>Storage at Summerlin</h1>
+    <p>
+      This page was a second listing for the same facility at 7441 W. Lake Mead Boulevard, Suite 1, Las Vegas.
+      The facility’s own site is the listing we keep.
+    </p>
+    <p><a href={target}>Open Storage at Summerlin</a></p>
+  </div>
+</Base>
