@@ -18,7 +18,7 @@ listings:
     street: 101 Parr Drive
     city: Huntersville
     state_code: NC
-    postal_code: null
+    postal_code: "28078"
     lat: null
     lng: null
     phone: "(704) 659-4866"
@@ -38,7 +38,8 @@ listings:
     notes: >-
       Outdoor parking for boats, RVs, and Class A motorhomes. Gate hours are
       open 24 hours every day. The home page also describes the facility as on
-      Sam Furr Road. No ZIP is printed.
+      Sam Furr Road. The facility pages do not print a ZIP code. The Census
+      address match for 101 Parr Drive, Huntersville is 28078.
     sources:
       - url: https://www.anchorhuntersville.com/boat-rv-storage
         title: Boat and RV storage page
@@ -46,7 +47,7 @@ listings:
         title: Units and address
       - url: https://www.anchorhuntersville.com/
         title: Official website
-    last_verified: "2026-11-18"
+    last_verified: "2026-11-26"
 
   - slug: brookshire-mini-storage-charlotte
     name: Brookshire Mini Storage
@@ -123,7 +124,7 @@ listings:
     postal_code: "28027"
     lat: null
     lng: null
-    phone: null
+    phone: "(704) 782-3300"
     website: https://www.keepitstored.com/locations/pitts-school-rd-concord-nc-28027
     vehicles: [rv, boat]
     storage_types: [open]
@@ -140,14 +141,16 @@ listings:
     notes: >-
       Outdoor RV and boat parking with an electronic gate and security
       cameras. 24/7 access is listed as available if the manager unlocks it,
-      so it is not marked as standard 24-hour access. No phone number is
-      printed on the page.
+      so it is not marked as standard 24-hour access. The facility's unit
+      pages print (704) 782-3300 with this address.
     sources:
       - url: https://www.keepitstored.com/locations/pitts-school-rd-concord-nc-28027
         title: Pitts School Road location page
+      - url: https://www.keepitstored.com/locations/pitts-school-rd-concord-nc-28027/view-unit/10209/10368/unit
+        title: Pitts School Road unit page
       - url: https://www.keepitstored.com/rv-storage
         title: RV storage page
-    last_verified: "2026-11-18"
+    last_verified: "2026-11-26"
 
   - slug: keep-it-stored-poplar-tent-concord
     name: Keep It Stored - Poplar Tent Rd
@@ -157,7 +160,7 @@ listings:
     postal_code: "28027"
     lat: null
     lng: null
-    phone: null
+    phone: "(704) 782-3300"
     website: https://www.keepitstored.com/locations/poplar-tent-rd-concord-nc-28027/
     vehicles: [rv, boat]
     storage_types: [open]
@@ -174,13 +177,16 @@ listings:
     notes: >-
       Separate Concord lot from Pitts School Road. Outdoor RV and boat
       parking, with gated entry and security cameras. 24/7 access is available
-      if the manager unlocks it. No phone number is printed on the page.
+      if the manager unlocks it. The facility's unit pages print (704)
+      782-3300 with this address.
     sources:
       - url: https://www.keepitstored.com/locations/poplar-tent-rd-concord-nc-28027/
         title: Poplar Tent Road location page
+      - url: https://www.keepitstored.com/locations/poplar-tent-rd-concord-nc-28027/view-unit/10216/10382/unit
+        title: Poplar Tent Road unit page
       - url: https://www.keepitstored.com/boat-storage
         title: Boat storage page
-    last_verified: "2026-11-18"
+    last_verified: "2026-11-26"
 
   - slug: mint-hill-self-storage-arlington-church-charlotte
     name: Mint Hill Self Storage
@@ -608,13 +614,13 @@ listings:
 
   - slug: uhaul-008236
     name: Mr Storage Concord
-    street: 1027 Central Drive Nw
+    street: "Central Dr & Irvan Ct"
     city: Concord
     state_code: NC
     postal_code: 28027
     lat: null
     lng: null
-    phone: (704) 886-5077
+    phone: (704) 786-1019
     website: "https://www.uhaul.com/Locations/Self-Storage-near-Concord-NC-28027/008236"
     vehicles: [rv, boat]
     storage_types: [open]
@@ -630,11 +636,13 @@ listings:
     price_notes: "Spaces tagged RV, boat, and vehicle parking: $75.00 per month (Outside Level); $75.00 per month (Outside Level, No Electricity); $110.00 per month (Outside Level)."
     billing_term: null
     waitlist: null
-    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    notes: "The company location page calls this lot Central Drive and Irvan Ct and gives the remote office as 8 Lowe Avenue Northwest, Concord, NC 28027. It does not print a house number for the lot. The U-Haul page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
     sources:
+      - url: https://mrstoragenc.com/locations/concord-nc-central-drive/
+        title: Official Central Drive location page
       - url: "https://www.uhaul.com/Locations/Self-Storage-near-Concord-NC-28027/008236"
         title: Mr Storage Concord location page
-    last_verified: "2026-11-20"
+    last_verified: "2026-11-26"
 
   - slug: uhaul-780022
     name: "U-Haul Moving & Storage of Gastonia"
@@ -668,14 +676,14 @@ listings:
 
   - slug: uhaul-1031382
     name: Huntersville Mini Storage
-    street: 14231 Hunters Rd
+    street: 14804 Statesville Road
     city: Huntersville
     state_code: NC
     postal_code: 28078
-    lat: null
-    lng: null
+    lat: 35.417857
+    lng: -80.857313
     phone: (704) 875-1218
-    website: "https://www.uhaul.com/Locations/Self-Storage-near-Huntersville-NC-28078/1031382"
+    website: https://www.huntersvilleministorage.com/
     vehicles: [rv, boat]
     storage_types: [open]
     max_length_ft: null
@@ -690,8 +698,10 @@ listings:
     price_notes: "Spaces tagged RV, boat, and vehicle parking: $60.00 per month (1st Floor, Outside Level, No Climate); $80.00 per month."
     billing_term: null
     waitlist: null
-    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
+    notes: "The facility contact page prints 14804 Statesville Road, Huntersville, NC 28078, and the same page also prints 14804 New Statesville Rd. The map point is the Census match for 14804 Statesville Road. U-Haul lists this facility name and phone at 14231 Hunters Rd. The U-Haul page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 24 hours."
     sources:
+      - url: https://www.huntersvilleministorage.com/pages/contact
+        title: Official contact page
       - url: "https://www.uhaul.com/Locations/Self-Storage-near-Huntersville-NC-28078/1031382"
         title: Huntersville Mini Storage location page
-    last_verified: "2026-11-20"
+    last_verified: "2026-11-26"
