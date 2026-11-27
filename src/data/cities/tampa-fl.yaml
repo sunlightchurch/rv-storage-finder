@@ -35,18 +35,23 @@ listings:
     cameras: true
     access_24h: true
     price_notes: >-
-      The RV outdoor storage page shows $70.00 and does not state the billing period.
+      A 12 by 40 ft uncovered grass spot is $70 per month. One RV, boat, or
+      vehicle per spot. No utilities included. The owner confirmed this rate
+      by email from support@39rvboatstorage.com on 2026-11-27.
     waitlist: null
     notes: >-
       Plant City outdoor lot for RVs, boats, and utility trailers. The site says
       it also serves Riverview, Brandon, and Tampa, with gated access and continuous
-      video monitoring.
+      video monitoring. The owner gave support@39rvboatstorage.com as the contact
+      email. The site still prints the address as 5745 S County Rd 39, Ste 4.
     sources:
+      - url: mailto:support@39rvboatstorage.com
+        title: Email from support@39rvboatstorage.com on 2026-11-27
       - url: https://39rvboatstorage.com/
         title: Official website
       - url: https://39rvboatstorage.com/services/outdoor-parking-storage-solutions/rv-outdoor-storage-150557869
         title: RV outdoor storage page
-    last_verified: "2026-11-18"
+    last_verified: "2026-11-27"
 
   - slug: affordable-storage-plant-city
     name: Affordable Storage of Plant City
