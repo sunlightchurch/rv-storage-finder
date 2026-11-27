@@ -119,7 +119,10 @@ const listingSchema = z
     sources: z
       .array(
         z.object({
-          url: publicUrl,
+          url: z.string().refine((value) => {
+            if (/^mailto:[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)) return true;
+            return publicUrl.safeParse(value).success;
+          }, 'must be a public http(s) URL or a mailto address'),
           title: z.string().trim().min(2),
         }),
       )
