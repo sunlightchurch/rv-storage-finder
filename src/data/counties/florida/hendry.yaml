@@ -5,7 +5,7 @@ state_code: FL
 photo: county-florida-hendry
 summary: >-
   RV and boat storage in Hendry County with a street address from each
-  facility page. Towns on this page: Clewiston.
+  facility page. Towns on this page: Clewiston and LaBelle.
 listings:
   - slug: happy-hawk-clewiston
     name: Happy Hawk Storage
@@ -36,3 +36,40 @@ listings:
       - url: "https://www.happyhawkstorage.com/"
         title: Happy Hawk Storage
     last_verified: "2026-11-20"
+
+  - slug: uhaul-1036564
+    name: "Affordable Secure Storage - Fort Denaud, LLC"
+    street: 715 S Elm St
+    city: LaBelle
+    state_code: FL
+    postal_code: "33935"
+    lat: 26.7647
+    lng: -81.4347
+    phone: "(863) 674-1876"
+    website: https://affordablesecurestorage.com/fort-denaud.php
+    vehicles: [rv, boat]
+    storage_types: []
+    max_length_ft: null
+    clearance_ft: null
+    power_hookups: null
+    dump_station: null
+    wash_station: null
+    gated: null
+    cameras: null
+    access_24h: true
+    access_hours: "24 hours"
+    price_notes: "Spaces tagged RV, boat, and vehicle parking: $60.00 per month; $75.00 per month; $80.00 per month."
+    billing_term: null
+    waitlist: null
+    notes: >-
+      The company page places this facility at 715 S Elm St, LaBelle, FL
+      33935, prints (863) 674-1876, and says gate access is 24 hours. The map
+      point is the coordinate on that page. U-Haul lists the same street and
+      still prints (863) 517-7117 and access of 6 am to 10 pm. LaBelle is in
+      Hendry County.
+    sources:
+      - url: https://affordablesecurestorage.com/fort-denaud.php
+        title: Fort Denaud location page
+      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Labelle-FL-33935/1036564"
+        title: "Affordable Secure Storage - Fort Denaud, LLC location page"
+    last_verified: "2026-11-27"
