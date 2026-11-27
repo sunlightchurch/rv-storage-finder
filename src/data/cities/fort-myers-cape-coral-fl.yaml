@@ -139,14 +139,15 @@ listings:
     notes: >-
       Covered parking through 45 feet, with trickle-charge power, a rinse
       station, an electronic gate, and video surveillance. Access is 6:00 am
-      to 10:00 pm. One paragraph also gives 24381 S. Tamiami Trail, Bonita
-      Springs, FL 34134.
+      to 10:00 pm. The address block and the Florida locations list use 24501
+      Production Circle. One paragraph also names 24381 S. Tamiami Trail,
+      Bonita Springs, FL 34134, which is a separate nearby storage property.
     sources:
       - url: https://bluegateboatrv.com/locations/florida/bonita-springs/bluegate-boat-rv-storage-bonita-springs/
         title: Bonita Springs location page
       - url: https://bluegateboatrv.com/locations/florida/
         title: Florida locations
-    last_verified: "2026-11-18"
+    last_verified: "2026-11-27"
 
   - slug: caloosa-rv-boat-storage-fort-myers
     name: "Caloosa RV & Boat Storage"
@@ -388,10 +389,10 @@ listings:
     street: 10431 Radar Court
     city: Fort Myers
     state_code: FL
-    postal_code: null
+    postal_code: "33913"
     lat: null
     lng: null
-    phone: null
+    phone: "(239) 935-7722"
     website: https://www.rswparksmart.com/storage
     vehicles: [rv, boat]
     storage_types: [covered, open]
@@ -407,14 +408,15 @@ listings:
     waitlist: null
     notes: >-
       Covered and uncovered RV and boat bays, with 24/7 access. Covered 9 by
-      34 foot and 18 by 34 foot bays are listed as 120 inches high. The page
-      does not publish a ZIP code or a phone number.
+      34 foot and 18 by 34 foot bays are listed as 120 inches high. The
+      contact page prints 10431 Radar Court, Fort Myers, FL 33913 and
+      (239) 935-7722.
     sources:
       - url: https://www.rswparksmart.com/storage
         title: Storage page
-      - url: https://www.rswparksmart.com/
-        title: Official website
-    last_verified: "2026-11-18"
+      - url: https://www.rswparksmart.com/contact_and_directions
+        title: Contact and directions
+    last_verified: "2026-11-27"
 
   - slug: recnation-rv-boat-storage-old-metro-pkwy
     name: "RecNation RV & Boat Storage"
@@ -516,36 +518,6 @@ listings:
         title: Indoor dry-stack page
     last_verified: "2026-11-18"
 
-  - slug: uhaul-1036564
-    name: "Affordable Secure Storage - Fort Denaud, LLC"
-    street: 4457 Kernel Cir
-    city: Fort Myers
-    state_code: FL
-    postal_code: 33916
-    lat: null
-    lng: null
-    phone: (863) 517-7117
-    website: "https://www.uhaul.com/Locations/Self-Storage-near-Labelle-FL-33935/1036564"
-    vehicles: [rv, boat]
-    storage_types: []
-    max_length_ft: null
-    clearance_ft: null
-    power_hookups: null
-    dump_station: null
-    wash_station: null
-    gated: null
-    cameras: null
-    access_24h: false
-    access_hours: null
-    price_notes: "Spaces tagged RV, boat, and vehicle parking: $60.00 per month; $75.00 per month; $80.00 per month."
-    billing_term: null
-    waitlist: null
-    notes: "The location page lists a space tagged RV, boat, and vehicle parking. Published storage access is Mon-Sun: 6 am - 10 pm"
-    sources:
-      - url: "https://www.uhaul.com/Locations/Self-Storage-near-Labelle-FL-33935/1036564"
-        title: "Affordable Secure Storage - Fort Denaud, LLC location page"
-    last_verified: "2026-11-20"
-
   - slug: uhaul-830025
     name: "U-Haul Moving & Storage of Cape Coral and North Fort Myers"
     street: 16901 N Cleveland Ave
@@ -584,7 +556,7 @@ listings:
     postal_code: 33966
     lat: null
     lng: null
-    phone: null
+    phone: "(239) 212-2214"
     website: "https://www.storespace.com/storage-locations/florida/storage-units-in-fort-myers/store-space-10720-metro-parkway-fort-myers-33966"
     vehicles: [boat]
     storage_types: []
@@ -604,7 +576,7 @@ listings:
     sources:
       - url: "https://www.storespace.com/storage-locations/florida/storage-units-in-fort-myers/store-space-10720-metro-parkway-fort-myers-33966"
         title: Store Space Fort Myers location page
-    last_verified: "2026-11-20"
+    last_verified: "2026-11-27"
 
   - slug: store-space-824-sw-42nd-terrace-cape-coral
     name: Store Space Self Storage – Cape Coral
@@ -614,7 +586,7 @@ listings:
     postal_code: 33914
     lat: null
     lng: null
-    phone: null
+    phone: "(239) 356-1300"
     website: "https://www.storespace.com/storage-locations/florida/storage-units-in-cape-coral/store-space-824-sw-42nd-terrace-cape-coral-33914"
     vehicles: [boat]
     storage_types: []
@@ -634,7 +606,7 @@ listings:
     sources:
       - url: "https://www.storespace.com/storage-locations/florida/storage-units-in-cape-coral/store-space-824-sw-42nd-terrace-cape-coral-33914"
         title: Store Space Cape Coral location page
-    last_verified: "2026-11-20"
+    last_verified: "2026-11-27"
 
   - slug: store-space-26300-old-41-rd-bonita-springs
     name: Store Space Self Storage – Bonita Springs
@@ -644,7 +616,7 @@ listings:
     postal_code: 34135
     lat: null
     lng: null
-    phone: null
+    phone: "(239) 778-0006"
     website: "https://www.storespace.com/storage-locations/florida/storage-units-in-bonita-springs/store-space-26300-old-41-rd-bonita-springs-34135"
     vehicles: [rv, boat]
     storage_types: []
@@ -664,7 +636,7 @@ listings:
     sources:
       - url: "https://www.storespace.com/storage-locations/florida/storage-units-in-bonita-springs/store-space-26300-old-41-rd-bonita-springs-34135"
         title: Store Space Bonita Springs location page
-    last_verified: "2026-11-20"
+    last_verified: "2026-11-27"
 
   - slug: store-space-2320-e-mall-dr-fort-myers
     name: Store Space Self Storage – Fort Myers
@@ -674,7 +646,7 @@ listings:
     postal_code: 33901
     lat: null
     lng: null
-    phone: null
+    phone: "(239) 488-5680"
     website: "https://www.storespace.com/storage-locations/florida/storage-units-in-fort-myers/store-space-2320-e-mall-dr-fort-myers-33901"
     vehicles: [boat]
     storage_types: []
@@ -694,4 +666,4 @@ listings:
     sources:
       - url: "https://www.storespace.com/storage-locations/florida/storage-units-in-fort-myers/store-space-2320-e-mall-dr-fort-myers-33901"
         title: Store Space Fort Myers location page
-    last_verified: "2026-11-20"
+    last_verified: "2026-11-27"
